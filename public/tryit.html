@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Try it Yourself · JavaTrail</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23c2410c'/%3E%3Ctext x='16' y='22' font-size='16' text-anchor='middle' fill='white' font-family='Arial' font-weight='bold'%3EJT%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="/css/style.css">
+<script src="/js/core.js"></script>
+</head>
+<body class="tryit-body">
+<div class="tryit-bar">
+  <a class="brand" href="/java/"><span class="brand-mark">JT</span><span class="brand-text">JavaTrail</span></a>
+  <button class="btn" id="run-btn" title="Run (Ctrl+Enter)">Run ❯</button>
+  <span class="size-readout" id="tryit-title"></span>
+  <div class="top-spacer"></div>
+  <button class="icon-btn" id="orient-btn" title="Change orientation" aria-label="Change orientation">⇅</button>
+  <button class="icon-btn" id="theme-btn" title="Toggle dark mode" aria-label="Toggle dark mode">◐</button>
+</div>
+<div class="tryit-panes" id="panes">
+  <div class="tryit-pane code" id="code-pane"><div id="editor"></div></div>
+  <div class="splitter" id="splitter" role="separator" aria-label="Resize panes"></div>
+  <div class="tryit-pane result" id="result-pane">
+    <details class="stdin"><summary>Program input (stdin)</summary><textarea class="stdin-box" id="stdin" placeholder="Text typed here is sent to System.in when the program runs."></textarea></details>
+    <div class="console" id="console" aria-live="polite"><span class="sys">Press Run to compile and execute the code with the local JDK.</span></div>
+    <span class="size-readout" id="size-readout"></span>
+  </div>
+</div>
+<script src="/js/nav.js"></script>
+<script src="/js/app.js"></script>
+<script src="/js/content/basics.js"></script>
+<script src="/js/content/control.js"></script>
+<script src="/js/content/methods.js"></script>
+<script src="/js/content/classes.js"></script>
+<script src="/js/content/errors_files.js"></script>
+<script src="/js/content/collections.js"></script>
+<script src="/js/content/advanced.js"></script>
+<script src="/js/content/reference.js"></script>
+<script src="/js/content/extras.js"></script>
+<script src="/js/tryit.js"></script>
+</body>
+</html>

@@ -1,0 +1,829 @@
+{
+  "source": "Generated from public/js/nav.js (JT.nav). Order = sidebar order = Previous/Next order.",
+  "groups": [
+    {
+      "title": "Java Tutorial",
+      "items": [
+        {
+          "slug": "default",
+          "title": "Java HOME"
+        },
+        {
+          "slug": "java_intro",
+          "title": "Java Intro"
+        },
+        {
+          "slug": "java_getstarted",
+          "title": "Java Get Started"
+        },
+        {
+          "slug": "java_syntax",
+          "title": "Java Syntax",
+          "children": [
+            {
+              "slug": "java_syntax",
+              "title": "Syntax"
+            },
+            {
+              "slug": "java_statements",
+              "title": "Statements"
+            },
+            {
+              "slug": "java_challenges_syntax",
+              "title": "Code Challenge"
+            }
+          ]
+        },
+        {
+          "slug": "java_output",
+          "title": "Java Output",
+          "children": [
+            {
+              "slug": "java_output",
+              "title": "Print Text"
+            },
+            {
+              "slug": "java_output_numbers",
+              "title": "Print Numbers"
+            },
+            {
+              "slug": "java_challenges_output",
+              "title": "Code Challenge"
+            }
+          ]
+        },
+        {
+          "slug": "java_comments",
+          "title": "Java Comments"
+        },
+        {
+          "slug": "java_variables",
+          "title": "Java Variables",
+          "children": [
+            {
+              "slug": "java_variables",
+              "title": "Variables"
+            },
+            {
+              "slug": "java_variables_print",
+              "title": "Print Variables"
+            },
+            {
+              "slug": "java_variables_multiple",
+              "title": "Multiple Variables"
+            },
+            {
+              "slug": "java_variables_identifiers",
+              "title": "Identifiers"
+            },
+            {
+              "slug": "java_variables_final",
+              "title": "Constants (Final)"
+            },
+            {
+              "slug": "java_variables_reallife",
+              "title": "Real-Life Examples"
+            },
+            {
+              "slug": "java_challenges_variables",
+              "title": "Code Challenge"
+            }
+          ]
+        },
+        {
+          "slug": "java_data_types",
+          "title": "Java Data Types",
+          "children": [
+            {
+              "slug": "java_data_types",
+              "title": "Data Types"
+            },
+            {
+              "slug": "java_data_types_numbers",
+              "title": "Numbers"
+            },
+            {
+              "slug": "java_data_types_boolean",
+              "title": "Booleans"
+            },
+            {
+              "slug": "java_data_types_characters",
+              "title": "Characters"
+            },
+            {
+              "slug": "java_data_types_reallife",
+              "title": "Real-Life Example"
+            },
+            {
+              "slug": "java_data_types_non-prim",
+              "title": "Non-primitive Types"
+            },
+            {
+              "slug": "java_var",
+              "title": "The var Keyword"
+            },
+            {
+              "slug": "java_challenges_data_types",
+              "title": "Code Challenge"
+            }
+          ]
+        },
+        {
+          "slug": "java_type_casting",
+          "title": "Java Type Casting"
+        },
+        {
+          "slug": "java_operators",
+          "title": "Java Operators",
+          "children": [
+            {
+              "slug": "java_operators",
+              "title": "Operators"
+            },
+            {
+              "slug": "java_operators_arithmetic",
+              "title": "Arithmetic"
+            },
+            {
+              "slug": "java_operators_assign",
+              "title": "Assignment"
+            },
+            {
+              "slug": "java_operators_comparison",
+              "title": "Comparison"
+            },
+            {
+              "slug": "java_operators_logical",
+              "title": "Logical"
+            },
+            {
+              "slug": "java_operators_precedence",
+              "title": "Precedence"
+            },
+            {
+              "slug": "java_challenges_operators",
+              "title": "Code Challenge"
+            }
+          ]
+        },
+        {
+          "slug": "java_strings",
+          "title": "Java Strings",
+          "children": [
+            {
+              "slug": "java_strings",
+              "title": "Strings"
+            },
+            {
+              "slug": "java_strings_concat",
+              "title": "Concatenation"
+            },
+            {
+              "slug": "java_strings_numbers",
+              "title": "Numbers and Strings"
+            },
+            {
+              "slug": "java_strings_specchars",
+              "title": "Special Characters"
+            },
+            {
+              "slug": "java_challenges_strings",
+              "title": "Code Challenge"
+            }
+          ]
+        },
+        {
+          "slug": "java_math",
+          "title": "Java Math"
+        },
+        {
+          "slug": "java_booleans",
+          "title": "Java Booleans",
+          "children": [
+            {
+              "slug": "java_booleans",
+              "title": "Booleans"
+            },
+            {
+              "slug": "java_booleans_reallife",
+              "title": "Real-Life Example"
+            },
+            {
+              "slug": "java_challenges_booleans",
+              "title": "Code Challenge"
+            }
+          ]
+        },
+        {
+          "slug": "java_conditions",
+          "title": "Java If...Else",
+          "children": [
+            {
+              "slug": "java_conditions",
+              "title": "if"
+            },
+            {
+              "slug": "java_conditions_else",
+              "title": "else"
+            },
+            {
+              "slug": "java_conditions_elseif",
+              "title": "else if"
+            },
+            {
+              "slug": "java_conditions_shorthand",
+              "title": "Short Hand If...Else"
+            },
+            {
+              "slug": "java_conditions_nested",
+              "title": "Nested If"
+            },
+            {
+              "slug": "java_conditions_logical",
+              "title": "Logical Operators"
+            },
+            {
+              "slug": "java_conditions_reallife",
+              "title": "Real-Life Examples"
+            },
+            {
+              "slug": "java_challenges_conditions",
+              "title": "Code Challenge"
+            }
+          ]
+        },
+        {
+          "slug": "java_switch",
+          "title": "Java Switch",
+          "children": [
+            {
+              "slug": "java_switch",
+              "title": "Switch"
+            },
+            {
+              "slug": "java_challenges_switch",
+              "title": "Code Challenge"
+            }
+          ]
+        },
+        {
+          "slug": "java_while_loop",
+          "title": "Java While Loop",
+          "children": [
+            {
+              "slug": "java_while_loop",
+              "title": "While Loop"
+            },
+            {
+              "slug": "java_while_loop_do",
+              "title": "Do/While Loop"
+            },
+            {
+              "slug": "java_while_loop_reallife",
+              "title": "Real-Life Examples"
+            },
+            {
+              "slug": "java_challenges_while_loop",
+              "title": "Code Challenge"
+            }
+          ]
+        },
+        {
+          "slug": "java_for_loop",
+          "title": "Java For Loop",
+          "children": [
+            {
+              "slug": "java_for_loop",
+              "title": "For Loop"
+            },
+            {
+              "slug": "java_for_loop_nested",
+              "title": "Nested Loops"
+            },
+            {
+              "slug": "java_foreach_loop",
+              "title": "For-Each Loop"
+            },
+            {
+              "slug": "java_for_loop_reallife",
+              "title": "Real-Life Examples"
+            },
+            {
+              "slug": "java_challenges_for_loop",
+              "title": "Code Challenge"
+            }
+          ]
+        },
+        {
+          "slug": "java_break",
+          "title": "Java Break/Continue"
+        },
+        {
+          "slug": "java_arrays",
+          "title": "Java Arrays",
+          "children": [
+            {
+              "slug": "java_arrays",
+              "title": "Arrays"
+            },
+            {
+              "slug": "java_arrays_loop",
+              "title": "Loop Through an Array"
+            },
+            {
+              "slug": "java_arrays_reallife",
+              "title": "Real-Life Examples"
+            },
+            {
+              "slug": "java_arrays_multi",
+              "title": "Multidimensional Arrays"
+            },
+            {
+              "slug": "java_challenges_arrays",
+              "title": "Code Challenge"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Java Methods",
+      "items": [
+        {
+          "slug": "java_methods",
+          "title": "Java Methods"
+        },
+        {
+          "slug": "java_challenges_methods",
+          "title": "Java Method Challenge"
+        },
+        {
+          "slug": "java_methods_param",
+          "title": "Java Method Parameters",
+          "children": [
+            {
+              "slug": "java_methods_param",
+              "title": "Parameters"
+            },
+            {
+              "slug": "java_methods_return",
+              "title": "Return Values"
+            },
+            {
+              "slug": "java_challenges_methods_param",
+              "title": "Code Challenge"
+            }
+          ]
+        },
+        {
+          "slug": "java_methods_overloading",
+          "title": "Java Method Overloading"
+        },
+        {
+          "slug": "java_scope",
+          "title": "Java Scope"
+        },
+        {
+          "slug": "java_recursion",
+          "title": "Java Recursion"
+        }
+      ]
+    },
+    {
+      "title": "Java Classes",
+      "items": [
+        {
+          "slug": "java_oop",
+          "title": "Java OOP"
+        },
+        {
+          "slug": "java_classes",
+          "title": "Java Classes/Objects"
+        },
+        {
+          "slug": "java_class_attributes",
+          "title": "Java Class Attributes"
+        },
+        {
+          "slug": "java_class_methods",
+          "title": "Java Class Methods"
+        },
+        {
+          "slug": "java_challenges_class",
+          "title": "Java Class Challenge"
+        },
+        {
+          "slug": "java_constructors",
+          "title": "Java Constructors"
+        },
+        {
+          "slug": "java_this",
+          "title": "Java this Keyword"
+        },
+        {
+          "slug": "java_modifiers",
+          "title": "Java Modifiers",
+          "children": [
+            {
+              "slug": "java_modifiers",
+              "title": "Access Modifiers"
+            },
+            {
+              "slug": "java_non_modifiers",
+              "title": "Non-Access Modifiers"
+            }
+          ]
+        },
+        {
+          "slug": "java_encapsulation",
+          "title": "Java Encapsulation"
+        },
+        {
+          "slug": "java_packages",
+          "title": "Java Packages / API"
+        },
+        {
+          "slug": "java_inheritance",
+          "title": "Java Inheritance"
+        },
+        {
+          "slug": "java_polymorphism",
+          "title": "Java Polymorphism"
+        },
+        {
+          "slug": "java_super",
+          "title": "Java super Keyword"
+        },
+        {
+          "slug": "java_inner_classes",
+          "title": "Java Inner Classes"
+        },
+        {
+          "slug": "java_abstract",
+          "title": "Java Abstraction"
+        },
+        {
+          "slug": "java_interface",
+          "title": "Java Interface"
+        },
+        {
+          "slug": "java_anonymous",
+          "title": "Java Anonymous"
+        },
+        {
+          "slug": "java_enums",
+          "title": "Java Enum",
+          "children": [
+            {
+              "slug": "java_enums",
+              "title": "Enums"
+            },
+            {
+              "slug": "java_enum_constructor",
+              "title": "Enum Constructor"
+            }
+          ]
+        },
+        {
+          "slug": "java_user_input",
+          "title": "Java User Input"
+        },
+        {
+          "slug": "java_date",
+          "title": "Java Date"
+        }
+      ]
+    },
+    {
+      "title": "Java Errors",
+      "items": [
+        {
+          "slug": "java_errors",
+          "title": "Java Errors"
+        },
+        {
+          "slug": "java_debugging",
+          "title": "Java Debugging"
+        },
+        {
+          "slug": "java_try_catch",
+          "title": "Java Exceptions"
+        },
+        {
+          "slug": "java_exceptions_multiple",
+          "title": "Java Multiple Exceptions"
+        },
+        {
+          "slug": "java_try_catch_resources",
+          "title": "Java try-with-resources"
+        }
+      ]
+    },
+    {
+      "title": "Java File Handling",
+      "items": [
+        {
+          "slug": "java_files",
+          "title": "Java Files"
+        },
+        {
+          "slug": "java_files_create",
+          "title": "Java Create Files"
+        },
+        {
+          "slug": "java_files_write",
+          "title": "Java Write Files"
+        },
+        {
+          "slug": "java_files_read",
+          "title": "Java Read Files"
+        },
+        {
+          "slug": "java_files_delete",
+          "title": "Java Delete Files"
+        }
+      ]
+    },
+    {
+      "title": "Java I/O Streams",
+      "items": [
+        {
+          "slug": "java_io_streams",
+          "title": "Java I/O Streams"
+        },
+        {
+          "slug": "java_fileinputstream",
+          "title": "Java FileInputStream"
+        },
+        {
+          "slug": "java_fileoutputstream",
+          "title": "Java FileOutputStream"
+        },
+        {
+          "slug": "java_bufferedreader",
+          "title": "Java BufferedReader"
+        },
+        {
+          "slug": "java_bufferedwriter",
+          "title": "Java BufferedWriter"
+        }
+      ]
+    },
+    {
+      "title": "Java Data Structures",
+      "items": [
+        {
+          "slug": "java_data_structures",
+          "title": "Java Data Structures"
+        },
+        {
+          "slug": "java_collections",
+          "title": "Java Collections"
+        },
+        {
+          "slug": "java_list",
+          "title": "Java List"
+        },
+        {
+          "slug": "java_arraylist",
+          "title": "Java ArrayList"
+        },
+        {
+          "slug": "java_linkedlist",
+          "title": "Java LinkedList"
+        },
+        {
+          "slug": "java_sort_list",
+          "title": "Java List Sorting"
+        },
+        {
+          "slug": "java_set",
+          "title": "Java Set"
+        },
+        {
+          "slug": "java_hashset",
+          "title": "Java HashSet"
+        },
+        {
+          "slug": "java_treeset",
+          "title": "Java TreeSet"
+        },
+        {
+          "slug": "java_linkedhashset",
+          "title": "Java LinkedHashSet"
+        },
+        {
+          "slug": "java_map",
+          "title": "Java Map"
+        },
+        {
+          "slug": "java_hashmap",
+          "title": "Java HashMap"
+        },
+        {
+          "slug": "java_treemap",
+          "title": "Java TreeMap"
+        },
+        {
+          "slug": "java_linkedhashmap",
+          "title": "Java LinkedHashMap"
+        },
+        {
+          "slug": "java_iterator",
+          "title": "Java Iterator"
+        },
+        {
+          "slug": "java_algorithms",
+          "title": "Java Algorithms"
+        }
+      ]
+    },
+    {
+      "title": "Java Advanced",
+      "items": [
+        {
+          "slug": "java_wrapper_classes",
+          "title": "Java Wrapper Classes"
+        },
+        {
+          "slug": "java_generics",
+          "title": "Java Generics"
+        },
+        {
+          "slug": "java_annotations",
+          "title": "Java Annotations"
+        },
+        {
+          "slug": "java_regex",
+          "title": "Java RegEx"
+        },
+        {
+          "slug": "java_threads",
+          "title": "Java Threads"
+        },
+        {
+          "slug": "java_lambda",
+          "title": "Java Lambda"
+        },
+        {
+          "slug": "java_advanced_sorting",
+          "title": "Java Advanced Sorting"
+        }
+      ]
+    },
+    {
+      "title": "Java Projects",
+      "items": [
+        {
+          "slug": "java_projects",
+          "title": "Java Projects"
+        }
+      ]
+    },
+    {
+      "title": "Java Cert",
+      "items": [
+        {
+          "slug": "java_exam",
+          "title": "Java Final Exam"
+        }
+      ]
+    },
+    {
+      "title": "Java How To's",
+      "items": [
+        {
+          "slug": "java_howtos",
+          "title": "Java How Tos"
+        }
+      ]
+    },
+    {
+      "title": "Java Reference",
+      "items": [
+        {
+          "slug": "java_ref_reference",
+          "title": "Java Reference"
+        },
+        {
+          "slug": "java_ref_keywords",
+          "title": "Java Keywords"
+        },
+        {
+          "slug": "java_ref_string",
+          "title": "Java String Methods"
+        },
+        {
+          "slug": "java_ref_math",
+          "title": "Java Math Methods"
+        },
+        {
+          "slug": "java_ref_output",
+          "title": "Java Output Methods"
+        },
+        {
+          "slug": "java_ref_arrays",
+          "title": "Java Arrays Methods"
+        },
+        {
+          "slug": "java_ref_arraylist",
+          "title": "Java ArrayList Methods"
+        },
+        {
+          "slug": "java_ref_linkedlist",
+          "title": "Java LinkedList Methods"
+        },
+        {
+          "slug": "java_ref_hashmap",
+          "title": "Java HashMap Methods"
+        },
+        {
+          "slug": "java_ref_scanner",
+          "title": "Java Scanner Methods"
+        },
+        {
+          "slug": "java_ref_file",
+          "title": "Java File Methods"
+        },
+        {
+          "slug": "java_ref_fileinputstream",
+          "title": "Java FileInputStream"
+        },
+        {
+          "slug": "java_ref_fileoutputstream",
+          "title": "Java FileOutputStream"
+        },
+        {
+          "slug": "java_ref_bufferedreader",
+          "title": "Java BufferedReader"
+        },
+        {
+          "slug": "java_ref_bufferedwriter",
+          "title": "Java BufferedWriter"
+        },
+        {
+          "slug": "java_ref_iterators",
+          "title": "Java Iterator Methods"
+        },
+        {
+          "slug": "java_ref_collections",
+          "title": "Java Collections Methods"
+        },
+        {
+          "slug": "java_ref_system",
+          "title": "Java System Methods"
+        },
+        {
+          "slug": "java_ref_errors",
+          "title": "Java Errors & Exceptions"
+        }
+      ]
+    },
+    {
+      "title": "Java Examples",
+      "items": [
+        {
+          "slug": "java_examples",
+          "title": "Java Examples"
+        },
+        {
+          "slug": "java_compiler",
+          "title": "Java Compiler"
+        },
+        {
+          "slug": "java_exercises",
+          "title": "Java Exercises"
+        },
+        {
+          "slug": "java_quiz",
+          "title": "Java Quiz"
+        },
+        {
+          "slug": "java_challenges",
+          "title": "Java Code Challenges"
+        },
+        {
+          "slug": "java_practice",
+          "title": "Java Practice Problems"
+        },
+        {
+          "slug": "java_server",
+          "title": "Java Local Runner"
+        },
+        {
+          "slug": "java_syllabus",
+          "title": "Java Syllabus"
+        },
+        {
+          "slug": "java_study_plan",
+          "title": "Java Study Plan"
+        },
+        {
+          "slug": "java_interview_questions",
+          "title": "Java Interview Q&A"
+        }
+      ]
+    }
+  ],
+  "pageCount": 167
+}

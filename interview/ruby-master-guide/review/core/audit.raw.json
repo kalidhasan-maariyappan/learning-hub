@@ -1,0 +1,100 @@
+[
+  {
+    "sourceFile": "first.txt",
+    "lineCount": 548,
+    "byteCount": 57769,
+    "processedRanges": [
+      [
+        1,
+        548
+      ]
+    ],
+    "questionCount": 100,
+    "notes": [],
+    "omittedRanges": []
+  },
+  {
+    "sourceFile": "second.txt",
+    "lineCount": 460,
+    "byteCount": 73270,
+    "processedRanges": [
+      [
+        1,
+        460
+      ]
+    ],
+    "questionCount": 21,
+    "notes": [],
+    "omittedRanges": []
+  },
+  {
+    "sourceFile": "three.txt",
+    "lineCount": 565,
+    "byteCount": 26619,
+    "processedRanges": [
+      [
+        1,
+        565
+      ]
+    ],
+    "questionCount": 30,
+    "notes": [],
+    "omittedRanges": []
+  },
+  {
+    "sourceFile": "four.txt",
+    "lineCount": 110,
+    "byteCount": 5325,
+    "processedRanges": [
+      [
+        1,
+        110
+      ]
+    ],
+    "questionCount": 10,
+    "notes": [],
+    "omittedRanges": []
+  },
+  {
+    "sourceFile": "five.txt",
+    "lineCount": 63,
+    "byteCount": 2866,
+    "processedRanges": [
+      [
+        1,
+        63
+      ]
+    ],
+    "questionCount": 15,
+    "notes": [],
+    "omittedRanges": []
+  },
+  {
+    "sourceFile": "six.txt",
+    "lineCount": 2983,
+    "byteCount": 157613,
+    "processedRanges": [
+      [
+        1,
+        2983
+      ]
+    ],
+    "questionCount": 30,
+    "notes": [],
+    "omittedRanges": []
+  },
+  {
+    "sourceFile": "twelve.txt",
+    "lineCount": 29,
+    "byteCount": 4076,
+    "processedRanges": [
+      [
+        1,
+        29
+      ]
+    ],
+    "questionCount": 10,
+    "notes": [],
+    "omittedRanges": []
+  }
+]

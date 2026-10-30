@@ -149,25 +149,6 @@
     K.tip('<code>bin/kamal console</code> opens a Rails console on the server, and <code>bin/kamal logs</code> follows the app’s logs.'),
   ]);
 
-  page('rails_interview', () => [
-    h2('Rails interview questions'),
-    p('These questions are typical for developers with several years of Rails experience. Try to answer each one before opening it.'),
-    K.interview([
-      ['What is the N+1 problem and how do you fix it?', 'Loading a list and then lazily loading an association for each item runs one query per item. Fix it with <code>includes</code>, <code>preload</code> or <code>eager_load</code>, and catch it with <code>strict_loading</code> or the Bullet gem.'],
-      ['What is the difference between <code>includes</code>, <code>preload</code>, <code>eager_load</code> and <code>joins</code>?', '<code>preload</code> runs a separate query per association; <code>eager_load</code> uses one LEFT OUTER JOIN; <code>includes</code> chooses between them (eager_load when you reference the association in conditions); <code>joins</code> uses an INNER JOIN for filtering and does not load the association.'],
-      ['Why use <code>after_commit</code> instead of <code>after_save</code> to enqueue a job?', '<code>after_save</code> runs inside the transaction. If the transaction rolls back, or the job starts before commit, the worker cannot find the record. <code>after_commit</code> runs only after the data is committed.'],
-      ['How do strong parameters protect an app?', 'They require you to list the attributes a request may set (<code>params.expect</code> / <code>permit</code>), preventing mass assignment of fields such as <code>admin</code> or <code>user_id</code>.'],
-      ['What is the difference between <code>destroy</code> and <code>delete</code>?', '<code>destroy</code> loads the record, runs callbacks and handles <code>dependent:</code> associations. <code>delete</code> and <code>delete_all</code> issue SQL directly without callbacks.'],
-      ['How does Rails prevent CSRF?', 'Every form and the layout include an authenticity token tied to the session. Non-GET requests without a valid token are rejected. This is why GET actions must never change data.'],
-      ['Why is a <code>uniqueness</code> validation not enough?', 'Two concurrent requests can both pass the check before either saves. Add a unique index in the database and handle <code>ActiveRecord::RecordNotUnique</code>.'],
-      ['What are concerns and when should you use them?', 'Modules under <code>app/models/concerns</code> or <code>app/controllers/concerns</code> using <code>ActiveSupport::Concern</code>. Use them for behavior shared by several classes, such as <code>Trackable</code>, not just to make a big class look smaller.'],
-      ['How does Zeitwerk autoloading work?', 'Each file defines one constant whose name matches the file path. Rails loads constants on first use and reloads changed files in development; in production it eager loads everything at boot.'],
-      ['What are Solid Queue, Solid Cache and Solid Cable?', 'Rails 8 defaults that store jobs, cache entries and Action Cable messages in the database, so an app can run without Redis.'],
-      ['How do you make a slow page fast?', 'Measure first (logs, APM). Then fix N+1 queries, add missing indexes, cache fragments (Russian doll caching), paginate, and move slow work to background jobs.'],
-      ['How do you handle a long-running data migration safely?', 'Keep schema migrations fast; backfill data in batches (<code>find_each</code> / <code>in_batches</code>) in a job or task; add columns as nullable first, backfill, then add the NOT NULL constraint; avoid locking big tables during deploys.'],
-    ]),
-  ]);
-
   const quiz = K.mixQuiz([
     { q: 'Which table does a model named LineItem use by default?', options: ['line_items', 'lineitems', 'LineItems', 'line_item'], answer: 0 },
     { q: 'Which command runs pending migrations?', options: ['bin/rails db:migrate', 'bin/rails migrate', 'bin/rails db:run', 'bundle exec migrate'], answer: 0 },

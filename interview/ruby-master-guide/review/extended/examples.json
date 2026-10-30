@@ -1,0 +1,1658 @@
+[
+  {
+    "key": "seven:1",
+    "code": "class User\n  attr_reader :name\n  def initialize(name)\n    @name = name\n  end\nend\np User.new(\"Asha\").name # \"Asha\""
+  },
+  {
+    "key": "seven:2",
+    "code": "class Account\n  def check = self.secret\n  private\n  def secret = 42\nend\np Account.new.check # 42\n# Account.new.secret raises NoMethodError"
+  },
+  {
+    "key": "seven:3",
+    "code": "h = { name: \"Asha\" }\np h[:name]  # \"Asha\"\np h[\"name\"] # nil\np :name.to_s # \"name\""
+  },
+  {
+    "key": "seven:4",
+    "code": "require \"json\"\nrequire_relative \"support/formatter\"\nload \"./settings.rb\""
+  },
+  {
+    "key": "seven:5",
+    "code": "p [nil, false, 0, \"\", []].map { |x| !!x } # [false, false, true, true, true]\np \"\".empty? # true"
+  },
+  {
+    "key": "seven:6",
+    "code": "def twice\n  2.times { yield }\nend\ntwice { puts \"hello\" }"
+  },
+  {
+    "key": "seven:7",
+    "code": "class User\n  attr_accessor :name\n  def rename(value)\n    self.name = value\n  end\nend"
+  },
+  {
+    "key": "seven:8",
+    "code": "module Greetable\n  def greet = \"hello\"\nend\nclass User\n  include Greetable\nend\np User.new.greet # \"hello\""
+  },
+  {
+    "key": "seven:9",
+    "code": "case value\nwhen Integer then \"number\"\nwhen /\\A[a-z]+\\z/ then \"letters\"\nelse \"other\"\nend"
+  },
+  {
+    "key": "seven:10",
+    "code": "class A\n  def greet(name = \"guest\") = \"Hi #{name}\"\nend\nclass B < A\n  def greet(name) = super + \"!\"\nend\np B.new.greet(\"Asha\") # \"Hi Asha!\""
+  },
+  {
+    "key": "seven:11",
+    "code": "p 1 == 1.0       # true\np 1.eql?(1.0)    # false\np (1..3) === 2   # true\ns = \"a\"; p s.equal?(s) # true"
+  },
+  {
+    "key": "seven:12",
+    "code": "p [1, 2, 3].map { |n| n * 2 } # [2, 4, 6]\np [1, 2, 3].select(&:odd?) # [1, 3]\np [1, 2, 3].reduce(0, :+) # 6"
+  },
+  {
+    "key": "seven:13",
+    "code": "p ->(x) { x * 2 }.call(3) # 6\np proc { |x, y| [x, y] }.call(3) # [3, nil]\np ->(x) { x }.lambda? # true"
+  },
+  {
+    "key": "seven:14",
+    "code": "name = \"Asha\"\np \"Hello, #{name}: #{2 + 3}\" # \"Hello, Asha: 5\"\np 'Hello, #{name}' # literal characters"
+  },
+  {
+    "key": "seven:15",
+    "code": "before = GC.stat(:total_allocated_objects)\n100.times { Object.new }\np GC.stat(:total_allocated_objects) - before"
+  },
+  {
+    "key": "seven:16",
+    "code": "class Settings\n  def initialize(data) = @data = data\n  def method_missing(name, *args, **kwargs, &block)\n    return @data[name] if args.empty? && kwargs.empty? && !block && @data.key?(name)\n    super\n  end\n  def respond_to_missing?(name, include_private = false)\n    @data.key?(name) || super\n  end\nend"
+  },
+  {
+    "key": "seven:17",
+    "code": "obj = Object.new\ndef obj.greet = \"hello\"\np obj.greet\np obj.singleton_class\n# 5.singleton_class raises TypeError"
+  },
+  {
+    "key": "seven:18",
+    "code": "numbers = Enumerator.new { |y| n = 0; loop { y << n; n += 1 } }\np numbers.lazy.select(&:even?).take(3).force # [0, 2, 4]"
+  },
+  {
+    "key": "seven:19",
+    "code": "module Greeting\n  def hello = \"hello\"\nend\nclass User\n  include Greeting\n  extend Greeting\nend\np User.hello\np User.new.hello"
+  },
+  {
+    "key": "seven:20",
+    "code": "user = current_account.users.find(params[:id])\nallowed = params.require(:user).permit(:name)\nuser.update!(allowed)\n# Binding values, not SQL interpolation:\nUser.where(email: params[:email])"
+  },
+  {
+    "key": "seven:FAQ1",
+    "code": "Example exercise: predict and verify the result of [1, 2].map { |n| puts n }."
+  },
+  {
+    "key": "seven:FAQ2",
+    "code": "Example exercise: predict and verify the result of [1, 2].map { |n| puts n }."
+  },
+  {
+    "key": "seven:FAQ3",
+    "code": "Example exercise: predict and verify the result of [1, 2].map { |n| puts n }."
+  },
+  {
+    "key": "seven:FAQ4",
+    "code": "Example exercise: predict and verify the result of [1, 2].map { |n| puts n }."
+  },
+  {
+    "key": "seven:FAQ5",
+    "code": "Example exercise: predict and verify the result of [1, 2].map { |n| puts n }."
+  },
+  {
+    "key": "eight:Junior-01",
+    "code": "p 7.class                 # Integer\np nil.to_s                # \"\"\np [1, 2, 3].select(&:even?) # [2]"
+  },
+  {
+    "key": "eight:Junior-02",
+    "code": "def greet(name, punctuation: \"!\")\n  \"Hello, #{name}#{punctuation}\"\nend\np greet(\"Asha\", punctuation: \".\") # \"Hello, Asha.\""
+  },
+  {
+    "key": "eight:Junior-03",
+    "code": "def twice\n  2.times { yield }\nend\ntwice { puts \"hello\" }"
+  },
+  {
+    "key": "eight:Junior-04",
+    "code": "# Gemfile\nsource \"https://rubygems.org\"\ngem \"rack\"\n# shell: bundle install\n# shell: bundle exec ruby app.rb"
+  },
+  {
+    "key": "eight:Junior-05",
+    "code": "class User\n  attr_reader :name\n  def initialize(name)\n    @name = name\n  end\nend\np User.new(\"Asha\").name # \"Asha\""
+  },
+  {
+    "key": "eight:Junior-06",
+    "code": "def greet(name)\n  \"Hello, #{name}\"\nend\np greet(\"Alice\")"
+  },
+  {
+    "key": "eight:Junior-07",
+    "code": "begin\n  1 / 0\nrescue ZeroDivisionError => error\n  puts error.message\nensure\n  puts \"cleanup\"\nend"
+  },
+  {
+    "key": "eight:Junior-08",
+    "code": "class User\n  attr_reader :name\n  def initialize(name)\n    @name = name\n  end\nend\np User.new(\"Asha\").name # \"Asha\""
+  },
+  {
+    "key": "eight:Junior-09",
+    "code": "class Animal\n  def speak = \"hello\"\nend\nclass Dog < Animal\n  def speak = super + \" woof\"\nend\np Dog.new.speak # \"hello woof\""
+  },
+  {
+    "key": "eight:Junior-10",
+    "code": "module Greetable\n  def greet = \"hello\"\nend\nclass User\n  include Greetable\nend\np User.new.greet # \"hello\""
+  },
+  {
+    "key": "eight:Mid-01",
+    "code": "class Report\n  %i[csv json].each do |format|\n    define_method(\"export_#{format}\") { \"export as #{format}\" }\n  end\nend\np Report.new.export_csv # \"export as csv\""
+  },
+  {
+    "key": "eight:Mid-02",
+    "code": "module Greeting\n  def hello = \"hello\"\nend\nclass User\n  include Greeting\n  extend Greeting\nend\np User.hello\np User.new.hello"
+  },
+  {
+    "key": "eight:Mid-03",
+    "code": "p Dog.new.speak # assuming the classes in the source are defined: \"Hello Woof!\""
+  },
+  {
+    "key": "eight:Mid-04",
+    "code": "p ->(x) { x * 2 }.call(3) # 6\np proc { |x, y| [x, y] }.call(3) # [3, nil]\np ->(x) { x }.lambda? # true"
+  },
+  {
+    "key": "eight:Mid-05",
+    "code": "numbers = Enumerator.new { |y| n = 0; loop { y << n; n += 1 } }\np numbers.lazy.select(&:even?).take(3).force # [0, 2, 4]"
+  },
+  {
+    "key": "eight:Mid-06",
+    "code": "class Service\n  def self.build = new\nend\np Service.build.class # Service"
+  },
+  {
+    "key": "eight:Mid-07",
+    "code": "class User < ApplicationRecord\n  has_many :posts\n  validates :email, presence: true\nend\nUser.where(active: true).order(:id).limit(20)"
+  },
+  {
+    "key": "eight:Mid-08",
+    "code": "p [1, 2, 3].inject(0) { |sum, n| sum + n } # 6\np [].reduce(0, :+) # 0"
+  },
+  {
+    "key": "eight:Mid-09",
+    "code": "# Gemfile\nsource \"https://rubygems.org\"\ngem \"rack\"\n# shell: bundle install\n# shell: bundle exec ruby app.rb"
+  },
+  {
+    "key": "eight:Mid-10",
+    "code": "# lib/tasks/reports.rake\nnamespace :reports do\n  desc \"Show the report count\"\n  task count: :environment do\n    puts Report.count\n  end\nend\n# bin/rails reports:count"
+  },
+  {
+    "key": "eight:Expert-01",
+    "code": "bundle gem example_tools\ngem build example_tools.gemspec\n# Publishing, when intended: gem push example_tools-0.1.0.gem"
+  },
+  {
+    "key": "eight:Expert-02",
+    "code": "require \"objspace\"\np ObjectSpace.count_objects\np ObjectSpace.memsize_of(\"hello\")"
+  },
+  {
+    "key": "eight:Expert-03",
+    "code": "class User\n  attr_accessor :name\n  def initialize(name) = @name = name\nend\nuser = User.new(\"Alice\")\nuser.name = \"Bob\""
+  },
+  {
+    "key": "eight:Expert-04",
+    "code": "fiber = Fiber.new { Fiber.yield :paused; :done }\np fiber.resume # :paused\np fiber.resume # :done"
+  },
+  {
+    "key": "eight:Expert-05",
+    "code": "class Maybe\n  def self.unit(value) = new(value)\n  def initialize(value) = @value = value\n  def bind\n    @value.nil? ? self : yield(@value)\n  end\nend\nresult = Maybe.unit(10).bind { |x| Maybe.unit(x * 2) }"
+  },
+  {
+    "key": "eight:Expert-06",
+    "code": "class ReportJob < ApplicationJob\n  def perform(report_id)\n    report = Report.find(report_id)\n    report.generate_once!\n  end\nend\nReportJob.perform_later(report.id)"
+  },
+  {
+    "key": "eight:Expert-07",
+    "code": "RSpec.describe \"integer addition\" do\n  it \"adds values\" do\n    expect(2 + 3).to eq(5)\n  end\nend"
+  },
+  {
+    "key": "eight:Expert-08",
+    "code": "class Report\n  %i[csv json].each do |format|\n    define_method(\"export_#{format}\") { \"export as #{format}\" }\n  end\nend\np Report.new.export_csv # \"export as csv\""
+  },
+  {
+    "key": "eight:Expert-09",
+    "code": "Example: replace 101 queries for 100 posts/authors with a bounded page using Post.includes(:author), then compare p95 latency, SQL time and allocated objects."
+  },
+  {
+    "key": "eight:Expert-10",
+    "code": "user = current_account.users.find(params[:id])\nallowed = params.require(:user).permit(:name)\nuser.update!(allowed)\n# Binding values, not SQL interpolation:\nUser.where(email: params[:email])"
+  },
+  {
+    "key": "nine:1",
+    "code": "p 7.class                 # Integer\np nil.to_s                # \"\"\np [1, 2, 3].select(&:even?) # [2]"
+  },
+  {
+    "key": "nine:2",
+    "code": "p RUBY_DESCRIPTION"
+  },
+  {
+    "key": "nine:3",
+    "code": "require \"json\"\np JSON.parse('{\"ok\":true}') # {\"ok\"=>true}"
+  },
+  {
+    "key": "nine:4",
+    "code": "p 7.class                 # Integer\np nil.to_s                # \"\"\np [1, 2, 3].select(&:even?) # [2]"
+  },
+  {
+    "key": "nine:5",
+    "code": "p 2 ** 3 # 8\np 5 ^ 3  # 6\np nil || \"default\" # \"default\""
+  },
+  {
+    "key": "nine:6",
+    "code": "class User\n  attr_reader :name\n  def initialize(name)\n    @name = name\n  end\nend\np User.new(\"Asha\").name # \"Asha\""
+  },
+  {
+    "key": "nine:7",
+    "code": "p [nil, false, 0, \"\", []].map { |x| !!x } # [false, false, true, true, true]\np \"\".empty? # true"
+  },
+  {
+    "key": "nine:8",
+    "code": "p [42, 3.5, \"hi\", :name, [], {}, nil].map(&:class)"
+  },
+  {
+    "key": "nine:9",
+    "code": "require \"json\"\nrequire_relative \"support/formatter\"\nload \"./settings.rb\""
+  },
+  {
+    "key": "nine:10",
+    "code": "count = 0\nwhile count < 3\n  puts count\n  count += 1\nend"
+  },
+  {
+    "key": "nine:11",
+    "code": "result = loop do\n  break :finished\nend\np result # :finished"
+  },
+  {
+    "key": "nine:12",
+    "code": "attempt = 0\n1.times do\n  attempt += 1\n  redo if attempt < 2\nend\np attempt # 2"
+  },
+  {
+    "key": "nine:13",
+    "code": "attempts = 0\nbegin\n  attempts += 1\n  raise \"transient\" if attempts < 2\nrescue RuntimeError\n  retry if attempts < 3\n  raise\nend"
+  },
+  {
+    "key": "nine:14",
+    "code": "puts \"ready\" # user-facing status\n=begin\nA multiline comment.\n=end"
+  },
+  {
+    "key": "nine:15",
+    "code": "def greet(name, punctuation: \"!\")\n  \"Hello, #{name}#{punctuation}\"\nend\np greet(\"Asha\", punctuation: \".\") # \"Hello, Asha.\""
+  },
+  {
+    "key": "nine:16",
+    "code": "class User\n  attr_reader :name\n  def initialize(name)\n    @name = name\n  end\nend\np User.new(\"Asha\").name # \"Asha\""
+  },
+  {
+    "key": "nine:17",
+    "code": "def greet(name, punctuation: \"!\")\n  \"Hello, #{name}#{punctuation}\"\nend\np greet(\"Asha\", punctuation: \".\") # \"Hello, Asha.\""
+  },
+  {
+    "key": "nine:18",
+    "code": "[1, 2, 3].each { |n| puts n }\n[1, 2, 3].each do |n|\n  puts n\nend"
+  },
+  {
+    "key": "nine:19",
+    "code": "def transform(x)\n  block_given? ? yield(x) : x\nend\np transform(4) { |n| n * n } # 16\np transform(4) # 4"
+  },
+  {
+    "key": "nine:20",
+    "code": "module Greetable\n  def greet = \"hello\"\nend\nclass User\n  include Greetable\nend\np User.new.greet # \"hello\""
+  },
+  {
+    "key": "nine:21",
+    "code": "module Greetable\n  def greet = \"hello\"\nend\nclass User\n  include Greetable\nend\np User.new.greet # \"hello\""
+  },
+  {
+    "key": "nine:22",
+    "code": "def transform(x)\n  block_given? ? yield(x) : x\nend\np transform(4) { |n| n * n } # 16\np transform(4) # 4"
+  },
+  {
+    "key": "nine:23",
+    "code": "text = \"é\"\np [text.length, text.bytesize] # [1, 2] in UTF-8\np \"ruby\".upcase # \"RUBY\""
+  },
+  {
+    "key": "nine:24",
+    "code": "p \"Ruby\"[0]   # \"R\"\np \"Ruby\"[-1]  # \"y\"\np \"Ruby\"[1, 2] # \"ub\""
+  },
+  {
+    "key": "nine:25",
+    "code": "message = <<~TEXT\n  Hello\n  Ruby\nTEXT\nputs message"
+  },
+  {
+    "key": "nine:26",
+    "code": "a = +\"hello\"\nb = a\na += \" world\"\np b # \"hello\"\nb << \"!\"\np b # \"hello!\""
+  },
+  {
+    "key": "nine:27",
+    "code": "$example_flag = true\np $example_flag"
+  },
+  {
+    "key": "nine:28",
+    "code": "p \"a\" <=> \"b\"   # -1\np \"Ruby\".casecmp(\"ruby\") # 0\np \"Ruby\".casecmp?(\"ruby\") # true"
+  },
+  {
+    "key": "nine:29",
+    "code": "a = [1, \"two\", :three]\np a[-1] # :three\nrows = Array.new(2) { [] }\nrows[0] << 1\np rows # [[1], []]"
+  },
+  {
+    "key": "nine:30",
+    "code": "require \"json\"\np JSON.parse('{\"ok\":true}') # {\"ok\"=>true}"
+  },
+  {
+    "key": "nine:31",
+    "code": "a = [2]\na.unshift(1)\na << 3\na.insert(1, :middle)\np a # [1, :middle, 2, 3]"
+  },
+  {
+    "key": "nine:32",
+    "code": "a = [10, 20, 30]\np a[1] # 20\np a.fetch(5, :missing) # :missing\np a[0, 2] # [10, 20]"
+  },
+  {
+    "key": "nine:33",
+    "code": "counts = Hash.new(0)\ncounts[:ruby] += 1\np counts[:missing] # 0\np({ name: \"Asha\" }.fetch(:name))"
+  },
+  {
+    "key": "nine:34",
+    "code": "p Time.now\np Time.new(2026, 1, 1, 0, 0, 0, \"+05:30\")"
+  },
+  {
+    "key": "nine:35",
+    "code": "p (1..3).to_a # [1, 2, 3]\np (1...3).to_a # [1, 2]\np (1..10).cover?(4) # true"
+  },
+  {
+    "key": "nine:36",
+    "code": "p [1, 2, 3].map { |n| n * 2 } # [2, 4, 6]\np [1, 2, 3].select(&:odd?) # [1, 3]\np [1, 2, 3].reduce(0, :+) # 6"
+  },
+  {
+    "key": "nine:37",
+    "code": "p [1, 2, 3].map { |n| n * 2 } # [2, 4, 6]\np [1, 2, 3].select(&:odd?) # [1, 3]\np [1, 2, 3].reduce(0, :+) # 6"
+  },
+  {
+    "key": "nine:38",
+    "code": "File.open(\"input.txt\", \"r\") do |file|\n  puts file.gets\nend"
+  },
+  {
+    "key": "nine:39",
+    "code": "File.open(\"input.txt\", \"r\") do |f|\n  first = f.gets\n  rest = f.read\nend\nFile.foreach(\"input.txt\") { |line| puts line }"
+  },
+  {
+    "key": "nine:40",
+    "code": "File.open(\"input.txt\", \"rb\") do |file|\n  p file.sysread(8)\nrescue EOFError\n  puts \"empty file\"\nend"
+  },
+  {
+    "key": "nine:41",
+    "code": "File.rename(\"olderName.txt\", \"newName.txt\")  \nFile.delete(\"filename.txt\")"
+  },
+  {
+    "key": "nine:42",
+    "code": "p Dir.exist?(\".\") # true"
+  },
+  {
+    "key": "nine:43",
+    "code": "begin\n  Integer(\"not a number\")\nrescue ArgumentError => error\n  warn error.message\nend"
+  },
+  {
+    "key": "nine:44",
+    "code": "p ArgumentError < StandardError # true\np LoadError < StandardError # nil\np LoadError < Exception # true"
+  },
+  {
+    "key": "nine:45",
+    "code": "begin\n  value = Integer(\"12\")\nrescue ArgumentError\n  value = nil\nelse\n  puts value\nensure\n  puts \"finished\"\nend"
+  },
+  {
+    "key": "nine:46",
+    "code": "attempts = 0\nbegin\n  attempts += 1\n  raise \"transient\" if attempts < 2\nrescue RuntimeError\n  retry if attempts < 3\n  raise\nend"
+  },
+  {
+    "key": "nine:47",
+    "code": "begin\n  puts \"work\"\nensure\n  puts \"cleanup\"\nend"
+  },
+  {
+    "key": "nine:48",
+    "code": "class A\n  def greet(name = \"guest\") = \"Hi #{name}\"\nend\nclass B < A\n  def greet(name) = super + \"!\"\nend\np B.new.greet(\"Asha\") # \"Hi Asha!\""
+  },
+  {
+    "key": "nine:49",
+    "code": "val1 = true and false\nval2 = true && false\np [val1, val2] # [true, false]"
+  },
+  {
+    "key": "nine:50",
+    "code": "p [true, false, nil, 1, 0, \"false\", \"\", []].map { |x| x ? \"true\" : \"false\" }"
+  },
+  {
+    "key": "nine:51",
+    "code": "def sum(a, b) = a + b\np sum(1, 2) # 3\n# sum (1, 2) # SyntaxError"
+  },
+  {
+    "key": "nine:52",
+    "code": "->(a) { p a }[\"Hello World\"] # prints \"Hello World\" with quotes"
+  },
+  {
+    "key": "nine:53",
+    "code": "p 1 == 1.0       # true\np 1.eql?(1.0)    # false\np (1..3) === 2   # true\ns = \"a\"; p s.equal?(s) # true"
+  },
+  {
+    "key": "nine:54",
+    "code": "x = +\"hello\"\nother = x\nx += \" world\"\np other # \"hello\"\nother.concat(\"!\")\np other # \"hello!\""
+  },
+  {
+    "key": "nine:55",
+    "code": "p [\"a\", \"b\"].map(&:upcase) # [\"A\", \"B\"]\np [\"a\", \"b\"].map { |s| s.upcase }"
+  },
+  {
+    "key": "nine:56",
+    "code": "n = 20; p Array.new(n).each_with_object([0, 1]) { |_, fib| fib << fib[-1] + fib[-2] }.first(n)"
+  },
+  {
+    "key": "nine:57",
+    "code": "class Report\n  %i[csv json].each do |format|\n    define_method(\"export_#{format}\") { \"export as #{format}\" }\n  end\nend\np Report.new.export_csv # \"export as csv\""
+  },
+  {
+    "key": "nine:58",
+    "code": "bin/rails plugin new audit_tools\n# Include the resulting package in an application through its Gemfile."
+  },
+  {
+    "key": "nine:59",
+    "code": "before = GC.stat(:total_allocated_objects)\n100.times { Object.new }\np GC.stat(:total_allocated_objects) - before"
+  },
+  {
+    "key": "nine:60",
+    "code": "p Float::DIG\np Float::MAX\np 0.1 + 0.2 == 0.3 # false on usual IEEE-754 runtimes"
+  },
+  {
+    "key": "nine:61",
+    "code": "name = \"Asha\"\np \"Hello, #{name}: #{2 + 3}\" # \"Hello, Asha: 5\"\np 'Hello, #{name}' # literal characters"
+  },
+  {
+    "key": "nine:62",
+    "code": "require \"json\"\nrequire_relative \"support/formatter\"\nload \"./settings.rb\""
+  },
+  {
+    "key": "nine:63",
+    "code": "def twice\n  2.times { yield }\nend\ntwice { puts \"hello\" }"
+  },
+  {
+    "key": "nine:64",
+    "code": "# config/routes.rb\nresources :articles, only: [:index, :show]\n# GET /articles/5 routes to ArticlesController#show"
+  },
+  {
+    "key": "nine:65",
+    "code": "p (2 ** 100).class # Integer\np 2 ** 100"
+  },
+  {
+    "key": "nine:66",
+    "code": "class Counter\n  @@count = 0\n  def self.count = @@count\n  def initialize\n    @@count += 1\n  end\nend\n2.times { Counter.new }\np Counter.count # 2"
+  },
+  {
+    "key": "nine:67",
+    "code": "MAX_RETRIES = 3\nuser_name = \"Asha\"\n@attempts = 0"
+  },
+  {
+    "key": "nine:68",
+    "code": "def total(*values, multiplier: 1)\n  values.sum * multiplier\nend\np total(*[2, 3], multiplier: 2) # 10"
+  },
+  {
+    "key": "nine:69",
+    "code": "ruby -v\nruby -c app.rb\nruby -rjson -e 'puts JSON.generate({ok: true})'"
+  },
+  {
+    "key": "nine:70",
+    "code": "p ->(x) { x * 2 }.call(3) # 6\np proc { |x, y| [x, y] }.call(3) # [3, nil]\np ->(x) { x }.lambda? # true"
+  },
+  {
+    "key": "nine:71",
+    "code": "pattern = /\\A[a-z]+\\z/i\np pattern.match?(\"Ruby\") # true\np \"a1 b2\".scan(/\\d/) # [\"1\", \"2\"]"
+  },
+  {
+    "key": "nine:72",
+    "code": "bin/rails generate migration AddStatusToUsers status:string\nbin/rails db:migrate\nbin/rails db:rollback"
+  },
+  {
+    "key": "nine:73",
+    "code": "class Person\n  attr_accessor :name\n  def initialize(name) = @name = name\nend\nperson = Person.new(\"Asha\")\nperson.name = \"Ben\"\np person.name # \"Ben\""
+  },
+  {
+    "key": "nine:74",
+    "code": "h = { name: \"Asha\" }\np h[:name]  # \"Asha\"\np h[\"name\"] # nil\np :name.to_s # \"name\""
+  },
+  {
+    "key": "nine:75",
+    "code": "class Account\n  def check = self.secret\n  private\n  def secret = 42\nend\np Account.new.check # 42\n# Account.new.secret raises NoMethodError"
+  },
+  {
+    "key": "nine:76",
+    "code": "3.times { |n| puts n }\n[1, 2].each { |n| puts n * 2 }"
+  },
+  {
+    "key": "nine:77",
+    "code": "module Greetable\n  def greet = \"hello\"\nend\nclass User\n  include Greetable\nend\np User.new.greet # \"hello\""
+  },
+  {
+    "key": "nine:78",
+    "code": "class Account\n  def check = self.secret\n  private\n  def secret = 42\nend\np Account.new.check # 42\n# Account.new.secret raises NoMethodError"
+  },
+  {
+    "key": "nine:79",
+    "code": "p 7.class                 # Integer\np nil.to_s                # \"\"\np [1, 2, 3].select(&:even?) # [2]"
+  },
+  {
+    "key": "nine:80",
+    "code": "items = [\"a\"].freeze\n# items << \"b\" raises FrozenError\nitems.first << \"!\" # nested String remains mutable\np items # [\"a!\"]"
+  },
+  {
+    "key": "nine:81",
+    "code": "class User\n  attr_reader :name\n  def initialize(name)\n    @name = name\n  end\nend\np User.new(\"Asha\").name # \"Asha\""
+  },
+  {
+    "key": "nine:82",
+    "code": "require \"thread\"\nqueue = Queue.new\n2.times { |n| queue << n }\nworkers = 2.times.map { Thread.new { queue.pop * 2 } }\np workers.map(&:value).sort # [0, 2]"
+  },
+  {
+    "key": "nine:83",
+    "code": "module A; def hello = \"A\"; end\nclass User; include A; end\np User.ancestors\np User.new.hello"
+  },
+  {
+    "key": "nine:84",
+    "code": "class User\n  attr_reader :address\n  def address=(value)\n    @address = value.strip\n  end\n  def initialize(value)\n    self.address = value\n  end\nend\np User.new(\" Asha \").address # \"Asha\""
+  },
+  {
+    "key": "nine:85",
+    "code": "p ->(x) { x * 2 }.call(3) # 6\np proc { |x, y| [x, y] }.call(3) # [3, nil]\np ->(x) { x }.lambda? # true"
+  },
+  {
+    "key": "nine:86",
+    "code": "->(s) { p s }[\"I’m a Proc\"]"
+  },
+  {
+    "key": "nine:87",
+    "code": "p \"hELLO wORLD\".upcase # \"HELLO WORLD\"\np \"hELLO wORLD\".capitalize # \"Hello world\""
+  },
+  {
+    "key": "nine:88",
+    "code": "p \"hELLO wORLD\".upcase # \"HELLO WORLD\"\np \"hELLO wORLD\".capitalize # \"Hello world\""
+  },
+  {
+    "key": "nine:89",
+    "code": "class A\n  def self.a(x)\n    x * x if x > 0\n  end\nend\np [A.a(0), A.a(2)] # [nil, 4], for this reconstruction only"
+  },
+  {
+    "key": "nine:90",
+    "code": "a = [1, 2]\np a.each { |n| n * 2 } # [1, 2]\np a.map { |n| n * 2 } # [2, 4]"
+  },
+  {
+    "key": "nine:91",
+    "code": "p [nil, false, 0, \"\", 1].compact # [false, 0, \"\", 1]"
+  },
+  {
+    "key": "nine:92",
+    "code": "class ABC\n  def xyz = 42\nend\np ABC.new.xyz # 42"
+  },
+  {
+    "key": "nine:93",
+    "code": "upcased = [\"one\", \"two\", \"three\"].map { |n| puts n.upcase }\np upcased # [nil, nil, nil]"
+  },
+  {
+    "key": "nine:94",
+    "code": "foo = 1 if false\np defined?(foo) # \"local-variable\"\np foo           # nil\np defined?(bar) # nil, if no such local/method exists"
+  },
+  {
+    "key": "nine:95",
+    "code": "obj = Object.new\ndef obj.greet = \"hi\"\nobj.freeze\np obj.clone.frozen? # true\np obj.dup.frozen?   # false\np obj.clone.respond_to?(:greet) # true"
+  },
+  {
+    "key": "nine:96",
+    "code": "module Greeting\n  def hello = \"hello\"\nend\nclass User\n  include Greeting\n  extend Greeting\nend\np User.hello\np User.new.hello"
+  },
+  {
+    "key": "nine:97",
+    "code": "class User\n  attr_reader :name\n  def initialize(name)\n    @name = name\n  end\nend\np User.new(\"Asha\").name # \"Asha\""
+  },
+  {
+    "key": "nine:98",
+    "code": "def counter\n  n = 0\n  -> { n += 1 }\nend\nc = counter\np [c.call, c.call] # [1, 2]"
+  },
+  {
+    "key": "nine:99",
+    "code": "# config/routes.rb\nresources :articles, only: [:index, :show]\n# GET /articles/5 routes to ArticlesController#show"
+  },
+  {
+    "key": "nine:100",
+    "code": "result = catch(:found) do\n  [1, 2, 3].each { |n| throw :found, n if n.even? }\n  nil\nend\np result # 2"
+  },
+  {
+    "key": "ten:1",
+    "code": "# config/routes.rb\nresources :articles, only: [:index, :show]\n# GET /articles/5 routes to ArticlesController#show"
+  },
+  {
+    "key": "ten:2",
+    "code": "# config/routes.rb\nresources :articles, only: [:index, :show]\n# GET /articles/5 routes to ArticlesController#show"
+  },
+  {
+    "key": "ten:3",
+    "code": "# Gemfile\nsource \"https://rubygems.org\"\ngem \"rack\"\n# shell: bundle install\n# shell: bundle exec ruby app.rb"
+  },
+  {
+    "key": "ten:4",
+    "code": "class User < ApplicationRecord\n  has_many :posts\n  validates :email, presence: true\nend\nUser.where(active: true).order(:id).limit(20)"
+  },
+  {
+    "key": "ten:5",
+    "code": "bin/rails generate migration AddStatusToUsers status:string\nbin/rails db:migrate\nbin/rails db:rollback"
+  },
+  {
+    "key": "ten:6",
+    "code": "p [nil, false, 0, \"\", []].map { |x| !!x } # [false, false, true, true, true]\np \"\".empty? # true"
+  },
+  {
+    "key": "ten:7",
+    "code": "class PostsController < ApplicationController\n  def show\n    post = current_user.posts.find(params[:id])\n    render json: { id: post.id, title: post.title }\n  end\nend"
+  },
+  {
+    "key": "ten:8",
+    "code": "Rails.application.routes.draw do\n  resources :posts, only: [:index, :show]\nend"
+  },
+  {
+    "key": "ten:9",
+    "code": "before_action :authenticate_user!\naround_action :track_request\ndef track_request\n  yield\nensure\n  Rails.logger.info(\"request finished\")\nend"
+  },
+  {
+    "key": "ten:10",
+    "code": "resources :posts\n# POST /posts -> create\n# PATCH /posts/:id -> update\n# DELETE /posts/:id -> destroy"
+  },
+  {
+    "key": "ten:11",
+    "code": "module Archivable\n  extend ActiveSupport::Concern\n  included do\n    scope :archived, -> { where(archived: true) }\n  end\nend"
+  },
+  {
+    "key": "ten:12",
+    "code": "Post.includes(:author).limit(20).each { |post| puts post.author.name }"
+  },
+  {
+    "key": "ten:13",
+    "code": "class Comment < ApplicationRecord\n  belongs_to :commentable, polymorphic: true\nend\nclass Post < ApplicationRecord\n  has_many :comments, as: :commentable\nend"
+  },
+  {
+    "key": "ten:14",
+    "code": "class ReportJob < ApplicationJob\n  def perform(report_id)\n    report = Report.find(report_id)\n    report.generate_once!\n  end\nend\nReportJob.perform_later(report.id)"
+  },
+  {
+    "key": "ten:15",
+    "code": "class Checkout\n  def initialize(gateway:) = @gateway = gateway\n  def call(order)\n    @gateway.authorize(order.total_cents)\n  end\nend"
+  },
+  {
+    "key": "ten:16",
+    "code": "class OrdersChannel < ApplicationCable::Channel\n  def subscribed\n    stream_for current_user\n  end\nend\nOrdersChannel.broadcast_to(user, { status: \"updated\" })"
+  },
+  {
+    "key": "ten:17",
+    "code": "validate :end_after_start\ndef end_after_start\n  if starts_at && ends_at && ends_at <= starts_at\n    errors.add(:ends_at, \"must follow starts_at\")\n  end\nend"
+  },
+  {
+    "key": "ten:18",
+    "code": "config.force_ssl = true\n# Inspect the actual Strict-Transport-Security response header in deployment."
+  },
+  {
+    "key": "ten:19",
+    "code": "allowed = params.require(:user).permit(:name, :timezone)\ncurrent_user.update!(allowed)"
+  },
+  {
+    "key": "ten:20",
+    "code": "require \"delegate\"\nclass UserPresenter < SimpleDelegator\n  def display_name = name.to_s.strip\nend"
+  },
+  {
+    "key": "ten:21",
+    "code": "require \"stringio\"\ndef log(writer, message)\n  writer.write(message + \"\\n\")\nend\nbuffer = StringIO.new\nlog(buffer, \"ready\")\np buffer.string # \"ready\\n\""
+  },
+  {
+    "key": "ten:22",
+    "code": "ActiveSupport::Notifications.subscribe(\"checkout.completed\") do |*args|\n  event = ActiveSupport::Notifications::Event.new(*args)\n  Rails.logger.info(event.payload[:order_id])\nend"
+  },
+  {
+    "key": "ten:23",
+    "code": "Example: a billing Rails service owns invoices and exposes a versioned HTTP API; it consumes an order-created event idempotently rather than sharing arbitrary database tables with every service."
+  },
+  {
+    "key": "ten:24",
+    "code": "namespace :api do\n  namespace :v1 do\n    resources :users, only: :show\n  end\nend"
+  },
+  {
+    "key": "ten:25",
+    "code": "class ApplicationRecord < ActiveRecord::Base\n  self.abstract_class = true\n  connects_to shards: { default: { writing: :primary }, shard_one: { writing: :primary_shard_one } }\nend"
+  },
+  {
+    "key": "ten:26",
+    "code": "Example: decrement inventory with a conditional UPDATE or lock the inventory row inside a transaction; a Ruby Mutex in one worker does not protect other worker processes."
+  },
+  {
+    "key": "ten:27",
+    "code": "class ReceiptSender\n  def initialize(delivery:) = @delivery = delivery\n  def call(message) = @delivery.deliver(message)\nend"
+  },
+  {
+    "key": "ten:28",
+    "code": "# lib/tasks/reports.rake\nnamespace :reports do\n  desc \"Show the report count\"\n  task count: :environment do\n    puts Report.count\n  end\nend\n# bin/rails reports:count"
+  },
+  {
+    "key": "ten:29",
+    "code": "bin/rails generate scaffold Article title:string body:text"
+  },
+  {
+    "key": "ten:30",
+    "code": "bin/rails generate migration AddStatusToUsers status:string\nbin/rails db:migrate\nbin/rails db:rollback"
+  },
+  {
+    "key": "ten:31",
+    "code": "# Gemfile\nsource \"https://rubygems.org\"\ngem \"rack\"\n# shell: bundle install\n# shell: bundle exec ruby app.rb"
+  },
+  {
+    "key": "ten:32",
+    "code": "bin/rails console\n# In console: User.where(active: true).limit(5).pluck(:id)"
+  },
+  {
+    "key": "ten:33",
+    "code": "bin/rails assets:precompile\n# Inspect configured Propshaft/Sprockets and JS/CSS build tools for this app."
+  },
+  {
+    "key": "ten:34",
+    "code": "RAILS_ENV=test bin/rails runner 'puts Rails.env'"
+  },
+  {
+    "key": "ten:35",
+    "code": "rescue_from ActiveRecord::RecordNotFound do\n  render json: { error: \"not found\" }, status: :not_found\nend"
+  },
+  {
+    "key": "ten:36",
+    "code": "class RequestTimer\n  def initialize(app) = @app = app\n  def call(env)\n    started = Process.clock_gettime(Process::CLOCK_MONOTONIC)\n    @app.call(env)\n  ensure\n    elapsed = Process.clock_gettime(Process::CLOCK_MONOTONIC) - started\n    warn \"request seconds=#{elapsed}\"\n  end\nend"
+  },
+  {
+    "key": "ten:37",
+    "code": "bin/rails generate model User name:string email:string\nbin/rails db:migrate"
+  },
+  {
+    "key": "ten:38",
+    "code": "class Post < ApplicationRecord\n  validates :title, presence: true\nend"
+  },
+  {
+    "key": "ten:39",
+    "code": "class UsersController < ApplicationController\n  def show_by_email\n    user = User.find_by(email: params[:email])\n    if user\n      render json: { id: user.id, name: user.name }\n    else\n      render json: { error: \"not found\" }, status: :not_found\n    end\n  end\nend"
+  },
+  {
+    "key": "ten:40",
+    "code": "class Post < ApplicationRecord\n  has_many :comments\n  def comment_count\n    comments.count\n  end\nend"
+  },
+  {
+    "key": "ten:41",
+    "code": "def twice\n  2.times { yield }\nend\ntwice { puts \"hello\" }"
+  },
+  {
+    "key": "ten:42",
+    "code": "class Report\n  %i[csv json].each do |format|\n    define_method(\"export_#{format}\") { \"export as #{format}\" }\n  end\nend\np Report.new.export_csv # \"export as csv\""
+  },
+  {
+    "key": "ten:43",
+    "code": "class String\n  def shout\n    self.upcase + \"!\"\n  end\nend"
+  },
+  {
+    "key": "ten:44",
+    "code": "def find_duplicates(array)\n  array.tally.select { |_, count| count > 1 }.keys\nend\np find_duplicates([1, 2, 3, 1, 2, 4]) # [1, 2]"
+  },
+  {
+    "key": "ten:45",
+    "code": "require \"uri\"\nclass User < ApplicationRecord\n  validates :name, presence: true\n  validates :email, format: { with: URI::MailTo::EMAIL_REGEXP }\nend"
+  },
+  {
+    "key": "ten:46",
+    "code": "def reverse_string(text)\n  chars = text.chars\n  left, right = 0, chars.length - 1\n  while left < right\n    chars[left], chars[right] = chars[right], chars[left]\n    left += 1\n    right -= 1\n  end\n  chars.join\nend\np reverse_string(\"hello\") # \"olleh\""
+  },
+  {
+    "key": "ten:47",
+    "code": "class User < ApplicationRecord\n  # Default table: users\nend\n# self.table_name = \"legacy_people\" overrides the mapping when needed."
+  },
+  {
+    "key": "ten:48",
+    "code": "RSpec.describe \"integer addition\" do\n  it \"adds values\" do\n    expect(2 + 3).to eq(5)\n  end\nend"
+  },
+  {
+    "key": "ten:49",
+    "code": "User.where(active: true).order(:id).limit(100).pluck(:id, :email)"
+  },
+  {
+    "key": "ten:50",
+    "code": "Example: persist an order update and an outbox event in one transaction; an outbox worker publishes a safe status message to the user’s authorized Action Cable stream."
+  },
+  {
+    "key": "ten:51",
+    "code": "user = current_account.users.find(params[:id])\nallowed = params.require(:user).permit(:name)\nuser.update!(allowed)\n# Binding values, not SQL interpolation:\nUser.where(email: params[:email])"
+  },
+  {
+    "key": "ten:52",
+    "code": "Template: “Our onboarding flow required __. I owned __. I implemented __ using __, tested __, and verified __ through __. The main trade-off was __.”"
+  },
+  {
+    "key": "eleven:1",
+    "code": "p 7.class                 # Integer\np nil.to_s                # \"\"\np [1, 2, 3].select(&:even?) # [2]"
+  },
+  {
+    "key": "eleven:2",
+    "code": "result = catch(:found) do\n  [1, 2, 3].each { |n| throw :found, n if n.even? }\n  nil\nend\np result # 2"
+  },
+  {
+    "key": "eleven:3",
+    "code": "class User\n  attr_reader :name\n  def initialize(name)\n    @name = name\n  end\nend\np User.new(\"Asha\").name # \"Asha\""
+  },
+  {
+    "key": "eleven:4",
+    "code": "p 2 ** 3 # 8\np 5 ^ 3  # 6\np nil || \"default\" # \"default\""
+  },
+  {
+    "key": "eleven:5",
+    "code": "require \"json\"\np JSON.parse('{\"ok\":true}') # {\"ok\"=>true}"
+  },
+  {
+    "key": "eleven:6",
+    "code": "p [42, 3.5, \"hi\", :name, [], {}, nil].map(&:class)"
+  },
+  {
+    "key": "eleven:7",
+    "code": "class A\n  def greet(name = \"guest\") = \"Hi #{name}\"\nend\nclass B < A\n  def greet(name) = super + \"!\"\nend\np B.new.greet(\"Asha\") # \"Hi Asha!\""
+  },
+  {
+    "key": "eleven:8",
+    "code": "p ->(x) { x * 2 }.call(3) # 6\np proc { |x, y| [x, y] }.call(3) # [3, nil]\np ->(x) { x }.lambda? # true"
+  },
+  {
+    "key": "eleven:9",
+    "code": "name = \"Asha\"\np \"Hello, #{name}: #{2 + 3}\" # \"Hello, Asha: 5\"\np 'Hello, #{name}' # literal characters"
+  },
+  {
+    "key": "eleven:10",
+    "code": "class Report\n  %i[csv json].each do |format|\n    define_method(\"export_#{format}\") { \"export as #{format}\" }\n  end\nend\np Report.new.export_csv # \"export as csv\""
+  },
+  {
+    "key": "eleven:11",
+    "code": "bin/rails generate migration AddStatusToUsers status:string\nbin/rails db:migrate\nbin/rails db:rollback"
+  },
+  {
+    "key": "eleven:12",
+    "code": "class PostsController < ApplicationController\n  def show\n    post = current_user.posts.find(params[:id])\n    render json: { id: post.id, title: post.title }\n  end\nend"
+  },
+  {
+    "key": "eleven:13",
+    "code": "class OrderItem < ApplicationRecord\n  # Default table: order_items\nend\n# Controller: OrderItemsController"
+  },
+  {
+    "key": "eleven:14",
+    "code": "bin/rails generate migration AddStatusToUsers status:string\nbin/rails db:migrate\nbin/rails db:rollback"
+  },
+  {
+    "key": "eleven:15",
+    "code": "require \"json\"\nrequire_relative \"support/formatter\"\nload \"./settings.rb\""
+  },
+  {
+    "key": "thirteen:runtime",
+    "code": "puts RUBY_ENGINE\nputs RUBY_VERSION"
+  },
+  {
+    "key": "thirteen:concept-1",
+    "code": "p 7.class                 # Integer\np nil.to_s                # \"\"\np [1, 2, 3].select(&:even?) # [2]"
+  },
+  {
+    "key": "thirteen:concept-2",
+    "code": "p [nil, false, 0, \"\", []].map { |x| !!x } # [false, false, true, true, true]\np \"\".empty? # true"
+  },
+  {
+    "key": "thirteen:concept-3",
+    "code": "p ->(x) { x * 2 }.call(3) # 6\np proc { |x, y| [x, y] }.call(3) # [3, nil]\np ->(x) { x }.lambda? # true"
+  },
+  {
+    "key": "thirteen:concept-4",
+    "code": "x = \"Hello, Interviewing.io!\"  # x is a String\nx = 42  # Now x is an Integer\n# Ruby won't automatically convert a string into a number\ny = \"5\"\nz = y + 2  # This will raise an error because Ruby is strongly typed"
+  },
+  {
+    "key": "thirteen:concept-5",
+    "code": "user = Object.new\ndef user.label = \"one object\"\np user.label"
+  },
+  {
+    "key": "thirteen:concept-6",
+    "code": "def greet(name, punctuation: \"!\")\n  \"Hello, #{name}#{punctuation}\"\nend\np greet(\"Asha\", punctuation: \".\") # \"Hello, Asha.\""
+  },
+  {
+    "key": "thirteen:concept-7",
+    "code": "text = +\"ruby\"\np text.reverse # \"ybur\", text stays ruby\ntext.reverse!\np text # \"ybur\""
+  },
+  {
+    "key": "thirteen:concept-8",
+    "code": "p 1 == 1.0       # true\np 1.eql?(1.0)    # false\np (1..3) === 2   # true\ns = \"a\"; p s.equal?(s) # true"
+  },
+  {
+    "key": "thirteen:concept-9",
+    "code": "p [].nil? # false\np [].empty? # true\np nil.nil? # true"
+  },
+  {
+    "key": "thirteen:concept-10",
+    "code": "p \" \".empty? # false in Ruby\n# With Active Support loaded: \" \".blank? is true."
+  },
+  {
+    "key": "thirteen:concept-11",
+    "code": "h = { name: \"Asha\" }\np h[:name]  # \"Asha\"\np h[\"name\"] # nil\np :name.to_s # \"name\""
+  },
+  {
+    "key": "thirteen:concept-12",
+    "code": "class User\n  attr_reader :name\n  def initialize(name)\n    @name = name\n  end\nend\np User.new(\"Asha\").name # \"Asha\""
+  },
+  {
+    "key": "thirteen:concept-13",
+    "code": "result = nil or true\np result # nil\nresult = nil || true\np result # true"
+  },
+  {
+    "key": "thirteen:concept-14",
+    "code": "def sum(a, b) = a + b\np sum(1, 2) # 3\n# sum (1, 2) is invalid syntax."
+  },
+  {
+    "key": "thirteen:concept-15",
+    "code": "text = +\"Hello, \"\nother = text + \"Ruby!\"\np text # \"Hello, \"\ntext << \"Ruby!\"\np text # \"Hello, Ruby!\""
+  },
+  {
+    "key": "thirteen:concept-16",
+    "code": "module Greeting\n  def hello = \"hello\"\nend\nclass User\n  include Greeting\n  extend Greeting\nend\np User.hello\np User.new.hello"
+  },
+  {
+    "key": "thirteen:concept-17",
+    "code": "result = catch(:found) do\n  [1, 2, 3].each { |n| throw :found, n if n.even? }\n  nil\nend\np result # 2"
+  },
+  {
+    "key": "thirteen:concept-18",
+    "code": "p({ \"one\" => 1 }[\"one\"]) # 1\np({ one: 1 }[\"one\"]) # nil"
+  },
+  {
+    "key": "thirteen:replay-Validate string against dictionary",
+    "code": "def word_break?(text, words)\n  dictionary = words.to_h { |word| [word, true] }\n  reachable = Array.new(text.length + 1, false)\n  reachable[0] = true\n  1.upto(text.length) do |finish|\n    reachable[finish] = (0...finish).any? { |start| reachable[start] && dictionary.key?(text[start...finish]) }\n  end\n  reachable.last\nend"
+  },
+  {
+    "key": "thirteen:replay-Minimum tree depth",
+    "code": "def minimum_depth(root)\n  return 0 unless root\n  queue = [[root, 1]]\n  index = 0\n  while index < queue.length\n    node, depth = queue[index]\n    index += 1\n    return depth unless node.left || node.right\n    queue << [node.left, depth + 1] if node.left\n    queue << [node.right, depth + 1] if node.right\n  end\nend"
+  },
+  {
+    "key": "thirteen:replay-Move Stones Over Grid",
+    "code": "Example clarification: Are moves between adjacent cells only? Must every cell end with one stone? What is the grid size? Are obstacles present?"
+  },
+  {
+    "key": "fourteen:1",
+    "code": "# 1. F(0) = 0, F(1) = 1; n must be a nonnegative Integer.\ndef fibonacci(n)\n  raise ArgumentError unless n.is_a?(Integer) && n >= 0\n  a, b = 0, 1\n  n.times { a, b = b, a + b }\n  a\nend\n\n# Example usage:\np fibonacci(10) # 55"
+  },
+  {
+    "key": "fourteen:2",
+    "code": "# 2. Nodes respond to next. Identity comparison is deliberate.\ndef cyclic?(head)\n  slow = fast = head\n  while fast && fast.next\n    slow = slow.next\n    fast = fast.next.next\n    return true if slow.equal?(fast)\n  end\n  false\nend\n\n# Example usage:\np cyclic?(head)"
+  },
+  {
+    "key": "fourteen:3",
+    "code": "# 3. Unordered combinations; unlimited copies of positive integer denominations.\ndef change_ways(amount, coins)\n  raise ArgumentError unless amount.is_a?(Integer) && amount >= 0\n  raise ArgumentError unless coins.all? { |c| c.is_a?(Integer) && c.positive? }\n  ways = Array.new(amount + 1, 0)\n  ways[0] = 1\n  coins.uniq.each do |coin|\n    coin.upto(amount) { |sum| ways[sum] += ways[sum - coin] }\n  end\n  ways[amount]\nend\n\n# Example usage:\np change_ways(4, [1, 2, 3]) # 4"
+  },
+  {
+    "key": "fourteen:4",
+    "code": "# 4. Amortized O(1) enqueue/dequeue; a transfer can take O(n).\nclass TwoStackQueue\n  def initialize\n    @incoming, @outgoing = [], []\n  end\n  def push(value)\n    @incoming.push(value)\n    self\n  end\n  def shift\n    if @outgoing.empty?\n      @outgoing << @incoming.pop until @incoming.empty?\n    end\n    raise IndexError, 'empty queue' if @outgoing.empty?\n    @outgoing.pop\n  end\nend\n\n# Example usage:\nqueue = TwoStackQueue.new\nqueue.push(1).push(2)\np queue.shift # 1"
+  },
+  {
+    "key": "fourteen:5",
+    "code": "# 5. Rectangles use x, y, width, height; dimensions must be nonnegative.\ndef overlap_area(a, b)\n  [a, b].each { |r| raise ArgumentError if r[:width] < 0 || r[:height] < 0 }\n  width = [[a[:x] + a[:width], b[:x] + b[:width]].min - [a[:x], b[:x]].max, 0].max\n  height = [[a[:y] + a[:height], b[:y] + b[:height]].min - [a[:y], b[:y]].max, 0].max\n  width * height\nend\n\n# Example usage:\np overlap_area({x:0,y:0,width:3,height:3}, {x:2,y:1,width:3,height:3}) # 2"
+  },
+  {
+    "key": "fourteen:6",
+    "code": "# 6. Arbitrary comparable numeric input; ties choose the earliest mode to lead.\nclass TemperatureTracker\n  attr_reader :min, :max, :mode\n  def initialize\n    @count, @sum, @mode_count = 0, 0, 0\n    @counts = Hash.new(0)\n  end\n  def insert(value)\n    @count += 1\n    @sum += value\n    @min = value if @min.nil? || value < @min\n    @max = value if @max.nil? || value > @max\n    @counts[value] += 1\n    if @counts[value] > @mode_count\n      @mode, @mode_count = value, @counts[value]\n    end\n    self\n  end\n  def mean\n    return nil if @count.zero?\n    @sum.fdiv(@count)\n  end\nend\n\n# Shared tree shape: nodes expose value, left and right.\n\n# Example usage:\ntracker = TemperatureTracker.new\n[10, 20, 20].each { |t| tracker.insert(t) }\np [tracker.min, tracker.max, tracker.mean, tracker.mode] # [10, 20, 16.666..., 20]"
+  },
+  {
+    "key": "fourteen:7",
+    "code": "# 7. Assumption: \"superbalanced\" means max leaf depth - min leaf depth <= 1.\ndef superbalanced?(root)\n  return true unless root\n  depths = []\n  stack = [[root, 0]]\n  until stack.empty?\n    node, depth = stack.pop\n    if !node.left && !node.right\n      depths << depth unless depths.include?(depth)\n      return false if depths.length > 2 || (depths.max - depths.min) > 1\n    else\n      stack << [node.left, depth + 1] if node.left\n      stack << [node.right, depth + 1] if node.right\n    end\n  end\n  true\nend\n\n# Example usage:\np superbalanced?(root)"
+  },
+  {
+    "key": "fourteen:8",
+    "code": "# 8. Strict BST: duplicate keys are not allowed.\ndef valid_bst?(root)\n  stack = [[root, nil, nil]]\n  until stack.empty?\n    node, lower, upper = stack.pop\n    next unless node\n    return false if lower && node.value <= lower\n    return false if upper && node.value >= upper\n    stack << [node.left, lower, node.value]\n    stack << [node.right, node.value, upper]\n  end\n  true\nend\n\n# Example usage:\np valid_bst?(root)"
+  },
+  {
+    "key": "fourteen:9",
+    "code": "# 9. Strict BST with at least two nodes.\ndef second_largest(root)\n  raise ArgumentError unless root && (root.left || root.right)\n  node = root\n  loop do\n    if !node.right && node.left\n      node = node.left\n      node = node.right while node.right\n      return node.value\n    end\n    return node.value if node.right && !node.right.left && !node.right.right\n    node = node.right\n  end\nend\n\n# Example usage:\np second_largest(root)"
+  },
+  {
+    "key": "fourteen:10",
+    "code": "# 10. A trie is one possible exact-membership structure, not a full search engine.\ndef trie_insert(trie, word)\n  node = trie\n  word.each_char { |char| node = (node[char] ||= {}) }\n  node[:terminal] = true\nend\ndef trie_include?(trie, word)\n  node = trie\n  word.each_char do |char|\n    node = node[char]\n    return false unless node\n  end\n  node[:terminal] == true\nend\n\n# Example usage:\ntrie = {}\ntrie_insert(trie, \"ruby\")\np trie_include?(trie, \"ruby\") # true\np trie_include?(trie, \"rub\") # false"
+  },
+  {
+    "key": "fourteen:11",
+    "code": "# 11. Sorted ascending comparable values.\ndef binary_include?(array, target)\n  low, high = 0, array.length - 1\n  while low <= high\n    mid = (low + high) / 2\n    return true if array[mid] == target\n    array[mid] < target ? low = mid + 1 : high = mid - 1\n  end\n  false\nend\n\n# Example usage:\np binary_include?([1, 3, 5, 7], 5) # true"
+  },
+  {
+    "key": "fourteen:12",
+    "code": "# 12. Rotated sorted distinct values: O(log n). Duplicates may force O(n).\ndef rotation_index(array)\n  return nil if array.empty?\n  low, high = 0, array.length - 1\n  while low < high\n    mid = (low + high) / 2\n    if array[mid] > array[high]\n      low = mid + 1\n    elsif array[mid] < array[high]\n      high = mid\n    else\n      high -= 1\n    end\n  end\n  low\nend\n\n# Example usage:\np rotation_index([4, 5, 6, 1, 2, 3]) # 3"
+  },
+  {
+    "key": "fourteen:13",
+    "code": "# 13. Distinct movie indices; one movie may not be reused.\ndef movie_pair?(lengths, flight)\n  seen = {}\n  lengths.each do |length|\n    return true if seen.key?(flight - length)\n    seen[length] = true\n  end\n  false\nend\n\n# Example usage:\np movie_pair?([60, 90, 120], 180) # true"
+  },
+  {
+    "key": "fourteen:14",
+    "code": "# 14. Cakes are [integer_weight, value]; weights >= 0, capacity integer >= 0.\ndef cake_value(cakes, capacity)\n  raise ArgumentError unless capacity.is_a?(Integer) && capacity >= 0\n  raise ArgumentError unless cakes.all? { |w, _| w.is_a?(Integer) && w >= 0 }\n  return Float::INFINITY if cakes.any? { |weight, value| weight.zero? && value.positive? }\n  useful = cakes.select { |weight, _| weight.positive? }\n  best = Array.new(capacity + 1, 0)\n  1.upto(capacity) do |space|\n    useful.each do |weight, value|\n      best[space] = [best[space], best[space - weight] + value].max if weight <= space\n    end\n  end\n  best[capacity]\nend\n\n# Example usage:\np cake_value([[3, 40], [5, 70]], 10) # 140"
+  },
+  {
+    "key": "fourteen:15",
+    "code": "# 15. A parallel maxima stack handles repeated maximum values.\nclass MaxStack\n  def initialize\n    @items, @maxima = [], []\n  end\n  def push(value)\n    @items << value\n    @maxima << value if @maxima.empty? || value >= @maxima.last\n    self\n  end\n  def pop\n    raise IndexError, 'empty stack' if @items.empty?\n    value = @items.pop\n    @maxima.pop if value == @maxima.last\n    value\n  end\n  def max = @maxima.last\nend\n\n# Example usage:\nstack = MaxStack.new\nstack.push(3).push(7).push(7)\nstack.pop\np stack.max # 7"
+  },
+  {
+    "key": "fourteen:16",
+    "code": "# 16. Integer IDs, every other ID occurs exactly twice.\ndef unique_id(ids)\n  ids.reduce(0, :^)\nend\n\n# Example usage:\np unique_id([4, 2, 4, 7, 2]) # 7"
+  },
+  {
+    "key": "fourteen:17",
+    "code": "# 17. Only a non-tail node is supplied; copies the next node's contents.\ndef delete_non_tail(node)\n  raise ArgumentError, 'tail cannot be deleted without predecessor' unless node&.next\n  node.value = node.next.value\n  node.next = node.next.next\nend\n\n# Example usage:\ndelete_non_tail(node)"
+  },
+  {
+    "key": "fourteen:18",
+    "code": "# 18. Nodes expose a writable next property.\ndef reverse_list(head)\n  previous = nil\n  while head\n    following = head.next\n    head.next = previous\n    previous, head = head, following\n  end\n  previous\nend\n\n# Example usage:\nhead = reverse_list(head)"
+  },
+  {
+    "key": "fourteen:19",
+    "code": "# 19. k=1 means the last node; reject out-of-range k.\ndef kth_last(head, k)\n  raise ArgumentError unless k.is_a?(Integer) && k.positive?\n  lead = head\n  k.times do\n    raise ArgumentError, 'k exceeds list length' unless lead\n    lead = lead.next\n  end\n  follow = head\n  while lead\n    lead, follow = lead.next, follow.next\n  end\n  follow\nend\n\n# Example usage:\np kth_last(head, 1).value"
+  },
+  {
+    "key": "fourteen:20",
+    "code": "# 20. ASCII-only mutable String. Byte swapping is unsafe for UTF-8 characters.\ndef reverse_ascii_range!(string, left, right)\n  while left < right\n    a, b = string.getbyte(left), string.getbyte(right)\n    string.setbyte(left, b)\n    string.setbyte(right, a)\n    left += 1\n    right -= 1\n  end\n  string\nend\ndef reverse_ascii!(string)\n  raise ArgumentError, 'ASCII required' unless string.ascii_only?\n  reverse_ascii_range!(string, 0, string.bytesize - 1)\nend\n\n# Example usage:\ntext = +\"ruby\"\nreverse_ascii!(text)\np text # \"ybur\""
+  },
+  {
+    "key": "fourteen:21",
+    "code": "# 21. ASCII words separated by literal spaces; preserves runs of spaces, reversed.\ndef reverse_words_ascii!(string)\n  reverse_ascii!(string)\n  start = 0\n  0.upto(string.bytesize) do |index|\n    if index == string.bytesize || string.getbyte(index) == 32\n      reverse_ascii_range!(string, start, index - 1)\n      start = index + 1\n    end\n  end\n  string\nend\n\n# Example usage:\ntext = +\"cake thief\"\nreverse_words_ascii!(text)\np text # \"thief cake\""
+  },
+  {
+    "key": "fourteen:22",
+    "code": "# 22. opening_index points to '('; returns matching index, raises if absent.\ndef closing_parenthesis(string, opening_index)\n  raise ArgumentError unless string[opening_index] == '('\n  depth = 0\n  opening_index.upto(string.length - 1) do |index|\n    depth += 1 if string[index] == '('\n    depth -= 1 if string[index] == ')'\n    return index if depth.zero?\n  end\n  raise ArgumentError, 'no matching closing parenthesis'\nend\n\n# Example usage:\np closing_parenthesis(\"a(b(c)d)e\", 1) # 7"
+  },
+  {
+    "key": "fourteen:23",
+    "code": "# 23. Ignore non-bracket characters; match (), [] and {}.\ndef valid_brackets?(string)\n  closing = { ')' => '(', ']' => '[', '}' => '{' }\n  stack = []\n  string.each_char do |char|\n    if closing.value?(char)\n      stack << char\n    elsif closing.key?(char)\n      return false unless stack.pop == closing[char]\n    end\n  end\n  stack.empty?\nend\n\n# Example usage:\np valid_brackets?(\"{a:[()]}\") # true\np valid_brackets?(\"([)]\") # false"
+  },
+  {
+    "key": "fourteen:24",
+    "code": "# 24. Literal characters; case and whitespace matter in this variant.\ndef palindrome_permutation?(string)\n  odd = {}\n  string.each_char { |char| odd.key?(char) ? odd.delete(char) : odd[char] = true }\n  odd.size <= 1\nend\n\n# Example usage:\np palindrome_permutation?(\"civic\") # true"
+  },
+  {
+    "key": "fourteen:25",
+    "code": "# 25. Unique permutations; output size is inherently factorial in the worst case.\ndef permutations(string)\n  return [''] if string.empty?\n  chars = string.chars\n  chars.uniq.flat_map do |char|\n    index = chars.index(char)\n    rest = chars[0...index] + chars[index + 1..]\n    permutations(rest.join).map { |suffix| char + suffix }\n  end\nend\n\n# Example usage:\np permutations(\"aba\").sort # [\"aab\", \"aba\", \"baa\"]"
+  },
+  {
+    "key": "fourteen:26",
+    "code": "# 26. Integer scores in 0..maximum, returned in descending order.\ndef sort_scores(scores, maximum)\n  raise ArgumentError unless maximum.is_a?(Integer) && maximum >= 0\n  counts = Array.new(maximum + 1, 0)\n  scores.each do |score|\n    raise ArgumentError unless score.is_a?(Integer) && score.between?(0, maximum)\n    counts[score] += 1\n  end\n  maximum.downto(0).flat_map { |score| Array.new(counts[score], score) }\nend\n\n# Example usage:\np sort_scores([30, 10, 30, 20], 100) # [30, 30, 20, 10]"
+  },
+  {
+    "key": "fourteen:27",
+    "code": "# 27. Assumption: array contains 1..n once plus exactly one extra duplicate.\ndef one_duplicate_sum(numbers)\n  n = numbers.length - 1\n  numbers.sum - n * (n + 1) / 2\nend\n\n# Example usage:\np one_duplicate_sum([1, 2, 3, 2]) # 2"
+  },
+  {
+    "key": "fourteen:28",
+    "code": "# 28. Chosen policy: case-insensitive Unicode letter words, internal apostrophes.\ndef word_counts(text)\n  text.downcase.scan(/[\\p{L}\\p{N}]+(?:['’][\\p{L}\\p{N}]+)*/).tally\nend\n\n# Example usage:\np word_counts(\"Ruby, ruby! It’s useful.\") # {\"ruby\"=>2, \"it’s\"=>1, \"useful\"=>1}"
+  },
+  {
+    "key": "fourteen:29",
+    "code": "# 29. Fisher-Yates; RNG must produce uniform integers in 0...bound.\ndef shuffle!(array, random = Random.new)\n  (array.length - 1).downto(1) do |index|\n    other = random.rand(index + 1)\n    array[index], array[other] = array[other], array[index]\n  end\n  array\nend\n\n# Example usage:\np shuffle!([1, 2, 3, 4], Random.new(123))"
+  },
+  {
+    "key": "fourteen:30",
+    "code": "# 30. Orders have distinct IDs, are partitioned into two given streams.\ndef first_come_first_served?(takeout, dinein, served)\n  return false unless served.length == takeout.length + dinein.length\n  i = j = 0\n  served.each do |order|\n    if i < takeout.length && order == takeout[i]\n      i += 1\n    elsif j < dinein.length && order == dinein[j]\n      j += 1\n    else\n      return false\n    end\n  end\n  i == takeout.length && j == dinein.length\nend\n\n# Example usage:\np first_come_first_served?([1, 3], [2, 4], [1, 2, 3, 4]) # true"
+  },
+  {
+    "key": "fourteen:31",
+    "code": "# 31. die7.call returns a uniform integer in 1..7.\ndef five_from_seven(die7)\n  loop do\n    value = die7.call\n    return value if value <= 5\n  end\nend\n\n# Example usage:\np five_from_seven(-> { rand(1..7) })"
+  },
+  {
+    "key": "fourteen:32",
+    "code": "# 32. Two die5 rolls make 0..24; reject 21..24, map remaining 21 evenly.\ndef seven_from_five(die5)\n  loop do\n    value = (die5.call - 1) * 5 + die5.call - 1\n    return value % 7 + 1 if value < 21\n  end\nend\n\n# Example usage:\np seven_from_five(-> { rand(1..5) })"
+  },
+  {
+    "key": "fourteen:33",
+    "code": "# 33. Two eggs: smallest k with k*(k+1)/2 >= floors.\ndef two_egg_worst_case(floors)\n  raise ArgumentError unless floors.is_a?(Integer) && floors >= 0\n  drops = 0\n  coverage = 0\n  while coverage < floors\n    drops += 1\n    coverage += drops\n  end\n  drops\nend\n\n# Example usage:\np two_egg_worst_case(100) # 14"
+  },
+  {
+    "key": "fourteen:34",
+    "code": "# 34. n+1 values in 1..n with at least one duplicate; no mutation, O(n log n).\ndef duplicate_low_space(numbers)\n  low, high = 1, numbers.length - 1\n  while low < high\n    mid = (low + high) / 2\n    count = numbers.count { |number| number <= mid }\n    count > mid ? high = mid : low = mid + 1\n  end\n  low\nend\n\n# Example usage:\np duplicate_low_space([1, 3, 4, 2, 2]) # 2"
+  },
+  {
+    "key": "fourteen:35",
+    "code": "# 35. Same bounded-domain assumptions; Floyd's cycle algorithm, O(n), O(1).\ndef duplicate_floyd(numbers)\n  slow = fast = numbers[0]\n  loop do\n    slow = numbers[slow]\n    fast = numbers[numbers[fast]]\n    break if slow == fast\n  end\n  slow = numbers[0]\n  until slow == fast\n    slow, fast = numbers[slow], numbers[fast]\n  end\n  slow\nend\n\n# Example usage:\np duplicate_floyd([1, 3, 4, 2, 2]) # 2"
+  },
+  {
+    "key": "fourteen:36",
+    "code": "# 36. Read-only candidate detection. Never automatically deletes files.\nrequire 'digest'\ndef duplicate_file_candidates(paths)\n  paths.select { |p| File.file?(p) && !File.symlink?(p) }\n       .group_by { |p| File.size(p) }\n       .values.select { |group| group.size > 1 }\n       .flat_map do |group|\n    group.group_by { |p| Digest::SHA256.file(p).hexdigest }.values.select { |same| same.size > 1 }\n  end\nend\n\n# Example usage:\np duplicate_file_candidates([\"a.txt\", \"b.txt\"])"
+  },
+  {
+    "key": "fourteen:37",
+    "code": "# 37. One buy before one sell is required, even if every return is negative.\ndef maximum_stock_profit(prices)\n  raise ArgumentError, 'at least two prices required' if prices.length < 2\n  minimum, best = prices[0], prices[1] - prices[0]\n  prices.each_with_index do |price, index|\n    next if index.zero?\n    best = [best, price - minimum].max\n    minimum = [minimum, price].min\n  end\n  best\nend\n\n# Example usage:\np maximum_stock_profit([10, 7, 5, 8, 11, 9]) # 6"
+  },
+  {
+    "key": "fourteen:38",
+    "code": "# 38. Output array plus O(1) extra state; no division, handles zeros.\ndef products_except_self(numbers)\n  result = Array.new(numbers.length, 1)\n  prefix = 1\n  numbers.each_with_index { |number, i| result[i] = prefix; prefix *= number }\n  suffix = 1\n  (numbers.length - 1).downto(0) { |i| result[i] *= suffix; suffix *= numbers[i] }\n  result\nend\n\n# Example usage:\np products_except_self([1, 2, 3, 4]) # [24, 12, 8, 6]"
+  },
+  {
+    "key": "fourteen:39",
+    "code": "# 39. Track three largest and two smallest values; negatives can win.\ndef highest_product_three(numbers)\n  raise ArgumentError if numbers.length < 3\n  largest, smallest = [], []\n  numbers.each do |number|\n    largest = (largest + [number]).sort.last(3)\n    smallest = (smallest + [number]).sort.first(2)\n  end\n  [largest.inject(:*), largest.last * smallest.inject(:*)].max\nend\n\n# Example usage:\np highest_product_three([-10, -10, 1, 3, 2]) # 300"
+  },
+  {
+    "key": "fourteen:40",
+    "code": "# 40. Half-open intervals; this variant also merges touching intervals.\ndef merge_meetings(intervals)\n  raise ArgumentError unless intervals.all? { |start, finish| start <= finish }\n  intervals.sort_by(&:first).each_with_object([]) do |(start, finish), merged|\n    if merged.empty? || start > merged.last[1]\n      merged << [start, finish]\n    else\n      merged.last[1] = [merged.last[1], finish].max\n    end\n  end\nend\n\n# Example usage:\np merge_meetings([[0, 1], [3, 5], [4, 8], [8, 9]]) # [[0, 1], [3, 9]]"
+  },
+  {
+    "key": "fourteen:41",
+    "code": "# 41. Ticket Sales Site is a design problem; see the detailed record, not a\n# misleading standalone implementation with no real transaction/lock backend.\n\n# Example usage:\nInventory.transaction do\n  seat = Inventory.lock.find_by!(performance_id: performance.id, seat_id: seat_id)\n  raise SoldOut unless seat.available?\n  seat.update!(status: \"held\", hold_token: token, held_until: 5.minutes.from_now)\nend\n# Schematic Rails code; add a real state machine, constraints and payment workflow."
+  },
+  {
+    "key": "nineteen:1",
+    "code": "p 7.class                 # Integer\np nil.to_s                # \"\"\np [1, 2, 3].select(&:even?) # [2]"
+  },
+  {
+    "key": "nineteen:2",
+    "code": "p 7.class                 # Integer\np nil.to_s                # \"\"\np [1, 2, 3].select(&:even?) # [2]"
+  },
+  {
+    "key": "nineteen:3",
+    "code": "h = { name: \"Asha\" }\np h[:name]  # \"Asha\"\np h[\"name\"] # nil\np :name.to_s # \"name\""
+  },
+  {
+    "key": "nineteen:4",
+    "code": "def answer; 42; end\np answer # 42\np !!0 # true"
+  },
+  {
+    "key": "nineteen:5",
+    "code": "class User\n  attr_reader :name\n  def initialize(name)\n    @name = name\n  end\nend\np User.new(\"Asha\").name # \"Asha\""
+  },
+  {
+    "key": "nineteen:6",
+    "code": "name = \"Asha\"\np \"Hello, #{name}: #{2 + 3}\" # \"Hello, Asha: 5\"\np 'Hello, #{name}' # literal characters"
+  },
+  {
+    "key": "nineteen:7",
+    "code": "items = [\"ruby\", \"rails\"]\np items[0] # \"ruby\"\nuser = { name: \"Asha\", active: true }\np user.fetch(:active) # true"
+  },
+  {
+    "key": "nineteen:8",
+    "code": "p [1, 2, 3].map { |n| n * 2 } # [2, 4, 6]\np [1, 2, 3].select(&:odd?) # [1, 3]\np [1, 2, 3].reduce(0, :+) # 6"
+  },
+  {
+    "key": "nineteen:9",
+    "code": "def twice\n  2.times { yield }\nend\ntwice { puts \"hello\" }"
+  },
+  {
+    "key": "nineteen:10",
+    "code": "def greet(name, punctuation: \"!\")\n  \"Hello, #{name}#{punctuation}\"\nend\np greet(\"Asha\", punctuation: \".\") # \"Hello, Asha.\""
+  },
+  {
+    "key": "nineteen:11",
+    "code": "class User\n  attr_reader :name\n  def initialize(name)\n    @name = name\n  end\nend\np User.new(\"Asha\").name # \"Asha\""
+  },
+  {
+    "key": "nineteen:12",
+    "code": "class Person\n  attr_accessor :name\n  def initialize(name) = @name = name\nend\nperson = Person.new(\"Asha\")\nperson.name = \"Ben\"\np person.name # \"Ben\""
+  },
+  {
+    "key": "nineteen:13",
+    "code": "puts \"hi\" # hi plus newline, returns nil\nprint \"hi\" # no added newline\np \"hi\" # prints quotes and returns \"hi\""
+  },
+  {
+    "key": "nineteen:14",
+    "code": "score = 95\ngrade = if score >= 90\n  \"A\"\nelse\n  \"B\"\nend\np grade # \"A\"\nputs \"not ready\" unless false"
+  },
+  {
+    "key": "nineteen:15",
+    "code": "p (1..3).to_a # [1, 2, 3]\np (1...3).to_a # [1, 2]\np (1..10).cover?(4) # true"
+  },
+  {
+    "key": "nineteen:16",
+    "code": "p \"hello\".gsub(\"l\", \"L\") # \"heLLo\"\np \" hELLO \".strip.capitalize # \"Hello\""
+  },
+  {
+    "key": "nineteen:17",
+    "code": "class Vector\n  attr_reader :x, :y\n  def initialize(x, y)\n    @x, @y = x, y\n  end\n  def +(other) = Vector.new(x + other.x, y + other.y)\nend\np (Vector.new(1, 2) + Vector.new(3, 4)).x # 4"
+  },
+  {
+    "key": "nineteen:18",
+    "code": "require \"json\"\nrequire_relative \"support/formatter\"\nload \"./settings.rb\""
+  },
+  {
+    "key": "nineteen:19",
+    "code": "name = \"ruby\"\np name.upcase # \"RUBY\"; name is unchanged\nname.upcase!\np name # \"RUBY\""
+  },
+  {
+    "key": "nineteen:20",
+    "code": "user = nil\np user&.name # nil\n# false&.name still calls name and normally raises NoMethodError."
+  },
+  {
+    "key": "nineteen:21",
+    "code": "p ->(x) { x * 2 }.call(3) # 6\np proc { |x, y| [x, y] }.call(3) # [3, nil]\np ->(x) { x }.lambda? # true"
+  },
+  {
+    "key": "nineteen:22",
+    "code": "def transform(x)\n  block_given? ? yield(x) : x\nend\np transform(4) { |n| n * n } # 16\np transform(4) # 4"
+  },
+  {
+    "key": "nineteen:23",
+    "code": "module Greetable\n  def greet = \"hello\"\nend\nclass User\n  include Greetable\nend\np User.new.greet # \"hello\""
+  },
+  {
+    "key": "nineteen:24",
+    "code": "module Greeting\n  def hello = \"hello\"\nend\nclass User\n  include Greeting\n  extend Greeting\nend\np User.hello\np User.new.hello"
+  },
+  {
+    "key": "nineteen:25",
+    "code": "require \"stringio\"\ndef log(writer, message)\n  writer.write(message + \"\\n\")\nend\nbuffer = StringIO.new\nlog(buffer, \"ready\")\np buffer.string # \"ready\\n\""
+  },
+  {
+    "key": "nineteen:26",
+    "code": "class User\n  attr_accessor :name\n  def rename(value)\n    self.name = value\n  end\nend"
+  },
+  {
+    "key": "nineteen:27",
+    "code": "class Account\n  def check = self.secret\n  private\n  def secret = 42\nend\np Account.new.check # 42\n# Account.new.secret raises NoMethodError"
+  },
+  {
+    "key": "nineteen:28",
+    "code": "class Version\n  include Comparable\n  attr_reader :number\n  def initialize(number) = @number = number\n  def <=>(other)\n    return nil unless other.is_a?(Version)\n    number <=> other.number\n  end\nend"
+  },
+  {
+    "key": "nineteen:29",
+    "code": "class Playlist\n  include Enumerable\n  def initialize(tracks) = @tracks = tracks\n  def each(&block)\n    return enum_for(:each) unless block\n    @tracks.each(&block)\n  end\nend\np Playlist.new([\"a\", \"b\"]).map(&:upcase)"
+  },
+  {
+    "key": "nineteen:30",
+    "code": "p [\"a\", \"b\"].map(&:upcase) # [\"A\", \"B\"]\np [\"a\", \"b\"].map { |s| s.upcase }"
+  },
+  {
+    "key": "nineteen:31",
+    "code": "groups = Hash.new { |h, key| h[key] = [] }\ngroups[:ruby] << \"Asha\"\np groups # {:ruby=>[\"Asha\"]}"
+  },
+  {
+    "key": "nineteen:32",
+    "code": "begin\n  value = Integer(\"12\")\nrescue ArgumentError\n  value = nil\nelse\n  puts value\nensure\n  puts \"finished\"\nend"
+  },
+  {
+    "key": "nineteen:33",
+    "code": "items = [\"a\"].freeze\n# items << \"b\" raises FrozenError\nitems.first << \"!\" # nested String remains mutable\np items # [\"a!\"]"
+  },
+  {
+    "key": "nineteen:34",
+    "code": "case value\nwhen Integer then \"number\"\nwhen /\\A[a-z]+\\z/ then \"letters\"\nelse \"other\"\nend"
+  },
+  {
+    "key": "nineteen:35",
+    "code": "def create_user(name:, role: \"member\")\n  { name: name, role: role }\nend\np create_user(**{ name: \"Asha\" })"
+  },
+  {
+    "key": "nineteen:36",
+    "code": "Event = Data.define(:tags)\nevent = Event.new(tags: [\"ruby\"])\nevent.tags << \"rails\" # nested Array remains mutable"
+  },
+  {
+    "key": "nineteen:37",
+    "code": "obj = Object.new\ndef obj.greet = \"hello\"\np obj.greet\np obj.singleton_class\n# 5.singleton_class raises TypeError"
+  },
+  {
+    "key": "nineteen:38",
+    "code": "# Gemfile\nsource \"https://rubygems.org\"\ngem \"rack\"\n# shell: bundle install\n# shell: bundle exec ruby app.rb"
+  },
+  {
+    "key": "nineteen:39",
+    "code": "RSpec.describe \"integer addition\" do\n  it \"adds values\" do\n    expect(2 + 3).to eq(5)\n  end\nend"
+  },
+  {
+    "key": "nineteen:40",
+    "code": "def enabled?\n  return @enabled if instance_variable_defined?(:@enabled)\n  @enabled = calculate_enabled\nend"
+  },
+  {
+    "key": "nineteen:41",
+    "code": "class Settings\n  def initialize(data) = @data = data\n  def method_missing(name, *args, **kwargs, &block)\n    return @data[name] if args.empty? && kwargs.empty? && !block && @data.key?(name)\n    super\n  end\n  def respond_to_missing?(name, include_private = false)\n    @data.key?(name) || super\n  end\nend"
+  },
+  {
+    "key": "nineteen:42",
+    "code": "class Report\n  %i[csv json].each do |format|\n    define_method(\"to_#{format}\") { \"rendering #{format}\" }\n  end\nend\np Report.new.to_csv # \"rendering csv\""
+  },
+  {
+    "key": "nineteen:43",
+    "code": "module A; def hello = \"A\"; end\nclass User; include A; end\np User.ancestors\np User.new.hello"
+  },
+  {
+    "key": "nineteen:44",
+    "code": "require \"thread\"\nqueue = Queue.new\nworkers = 2.times.map { Thread.new { queue << :done } }\nworkers.each(&:join)\n2.times { p queue.pop }"
+  },
+  {
+    "key": "nineteen:45",
+    "code": "p String.class # Class\np Class.superclass # Module\np Object.superclass # BasicObject\np Object.new.singleton_class"
+  },
+  {
+    "key": "nineteen:46",
+    "code": "class String\n  def shout\n    upcase + \"!\"\n  end\nend\np \"hi\".shout # \"HI!\""
+  },
+  {
+    "key": "nineteen:47",
+    "code": "module Shouting\n  refine String do\n    def shout = upcase + \"!\"\n  end\nend\nusing Shouting\np \"hi\".shout # \"HI!\""
+  },
+  {
+    "key": "nineteen:48",
+    "code": "object = Object.new\nobject.instance_exec(3) { |n| @count = n }\np object.instance_variable_get(:@count) # 3"
+  },
+  {
+    "key": "nineteen:49",
+    "code": "before = GC.stat(:total_allocated_objects)\n100.times { Object.new }\np GC.stat(:total_allocated_objects) - before"
+  },
+  {
+    "key": "nineteen:50",
+    "code": "p GC.stat.slice(:heap_live_slots, :total_allocated_objects)"
+  },
+  {
+    "key": "nineteen:51",
+    "code": "p (1..Float::INFINITY).lazy.select(&:even?).first(3) # [2, 4, 6]"
+  },
+  {
+    "key": "nineteen:52",
+    "code": "def counter\n  n = 0\n  -> { n += 1 }\nend\nc = counter\np [c.call, c.call] # [1, 2]"
+  },
+  {
+    "key": "nineteen:53",
+    "code": "class Service\n  class << self\n    def build = new\n    private\n    def configuration = :default\n  end\nend\np Service.build.class # Service"
+  },
+  {
+    "key": "nineteen:54",
+    "code": "# config/routes.rb\nresources :articles, only: [:index, :show]\n# GET /articles/5 routes to ArticlesController#show"
+  },
+  {
+    "key": "nineteen:55",
+    "code": "Post.includes(:author).limit(20).each { |post| puts post.author.name }"
+  },
+  {
+    "key": "nineteen:56",
+    "code": "mutex = Mutex.new\ncount = 0\nthreads = 4.times.map { Thread.new { 100.times { mutex.synchronize { count += 1 } } } }\nthreads.each(&:join)\np count # 400"
+  },
+  {
+    "key": "nineteen:57",
+    "code": "case { role: \"admin\", permissions: [\"read\", \"write\"] }\nin { role: \"admin\", permissions: [*, \"write\"] }\n  puts \"can write\"\nelse\n  puts \"other\"\nend"
+  },
+  {
+    "key": "nineteen:58",
+    "code": "p [1, 2].tap { |a| a << 3 } # [1, 2, 3]\np 5.then { |n| n * 2 } # 10"
+  },
+  {
+    "key": "nineteen:59",
+    "code": "class Coord\n  attr_reader :x, :y\n  def initialize(x, y)\n    @x, @y = x, y\n  end\n  def eql?(other)\n    other.instance_of?(self.class) && x.eql?(other.x) && y.eql?(other.y)\n  end\n  def hash = [self.class, x, y].hash\nend"
+  },
+  {
+    "key": "nineteen:60",
+    "code": "Example: trace a slow endpoint, observe 201 SQL queries for 100 rows, introduce bounded eager loading, and compare query count, p95 latency and memory before/after."
+  },
+  {
+    "key": "nineteen:comparison",
+    "code": "Example evaluation: prototype the same representative endpoint, measure response distributions and memory, and compare library/operations support before making a team-level choice."
+  },
+  {
+    "key": "nineteen:FAQ1",
+    "code": "Example preparation check: explain why [1, 2].map { |n| puts n } returns [nil, nil], then run it."
+  },
+  {
+    "key": "nineteen:FAQ2",
+    "code": "Example preparation check: explain why [1, 2].map { |n| puts n } returns [nil, nil], then run it."
+  },
+  {
+    "key": "nineteen:FAQ3",
+    "code": "Example preparation check: explain why [1, 2].map { |n| puts n } returns [nil, nil], then run it."
+  },
+  {
+    "key": "nineteen:FAQ4",
+    "code": "Example preparation check: explain why [1, 2].map { |n| puts n } returns [nil, nil], then run it."
+  },
+  {
+    "key": "nineteen:FAQ5",
+    "code": "Example preparation check: explain why [1, 2].map { |n| puts n } returns [nil, nil], then run it."
+  },
+  {
+    "key": "nineteen:FAQ6",
+    "code": "Example preparation check: explain why [1, 2].map { |n| puts n } returns [nil, nil], then run it."
+  },
+  {
+    "key": "twentyone:unless-1",
+    "code": "condition = false\nunless condition\n  puts \"condition is falsy\"\nelse\n  puts \"condition is truthy\"\nend"
+  },
+  {
+    "key": "twentyone:unless-2",
+    "code": "x=3\nunless x>2\nputs \"x is less than 2\"\nelse\nputs \"x is greater than 2\"\nend"
+  },
+  {
+    "key": "twentyone:unless-3",
+    "code": "var =  1\nprint \"1 -- Value is set\\n\" if var\nprint \"2 -- Value is set\\n\" unless var\nvar = false\nprint \"3 -- Value is set\\n\" unless var"
+  },
+  {
+    "key": "twentyone:unless-4",
+    "code": "hungry=false\nunless hungry\n print \"Not hungry\"\nelse\n print \"Hungry\"\nend"
+  },
+  {
+    "key": "twentyone:unless-5",
+    "code": "code unless conditional"
+  },
+  {
+    "key": "twentyone:unless-6",
+    "code": "counter=12\nunless counter\n print counter+1\nelse\n print counter+2\nend"
+  },
+  {
+    "key": "twentyone:unless-7",
+    "code": "unless true && false\nprint \"false\"\nelse \n    print \"ruby\"\nend"
+  },
+  {
+    "key": "twentyone:unless-8",
+    "code": "print \"2 is less than 3\" unless 2>3"
+  },
+  {
+    "key": "twentyone:unless-9",
+    "code": "x=8\ny=10\nunless x>y\nputs \"x is less than y\"\nend\nunless x>y+1\nputs \"x is less than y+1\"\nend"
+  },
+  {
+    "key": "twentyone:unless-10",
+    "code": "x=\"ruby\".length\ny=\"language\".length\nputs x,y\nunless x>y \nprint \"length of x is less than that of y\"\nend"
+  },
+  {
+    "key": "twentyone:unless-11",
+    "code": "x=8\ny=10\nunless x<y\nputs \"x is less than y\"\nend\nunless x>y+1\nputs \"x is less than y+1\"\nend"
+  },
+  {
+    "key": "twentyone:case-1",
+    "code": "age =  5\ncase age\nwhen 0 .. 2\n    puts \"baby\"\nwhen 3 .. 6\n    puts \"little child\"\nwhen 7 .. 12\n    puts \"child\"\nwhen 13 .. 18\n    puts \"youth\"\nelse\n    puts \"adult\"\nend"
+  },
+  {
+    "key": "twentyone:case-2",
+    "code": "case expression\nwhen expression , expression ... then\n   code ...\nelse\n   code \nend"
+  },
+  {
+    "key": "twentyone:case-3",
+    "code": "age =  4\ncase age\nputs \"baby\" when 0 .. 2\nputs \"little child\" when 3 .. 6\nputs \"child\" when 7 .. 12\nputs \"youth\" when 13 .. 18\nputs \"adult\" else\nend"
+  },
+  {
+    "key": "twentyone:case-4",
+    "code": "for counter in 1..5\ncase counter\nwhen 0 .. 2\n    puts counter\n    puts \"baby\"\nwhen 3 .. 6\n    puts counter\n    puts \"little child\"\nwhen 7 .. 12\n    puts counter\n    puts \"child\"\nelse\n    puts counter\n    puts \"adult\"\nend\nend"
+  },
+  {
+    "key": "twentyone:case-5",
+    "code": "string = gets.chomp\ncase string\nwhen string = \"a\"\nprint \"alphabet a\"\nwhen string = \"b\"\nprint \"alphabet b\"\nwhen string = \"c\"\nprint \"alphabet c\"\nelse \n    print \"some other alphabet\"\nend"
+  },
+  {
+    "key": "twentyone:case-6",
+    "code": "p((1..3) === 2) # true"
+  },
+  {
+    "key": "twentyone:case-7",
+    "code": "length=gets.chomp\ncase length.length\nwhen length=4\nprint \"length is 4\"\nwhen length=5\nprint \"length is 5\"\nend"
+  },
+  {
+    "key": "twentyone:case-8",
+    "code": "length=gets.chomp\ncase length.reverse.length\nwhen length=4\nprint \"length is 4\"\nwhen length=5\nprint \"length is 5\"\nend"
+  },
+  {
+    "key": "twentyone:case-9",
+    "code": "l=9\ncase l\nprint \"ruby\" when l==9\nprint \"language\" when l==10\nend"
+  },
+  {
+    "key": "twentyone:case-10",
+    "code": "p(Integer === 5) # true"
+  },
+  {
+    "key": "twentyone:comparison-1",
+    "code": "p 2 == 2 # true"
+  },
+  {
+    "key": "twentyone:comparison-2",
+    "code": "value = 9\np value # 9"
+  },
+  {
+    "key": "twentyone:comparison-3",
+    "code": "a=9!=10"
+  },
+  {
+    "key": "twentyone:comparison-4",
+    "code": "test_1 = 17 > 16\nputs(test_1)\ntest_2 = 21 <= 30\nputs(test_2)\ntest_3 = 9 >= 9\nputs(test_3)\ntest_4 = -11 > 4\nputs(test_4)"
+  },
+  {
+    "key": "twentyone:comparison-5",
+    "code": "a=\"string\"\nb=\"strings\"\nif(a==b)\n    print (\"a and b are same\")\nelse \n    print \"Not same\"\nend"
+  },
+  {
+    "key": "twentyone:comparison-6",
+    "code": "value = 9 # assignment\np value == 9 # comparison, true"
+  },
+  {
+    "key": "twentyone:comparison-7",
+    "code": "a=10\nb=9\nif(a>b)\n    print (\"a greater than b\")\nelse \n    print \"Not greater\"\nend"
+  },
+  {
+    "key": "twentyone:comparison-8",
+    "code": "p [2 == 2, 2 != 3, 2 < 3] # [true, true, true]"
+  },
+  {
+    "key": "twentyone:comparison-9",
+    "code": "if(a==10 && b=9)\n    print \"true\"\nelse\n    print \"false\"\nend"
+  },
+  {
+    "key": "twentyone:comparison-10",
+    "code": "counter=1\nif counter<=5\n    puts (counter)\n    counter=counter+1"
+  },
+  {
+    "key": "twentyone:operator-1",
+    "code": "p true && false # false"
+  },
+  {
+    "key": "twentyone:operator-2",
+    "code": "p [true && true, false || true, !false] # [true, true, true]"
+  },
+  {
+    "key": "twentyone:operator-3",
+    "code": "p 1 && 2 # 2, not literal true"
+  },
+  {
+    "key": "twentyone:operator-4",
+    "code": "true && false"
+  },
+  {
+    "key": "twentyone:operator-5",
+    "code": "boolean_1 = 77 < 78 && 77 < 77\nputs boolean_1"
+  },
+  {
+    "key": "twentyone:operator-6",
+    "code": "true || false"
+  },
+  {
+    "key": "twentyone:operator-7",
+    "code": "(true && false) || (!true)"
+  },
+  {
+    "key": "twentyone:operator-8",
+    "code": "!true && !false"
+  },
+  {
+    "key": "twentyone:operator-9",
+    "code": "boolean_1 = (3 < 4 || false) && (false || true)\nputs boolean_1"
+  },
+  {
+    "key": "twentyone:operator-10",
+    "code": "boolean_1 = !(3 < 4 || false) && (false || true)\nputs boolean_1"
+  },
+  {
+    "key": "twentyone:operator-11",
+    "code": "boolean_1 = 2**3 != 3**2 || true\nputs boolean_1"
+  },
+  {
+    "key": "twentyone:operator-12",
+    "code": "boolean_1 = false || -10 > -9\nputs boolean_1"
+  },
+  {
+    "key": "twentyone:operator-13",
+    "code": "boolean_1 = !(700 / 10 == 70)\nputs boolean_1"
+  },
+  {
+    "key": "twentyone:operator-14",
+    "code": "boolean_1 = !true\nputs boolean_1  \nboolean_2 = !true && !true\nputs boolean_2"
+  },
+  {
+    "key": "twentyone:operator-15",
+    "code": "boolean_2 = !true && (!true || 100 != 5**2)\nputs boolean_2"
+  },
+  {
+    "key": "twentyfour:1",
+    "code": "# Rails provides this web-specific DSL; it is not Ruby core.\nRails.application.routes.draw do\n  resources :articles\nend"
+  },
+  {
+    "key": "twentyfour:2",
+    "code": "name = ARGV.first || $stdin.gets&.chomp || \"guest\"\nputs \"Hello, #{name}\"\n# ruby hello.rb Asha"
+  },
+  {
+    "key": "twentyfour:3",
+    "code": "p [42, 3.5, \"hi\", :name, [], {}, nil].map(&:class)"
+  },
+  {
+    "key": "twentyfour:4",
+    "code": "h = { name: \"Asha\" }\np h[:name]  # \"Asha\"\np h[\"name\"] # nil\np :name.to_s # \"name\""
+  },
+  {
+    "key": "twentyfour:5",
+    "code": "module Geometry\n  RADIUS = 5.0\n  LABEL = \"circle\".freeze\nend\np Geometry::RADIUS\n# Geometry::LABEL = \"new\" reassigns the constant (with a warning)."
+  },
+  {
+    "key": "twentyfour:6",
+    "code": "require_relative \"greetable\"\nclass User\n  include Greetable\nend"
+  },
+  {
+    "key": "twentyfour:7",
+    "code": "text = \"Email user@example.com\"\np text.scan(/\\b[\\w.+-]+@[\\w.-]+\\.[A-Za-z]{2,}\\b/)\n1.upto(5) { |n| puts \"*\" * n }"
+  },
+  {
+    "key": "twentyfour:8",
+    "code": "def read_config(path)\n  File.read(path)\nrescue Errno::ENOENT => error\n  warn error.message\n  nil\nend"
+  },
+  {
+    "key": "twentyfour:9",
+    "code": "class User\n  attr_reader :name\n  def initialize(name)\n    @name = name\n  end\nend\np User.new(\"Asha\").name # \"Asha\""
+  },
+  {
+    "key": "twentyfour:10",
+    "code": "class Person\n  attr_accessor :name\n  def initialize(name) = @name = name\nend\nperson = Person.new(\"Asha\")\nperson.name = \"Ben\"\np person.name # \"Ben\""
+  },
+  {
+    "key": "twentyfour:11",
+    "code": "before = GC.stat(:total_allocated_objects)\n100.times { Object.new }\np GC.stat(:total_allocated_objects) - before"
+  },
+  {
+    "key": "twentyfour:12",
+    "code": "line = \"  Asha  \\n\"\np line.chomp # \"  Asha  \"\np line.strip # \"Asha\""
+  },
+  {
+    "key": "twentyfour:13",
+    "code": "class User\n  attr_accessor :name\n  def rename(value)\n    self.name = value\n  end\nend"
+  },
+  {
+    "key": "twentyfour:14",
+    "code": "class User < ApplicationRecord\n  # Default table: users\nend\n# self.table_name = \"legacy_people\" overrides the mapping when needed."
+  },
+  {
+    "key": "twentyfour:15",
+    "code": "class Report\n  %i[csv json].each do |format|\n    define_method(\"export_#{format}\") { \"export as #{format}\" }\n  end\nend\np Report.new.export_csv # \"export as csv\""
+  },
+  {
+    "key": "eight:preparation-strategy",
+    "code": "Example: demonstrate a tested CSV-import job that batches records, has idempotent retries and reports how many rows succeeded or failed."
+  }
+]

@@ -46,7 +46,12 @@
       ['ruby_struct_data', 'Ruby Struct and Data'], ['ruby_pattern_matching', 'Ruby Pattern Matching'], ['ruby_frozen', 'Ruby Frozen Objects'],
       ['ruby_metaprogramming', 'Ruby Metaprogramming'], ['ruby_method_missing', 'Ruby method_missing'], ['ruby_gems', 'Ruby Gems and Bundler'],
     ]],
-    ['Ruby Interview', [['ruby_interview', 'Ruby Interview Questions'], ['ruby_quiz', 'Ruby Quiz']]],
+    ['Ruby Interview', [
+      ['ruby_interview', 'Ruby Interview Basics'], ['ruby_interview_collections', 'Ruby Collections Questions'],
+      ['ruby_interview_methods', 'Ruby Methods and Blocks Questions'], ['ruby_interview_oop', 'Ruby OOP Questions'],
+      ['ruby_interview_advanced', 'Ruby Advanced Questions'], ['ruby_interview_output', 'Ruby Output Questions'],
+      ['ruby_interview_coding', 'Ruby Coding Problems'], ['ruby_quiz', 'Ruby Quiz'],
+    ]],
   ]);
 
   // Follows the order of the Guides Index on guides.rubyonrails.org (Rails 8.1).
@@ -86,6 +91,12 @@
       ['rails_performance', 'Performance Tuning'], ['rails_caching', 'Caching'], ['rails_security', 'Security'],
       ['rails_error_reporting', 'Error Reporting'], ['rails_deploy', 'Deploying with Kamal'],
     ]],
-    ['Rails Interview', [['rails_interview', 'Rails Interview Questions'], ['rails_quiz', 'Rails Quiz']]],
+    ['Rails Interview', [
+      ['rails_interview', 'Rails Interview Basics'], ['rails_interview_models', 'Rails Model Questions'],
+      ['rails_interview_queries', 'Rails Database and Query Questions'], ['rails_interview_controllers', 'Rails Controller and View Questions'],
+      ['rails_interview_security', 'Rails Security Questions'], ['rails_interview_jobs', 'Rails Jobs and Caching Questions'],
+      ['rails_interview_testing', 'Rails Testing and Deployment Questions'], ['rails_interview_scenarios', 'Rails Scenario Questions'],
+      ['rails_quiz', 'Rails Quiz'],
+    ]],
   ]);
 })();

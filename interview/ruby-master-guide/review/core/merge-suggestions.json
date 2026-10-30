@@ -1,0 +1,512 @@
+[
+  {
+    "key": "ruby-class-module",
+    "questions": [
+      "What are modules and how are they different from classes?",
+      "Explain the difference between modules and classes in Ruby and when to use each.",
+      "What is the difference between a module and class?",
+      "What is the difference between class and module in Ruby?",
+      "What is the difference between a Ruby class and a module?",
+      "What Is The Difference Between A Class And A Module?",
+      "What is a module?  Can you tell me the difference between classes and modules?",
+      "What is a module? Can you tell me the difference between classes and modules?",
+      "What is the difference between a class and a module?"
+    ]
+  },
+  {
+    "key": "ruby-proc-lambda",
+    "questions": [
+      "Explain the concept of procs and lambdas.",
+      "How do Procs and lambdas differ in Ruby?",
+      "Explain the difference between proc and lambda in Ruby.",
+      "What is the difference between proc and lambda in Ruby?",
+      "What are Ruby's Proc and Lambda objects?",
+      "What is the difference between a proc and a lambda?"
+    ]
+  },
+  {
+    "key": "ruby-block-proc-lambda",
+    "questions": [
+      "What is the difference between blocks, procs, and lambdas in Ruby?",
+      "What are Block, Proc, and Lambda in Ruby?",
+      "Explain Blocks, Procs, Lambdas.",
+      "What is the difference between blocks, procs, and lambdas?"
+    ]
+  },
+  {
+    "key": "ruby-instance-class-variable",
+    "questions": [
+      "What is the difference between class variables (@@) and instance variables (@) in Ruby?",
+      "Explain how class variables are different from instance variables.",
+      "Describe the difference between class and instance variables? Class variables are created with the prefix ‘@@’ and are shared by all objects in a class."
+    ]
+  },
+  {
+    "key": "ruby-accessor-getter-setter",
+    "questions": [
+      "How Would You Create Getter And Setter Methods In Ruby?",
+      "What are Ruby's accessor methods?",
+      "Tell me about getters and setters in Ruby",
+      "How would you create getter and setter methods in Ruby?",
+      "What are Accessor Methods in Ruby?"
+    ]
+  },
+  {
+    "key": "ruby-accessor-three-macros",
+    "questions": [
+      "What is the difference between attr_accessor, attr_reader, and attr_writer?",
+      "What do attr_accessor, attr_reader, and attr_writer do?"
+    ]
+  },
+  {
+    "key": "ruby-gc",
+    "questions": [
+      "How does Ruby manage memory and garbage collection?",
+      "Explain the concept of garbage collection in Ruby and how it helps manage memory.",
+      "How does Ruby's garbage collection work?",
+      "What is Ruby’s garbage collection mechanism, and how does it work?",
+      "Explain About Garbage Collection Feature Of Ruby?",
+      "How does garbage collection work in Ruby?",
+      "Mention what is the function of garbage collection in Ruby on Rails?",
+      "What is Garbage collection in ruby on Rails?",
+      "What does garbage collection do in Ruby on Rails?",
+      "What is the Garbage Collection in Ruby on Rails?"
+    ]
+  },
+  {
+    "key": "ruby-closure",
+    "questions": [
+      "What is a closure in Ruby and how is it used?",
+      "Explain the concept of closures in Ruby and how they capture their surrounding context.",
+      "Describe a closure in Ruby?",
+      "What is a closure in Ruby on Rails?",
+      "What is Clouser in Ruby on Rails?"
+    ]
+  },
+  {
+    "key": "ruby-refinement",
+    "questions": [
+      "What are Ruby refinements and how do they affect method behavior?",
+      "Discuss the concept of refinements in Ruby.",
+      "Explain the concept of refinements in Ruby and their intended use."
+    ]
+  },
+  {
+    "key": "ruby-metaprogramming",
+    "questions": [
+      "Theoretical: Explain the concept of metaprogramming in Ruby and provide an example of how it can be used.",
+      "Explain the concept of metaprogramming in Ruby and how it is utilized in real-world applications.",
+      "How to implement metaprogramming in Ruby to improve code flexibility?",
+      "Explain the concept of metaprogramming in Ruby.",
+      "What is metaprogramming in Ruby, and can you give an example of its use?",
+      "How does Ruby support metaprogramming?",
+      "What is metaprogramming?",
+      "What is metaprogramming in Ruby?"
+    ]
+  },
+  {
+    "key": "ruby-symbol-string",
+    "questions": [
+      "Explain the concept of a symbol in Ruby and why it is useful compared to strings.",
+      "What is the difference between symbols and strings in Ruby?",
+      "What is the difference between symbols and strings?",
+      "How Does A Symbol Differ From A String?",
+      "Explain When to Use Symbols vs. Strings.",
+      "What is the difference between a symbol and a string?",
+      "Explain the difference between symbols and strings in Ruby.",
+      "Mention what is the difference between String and Symbol?",
+      "How does a symbol differ from a string?",
+      "What is the difference between Symbol and String?",
+      "What is the difference between String and Symbol?"
+    ]
+  },
+  {
+    "key": "ruby-symbol-variable",
+    "questions": [
+      "How is Symbol different from variables?",
+      "Explain how Symbol is different from variables?",
+      "How are Symbols different from variables?"
+    ]
+  },
+  {
+    "key": "ruby-load-require",
+    "questions": [
+      "What is the use of load and required?",
+      "What is the use of load and require in Ruby?",
+      "What Is The Use Of Load And Require In Ruby?",
+      "What are load() and require() in Ruby?",
+      "What is the difference between require and load?",
+      "What is the role of load and require in Ruby?",
+      "What is the Role of Load and Require in Ruby?"
+    ]
+  },
+  {
+    "key": "ruby-load-require-relative",
+    "questions": [
+      "What is the difference between require, require_relative, and load in Ruby?",
+      "What is the difference between load, require, and require_relative?"
+    ]
+  },
+  {
+    "key": "ruby-method-visibility",
+    "questions": [
+      "What are the three levels of method access control available in Ruby?",
+      "What are the levels of access control for Ruby methods?",
+      "What Are The Three Levels Of Method Access Control For Classes And What Do They Signify? What Do They Imply About The Method?",
+      "Name the three levels of access control for Ruby methods?",
+      "What are public, private, and protected methods?",
+      "Can you tell me the three levels of method access control for classes and modules?  What do they imply about the method?",
+      "What are the access modifiers in Ruby?",
+      "Can you tell me the three levels of method access control for classes and modules? What do they imply about the method?",
+      "What are access modifiers in Ruby?"
+    ]
+  },
+  {
+    "key": "ruby-self-receiver",
+    "questions": [
+      "Describe the role of 'self' in Ruby and its contexts.",
+      "What is self in Ruby?",
+      "What is the purpose of the self keyword in Ruby?",
+      "What does self refer to in Ruby?",
+      "What is the role of 'self' in Ruby?",
+      "What does self mean in Ruby?",
+      "What does self mean?"
+    ]
+  },
+  {
+    "key": "ruby-puts-print-p",
+    "questions": [
+      "What is the difference between puts, print, and p in Ruby?",
+      "What is the difference between puts, print, and p?"
+    ]
+  },
+  {
+    "key": "ruby-four-variable-types",
+    "questions": [
+      "How many types of variables are used in Ruby and what are they?",
+      "What are the different types of variables in Ruby?",
+      "Ruby provides four types of variables. List them and provide a brief explanation for each?"
+    ]
+  },
+  {
+    "key": "ruby-variable-prefix-three",
+    "questions": [
+      "Explain how you define Instance Variable, Global Variable, and Class Variable in Ruby?",
+      "How to define Instance Variable, Global Variable, and Class Variable in Ruby?",
+      "How to define the Instance variable, Global variable, and Class variable in Ruby."
+    ]
+  },
+  {
+    "key": "ruby-exception-handling",
+    "questions": [
+      "How is exception handling implemented in Ruby?",
+      "How do you handle exceptions in Ruby?",
+      "How do you handle exceptions in Ruby code?",
+      "How does exception handling work in Ruby?"
+    ]
+  },
+  {
+    "key": "ruby-loop-types",
+    "questions": [
+      "What are the different types of loops in Ruby?",
+      "Explain Some Of The Looping Structures Available In Ruby?",
+      "Explain some of the looping structures available in Ruby?"
+    ]
+  },
+  {
+    "key": "ruby-multiple-inheritance",
+    "questions": [
+      "Explain multiple inheritance and mixins in Ruby.",
+      "Does Ruby support multiple inheritance?",
+      "Does Ruby Allow Multiple Inheritance?",
+      "Does Ruby Support Single Inheritance/Multiple Inheritance Or Both?",
+      "Does Ruby support Multiple Inheritance and Single Inheritance?"
+    ]
+  },
+  {
+    "key": "ruby-dup-clone",
+    "questions": [
+      "Differentiate between 'dup' and 'clone' methods.",
+      "What is the difference between the `Object` methods `clone` and `dup`?",
+      "What is the difference between the Object methods clone and dup?"
+    ]
+  },
+  {
+    "key": "ruby-flexibility",
+    "questions": [
+      "Why is Ruby known as a language of flexibility?",
+      "Why Ruby Is Known As A Language Of Flexibility?",
+      "Why is Ruby known as a flexible language?",
+      "Why Ruby is known as a language of flexibility?",
+      "Is Ruby a flexible language? Why, or why not?"
+    ]
+  },
+  {
+    "key": "ruby-nil-value",
+    "questions": [
+      "What is the purpose of the 'nil' value in Ruby?",
+      "What does nil mean?"
+    ]
+  },
+  {
+    "key": "ruby-object-values",
+    "questions": [
+      "What is Ruby and why is it considered an object-oriented language (OOP)?",
+      "Explain Everything is an Object.",
+      "What does it mean that everything in Ruby is an object?",
+      "What does “everything is an object” mean in Ruby?",
+      "Explain how (almost) everything is an object in Ruby:"
+    ]
+  },
+  {
+    "key": "ruby-yield",
+    "questions": [
+      "Discuss the purpose of the 'yield' keyword in Ruby.",
+      "Explain what is “Yield” in Ruby on Rails?",
+      "What is Yield in Ruby on Rails?"
+    ]
+  },
+  {
+    "key": "ruby-each-map",
+    "questions": [
+      "What is the difference between Array#map and Array#each?",
+      "Explain the difference between Array#each and Array#map.",
+      "Explain the difference between Array#each and Array#map"
+    ]
+  },
+  {
+    "key": "rails-constant-naming",
+    "questions": [
+      "Explain what naming conventions are in Rails.",
+      "What is the naming convention used in Ruby on Rails?",
+      "Explain the naming convention in Rails.",
+      "What is the naming convention in Ruby on Rails?"
+    ]
+  },
+  {
+    "key": "ruby-class-library",
+    "questions": [
+      "What are class libraries in Ruby?",
+      "What are the different class libraries used in Ruby?",
+      "Explain what is class libraries in Ruby?",
+      "What exactly class libraries in ruby have in them?",
+      "What is meant by a “class library”?",
+      "What is Class Library in Ruby?"
+    ]
+  },
+  {
+    "key": "ruby-constructor",
+    "questions": [
+      "How to declare a constructor in a Ruby class?",
+      "How would you declare and use a constructor in Ruby?"
+    ]
+  },
+  {
+    "key": "ruby-rake",
+    "questions": [
+      "What is Rake?",
+      "What is the purpose of the rakefile available in the demo directory in Ruby?"
+    ]
+  },
+  {
+    "key": "ruby-vs-rails",
+    "questions": [
+      "What is the difference between Ruby and Ruby on Rails?",
+      "What is the difference between Ruby and Rails?"
+    ]
+  },
+  {
+    "key": "rails-mvc",
+    "questions": [
+      "Explain the model-view-controller (MVC) architecture in Ruby on Rails.",
+      "How does Ruby on Rails use the Model View Controller (MVC) framework?",
+      "What is MVC in Ruby on Rails?",
+      "Explain MVC architecture in Ruby on Rails with an example.",
+      "What is the MVC principle stands for in Ruby and what are the subsystems in which it divides the work of an application?",
+      "What does MVC mean?",
+      "How does MVC work?",
+      "Explain the MVC architecture in Rails.",
+      "Explain the MVC (Model-View-Controller) design pattern in the context of Rails.",
+      "Explain the Model-View-Controller (MVC) architectural pattern in the context of Ruby on Rails.",
+      "Explain the concept of MVC architecture in the context of Ruby on Rails.",
+      "Explain the Model-View-Controller (MVC) architectural pattern used in Ruby on Rails. How does it contribute to the development of web applications?",
+      "What is MVC?",
+      "Describe the MVC architecture in Rails.",
+      "What is the MVC pattern in Rails?",
+      "Define MVC",
+      "What is MVC and how does it work?",
+      "What is MVC and How it Works?",
+      "What does MVC stand for in Rails, and why is it important?",
+      "Can you describe the MVC pattern and how it's used in Rails? Imagine you're explaining it to a kid with building blocks."
+    ]
+  },
+  {
+    "key": "rails-active-record-definition",
+    "questions": [
+      "What is Active Record in Rails?",
+      "What exactly is the role of Active Record in Ruby?",
+      "What is Active Record in Ruby on Rails?",
+      "What is ActiveRecord in Rails?",
+      "What is ActiveRecord?",
+      "What is Active Record?",
+      "What is Rails Active Record in Ruby on Rails?",
+      "What is ActiveRecord? What does it help us do?"
+    ]
+  },
+  {
+    "key": "rails-orm",
+    "questions": [
+      "What is the object relationship model in Ruby on Rails?",
+      "What is ORM in Rails?",
+      "What is ORM?",
+      "Explain ORM in Ruby on Rails?"
+    ]
+  },
+  {
+    "key": "rails-definition",
+    "questions": [
+      "What Is Rails?",
+      "What is Ruby on Rails?",
+      "Explain what is Ruby on Rails?",
+      "What exactly do you know about Ruby on Rails and how well it can be defined?",
+      "What is Ruby on Rails, and why is it popular for web development?",
+      "What is Ruby on Rails, and why use it?",
+      "What is Ruby on Rails"
+    ]
+  },
+  {
+    "key": "rails-migration-definition",
+    "questions": [
+      "What is a migration in Ruby on Rails?",
+      "What are migrations in Rails?",
+      "Explain Rails Migration.",
+      "What is Rails Migration?",
+      "Can you describe the purpose of a Rails migration?",
+      "What is a Rails migration? Why would you use one?"
+    ]
+  },
+  {
+    "key": "rails-advantages",
+    "questions": [
+      "What are the benefits of using Ruby on Rails?",
+      "What are the advantages of using Ruby on Rails?",
+      "What are some of the advantages of Ruby on Rails?"
+    ]
+  },
+  {
+    "key": "rails-limits",
+    "questions": [
+      "In what ways is Ruby on Rails limited?",
+      "What are the limits of Ruby on Rails?"
+    ]
+  },
+  {
+    "key": "rails-helper",
+    "questions": [
+      "What is a helper in Ruby on Rails?",
+      "How do you use helpers in Ruby on Rails?",
+      "What is a Rails helper?",
+      "What are helpers in Rails?",
+      "What are Helpers and How do use Helpers in Ruby on Rails?",
+      "Explain the purpose of Rails helpers."
+    ]
+  },
+  {
+    "key": "rails-callback-definition",
+    "questions": [
+      "Explain the concept of ActiveRecord callbacks in Ruby on Rails.",
+      "What are callbacks?",
+      "What is Callback in Ruby on Rails?"
+    ]
+  },
+  {
+    "key": "rails-associations",
+    "questions": [
+      "Explain the concept of associations in ActiveRecord.",
+      "Outline the types of associations models can have in Ruby on Rails."
+    ]
+  },
+  {
+    "key": "rails-observer-callback",
+    "questions": [
+      "What is the difference between the Observers and Callbacks?",
+      "What is the difference between observers and callbacks in Ruby on rails?"
+    ]
+  },
+  {
+    "key": "rails-rest-routing",
+    "questions": [
+      "Explain the concept of RESTful routes in Rails.",
+      "Explain the concept of RESTful routes in Ruby on Rails and why they are considered best practices for web applications.",
+      "Explain the concept of RESTful routing in Ruby on Rails.",
+      "Explain the concept of RESTful routing in Ruby on Rails. How does it help in building web applications?"
+    ]
+  },
+  {
+    "key": "rails-asset-pipeline",
+    "questions": [
+      "What is the asset pipeline in Rails?",
+      "Explain what an asset pipeline is.",
+      "Explain the concept of asset pipeline in Ruby on Rails and its significance in web development.",
+      "Explain the concept of asset pipeline in Ruby on Rails and how it optimizes the delivery of assets in web applications.",
+      "What is the asset pipeline?",
+      "What is the Rails Asset Pipeline?",
+      "What is Rails’ asset pipeline?",
+      "What is an Asset Pipeline in Rails?",
+      "What is an asset pipeline in Rails? What problem does it solve?",
+      "What is the asset pipeline in Rails? What is its purpose?"
+    ]
+  },
+  {
+    "key": "rails-action-cable",
+    "questions": [
+      "Explain Action Cable in Rails.",
+      "Explain the concept of Action Cable in Ruby on Rails and how it facilitates real-time features in web applications."
+    ]
+  },
+  {
+    "key": "ruby-gem-definition",
+    "questions": [
+      "What is a gem in Ruby, and how is it useful in the development process?",
+      "What is a Gem in Ruby?",
+      "What are Gems in Ruby on Rails?",
+      "What is a “gem” in Ruby on Rails?",
+      "What is a gem in Ruby on Rails?",
+      "What is a gem in Ruby?",
+      "What is a 'gem' in Ruby on Rails? Give an example of a gem and what it does."
+    ]
+  },
+  {
+    "key": "ruby-gems-experience",
+    "questions": [
+      "What are RubyGems?  Got any favourites?",
+      "What are rubygems?  Any favorites not including rails?  Any that you've worked on personally?"
+    ]
+  },
+  {
+    "key": "ruby-gemfile",
+    "questions": [
+      "What is a Gemfile in Ruby on Rails?",
+      "What is Gemfile?",
+      "What is the purpose of the Gemfile?",
+      "What is Gemfile in Ruby on Rails?",
+      "What is the purpose of the 'Gemfile' in a Rails project?"
+    ]
+  },
+  {
+    "key": "rails-hash",
+    "questions": [
+      "What is a Hash in Ruby on Rails?",
+      "What is Hash in Ruby on Rails?"
+    ]
+  },
+  {
+    "key": "ruby-false-nil",
+    "questions": [
+      "Mention what the difference is between false and nil in Ruby?",
+      "What is the difference between “false” and “nil”?",
+      "What is the difference between false and nil in Ruby?",
+      "What is the difference between false and nil in Ruby on Rails?"
+    ]
+  }
+]

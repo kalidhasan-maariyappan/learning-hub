@@ -1,0 +1,312 @@
+[
+  {
+    "sourceFile": "first.txt",
+    "lineCount": 548,
+    "byteCount": 57769,
+    "processedRanges": [
+      [
+        1,
+        548
+      ]
+    ],
+    "questionCount": 100,
+    "notes": [
+      "No original source modified. All unique technical content remains in sourceAnswer, question bodies or original source; corrected authored answers are separate.",
+      "Question endLine may include the following heading or boilerplate because original question blocks are contiguous; HTML character offsets disambiguate same-line containers."
+    ],
+    "omittedRanges": [
+      {
+        "startLine": 228,
+        "endLine": 234,
+        "classification": "nontechnical promotional conclusion between source lists"
+      },
+      {
+        "startLine": 374,
+        "endLine": 380,
+        "classification": "nontechnical promotional conclusion between source lists"
+      },
+      {
+        "startLine": 545,
+        "endLine": 548,
+        "classification": "nontechnical promotional conclusion at end"
+      }
+    ],
+    "status": "complete",
+    "fullyRead": true,
+    "sha256": "aa89a0a1c437df3a25d99d8cf149ab9ae2bdb760fdcf600cfde2bab9f847d353",
+    "readMethod": "Entire source read, every numbered/marked/unmarked prompt extracted with associated complete answer.",
+    "nontechnicalHTMLContent": null,
+    "technicalOmissions": [],
+    "unavailableLinkedAssets": [
+      {
+        "line": 50,
+        "filename": "multi-line comment ruby.jpeg"
+      },
+      {
+        "line": 86,
+        "filename": "arrays in ruby.jpeg"
+      },
+      {
+        "line": 97,
+        "filename": "if in ruby.jpeg"
+      },
+      {
+        "line": 103,
+        "filename": "else in ruby.jpeg"
+      },
+      {
+        "line": 218,
+        "filename": "hello world ruby.jpeg"
+      },
+      {
+        "line": 224,
+        "filename": "blocks in ruby.jpeg"
+      }
+    ],
+    "flaggedRecords": 42,
+    "incompleteOriginalAnswers": []
+  },
+  {
+    "sourceFile": "second.txt",
+    "lineCount": 460,
+    "byteCount": 73270,
+    "processedRanges": [
+      [
+        1,
+        460
+      ]
+    ],
+    "questionCount": 21,
+    "notes": [
+      "No original source modified. All unique technical content remains in sourceAnswer, question bodies or original source; corrected authored answers are separate.",
+      "Question endLine may include the following heading or boilerplate because original question blocks are contiguous; HTML character offsets disambiguate same-line containers."
+    ],
+    "omittedRanges": [],
+    "status": "complete",
+    "fullyRead": true,
+    "sha256": "aceef77ebb106299148f44bde6e307e888254cca2fca6d9f19298dd027906079",
+    "readMethod": "Every complete HTML question/answer container decoded and reviewed, including every code/example/explanation; markup/metadata examined and classified.",
+    "nontechnicalHTMLContent": "HTML layout, icons/SVG paths, share links, copy/toggle controls, difficulty/view/date display metadata and site promotional footer excluded from educational answers; original source files are preserved.",
+    "technicalOmissions": [],
+    "unavailableLinkedAssets": [],
+    "flaggedRecords": 7,
+    "incompleteOriginalAnswers": []
+  },
+  {
+    "sourceFile": "three.txt",
+    "lineCount": 565,
+    "byteCount": 26619,
+    "processedRanges": [
+      [
+        1,
+        565
+      ]
+    ],
+    "questionCount": 30,
+    "notes": [
+      "No original source modified. All unique technical content remains in sourceAnswer, question bodies or original source; corrected authored answers are separate.",
+      "Question endLine may include the following heading or boilerplate because original question blocks are contiguous; HTML character offsets disambiguate same-line containers."
+    ],
+    "omittedRanges": [
+      {
+        "startLine": 1,
+        "endLine": 1,
+        "classification": "difficulty heading retained as question difficulty metadata"
+      },
+      {
+        "startLine": 173,
+        "endLine": 173,
+        "classification": "difficulty heading retained as question difficulty metadata"
+      },
+      {
+        "startLine": 379,
+        "endLine": 379,
+        "classification": "difficulty heading retained as question difficulty metadata"
+      }
+    ],
+    "status": "complete",
+    "fullyRead": true,
+    "sha256": "674079d501f66a32aca15bc69d1193bd49ad3ffa106b88490fef6ade0774dfcd",
+    "readMethod": "Entire source read, every numbered/marked/unmarked prompt extracted with associated complete answer.",
+    "nontechnicalHTMLContent": null,
+    "technicalOmissions": [],
+    "unavailableLinkedAssets": [],
+    "flaggedRecords": 12,
+    "incompleteOriginalAnswers": []
+  },
+  {
+    "sourceFile": "four.txt",
+    "lineCount": 110,
+    "byteCount": 5325,
+    "processedRanges": [
+      [
+        1,
+        110
+      ]
+    ],
+    "questionCount": 10,
+    "notes": [
+      "No original source modified. All unique technical content remains in sourceAnswer, question bodies or original source; corrected authored answers are separate.",
+      "Question endLine may include the following heading or boilerplate because original question blocks are contiguous; HTML character offsets disambiguate same-line containers."
+    ],
+    "omittedRanges": [
+      {
+        "startLine": 1,
+        "endLine": 11,
+        "classification": "article title, tags and nontechnical interview introduction"
+      },
+      {
+        "startLine": 110,
+        "endLine": 110,
+        "classification": "nontechnical closing salutation"
+      }
+    ],
+    "status": "complete",
+    "fullyRead": true,
+    "sha256": "0122c9fe88a7cc37d77b586d0b055218175798cfe1df8c1f09202de4a64151bf",
+    "readMethod": "Entire source read, every numbered/marked/unmarked prompt extracted with associated complete answer.",
+    "nontechnicalHTMLContent": null,
+    "technicalOmissions": [],
+    "unavailableLinkedAssets": [],
+    "flaggedRecords": 3,
+    "incompleteOriginalAnswers": []
+  },
+  {
+    "sourceFile": "five.txt",
+    "lineCount": 63,
+    "byteCount": 2866,
+    "processedRanges": [
+      [
+        1,
+        63
+      ]
+    ],
+    "questionCount": 15,
+    "notes": [
+      "No original source modified. All unique technical content remains in sourceAnswer, question bodies or original source; corrected authored answers are separate.",
+      "Question endLine may include the following heading or boilerplate because original question blocks are contiguous; HTML character offsets disambiguate same-line containers."
+    ],
+    "omittedRanges": [
+      {
+        "startLine": 1,
+        "endLine": 1,
+        "classification": "topic heading"
+      },
+      {
+        "startLine": 16,
+        "endLine": 16,
+        "classification": "topic heading"
+      },
+      {
+        "startLine": 28,
+        "endLine": 28,
+        "classification": "topic heading"
+      },
+      {
+        "startLine": 38,
+        "endLine": 38,
+        "classification": "topic heading"
+      },
+      {
+        "startLine": 50,
+        "endLine": 50,
+        "classification": "topic heading"
+      },
+      {
+        "startLine": 58,
+        "endLine": 58,
+        "classification": "TODO section heading; all four following questions extracted"
+      }
+    ],
+    "status": "complete",
+    "fullyRead": true,
+    "sha256": "a2c56d7d6727d3fe6699d4a901475e75912d3e9170eed31ab14b1dd2c0d46794",
+    "readMethod": "Entire source read, every numbered/marked/unmarked prompt extracted with associated complete answer.",
+    "nontechnicalHTMLContent": null,
+    "technicalOmissions": [],
+    "unavailableLinkedAssets": [],
+    "flaggedRecords": 9,
+    "incompleteOriginalAnswers": [
+      {
+        "startLine": 18,
+        "question": "What are the three levels of method access control available in Ruby?"
+      },
+      {
+        "startLine": 52,
+        "question": "What is the function of `method_missing`?  How is it used in meta-programming in Ruby?"
+      },
+      {
+        "startLine": 56,
+        "question": "What is a DSL (Domain Specific Language) and why is Ruby a popular language to build DSLs in?"
+      },
+      {
+        "startLine": 60,
+        "question": "What are RubyGems?  Got any favourites?"
+      },
+      {
+        "startLine": 61,
+        "question": "What is Rails good at?  What is it not so good at?"
+      },
+      {
+        "startLine": 62,
+        "question": "List some things you would change about Rails"
+      },
+      {
+        "startLine": 63,
+        "question": "How does Rails extend the Ruby language? (Convenience methods, 3.seconds.ago, hash.slice, ...)"
+      }
+    ]
+  },
+  {
+    "sourceFile": "six.txt",
+    "lineCount": 2983,
+    "byteCount": 157613,
+    "processedRanges": [
+      [
+        1,
+        2983
+      ]
+    ],
+    "questionCount": 30,
+    "notes": [
+      "No original source modified. All unique technical content remains in sourceAnswer, question bodies or original source; corrected authored answers are separate.",
+      "Question endLine may include the following heading or boilerplate because original question blocks are contiguous; HTML character offsets disambiguate same-line containers."
+    ],
+    "omittedRanges": [],
+    "status": "complete",
+    "fullyRead": true,
+    "sha256": "4a2146933bfb312ff027f54ae10e53c82b2048a2fea9e89df39ee80908c681d5",
+    "readMethod": "Every complete HTML question/answer container decoded and reviewed, including every code/example/explanation; markup/metadata examined and classified.",
+    "nontechnicalHTMLContent": "HTML layout, icons/SVG paths, share links, copy/toggle controls, difficulty/view/date display metadata and site promotional footer excluded from educational answers; original source files are preserved.",
+    "technicalOmissions": [],
+    "unavailableLinkedAssets": [],
+    "flaggedRecords": 30,
+    "incompleteOriginalAnswers": []
+  },
+  {
+    "sourceFile": "twelve.txt",
+    "lineCount": 29,
+    "byteCount": 4076,
+    "processedRanges": [
+      [
+        1,
+        29
+      ]
+    ],
+    "questionCount": 10,
+    "notes": [
+      "No original source modified. All unique technical content remains in sourceAnswer, question bodies or original source; corrected authored answers are separate.",
+      "Question endLine may include the following heading or boilerplate because original question blocks are contiguous; HTML character offsets disambiguate same-line containers."
+    ],
+    "omittedRanges": [],
+    "status": "complete",
+    "fullyRead": true,
+    "sha256": "1dcafd5175869a1b6c7607a94f870df7e82ff78d72aa5828f76e68bde1bd8e70",
+    "readMethod": "Entire source read, every numbered/marked/unmarked prompt extracted with associated complete answer.",
+    "nontechnicalHTMLContent": null,
+    "technicalOmissions": [],
+    "unavailableLinkedAssets": [],
+    "flaggedRecords": 0,
+    "incompleteOriginalAnswers": []
+  }
+]

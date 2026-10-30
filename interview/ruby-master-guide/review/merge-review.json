@@ -1,0 +1,1658 @@
+[
+  {
+    "id": "A-0066",
+    "key": "concept:ruby-loop-types",
+    "questions": [
+      "What are the different types of loops in Ruby?",
+      "Explain Some Of The Looping Structures Available In Ruby?",
+      "Explain some of the looping structures available in Ruby?"
+    ],
+    "occurrences": 3
+  },
+  {
+    "id": "A-0079",
+    "key": "exact:explain this ruby idiom: a ||= b",
+    "questions": [
+      "Explain this ruby idiom: a ||= b"
+    ],
+    "occurrences": 2
+  },
+  {
+    "id": "A-0082",
+    "key": "exact:explain what the splat operator is.",
+    "questions": [
+      "Explain what the splat operator is."
+    ],
+    "occurrences": 2
+  },
+  {
+    "id": "A-0095",
+    "key": "exact:how do you define a method in ruby?",
+    "questions": [
+      "How do you define a method in Ruby?"
+    ],
+    "occurrences": 2
+  },
+  {
+    "id": "A-0101",
+    "key": "concept:ruby-exception-handling",
+    "questions": [
+      "How is exception handling implemented in Ruby?",
+      "How do you handle exceptions in Ruby?",
+      "How do you handle exceptions in Ruby code?",
+      "How does exception handling work in Ruby?"
+    ],
+    "occurrences": 5
+  },
+  {
+    "id": "A-0137",
+    "key": "exact:what does this say about the advantages of ruby's dynamic (duck) typed system?",
+    "questions": [
+      "What does this say about the advantages of ruby's dynamic (duck) typed system?"
+    ],
+    "occurrences": 2
+  },
+  {
+    "id": "A-0141",
+    "key": "concept:ruby-closure",
+    "questions": [
+      "What is a closure in Ruby and how is it used?",
+      "Explain the concept of closures in Ruby and how they capture their surrounding context.",
+      "Describe a closure in Ruby?",
+      "What is a closure in Ruby on Rails?",
+      "What is Clouser in Ruby on Rails?"
+    ],
+    "occurrences": 5
+  },
+  {
+    "id": "A-0143",
+    "key": "concept:ruby-duck-typing",
+    "questions": [
+      "What is Duck Typing in Ruby?",
+      "What is duck typing in Ruby?"
+    ],
+    "occurrences": 2
+  },
+  {
+    "id": "A-0158",
+    "key": "concept:ruby-puts-print-p",
+    "questions": [
+      "What is the difference between puts, print, and p in Ruby?",
+      "What is the difference between puts, print, and p?"
+    ],
+    "occurrences": 2
+  },
+  {
+    "id": "A-0160",
+    "key": "concept:ruby-load-require-relative",
+    "questions": [
+      "What is the difference between require, require_relative, and load in Ruby?",
+      "What is the difference between load, require, and require_relative?"
+    ],
+    "occurrences": 2
+  },
+  {
+    "id": "A-0166",
+    "key": "concept:ruby-self-receiver",
+    "questions": [
+      "Describe the role of 'self' in Ruby and its contexts.",
+      "What is self in Ruby?",
+      "What is the purpose of the self keyword in Ruby?",
+      "What does self refer to in Ruby?",
+      "What is the role of 'self' in Ruby?",
+      "What does self mean in Ruby?",
+      "What does self mean?"
+    ],
+    "occurrences": 8
+  },
+  {
+    "id": "A-0170",
+    "key": "concept:ruby-load-require",
+    "questions": [
+      "What is the use of load and required?",
+      "What is the use of load and require in Ruby?",
+      "What Is The Use Of Load And Require In Ruby?",
+      "What are load() and require() in Ruby?",
+      "What is the difference between require and load?",
+      "What is the role of load and require in Ruby?",
+      "What is the Role of Load and Require in Ruby?"
+    ],
+    "occurrences": 8
+  },
+  {
+    "id": "A-0195",
+    "key": "concept:ruby-each-map",
+    "questions": [
+      "What is the difference between Array#map and Array#each?",
+      "Explain the difference between Array#each and Array#map.",
+      "Explain the difference between Array#each and Array#map"
+    ],
+    "occurrences": 3
+  },
+  {
+    "id": "A-0196",
+    "key": "concept:ruby-class-module",
+    "questions": [
+      "What are modules and how are they different from classes?",
+      "Explain the difference between modules and classes in Ruby and when to use each.",
+      "What is the difference between a module and class?",
+      "What is the difference between class and module in Ruby?",
+      "What is the difference between a Ruby class and a module?",
+      "What Is The Difference Between A Class And A Module?",
+      "What is a module?  Can you tell me the difference between classes and modules?",
+      "What is a module? Can you tell me the difference between classes and modules?",
+      "What is the difference between a class and a module?"
+    ],
+    "occurrences": 9
+  },
+  {
+    "id": "A-0211",
+    "key": "concept:ruby-block-proc-lambda",
+    "questions": [
+      "What is the difference between blocks, procs, and lambdas in Ruby?",
+      "What are Block, Proc, and Lambda in Ruby?",
+      "Explain Blocks, Procs, Lambdas.",
+      "What is the difference between blocks, procs, and lambdas?"
+    ],
+    "occurrences": 4
+  },
+  {
+    "id": "A-0224",
+    "key": "concept:ruby-gem-definition",
+    "questions": [
+      "What is a gem in Ruby, and how is it useful in the development process?",
+      "What is a Gem in Ruby?",
+      "What are Gems in Ruby on Rails?",
+      "What is a “gem” in Ruby on Rails?",
+      "What is a gem in Ruby on Rails?",
+      "What is a gem in Ruby?",
+      "What is a 'gem' in Ruby on Rails? Give an example of a gem and what it does."
+    ],
+    "occurrences": 7
+  },
+  {
+    "id": "A-0225",
+    "key": "exact:what is a proc?",
+    "questions": [
+      "What is a Proc?"
+    ],
+    "occurrences": 2
+  },
+  {
+    "id": "A-0228",
+    "key": "concept:ruby-proc-lambda",
+    "questions": [
+      "Explain the concept of procs and lambdas.",
+      "How do Procs and lambdas differ in Ruby?",
+      "Explain the difference between proc and lambda in Ruby.",
+      "What is the difference between proc and lambda in Ruby?",
+      "What are Ruby's Proc and Lambda objects?",
+      "What is the difference between a proc and a lambda?"
+    ],
+    "occurrences": 6
+  },
+  {
+    "id": "A-0231",
+    "key": "concept:ruby-yield",
+    "questions": [
+      "Discuss the purpose of the 'yield' keyword in Ruby.",
+      "Explain what is “Yield” in Ruby on Rails?",
+      "What is Yield in Ruby on Rails?"
+    ],
+    "occurrences": 3
+  },
+  {
+    "id": "A-0238",
+    "key": "concept:ruby-multiple-inheritance",
+    "questions": [
+      "Explain multiple inheritance and mixins in Ruby.",
+      "Does Ruby support multiple inheritance?",
+      "Does Ruby Allow Multiple Inheritance?",
+      "Does Ruby Support Single Inheritance/Multiple Inheritance Or Both?",
+      "Does Ruby support Multiple Inheritance and Single Inheritance?"
+    ],
+    "occurrences": 5
+  },
+  {
+    "id": "A-0261",
+    "key": "concept:ruby-constructor",
+    "questions": [
+      "How to declare a constructor in a Ruby class?",
+      "How would you declare and use a constructor in Ruby?"
+    ],
+    "occurrences": 2
+  },
+  {
+    "id": "A-0262",
+    "key": "concept:ruby-variable-prefix-three",
+    "questions": [
+      "Explain how you define Instance Variable, Global Variable, and Class Variable in Ruby?",
+      "How to define Instance Variable, Global Variable, and Class Variable in Ruby?",
+      "How to define the Instance variable, Global variable, and Class variable in Ruby."
+    ],
+    "occurrences": 3
+  },
+  {
+    "id": "A-0265",
+    "key": "concept:ruby-accessor-getter-setter",
+    "questions": [
+      "How Would You Create Getter And Setter Methods In Ruby?",
+      "What are Ruby's accessor methods?",
+      "Tell me about getters and setters in Ruby",
+      "How would you create getter and setter methods in Ruby?",
+      "What are Accessor Methods in Ruby?"
+    ],
+    "occurrences": 5
+  },
+  {
+    "id": "A-0270",
+    "key": "concept:ruby-method-visibility",
+    "questions": [
+      "What are the three levels of method access control available in Ruby?",
+      "What are the levels of access control for Ruby methods?",
+      "What Are The Three Levels Of Method Access Control For Classes And What Do They Signify? What Do They Imply About The Method?",
+      "Name the three levels of access control for Ruby methods?",
+      "What are public, private, and protected methods?",
+      "Can you tell me the three levels of method access control for classes and modules?  What do they imply about the method?",
+      "What are the access modifiers in Ruby?",
+      "Can you tell me the three levels of method access control for classes and modules? What do they imply about the method?",
+      "What are access modifiers in Ruby?"
+    ],
+    "occurrences": 9
+  },
+  {
+    "id": "A-0271",
+    "key": "concept:ruby-accessor-three-macros",
+    "questions": [
+      "What is the difference between attr_accessor, attr_reader, and attr_writer?",
+      "What do attr_accessor, attr_reader, and attr_writer do?"
+    ],
+    "occurrences": 2
+  },
+  {
+    "id": "A-0273",
+    "key": "exact:what is a class?",
+    "questions": [
+      "What is a class?"
+    ],
+    "occurrences": 2
+  },
+  {
+    "id": "A-0276",
+    "key": "exact:what is an object?",
+    "questions": [
+      "What is an object?"
+    ],
+    "occurrences": 3
+  },
+  {
+    "id": "A-0277",
+    "key": "concept:ruby-class-library",
+    "questions": [
+      "What are class libraries in Ruby?",
+      "What are the different class libraries used in Ruby?",
+      "Explain what is class libraries in Ruby?",
+      "What exactly class libraries in ruby have in them?",
+      "What is meant by a “class library”?",
+      "What is Class Library in Ruby?"
+    ],
+    "occurrences": 8
+  },
+  {
+    "id": "A-0278",
+    "key": "concept:ruby-mixin",
+    "questions": [
+      "What is Mixin?",
+      "What is Mixin in Rails?"
+    ],
+    "occurrences": 2
+  },
+  {
+    "id": "A-0279",
+    "key": "concept:ruby-object-values",
+    "questions": [
+      "What is Ruby and why is it considered an object-oriented language (OOP)?",
+      "Explain Everything is an Object.",
+      "What does it mean that everything in Ruby is an object?",
+      "What does “everything is an object” mean in Ruby?",
+      "Explain how (almost) everything is an object in Ruby:"
+    ],
+    "occurrences": 5
+  },
+  {
+    "id": "A-0281",
+    "key": "concept:ruby-instance-class-variable",
+    "questions": [
+      "What is the difference between class variables (@@) and instance variables (@) in Ruby?",
+      "Explain how class variables are different from instance variables.",
+      "Describe the difference between class and instance variables? Class variables are created with the prefix ‘@@’ and are shared by all objects in a class."
+    ],
+    "occurrences": 3
+  },
+  {
+    "id": "A-0282",
+    "key": "concept:ruby-super",
+    "questions": [
+      "What is the difference between calling `super` and calling `super()`?",
+      "What is the difference between calling super and calling super()?",
+      "What is the difference between super and super() Call?"
+    ],
+    "occurrences": 3
+  },
+  {
+    "id": "A-0283",
+    "key": "concept:ruby-dup-clone",
+    "questions": [
+      "Differentiate between 'dup' and 'clone' methods.",
+      "What is the difference between the `Object` methods `clone` and `dup`?",
+      "What is the difference between the Object methods clone and dup?"
+    ],
+    "occurrences": 3
+  },
+  {
+    "id": "A-0287",
+    "key": "exact:what is unit testing (in classical terms)? what is the primary technique when writing a test?",
+    "questions": [
+      "What is unit testing (in classical terms)?  What is the primary technique when writing a test?",
+      "What is unit testing (in classical terms)? What is the primary technique when writing a test?"
+    ],
+    "occurrences": 2
+  },
+  {
+    "id": "A-0298",
+    "key": "concept:ruby-gems-experience",
+    "questions": [
+      "What are RubyGems?  Got any favourites?",
+      "What are rubygems?  Any favorites not including rails?  Any that you've worked on personally?"
+    ],
+    "occurrences": 2
+  },
+  {
+    "id": "A-0301",
+    "key": "exact:what is the purpose of the gemfile in a rails application?",
+    "questions": [
+      "What is the purpose of the Gemfile in a Rails application?"
+    ],
+    "occurrences": 2
+  },
+  {
+    "id": "A-0326",
+    "key": "concept:ruby-include-extend",
+    "questions": [
+      "What is the difference between include and extend in Ruby?"
+    ],
+    "occurrences": 3
+  },
+  {
+    "id": "A-0351",
+    "key": "exact:how does string interpolation work in ruby?",
+    "questions": [
+      "How does string interpolation work in Ruby?"
+    ],
+    "occurrences": 2
+  },
+  {
+    "id": "A-0352",
+    "key": "concept:ruby-symbol-variable",
+    "questions": [
+      "How is Symbol different from variables?",
+      "Explain how Symbol is different from variables?",
+      "How are Symbols different from variables?"
+    ],
+    "occurrences": 3
+  },
+  {
+    "id": "A-0363",
+    "key": "concept:ruby-four-variable-types",
+    "questions": [
+      "How many types of variables are used in Ruby and what are they?",
+      "What are the different types of variables in Ruby?",
+      "Ruby provides four types of variables. List them and provide a brief explanation for each?"
+    ],
+    "occurrences": 5
+  },
+  {
+    "id": "A-0370",
+    "key": "concept:ruby-hash",
+    "questions": [
+      "What is a Hash in Ruby on Rails?",
+      "What is Hash in Ruby on Rails?"
+    ],
+    "occurrences": 3
+  },
+  {
+    "id": "A-0373",
+    "key": "concept:ruby-nil-false",
+    "questions": [
+      "Mention what the difference is between false and nil in Ruby?",
+      "What is the difference between “false” and “nil”?",
+      "What is the difference between false and nil in Ruby?",
+      "What is the difference between false and nil in Ruby on Rails?"
+    ],
+    "occurrences": 4
+  },
+  {
+    "id": "A-0380",
+    "key": "concept:ruby-symbol-string",
+    "questions": [
+      "Explain the concept of a symbol in Ruby and why it is useful compared to strings.",
+      "What is the difference between symbols and strings in Ruby?",
+      "What is the difference between symbols and strings?",
+      "How Does A Symbol Differ From A String?",
+      "Explain When to Use Symbols vs. Strings.",
+      "What is the difference between a symbol and a string?",
+      "Explain the difference between symbols and strings in Ruby.",
+      "Mention what is the difference between String and Symbol?",
+      "How does a symbol differ from a string?",
+      "What is the difference between Symbol and String?",
+      "What is the difference between String and Symbol?"
+    ],
+    "occurrences": 13
+  },
+  {
+    "id": "A-0381",
+    "key": "concept:ruby-nil-value",
+    "questions": [
+      "What is the purpose of the 'nil' value in Ruby?",
+      "What does nil mean?"
+    ],
+    "occurrences": 2
+  },
+  {
+    "id": "B-0005",
+    "key": "concept:rails-custom-validation",
+    "questions": [
+      "How do you implement a custom validation in Rails?",
+      "How do you set up a custom validation in Rails?",
+      "How do you create a custom validation in Rails?",
+      "Describe how you would implement a custom validator in Rails. Provide an example."
+    ],
+    "occurrences": 4
+  },
+  {
+    "id": "B-0009",
+    "key": "concept:rails-active-storage-purpose",
+    "questions": [
+      "Explain the purpose and use of Rails' Active Storage service.",
+      "Do you know about Activestorage in Ruby on Rails and How can you use this?"
+    ],
+    "occurrences": 2
+  },
+  {
+    "id": "B-0012",
+    "key": "concept:rails-cache-how",
+    "questions": [
+      "What techniques do you use for caching in Rails?",
+      "What is caching in Rails, and how do you implement it?",
+      "How do you use caching in Rails?",
+      "How do you implement caching in Rails?",
+      "Explain how you would implement caching in a Rails application. What different caching strategies are available?"
+    ],
+    "occurrences": 6
+  },
+  {
+    "id": "B-0014",
+    "key": "concept:rails-orm",
+    "questions": [
+      "What is the object relationship model in Ruby on Rails?",
+      "What is ORM in Rails?",
+      "What is ORM?",
+      "Explain ORM in Ruby on Rails?"
+    ],
+    "occurrences": 5
+  },
+  {
+    "id": "B-0020",
+    "key": "concept:rails-callback-save-pair",
+    "questions": [
+      "Explain the importance of before_save and after_save callbacks in Rails.",
+      "When would you use the before_save or after_save callback?"
+    ],
+    "occurrences": 2
+  },
+  {
+    "id": "B-0022",
+    "key": "exact:explain what count does in ruby on rails.",
+    "questions": [
+      "Explain what count does in Ruby on Rails."
+    ],
+    "occurrences": 2
+  },
+  {
+    "id": "B-0023",
+    "key": "exact:explain what delete does in ruby on rails.",
+    "questions": [
+      "Explain what delete does in Ruby on Rails.",
+      "Explain what Delete does in Ruby on Rails."
+    ],
+    "occurrences": 3
+  },
+  {
+    "id": "B-0024",
+    "key": "exact:explain what destroy does in ruby on rails.",
+    "questions": [
+      "Explain what destroy does in Ruby on Rails.",
+      "Explain what Destroy does in Ruby on Rails."
+    ],
+    "occurrences": 2
+  },
+  {
+    "id": "B-0027",
+    "key": "concept:rails-initializer",
+    "questions": [
+      "Explain what initializers are in Ruby on Rails.",
+      "What are initializers in Rails?",
+      "What is a Rails initializer?"
+    ],
+    "occurrences": 3
+  },
+  {
+    "id": "B-0028",
+    "key": "exact:explain what length does in ruby on rails.",
+    "questions": [
+      "Explain what length does in Ruby on Rails."
+    ],
+    "occurrences": 2
+  },
+  {
+    "id": "B-0033",
+    "key": "exact:explain what ruby on rails is.",
+    "questions": [
+      "Explain what Ruby on Rails is."
+    ],
+    "occurrences": 2
+  },
+  {
+    "id": "B-0034",
+    "key": "exact:explain what size does in ruby on rails.",
+    "questions": [
+      "Explain what size does in Ruby on Rails."
+    ],
+    "occurrences": 2
+  },
+  {
+    "id": "B-0035",
+    "key": "concept:rails-spring",
+    "questions": [
+      "Explain what Spring is.",
+      "What is Spring in Rails?"
+    ],
+    "occurrences": 3
+  },
+  {
+    "id": "B-0036",
+    "key": "exact:explain when self.up and self.down method is used?",
+    "questions": [
+      "Explain when self.up and self.down method is used?"
+    ],
+    "occurrences": 2
+  },
+  {
+    "id": "B-0044",
+    "key": "concept:rails-new-application",
+    "questions": [
+      "How do you create a new Rails application?",
+      "How do you create a new Rails project?",
+      "Explain how to generate a new Rails application."
+    ],
+    "occurrences": 5
+  },
+  {
+    "id": "B-0052",
+    "key": "exact:how do you handle exceptions in rails?",
+    "questions": [
+      "How do you handle exceptions in Rails?"
+    ],
+    "occurrences": 2
+  },
+  {
+    "id": "B-0054",
+    "key": "concept:rails-upload-how",
+    "questions": [
+      "How do you handle file uploads in Rails (e.g., using ActiveStorage or CarrierWave)?",
+      "How do you handle file uploads in Rails?",
+      "How do you handle file attachments in Rails?"
+    ],
+    "occurrences": 5
+  },
+  {
+    "id": "B-0056",
+    "key": "concept:rails-soft-delete",
+    "questions": [
+      "How do you implement \"soft deletes\" in Rails?",
+      "How would you implement soft deletes in Rails?"
+    ],
+    "occurrences": 2
+  },
+  {
+    "id": "B-0057",
+    "key": "concept:rails-nested-resources",
+    "questions": [
+      "How do you implement nested resources in Rails?",
+      "What is a nested resource in Rails?"
+    ],
+    "occurrences": 2
+  },
+  {
+    "id": "B-0058",
+    "key": "exact:how do you implement pagination in rails?",
+    "questions": [
+      "How do you implement pagination in Rails?"
+    ],
+    "occurrences": 2
+  },
+  {
+    "id": "B-0064",
+    "key": "concept:rails-start-server",
+    "questions": [
+      "What is the purpose of the rail's server command?",
+      "What is the purpose of the rails server command?",
+      "How do you start a Rails server?"
+    ],
+    "occurrences": 4
+  },
+  {
+    "id": "B-0070",
+    "key": "exact:how is ruby on rails different from python?",
+    "questions": [
+      "How is Ruby on Rails different from Python?"
+    ],
+    "occurrences": 2
+  },
+  {
+    "id": "B-0076",
+    "key": "concept:rails-limits",
+    "questions": [
+      "In what ways is Ruby on Rails limited?",
+      "What are the limits of Ruby on Rails?"
+    ],
+    "occurrences": 2
+  },
+  {
+    "id": "B-0088",
+    "key": "concept:rails-controller-filter",
+    "questions": [
+      "What are filters in Rails?",
+      "What is a filter in Ruby on Rails?",
+      "Give an example of a filter in Ruby on Rails.",
+      "What filters are available in Rails controllers and how do you use them?",
+      "What are filters in Rails controllers?",
+      "What are Filters?"
+    ],
+    "occurrences": 6
+  },
+  {
+    "id": "B-0090",
+    "key": "concept:rails-validation-use",
+    "questions": [
+      "What are Rails validations, and why are they important?",
+      "How can you define validations in a Rails model?",
+      "What are Validations in Active Record?",
+      "How do you handle validations in Rails?",
+      "How do you use Rails validations?"
+    ],
+    "occurrences": 5
+  },
+  {
+    "id": "B-0095",
+    "key": "concept:rails-advantages",
+    "questions": [
+      "What are the benefits of using Ruby on Rails?",
+      "What are the advantages of using Ruby on Rails?",
+      "What are some of the advantages of Ruby on Rails?"
+    ],
+    "occurrences": 4
+  },
+  {
+    "id": "B-0098",
+    "key": "concept:rails-i18n",
+    "questions": [
+      "How does Rails support internationalization (i18n) and what is an example of using locale files for translations?",
+      "How would you implement multi-language (i18n) support in Rails?",
+      "How do you handle internationalization (i18n)?",
+      "How do you configure internationalization (i18n) in Rails?",
+      "What are the different ways to handle internationalization (i18n) in a Rails application?",
+      "Explain how you would handle internationalization (i18n) and localization (l10n) in a Rails application."
+    ],
+    "occurrences": 6
+  },
+  {
+    "id": "B-0102",
+    "key": "concept:rails-mvc",
+    "questions": [
+      "Explain the model-view-controller (MVC) architecture in Ruby on Rails.",
+      "How does Ruby on Rails use the Model View Controller (MVC) framework?",
+      "What is MVC in Ruby on Rails?",
+      "Explain MVC architecture in Ruby on Rails with an example.",
+      "What is the MVC principle stands for in Ruby and what are the subsystems in which it divides the work of an application?",
+      "What does MVC mean?",
+      "How does MVC work?",
+      "Explain the MVC architecture in Rails.",
+      "Explain the MVC (Model-View-Controller) design pattern in the context of Rails.",
+      "Explain the Model-View-Controller (MVC) architectural pattern in the context of Ruby on Rails.",
+      "Explain the concept of MVC architecture in the context of Ruby on Rails.",
+      "Explain the Model-View-Controller (MVC) architectural pattern used in Ruby on Rails. How does it contribute to the development of web applications?",
+      "What is MVC?",
+      "Describe the MVC architecture in Rails.",
+      "What is the MVC pattern in Rails?",
+      "Define MVC",
+      "What is MVC and how does it work?",
+      "What are the three components of Ruby on Rails?",
+      "What is MVC and How it Works?",
+      "What does MVC stand for in Rails, and why is it important?",
+      "Can you describe the MVC pattern and how it's used in Rails? Imagine you're explaining it to a kid with building blocks."
+    ],
+    "occurrences": 23
+  },
+  {
+    "id": "B-0105",
+    "key": "concept:rails-concern",
+    "questions": [
+      "What is a concern in Rails?",
+      "What are concerns in Rails, and how do you use them?",
+      "What is the purpose of the ActiveSupport::Concern module in Rails?",
+      "What is a Rails Concern? How do you use it?",
+      "What is a Concern in Rails?",
+      "What are concerns in Rails, and when do you use them?",
+      "What is Rails’ ActiveSupport::Concern?",
+      "What are concerns and when should you use them?",
+      "What do you mean by Concerns in Rails?",
+      "Explain the concept of concerns in Rails. When and why would you use them?"
+    ],
+    "occurrences": 11
+  },
+  {
+    "id": "B-0115",
+    "key": "concept:rails-define-model",
+    "questions": [
+      "How would you create a simple model in Rails?",
+      "What is a Rails model, and what does it do?",
+      "How do you define a model with attributes in Rails?",
+      "How would you define a model in Rails? Can you give a simple example?"
+    ],
+    "occurrences": 4
+  },
+  {
+    "id": "B-0117",
+    "key": "concept:rails-callback",
+    "questions": [
+      "Explain what callbacks are in Ruby on Rails.",
+      "Explain the concept of ActiveRecord callbacks in Ruby on Rails.",
+      "Explain the concept of Rails callbacks and provide examples of where they can be used in real-world applications.",
+      "What are callbacks?",
+      "What is a callback in Rails and how do to use it?",
+      "What are Callbacks in Active Record?",
+      "What are Rails callbacks?",
+      "How do you use ActiveRecord callbacks?",
+      "What is Callback in Ruby on Rails?"
+    ],
+    "occurrences": 9
+  },
+  {
+    "id": "B-0120",
+    "key": "concept:rails-poro",
+    "questions": [
+      "What is PORO?",
+      "What is a PORO in Rails?"
+    ],
+    "occurrences": 2
+  },
+  {
+    "id": "B-0123",
+    "key": "concept:rails-scaffolding",
+    "questions": [
+      "What are Scaffolds in Rails?",
+      "Explain what “scaffolding” is.",
+      "What are the advantages of scaffolding in Ruby on Rails?",
+      "What is a \"scaffold\" in Rails?",
+      "What is Rails Scaffolding?"
+    ],
+    "occurrences": 5
+  },
+  {
+    "id": "B-0127",
+    "key": "exact:what is ruby on rails, and what are its main features?",
+    "questions": [
+      "What is Ruby on Rails, and what are its main features?"
+    ],
+    "occurrences": 2
+  },
+  {
+    "id": "B-0128",
+    "key": "concept:rails-definition",
+    "questions": [
+      "What Is Rails?",
+      "What is Ruby on Rails?",
+      "Explain what is Ruby on Rails?",
+      "What exactly do you know about Ruby on Rails and how well it can be defined?",
+      "What is Ruby on Rails, and why is it popular for web development?",
+      "What is Ruby on Rails, and why use it?",
+      "What is Ruby on Rails"
+    ],
+    "occurrences": 12
+  },
+  {
+    "id": "B-0133",
+    "key": "concept:rails-delete-destroy",
+    "questions": [
+      "What is the difference between deleting and destroying?",
+      "What is the difference between delete and destroy in Rails?"
+    ],
+    "occurrences": 2
+  },
+  {
+    "id": "B-0135",
+    "key": "concept:rails-habtm-through",
+    "questions": [
+      "What is the difference between has many: through and has_and_belongs_to_many associations?",
+      "What is the difference between has_many :through and has_and_belongs_to_many?",
+      "What is the difference between has_many :through and has_and_belongs_to_many and which one is better?"
+    ],
+    "occurrences": 3
+  },
+  {
+    "id": "B-0137",
+    "key": "exact:what is the difference between link_to and button_to in rails?",
+    "questions": [
+      "What is the difference between link_to and button_to in Rails?"
+    ],
+    "occurrences": 2
+  },
+  {
+    "id": "B-0138",
+    "key": "concept:ruby-vs-rails",
+    "questions": [
+      "What is the difference between Ruby and Ruby on Rails?",
+      "What is the difference between Ruby and Rails?"
+    ],
+    "occurrences": 3
+  },
+  {
+    "id": "B-0140",
+    "key": "concept:rails-save-bang",
+    "questions": [
+      "What is the difference between save and save!?",
+      "What is the difference between save and save! in Rails?"
+    ],
+    "occurrences": 3
+  },
+  {
+    "id": "B-0141",
+    "key": "concept:rails-observer-callback",
+    "questions": [
+      "What is the difference between the Observers and Callbacks?",
+      "What is the difference between observers and callbacks in Ruby on rails?"
+    ],
+    "occurrences": 2
+  },
+  {
+    "id": "B-0143",
+    "key": "concept:rails-constant-naming",
+    "questions": [
+      "Explain what naming conventions are in Rails.",
+      "What is the naming convention used in Ruby on Rails?",
+      "Explain the naming convention in Rails.",
+      "What is the naming convention in Ruby on Rails?"
+    ],
+    "occurrences": 4
+  },
+  {
+    "id": "B-0145",
+    "key": "concept:rails-flash",
+    "questions": [
+      "What is the flash hash in Rails?",
+      "What is a flash message in Rails, and how do you use it?",
+      "What is the purpose of flash in Rails?",
+      "What is the purpose of a 'flash' message in Rails?"
+    ],
+    "occurrences": 4
+  },
+  {
+    "id": "B-0146",
+    "key": "concept:rails-console",
+    "questions": [
+      "What does the rails console do?",
+      "What is the rails console, and how is it useful for debugging?",
+      "What is the purpose of the 'rails console'?"
+    ],
+    "occurrences": 3
+  },
+  {
+    "id": "B-0147",
+    "key": "concept:rails-application-config",
+    "questions": [
+      "What is the purpose of the application.rb file?",
+      "What is the purpose of application.rb?"
+    ],
+    "occurrences": 3
+  },
+  {
+    "id": "B-0148",
+    "key": "concept:rails-before-action",
+    "questions": [
+      "What is the purpose of the before_action callback in Rails?",
+      "What is before_action in Rails?"
+    ],
+    "occurrences": 3
+  },
+  {
+    "id": "B-0150",
+    "key": "concept:rails-uniqueness-validation",
+    "questions": [
+      "What is the purpose of validates_uniqueness_of in Rails models?",
+      "How do you validate uniqueness in Rails models?"
+    ],
+    "occurrences": 2
+  },
+  {
+    "id": "B-0151",
+    "key": "concept:rails-coc",
+    "questions": [
+      "What is the Rails convention over configuration principle?",
+      "Explain the purpose of the Rails convention over configuration principle.",
+      "What is the Rails convention over configuration (CoC) principle?",
+      "What is the convention over configuration principle?"
+    ],
+    "occurrences": 4
+  },
+  {
+    "id": "B-0152",
+    "key": "concept:rails-active-support",
+    "questions": [
+      "What is the role of ActiveSupport?",
+      "What is ActiveSupport?"
+    ],
+    "occurrences": 2
+  },
+  {
+    "id": "B-0154",
+    "key": "concept:rails-seeds",
+    "questions": [
+      "What is the significance of the db/seeds.rb file?",
+      "What is the purpose of the rails db:seed task?"
+    ],
+    "occurrences": 2
+  },
+  {
+    "id": "B-0157",
+    "key": "exact:what's the difference between 'rails new' and 'rails generate'?",
+    "questions": [
+      "What's the difference between 'rails new' and 'rails generate'?"
+    ],
+    "occurrences": 2
+  },
+  {
+    "id": "B-0161",
+    "key": "exact:which skills do developers need to use ruby on rails?",
+    "questions": [
+      "Which skills do developers need to use Ruby on Rails?"
+    ],
+    "occurrences": 2
+  },
+  {
+    "id": "B-0172",
+    "key": "concept:rails-strong-parameters",
+    "questions": [
+      "What are Strong Parameters?",
+      "Explain what Strong Parameters are.",
+      "How does Rails implement strong parameters, and why is it important?",
+      "How do you use Strong Parameters?",
+      "What are strong parameters? Explain in brief."
+    ],
+    "occurrences": 5
+  },
+  {
+    "id": "B-0173",
+    "key": "concept:rails-auth-implementation",
+    "questions": [
+      "How do you implement authentication and authorization in Rails?",
+      "How can you implement authentication and authorization in a Rails application? What gems or techniques would you consider?"
+    ],
+    "occurrences": 2
+  },
+  {
+    "id": "B-0189",
+    "key": "exact:what is a session in rails, and how is it managed?",
+    "questions": [
+      "What is a session in Rails, and how is it managed?"
+    ],
+    "occurrences": 2
+  },
+  {
+    "id": "B-0190",
+    "key": "concept:rails-csrf",
+    "questions": [
+      "What is CSRF and how does Rails protect against it?",
+      "Explain what is Cross-Site Request Forgery (CSRF) and how Rails is protected against it?",
+      "What is CSRF protection in Rails?",
+      "What is CSRF protection and how does Rails implement it?",
+      "Explain Cross-Site Request Forgery (CSRF). How is Rails protected against it?"
+    ],
+    "occurrences": 5
+  },
+  {
+    "id": "B-0197",
+    "key": "concept:rails-action-cable",
+    "questions": [
+      "Explain Action Cable in Rails.",
+      "Explain the concept of Action Cable in Ruby on Rails and how it facilitates real-time features in web applications.",
+      "What is an Action Cable?"
+    ],
+    "occurrences": 3
+  },
+  {
+    "id": "B-0205",
+    "key": "concept:rails-job",
+    "questions": [
+      "Explain what ActiveJob is.",
+      "When should you use ActiveJob?",
+      "What is an Active Job?",
+      "What is the purpose of ActiveJob in Rails?",
+      "What is Active Job?"
+    ],
+    "occurrences": 6
+  },
+  {
+    "id": "B-0217",
+    "key": "concept:rails-rbac",
+    "questions": [
+      "How can you implement role-based authorization in Rails?",
+      "Explain how you would implement a role-based access control (RBAC) system in a Rails application."
+    ],
+    "occurrences": 2
+  },
+  {
+    "id": "B-0218",
+    "key": "concept:rails-hash-indifferent",
+    "questions": [
+      "Mention what is the difference between Active support’s “HashWithIndifferent” and Ruby’s “Hash”?",
+      "Explain the difference between ActiveSupport’s \"HashWithIndifferentAccess\" and Ruby’s \"Hash\"?"
+    ],
+    "occurrences": 2
+  },
+  {
+    "id": "B-0228",
+    "key": "exact:what is the params object in rails?",
+    "questions": [
+      "What is the params object in Rails?"
+    ],
+    "occurrences": 2
+  },
+  {
+    "id": "B-0231",
+    "key": "concept:rails-controller-dir",
+    "questions": [
+      "Where one should look for the controller classes for handling the web request in Ruby?",
+      "What does the subdirectory app/controllers do?"
+    ],
+    "occurrences": 2
+  },
+  {
+    "id": "B-0237",
+    "key": "concept:rails-two-databases",
+    "questions": [
+      "How do you integrate multiple databases in a Rails application?",
+      "How would you use two databases for one application?"
+    ],
+    "occurrences": 2
+  },
+  {
+    "id": "B-0241",
+    "key": "concept:rails-associations",
+    "questions": [
+      "Explain the concept of associations in ActiveRecord.",
+      "How do Active Record associations work?",
+      "Outline the types of associations models can have in Ruby on Rails.",
+      "How do you define associations between models in Rails (e.g., has_many, belongs_to)?",
+      "What are Association in Active Record?",
+      "What are the different types of ActiveRecord associations?",
+      "How many types of Association relationships does a Model have?",
+      "What are the different types of Association in Rails?",
+      "What is an 'association' in Rails? Give an example like 'has_many'.",
+      "What are the different types of Rails associations (e.g., `has_many`, `belongs_to`), and how do you choose the right one?"
+    ],
+    "occurrences": 12
+  },
+  {
+    "id": "B-0246",
+    "key": "exact:list out what can rails migration do.",
+    "questions": [
+      "List out what can Rails Migration do."
+    ],
+    "occurrences": 2
+  },
+  {
+    "id": "B-0247",
+    "key": "concept:rails-create-migration",
+    "questions": [
+      "Mention What Is The Command To Create A Migration?",
+      "How is the migration command created in Ruby?",
+      "Mention what is the command to create a migration?",
+      "How do you generate a migration in Rails?",
+      "What command is used to create a migration?"
+    ],
+    "occurrences": 5
+  },
+  {
+    "id": "B-0260",
+    "key": "concept:rails-polymorphic",
+    "questions": [
+      "What is a Polymorphic Association?",
+      "How does Rails handle polymorphic associations?",
+      "What are polymorphic associations in Rails?",
+      "What is a polymorphic association?",
+      "Explain a polymorphic association:",
+      "What do you mean by Polymorphic Association in Rails?",
+      "Describe your understanding of polymorphic associations in Rails. Give a practical use case."
+    ],
+    "occurrences": 8
+  },
+  {
+    "id": "B-0269",
+    "key": "concept:rails-migration",
+    "questions": [
+      "What is a migration in Ruby on Rails?",
+      "What is the purpose of migrations in Rails?",
+      "What is Rails Migration?",
+      "Mention what is Rails Migration?",
+      "What is meant by “Rails migration”?",
+      "What is meant by Rails migration?",
+      "What are migrations in Rails?",
+      "What are migrations in Rails, and why are they important?",
+      "Explain the concept of migrations in Ruby on Rails and why they are essential for database management.",
+      "What are Migrations in Active Record?",
+      "What are Rails migrations?",
+      "What is referred to by Rails Migration?",
+      "Explain Rails Migration.",
+      "Can you describe the purpose of a Rails migration?",
+      "What is a Rails migration? Why would you use one?"
+    ],
+    "occurrences": 17
+  },
+  {
+    "id": "B-0278",
+    "key": "concept:rails-api-versioning",
+    "questions": [
+      "How do you handle API versioning in Rails?",
+      "Describe how you would implement API versioning in a Rails application."
+    ],
+    "occurrences": 2
+  },
+  {
+    "id": "B-0282",
+    "key": "exact:explain what is rake in rails?",
+    "questions": [
+      "Explain what is rake in Rails?"
+    ],
+    "occurrences": 2
+  },
+  {
+    "id": "B-0284",
+    "key": "concept:rails-gem-install",
+    "questions": [
+      "How can you add a new gem to your Rails application?",
+      "How do you install gems in a Rails project?"
+    ],
+    "occurrences": 3
+  },
+  {
+    "id": "B-0286",
+    "key": "concept:rails-environments",
+    "questions": [
+      "What are Rails Environments, and how do they work?",
+      "Name the three default environments in Rails?",
+      "What are Rails Environments?",
+      "Name the three default environments in Rails.",
+      "Explain what Rails environments are (development, test, production)."
+    ],
+    "occurrences": 5
+  },
+  {
+    "id": "B-0291",
+    "key": "concept:rails-rake-task",
+    "questions": [
+      "What is a rake task and how do you create one?",
+      "How do you create a custom rake task in Rails?",
+      "How do you write custom Rake tasks in Rails?",
+      "What is a 'rake' task in Rails, and give an example?"
+    ],
+    "occurrences": 4
+  },
+  {
+    "id": "B-0294",
+    "key": "concept:rails-gemfile",
+    "questions": [
+      "What is a Gemfile in Ruby on Rails?",
+      "Explain the purpose of the Gemfile in a Rails application.",
+      "What is a Gemfile in a Rails application?",
+      "What is Gemfile?",
+      "What is the purpose of the Gemfile?",
+      "What is Gemfile in Ruby on Rails?",
+      "What is the purpose of the 'Gemfile' in a Rails project?"
+    ],
+    "occurrences": 8
+  },
+  {
+    "id": "B-0296",
+    "key": "concept:ruby-rake",
+    "questions": [
+      "What is Rake?",
+      "Explain what “rake” means in Ruby on Rails.",
+      "What is the purpose of the rake command in Rails?",
+      "What is the purpose of the rakefile available in the demo directory in Ruby?"
+    ],
+    "occurrences": 4
+  },
+  {
+    "id": "B-0302",
+    "key": "concept:rails-get-post",
+    "questions": [
+      "Describe the difference between 'GET' and 'POST' HTTP methods.",
+      "Explain the difference between 'GET' and 'POST' requests."
+    ],
+    "occurrences": 2
+  },
+  {
+    "id": "B-0305",
+    "key": "concept:rails-rest",
+    "questions": [
+      "Explain the concept of RESTful routes in Rails.",
+      "Explain the concept of RESTful routes in Ruby on Rails and why they are considered best practices for web applications.",
+      "Explain the concept of RESTful routing in Ruby on Rails.",
+      "Explain the concept of RESTful routing in Ruby on Rails. How does it help in building web applications?"
+    ],
+    "occurrences": 6
+  },
+  {
+    "id": "B-0306",
+    "key": "concept:rails-controller",
+    "questions": [
+      "Define the role of Rails Controller.",
+      "What is a Rails controller?",
+      "What is a Rails Controller?",
+      "Tell something about Action Controller in Ruby on Rails?",
+      "What is the role of a controller in a Rails application?",
+      "What is the purpose of a controller in Rails?",
+      "Explain the purpose of a Rails controller.",
+      "What is a Rails controller? What is its main job?"
+    ],
+    "occurrences": 10
+  },
+  {
+    "id": "B-0309",
+    "key": "concept:rails-controller-helper-dir",
+    "questions": [
+      "Explain the role of sub-directory app/controllers and app/helpers.",
+      "Explain what is the role of sub-directory app/controllers and app/helpers?",
+      "What do subdirectory app/controllers and app/helpers do?",
+      "Explain the role of the sub-directory app/controller and app/helper."
+    ],
+    "occurrences": 4
+  },
+  {
+    "id": "B-0315",
+    "key": "concept:rails-route-definition",
+    "questions": [
+      "How do you define a route in config/routes.rb for a controller action?",
+      "How do you define a route in Rails?",
+      "How do you define routes in Rails?",
+      "How do you define a custom route in Rails?"
+    ],
+    "occurrences": 4
+  },
+  {
+    "id": "B-0325",
+    "key": "exact:how does rails handle request-response cycles?",
+    "questions": [
+      "How does Rails handle request-response cycles?"
+    ],
+    "occurrences": 2
+  },
+  {
+    "id": "B-0337",
+    "key": "concept:rails-helper",
+    "questions": [
+      "What is a helper in Ruby on Rails?",
+      "How do you use helpers in Ruby on Rails?",
+      "What is the role of a helper in Rails?",
+      "What is a view helper in Rails?",
+      "What is a Rails helper?",
+      "What are helpers in Rails?",
+      "How do you use Rails helpers?",
+      "What are Helpers and How do use Helpers in Ruby on Rails?",
+      "Explain the purpose of Rails helpers."
+    ],
+    "occurrences": 9
+  },
+  {
+    "id": "B-0338",
+    "key": "exact:what are models, views, and controllers in rails?",
+    "questions": [
+      "What are Models, Views, and Controllers in Rails?"
+    ],
+    "occurrences": 2
+  },
+  {
+    "id": "B-0339",
+    "key": "exact:what are the key differences between get, post, put, and delete http methods?",
+    "questions": [
+      "What are the key differences between GET, POST, PUT, and DELETE HTTP methods?"
+    ],
+    "occurrences": 2
+  },
+  {
+    "id": "B-0344",
+    "key": "concept:rails-render-redirect",
+    "questions": [
+      "What is the difference between render and redirect_to in controllers?",
+      "What is the difference between render and redirect_to in Rails?",
+      "What is the difference between render and redirect_to?",
+      "What do you mean by Render and Redirect_to?",
+      "Explain the difference between `render` and `redirect_to` in a Rails controller."
+    ],
+    "occurrences": 6
+  },
+  {
+    "id": "B-0346",
+    "key": "exact:what does \"skinny controllers, skinny models\" mean?",
+    "questions": [
+      "What does “skinny controllers, skinny models” mean?",
+      "What does \"skinny controllers, skinny models\" mean?"
+    ],
+    "occurrences": 3
+  },
+  {
+    "id": "B-0348",
+    "key": "concept:rails-partial",
+    "questions": [
+      "What is a partial in Rails, and why would you use it?",
+      "Explain the concept of partials in Ruby on Rails views and their benefits in web development.",
+      "What is a partial in Rails?",
+      "What are partials in Rails?",
+      "What is a Rails partial, and why would you use one?",
+      "What is a partial in Rails views? Why would you use one?"
+    ],
+    "occurrences": 8
+  },
+  {
+    "id": "B-0350",
+    "key": "concept:rails-view",
+    "questions": [
+      "What is a Rails view, and how does it relate to the controller?",
+      "What are views in Rails? What's their purpose?"
+    ],
+    "occurrences": 2
+  },
+  {
+    "id": "B-0351",
+    "key": "concept:rails-asset",
+    "questions": [
+      "What is the asset pipeline in Rails?",
+      "Explain what an asset pipeline is.",
+      "Explain the concept of asset pipeline in Ruby on Rails and its significance in web development.",
+      "Explain the concept of asset pipeline in Ruby on Rails and how it optimizes the delivery of assets in web applications.",
+      "What is the asset pipeline?",
+      "What is the Rails Asset Pipeline?",
+      "What is Rails’ asset pipeline?",
+      "What is an Asset Pipeline in Rails?",
+      "What is an asset pipeline in Rails? What problem does it solve?",
+      "What is the asset pipeline in Rails? What is its purpose?"
+    ],
+    "occurrences": 11
+  },
+  {
+    "id": "B-0363",
+    "key": "concept:rails-routes",
+    "questions": [
+      "Describe the purpose of routes in a Rails application.",
+      "Explain the role of routing in Rails.",
+      "Describe the role of routes.rb in a Rails application.",
+      "How does Rails handle routing?",
+      "What is the purpose of the config/routes.rb file?",
+      "What is the role of the config/routes.rb file?",
+      "What is the role of the 'routes.rb' file in a Rails application?",
+      "What are Rails routes? Can you give an example of a simple route?"
+    ],
+    "occurrences": 9
+  },
+  {
+    "id": "B-0379",
+    "key": "concept:rails-test-general",
+    "questions": [
+      "How does Rails support testing, and what testing frameworks are commonly used?",
+      "How do you write tests in Rails applications?",
+      "How do you test a Rails app?"
+    ],
+    "occurrences": 3
+  },
+  {
+    "id": "C-0001",
+    "key": "concept:rails-find-findby",
+    "questions": [
+      "What is the difference between find and find_by in Rails?",
+      "What is the difference between find and find_by in ActiveRecord?",
+      "What is the difference between find and find_by?"
+    ],
+    "occurrences": 5
+  },
+  {
+    "id": "C-0008",
+    "key": "concept:rails-scope",
+    "questions": [
+      "How do Rails scopes work?",
+      "What is a scope in Rails, and how do you define it?",
+      "What is a scope in Rails?",
+      "What are scopes in Rails?",
+      "Explain the use of scopes in Rails models. How do they improve code readability and maintainability?"
+    ],
+    "occurrences": 5
+  },
+  {
+    "id": "C-0015",
+    "key": "concept:rails-sql-injection",
+    "questions": [
+      "How do you prevent SQL injection in Rails?",
+      "How does Rails implement parameterized queries to prevent SQL injection?",
+      "How does Rails protect against SQL injection?"
+    ],
+    "occurrences": 3
+  },
+  {
+    "id": "C-0016",
+    "key": "concept:rails-run-migration",
+    "questions": [
+      "What is the purpose of rails db:migrate?",
+      "How do you run a Rails migration?",
+      "How to run a migration?",
+      "How do you run database migrations in Rails?"
+    ],
+    "occurrences": 4
+  },
+  {
+    "id": "C-0019",
+    "key": "exact:how does rails handle database schema changes?",
+    "questions": [
+      "How does Rails handle database schema changes?"
+    ],
+    "occurrences": 2
+  },
+  {
+    "id": "C-0024",
+    "key": "concept:rails-transaction-management",
+    "questions": [
+      "What are database transactions and how are they implemented in Rails?",
+      "How does Rails handle database transactions?",
+      "How do you manage database transactions in Rails?",
+      "How do you handle database transactions?"
+    ],
+    "occurrences": 4
+  },
+  {
+    "id": "C-0029",
+    "key": "concept:rails-activerecord",
+    "questions": [
+      "What is Active Record in Rails?",
+      "What exactly is the role of Active Record in Ruby?",
+      "What is Active Record in Ruby on Rails?",
+      "What is ActiveRecord in Rails?",
+      "What is ActiveRecord?",
+      "What is Active Record?",
+      "What is Rails Active Record in Ruby on Rails?",
+      "What is ActiveRecord? What does it help us do?"
+    ],
+    "occurrences": 14
+  },
+  {
+    "id": "C-0034",
+    "key": "concept:rails-indexing",
+    "questions": [
+      "What is the importance of database indexing, and how do you implement it in Rails?",
+      "How do you perform database indexing in Rails?"
+    ],
+    "occurrences": 2
+  },
+  {
+    "id": "E-0010",
+    "key": "concept:rails-large-structure",
+    "questions": [
+      "What are the best practices for structuring a large Rails application?",
+      "How would you structure a large Rails codebase with many models, controllers, and views?",
+      "How do you structure a large Rails application (e.g., modularization, boundaries)?"
+    ],
+    "occurrences": 3
+  },
+  {
+    "id": "E-0016",
+    "key": "concept:rails-background-how",
+    "questions": [
+      "How do you handle background jobs in Rails?",
+      "How do you handle background jobs in Rails (e.g., using Sidekiq or ActiveJob)?",
+      "How do you manage background jobs in Rails?",
+      "How would you handle background jobs in Rails? Tools?"
+    ],
+    "occurrences": 7
+  },
+  {
+    "id": "E-0021",
+    "key": "concept:rails-deploy-how",
+    "questions": [
+      "How do you deploy a Rails app?",
+      "How do you deploy a Rails application?",
+      "Describe the process of deploying a Rails application to a production environment."
+    ],
+    "occurrences": 3
+  },
+  {
+    "id": "E-0028",
+    "key": "concept:rails-query-optimization",
+    "questions": [
+      "How can you optimize database queries in a Rails application?",
+      "How do you optimize database queries in Rails applications?",
+      "How would you optimize database queries in a large Rails application?",
+      "How do you optimize database queries in Rails?"
+    ],
+    "occurrences": 4
+  },
+  {
+    "id": "E-0032",
+    "key": "concept:rails-nplusone",
+    "questions": [
+      "What is the N+1 query problem and how do you fix it in Rails?",
+      "What is an N+1 query problem in Rails?",
+      "What is the N+1 query problem and how do you avoid it?"
+    ],
+    "occurrences": 3
+  },
+  {
+    "id": "E-0051",
+    "key": "concept:rails-multitenancy",
+    "questions": [
+      "How do you handle multi-tenancy in a Rails application?",
+      "How does Rails handle multi-tenancy?",
+      "How would you implement a multi-tenancy architecture in a Rails application, and what are the considerations for data isolation and scalability?"
+    ],
+    "occurrences": 3
+  },
+  {
+    "id": "E-0055",
+    "key": "concept:rails-debug-how",
+    "questions": [
+      "What tools do you use for debugging Rails applications?",
+      "How do you debug a Rails app?",
+      "How do you debug a Rails application?",
+      "Describe how you would debug a Rails application. What tools and techniques do you find most helpful?"
+    ],
+    "occurrences": 6
+  },
+  {
+    "id": "E-0056",
+    "key": "concept:rails-environments-manage",
+    "questions": [
+      "How do you manage multiple environments (development, test, production) in Rails?",
+      "How do you handle different environments (e.g., development, test, production) in a Rails application?"
+    ],
+    "occurrences": 2
+  },
+  {
+    "id": "F-0031",
+    "key": "exact:how is the ruby language adapting to the increasing demand for serverless computing?",
+    "questions": [
+      "How is the Ruby language adapting to the increasing demand for serverless computing?"
+    ],
+    "occurrences": 2
+  },
+  {
+    "id": "F-0058",
+    "key": "concept:ruby-flexibility",
+    "questions": [
+      "Why is Ruby known as a language of flexibility?",
+      "Why Ruby Is Known As A Language Of Flexibility?",
+      "Why is Ruby known as a flexible language?",
+      "Why Ruby is known as a language of flexibility?",
+      "Is Ruby a flexible language? Why, or why not?"
+    ],
+    "occurrences": 5
+  },
+  {
+    "id": "F-0082",
+    "key": "concept:ruby-refinement",
+    "questions": [
+      "What are Ruby refinements and how do they affect method behavior?",
+      "Discuss the concept of refinements in Ruby.",
+      "Explain the concept of refinements in Ruby and their intended use."
+    ],
+    "occurrences": 3
+  },
+  {
+    "id": "F-0084",
+    "key": "concept:ruby-metaprogramming",
+    "questions": [
+      "Theoretical: Explain the concept of metaprogramming in Ruby and provide an example of how it can be used.",
+      "Explain the concept of metaprogramming in Ruby and how it is utilized in real-world applications.",
+      "How to implement metaprogramming in Ruby to improve code flexibility?",
+      "Explain the concept of metaprogramming in Ruby.",
+      "What is metaprogramming in Ruby, and can you give an example of its use?",
+      "How does Ruby support metaprogramming?",
+      "What is metaprogramming?",
+      "What is metaprogramming in Ruby?"
+    ],
+    "occurrences": 8
+  },
+  {
+    "id": "F-0094",
+    "key": "concept:ruby-gc",
+    "questions": [
+      "How does Ruby manage memory and garbage collection?",
+      "Explain the concept of garbage collection in Ruby and how it helps manage memory.",
+      "How does Ruby's garbage collection work?",
+      "What is Ruby’s garbage collection mechanism, and how does it work?",
+      "Explain About Garbage Collection Feature Of Ruby?",
+      "How does garbage collection work in Ruby?",
+      "Mention what is the function of garbage collection in Ruby on Rails?",
+      "What is Garbage collection in ruby on Rails?",
+      "What does garbage collection do in Ruby on Rails?",
+      "What is the Garbage Collection in Ruby on Rails?"
+    ],
+    "occurrences": 12
+  }
+]

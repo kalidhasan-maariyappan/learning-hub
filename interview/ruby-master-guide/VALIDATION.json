@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "filesHashed": 36,
+  "questions": 1071,
+  "sourceOccurrences": 1577,
+  "localLinksChecked": 6450,
+  "checks": [
+    "original SHA-256 values",
+    "source spans",
+    "required answer fields",
+    "unique final IDs",
+    "one-to-one occurrence mapping",
+    "category counts",
+    "duplicate reconciliation",
+    "chapter anchors",
+    "local Markdown link targets"
+  ]
+}

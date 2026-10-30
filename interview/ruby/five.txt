@@ -1,0 +1,63 @@
+# Modules
+
+**Q: What is the function of modules in Ruby?**
+
+A: To provide namespaces.  To provide a mechanism for multiple inheritance.  To facilitate code reuse.
+
+**Q: What is the difference between a module and class?**
+
+A: A module cannot be instantiated.
+
+**Q: What is the difference between _extend_ and _include_?**
+
+A: _extend_ adds the instance methods of a module to a class as class methods.
+   _include_ adds the instance methods of a module to a class as instance methods.
+
+# Methods & blocks
+
+**Q: What are the three levels of method access control available in Ruby?**
+
+A: _private_: These methods are not accessible on instances of the class.  They are only accessible internally when the receiver is _self_.
+   _protected_: These methods are accessible internally to the class and within subclasses of the class. (TODO: expand answer)
+   _public_: These methods are accessible everywhere, including on the instance.
+   
+**Q: What are Procs in Ruby?  How do they compare to closures in JS?**
+
+A: A Proc is essentially an anonymous function encapsulated as an object which can be passed around as a variable.  Procs have access to the local variables from the context in which they were defined.  Unlike in JS they do not have access to the _self_ (analygous to _this_) of the context.
+
+# Exception handling
+
+**Q: How do you handle exceptions in Ruby code?**
+
+A: Using _begin_ and _rescue_
+
+**Q: Why is it advised to rescue from _StandardError_ rather than _Exception_?**
+
+A: `StandardError` is a subclass of `Exception`.  Rescuing `Exception` rescues program signalling exceptions which are needed to signal, for example when a program should shut down.
+
+# Operators / Truthiness
+
+**Q: What is the difference between `and`/`or` and `&&`/`||`?  What is the result of `a = nil and true`?**
+
+A: `and` and `or` have higher precedence than the assignment operator (`=`) whereas `&&` and `||` have lower precedence.
+   The result is that `a` is assigned the value `nil` and the result of the expression is `nil`.
+   
+**Q: What values are "falsey" in Rails?  Or, which values are "truthy"?  What is the result of `a = 0 || 1`?**
+
+A: Only `false` and `nil` evaluate to false.  Everything else is "truthy".
+   The result is that `a` is assigned the value `0` and the result of the expression is `0`.
+   
+# Metaprogramming
+
+**Q: What is the function of `method_missing`?  How is it used in meta-programming in Ruby?
+
+Poor performance.
+
+**Q: What is a DSL (Domain Specific Language) and why is Ruby a popular language to build DSLs in?
+
+# TODO Other Questions
+
+* What are RubyGems?  Got any favourites?
+* What is Rails good at?  What is it not so good at?
+* List some things you would change about Rails
+* How does Rails extend the Ruby language? (Convenience methods, 3.seconds.ago, hash.slice, ...)

@@ -1,0 +1,460 @@
+<div class="col-span-12"><div class="mb-6 pb-6 border-b border-solid border-gray-200" data-cid="interview-questions-questions-0"><div data-testid="interview-question" id="question-3280018" class="BWuBktvO"><div role="button" tabindex="0" class="_3Y6TiHXa"><div class="_2HXdYRn9"><div data-testid="question-number" class="_3UhGAYPz">1<!-- -->.</div><div><div class="_2XsmF_ig _2eBp0RCz _2oDgiyfo"><p>What is the difference between calling <code>super</code> and calling <code>super()</code>?</p>
+</div></div></div><div class="_2vLXXDTD"><span class="_3BtIGW5k">Hide answer</span><div class="_2x4J5cmd"><div class="_1NJplhOU" data-testid="share-facebook"><a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.toptal.com%2Fdevelopers%2Fruby%2Finterview-questions%23question-3280018" title="facebook" data-testid="facebook" class="_1jON0eh-"><svg class="_2h0DsYqD" width="20" height="20" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" fill-rule="evenodd" d="M14.2 2.1 12 2C9.8 2 8.3 3.3 8.3 5.8v2H5.8v2.9h2.5V18h3v-7.3h2.4l.4-2.8h-2.9V6c0-.8.3-1.3 1.4-1.3h1.6V2Z" clip-rule="evenodd"></path></svg></a></div><div class="_1NJplhOU" data-testid="share-twitter"><a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.toptal.com%2Fdevelopers%2Fruby%2Finterview-questions%23question-3280018" title="twitter" data-testid="twitter" class="_1jON0eh-"><svg class="_2h0DsYqD" width="20" height="16" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" fill-rule="evenodd" d="M20.33 1.9c-.73.31-1.53.54-2.36.63.85-.5 1.5-1.3 1.8-2.23-.78.46-1.67.8-2.6.97a4.12 4.12 0 0 0-6.99 3.7A11.71 11.71 0 0 1 1.73.73 4.02 4.02 0 0 0 3 6.14a4.18 4.18 0 0 1-1.85-.52v.05c0 1.97 1.4 3.6 3.28 3.97a4.4 4.4 0 0 1-1.85.07 4.1 4.1 0 0 0 3.83 2.8A8.29 8.29 0 0 1 .33 14.2 11.71 11.71 0 0 0 6.63 16 11.5 11.5 0 0 0 18.29 4.51L18.28 4c.8-.58 1.5-1.29 2.05-2.09Z" clip-rule="evenodd"></path></svg></a></div></div></div></div><div style="max-height: 192px;" class="_1-_7ly2X"><div><div class="_2XsmF_ig _2eBp0RCz _2rYsJZuE"><p>A call to <code>super</code> invokes the parent method with the same arguments that were passed to the child method.  An error will therefore occur if the arguments passed to the child method don’t match what the parent is expecting.</p>
+
+<p>A call to <code>super()</code> invokes the parent method without any arguments, as presumably expected.  As always, being explicit in your code is a good thing.</p>
+
+<p>(Thanks to <a href="https://docs.google.com/a/toptal.com/presentation/d/1cqdp89_kolr4q1YAQaB-6i5GXip8MHyve8MvQ_1r6_s/edit#slide=id.gd9ccd329_00">Ruby Gotchas</a> for this question.)</p>
+</div></div></div></div></div><div class="mb-6 pb-6 border-b border-solid border-gray-200" data-cid="interview-questions-questions-0"><div data-testid="interview-question" id="question-3280019" class="BWuBktvO"><div role="button" tabindex="0" class="_3Y6TiHXa"><div class="_2HXdYRn9"><div data-testid="question-number" class="_3UhGAYPz">2<!-- -->.</div><div><div class="_2XsmF_ig _2eBp0RCz _2oDgiyfo"><p>What will <code>val1</code> and <code>val2</code> equal after the code below is executed?  Explain your answer.</p>
+
+<pre><code class="hljs language-ini"><span class="hljs-attr">val1</span> = <span class="hljs-literal">true</span> and <span class="hljs-literal">false</span>  <span class="hljs-comment"># hint: output of this statement in IRB is NOT value of val1!</span>
+<span class="hljs-attr">val2</span> = <span class="hljs-literal">true</span> &amp;&amp; <span class="hljs-literal">false</span>
+</code></pre>
+</div></div></div><div class="_2vLXXDTD"><span class="_3BtIGW5k">Hide answer</span><div class="_2x4J5cmd"><div class="_1NJplhOU" data-testid="share-facebook"><a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.toptal.com%2Fdevelopers%2Fruby%2Finterview-questions%23question-3280019" title="facebook" data-testid="facebook" class="_1jON0eh-"><svg class="_2h0DsYqD" width="20" height="20" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" fill-rule="evenodd" d="M14.2 2.1 12 2C9.8 2 8.3 3.3 8.3 5.8v2H5.8v2.9h2.5V18h3v-7.3h2.4l.4-2.8h-2.9V6c0-.8.3-1.3 1.4-1.3h1.6V2Z" clip-rule="evenodd"></path></svg></a></div><div class="_1NJplhOU" data-testid="share-twitter"><a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.toptal.com%2Fdevelopers%2Fruby%2Finterview-questions%23question-3280019" title="twitter" data-testid="twitter" class="_1jON0eh-"><svg class="_2h0DsYqD" width="20" height="16" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" fill-rule="evenodd" d="M20.33 1.9c-.73.31-1.53.54-2.36.63.85-.5 1.5-1.3 1.8-2.23-.78.46-1.67.8-2.6.97a4.12 4.12 0 0 0-6.99 3.7A11.71 11.71 0 0 1 1.73.73 4.02 4.02 0 0 0 3 6.14a4.18 4.18 0 0 1-1.85-.52v.05c0 1.97 1.4 3.6 3.28 3.97a4.4 4.4 0 0 1-1.85.07 4.1 4.1 0 0 0 3.83 2.8A8.29 8.29 0 0 1 .33 14.2 11.71 11.71 0 0 0 6.63 16 11.5 11.5 0 0 0 18.29 4.51L18.28 4c.8-.58 1.5-1.29 2.05-2.09Z" clip-rule="evenodd"></path></svg></a></div></div></div></div><div style="max-height: 326px;" class="_1-_7ly2X"><div><div class="_2XsmF_ig _2eBp0RCz _2rYsJZuE"><p>Although these two statements might appear to be equivalent, they are not, due to the order of operations.  Specifically, the <code>and</code> and <code>or</code> operators have <em>lower</em> precedence than the <code>=</code> operator, whereas the <code>&amp;&amp;</code> and <code>||</code> operators have <em>higher</em> precedence than the <code>=</code> operator, based on order of operations.</p>
+
+<p>To help clarify this, here’s the same code, but employing parentheses to clarify the default order of operations:</p>
+
+<pre><code class="hljs language-bash">(val1 = <span class="hljs-literal">true</span>) and <span class="hljs-literal">false</span>    <span class="hljs-comment"># results in val1 being equal to true</span>
+val2 = (<span class="hljs-literal">true</span> &amp;&amp; <span class="hljs-literal">false</span>)     <span class="hljs-comment"># results in val2 being equal to false</span>
+</code></pre>
+
+<p>This is, incidentally, a great example of why using parentheses to clearly specify your intent is generally a good practice, in any language.  But whether or not you use parentheses, it’s important to be aware of these order of operations rules and to thereby ensure that you are properly determining when to employ <code>and</code> / <code>or</code> vs. <code>&amp;&amp;</code> / <code>||</code>.</p>
+</div></div></div></div></div><div class="mb-6 pb-6 border-b border-solid border-gray-200" data-cid="interview-questions-questions-0"><div data-testid="interview-question" id="question-3280020" class=""><div role="button" tabindex="0" class="_3Y6TiHXa"><div class="_2HXdYRn9"><div data-testid="question-number" class="_3UhGAYPz">3<!-- -->.</div><div><div class="_2XsmF_ig _2eBp0RCz _2oDgiyfo"><p>Which of the expressions listed below will result in <code>"false"</code>?</p>
+
+<pre><code class="hljs language-ruby"><span class="hljs-literal">true</span>    ? <span class="hljs-string">"true"</span> : <span class="hljs-string">"false"</span>
+<span class="hljs-literal">false</span>   ? <span class="hljs-string">"true"</span> : <span class="hljs-string">"false"</span>
+<span class="hljs-literal">nil</span>     ? <span class="hljs-string">"true"</span> : <span class="hljs-string">"false"</span>
+<span class="hljs-number">1</span>       ? <span class="hljs-string">"true"</span> : <span class="hljs-string">"false"</span>
+<span class="hljs-number">0</span>       ? <span class="hljs-string">"true"</span> : <span class="hljs-string">"false"</span>
+<span class="hljs-string">"false"</span> ? <span class="hljs-string">"true"</span> : <span class="hljs-string">"false"</span>
+<span class="hljs-string">""</span>      ? <span class="hljs-string">"true"</span> : <span class="hljs-string">"false"</span>
+[]      ? <span class="hljs-string">"true"</span> : <span class="hljs-string">"false"</span>
+</code></pre>
+</div></div></div><div class="_2vLXXDTD"><span class="_3BtIGW5k">View answer<span class="_1CB8-Zdx"></span></span><div class="_2x4J5cmd"><div class="_1NJplhOU" data-testid="share-facebook"><a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.toptal.com%2Fdevelopers%2Fruby%2Finterview-questions%23question-3280020" title="facebook" data-testid="facebook" class="_1jON0eh-"><svg class="_2h0DsYqD" width="20" height="20" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" fill-rule="evenodd" d="M14.2 2.1 12 2C9.8 2 8.3 3.3 8.3 5.8v2H5.8v2.9h2.5V18h3v-7.3h2.4l.4-2.8h-2.9V6c0-.8.3-1.3 1.4-1.3h1.6V2Z" clip-rule="evenodd"></path></svg></a></div><div class="_1NJplhOU" data-testid="share-twitter"><a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.toptal.com%2Fdevelopers%2Fruby%2Finterview-questions%23question-3280020" title="twitter" data-testid="twitter" class="_1jON0eh-"><svg class="_2h0DsYqD" width="20" height="16" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" fill-rule="evenodd" d="M20.33 1.9c-.73.31-1.53.54-2.36.63.85-.5 1.5-1.3 1.8-2.23-.78.46-1.67.8-2.6.97a4.12 4.12 0 0 0-6.99 3.7A11.71 11.71 0 0 1 1.73.73 4.02 4.02 0 0 0 3 6.14a4.18 4.18 0 0 1-1.85-.52v.05c0 1.97 1.4 3.6 3.28 3.97a4.4 4.4 0 0 1-1.85.07 4.1 4.1 0 0 0 3.83 2.8A8.29 8.29 0 0 1 .33 14.2 11.71 11.71 0 0 0 6.63 16 11.5 11.5 0 0 0 18.29 4.51L18.28 4c.8-.58 1.5-1.29 2.05-2.09Z" clip-rule="evenodd"></path></svg></a></div></div></div></div><div style="max-height:0" class="_1-_7ly2X"><div><div class="_2XsmF_ig _2eBp0RCz _2rYsJZuE"><p>In Ruby, the <em>only</em> values that evaluate to false are <code>false</code> and <code>nil</code>.  <em>Everything else</em> – even zero (0) and an empty array ([]) – evaluates to true.</p>
+
+<p>This comes as a real surprise to programmers who have previously been working in other languages like JavaScript.</p>
+
+<p>(Thanks to <a href="https://docs.google.com/a/toptal.com/presentation/d/1cqdp89_kolr4q1YAQaB-6i5GXip8MHyve8MvQ_1r6_s/edit#slide=id.gd9ccd329_00">Ruby Gotchas</a> for this question.)</p>
+</div></div></div></div></div><div class="mb-6 pb-6 border-b border-solid border-gray-200" data-cid="interview-questions-questions-0"><div data-testid="interview-question" id="question-3280021" class=""><div role="button" tabindex="0" class="_3Y6TiHXa"><div class="_2HXdYRn9"><div data-testid="question-number" class="_3UhGAYPz">4<!-- -->.</div><div><div class="_2XsmF_ig _2eBp0RCz _2oDgiyfo"><p>Write a function that sorts the keys in a hash by the length of the key as a string. For instance, the hash:</p>
+
+<pre><code class="hljs language-css">{ abc: <span class="hljs-string">'hello'</span>, <span class="hljs-string">'another_key'</span> =&gt; <span class="hljs-number">123</span>, <span class="hljs-number">4567</span> =&gt; <span class="hljs-string">'third'</span> }
+</code></pre>
+
+<p>should result in:</p>
+
+<pre><code class="hljs language-css"><span class="hljs-selector-attr">[<span class="hljs-string">"abc"</span>, <span class="hljs-string">"4567"</span>, <span class="hljs-string">"another_key"</span>]</span>
+</code></pre>
+</div></div></div><div class="_2vLXXDTD"><span class="_3BtIGW5k">View answer<span class="_1CB8-Zdx"></span></span><div class="_2x4J5cmd"><div class="_1NJplhOU" data-testid="share-facebook"><a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.toptal.com%2Fdevelopers%2Fruby%2Finterview-questions%23question-3280021" title="facebook" data-testid="facebook" class="_1jON0eh-"><svg class="_2h0DsYqD" width="20" height="20" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" fill-rule="evenodd" d="M14.2 2.1 12 2C9.8 2 8.3 3.3 8.3 5.8v2H5.8v2.9h2.5V18h3v-7.3h2.4l.4-2.8h-2.9V6c0-.8.3-1.3 1.4-1.3h1.6V2Z" clip-rule="evenodd"></path></svg></a></div><div class="_1NJplhOU" data-testid="share-twitter"><a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.toptal.com%2Fdevelopers%2Fruby%2Finterview-questions%23question-3280021" title="twitter" data-testid="twitter" class="_1jON0eh-"><svg class="_2h0DsYqD" width="20" height="16" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" fill-rule="evenodd" d="M20.33 1.9c-.73.31-1.53.54-2.36.63.85-.5 1.5-1.3 1.8-2.23-.78.46-1.67.8-2.6.97a4.12 4.12 0 0 0-6.99 3.7A11.71 11.71 0 0 1 1.73.73 4.02 4.02 0 0 0 3 6.14a4.18 4.18 0 0 1-1.85-.52v.05c0 1.97 1.4 3.6 3.28 3.97a4.4 4.4 0 0 1-1.85.07 4.1 4.1 0 0 0 3.83 2.8A8.29 8.29 0 0 1 .33 14.2 11.71 11.71 0 0 0 6.63 16 11.5 11.5 0 0 0 18.29 4.51L18.28 4c.8-.58 1.5-1.29 2.05-2.09Z" clip-rule="evenodd"></path></svg></a></div></div></div></div><div style="max-height:0" class="_1-_7ly2X"><div><div class="_2XsmF_ig _2eBp0RCz _2rYsJZuE"><p>As is always true in programming, there are in fact multiple ways to accomplish this.</p>
+
+<p>The most straightforward answer would be of the form:</p>
+
+<pre><code class="hljs language-ruby">hsh.keys.map(&amp;<span class="hljs-symbol">:to_s</span>).sort_by(&amp;<span class="hljs-symbol">:length</span>)
+</code></pre>
+
+<p>or:</p>
+
+<pre><code class="hljs language-ruby">hsh.keys.collect(&amp;<span class="hljs-symbol">:to_s</span>).sort_by { |<span class="hljs-params">key</span>| key.length }
+</code></pre>
+
+<p>Alternatively, Ruby’s <a href="http://ruby-doc.org/core-2.1.2/Enumerable.html"><code>Enumerable</code> mixin</a> provides many methods to operate on collections. The key here is to turn the hash keys into a collection, convert them all to strings, then sort the array.</p>
+
+<pre><code class="hljs language-ruby"><span class="hljs-keyword">def</span> <span class="hljs-title function_">key_sort</span> hsh
+	hsh.keys.collect(&amp;<span class="hljs-symbol">:to_s</span>).sort { |<span class="hljs-params">a, b</span>| a.length &lt;=&gt; b.length }
+<span class="hljs-keyword">end</span>
+</code></pre>
+
+<p>An equivalent call of the <a href="http://www.tutorialspoint.com/ruby/ruby_iterators.htm"><code>collect</code> method</a> is done with the usual block syntax of:</p>
+
+<pre><code class="hljs language-undefined">collect { |x| x.to_s }
+</code></pre>
+</div></div></div></div></div><div class="mb-6 pb-6 border-b border-solid border-gray-200" data-cid="interview-questions-questions-0"><div data-testid="interview-question" id="question-3280022" class=""><div role="button" tabindex="0" class="_3Y6TiHXa"><div class="_2HXdYRn9"><div data-testid="question-number" class="_3UhGAYPz">5<!-- -->.</div><div><div class="_2XsmF_ig _2eBp0RCz _2oDgiyfo"><p>Consider the following two methods:</p>
+
+<pre><code class="hljs language-ruby"><span class="hljs-keyword">def</span> <span class="hljs-title function_">times_two</span>(<span class="hljs-params">arg1</span>);
+  puts arg1 * <span class="hljs-number">2</span>;
+<span class="hljs-keyword">end</span>
+
+<span class="hljs-keyword">def</span> <span class="hljs-title function_">sum</span>(<span class="hljs-params">arg1, arg2</span>);
+  puts arg1 + arg2;
+<span class="hljs-keyword">end</span>
+</code></pre>
+
+<p>What will be the result of each of the following lines of code:</p>
+
+<pre><code class="hljs language-scss">times_two <span class="hljs-number">5</span>
+<span class="hljs-built_in">times_two</span>(<span class="hljs-number">5</span>)
+times_two (<span class="hljs-number">5</span>)
+sum <span class="hljs-number">1</span>, <span class="hljs-number">2</span>
+<span class="hljs-built_in">sum</span>(<span class="hljs-number">1</span>, <span class="hljs-number">2</span>)
+sum (<span class="hljs-number">1</span>, <span class="hljs-number">2</span>)
+</code></pre>
+</div></div></div><div class="_2vLXXDTD"><span class="_3BtIGW5k">View answer<span class="_1CB8-Zdx"></span></span><div class="_2x4J5cmd"><div class="_1NJplhOU" data-testid="share-facebook"><a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.toptal.com%2Fdevelopers%2Fruby%2Finterview-questions%23question-3280022" title="facebook" data-testid="facebook" class="_1jON0eh-"><svg class="_2h0DsYqD" width="20" height="20" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" fill-rule="evenodd" d="M14.2 2.1 12 2C9.8 2 8.3 3.3 8.3 5.8v2H5.8v2.9h2.5V18h3v-7.3h2.4l.4-2.8h-2.9V6c0-.8.3-1.3 1.4-1.3h1.6V2Z" clip-rule="evenodd"></path></svg></a></div><div class="_1NJplhOU" data-testid="share-twitter"><a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.toptal.com%2Fdevelopers%2Fruby%2Finterview-questions%23question-3280022" title="twitter" data-testid="twitter" class="_1jON0eh-"><svg class="_2h0DsYqD" width="20" height="16" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" fill-rule="evenodd" d="M20.33 1.9c-.73.31-1.53.54-2.36.63.85-.5 1.5-1.3 1.8-2.23-.78.46-1.67.8-2.6.97a4.12 4.12 0 0 0-6.99 3.7A11.71 11.71 0 0 1 1.73.73 4.02 4.02 0 0 0 3 6.14a4.18 4.18 0 0 1-1.85-.52v.05c0 1.97 1.4 3.6 3.28 3.97a4.4 4.4 0 0 1-1.85.07 4.1 4.1 0 0 0 3.83 2.8A8.29 8.29 0 0 1 .33 14.2 11.71 11.71 0 0 0 6.63 16 11.5 11.5 0 0 0 18.29 4.51L18.28 4c.8-.58 1.5-1.29 2.05-2.09Z" clip-rule="evenodd"></path></svg></a></div></div></div></div><div style="max-height:0" class="_1-_7ly2X"><div><div class="_2XsmF_ig _2eBp0RCz _2rYsJZuE"><p>The first three lines of code will all print out 10, as expected.</p>
+
+<p>The next two lines of code will both print out 3, as expected.</p>
+
+<p>However, the last line of code (i.e., <code>sum (1,2)</code>) will result in the following:</p>
+
+<pre><code class="hljs language-bash">syntax error, unexpected <span class="hljs-string">','</span>, expecting <span class="hljs-string">')'</span>
+<span class="hljs-built_in">sum</span> (1, 2)
+       ^
+</code></pre>
+
+<p>The problem is the space between the method name and the open parenthesis.  Because of the space, the Ruby parser thinks that <code>(1, 2)</code> is an expression that represents a single argument, but <code>(1, 2)</code> is not a valid Ruby expression, hence the error.</p>
+
+<p>Note that the problem does not occur with single argument methods (as shown with our <code>timesTwo</code> method above), since the single value <em>is</em> a valid expression (e.g., <code>(5)</code> is a valid expression which simply evaluates to 5).</p>
+</div></div></div></div></div><div class="mb-6 pb-6 border-b border-solid border-gray-200" data-cid="interview-questions-questions-0"><div data-testid="interview-question" id="question-3280023" class=""><div role="button" tabindex="0" class="_3Y6TiHXa"><div class="_2HXdYRn9"><div data-testid="question-number" class="_3UhGAYPz">6<!-- -->.</div><div><div class="_2XsmF_ig _2eBp0RCz _2oDgiyfo"><p>Consider the following code:</p>
+
+<pre><code class="hljs language-ruby"><span class="hljs-variable constant_">VAL</span> = <span class="hljs-string">'Global'</span>
+ 
+<span class="hljs-keyword">module</span> <span class="hljs-title class_">Foo</span>
+  <span class="hljs-variable constant_">VAL</span> = <span class="hljs-string">'Foo Local'</span>
+ 
+  <span class="hljs-keyword">class</span> <span class="hljs-title class_">Bar</span>
+    <span class="hljs-keyword">def</span> <span class="hljs-title function_">value1</span>
+      <span class="hljs-variable constant_">VAL</span>
+    <span class="hljs-keyword">end</span>
+  <span class="hljs-keyword">end</span>
+<span class="hljs-keyword">end</span>
+ 
+<span class="hljs-keyword">class</span> <span class="hljs-title class_">Foo::Bar</span>
+  <span class="hljs-keyword">def</span> <span class="hljs-title function_">value2</span>
+    <span class="hljs-variable constant_">VAL</span>
+  <span class="hljs-keyword">end</span>
+<span class="hljs-keyword">end</span>
+</code></pre>
+
+<p>What will be the value of each of the following:</p>
+
+<pre><code class="hljs language-cpp">Foo::Bar.<span class="hljs-keyword">new</span>.value1
+Foo::Bar.<span class="hljs-keyword">new</span>.value2
+</code></pre>
+
+<p>Explain your answer.</p>
+</div></div></div><div class="_2vLXXDTD"><span class="_3BtIGW5k">View answer<span class="_1CB8-Zdx"></span></span><div class="_2x4J5cmd"><div class="_1NJplhOU" data-testid="share-facebook"><a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.toptal.com%2Fdevelopers%2Fruby%2Finterview-questions%23question-3280023" title="facebook" data-testid="facebook" class="_1jON0eh-"><svg class="_2h0DsYqD" width="20" height="20" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" fill-rule="evenodd" d="M14.2 2.1 12 2C9.8 2 8.3 3.3 8.3 5.8v2H5.8v2.9h2.5V18h3v-7.3h2.4l.4-2.8h-2.9V6c0-.8.3-1.3 1.4-1.3h1.6V2Z" clip-rule="evenodd"></path></svg></a></div><div class="_1NJplhOU" data-testid="share-twitter"><a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.toptal.com%2Fdevelopers%2Fruby%2Finterview-questions%23question-3280023" title="twitter" data-testid="twitter" class="_1jON0eh-"><svg class="_2h0DsYqD" width="20" height="16" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" fill-rule="evenodd" d="M20.33 1.9c-.73.31-1.53.54-2.36.63.85-.5 1.5-1.3 1.8-2.23-.78.46-1.67.8-2.6.97a4.12 4.12 0 0 0-6.99 3.7A11.71 11.71 0 0 1 1.73.73 4.02 4.02 0 0 0 3 6.14a4.18 4.18 0 0 1-1.85-.52v.05c0 1.97 1.4 3.6 3.28 3.97a4.4 4.4 0 0 1-1.85.07 4.1 4.1 0 0 0 3.83 2.8A8.29 8.29 0 0 1 .33 14.2 11.71 11.71 0 0 0 6.63 16 11.5 11.5 0 0 0 18.29 4.51L18.28 4c.8-.58 1.5-1.29 2.05-2.09Z" clip-rule="evenodd"></path></svg></a></div></div></div></div><div style="max-height:0" class="_1-_7ly2X"><div><div class="_2XsmF_ig _2eBp0RCz _2rYsJZuE"><p><code>Foo::Bar.new.value1</code> will be equal to <code>'Foo Local'</code> and <code>Foo::Bar.new.value2</code> will be equal to <code>'Global'</code>.</p>
+
+<p>Here’s why:</p>
+
+<p>The <code>module</code> keyword (as well as the <code>class</code> and <code>def</code> keywords) will create a new <a href="https://en.wikipedia.org/wiki/Scope_(computer_science)#Lexical_scoping">lexical scope</a> for all of its contents.  The above module <code>Foo</code> therefore creates the scope <code>Foo</code> in which the <code>VAL</code> constant equal to <code>'Foo Local'</code> is defined.  Inside <code>Foo</code>, we declare class <code>Bar</code>, which creates another new lexical scope (named <code>Foo::Bar</code>) which also has access to its parent scope (i.e., <code>Foo</code>) and all of its constants.</p>
+
+<p>However, when we then declare <code>Foo::Bar</code> (i.e., using <code>::</code>), we are actually creating yet <em>another</em> lexical scope, which is <em>also</em> named <code>Foo::Bar</code> (how’s that for confusing!).  However, this lexical scope has no parent (i.e., it is entirely independent of the lexcial scope <code>Foo</code> created earlier) and therefore does not have any access to the contents of the ‘Foo’ scope.  Therefore, inside class <code>Foo::Bar</code>, we only have access to the <code>VAL</code> constant declared at the beginning of the script (i.e., outside of any module) with the value <code>'Global'</code>.</p>
+</div></div></div></div></div><div class="mb-6 pb-6 border-b border-solid border-gray-200" data-cid="interview-questions-questions-0"><div data-testid="interview-question" id="question-3280024" class=""><div role="button" tabindex="0" class="_3Y6TiHXa"><div class="_2HXdYRn9"><div data-testid="question-number" class="_3UhGAYPz">7<!-- -->.</div><div><div class="_2XsmF_ig _2eBp0RCz _2oDgiyfo"><p>Is the line of code below valid Ruby code?  If so, what does it do?  Explain your answer.</p>
+
+<pre><code class="hljs language-css">-&gt; (<span class="hljs-selector-tag">a</span>) {<span class="hljs-selector-tag">p</span> <span class="hljs-selector-tag">a</span>}<span class="hljs-selector-attr">[<span class="hljs-string">"Hello world"</span>]</span>
+</code></pre>
+</div></div></div><div class="_2vLXXDTD"><span class="_3BtIGW5k">View answer<span class="_1CB8-Zdx"></span></span><div class="_2x4J5cmd"><div class="_1NJplhOU" data-testid="share-facebook"><a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.toptal.com%2Fdevelopers%2Fruby%2Finterview-questions%23question-3280024" title="facebook" data-testid="facebook" class="_1jON0eh-"><svg class="_2h0DsYqD" width="20" height="20" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" fill-rule="evenodd" d="M14.2 2.1 12 2C9.8 2 8.3 3.3 8.3 5.8v2H5.8v2.9h2.5V18h3v-7.3h2.4l.4-2.8h-2.9V6c0-.8.3-1.3 1.4-1.3h1.6V2Z" clip-rule="evenodd"></path></svg></a></div><div class="_1NJplhOU" data-testid="share-twitter"><a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.toptal.com%2Fdevelopers%2Fruby%2Finterview-questions%23question-3280024" title="twitter" data-testid="twitter" class="_1jON0eh-"><svg class="_2h0DsYqD" width="20" height="16" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" fill-rule="evenodd" d="M20.33 1.9c-.73.31-1.53.54-2.36.63.85-.5 1.5-1.3 1.8-2.23-.78.46-1.67.8-2.6.97a4.12 4.12 0 0 0-6.99 3.7A11.71 11.71 0 0 1 1.73.73 4.02 4.02 0 0 0 3 6.14a4.18 4.18 0 0 1-1.85-.52v.05c0 1.97 1.4 3.6 3.28 3.97a4.4 4.4 0 0 1-1.85.07 4.1 4.1 0 0 0 3.83 2.8A8.29 8.29 0 0 1 .33 14.2 11.71 11.71 0 0 0 6.63 16 11.5 11.5 0 0 0 18.29 4.51L18.28 4c.8-.58 1.5-1.29 2.05-2.09Z" clip-rule="evenodd"></path></svg></a></div></div></div></div><div style="max-height:0" class="_1-_7ly2X"><div><div class="_2XsmF_ig _2eBp0RCz _2rYsJZuE"><p>Yes, it’s valid.  Here’s how to understand what it does:</p>
+
+<p>The <code>-&gt;</code> operator creates a new Proc, which is one of Ruby’s function types. (The <code>-&gt;</code> is often called the “stabby proc”.  It’s also called the “stabby lambda”, as it creates a new Proc instance that is a lambda.  All lambdas are Procs, but not all Procs are lambdas.  There are some slight differences between the two.)</p>
+
+<p>This particular Proc takes one parameter (namely, <code>a</code>).  When the Proc is called, Ruby executes the block <code>p a</code>, which is the equivalent of <code>puts(a.inspect)</code> (a subtle, but useful, difference which is why <code>p</code> is sometimes better than <code>puts</code> for debugging).  So this Proc simply prints out the string that is passed to it.</p>
+
+<p>You can call a Proc by using either the <code>call</code> method on Proc, or by using the square bracket syntax, so this line of code also invokes the Proc and passes it the string “Hello World”.</p>
+
+<p>So putting that all together, this line of code (a) creates a Proc that takes a single parameter <code>a</code> which it prints out and (b) invokes that Proc and passes it the string “Hello world”.  So, in short, this line of code prints “Hello World”.</p>
+</div></div></div></div></div><div class="mb-6 pb-6 border-b border-solid border-gray-200" data-cid="interview-questions-questions-0"><div data-testid="interview-question" id="question-3280025" class=""><div role="button" tabindex="0" class="_3Y6TiHXa"><div class="_2HXdYRn9"><div data-testid="question-number" class="_3UhGAYPz">8<!-- -->.</div><div><div class="_2XsmF_ig _2eBp0RCz _2oDgiyfo"><p>Explain each of the following <a href="http://www.tutorialspoint.com/ruby/ruby_operators.htm">operators</a> and how and when they should be used:  <code>==</code>, <code>===</code>, <code>eql?</code>, <code>equal?</code>.</p>
+</div></div></div><div class="_2vLXXDTD"><span class="_3BtIGW5k">View answer<span class="_1CB8-Zdx"></span></span><div class="_2x4J5cmd"><div class="_1NJplhOU" data-testid="share-facebook"><a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.toptal.com%2Fdevelopers%2Fruby%2Finterview-questions%23question-3280025" title="facebook" data-testid="facebook" class="_1jON0eh-"><svg class="_2h0DsYqD" width="20" height="20" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" fill-rule="evenodd" d="M14.2 2.1 12 2C9.8 2 8.3 3.3 8.3 5.8v2H5.8v2.9h2.5V18h3v-7.3h2.4l.4-2.8h-2.9V6c0-.8.3-1.3 1.4-1.3h1.6V2Z" clip-rule="evenodd"></path></svg></a></div><div class="_1NJplhOU" data-testid="share-twitter"><a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.toptal.com%2Fdevelopers%2Fruby%2Finterview-questions%23question-3280025" title="twitter" data-testid="twitter" class="_1jON0eh-"><svg class="_2h0DsYqD" width="20" height="16" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" fill-rule="evenodd" d="M20.33 1.9c-.73.31-1.53.54-2.36.63.85-.5 1.5-1.3 1.8-2.23-.78.46-1.67.8-2.6.97a4.12 4.12 0 0 0-6.99 3.7A11.71 11.71 0 0 1 1.73.73 4.02 4.02 0 0 0 3 6.14a4.18 4.18 0 0 1-1.85-.52v.05c0 1.97 1.4 3.6 3.28 3.97a4.4 4.4 0 0 1-1.85.07 4.1 4.1 0 0 0 3.83 2.8A8.29 8.29 0 0 1 .33 14.2 11.71 11.71 0 0 0 6.63 16 11.5 11.5 0 0 0 18.29 4.51L18.28 4c.8-.58 1.5-1.29 2.05-2.09Z" clip-rule="evenodd"></path></svg></a></div></div></div></div><div style="max-height:0" class="_1-_7ly2X"><div><div class="_2XsmF_ig _2eBp0RCz _2rYsJZuE"><p><code>==</code> – Checks if the <em>value</em> of two operands are equal (often overridden to provide a class-specific definition of equality).</p>
+
+<p><code>===</code> – Specifically used to test equality within the <code>when</code> clause of a <code>case</code> statement (also often overridden to provide meaningful class-specific semantics in case statements).</p>
+
+<p><code>eql?</code> – Checks if the <em>value</em> and <em>type</em> of two operands are the same (as opposed to the <code>==</code> operator which compares values but ignores types).  For example, <code>1 == 1.0</code> evaluates to <code>true</code>, whereas <code>1.eql?(1.0)</code> evaluates to <code>false</code>.</p>
+
+<p><code>equal?</code> – Compares the <code>identity</code> of two objects; i.e., returns <code>true</code> iff both operands have the same object id (i.e., if they both refer to the <em>same object</em>).  Note that this will return <code>false</code> when comparing two identical <em>copies</em> of the same object.</p>
+
+<p>(Thanks to <a href="https://docs.google.com/a/toptal.com/presentation/d/1cqdp89_kolr4q1YAQaB-6i5GXip8MHyve8MvQ_1r6_s/edit#slide=id.gd9ccd329_00">Ruby Gotchas</a> for this question.)</p>
+</div></div></div></div></div><div class="mb-6 pb-6 border-b border-solid border-gray-200" data-cid="interview-questions-questions-0"><div data-testid="interview-question" id="question-3280026" class=""><div role="button" tabindex="0" class="_3Y6TiHXa"><div class="_2HXdYRn9"><div data-testid="question-number" class="_3UhGAYPz">9<!-- -->.</div><div><div class="_2XsmF_ig _2eBp0RCz _2oDgiyfo"><p>Given:</p>
+
+<pre><code class="hljs language-ini"><span class="hljs-attr">x</span> = <span class="hljs-string">"hello"</span>
+</code></pre>
+
+<p>Explain the difference between:</p>
+
+<pre><code class="hljs language-makefile">x += <span class="hljs-string">" world"</span>
+</code></pre>
+
+<p>and</p>
+
+<pre><code class="hljs language-lua">x.<span class="hljs-built_in">concat</span> <span class="hljs-string">" world"</span>
+</code></pre>
+</div></div></div><div class="_2vLXXDTD"><span class="_3BtIGW5k">View answer<span class="_1CB8-Zdx"></span></span><div class="_2x4J5cmd"><div class="_1NJplhOU" data-testid="share-facebook"><a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.toptal.com%2Fdevelopers%2Fruby%2Finterview-questions%23question-3280026" title="facebook" data-testid="facebook" class="_1jON0eh-"><svg class="_2h0DsYqD" width="20" height="20" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" fill-rule="evenodd" d="M14.2 2.1 12 2C9.8 2 8.3 3.3 8.3 5.8v2H5.8v2.9h2.5V18h3v-7.3h2.4l.4-2.8h-2.9V6c0-.8.3-1.3 1.4-1.3h1.6V2Z" clip-rule="evenodd"></path></svg></a></div><div class="_1NJplhOU" data-testid="share-twitter"><a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.toptal.com%2Fdevelopers%2Fruby%2Finterview-questions%23question-3280026" title="twitter" data-testid="twitter" class="_1jON0eh-"><svg class="_2h0DsYqD" width="20" height="16" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" fill-rule="evenodd" d="M20.33 1.9c-.73.31-1.53.54-2.36.63.85-.5 1.5-1.3 1.8-2.23-.78.46-1.67.8-2.6.97a4.12 4.12 0 0 0-6.99 3.7A11.71 11.71 0 0 1 1.73.73 4.02 4.02 0 0 0 3 6.14a4.18 4.18 0 0 1-1.85-.52v.05c0 1.97 1.4 3.6 3.28 3.97a4.4 4.4 0 0 1-1.85.07 4.1 4.1 0 0 0 3.83 2.8A8.29 8.29 0 0 1 .33 14.2 11.71 11.71 0 0 0 6.63 16 11.5 11.5 0 0 0 18.29 4.51L18.28 4c.8-.58 1.5-1.29 2.05-2.09Z" clip-rule="evenodd"></path></svg></a></div></div></div></div><div style="max-height:0" class="_1-_7ly2X"><div><div class="_2XsmF_ig _2eBp0RCz _2rYsJZuE"><p>The <code>+=</code> operator re-initializes the variable with a new value, so <code>a += b</code> is equivalent to <code>a = a + b</code>.</p>
+
+<p>Therefore, while it may <em>seem</em> that <code>+=</code> is mutating the value, it’s actually creating a <em>new</em> object and pointing the the old variable to that new object.</p>
+
+<p>This is perhaps easier to understand if written as follows:</p>
+
+<pre><code class="hljs language-ruby">foo = <span class="hljs-string">"foo"</span>
+foo2 = foo
+foo.concat <span class="hljs-string">"bar"</span>
+
+puts foo
+=&gt; <span class="hljs-string">"foobar"</span>
+puts foo2
+=&gt; <span class="hljs-string">"foobar"</span>
+
+foo += <span class="hljs-string">"baz"</span>
+puts foo
+=&gt; <span class="hljs-string">"foobarbaz"</span>
+puts foo2
+=&gt; <span class="hljs-string">"foobar"</span>
+</code></pre>
+
+<p>(Examining the <code>object_id</code> of <code>foo</code> and <code>foo2</code> will also demonstrate that new objects are being created.)</p>
+
+<p>The difference has implications for performance and also has different mutation behavior than one might expect.</p>
+</div></div></div></div></div><div class="mb-6 pb-6 border-b border-solid border-gray-200" data-cid="interview-questions-questions-0"><div data-testid="interview-question" id="question-3280027" class=""><div role="button" tabindex="0" class="_3Y6TiHXa"><div class="_2HXdYRn9"><div data-testid="question-number" class="_3UhGAYPz">10<!-- -->.</div><div><div class="_2XsmF_ig _2eBp0RCz _2oDgiyfo"><p>In Ruby code, you quite often see the trick of using an expression like <code>array.map(&amp;:method_name)</code> as a shorthand form of <code>array.map { |element| element.method_name }</code>.  How exactly does it work?</p>
+</div></div></div><div class="_2vLXXDTD"><span class="_3BtIGW5k">View answer<span class="_1CB8-Zdx"></span></span><div class="_2x4J5cmd"><div class="_1NJplhOU" data-testid="share-facebook"><a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.toptal.com%2Fdevelopers%2Fruby%2Finterview-questions%23question-3280027" title="facebook" data-testid="facebook" class="_1jON0eh-"><svg class="_2h0DsYqD" width="20" height="20" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" fill-rule="evenodd" d="M14.2 2.1 12 2C9.8 2 8.3 3.3 8.3 5.8v2H5.8v2.9h2.5V18h3v-7.3h2.4l.4-2.8h-2.9V6c0-.8.3-1.3 1.4-1.3h1.6V2Z" clip-rule="evenodd"></path></svg></a></div><div class="_1NJplhOU" data-testid="share-twitter"><a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.toptal.com%2Fdevelopers%2Fruby%2Finterview-questions%23question-3280027" title="twitter" data-testid="twitter" class="_1jON0eh-"><svg class="_2h0DsYqD" width="20" height="16" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" fill-rule="evenodd" d="M20.33 1.9c-.73.31-1.53.54-2.36.63.85-.5 1.5-1.3 1.8-2.23-.78.46-1.67.8-2.6.97a4.12 4.12 0 0 0-6.99 3.7A11.71 11.71 0 0 1 1.73.73 4.02 4.02 0 0 0 3 6.14a4.18 4.18 0 0 1-1.85-.52v.05c0 1.97 1.4 3.6 3.28 3.97a4.4 4.4 0 0 1-1.85.07 4.1 4.1 0 0 0 3.83 2.8A8.29 8.29 0 0 1 .33 14.2 11.71 11.71 0 0 0 6.63 16 11.5 11.5 0 0 0 18.29 4.51L18.28 4c.8-.58 1.5-1.29 2.05-2.09Z" clip-rule="evenodd"></path></svg></a></div></div></div></div><div style="max-height:0" class="_1-_7ly2X"><div><div class="_2XsmF_ig _2eBp0RCz _2rYsJZuE"><p>When a parameter is passed with <code>&amp;</code> in front of it (indicating that is it to be used as a block), Ruby will call <code>to_proc</code> on it in an attempt to make it usable as a block. <code>Symbol#to_proc</code> quite handily returns a <code>Proc</code> that will invoke the method of the corresponding name on whatever is passed to it, thus enabling our little shorthand trick to work.</p>
+</div></div></div></div></div><div class="mb-6 pb-6 border-b border-solid border-gray-200" data-cid="interview-questions-questions-0"><div data-testid="interview-question" id="question-3280028" class=""><div role="button" tabindex="0" class="_3Y6TiHXa"><div class="_2HXdYRn9"><div data-testid="question-number" class="_3UhGAYPz">11<!-- -->.</div><div><div class="_2XsmF_ig _2eBp0RCz _2oDgiyfo"><p>Write a single line of Ruby code that prints the Fibonacci sequence of any length as an array.</p>
+
+<p>(Hint: use <code>inject</code>/<code>reduce</code>)</p>
+</div></div></div><div class="_2vLXXDTD"><span class="_3BtIGW5k">View answer<span class="_1CB8-Zdx"></span></span><div class="_2x4J5cmd"><div class="_1NJplhOU" data-testid="share-facebook"><a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.toptal.com%2Fdevelopers%2Fruby%2Finterview-questions%23question-3280028" title="facebook" data-testid="facebook" class="_1jON0eh-"><svg class="_2h0DsYqD" width="20" height="20" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" fill-rule="evenodd" d="M14.2 2.1 12 2C9.8 2 8.3 3.3 8.3 5.8v2H5.8v2.9h2.5V18h3v-7.3h2.4l.4-2.8h-2.9V6c0-.8.3-1.3 1.4-1.3h1.6V2Z" clip-rule="evenodd"></path></svg></a></div><div class="_1NJplhOU" data-testid="share-twitter"><a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.toptal.com%2Fdevelopers%2Fruby%2Finterview-questions%23question-3280028" title="twitter" data-testid="twitter" class="_1jON0eh-"><svg class="_2h0DsYqD" width="20" height="16" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" fill-rule="evenodd" d="M20.33 1.9c-.73.31-1.53.54-2.36.63.85-.5 1.5-1.3 1.8-2.23-.78.46-1.67.8-2.6.97a4.12 4.12 0 0 0-6.99 3.7A11.71 11.71 0 0 1 1.73.73 4.02 4.02 0 0 0 3 6.14a4.18 4.18 0 0 1-1.85-.52v.05c0 1.97 1.4 3.6 3.28 3.97a4.4 4.4 0 0 1-1.85.07 4.1 4.1 0 0 0 3.83 2.8A8.29 8.29 0 0 1 .33 14.2 11.71 11.71 0 0 0 6.63 16 11.5 11.5 0 0 0 18.29 4.51L18.28 4c.8-.58 1.5-1.29 2.05-2.09Z" clip-rule="evenodd"></path></svg></a></div></div></div></div><div style="max-height:0" class="_1-_7ly2X"><div><div class="_2XsmF_ig _2eBp0RCz _2rYsJZuE"><p>There are multiple ways to do this, but one possible answer is:</p>
+
+<pre><code class="hljs language-javascript">(<span class="hljs-number">1.</span><span class="hljs-number">.20</span>).<span class="hljs-title function_">inject</span>(<span class="hljs-params"> [<span class="hljs-number">0</span>, <span class="hljs-number">1</span>] </span>) { | fib | fib &lt;&lt; fib.<span class="hljs-title function_">last</span>(<span class="hljs-number">2</span>).<span class="hljs-title function_">inject</span>(:+) }
+</code></pre>
+
+<p>As you go up the sequence <code>fib</code>, you sum, or <code>inject(:+)</code>, the last two elements in the array and add the result to the end of <code>fib</code>.</p>
+
+<p>Note: <code>inject</code> is an alias of <code>reduce</code></p>
+</div></div></div></div></div><div class="mb-6 pb-6 border-b border-solid border-gray-200" data-cid="interview-questions-questions-0"><div data-testid="interview-question" id="question-3280029" class=""><div role="button" tabindex="0" class="_3Y6TiHXa"><div class="_2HXdYRn9"><div data-testid="question-number" class="_3UhGAYPz">12<!-- -->.</div><div><div class="_2XsmF_ig _2eBp0RCz _2oDgiyfo"><p>Can you call a private method outside a Ruby class using its object?</p>
+</div></div></div><div class="_2vLXXDTD"><span class="_3BtIGW5k">View answer<span class="_1CB8-Zdx"></span></span><div class="_2x4J5cmd"><div class="_1NJplhOU" data-testid="share-facebook"><a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.toptal.com%2Fdevelopers%2Fruby%2Finterview-questions%23question-3280029" title="facebook" data-testid="facebook" class="_1jON0eh-"><svg class="_2h0DsYqD" width="20" height="20" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" fill-rule="evenodd" d="M14.2 2.1 12 2C9.8 2 8.3 3.3 8.3 5.8v2H5.8v2.9h2.5V18h3v-7.3h2.4l.4-2.8h-2.9V6c0-.8.3-1.3 1.4-1.3h1.6V2Z" clip-rule="evenodd"></path></svg></a></div><div class="_1NJplhOU" data-testid="share-twitter"><a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.toptal.com%2Fdevelopers%2Fruby%2Finterview-questions%23question-3280029" title="twitter" data-testid="twitter" class="_1jON0eh-"><svg class="_2h0DsYqD" width="20" height="16" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" fill-rule="evenodd" d="M20.33 1.9c-.73.31-1.53.54-2.36.63.85-.5 1.5-1.3 1.8-2.23-.78.46-1.67.8-2.6.97a4.12 4.12 0 0 0-6.99 3.7A11.71 11.71 0 0 1 1.73.73 4.02 4.02 0 0 0 3 6.14a4.18 4.18 0 0 1-1.85-.52v.05c0 1.97 1.4 3.6 3.28 3.97a4.4 4.4 0 0 1-1.85.07 4.1 4.1 0 0 0 3.83 2.8A8.29 8.29 0 0 1 .33 14.2 11.71 11.71 0 0 0 6.63 16 11.5 11.5 0 0 0 18.29 4.51L18.28 4c.8-.58 1.5-1.29 2.05-2.09Z" clip-rule="evenodd"></path></svg></a></div></div></div></div><div style="max-height:0" class="_1-_7ly2X"><div><div class="_2XsmF_ig _2eBp0RCz _2rYsJZuE"><p>Yes, with the help of the <code>send</code> method.</p>
+
+<p>Given the class <code>Test</code>:</p>
+
+<pre><code class="language-ruby hljs"><span class="hljs-keyword">class</span> <span class="hljs-title class_">Test</span>
+   <span class="hljs-keyword">private</span>
+       <span class="hljs-keyword">def</span> <span class="hljs-title function_">method</span>
+         p <span class="hljs-string">"I am a private method"</span>
+      <span class="hljs-keyword">end</span>
+<span class="hljs-keyword">end</span>
+</code></pre>
+
+<p>We can execute the private method using <code>send</code>:</p>
+
+<pre><code class="language-ruby hljs"><span class="hljs-meta prompt_">&gt;&gt;</span> <span class="hljs-title class_">Test</span>.new.send(<span class="hljs-symbol">:method</span>)
+<span class="hljs-string">"I am a private method"</span>
+</code></pre>
+</div></div></div></div></div><div class="mb-6 pb-6 border-b border-solid border-gray-200" data-cid="interview-questions-questions-0"><div data-testid="interview-question" id="question-3280030" class=""><div role="button" tabindex="0" class="_3Y6TiHXa"><div class="_2HXdYRn9"><div data-testid="question-number" class="_3UhGAYPz">13<!-- -->.</div><div><div class="_2XsmF_ig _2eBp0RCz _2oDgiyfo"><p>Consider the following code:</p>
+
+<pre><code class="hljs language-css">class <span class="hljs-selector-tag">A</span>
+  def self<span class="hljs-selector-class">.a</span>(<span class="hljs-selector-tag">b</span>)
+    if <span class="hljs-selector-tag">b</span> &gt; <span class="hljs-number">0</span>
+      <span class="hljs-selector-tag">b</span> * <span class="hljs-selector-tag">b</span>
+    end
+  end
+end
+</code></pre>
+
+<p>What will be the values of:</p>
+
+<ul>
+  <li><code>var1 = A.a(0)</code></li>
+  <li><code>var2 = A.a(2)</code></li>
+</ul>
+
+</div></div></div><div class="_2vLXXDTD"><span class="_3BtIGW5k">View answer<span class="_1CB8-Zdx"></span></span><div class="_2x4J5cmd"><div class="_1NJplhOU" data-testid="share-facebook"><a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.toptal.com%2Fdevelopers%2Fruby%2Finterview-questions%23question-3280030" title="facebook" data-testid="facebook" class="_1jON0eh-"><svg class="_2h0DsYqD" width="20" height="20" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" fill-rule="evenodd" d="M14.2 2.1 12 2C9.8 2 8.3 3.3 8.3 5.8v2H5.8v2.9h2.5V18h3v-7.3h2.4l.4-2.8h-2.9V6c0-.8.3-1.3 1.4-1.3h1.6V2Z" clip-rule="evenodd"></path></svg></a></div><div class="_1NJplhOU" data-testid="share-twitter"><a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.toptal.com%2Fdevelopers%2Fruby%2Finterview-questions%23question-3280030" title="twitter" data-testid="twitter" class="_1jON0eh-"><svg class="_2h0DsYqD" width="20" height="16" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" fill-rule="evenodd" d="M20.33 1.9c-.73.31-1.53.54-2.36.63.85-.5 1.5-1.3 1.8-2.23-.78.46-1.67.8-2.6.97a4.12 4.12 0 0 0-6.99 3.7A11.71 11.71 0 0 1 1.73.73 4.02 4.02 0 0 0 3 6.14a4.18 4.18 0 0 1-1.85-.52v.05c0 1.97 1.4 3.6 3.28 3.97a4.4 4.4 0 0 1-1.85.07 4.1 4.1 0 0 0 3.83 2.8A8.29 8.29 0 0 1 .33 14.2 11.71 11.71 0 0 0 6.63 16 11.5 11.5 0 0 0 18.29 4.51L18.28 4c.8-.58 1.5-1.29 2.05-2.09Z" clip-rule="evenodd"></path></svg></a></div></div></div></div><div style="max-height:0" class="_1-_7ly2X"><div><div class="_2XsmF_ig _2eBp0RCz _2rYsJZuE"><ul>
+  <li>var1 will be equal to <code>nil</code>
+</li>
+  <li>var2 will be equal to <code>4</code>
+</li>
+</ul>
+
+<p>Understand:
+* A conditional statement in Ruby is an expression that returns <code>nil</code> if the conditional is <code>false</code>.
+* Ruby methods return the last expression in the method body.</p>
+
+<p>In this example:</p>
+
+<ul>
+  <li>
+<code>A.a(0)</code> returns <code>nil</code> for unsuccessful conditional</li>
+  <li>
+<code>A.a(2)</code> returns the square of <code>2</code>, i.e <code>4</code>
+</li>
+</ul>
+</div></div></div></div></div><div class="mb-6 pb-6 border-b border-solid border-gray-200" data-cid="interview-questions-questions-0"><div data-testid="interview-question" id="question-3280031" class=""><div role="button" tabindex="0" class="_3Y6TiHXa"><div class="_2HXdYRn9"><div data-testid="question-number" class="_3UhGAYPz">14<!-- -->.</div><div><div class="_2XsmF_ig _2eBp0RCz _2oDgiyfo"><p>What is the difference between <code>Array#map</code> and <code>Array#each</code>?</p>
+
+<p>Note: <code>collect</code> is an alias of <code>map</code></p>
+</div></div></div><div class="_2vLXXDTD"><span class="_3BtIGW5k">View answer<span class="_1CB8-Zdx"></span></span><div class="_2x4J5cmd"><div class="_1NJplhOU" data-testid="share-facebook"><a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.toptal.com%2Fdevelopers%2Fruby%2Finterview-questions%23question-3280031" title="facebook" data-testid="facebook" class="_1jON0eh-"><svg class="_2h0DsYqD" width="20" height="20" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" fill-rule="evenodd" d="M14.2 2.1 12 2C9.8 2 8.3 3.3 8.3 5.8v2H5.8v2.9h2.5V18h3v-7.3h2.4l.4-2.8h-2.9V6c0-.8.3-1.3 1.4-1.3h1.6V2Z" clip-rule="evenodd"></path></svg></a></div><div class="_1NJplhOU" data-testid="share-twitter"><a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.toptal.com%2Fdevelopers%2Fruby%2Finterview-questions%23question-3280031" title="twitter" data-testid="twitter" class="_1jON0eh-"><svg class="_2h0DsYqD" width="20" height="16" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" fill-rule="evenodd" d="M20.33 1.9c-.73.31-1.53.54-2.36.63.85-.5 1.5-1.3 1.8-2.23-.78.46-1.67.8-2.6.97a4.12 4.12 0 0 0-6.99 3.7A11.71 11.71 0 0 1 1.73.73 4.02 4.02 0 0 0 3 6.14a4.18 4.18 0 0 1-1.85-.52v.05c0 1.97 1.4 3.6 3.28 3.97a4.4 4.4 0 0 1-1.85.07 4.1 4.1 0 0 0 3.83 2.8A8.29 8.29 0 0 1 .33 14.2 11.71 11.71 0 0 0 6.63 16 11.5 11.5 0 0 0 18.29 4.51L18.28 4c.8-.58 1.5-1.29 2.05-2.09Z" clip-rule="evenodd"></path></svg></a></div></div></div></div><div style="max-height:0" class="_1-_7ly2X"><div><div class="_2XsmF_ig _2eBp0RCz _2rYsJZuE"><ul>
+  <li>
+<code>Array#each</code> method iterates over the elements of the array and executes the provided block each time. However, it returns the original array unaffected.</li>
+  <li>
+<code>Array#map</code> will return a new array of elements containing the values returned by the block it is provided. It also does not affect the original array</li>
+</ul>
+
+<p>Example:</p>
+
+<pre><code class="hljs language-ruby"><span class="hljs-comment"># Given</span>
+<span class="hljs-meta prompt_">&gt;&gt;</span> arr = [<span class="hljs-number">1</span>,<span class="hljs-number">2</span>,<span class="hljs-number">3</span>,<span class="hljs-number">4</span>]
+
+<span class="hljs-comment"># This will print 2,4,6,8 but will return [1,2,3,4]</span>
+<span class="hljs-meta prompt_">&gt;&gt;</span> arr.each {|<span class="hljs-params">x</span>| puts x*<span class="hljs-number">2</span>; x*<span class="hljs-number">2</span> }
+<span class="hljs-number">2</span>
+<span class="hljs-number">4</span>
+<span class="hljs-number">6</span>
+<span class="hljs-number">8</span>
+=&gt; [<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>, <span class="hljs-number">4</span>]
+
+
+<span class="hljs-comment"># This will also print 2,4,6,8 but returns [2,4,6,8]</span>
+<span class="hljs-meta prompt_">&gt;&gt;</span> arr.map {|<span class="hljs-params">x</span>| puts x*<span class="hljs-number">2</span>; x*<span class="hljs-number">2</span> }
+<span class="hljs-number">2</span>
+<span class="hljs-number">4</span>
+<span class="hljs-number">6</span>
+<span class="hljs-number">8</span>
+=&gt; [<span class="hljs-number">2</span>, <span class="hljs-number">4</span>, <span class="hljs-number">6</span>, <span class="hljs-number">8</span>]
+</code></pre>
+</div></div></div></div></div><div class="mb-6 pb-6 border-b border-solid border-gray-200" data-cid="interview-questions-questions-0"><div data-testid="interview-question" id="question-3280032" class=""><div role="button" tabindex="0" class="_3Y6TiHXa"><div class="_2HXdYRn9"><div data-testid="question-number" class="_3UhGAYPz">15<!-- -->.</div><div><div class="_2XsmF_ig _2eBp0RCz _2oDgiyfo"><p>How do you remove <code>nil</code> values in array using ruby?</p>
+</div></div></div><div class="_2vLXXDTD"><span class="_3BtIGW5k">View answer<span class="_1CB8-Zdx"></span></span><div class="_2x4J5cmd"><div class="_1NJplhOU" data-testid="share-facebook"><a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.toptal.com%2Fdevelopers%2Fruby%2Finterview-questions%23question-3280032" title="facebook" data-testid="facebook" class="_1jON0eh-"><svg class="_2h0DsYqD" width="20" height="20" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" fill-rule="evenodd" d="M14.2 2.1 12 2C9.8 2 8.3 3.3 8.3 5.8v2H5.8v2.9h2.5V18h3v-7.3h2.4l.4-2.8h-2.9V6c0-.8.3-1.3 1.4-1.3h1.6V2Z" clip-rule="evenodd"></path></svg></a></div><div class="_1NJplhOU" data-testid="share-twitter"><a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.toptal.com%2Fdevelopers%2Fruby%2Finterview-questions%23question-3280032" title="twitter" data-testid="twitter" class="_1jON0eh-"><svg class="_2h0DsYqD" width="20" height="16" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" fill-rule="evenodd" d="M20.33 1.9c-.73.31-1.53.54-2.36.63.85-.5 1.5-1.3 1.8-2.23-.78.46-1.67.8-2.6.97a4.12 4.12 0 0 0-6.99 3.7A11.71 11.71 0 0 1 1.73.73 4.02 4.02 0 0 0 3 6.14a4.18 4.18 0 0 1-1.85-.52v.05c0 1.97 1.4 3.6 3.28 3.97a4.4 4.4 0 0 1-1.85.07 4.1 4.1 0 0 0 3.83 2.8A8.29 8.29 0 0 1 .33 14.2 11.71 11.71 0 0 0 6.63 16 11.5 11.5 0 0 0 18.29 4.51L18.28 4c.8-.58 1.5-1.29 2.05-2.09Z" clip-rule="evenodd"></path></svg></a></div></div></div></div><div style="max-height:0" class="_1-_7ly2X"><div><div class="_2XsmF_ig _2eBp0RCz _2rYsJZuE"><p><code>Array#compact</code> removes <code>nil</code> values.</p>
+
+<p>Example:</p>
+
+<pre><code class="hljs language-ruby"><span class="hljs-meta prompt_">&gt;&gt;</span> [<span class="hljs-literal">nil</span>,<span class="hljs-number">123</span>,<span class="hljs-literal">nil</span>,<span class="hljs-string">"test"</span>].compact
+=&gt; [<span class="hljs-number">123</span>, <span class="hljs-string">"test"</span>]
+</code></pre>
+</div></div></div></div></div><div class="mb-6 pb-6 border-b border-solid border-gray-200" data-cid="interview-questions-questions-0"><div data-testid="interview-question" id="question-3280033" class=""><div role="button" tabindex="0" class="_3Y6TiHXa"><div class="_2HXdYRn9"><div data-testid="question-number" class="_3UhGAYPz">16<!-- -->.</div><div><div class="_2XsmF_ig _2eBp0RCz _2oDgiyfo"><p>For the class <code>ABC</code> the given as:</p>
+
+<pre><code class="hljs language-ruby"><span class="hljs-keyword">class</span> <span class="hljs-variable constant_">ABC</span>
+  <span class="hljs-keyword">def</span> <span class="hljs-title function_">xyz</span>
+    puts <span class="hljs-string">"xyz in ABC"</span>
+  <span class="hljs-keyword">end</span>
+<span class="hljs-keyword">end</span>
+</code></pre>
+<p>What is the return value for:</p>
+
+<ul>
+  <li><code>ABC::new::xyz</code></li>
+  <li><code>ABC::new.xyz</code></li>
+  <li><code>ABC.new::xyz</code></li>
+  <li><code>ABC.new.xyz</code></li>
+</ul>
+</div></div></div><div class="_2vLXXDTD"><span class="_3BtIGW5k">View answer<span class="_1CB8-Zdx"></span></span><div class="_2x4J5cmd"><div class="_1NJplhOU" data-testid="share-facebook"><a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.toptal.com%2Fdevelopers%2Fruby%2Finterview-questions%23question-3280033" title="facebook" data-testid="facebook" class="_1jON0eh-"><svg class="_2h0DsYqD" width="20" height="20" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" fill-rule="evenodd" d="M14.2 2.1 12 2C9.8 2 8.3 3.3 8.3 5.8v2H5.8v2.9h2.5V18h3v-7.3h2.4l.4-2.8h-2.9V6c0-.8.3-1.3 1.4-1.3h1.6V2Z" clip-rule="evenodd"></path></svg></a></div><div class="_1NJplhOU" data-testid="share-twitter"><a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.toptal.com%2Fdevelopers%2Fruby%2Finterview-questions%23question-3280033" title="twitter" data-testid="twitter" class="_1jON0eh-"><svg class="_2h0DsYqD" width="20" height="16" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" fill-rule="evenodd" d="M20.33 1.9c-.73.31-1.53.54-2.36.63.85-.5 1.5-1.3 1.8-2.23-.78.46-1.67.8-2.6.97a4.12 4.12 0 0 0-6.99 3.7A11.71 11.71 0 0 1 1.73.73 4.02 4.02 0 0 0 3 6.14a4.18 4.18 0 0 1-1.85-.52v.05c0 1.97 1.4 3.6 3.28 3.97a4.4 4.4 0 0 1-1.85.07 4.1 4.1 0 0 0 3.83 2.8A8.29 8.29 0 0 1 .33 14.2 11.71 11.71 0 0 0 6.63 16 11.5 11.5 0 0 0 18.29 4.51L18.28 4c.8-.58 1.5-1.29 2.05-2.09Z" clip-rule="evenodd"></path></svg></a></div></div></div></div><div style="max-height:0" class="_1-_7ly2X"><div><div class="_2XsmF_ig _2eBp0RCz _2rYsJZuE"><p>All the statements for the invocation of the xyz method through the object are valid.</p>
+
+<p>When run through <code>IRB</code>:</p>
+
+<pre><code class="hljs language-ruby"><span class="hljs-meta prompt_">irb(main):001:0&gt;</span> <span class="hljs-variable constant_">ABC</span><span class="hljs-symbol">:</span><span class="hljs-symbol">:new</span><span class="hljs-symbol">:</span><span class="hljs-symbol">:xyz</span>
+xyz <span class="hljs-keyword">in</span> <span class="hljs-variable constant_">ABC</span>
+=&gt; nil
+<span class="hljs-meta prompt_">irb(main):002:0&gt;</span> <span class="hljs-variable constant_">ABC</span><span class="hljs-symbol">:</span><span class="hljs-symbol">:new</span>.xyz
+xyz <span class="hljs-keyword">in</span> <span class="hljs-variable constant_">ABC</span>
+=&gt; nil
+<span class="hljs-meta prompt_">irb(main):003:0&gt;</span> <span class="hljs-variable constant_">ABC</span>.new::xyz
+xyz <span class="hljs-keyword">in</span> <span class="hljs-variable constant_">ABC</span>
+=&gt; nil
+<span class="hljs-meta prompt_">irb(main):004:0&gt;</span> <span class="hljs-variable constant_">ABC</span>.new.xyz
+xyz <span class="hljs-keyword">in</span> <span class="hljs-variable constant_">ABC</span>
+=&gt; nil
+</code></pre>
+</div></div></div></div></div><div class="mb-6 pb-6 border-b border-solid border-gray-200" data-cid="interview-questions-questions-0"><div data-testid="interview-question" id="question-3280034" class=""><div role="button" tabindex="0" class="_3Y6TiHXa"><div class="_2HXdYRn9"><div data-testid="question-number" class="_3UhGAYPz">17<!-- -->.</div><div><div class="_2XsmF_ig _2eBp0RCz _2oDgiyfo"><p>What is the value of the variable <code>upcased</code> in the below piece of code?</p>
+
+<p><code>upcased = ["one", "two", "three"].map {|n| puts n.upcase }</code></p>
+</div></div></div><div class="_2vLXXDTD"><span class="_3BtIGW5k">View answer<span class="_1CB8-Zdx"></span></span><div class="_2x4J5cmd"><div class="_1NJplhOU" data-testid="share-facebook"><a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.toptal.com%2Fdevelopers%2Fruby%2Finterview-questions%23question-3280034" title="facebook" data-testid="facebook" class="_1jON0eh-"><svg class="_2h0DsYqD" width="20" height="20" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" fill-rule="evenodd" d="M14.2 2.1 12 2C9.8 2 8.3 3.3 8.3 5.8v2H5.8v2.9h2.5V18h3v-7.3h2.4l.4-2.8h-2.9V6c0-.8.3-1.3 1.4-1.3h1.6V2Z" clip-rule="evenodd"></path></svg></a></div><div class="_1NJplhOU" data-testid="share-twitter"><a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.toptal.com%2Fdevelopers%2Fruby%2Finterview-questions%23question-3280034" title="twitter" data-testid="twitter" class="_1jON0eh-"><svg class="_2h0DsYqD" width="20" height="16" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" fill-rule="evenodd" d="M20.33 1.9c-.73.31-1.53.54-2.36.63.85-.5 1.5-1.3 1.8-2.23-.78.46-1.67.8-2.6.97a4.12 4.12 0 0 0-6.99 3.7A11.71 11.71 0 0 1 1.73.73 4.02 4.02 0 0 0 3 6.14a4.18 4.18 0 0 1-1.85-.52v.05c0 1.97 1.4 3.6 3.28 3.97a4.4 4.4 0 0 1-1.85.07 4.1 4.1 0 0 0 3.83 2.8A8.29 8.29 0 0 1 .33 14.2 11.71 11.71 0 0 0 6.63 16 11.5 11.5 0 0 0 18.29 4.51L18.28 4c.8-.58 1.5-1.29 2.05-2.09Z" clip-rule="evenodd"></path></svg></a></div></div></div></div><div style="max-height:0" class="_1-_7ly2X"><div><div class="_2XsmF_ig _2eBp0RCz _2rYsJZuE"><p><code>upcase = [nil, nil, nil]</code></p>
+
+<p>Let’s take a look at <code>puts</code> as below:</p>
+
+<pre><code class="hljs language-ruby"><span class="hljs-meta prompt_">&gt;&gt;</span> puts <span class="hljs-string">"Hi"</span>
+<span class="hljs-title class_">Hi</span>
+=&gt; nil
+</code></pre>
+
+<p>Note the <code>nil</code> at the end: that’s the return value from <code>puts</code>. After all, <code>puts</code> is a <code>method</code>, so it has to return something. As it happens, it always returns <code>nil</code>. The printing out of the string is an action the method performs.</p>
+
+<p>Similarly, evaluating the code in question we can understand that while it’s a common learner mistake to expect the result to be <code>["ONE", "TWO", "THREE"]</code>. In fact, it’s <code>[nil, nil, nil]</code>. Each time through the block, the block evaluates to the return value of <code>puts</code> to be <code>nil</code>.</p>
+</div></div></div></div></div><div class="mb-6 pb-6 border-b border-solid border-gray-200" data-cid="interview-questions-questions-0"><div data-testid="interview-question" id="question-3280035" class=""><div role="button" tabindex="0" class="_3Y6TiHXa"><div class="_2HXdYRn9"><div data-testid="question-number" class="_3UhGAYPz">18<!-- -->.</div><div><div class="_2XsmF_ig _2eBp0RCz _2oDgiyfo"><p>Given that the following code has been run:</p>
+
+<pre><code class="hljs language-ruby"><span class="hljs-keyword">if</span> <span class="hljs-literal">false</span>
+  foo = <span class="hljs-string">'test'</span>
+<span class="hljs-keyword">end</span>
+</code></pre>
+
+<p>What will be the value of:</p>
+
+<ul>
+  <li><code>defined? foo</code></li>
+  <li><code>defined? bar</code></li>
+</ul>
+</div></div></div><div class="_2vLXXDTD"><span class="_3BtIGW5k">View answer<span class="_1CB8-Zdx"></span></span><div class="_2x4J5cmd"><div class="_1NJplhOU" data-testid="share-facebook"><a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.toptal.com%2Fdevelopers%2Fruby%2Finterview-questions%23question-3280035" title="facebook" data-testid="facebook" class="_1jON0eh-"><svg class="_2h0DsYqD" width="20" height="20" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" fill-rule="evenodd" d="M14.2 2.1 12 2C9.8 2 8.3 3.3 8.3 5.8v2H5.8v2.9h2.5V18h3v-7.3h2.4l.4-2.8h-2.9V6c0-.8.3-1.3 1.4-1.3h1.6V2Z" clip-rule="evenodd"></path></svg></a></div><div class="_1NJplhOU" data-testid="share-twitter"><a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.toptal.com%2Fdevelopers%2Fruby%2Finterview-questions%23question-3280035" title="twitter" data-testid="twitter" class="_1jON0eh-"><svg class="_2h0DsYqD" width="20" height="16" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" fill-rule="evenodd" d="M20.33 1.9c-.73.31-1.53.54-2.36.63.85-.5 1.5-1.3 1.8-2.23-.78.46-1.67.8-2.6.97a4.12 4.12 0 0 0-6.99 3.7A11.71 11.71 0 0 1 1.73.73 4.02 4.02 0 0 0 3 6.14a4.18 4.18 0 0 1-1.85-.52v.05c0 1.97 1.4 3.6 3.28 3.97a4.4 4.4 0 0 1-1.85.07 4.1 4.1 0 0 0 3.83 2.8A8.29 8.29 0 0 1 .33 14.2 11.71 11.71 0 0 0 6.63 16 11.5 11.5 0 0 0 18.29 4.51L18.28 4c.8-.58 1.5-1.29 2.05-2.09Z" clip-rule="evenodd"></path></svg></a></div></div></div></div><div style="max-height:0" class="_1-_7ly2X"><div><div class="_2XsmF_ig _2eBp0RCz _2rYsJZuE"><pre><code class="hljs language-ruby"><span class="hljs-keyword">defined</span>? foo
+<span class="hljs-comment">#=&gt; "local-variable"</span>
+<span class="hljs-keyword">defined</span>? bar
+<span class="hljs-comment">#=&gt; nil</span>
+</code></pre>
+
+<p><code>foo</code> has been at least read by the interpreter, therefore it is defined and assigned a <code>nil</code> value. However, since <code>bar</code> has never been written, it was never defined in the first place.</p>
+</div></div></div></div></div><div class="mb-6 pb-6 border-b border-solid border-gray-200" data-cid="interview-questions-questions-0"><div data-testid="interview-question" id="question-3280036" class=""><div role="button" tabindex="0" class="_3Y6TiHXa"><div class="_2HXdYRn9"><div data-testid="question-number" class="_3UhGAYPz">19<!-- -->.</div><div><div class="_2XsmF_ig _2eBp0RCz _2oDgiyfo"><p>What is the difference between the <code>Object</code> methods <code>clone</code> and <code>dup</code>?</p>
+</div></div></div><div class="_2vLXXDTD"><span class="_3BtIGW5k">View answer<span class="_1CB8-Zdx"></span></span><div class="_2x4J5cmd"><div class="_1NJplhOU" data-testid="share-facebook"><a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.toptal.com%2Fdevelopers%2Fruby%2Finterview-questions%23question-3280036" title="facebook" data-testid="facebook" class="_1jON0eh-"><svg class="_2h0DsYqD" width="20" height="20" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" fill-rule="evenodd" d="M14.2 2.1 12 2C9.8 2 8.3 3.3 8.3 5.8v2H5.8v2.9h2.5V18h3v-7.3h2.4l.4-2.8h-2.9V6c0-.8.3-1.3 1.4-1.3h1.6V2Z" clip-rule="evenodd"></path></svg></a></div><div class="_1NJplhOU" data-testid="share-twitter"><a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.toptal.com%2Fdevelopers%2Fruby%2Finterview-questions%23question-3280036" title="twitter" data-testid="twitter" class="_1jON0eh-"><svg class="_2h0DsYqD" width="20" height="16" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" fill-rule="evenodd" d="M20.33 1.9c-.73.31-1.53.54-2.36.63.85-.5 1.5-1.3 1.8-2.23-.78.46-1.67.8-2.6.97a4.12 4.12 0 0 0-6.99 3.7A11.71 11.71 0 0 1 1.73.73 4.02 4.02 0 0 0 3 6.14a4.18 4.18 0 0 1-1.85-.52v.05c0 1.97 1.4 3.6 3.28 3.97a4.4 4.4 0 0 1-1.85.07 4.1 4.1 0 0 0 3.83 2.8A8.29 8.29 0 0 1 .33 14.2 11.71 11.71 0 0 0 6.63 16 11.5 11.5 0 0 0 18.29 4.51L18.28 4c.8-.58 1.5-1.29 2.05-2.09Z" clip-rule="evenodd"></path></svg></a></div></div></div></div><div style="max-height:0" class="_1-_7ly2X"><div><div class="_2XsmF_ig _2eBp0RCz _2rYsJZuE"><p><code>Object#dup</code> creates a shallow copy of an object. For example, it will not copy any mixed-in module methods, whereas <code>Object#clone</code> will. This can be shown with the following code example:</p>
+
+<pre><code class="language-ruby hljs"><span class="hljs-keyword">class</span> <span class="hljs-title class_">Klass</span>
+  <span class="hljs-built_in">attr_accessor</span> <span class="hljs-symbol">:str</span>
+<span class="hljs-keyword">end</span>
+
+<span class="hljs-keyword">module</span> <span class="hljs-title class_">Foo</span>
+  <span class="hljs-keyword">def</span> <span class="hljs-title function_">foo</span>; <span class="hljs-string">'foo'</span>; <span class="hljs-keyword">end</span>
+<span class="hljs-keyword">end</span>
+
+s1 = <span class="hljs-title class_">Klass</span>.new <span class="hljs-comment">#=&gt; #</span>
+s1.<span class="hljs-keyword">extend</span>(<span class="hljs-title class_">Foo</span>) <span class="hljs-comment">#=&gt; #</span>
+s1.foo <span class="hljs-comment">#=&gt; "foo"</span>
+
+s2 = s1.clone <span class="hljs-comment">#=&gt; #</span>
+s2.foo <span class="hljs-comment">#=&gt; "foo"</span>
+
+s3 = s1.dup <span class="hljs-comment">#=&gt; #</span>
+s3.foo <span class="hljs-comment">#=&gt; NoMethodError: undefined method `foo' for #</span>
+</code></pre>
+</div></div></div></div></div><div class="mb-6 pb-6 border-b border-solid border-gray-200" data-cid="interview-questions-questions-0"><div data-testid="interview-question" id="question-3280039" class=""><div role="button" tabindex="0" class="_3Y6TiHXa"><div class="_2HXdYRn9"><div data-testid="question-number" class="_3UhGAYPz">20<!-- -->.</div><div><div class="_2XsmF_ig _2eBp0RCz _2oDgiyfo"><p>What is the difference between <code>extend</code> and <code>include</code> in ruby?</p>
+</div></div></div><div class="_2vLXXDTD"><span class="_3BtIGW5k">View answer<span class="_1CB8-Zdx"></span></span><div class="_2x4J5cmd"><div class="_1NJplhOU" data-testid="share-facebook"><a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.toptal.com%2Fdevelopers%2Fruby%2Finterview-questions%23question-3280039" title="facebook" data-testid="facebook" class="_1jON0eh-"><svg class="_2h0DsYqD" width="20" height="20" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" fill-rule="evenodd" d="M14.2 2.1 12 2C9.8 2 8.3 3.3 8.3 5.8v2H5.8v2.9h2.5V18h3v-7.3h2.4l.4-2.8h-2.9V6c0-.8.3-1.3 1.4-1.3h1.6V2Z" clip-rule="evenodd"></path></svg></a></div><div class="_1NJplhOU" data-testid="share-twitter"><a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.toptal.com%2Fdevelopers%2Fruby%2Finterview-questions%23question-3280039" title="twitter" data-testid="twitter" class="_1jON0eh-"><svg class="_2h0DsYqD" width="20" height="16" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" fill-rule="evenodd" d="M20.33 1.9c-.73.31-1.53.54-2.36.63.85-.5 1.5-1.3 1.8-2.23-.78.46-1.67.8-2.6.97a4.12 4.12 0 0 0-6.99 3.7A11.71 11.71 0 0 1 1.73.73 4.02 4.02 0 0 0 3 6.14a4.18 4.18 0 0 1-1.85-.52v.05c0 1.97 1.4 3.6 3.28 3.97a4.4 4.4 0 0 1-1.85.07 4.1 4.1 0 0 0 3.83 2.8A8.29 8.29 0 0 1 .33 14.2 11.71 11.71 0 0 0 6.63 16 11.5 11.5 0 0 0 18.29 4.51L18.28 4c.8-.58 1.5-1.29 2.05-2.09Z" clip-rule="evenodd"></path></svg></a></div></div></div></div><div style="max-height:0" class="_1-_7ly2X"><div><div class="_2XsmF_ig _2eBp0RCz _2rYsJZuE"><ul>
+  <li>
+<code>include</code> mixes in specified module methods as instance methods in the target class</li>
+  <li>
+<code>extend</code> mixes in specified module methods as class methods in the target class</li>
+</ul>
+
+<p>Given the following class definitions:</p>
+
+<pre><code class="hljs language-ruby"><span class="hljs-keyword">module</span> <span class="hljs-title class_">ReusableModule</span>
+  <span class="hljs-keyword">def</span> <span class="hljs-title function_">module_method</span>
+    puts <span class="hljs-string">"Module Method: Hi there! I'm a module method"</span>
+  <span class="hljs-keyword">end</span>
+<span class="hljs-keyword">end</span>
+
+<span class="hljs-keyword">class</span> <span class="hljs-title class_">ClassThatIncludes</span>
+  <span class="hljs-keyword">include</span> <span class="hljs-title class_">ReusableModule</span>
+<span class="hljs-keyword">end</span>
+<span class="hljs-keyword">class</span> <span class="hljs-title class_">ClassThatExtends</span>
+  <span class="hljs-keyword">extend</span> <span class="hljs-title class_">ReusableModule</span>
+<span class="hljs-keyword">end</span>
+</code></pre>
+
+<p>Here’s how <code>ClassThatIncludes</code> behaves:</p>
+
+<pre><code class="hljs language-yaml"><span class="hljs-comment"># A class method does not exist</span>
+<span class="hljs-string">&gt;&gt;</span> <span class="hljs-string">ClassThatIncludes.module_method</span>
+<span class="hljs-attr">NoMethodError:</span> <span class="hljs-string">undefined</span> <span class="hljs-string">method</span> <span class="hljs-string">`module_method'</span> <span class="hljs-string">for</span> <span class="hljs-string">ClassThatIncludes:Class</span>
+
+<span class="hljs-comment"># A valid instance method exists</span>
+<span class="hljs-string">&gt;&gt;</span> <span class="hljs-string">ClassThatIncludes.new.module_method</span>
+<span class="hljs-attr">Module Method:</span> <span class="hljs-string">Hi</span> <span class="hljs-string">there!</span> <span class="hljs-string">I'm</span> <span class="hljs-string">a</span> <span class="hljs-string">module</span> <span class="hljs-string">method</span>
+<span class="hljs-string">=&gt;</span> <span class="hljs-string">nil</span>
+</code></pre>
+
+<p>Here’s how <code>ClassThatExtends</code> behaves:</p>
+
+<pre><code class="hljs language-yaml"><span class="hljs-comment"># A valid class method exists</span>
+<span class="hljs-string">&gt;&gt;</span> <span class="hljs-string">ClassThatExtends.module_method</span>
+<span class="hljs-attr">Module Method:</span> <span class="hljs-string">Hi</span> <span class="hljs-string">there!</span> <span class="hljs-string">I'm</span> <span class="hljs-string">a</span> <span class="hljs-string">module</span> <span class="hljs-string">method</span>
+<span class="hljs-string">=&gt;</span> <span class="hljs-string">nil</span>
+
+<span class="hljs-comment"># An instance method does not exist</span>
+<span class="hljs-string">ClassThatExtends.new.module_method</span>
+<span class="hljs-attr">NoMethodError:</span> <span class="hljs-string">undefined</span> <span class="hljs-string">method</span> <span class="hljs-string">`module_method'</span> <span class="hljs-string">for</span> <span class="hljs-comment">#&lt;ClassThatExtends:0x007ffa1e0317e8&gt;</span>
+</code></pre>
+
+<p>We should mention that <code>object.extend ExampleModule</code> makes <code>ExampleModule</code> methods available as singleton methods in the object.</p>
+</div></div></div></div></div><div data-cid="interview-questions-questions-0"><div data-testid="interview-question" id="question-3280040" class=""><div role="button" tabindex="0" class="_3Y6TiHXa"><div class="_2HXdYRn9"><div data-testid="question-number" class="_3UhGAYPz">21<!-- -->.</div><div><div class="_2XsmF_ig _2eBp0RCz _2oDgiyfo"><p>How many types of variables are used in Ruby and what are they?</p>
+</div></div></div><div class="_2vLXXDTD"><span class="_3BtIGW5k">View answer<span class="_1CB8-Zdx"></span></span><div class="_2x4J5cmd"><div class="_1NJplhOU" data-testid="share-facebook"><a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.toptal.com%2Fdevelopers%2Fruby%2Finterview-questions%23question-3280040" title="facebook" data-testid="facebook" class="_1jON0eh-"><svg class="_2h0DsYqD" width="20" height="20" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" fill-rule="evenodd" d="M14.2 2.1 12 2C9.8 2 8.3 3.3 8.3 5.8v2H5.8v2.9h2.5V18h3v-7.3h2.4l.4-2.8h-2.9V6c0-.8.3-1.3 1.4-1.3h1.6V2Z" clip-rule="evenodd"></path></svg></a></div><div class="_1NJplhOU" data-testid="share-twitter"><a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.toptal.com%2Fdevelopers%2Fruby%2Finterview-questions%23question-3280040" title="twitter" data-testid="twitter" class="_1jON0eh-"><svg class="_2h0DsYqD" width="20" height="16" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" fill-rule="evenodd" d="M20.33 1.9c-.73.31-1.53.54-2.36.63.85-.5 1.5-1.3 1.8-2.23-.78.46-1.67.8-2.6.97a4.12 4.12 0 0 0-6.99 3.7A11.71 11.71 0 0 1 1.73.73 4.02 4.02 0 0 0 3 6.14a4.18 4.18 0 0 1-1.85-.52v.05c0 1.97 1.4 3.6 3.28 3.97a4.4 4.4 0 0 1-1.85.07 4.1 4.1 0 0 0 3.83 2.8A8.29 8.29 0 0 1 .33 14.2 11.71 11.71 0 0 0 6.63 16 11.5 11.5 0 0 0 18.29 4.51L18.28 4c.8-.58 1.5-1.29 2.05-2.09Z" clip-rule="evenodd"></path></svg></a></div></div></div></div><div style="max-height:0" class="_1-_7ly2X"><div><div class="_2XsmF_ig _2eBp0RCz _2rYsJZuE"><p>There are 4 types of variables used in Ruby:</p>
+
+<ol>
+  <li>class variables start with <code>@@</code>, e.g. <code>@@my_var</code>
+</li>
+  <li>instance variables start with <code>@</code>, e.g. <code>@my_var</code>
+</li>
+  <li>global variables start with <code>$</code>, e.g. <code>$my_var</code>
+</li>
+  <li>local variables are not prefixed, but method arguments and block arguments start with <code>_</code>, e.g. <code>_my_arg</code> (in fact, local variables that are prefixed with <code>_</code> are considered by linters like RuboCop to be useless variables, where you don’t care what the value is)</li>
+</ol>
+</div></div></div></div></div><div class="NOZGz4C7 mt-16" id="note" data-testid="note"><p>These sample questions are intended as a starting point for your interview process. If you need additional help, explore our <a href="https://www.toptal.com/developers/resources">hiring resources</a>—or let Toptal find the best <a href="https://www.toptal.com/developers">developers</a>, <a href="https://www.toptal.com/designers">designers</a>, <a href="https://www.toptal.com/marketing">marketing experts</a>, <a href="https://www.toptal.com/product-managers">product managers</a>, <a href="https://www.toptal.com/project-managers">project managers</a>, and <a href="https://www.toptal.com/management-consultants">management consultants</a> for&nbsp;you.</p>
+</div></div>

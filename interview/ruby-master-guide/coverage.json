@@ -1,0 +1,25 @@
+{
+  "filesDiscovered": 36,
+  "filesSuccessfullyAnalyzed": 36,
+  "filesWithExtractedRecords": 36,
+  "sourceBytes": 1075400,
+  "sourceLines": 19495,
+  "occurrencesBeforeDeduplication": 1577,
+  "exactQuestionDuplicates": 117,
+  "semanticQuestionDuplicates": 389,
+  "uniqueQuestions": 1071,
+  "questionsPerCategory": {
+    "A": 388,
+    "B": 397,
+    "C": 38,
+    "D": 92,
+    "E": 59,
+    "F": 97
+  },
+  "occurrencesWithSourceLimitations": 188,
+  "occurrencesWithReviewNotes": 767,
+  "occurrencesWithTechnicalCorrections": 122,
+  "unrecoverableFromPastedStatement": 9,
+  "inaccessibleFiles": [],
+  "filesWithoutExtractedRecords": []
+}

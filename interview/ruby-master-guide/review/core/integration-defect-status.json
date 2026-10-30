@@ -1,0 +1,156 @@
+[
+  {
+    "sourceFile": "seven.txt",
+    "startLine": 43,
+    "question": "What are the levels of access control for Ruby methods?",
+    "status": "original-wrong-answer-replaced",
+    "currentDirectAnswer": "Ruby methods have public, protected and private visibility. Public calls are unrestricted; protected calls require a compatible object context; private calls use an implicit receiver or literal self in Ruby 2.7+."
+  },
+  {
+    "sourceFile": "nine.txt",
+    "startLine": 598,
+    "question": "Name the three levels of access control for Ruby methods?",
+    "status": "original-wrong-answer-replaced",
+    "currentDirectAnswer": "Ruby methods have public, protected and private visibility. Public calls are unrestricted; protected calls require a compatible object context; private calls use an implicit receiver or literal self in Ruby 2.7+."
+  },
+  {
+    "sourceFile": "eighteen.txt",
+    "startLine": 17,
+    "question": "Consider the scenario below and answer the following questions:",
+    "status": "original-wrong-answer-replaced",
+    "currentDirectAnswer": "For notes shared across many models, use a polymorphic Note association with a cohesive Noteable concern, or delegate a workflow to a service/form object when it crosses model boundaries."
+  },
+  {
+    "sourceFile": "fifteen.txt",
+    "startLine": 236,
+    "question": "What are the most important Ruby on Rails interview questions?",
+    "status": "original-wrong-answer-replaced",
+    "currentDirectAnswer": "Practice Ruby object/method/block semantics, Rails MVC/request flow, Active Record/SQL, security, testing, jobs and production debugging."
+  },
+  {
+    "sourceFile": "sixteen.txt",
+    "startLine": 242,
+    "question": "What is unit testing (in classical terms)?  What is the primary technique when writing a test?",
+    "status": "original-wrong-answer-replaced",
+    "currentDirectAnswer": "A unit test checks a focused behavior with assertions comparing actual and expected outcomes; a Rails suite combines unit/model, request/integration and browser/system tests."
+  },
+  {
+    "sourceFile": "thirtyfive.txt",
+    "startLine": 232,
+    "question": "What is ActiveRecord::Enum in Rails?",
+    "status": "original-wrong-answer-replaced",
+    "currentDirectAnswer": "Rails enum maps an attribute to named states backed by explicit integer or string values."
+  },
+  {
+    "sourceFile": "thirtyfour.txt",
+    "startLine": 95,
+    "question": "How do you configure background job processing in Rails?",
+    "status": "original-wrong-answer-replaced",
+    "currentDirectAnswer": "Configure an Active Job queue adapter and run its worker process; tests use a test adapter and helpers to inspect or perform enqueued jobs without sending real external effects."
+  },
+  {
+    "sourceFile": "thirtyfour.txt",
+    "startLine": 130,
+    "question": "How do you implement a search functionality in Rails (e.g., using Elasticsearch or pg_search)?",
+    "status": "original-wrong-answer-replaced",
+    "currentDirectAnswer": "Use a search approach matched to requirements: indexed database queries/full-text search for simpler cases, or a separate search engine for richer ranking and scale."
+  },
+  {
+    "sourceFile": "thirtyone.txt",
+    "startLine": 19,
+    "question": "Import GraphQL data, model it in Rails, and expose RESTful CRUD endpoints",
+    "status": "original-wrong-answer-replaced",
+    "currentDirectAnswer": "Separate the GraphQL client, a validated Planet persistence model and a REST controller; import validated rows idempotently rather than embedding a network fetch in every endpoint."
+  },
+  {
+    "sourceFile": "thirtyone.txt",
+    "startLine": 385,
+    "question": "The following Ruby on Rails code is intended to update an existing article’s title and content in the database. However, it contains a logical error and doesn’t update the article as expected. Identify the error and fix the code.\n\n# Controller\nclass ArticlesController < ApplicationController\n  def update\n    @article = Article.find(params[:id])\n    if @article.update(params[:article])\n      redirect_to article_path(@article)\n    else\n      render 'edit'\n    end\n  end\nend\n\n# View (edit.html.erb)\n<%= form_for @article do |f| %>\n  <%= f.label :title %>\n  <%= f.text_field :title %>\n\n  <%= f.label :content %>\n  <%= f.text_area :content %>\n\n  <%= f.submit 'Update Article' %>\n<% end %>\nCode language: CSS (css)",
+    "status": "original-wrong-answer-replaced",
+    "currentDirectAnswer": "Update with explicitly permitted fields after retrieving an authorized article, instead of passing unpermitted params[:article] directly."
+  },
+  {
+    "sourceFile": "thirtytwo.txt",
+    "startLine": 88,
+    "question": "What are the advantages of using ORM?",
+    "status": "original-wrong-answer-replaced",
+    "currentDirectAnswer": "ORM reduces repetitive persistence code, provides composable queries and associations, and improves developer productivity through a consistent object interface."
+  },
+  {
+    "sourceFile": "thirtytwo.txt",
+    "startLine": 94,
+    "question": "What are disadvantages of using ORM?",
+    "status": "original-wrong-answer-replaced",
+    "currentDirectAnswer": "ORM can hide expensive queries, add allocation/translation overhead, and make complex database-specific operations less obvious."
+  },
+  {
+    "sourceFile": "thirtytwo.txt",
+    "startLine": 122,
+    "question": "What does CRUD mean?",
+    "status": "original-wrong-answer-replaced",
+    "currentDirectAnswer": "CRUD stands for Create, Read, Update and Delete, the basic operations on persisted data."
+  },
+  {
+    "sourceFile": "thirtytwo.txt",
+    "startLine": 134,
+    "question": "What does it mean that Active Record migrations are database-agnostic?",
+    "status": "original-wrong-answer-replaced",
+    "currentDirectAnswer": "Migrations are versioned Ruby schema changes; run bin/rails db:migrate to apply them and bin/rails db:rollback to undo the latest reversible migration."
+  },
+  {
+    "sourceFile": "twenty.txt",
+    "startLine": 494,
+    "question": "During deployment, a new feature requires database changes without affecting existing production data. How would you handle this?",
+    "status": "original-wrong-answer-replaced",
+    "currentDirectAnswer": "Deploy a tested build with explicit configuration, assets, secrets and compatible schema changes, plus monitoring and a rollback/recovery plan."
+  },
+  {
+    "sourceFile": "twenty.txt",
+    "startLine": 499,
+    "question": "A customer reports that unauthorized users can modify another user's profile by changing the request parameters. How would you investigate and resolve this issue?",
+    "status": "original-wrong-answer-replaced",
+    "currentDirectAnswer": "Enforce server-side authorization for the target record and action; Strong Parameters alone does not prevent one user editing another user’s record."
+  },
+  {
+    "sourceFile": "twenty.txt",
+    "startLine": 510,
+    "question": "What are the most common Ruby on Rails interview questions?",
+    "status": "original-wrong-answer-replaced",
+    "currentDirectAnswer": "Practice Ruby object/method/block semantics, Rails MVC/request flow, Active Record/SQL, security, testing, jobs and production debugging."
+  },
+  {
+    "sourceFile": "twentyeight.txt",
+    "startLine": 264,
+    "question": "What is unit testing (in classical terms)? What is the primary technique when writing a test?",
+    "status": "original-wrong-answer-replaced",
+    "currentDirectAnswer": "A unit test checks a focused behavior with assertions comparing actual and expected outcomes; a Rails suite combines unit/model, request/integration and browser/system tests."
+  },
+  {
+    "sourceFile": "twentyeight.txt",
+    "startLine": 301,
+    "question": "What’s your favorite testing tool? Rspec, FactoryGirl, Capybara, and Cucumber.",
+    "status": "original-wrong-answer-replaced",
+    "currentDirectAnswer": "Test behavior at the appropriate level: small domain/model tests, request/integration tests for HTTP behavior, and system tests for critical browser flows."
+  },
+  {
+    "sourceFile": "twentyeight.txt",
+    "startLine": 340,
+    "question": "Explain what functional testing is:",
+    "status": "original-wrong-answer-replaced",
+    "currentDirectAnswer": "Test behavior at the appropriate level: small domain/model tests, request/integration tests for HTTP behavior, and system tests for critical browser flows."
+  },
+  {
+    "sourceFile": "twentyfive.txt",
+    "startLine": 602,
+    "question": "What is the difference between optimistic and pessimistic locking in Rails?",
+    "status": "original-wrong-answer-replaced",
+    "currentDirectAnswer": "Optimistic locking detects stale writes with lock_version; pessimistic locking acquires a database row lock for a transaction."
+  },
+  {
+    "sourceFile": "twentysix.txt",
+    "startLine": 59,
+    "question": "What testing libraries have you used with Rails (e.g., RSpec, Capybara, FactoryBot)?",
+    "status": "original-wrong-answer-replaced",
+    "currentDirectAnswer": "Test behavior at the appropriate level: small domain/model tests, request/integration tests for HTTP behavior, and system tests for critical browser flows."
+  }
+]

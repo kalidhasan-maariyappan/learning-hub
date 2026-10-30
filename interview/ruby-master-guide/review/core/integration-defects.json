@@ -1,0 +1,178 @@
+[
+  {
+    "review": "extended",
+    "sourceFile": "seven.txt",
+    "startLine": 43,
+    "question": "What are the levels of access control for Ruby methods?",
+    "directAnswer": "Define a method with def and call it on a receiver; Ruby returns the final evaluated expression unless return exits earlier. Methods can accept positional, keyword and block arguments.",
+    "issue": "Method visibility incorrectly answered as method definition."
+  },
+  {
+    "review": "extended",
+    "sourceFile": "nine.txt",
+    "startLine": 598,
+    "question": "Name the three levels of access control for Ruby methods?",
+    "directAnswer": "Define a method with def and call it on a receiver; Ruby returns the final evaluated expression unless return exits earlier. Methods can accept positional, keyword and block arguments.",
+    "issue": "Method visibility incorrectly answered as method definition."
+  },
+  {
+    "review": "rails",
+    "sourceFile": "eighteen.txt",
+    "startLine": 17,
+    "question": "Consider the scenario below and answer the following questions:",
+    "directAnswer": "Single-table inheritance stores a base class and its subclasses in one table, usually using a type column to select the Ruby subclass.",
+    "issue": "Unrelated STI answer; likely substring match of sti in testing/questions/Elasticsearch."
+  },
+  {
+    "review": "rails",
+    "sourceFile": "fifteen.txt",
+    "startLine": 236,
+    "question": "What are the most important Ruby on Rails interview questions?",
+    "directAnswer": "Single-table inheritance stores a base class and its subclasses in one table, usually using a type column to select the Ruby subclass.",
+    "issue": "Unrelated STI answer; likely substring match of sti in testing/questions/Elasticsearch."
+  },
+  {
+    "review": "rails",
+    "sourceFile": "sixteen.txt",
+    "startLine": 242,
+    "question": "What is unit testing (in classical terms)?  What is the primary technique when writing a test?",
+    "directAnswer": "Single-table inheritance stores a base class and its subclasses in one table, usually using a type column to select the Ruby subclass.",
+    "issue": "Unrelated STI answer; likely substring match of sti in testing/questions/Elasticsearch."
+  },
+  {
+    "review": "rails",
+    "sourceFile": "thirtyfive.txt",
+    "startLine": 232,
+    "question": "What is ActiveRecord::Enum in Rails?",
+    "directAnswer": "ORM means Object-Relational Mapping. Active Record is Rails’ ORM: model classes generally map to tables, model instances to rows, and attributes to columns.",
+    "issue": "Generic ORM definition does not answer specific enum/benefit/tradeoff question."
+  },
+  {
+    "review": "rails",
+    "sourceFile": "thirtyfour.txt",
+    "startLine": 95,
+    "question": "How do you configure background job processing in Rails?",
+    "directAnswer": "A Proc is a callable object capturing a block and its lexical context; a lambda is a Proc with method-like argument and return behavior.",
+    "issue": "Background processing incorrectly answered as Proc."
+  },
+  {
+    "review": "rails",
+    "sourceFile": "thirtyfour.txt",
+    "startLine": 130,
+    "question": "How do you implement a search functionality in Rails (e.g., using Elasticsearch or pg_search)?",
+    "directAnswer": "Single-table inheritance stores a base class and its subclasses in one table, usually using a type column to select the Ruby subclass.",
+    "issue": "Unrelated STI answer; likely substring match of sti in testing/questions/Elasticsearch."
+  },
+  {
+    "review": "rails",
+    "sourceFile": "thirtyone.txt",
+    "startLine": 19,
+    "question": "Import GraphQL data, model it in Rails, and expose RESTful CRUD endpoints",
+    "directAnswer": "Define routes in config/routes.rb; resources :posts generates the conventional resource routes, and bin/rails routes lists them.",
+    "issue": "Routing answer does not answer CRUD acronym or GraphQL import problem."
+  },
+  {
+    "review": "rails",
+    "sourceFile": "thirtyone.txt",
+    "startLine": 385,
+    "question": "The following Ruby on Rails code is intended to update an existing article’s title and content in the database. However, it contains a logical error and doesn’t update the article as expected. Identify the error and fix the code.\n\n# Controller\nclass ArticlesController < ApplicationController\n  def update\n    @article = Article.find(params[:id])\n    if @article.update(params[:article])\n      redirect_to article_path(@article)\n    else\n      render 'edit'\n    end\n  end\nend\n\n# View (edit.html.erb)\n<%= form_for @article do |f| %>\n  <%= f.label :title %>\n  <%= f.text_field :title %>\n\n  <%= f.label :content %>\n  <%= f.text_area :content %>\n\n  <%= f.submit 'Update Article' %>\n<% end %>\nCode language: CSS (css)",
+    "directAnswer": "Single-table inheritance stores a base class and its subclasses in one table, usually using a type column to select the Ruby subclass.",
+    "issue": "Unrelated STI answer; likely substring match of sti in testing/questions/Elasticsearch."
+  },
+  {
+    "review": "rails",
+    "sourceFile": "thirtytwo.txt",
+    "startLine": 88,
+    "question": "What are the advantages of using ORM?",
+    "directAnswer": "ORM means Object-Relational Mapping. Active Record is Rails’ ORM: model classes generally map to tables, model instances to rows, and attributes to columns.",
+    "issue": "Generic ORM definition does not answer specific enum/benefit/tradeoff question."
+  },
+  {
+    "review": "rails",
+    "sourceFile": "thirtytwo.txt",
+    "startLine": 94,
+    "question": "What are disadvantages of using ORM?",
+    "directAnswer": "ORM means Object-Relational Mapping. Active Record is Rails’ ORM: model classes generally map to tables, model instances to rows, and attributes to columns.",
+    "issue": "Generic ORM definition does not answer specific enum/benefit/tradeoff question."
+  },
+  {
+    "review": "rails",
+    "sourceFile": "thirtytwo.txt",
+    "startLine": 122,
+    "question": "What does CRUD mean?",
+    "directAnswer": "Define routes in config/routes.rb; resources :posts generates the conventional resource routes, and bin/rails routes lists them.",
+    "issue": "Routing answer does not answer CRUD acronym or GraphQL import problem."
+  },
+  {
+    "review": "rails",
+    "sourceFile": "thirtytwo.txt",
+    "startLine": 134,
+    "question": "What does it mean that Active Record migrations are database-agnostic?",
+    "directAnswer": "Single-table inheritance stores a base class and its subclasses in one table, usually using a type column to select the Ruby subclass.",
+    "issue": "Unrelated STI answer; likely substring match of sti in testing/questions/Elasticsearch."
+  },
+  {
+    "review": "rails",
+    "sourceFile": "twenty.txt",
+    "startLine": 494,
+    "question": "During deployment, a new feature requires database changes without affecting existing production data. How would you handle this?",
+    "directAnswer": "Single-table inheritance stores a base class and its subclasses in one table, usually using a type column to select the Ruby subclass.",
+    "issue": "Unrelated STI answer; likely substring match of sti in testing/questions/Elasticsearch."
+  },
+  {
+    "review": "rails",
+    "sourceFile": "twenty.txt",
+    "startLine": 499,
+    "question": "A customer reports that unauthorized users can modify another user's profile by changing the request parameters. How would you investigate and resolve this issue?",
+    "directAnswer": "Single-table inheritance stores a base class and its subclasses in one table, usually using a type column to select the Ruby subclass.",
+    "issue": "Unrelated STI answer; likely substring match of sti in testing/questions/Elasticsearch."
+  },
+  {
+    "review": "rails",
+    "sourceFile": "twenty.txt",
+    "startLine": 510,
+    "question": "What are the most common Ruby on Rails interview questions?",
+    "directAnswer": "Single-table inheritance stores a base class and its subclasses in one table, usually using a type column to select the Ruby subclass.",
+    "issue": "Unrelated STI answer; likely substring match of sti in testing/questions/Elasticsearch."
+  },
+  {
+    "review": "rails",
+    "sourceFile": "twentyeight.txt",
+    "startLine": 264,
+    "question": "What is unit testing (in classical terms)? What is the primary technique when writing a test?",
+    "directAnswer": "Single-table inheritance stores a base class and its subclasses in one table, usually using a type column to select the Ruby subclass.",
+    "issue": "Unrelated STI answer; likely substring match of sti in testing/questions/Elasticsearch."
+  },
+  {
+    "review": "rails",
+    "sourceFile": "twentyeight.txt",
+    "startLine": 301,
+    "question": "What’s your favorite testing tool? Rspec, FactoryGirl, Capybara, and Cucumber.",
+    "directAnswer": "Single-table inheritance stores a base class and its subclasses in one table, usually using a type column to select the Ruby subclass.",
+    "issue": "Unrelated STI answer; likely substring match of sti in testing/questions/Elasticsearch."
+  },
+  {
+    "review": "rails",
+    "sourceFile": "twentyeight.txt",
+    "startLine": 340,
+    "question": "Explain what functional testing is:",
+    "directAnswer": "Single-table inheritance stores a base class and its subclasses in one table, usually using a type column to select the Ruby subclass.",
+    "issue": "Unrelated STI answer; likely substring match of sti in testing/questions/Elasticsearch."
+  },
+  {
+    "review": "rails",
+    "sourceFile": "twentyfive.txt",
+    "startLine": 602,
+    "question": "What is the difference between optimistic and pessimistic locking in Rails?",
+    "directAnswer": "Single-table inheritance stores a base class and its subclasses in one table, usually using a type column to select the Ruby subclass.",
+    "issue": "Unrelated STI answer; likely substring match of sti in testing/questions/Elasticsearch."
+  },
+  {
+    "review": "rails",
+    "sourceFile": "twentysix.txt",
+    "startLine": 59,
+    "question": "What testing libraries have you used with Rails (e.g., RSpec, Capybara, FactoryBot)?",
+    "directAnswer": "Single-table inheritance stores a base class and its subclasses in one table, usually using a type column to select the Ruby subclass.",
+    "issue": "Unrelated STI answer; likely substring match of sti in testing/questions/Elasticsearch."
+  }
+]

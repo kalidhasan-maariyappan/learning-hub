@@ -1,0 +1,29 @@
+What are the core principles of object-oriented programming that are essential in Ruby development?
+The core principles of object-oriented programming essential in Ruby development are encapsulation, inheritance, polymorphism, and abstraction. These principles enable Ruby developers to structure code into reusable and maintainable classes and modules, making applications easier to extend and manage.
+
+How to implement metaprogramming in Ruby to improve code flexibility?
+Metaprogramming in Ruby can be implemented using methods like define_method, method_missing, send, and class_eval. These techniques allow developers to dynamically define methods, intercept method calls, and modify classes at runtime, thus improving code flexibility and reducing duplication.
+
+What are the advanced features of the Ruby on Rails framework?
+Advanced features of the Ruby on Rails framework include ActiveJob for background processing, ActionCable for real-time WebSockets, concerns for shared behavior, service objects for business logic, and engines for modularization. These features help in building scalable and maintainable web applications.
+
+What are the strategies to create efficient Domain-Specific Languages (DSLs) in Ruby?
+Efficient DSLs in Ruby are created by leveraging Ruby’s flexible syntax, blocks, open classes, and method_missing. Key strategies involve designing intuitive APIs, minimizing boilerplate code, and utilizing instance_eval or class_eval to execute blocks within relevant contexts. Careful documentation and clear naming conventions also contribute to DSL usability.
+
+What are the best practices for structuring a large Rails application?
+Best practices for structuring a large Rails application include using service and presenter objects to organize business logic, separating concerns with modules and concerns, employing Rails Engines for modular features, and following the SOLID principles. Properly organizing the directory structure and maintaining clear API boundaries are also essential.
+
+How to optimize ActiveRecord queries in Rails for better performance?
+ActiveRecord queries in Rails can be optimized by using eager loading (includes), selecting only necessary fields (select), batching queries (find_in_batches), applying appropriate indexing at the database level, and avoiding N+1 query problems. Profiling queries with tools like Bullet and leveraging database-level caching strategies are common techniques.
+
+What are the different techniques to implement polymorphism in Ruby on Rails?
+Polymorphism in Ruby on Rails can be implemented using polymorphic associations, single table inheritance (STI), and duck typing. Polymorphic associations allow a model to belong to more than one other model using a single association, while STI stores different types of related objects in the same database table.
+
+How to design and implement callbacks safely in Rails models?
+Callbacks in Rails models are implemented using before, after, and around hooks. To use them safely, logic in callbacks should be minimal, idempotent, and thoroughly tested. It’s recommended to avoid business-critical logic in callbacks, encapsulate callback logic in services when possible, and be aware of callback ordering and side effects.
+
+What are the common methods for error handling in Ruby and Rails?
+Error handling in Ruby and Rails is typically managed using begin-rescue-end blocks, custom exception classes, and Rails’ built-in rescue_from in controllers. Logging errors, notifying monitoring services (like Sentry), and providing user-friendly error messages are standard practices for robust error management.
+
+How to use Ruby's introspection capabilities to create more maintainable code?
+Ruby’s introspection capabilities, such as respond_to?, method, instance_variables, and ancestors, can be used to inspect objects and classes at runtime. Utilizing these features allows developers to write generic, maintainable code that adapts to change and supports dynamic features, such as plugins or extensible frameworks.

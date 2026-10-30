@@ -1,0 +1,7200 @@
+[
+  {
+    "part": "core",
+    "data": [
+      {
+        "sourceFile": "first.txt",
+        "lineCount": 548,
+        "byteCount": 57769,
+        "processedRanges": [
+          [
+            1,
+            548
+          ]
+        ],
+        "questionCount": 100,
+        "notes": [
+          "No original source modified. All unique technical content remains in sourceAnswer, question bodies or original source; corrected authored answers are separate.",
+          "Question endLine may include the following heading or boilerplate because original question blocks are contiguous; HTML character offsets disambiguate same-line containers."
+        ],
+        "omittedRanges": [
+          {
+            "startLine": 228,
+            "endLine": 234,
+            "classification": "nontechnical promotional conclusion between source lists"
+          },
+          {
+            "startLine": 374,
+            "endLine": 380,
+            "classification": "nontechnical promotional conclusion between source lists"
+          },
+          {
+            "startLine": 545,
+            "endLine": 548,
+            "classification": "nontechnical promotional conclusion at end"
+          }
+        ],
+        "status": "complete",
+        "fullyRead": true,
+        "sha256": "aa89a0a1c437df3a25d99d8cf149ab9ae2bdb760fdcf600cfde2bab9f847d353",
+        "readMethod": "Entire source read, every numbered/marked/unmarked prompt extracted with associated complete answer.",
+        "nontechnicalHTMLContent": null,
+        "technicalOmissions": [],
+        "unavailableLinkedAssets": [
+          {
+            "line": 50,
+            "filename": "multi-line comment ruby.jpeg"
+          },
+          {
+            "line": 86,
+            "filename": "arrays in ruby.jpeg"
+          },
+          {
+            "line": 97,
+            "filename": "if in ruby.jpeg"
+          },
+          {
+            "line": 103,
+            "filename": "else in ruby.jpeg"
+          },
+          {
+            "line": 218,
+            "filename": "hello world ruby.jpeg"
+          },
+          {
+            "line": 224,
+            "filename": "blocks in ruby.jpeg"
+          }
+        ],
+        "flaggedRecords": 42,
+        "incompleteOriginalAnswers": []
+      },
+      {
+        "sourceFile": "second.txt",
+        "lineCount": 460,
+        "byteCount": 73270,
+        "processedRanges": [
+          [
+            1,
+            460
+          ]
+        ],
+        "questionCount": 21,
+        "notes": [
+          "No original source modified. All unique technical content remains in sourceAnswer, question bodies or original source; corrected authored answers are separate.",
+          "Question endLine may include the following heading or boilerplate because original question blocks are contiguous; HTML character offsets disambiguate same-line containers."
+        ],
+        "omittedRanges": [],
+        "status": "complete",
+        "fullyRead": true,
+        "sha256": "aceef77ebb106299148f44bde6e307e888254cca2fca6d9f19298dd027906079",
+        "readMethod": "Every complete HTML question/answer container decoded and reviewed, including every code/example/explanation; markup/metadata examined and classified.",
+        "nontechnicalHTMLContent": "HTML layout, icons/SVG paths, share links, copy/toggle controls, difficulty/view/date display metadata and site promotional footer excluded from educational answers; original source files are preserved.",
+        "technicalOmissions": [],
+        "unavailableLinkedAssets": [],
+        "flaggedRecords": 7,
+        "incompleteOriginalAnswers": []
+      },
+      {
+        "sourceFile": "three.txt",
+        "lineCount": 565,
+        "byteCount": 26619,
+        "processedRanges": [
+          [
+            1,
+            565
+          ]
+        ],
+        "questionCount": 30,
+        "notes": [
+          "No original source modified. All unique technical content remains in sourceAnswer, question bodies or original source; corrected authored answers are separate.",
+          "Question endLine may include the following heading or boilerplate because original question blocks are contiguous; HTML character offsets disambiguate same-line containers."
+        ],
+        "omittedRanges": [
+          {
+            "startLine": 1,
+            "endLine": 1,
+            "classification": "difficulty heading retained as question difficulty metadata"
+          },
+          {
+            "startLine": 173,
+            "endLine": 173,
+            "classification": "difficulty heading retained as question difficulty metadata"
+          },
+          {
+            "startLine": 379,
+            "endLine": 379,
+            "classification": "difficulty heading retained as question difficulty metadata"
+          }
+        ],
+        "status": "complete",
+        "fullyRead": true,
+        "sha256": "674079d501f66a32aca15bc69d1193bd49ad3ffa106b88490fef6ade0774dfcd",
+        "readMethod": "Entire source read, every numbered/marked/unmarked prompt extracted with associated complete answer.",
+        "nontechnicalHTMLContent": null,
+        "technicalOmissions": [],
+        "unavailableLinkedAssets": [],
+        "flaggedRecords": 12,
+        "incompleteOriginalAnswers": []
+      },
+      {
+        "sourceFile": "four.txt",
+        "lineCount": 110,
+        "byteCount": 5325,
+        "processedRanges": [
+          [
+            1,
+            110
+          ]
+        ],
+        "questionCount": 10,
+        "notes": [
+          "No original source modified. All unique technical content remains in sourceAnswer, question bodies or original source; corrected authored answers are separate.",
+          "Question endLine may include the following heading or boilerplate because original question blocks are contiguous; HTML character offsets disambiguate same-line containers."
+        ],
+        "omittedRanges": [
+          {
+            "startLine": 1,
+            "endLine": 11,
+            "classification": "article title, tags and nontechnical interview introduction"
+          },
+          {
+            "startLine": 110,
+            "endLine": 110,
+            "classification": "nontechnical closing salutation"
+          }
+        ],
+        "status": "complete",
+        "fullyRead": true,
+        "sha256": "0122c9fe88a7cc37d77b586d0b055218175798cfe1df8c1f09202de4a64151bf",
+        "readMethod": "Entire source read, every numbered/marked/unmarked prompt extracted with associated complete answer.",
+        "nontechnicalHTMLContent": null,
+        "technicalOmissions": [],
+        "unavailableLinkedAssets": [],
+        "flaggedRecords": 3,
+        "incompleteOriginalAnswers": []
+      },
+      {
+        "sourceFile": "five.txt",
+        "lineCount": 63,
+        "byteCount": 2866,
+        "processedRanges": [
+          [
+            1,
+            63
+          ]
+        ],
+        "questionCount": 15,
+        "notes": [
+          "No original source modified. All unique technical content remains in sourceAnswer, question bodies or original source; corrected authored answers are separate.",
+          "Question endLine may include the following heading or boilerplate because original question blocks are contiguous; HTML character offsets disambiguate same-line containers."
+        ],
+        "omittedRanges": [
+          {
+            "startLine": 1,
+            "endLine": 1,
+            "classification": "topic heading"
+          },
+          {
+            "startLine": 16,
+            "endLine": 16,
+            "classification": "topic heading"
+          },
+          {
+            "startLine": 28,
+            "endLine": 28,
+            "classification": "topic heading"
+          },
+          {
+            "startLine": 38,
+            "endLine": 38,
+            "classification": "topic heading"
+          },
+          {
+            "startLine": 50,
+            "endLine": 50,
+            "classification": "topic heading"
+          },
+          {
+            "startLine": 58,
+            "endLine": 58,
+            "classification": "TODO section heading; all four following questions extracted"
+          }
+        ],
+        "status": "complete",
+        "fullyRead": true,
+        "sha256": "a2c56d7d6727d3fe6699d4a901475e75912d3e9170eed31ab14b1dd2c0d46794",
+        "readMethod": "Entire source read, every numbered/marked/unmarked prompt extracted with associated complete answer.",
+        "nontechnicalHTMLContent": null,
+        "technicalOmissions": [],
+        "unavailableLinkedAssets": [],
+        "flaggedRecords": 9,
+        "incompleteOriginalAnswers": [
+          {
+            "startLine": 18,
+            "question": "What are the three levels of method access control available in Ruby?"
+          },
+          {
+            "startLine": 52,
+            "question": "What is the function of `method_missing`?  How is it used in meta-programming in Ruby?"
+          },
+          {
+            "startLine": 56,
+            "question": "What is a DSL (Domain Specific Language) and why is Ruby a popular language to build DSLs in?"
+          },
+          {
+            "startLine": 60,
+            "question": "What are RubyGems?  Got any favourites?"
+          },
+          {
+            "startLine": 61,
+            "question": "What is Rails good at?  What is it not so good at?"
+          },
+          {
+            "startLine": 62,
+            "question": "List some things you would change about Rails"
+          },
+          {
+            "startLine": 63,
+            "question": "How does Rails extend the Ruby language? (Convenience methods, 3.seconds.ago, hash.slice, ...)"
+          }
+        ]
+      },
+      {
+        "sourceFile": "six.txt",
+        "lineCount": 2983,
+        "byteCount": 157613,
+        "processedRanges": [
+          [
+            1,
+            2983
+          ]
+        ],
+        "questionCount": 30,
+        "notes": [
+          "No original source modified. All unique technical content remains in sourceAnswer, question bodies or original source; corrected authored answers are separate.",
+          "Question endLine may include the following heading or boilerplate because original question blocks are contiguous; HTML character offsets disambiguate same-line containers."
+        ],
+        "omittedRanges": [],
+        "status": "complete",
+        "fullyRead": true,
+        "sha256": "4a2146933bfb312ff027f54ae10e53c82b2048a2fea9e89df39ee80908c681d5",
+        "readMethod": "Every complete HTML question/answer container decoded and reviewed, including every code/example/explanation; markup/metadata examined and classified.",
+        "nontechnicalHTMLContent": "HTML layout, icons/SVG paths, share links, copy/toggle controls, difficulty/view/date display metadata and site promotional footer excluded from educational answers; original source files are preserved.",
+        "technicalOmissions": [],
+        "unavailableLinkedAssets": [],
+        "flaggedRecords": 30,
+        "incompleteOriginalAnswers": []
+      },
+      {
+        "sourceFile": "twelve.txt",
+        "lineCount": 29,
+        "byteCount": 4076,
+        "processedRanges": [
+          [
+            1,
+            29
+          ]
+        ],
+        "questionCount": 10,
+        "notes": [
+          "No original source modified. All unique technical content remains in sourceAnswer, question bodies or original source; corrected authored answers are separate.",
+          "Question endLine may include the following heading or boilerplate because original question blocks are contiguous; HTML character offsets disambiguate same-line containers."
+        ],
+        "omittedRanges": [],
+        "status": "complete",
+        "fullyRead": true,
+        "sha256": "1dcafd5175869a1b6c7607a94f870df7e82ff78d72aa5828f76e68bde1bd8e70",
+        "readMethod": "Entire source read, every numbered/marked/unmarked prompt extracted with associated complete answer.",
+        "nontechnicalHTMLContent": null,
+        "technicalOmissions": [],
+        "unavailableLinkedAssets": [],
+        "flaggedRecords": 0,
+        "incompleteOriginalAnswers": []
+      }
+    ]
+  },
+  {
+    "part": "extended",
+    "data": [
+      {
+        "sourceFile": "seven.txt",
+        "bytes": 20774,
+        "sha256": "362e9ad5afbffc9c56b67a11306f809f0ab0bee6853fc4db8b82cfb7af2f893c",
+        "totalLines": 417,
+        "readRanges": [
+          [
+            1,
+            417
+          ]
+        ],
+        "processedCompletely": true,
+        "extractedCount": 25,
+        "recordRanges": [
+          [
+            23,
+            42
+          ],
+          [
+            43,
+            51
+          ],
+          [
+            52,
+            68
+          ],
+          [
+            69,
+            81
+          ],
+          [
+            82,
+            88
+          ],
+          [
+            89,
+            104
+          ],
+          [
+            105,
+            133
+          ],
+          [
+            134,
+            155
+          ],
+          [
+            156,
+            172
+          ],
+          [
+            173,
+            196
+          ],
+          [
+            197,
+            216
+          ],
+          [
+            217,
+            229
+          ],
+          [
+            230,
+            250
+          ],
+          [
+            251,
+            272
+          ],
+          [
+            273,
+            281
+          ],
+          [
+            282,
+            294
+          ],
+          [
+            295,
+            313
+          ],
+          [
+            314,
+            335
+          ],
+          [
+            336,
+            353
+          ],
+          [
+            354,
+            378
+          ],
+          [
+            401,
+            404
+          ],
+          [
+            405,
+            407
+          ],
+          [
+            408,
+            410
+          ],
+          [
+            411,
+            413
+          ],
+          [
+            414,
+            417
+          ]
+        ],
+        "excludedContent": "Publisher metadata, marketing, navigation/table-of-contents repeats, editor widget labels and unrelated footer links. Full originals remain unchanged.",
+        "notes": [],
+        "omittedRanges": [
+          {
+            "startLine": 1,
+            "endLine": 22,
+            "disposition": "Publisher metadata, introduction/duplicate table of contents, section framing, promotion, related-link or footer material; original text retained in the unchanged source file. Technical concepts appearing here are covered by the extracted concept/question records."
+          },
+          {
+            "startLine": 379,
+            "endLine": 400,
+            "disposition": "Publisher metadata, introduction/duplicate table of contents, section framing, promotion, related-link or footer material; original text retained in the unchanged source file. Technical concepts appearing here are covered by the extracted concept/question records."
+          }
+        ],
+        "corrections": [
+          {
+            "key": "seven:2",
+            "startLine": 43,
+            "issue": "Updated private-method receiver rule: literal self is permitted in Ruby 2.7+; older blanket prohibition is outdated."
+          },
+          {
+            "key": "seven:3",
+            "startLine": 52,
+            "issue": "Qualified absolute identity/performance claims: frozen strings may be shared; dynamic symbols can be collected; symbols are not universally faster."
+          },
+          {
+            "key": "seven:13",
+            "startLine": 230,
+            "issue": "Corrected non-lambda Proc return target: defining method, not calling method."
+          },
+          {
+            "key": "seven:18",
+            "startLine": 314,
+            "issue": "Clarified that plain Enumerator transformations are not inherently lazy; use Enumerator::Lazy."
+          }
+        ],
+        "incompleteSourcePrompts": [
+          {
+            "key": "seven:FAQ2",
+            "startLine": 405,
+            "issues": [
+              "Incomplete source: this FAQ prompt has no captured answer; an original study recommendation is supplied."
+            ]
+          },
+          {
+            "key": "seven:FAQ3",
+            "startLine": 408,
+            "issues": [
+              "Incomplete source: this FAQ prompt has no captured answer; an original study recommendation is supplied."
+            ]
+          },
+          {
+            "key": "seven:FAQ4",
+            "startLine": 411,
+            "issues": [
+              "Incomplete source: this FAQ prompt has no captured answer; an original study recommendation is supplied."
+            ]
+          },
+          {
+            "key": "seven:FAQ5",
+            "startLine": 414,
+            "issues": [
+              "Incomplete source: this FAQ prompt has no captured answer; an original study recommendation is supplied."
+            ]
+          }
+        ]
+      },
+      {
+        "sourceFile": "eight.txt",
+        "bytes": 18308,
+        "sha256": "dd839729f781971ab62f1d5554ab3ef40bb5112e652ed6b3930ae3c19542e0eb",
+        "totalLines": 347,
+        "readRanges": [
+          [
+            1,
+            347
+          ]
+        ],
+        "processedCompletely": true,
+        "extractedCount": 31,
+        "recordRanges": [
+          [
+            19,
+            27
+          ],
+          [
+            28,
+            35
+          ],
+          [
+            36,
+            43
+          ],
+          [
+            44,
+            49
+          ],
+          [
+            50,
+            59
+          ],
+          [
+            60,
+            72
+          ],
+          [
+            73,
+            86
+          ],
+          [
+            87,
+            96
+          ],
+          [
+            97,
+            109
+          ],
+          [
+            110,
+            120
+          ],
+          [
+            121,
+            127
+          ],
+          [
+            128,
+            144
+          ],
+          [
+            145,
+            163
+          ],
+          [
+            164,
+            172
+          ],
+          [
+            173,
+            184
+          ],
+          [
+            185,
+            196
+          ],
+          [
+            197,
+            202
+          ],
+          [
+            203,
+            209
+          ],
+          [
+            210,
+            219
+          ],
+          [
+            220,
+            231
+          ],
+          [
+            232,
+            237
+          ],
+          [
+            238,
+            244
+          ],
+          [
+            245,
+            259
+          ],
+          [
+            260,
+            271
+          ],
+          [
+            272,
+            287
+          ],
+          [
+            288,
+            293
+          ],
+          [
+            294,
+            302
+          ],
+          [
+            303,
+            314
+          ],
+          [
+            315,
+            320
+          ],
+          [
+            321,
+            331
+          ],
+          [
+            332,
+            340
+          ]
+        ],
+        "excludedContent": "Publisher metadata, marketing, navigation/table-of-contents repeats, editor widget labels and unrelated footer links. Full originals remain unchanged.",
+        "notes": [],
+        "omittedRanges": [
+          {
+            "startLine": 1,
+            "endLine": 18,
+            "disposition": "Publisher metadata, introduction/duplicate table of contents, section framing, promotion, related-link or footer material; original text retained in the unchanged source file. Technical concepts appearing here are covered by the extracted concept/question records."
+          },
+          {
+            "startLine": 341,
+            "endLine": 347,
+            "disposition": "Publisher metadata, introduction/duplicate table of contents, section framing, promotion, related-link or footer material; original text retained in the unchanged source file. Technical concepts appearing here are covered by the extracted concept/question records."
+          }
+        ],
+        "corrections": [
+          {
+            "key": "eight:Junior-01",
+            "startLine": 19,
+            "issue": "Qualified absolute identity/performance claims: frozen strings may be shared; dynamic symbols can be collected; symbols are not universally faster."
+          },
+          {
+            "key": "eight:Junior-06",
+            "startLine": 60,
+            "issue": "Source answer contradicts itself about whether puts should be used. Corrected to distinguish printing from returning."
+          },
+          {
+            "key": "eight:Mid-09",
+            "startLine": 210,
+            "issue": "Rails 6.0.3 in the source Gemfile is a historical example, not a current version recommendation."
+          },
+          {
+            "key": "eight:Expert-02",
+            "startLine": 238,
+            "issue": "Source omitted require \"objspace\" for extended ObjectSpace inspection methods."
+          },
+          {
+            "key": "eight:Expert-04",
+            "startLine": 260,
+            "issue": "Clarified output versus Fiber#resume return values and scheduler behavior."
+          },
+          {
+            "key": "eight:Expert-05",
+            "startLine": 272,
+            "issue": "Source loosely equates monads with a design pattern and side effects; added the operation/law requirement."
+          }
+        ],
+        "incompleteSourcePrompts": []
+      },
+      {
+        "sourceFile": "nine.txt",
+        "bytes": 42216,
+        "sha256": "fdcf72b93f26e87456219abbcdf1a8fff819b68e72f4c082a77b2fcb82cf7910",
+        "totalLines": 853,
+        "readRanges": [
+          [
+            1,
+            853
+          ]
+        ],
+        "processedCompletely": true,
+        "extractedCount": 100,
+        "recordRanges": [
+          [
+            8,
+            14
+          ],
+          [
+            15,
+            19
+          ],
+          [
+            20,
+            28
+          ],
+          [
+            29,
+            37
+          ],
+          [
+            38,
+            46
+          ],
+          [
+            47,
+            56
+          ],
+          [
+            57,
+            65
+          ],
+          [
+            66,
+            77
+          ],
+          [
+            78,
+            81
+          ],
+          [
+            82,
+            87
+          ],
+          [
+            88,
+            91
+          ],
+          [
+            92,
+            95
+          ],
+          [
+            96,
+            101
+          ],
+          [
+            102,
+            105
+          ],
+          [
+            106,
+            109
+          ],
+          [
+            110,
+            113
+          ],
+          [
+            114,
+            119
+          ],
+          [
+            120,
+            127
+          ],
+          [
+            128,
+            131
+          ],
+          [
+            132,
+            139
+          ],
+          [
+            140,
+            143
+          ],
+          [
+            144,
+            149
+          ],
+          [
+            150,
+            153
+          ],
+          [
+            154,
+            157
+          ],
+          [
+            158,
+            165
+          ],
+          [
+            166,
+            175
+          ],
+          [
+            176,
+            179
+          ],
+          [
+            180,
+            186
+          ],
+          [
+            187,
+            196
+          ],
+          [
+            197,
+            205
+          ],
+          [
+            206,
+            212
+          ],
+          [
+            213,
+            224
+          ],
+          [
+            225,
+            230
+          ],
+          [
+            231,
+            236
+          ],
+          [
+            237,
+            247
+          ],
+          [
+            248,
+            253
+          ],
+          [
+            254,
+            262
+          ],
+          [
+            263,
+            283
+          ],
+          [
+            284,
+            311
+          ],
+          [
+            312,
+            315
+          ],
+          [
+            316,
+            333
+          ],
+          [
+            334,
+            342
+          ],
+          [
+            343,
+            346
+          ],
+          [
+            347,
+            354
+          ],
+          [
+            355,
+            358
+          ],
+          [
+            359,
+            366
+          ],
+          [
+            367,
+            374
+          ],
+          [
+            375,
+            380
+          ],
+          [
+            381,
+            388
+          ],
+          [
+            389,
+            404
+          ],
+          [
+            405,
+            420
+          ],
+          [
+            421,
+            434
+          ],
+          [
+            435,
+            444
+          ],
+          [
+            445,
+            466
+          ],
+          [
+            467,
+            470
+          ],
+          [
+            471,
+            482
+          ],
+          [
+            483,
+            488
+          ],
+          [
+            489,
+            494
+          ],
+          [
+            495,
+            500
+          ],
+          [
+            501,
+            508
+          ],
+          [
+            509,
+            512
+          ],
+          [
+            513,
+            516
+          ],
+          [
+            517,
+            522
+          ],
+          [
+            523,
+            526
+          ],
+          [
+            527,
+            530
+          ],
+          [
+            531,
+            534
+          ],
+          [
+            535,
+            538
+          ],
+          [
+            539,
+            542
+          ],
+          [
+            543,
+            546
+          ],
+          [
+            547,
+            555
+          ],
+          [
+            556,
+            559
+          ],
+          [
+            560,
+            565
+          ],
+          [
+            566,
+            571
+          ],
+          [
+            572,
+            577
+          ],
+          [
+            578,
+            585
+          ],
+          [
+            586,
+            591
+          ],
+          [
+            592,
+            597
+          ],
+          [
+            598,
+            604
+          ],
+          [
+            605,
+            613
+          ],
+          [
+            614,
+            624
+          ],
+          [
+            625,
+            633
+          ],
+          [
+            634,
+            637
+          ],
+          [
+            638,
+            641
+          ],
+          [
+            642,
+            659
+          ],
+          [
+            660,
+            667
+          ],
+          [
+            668,
+            675
+          ],
+          [
+            676,
+            682
+          ],
+          [
+            683,
+            691
+          ],
+          [
+            692,
+            706
+          ],
+          [
+            707,
+            715
+          ],
+          [
+            716,
+            725
+          ],
+          [
+            726,
+            737
+          ],
+          [
+            738,
+            761
+          ],
+          [
+            762,
+            770
+          ],
+          [
+            771,
+            774
+          ],
+          [
+            775,
+            786
+          ],
+          [
+            787,
+            795
+          ],
+          [
+            796,
+            804
+          ],
+          [
+            805,
+            813
+          ],
+          [
+            814,
+            818
+          ]
+        ],
+        "excludedContent": "Publisher metadata, marketing, navigation/table-of-contents repeats, editor widget labels and unrelated footer links. Full originals remain unchanged.",
+        "notes": [],
+        "omittedRanges": [
+          {
+            "startLine": 1,
+            "endLine": 7,
+            "disposition": "Publisher metadata, introduction/duplicate table of contents, section framing, promotion, related-link or footer material; original text retained in the unchanged source file. Technical concepts appearing here are covered by the extracted concept/question records."
+          },
+          {
+            "startLine": 819,
+            "endLine": 853,
+            "disposition": "Publisher metadata, introduction/duplicate table of contents, section framing, promotion, related-link or footer material; original text retained in the unchanged source file. Technical concepts appearing here are covered by the extracted concept/question records."
+          }
+        ],
+        "corrections": [
+          {
+            "key": "nine:2",
+            "startLine": 15,
+            "issue": "Corrected creator nickname from Martz to Matz."
+          },
+          {
+            "key": "nine:13",
+            "startLine": 96,
+            "issue": "Corrected obsolete/wrong claim that retry restarts a whole loop."
+          },
+          {
+            "key": "nine:18",
+            "startLine": 120,
+            "issue": "Corrected claim that both syntaxes always have identical functionality."
+          },
+          {
+            "key": "nine:26",
+            "startLine": 166,
+            "issue": "Qualified “single space concatenation” as adjacent literals, not arbitrary variables."
+          },
+          {
+            "key": "nine:28",
+            "startLine": 180,
+            "issue": "Corrected casecmp return-value claim."
+          },
+          {
+            "key": "nine:34",
+            "startLine": 231,
+            "issue": "Corrected contradictory claim that Time.new always requires a year."
+          },
+          {
+            "key": "nine:39",
+            "startLine": 284,
+            "issue": "Corrected truncated method name and missing closure in examples."
+          },
+          {
+            "key": "nine:40",
+            "startLine": 312,
+            "issue": "Corrected claim that sysread opens a file in any mode."
+          },
+          {
+            "key": "nine:42",
+            "startLine": 334,
+            "issue": "Replaced removed Dir.exists? with Dir.exist?."
+          },
+          {
+            "key": "nine:46",
+            "startLine": 359,
+            "issue": "Source syntax example was missing; supplied a bounded retry illustration."
+          },
+          {
+            "key": "nine:47",
+            "startLine": 367,
+            "issue": "Qualified source’s absolute “always runs” claim and added return-in-ensure caveat."
+          },
+          {
+            "key": "nine:56",
+            "startLine": 471,
+            "issue": "Clarified the source expression’s output-length off-by-two behavior."
+          },
+          {
+            "key": "nine:58",
+            "startLine": 489,
+            "issue": "Corrected outdated gem-versus-plugin location rule."
+          },
+          {
+            "key": "nine:60",
+            "startLine": 501,
+            "issue": "Corrected nonsensical Float/Dig/Max descriptions and capitalization."
+          },
+          {
+            "key": "nine:65",
+            "startLine": 527,
+            "issue": "Updated historical Fixnum/Bignum class explanation."
+          },
+          {
+            "key": "nine:68",
+            "startLine": 539,
+            "issue": "Incomplete/ambiguous question wording retained; explained only the identifiable method-call content."
+          },
+          {
+            "key": "nine:69",
+            "startLine": 543,
+            "issue": "Flagged removed taint/safe-level option -T in old source."
+          },
+          {
+            "key": "nine:75",
+            "startLine": 578,
+            "issue": "Updated private-method receiver rule: literal self is permitted in Ruby 2.7+; older blanket prohibition is outdated."
+          },
+          {
+            "key": "nine:78",
+            "startLine": 598,
+            "issue": "Updated private-method receiver rule: literal self is permitted in Ruby 2.7+; older blanket prohibition is outdated."
+          },
+          {
+            "key": "nine:83",
+            "startLine": 638,
+            "issue": "Corrected nonexistent method_missing? name and oversimplified lookup order."
+          },
+          {
+            "key": "nine:86",
+            "startLine": 668,
+            "issue": "Corrected pasted typographic quote delimiters and clarified inspected output."
+          },
+          {
+            "key": "nine:87",
+            "startLine": 676,
+            "issue": "Added missing lowercase-rest behavior."
+          },
+          {
+            "key": "nine:88",
+            "startLine": 683,
+            "issue": "Source simplification omitted lowercasing the remaining characters."
+          },
+          {
+            "key": "nine:90",
+            "startLine": 707,
+            "issue": "Qualified source’s claim that each/map leave the original unaffected regardless of block behavior."
+          },
+          {
+            "key": "nine:95",
+            "startLine": 771,
+            "issue": "Clarified instance-level extensions versus modules mixed into the ordinary class."
+          },
+          {
+            "key": "nine:98",
+            "startLine": 796,
+            "issue": "Corrected suggestion that #binding simply alters a closure’s binding."
+          }
+        ],
+        "incompleteSourcePrompts": [
+          {
+            "key": "nine:49",
+            "startLine": 381,
+            "issues": [
+              "Incomplete source: referenced val1/val2 code is absent."
+            ]
+          },
+          {
+            "key": "nine:51",
+            "startLine": 405,
+            "issues": [
+              "Incomplete source: missing definitions and original call list."
+            ]
+          },
+          {
+            "key": "nine:52",
+            "startLine": 421,
+            "issues": [
+              "Incomplete source: referenced code line is missing; example explicitly reconstructed."
+            ]
+          },
+          {
+            "key": "nine:84",
+            "startLine": 642,
+            "issues": [
+              "Incomplete source: original code is absent."
+            ]
+          },
+          {
+            "key": "nine:89",
+            "startLine": 692,
+            "issues": [
+              "Incomplete source: defining class/method is missing."
+            ]
+          },
+          {
+            "key": "nine:92",
+            "startLine": 726,
+            "issues": [
+              "Incomplete source: ABC/xyz implementation is missing."
+            ]
+          },
+          {
+            "key": "nine:94",
+            "startLine": 762,
+            "issues": [
+              "Incomplete source and inaccurate explanation: missing prior code; reading alone does not define a local."
+            ]
+          }
+        ]
+      },
+      {
+        "sourceFile": "ten.txt",
+        "bytes": 22504,
+        "sha256": "18cd0d428c98d0b58de0b51e6885cd0bb975be808e6a6410a2a534ff640faf00",
+        "totalLines": 414,
+        "readRanges": [
+          [
+            1,
+            414
+          ]
+        ],
+        "processedCompletely": true,
+        "extractedCount": 52,
+        "recordRanges": [
+          [
+            30,
+            32
+          ],
+          [
+            33,
+            40
+          ],
+          [
+            41,
+            43
+          ],
+          [
+            44,
+            46
+          ],
+          [
+            47,
+            52
+          ],
+          [
+            53,
+            55
+          ],
+          [
+            56,
+            60
+          ],
+          [
+            61,
+            63
+          ],
+          [
+            64,
+            67
+          ],
+          [
+            68,
+            76
+          ],
+          [
+            77,
+            79
+          ],
+          [
+            80,
+            85
+          ],
+          [
+            86,
+            88
+          ],
+          [
+            89,
+            94
+          ],
+          [
+            95,
+            97
+          ],
+          [
+            98,
+            103
+          ],
+          [
+            104,
+            106
+          ],
+          [
+            107,
+            112
+          ],
+          [
+            113,
+            115
+          ],
+          [
+            116,
+            121
+          ],
+          [
+            122,
+            124
+          ],
+          [
+            125,
+            130
+          ],
+          [
+            131,
+            133
+          ],
+          [
+            134,
+            140
+          ],
+          [
+            141,
+            143
+          ],
+          [
+            144,
+            146
+          ],
+          [
+            147,
+            152
+          ],
+          [
+            153,
+            157
+          ],
+          [
+            158,
+            160
+          ],
+          [
+            161,
+            166
+          ],
+          [
+            167,
+            169
+          ],
+          [
+            170,
+            172
+          ],
+          [
+            173,
+            178
+          ],
+          [
+            179,
+            183
+          ],
+          [
+            184,
+            188
+          ],
+          [
+            189,
+            194
+          ],
+          [
+            195,
+            200
+          ],
+          [
+            201,
+            205
+          ],
+          [
+            206,
+            227
+          ],
+          [
+            228,
+            242
+          ],
+          [
+            243,
+            245
+          ],
+          [
+            246,
+            257
+          ],
+          [
+            258,
+            276
+          ],
+          [
+            277,
+            286
+          ],
+          [
+            287,
+            294
+          ],
+          [
+            295,
+            311
+          ],
+          [
+            312,
+            314
+          ],
+          [
+            315,
+            320
+          ],
+          [
+            321,
+            323
+          ],
+          [
+            324,
+            329
+          ],
+          [
+            330,
+            332
+          ],
+          [
+            333,
+            335
+          ]
+        ],
+        "excludedContent": "Publisher metadata, marketing, navigation/table-of-contents repeats, editor widget labels and unrelated footer links. Full originals remain unchanged.",
+        "notes": [],
+        "omittedRanges": [
+          {
+            "startLine": 1,
+            "endLine": 29,
+            "disposition": "Publisher metadata, introduction/duplicate table of contents, section framing, promotion, related-link or footer material; original text retained in the unchanged source file. Technical concepts appearing here are covered by the extracted concept/question records."
+          },
+          {
+            "startLine": 336,
+            "endLine": 414,
+            "disposition": "Publisher metadata, introduction/duplicate table of contents, section framing, promotion, related-link or footer material; original text retained in the unchanged source file. Technical concepts appearing here are covered by the extracted concept/question records."
+          }
+        ],
+        "corrections": [
+          {
+            "key": "ten:22",
+            "startLine": 125,
+            "issue": "Clarified that Rails observers were extracted from the default framework; modern behavior needs an explicit mechanism."
+          },
+          {
+            "key": "ten:24",
+            "startLine": 134,
+            "issue": "Corrected claim that controller namespaces guarantee compatibility."
+          },
+          {
+            "key": "ten:33",
+            "startLine": 173,
+            "issue": "Qualified old blanket claim that the pipeline always bundles/minifies/compresses all assets."
+          },
+          {
+            "key": "ten:39",
+            "startLine": 206,
+            "issue": "Corrected ambiguous render status: :not_found and unrestricted full-model serialization."
+          },
+          {
+            "key": "ten:44",
+            "startLine": 277,
+            "issue": "Improved quadratic duplicate scan and supplied explicit complexity."
+          },
+          {
+            "key": "ten:46",
+            "startLine": 295,
+            "issue": "Corrected typographic quote syntax, quadratic construction and ambiguous built-in restriction."
+          },
+          {
+            "key": "ten:52",
+            "startLine": 333,
+            "issue": "Labelled the source’s project story and 40% figure as illustrative, not established personal evidence."
+          }
+        ],
+        "incompleteSourcePrompts": []
+      },
+      {
+        "sourceFile": "eleven.txt",
+        "bytes": 8779,
+        "sha256": "c6ffb9221f4f1aeacb1d84df71684ba8c352fee9d7fac05a398796b454592d1c",
+        "totalLines": 253,
+        "readRanges": [
+          [
+            1,
+            253
+          ]
+        ],
+        "processedCompletely": true,
+        "extractedCount": 15,
+        "recordRanges": [
+          [
+            26,
+            33
+          ],
+          [
+            34,
+            51
+          ],
+          [
+            52,
+            65
+          ],
+          [
+            66,
+            85
+          ],
+          [
+            86,
+            94
+          ],
+          [
+            95,
+            112
+          ],
+          [
+            113,
+            118
+          ],
+          [
+            119,
+            144
+          ],
+          [
+            145,
+            150
+          ],
+          [
+            151,
+            156
+          ],
+          [
+            157,
+            174
+          ],
+          [
+            175,
+            181
+          ],
+          [
+            182,
+            190
+          ],
+          [
+            191,
+            196
+          ],
+          [
+            197,
+            210
+          ]
+        ],
+        "excludedContent": "Publisher metadata, marketing, navigation/table-of-contents repeats, editor widget labels and unrelated footer links. Full originals remain unchanged.",
+        "notes": [],
+        "omittedRanges": [
+          {
+            "startLine": 1,
+            "endLine": 25,
+            "disposition": "Publisher metadata, introduction/duplicate table of contents, section framing, promotion, related-link or footer material; original text retained in the unchanged source file. Technical concepts appearing here are covered by the extracted concept/question records."
+          },
+          {
+            "startLine": 211,
+            "endLine": 253,
+            "disposition": "Publisher metadata, introduction/duplicate table of contents, section framing, promotion, related-link or footer material; original text retained in the unchanged source file. Technical concepts appearing here are covered by the extracted concept/question records."
+          }
+        ],
+        "corrections": [
+          {
+            "key": "eleven:4",
+            "startLine": 66,
+            "issue": "“Conversion operators” is not a standard Ruby operator category; conversions are typically methods such as Integer(), to_i and to_s."
+          },
+          {
+            "key": "eleven:4",
+            "startLine": 66,
+            "issue": "Conversions such as to_i/Integer() are methods, not a distinct built-in conversion-operator family."
+          },
+          {
+            "key": "eleven:10",
+            "startLine": 151,
+            "issue": "Corrected unsupported implication that Numeric has a built-in plus method."
+          },
+          {
+            "key": "eleven:13",
+            "startLine": 182,
+            "issue": "Separated Rails database/model/controller naming conventions from Ruby language rules."
+          },
+          {
+            "key": "eleven:13",
+            "startLine": 182,
+            "issue": "Corrected conflation of Ruby syntax rules with Rails naming conventions."
+          }
+        ],
+        "incompleteSourcePrompts": []
+      },
+      {
+        "sourceFile": "thirteen.txt",
+        "bytes": 17541,
+        "sha256": "1be0ec1bdc50a523716b91672c99970dc134d1a4e9f8f2b5e505d7d0a2c8eaf7",
+        "totalLines": 311,
+        "readRanges": [
+          [
+            1,
+            311
+          ]
+        ],
+        "processedCompletely": true,
+        "extractedCount": 22,
+        "recordRanges": [
+          [
+            16,
+            22
+          ],
+          [
+            23,
+            33
+          ],
+          [
+            34,
+            36
+          ],
+          [
+            37,
+            45
+          ],
+          [
+            46,
+            59
+          ],
+          [
+            60,
+            83
+          ],
+          [
+            84,
+            94
+          ],
+          [
+            95,
+            102
+          ],
+          [
+            103,
+            120
+          ],
+          [
+            121,
+            123
+          ],
+          [
+            124,
+            132
+          ],
+          [
+            133,
+            139
+          ],
+          [
+            140,
+            159
+          ],
+          [
+            160,
+            173
+          ],
+          [
+            174,
+            203
+          ],
+          [
+            204,
+            221
+          ],
+          [
+            222,
+            248
+          ],
+          [
+            249,
+            272
+          ],
+          [
+            273,
+            283
+          ],
+          [
+            287,
+            290
+          ],
+          [
+            291,
+            294
+          ],
+          [
+            295,
+            298
+          ]
+        ],
+        "excludedContent": "Publisher metadata, marketing, navigation/table-of-contents repeats, editor widget labels and unrelated footer links. Full originals remain unchanged.",
+        "notes": [],
+        "omittedRanges": [
+          {
+            "startLine": 1,
+            "endLine": 15,
+            "disposition": "Publisher metadata, introduction/duplicate table of contents, section framing, promotion, related-link or footer material; original text retained in the unchanged source file. Technical concepts appearing here are covered by the extracted concept/question records."
+          },
+          {
+            "startLine": 284,
+            "endLine": 286,
+            "disposition": "Publisher metadata, introduction/duplicate table of contents, section framing, promotion, related-link or footer material; original text retained in the unchanged source file. Technical concepts appearing here are covered by the extracted concept/question records."
+          },
+          {
+            "startLine": 299,
+            "endLine": 311,
+            "disposition": "Publisher metadata, introduction/duplicate table of contents, section framing, promotion, related-link or footer material; original text retained in the unchanged source file. Technical concepts appearing here are covered by the extracted concept/question records."
+          }
+        ],
+        "corrections": [
+          {
+            "key": "thirteen:runtime",
+            "startLine": 16,
+            "issue": "The source’s 2022/2023 popularity and salary statistics are historical context, not current evidence."
+          },
+          {
+            "key": "thirteen:concept-5",
+            "startLine": 60,
+            "issue": "Corrected source’s misleading claim about Rails generating per-instance singleton attribute methods."
+          },
+          {
+            "key": "thirteen:concept-13",
+            "startLine": 160,
+            "issue": "Corrected nonworking File.open(... ) or die example."
+          },
+          {
+            "key": "thirteen:concept-18",
+            "startLine": 273,
+            "issue": "Corrected supposedly equivalent String-key-to-Symbol-key style transformation."
+          }
+        ],
+        "incompleteSourcePrompts": [
+          {
+            "key": "thirteen:replay-Validate string against dictionary",
+            "startLine": 287,
+            "issues": [
+              "Incomplete source: only an interview-replay title is supplied; the full problem statement and constraints are absent."
+            ]
+          },
+          {
+            "key": "thirteen:replay-Minimum tree depth",
+            "startLine": 291,
+            "issues": [
+              "Incomplete source: only an interview-replay title is supplied; the full problem statement and constraints are absent."
+            ]
+          },
+          {
+            "key": "thirteen:replay-Move Stones Over Grid",
+            "startLine": 295,
+            "issues": [
+              "Incomplete source: only an interview-replay title is supplied; the full problem statement and constraints are absent."
+            ]
+          }
+        ]
+      },
+      {
+        "sourceFile": "fourteen.txt",
+        "bytes": 6845,
+        "sha256": "2f167cc4823978ef5e4f034f9943d7004c903a3881c2ccf3da83ba66e1961513",
+        "totalLines": 128,
+        "readRanges": [
+          [
+            1,
+            128
+          ]
+        ],
+        "processedCompletely": true,
+        "extractedCount": 41,
+        "recordRanges": [
+          [
+            7,
+            9
+          ],
+          [
+            10,
+            12
+          ],
+          [
+            13,
+            15
+          ],
+          [
+            16,
+            18
+          ],
+          [
+            19,
+            21
+          ],
+          [
+            22,
+            24
+          ],
+          [
+            25,
+            27
+          ],
+          [
+            28,
+            30
+          ],
+          [
+            31,
+            33
+          ],
+          [
+            34,
+            36
+          ],
+          [
+            37,
+            39
+          ],
+          [
+            40,
+            42
+          ],
+          [
+            43,
+            45
+          ],
+          [
+            46,
+            48
+          ],
+          [
+            49,
+            51
+          ],
+          [
+            52,
+            54
+          ],
+          [
+            55,
+            57
+          ],
+          [
+            58,
+            60
+          ],
+          [
+            61,
+            63
+          ],
+          [
+            64,
+            66
+          ],
+          [
+            67,
+            69
+          ],
+          [
+            70,
+            72
+          ],
+          [
+            73,
+            75
+          ],
+          [
+            76,
+            78
+          ],
+          [
+            79,
+            81
+          ],
+          [
+            82,
+            84
+          ],
+          [
+            85,
+            87
+          ],
+          [
+            88,
+            90
+          ],
+          [
+            91,
+            93
+          ],
+          [
+            94,
+            96
+          ],
+          [
+            97,
+            99
+          ],
+          [
+            100,
+            102
+          ],
+          [
+            103,
+            105
+          ],
+          [
+            106,
+            108
+          ],
+          [
+            109,
+            111
+          ],
+          [
+            112,
+            114
+          ],
+          [
+            115,
+            117
+          ],
+          [
+            118,
+            120
+          ],
+          [
+            121,
+            123
+          ],
+          [
+            124,
+            126
+          ],
+          [
+            127,
+            128
+          ]
+        ],
+        "excludedContent": "Publisher metadata, marketing, navigation/table-of-contents repeats, editor widget labels and unrelated footer links. Full originals remain unchanged.",
+        "notes": [
+          "41 catalog prompts preserved; all supplied solutions are original standard variants with explicit assumptions, not recovered linked content.",
+          "41 catalog prompts preserved; all supplied solutions are original standard variants with explicit assumptions, not recovered linked content.",
+          "41 catalog prompts preserved; all supplied solutions are original standard variants with explicit assumptions, not recovered linked content.",
+          "41 catalog prompts preserved; all supplied solutions are original standard variants with explicit assumptions, not recovered linked content."
+        ],
+        "omittedRanges": [
+          {
+            "startLine": 1,
+            "endLine": 6,
+            "disposition": "Publisher metadata, introduction/duplicate table of contents, section framing, promotion, related-link or footer material; original text retained in the unchanged source file. Technical concepts appearing here are covered by the extracted concept/question records."
+          }
+        ],
+        "corrections": [],
+        "incompleteSourcePrompts": [
+          {
+            "key": "fourteen:1",
+            "startLine": 7,
+            "issues": [
+              "Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer."
+            ]
+          },
+          {
+            "key": "fourteen:2",
+            "startLine": 10,
+            "issues": [
+              "Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer."
+            ]
+          },
+          {
+            "key": "fourteen:3",
+            "startLine": 13,
+            "issues": [
+              "Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer."
+            ]
+          },
+          {
+            "key": "fourteen:4",
+            "startLine": 16,
+            "issues": [
+              "Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer."
+            ]
+          },
+          {
+            "key": "fourteen:5",
+            "startLine": 19,
+            "issues": [
+              "Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer."
+            ]
+          },
+          {
+            "key": "fourteen:6",
+            "startLine": 22,
+            "issues": [
+              "Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer."
+            ]
+          },
+          {
+            "key": "fourteen:7",
+            "startLine": 25,
+            "issues": [
+              "Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer."
+            ]
+          },
+          {
+            "key": "fourteen:8",
+            "startLine": 28,
+            "issues": [
+              "Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer."
+            ]
+          },
+          {
+            "key": "fourteen:9",
+            "startLine": 31,
+            "issues": [
+              "Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer."
+            ]
+          },
+          {
+            "key": "fourteen:10",
+            "startLine": 34,
+            "issues": [
+              "Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer."
+            ]
+          },
+          {
+            "key": "fourteen:11",
+            "startLine": 37,
+            "issues": [
+              "Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer."
+            ]
+          },
+          {
+            "key": "fourteen:12",
+            "startLine": 40,
+            "issues": [
+              "Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer."
+            ]
+          },
+          {
+            "key": "fourteen:13",
+            "startLine": 43,
+            "issues": [
+              "Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer."
+            ]
+          },
+          {
+            "key": "fourteen:14",
+            "startLine": 46,
+            "issues": [
+              "Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer."
+            ]
+          },
+          {
+            "key": "fourteen:15",
+            "startLine": 49,
+            "issues": [
+              "Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer."
+            ]
+          },
+          {
+            "key": "fourteen:16",
+            "startLine": 52,
+            "issues": [
+              "Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer."
+            ]
+          },
+          {
+            "key": "fourteen:17",
+            "startLine": 55,
+            "issues": [
+              "Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer."
+            ]
+          },
+          {
+            "key": "fourteen:18",
+            "startLine": 58,
+            "issues": [
+              "Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer."
+            ]
+          },
+          {
+            "key": "fourteen:19",
+            "startLine": 61,
+            "issues": [
+              "Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer."
+            ]
+          },
+          {
+            "key": "fourteen:20",
+            "startLine": 64,
+            "issues": [
+              "Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer."
+            ]
+          },
+          {
+            "key": "fourteen:21",
+            "startLine": 67,
+            "issues": [
+              "Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer."
+            ]
+          },
+          {
+            "key": "fourteen:22",
+            "startLine": 70,
+            "issues": [
+              "Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer."
+            ]
+          },
+          {
+            "key": "fourteen:23",
+            "startLine": 73,
+            "issues": [
+              "Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer."
+            ]
+          },
+          {
+            "key": "fourteen:24",
+            "startLine": 76,
+            "issues": [
+              "Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer."
+            ]
+          },
+          {
+            "key": "fourteen:25",
+            "startLine": 79,
+            "issues": [
+              "Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer."
+            ]
+          },
+          {
+            "key": "fourteen:26",
+            "startLine": 82,
+            "issues": [
+              "Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer."
+            ]
+          },
+          {
+            "key": "fourteen:27",
+            "startLine": 85,
+            "issues": [
+              "Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer."
+            ]
+          },
+          {
+            "key": "fourteen:28",
+            "startLine": 88,
+            "issues": [
+              "Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer."
+            ]
+          },
+          {
+            "key": "fourteen:29",
+            "startLine": 91,
+            "issues": [
+              "Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer."
+            ]
+          },
+          {
+            "key": "fourteen:30",
+            "startLine": 94,
+            "issues": [
+              "Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer."
+            ]
+          },
+          {
+            "key": "fourteen:31",
+            "startLine": 97,
+            "issues": [
+              "Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer."
+            ]
+          },
+          {
+            "key": "fourteen:32",
+            "startLine": 100,
+            "issues": [
+              "Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer."
+            ]
+          },
+          {
+            "key": "fourteen:33",
+            "startLine": 103,
+            "issues": [
+              "Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer."
+            ]
+          },
+          {
+            "key": "fourteen:34",
+            "startLine": 106,
+            "issues": [
+              "Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer."
+            ]
+          },
+          {
+            "key": "fourteen:35",
+            "startLine": 109,
+            "issues": [
+              "Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer."
+            ]
+          },
+          {
+            "key": "fourteen:36",
+            "startLine": 112,
+            "issues": [
+              "Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer."
+            ]
+          },
+          {
+            "key": "fourteen:37",
+            "startLine": 115,
+            "issues": [
+              "Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer."
+            ]
+          },
+          {
+            "key": "fourteen:38",
+            "startLine": 118,
+            "issues": [
+              "Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer."
+            ]
+          },
+          {
+            "key": "fourteen:39",
+            "startLine": 121,
+            "issues": [
+              "Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer."
+            ]
+          },
+          {
+            "key": "fourteen:40",
+            "startLine": 124,
+            "issues": [
+              "Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer."
+            ]
+          },
+          {
+            "key": "fourteen:41",
+            "startLine": 127,
+            "issues": [
+              "Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer."
+            ]
+          }
+        ]
+      },
+      {
+        "sourceFile": "nineteen.txt",
+        "bytes": 58486,
+        "sha256": "bc49de7d52317adb5e02c6c4e09c76bbf0d4b14f3cbafe151cd4118feecf8775",
+        "totalLines": 1238,
+        "readRanges": [
+          [
+            1,
+            1238
+          ]
+        ],
+        "processedCompletely": true,
+        "extractedCount": 67,
+        "recordRanges": [
+          [
+            112,
+            124
+          ],
+          [
+            125,
+            138
+          ],
+          [
+            139,
+            162
+          ],
+          [
+            163,
+            177
+          ],
+          [
+            178,
+            190
+          ],
+          [
+            191,
+            202
+          ],
+          [
+            203,
+            217
+          ],
+          [
+            218,
+            232
+          ],
+          [
+            233,
+            250
+          ],
+          [
+            251,
+            264
+          ],
+          [
+            265,
+            285
+          ],
+          [
+            286,
+            302
+          ],
+          [
+            303,
+            314
+          ],
+          [
+            315,
+            331
+          ],
+          [
+            332,
+            343
+          ],
+          [
+            344,
+            355
+          ],
+          [
+            356,
+            370
+          ],
+          [
+            371,
+            376
+          ],
+          [
+            377,
+            390
+          ],
+          [
+            391,
+            409
+          ],
+          [
+            410,
+            435
+          ],
+          [
+            436,
+            449
+          ],
+          [
+            450,
+            472
+          ],
+          [
+            473,
+            494
+          ],
+          [
+            495,
+            509
+          ],
+          [
+            510,
+            529
+          ],
+          [
+            530,
+            546
+          ],
+          [
+            547,
+            563
+          ],
+          [
+            564,
+            582
+          ],
+          [
+            583,
+            595
+          ],
+          [
+            596,
+            609
+          ],
+          [
+            610,
+            627
+          ],
+          [
+            628,
+            642
+          ],
+          [
+            643,
+            660
+          ],
+          [
+            661,
+            674
+          ],
+          [
+            675,
+            687
+          ],
+          [
+            688,
+            706
+          ],
+          [
+            707,
+            721
+          ],
+          [
+            722,
+            740
+          ],
+          [
+            741,
+            781
+          ],
+          [
+            782,
+            807
+          ],
+          [
+            808,
+            824
+          ],
+          [
+            825,
+            841
+          ],
+          [
+            842,
+            853
+          ],
+          [
+            854,
+            866
+          ],
+          [
+            867,
+            882
+          ],
+          [
+            883,
+            898
+          ],
+          [
+            899,
+            914
+          ],
+          [
+            915,
+            920
+          ],
+          [
+            921,
+            926
+          ],
+          [
+            927,
+            939
+          ],
+          [
+            940,
+            954
+          ],
+          [
+            955,
+            973
+          ],
+          [
+            974,
+            986
+          ],
+          [
+            987,
+            1001
+          ],
+          [
+            1002,
+            1018
+          ],
+          [
+            1019,
+            1034
+          ],
+          [
+            1035,
+            1048
+          ],
+          [
+            1049,
+            1069
+          ],
+          [
+            1070,
+            1078
+          ],
+          [
+            1079,
+            1086
+          ],
+          [
+            1119,
+            1120
+          ],
+          [
+            1121,
+            1122
+          ],
+          [
+            1123,
+            1124
+          ],
+          [
+            1125,
+            1126
+          ],
+          [
+            1127,
+            1128
+          ],
+          [
+            1129,
+            1130
+          ]
+        ],
+        "excludedContent": "Publisher metadata, marketing, navigation/table-of-contents repeats, editor widget labels and unrelated footer links. Full originals remain unchanged.",
+        "notes": [],
+        "omittedRanges": [
+          {
+            "startLine": 1,
+            "endLine": 111,
+            "disposition": "Publisher metadata, introduction/duplicate table of contents, section framing, promotion, related-link or footer material; original text retained in the unchanged source file. Technical concepts appearing here are covered by the extracted concept/question records."
+          },
+          {
+            "startLine": 1087,
+            "endLine": 1118,
+            "disposition": "Publisher metadata, introduction/duplicate table of contents, section framing, promotion, related-link or footer material; original text retained in the unchanged source file. Technical concepts appearing here are covered by the extracted concept/question records."
+          },
+          {
+            "startLine": 1131,
+            "endLine": 1238,
+            "disposition": "Publisher metadata, introduction/duplicate table of contents, section framing, promotion, related-link or footer material; original text retained in the unchanged source file. Technical concepts appearing here are covered by the extracted concept/question records."
+          }
+        ],
+        "corrections": [
+          {
+            "key": "nineteen:3",
+            "startLine": 139,
+            "issue": "Qualified absolute identity/performance claims: frozen strings may be shared; dynamic symbols can be collected; symbols are not universally faster."
+          },
+          {
+            "key": "nineteen:4",
+            "startLine": 163,
+            "issue": "Corrected inference that absence of explicit return commonly implies nil: a nonempty method returns its final expression."
+          },
+          {
+            "key": "nineteen:4",
+            "startLine": 163,
+            "issue": "Source’s statement about methods without explicit return often returning nil needed correction."
+          },
+          {
+            "key": "nineteen:17",
+            "startLine": 356,
+            "issue": "Qualified claim that operators are methods and replaced questionable compact multiple-assignment initializer with standard syntax."
+          },
+          {
+            "key": "nineteen:27",
+            "startLine": 530,
+            "issue": "Updated private-method receiver rule: literal self is permitted in Ruby 2.7+; older blanket prohibition is outdated."
+          },
+          {
+            "key": "nineteen:33",
+            "startLine": 628,
+            "issue": "Clarified freeze is shallow and does not prevent variable/constant reassignment."
+          },
+          {
+            "key": "nineteen:36",
+            "startLine": 675,
+            "issue": "Qualified “immutable” as shallow member protection; preserved nested mutability."
+          },
+          {
+            "key": "nineteen:45",
+            "startLine": 854,
+            "issue": "Corrected invalid 5.singleton_class example and “each object has its own singleton class” overstatement."
+          },
+          {
+            "key": "nineteen:57",
+            "startLine": 1019,
+            "issue": "Clarified experimental introduction in 2.7 and missing unmatched-pattern behavior."
+          },
+          {
+            "key": "nineteen:59",
+            "startLine": 1049,
+            "issue": "Corrected potential eql?/hash contract mismatch in source’s numeric-coordinate example."
+          },
+          {
+            "key": "nineteen:comparison",
+            "startLine": 1079,
+            "issue": "Qualified dated runtime/GIL and ecosystem generalizations in language-comparison table."
+          }
+        ],
+        "incompleteSourcePrompts": []
+      },
+      {
+        "sourceFile": "twentyone.txt",
+        "bytes": 10728,
+        "sha256": "8878d218420e4379980e4b25cf994a138c1edad9801cf5d4d54c8920d32cc536",
+        "totalLines": 585,
+        "readRanges": [
+          [
+            1,
+            585
+          ]
+        ],
+        "processedCompletely": true,
+        "extractedCount": 46,
+        "recordRanges": [
+          [
+            5,
+            16
+          ],
+          [
+            17,
+            30
+          ],
+          [
+            31,
+            46
+          ],
+          [
+            47,
+            60
+          ],
+          [
+            61,
+            67
+          ],
+          [
+            68,
+            81
+          ],
+          [
+            82,
+            94
+          ],
+          [
+            95,
+            103
+          ],
+          [
+            104,
+            120
+          ],
+          [
+            121,
+            137
+          ],
+          [
+            138,
+            156
+          ],
+          [
+            157,
+            177
+          ],
+          [
+            178,
+            191
+          ],
+          [
+            192,
+            207
+          ],
+          [
+            208,
+            240
+          ],
+          [
+            241,
+            260
+          ],
+          [
+            261,
+            265
+          ],
+          [
+            266,
+            283
+          ],
+          [
+            284,
+            301
+          ],
+          [
+            302,
+            314
+          ],
+          [
+            315,
+            330
+          ],
+          [
+            331,
+            335
+          ],
+          [
+            336,
+            340
+          ],
+          [
+            341,
+            350
+          ],
+          [
+            351,
+            367
+          ],
+          [
+            368,
+            382
+          ],
+          [
+            383,
+            387
+          ],
+          [
+            388,
+            402
+          ],
+          [
+            403,
+            409
+          ],
+          [
+            410,
+            422
+          ],
+          [
+            423,
+            445
+          ],
+          [
+            446,
+            450
+          ],
+          [
+            451,
+            457
+          ],
+          [
+            458,
+            463
+          ],
+          [
+            464,
+            471
+          ],
+          [
+            472,
+            482
+          ],
+          [
+            483,
+            490
+          ],
+          [
+            491,
+            498
+          ],
+          [
+            499,
+            506
+          ],
+          [
+            507,
+            516
+          ],
+          [
+            517,
+            526
+          ],
+          [
+            527,
+            536
+          ],
+          [
+            537,
+            546
+          ],
+          [
+            547,
+            556
+          ],
+          [
+            557,
+            568
+          ],
+          [
+            569,
+            585
+          ]
+        ],
+        "excludedContent": "Publisher metadata, marketing, navigation/table-of-contents repeats, editor widget labels and unrelated footer links. Full originals remain unchanged.",
+        "notes": [
+          "46 MCQs; answer keys were not captured. Derived solutions are explicitly labelled and all original options remain in sourceAnswer.",
+          "46 MCQs; answer keys were not captured. Derived solutions are explicitly labelled and all original options remain in sourceAnswer.",
+          "46 MCQs; answer keys were not captured. Derived solutions are explicitly labelled and all original options remain in sourceAnswer.",
+          "46 MCQs; answer keys were not captured. Derived solutions are explicitly labelled and all original options remain in sourceAnswer."
+        ],
+        "omittedRanges": [
+          {
+            "startLine": 1,
+            "endLine": 4,
+            "disposition": "Publisher metadata, introduction/duplicate table of contents, section framing, promotion, related-link or footer material; original text retained in the unchanged source file. Technical concepts appearing here are covered by the extracted concept/question records."
+          }
+        ],
+        "corrections": [],
+        "incompleteSourcePrompts": [
+          {
+            "key": "twentyone:unless-1",
+            "startLine": 5,
+            "issues": [
+              "Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied."
+            ]
+          },
+          {
+            "key": "twentyone:unless-2",
+            "startLine": 17,
+            "issues": [
+              "Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied."
+            ]
+          },
+          {
+            "key": "twentyone:unless-3",
+            "startLine": 31,
+            "issues": [
+              "Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied."
+            ]
+          },
+          {
+            "key": "twentyone:unless-4",
+            "startLine": 47,
+            "issues": [
+              "Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied."
+            ]
+          },
+          {
+            "key": "twentyone:unless-5",
+            "startLine": 61,
+            "issues": [
+              "Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied."
+            ]
+          },
+          {
+            "key": "twentyone:unless-6",
+            "startLine": 68,
+            "issues": [
+              "Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied."
+            ]
+          },
+          {
+            "key": "twentyone:unless-7",
+            "startLine": 82,
+            "issues": [
+              "Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied."
+            ]
+          },
+          {
+            "key": "twentyone:unless-8",
+            "startLine": 95,
+            "issues": [
+              "Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied."
+            ]
+          },
+          {
+            "key": "twentyone:unless-9",
+            "startLine": 104,
+            "issues": [
+              "Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied."
+            ]
+          },
+          {
+            "key": "twentyone:unless-10",
+            "startLine": 121,
+            "issues": [
+              "Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied."
+            ]
+          },
+          {
+            "key": "twentyone:unless-11",
+            "startLine": 138,
+            "issues": [
+              "Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied."
+            ]
+          },
+          {
+            "key": "twentyone:case-1",
+            "startLine": 157,
+            "issues": [
+              "Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied."
+            ]
+          },
+          {
+            "key": "twentyone:case-2",
+            "startLine": 178,
+            "issues": [
+              "Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied."
+            ]
+          },
+          {
+            "key": "twentyone:case-3",
+            "startLine": 192,
+            "issues": [
+              "Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied."
+            ]
+          },
+          {
+            "key": "twentyone:case-4",
+            "startLine": 208,
+            "issues": [
+              "Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied."
+            ]
+          },
+          {
+            "key": "twentyone:case-5",
+            "startLine": 241,
+            "issues": [
+              "Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied.",
+              "Incomplete source: input or prior variable initialization is not supplied; conditional outcomes are stated instead of inventing it."
+            ]
+          },
+          {
+            "key": "twentyone:case-6",
+            "startLine": 261,
+            "issues": [
+              "Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied."
+            ]
+          },
+          {
+            "key": "twentyone:case-7",
+            "startLine": 266,
+            "issues": [
+              "Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied.",
+              "Incomplete source: input or prior variable initialization is not supplied; conditional outcomes are stated instead of inventing it."
+            ]
+          },
+          {
+            "key": "twentyone:case-8",
+            "startLine": 284,
+            "issues": [
+              "Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied.",
+              "Incomplete source: input or prior variable initialization is not supplied; conditional outcomes are stated instead of inventing it."
+            ]
+          },
+          {
+            "key": "twentyone:case-9",
+            "startLine": 302,
+            "issues": [
+              "Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied."
+            ]
+          },
+          {
+            "key": "twentyone:case-10",
+            "startLine": 315,
+            "issues": [
+              "Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied."
+            ]
+          },
+          {
+            "key": "twentyone:comparison-1",
+            "startLine": 331,
+            "issues": [
+              "Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied."
+            ]
+          },
+          {
+            "key": "twentyone:comparison-2",
+            "startLine": 336,
+            "issues": [
+              "Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied."
+            ]
+          },
+          {
+            "key": "twentyone:comparison-3",
+            "startLine": 341,
+            "issues": [
+              "Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied."
+            ]
+          },
+          {
+            "key": "twentyone:comparison-4",
+            "startLine": 351,
+            "issues": [
+              "Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied."
+            ]
+          },
+          {
+            "key": "twentyone:comparison-5",
+            "startLine": 368,
+            "issues": [
+              "Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied."
+            ]
+          },
+          {
+            "key": "twentyone:comparison-6",
+            "startLine": 383,
+            "issues": [
+              "Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied."
+            ]
+          },
+          {
+            "key": "twentyone:comparison-7",
+            "startLine": 388,
+            "issues": [
+              "Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied."
+            ]
+          },
+          {
+            "key": "twentyone:comparison-8",
+            "startLine": 403,
+            "issues": [
+              "Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied."
+            ]
+          },
+          {
+            "key": "twentyone:comparison-9",
+            "startLine": 410,
+            "issues": [
+              "Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied.",
+              "Incomplete source: input or prior variable initialization is not supplied; conditional outcomes are stated instead of inventing it."
+            ]
+          },
+          {
+            "key": "twentyone:comparison-10",
+            "startLine": 423,
+            "issues": [
+              "Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied."
+            ]
+          },
+          {
+            "key": "twentyone:operator-1",
+            "startLine": 446,
+            "issues": [
+              "Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied."
+            ]
+          },
+          {
+            "key": "twentyone:operator-2",
+            "startLine": 451,
+            "issues": [
+              "Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied."
+            ]
+          },
+          {
+            "key": "twentyone:operator-3",
+            "startLine": 458,
+            "issues": [
+              "Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied."
+            ]
+          },
+          {
+            "key": "twentyone:operator-4",
+            "startLine": 464,
+            "issues": [
+              "Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied."
+            ]
+          },
+          {
+            "key": "twentyone:operator-5",
+            "startLine": 472,
+            "issues": [
+              "Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied."
+            ]
+          },
+          {
+            "key": "twentyone:operator-6",
+            "startLine": 483,
+            "issues": [
+              "Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied."
+            ]
+          },
+          {
+            "key": "twentyone:operator-7",
+            "startLine": 491,
+            "issues": [
+              "Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied."
+            ]
+          },
+          {
+            "key": "twentyone:operator-8",
+            "startLine": 499,
+            "issues": [
+              "Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied."
+            ]
+          },
+          {
+            "key": "twentyone:operator-9",
+            "startLine": 507,
+            "issues": [
+              "Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied."
+            ]
+          },
+          {
+            "key": "twentyone:operator-10",
+            "startLine": 517,
+            "issues": [
+              "Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied."
+            ]
+          },
+          {
+            "key": "twentyone:operator-11",
+            "startLine": 527,
+            "issues": [
+              "Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied."
+            ]
+          },
+          {
+            "key": "twentyone:operator-12",
+            "startLine": 537,
+            "issues": [
+              "Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied."
+            ]
+          },
+          {
+            "key": "twentyone:operator-13",
+            "startLine": 547,
+            "issues": [
+              "Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied."
+            ]
+          },
+          {
+            "key": "twentyone:operator-14",
+            "startLine": 557,
+            "issues": [
+              "Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied."
+            ]
+          },
+          {
+            "key": "twentyone:operator-15",
+            "startLine": 569,
+            "issues": [
+              "Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied."
+            ]
+          }
+        ]
+      },
+      {
+        "sourceFile": "twentyfour.txt",
+        "bytes": 30276,
+        "sha256": "cfb7b171ba1372bb0c3b923c295f43582bf9cd7bab2353276550998a206ddf65",
+        "totalLines": 757,
+        "readRanges": [
+          [
+            1,
+            757
+          ]
+        ],
+        "processedCompletely": true,
+        "extractedCount": 15,
+        "recordRanges": [
+          [
+            7,
+            39
+          ],
+          [
+            40,
+            97
+          ],
+          [
+            98,
+            124
+          ],
+          [
+            125,
+            151
+          ],
+          [
+            152,
+            202
+          ],
+          [
+            203,
+            235
+          ],
+          [
+            236,
+            361
+          ],
+          [
+            362,
+            415
+          ],
+          [
+            416,
+            494
+          ],
+          [
+            495,
+            523
+          ],
+          [
+            524,
+            560
+          ],
+          [
+            561,
+            585
+          ],
+          [
+            586,
+            636
+          ],
+          [
+            637,
+            673
+          ],
+          [
+            674,
+            756
+          ]
+        ],
+        "excludedContent": "Publisher metadata, marketing, navigation/table-of-contents repeats, editor widget labels and unrelated footer links. Full originals remain unchanged.",
+        "notes": [
+          "Headline advertises 100 questions, but only 15 question bodies are present. No absent questions were invented.",
+          "Headline advertises 100 questions, but only 15 question bodies are present. No absent questions were invented.",
+          "Headline advertises 100 questions, but only 15 question bodies are present. No absent questions were invented.",
+          "Headline advertises 100 questions, but only 15 question bodies are present. No absent questions were invented."
+        ],
+        "omittedRanges": [
+          {
+            "startLine": 1,
+            "endLine": 6,
+            "disposition": "Publisher metadata, introduction/duplicate table of contents, section framing, promotion, related-link or footer material; original text retained in the unchanged source file. Technical concepts appearing here are covered by the extracted concept/question records."
+          },
+          {
+            "startLine": 757,
+            "endLine": 757,
+            "disposition": "Publisher metadata, introduction/duplicate table of contents, section framing, promotion, related-link or footer material; original text retained in the unchanged source file. Technical concepts appearing here are covered by the extracted concept/question records."
+          }
+        ],
+        "corrections": [
+          {
+            "key": "twentyfour:1",
+            "startLine": 7,
+            "issue": "Removed unsupported claims about “Mediterranean quality”, code rearrangement, and Rails introducing many-to-many relationships."
+          },
+          {
+            "key": "twentyfour:2",
+            "startLine": 40,
+            "issue": "Corrected nonportable backgrounding advice and unsupported require \"shell\"/Shell#open browser example."
+          },
+          {
+            "key": "twentyfour:4",
+            "startLine": 125,
+            "issue": "Qualified absolute identity/performance claims: frozen strings may be shared; dynamic symbols can be collected; symbols are not universally faster."
+          },
+          {
+            "key": "twentyfour:5",
+            "startLine": 152,
+            "issue": "Corrected global-scope claim, unsupported warning invocation and claim that freeze prohibits constant reassignment."
+          },
+          {
+            "key": "twentyfour:7",
+            "startLine": 236,
+            "issue": "Corrected String#grep misuse, each return-value claim, collect distinction, String#upto star output and “step indents” claim."
+          },
+          {
+            "key": "twentyfour:8",
+            "startLine": 362,
+            "issue": "Corrected exception hierarchy, claim that every custom exception is rescued automatically, and check-before-read race."
+          },
+          {
+            "key": "twentyfour:9",
+            "startLine": 416,
+            "issue": "Corrected invalid naming regex, variable access-control claim, local lifetime claim (closures retain locals) and instance-variable external visibility."
+          },
+          {
+            "key": "twentyfour:10",
+            "startLine": 495,
+            "issue": "Source declares both attr_reader and attr_writer, so name=/age= assignments succeed; the comments claiming errors are wrong."
+          },
+          {
+            "key": "twentyfour:11",
+            "startLine": 524,
+            "issue": "Removed unsupported Ruby 2.6 “trashcan” and context-dependent reference-counting/hybrid claims; count_objects[:FREE] is not a collector-enabling API."
+          },
+          {
+            "key": "twentyfour:12",
+            "startLine": 561,
+            "issue": "Corrected false claim that chomp removes all trailing whitespace."
+          },
+          {
+            "key": "twentyfour:15",
+            "startLine": 674,
+            "issue": "Corrected nonworking visibility example, recursive method_missing risk, unsafe eval localization recommendation and overstatement that method_missing is the heart of duck typing."
+          }
+        ],
+        "incompleteSourcePrompts": []
+      }
+    ]
+  },
+  {
+    "part": "rails",
+    "data": [
+      {
+        "sourceFile": "eighteen.txt",
+        "totalLines": 311,
+        "readRanges": [
+          [
+            1,
+            311
+          ]
+        ],
+        "processing": "Full source read, extraction boundaries reviewed, source answers retained, technical and version corrections applied. Missing screenshots and ambiguous MCQs explicitly flagged.",
+        "includedRanges": [
+          [
+            17,
+            78
+          ],
+          [
+            79,
+            84
+          ],
+          [
+            85,
+            111
+          ],
+          [
+            112,
+            142
+          ],
+          [
+            143,
+            182
+          ],
+          [
+            183,
+            199
+          ],
+          [
+            200,
+            240
+          ],
+          [
+            241,
+            250
+          ],
+          [
+            251,
+            267
+          ],
+          [
+            268,
+            282
+          ],
+          [
+            283,
+            305
+          ]
+        ],
+        "omittedRanges": [
+          {
+            "startLine": 1,
+            "endLine": 16,
+            "disposition": "Page introduction, section heading, or nontechnical website/hiring boilerplate; original preserved in source file."
+          },
+          {
+            "startLine": 306,
+            "endLine": 311,
+            "disposition": "Website footer/marketing/hiring content; original preserved in source file."
+          }
+        ],
+        "extractedRecords": 11,
+        "fullyRead": true,
+        "status": "complete"
+      },
+      {
+        "sourceFile": "fifteen.txt",
+        "totalLines": 257,
+        "readRanges": [
+          [
+            1,
+            257
+          ]
+        ],
+        "processing": "Full source read, extraction boundaries reviewed, source answers retained, technical and version corrections applied. Missing screenshots and ambiguous MCQs explicitly flagged.",
+        "includedRanges": [
+          [
+            81,
+            81
+          ],
+          [
+            82,
+            82
+          ],
+          [
+            83,
+            83
+          ],
+          [
+            84,
+            85
+          ],
+          [
+            86,
+            86
+          ],
+          [
+            87,
+            87
+          ],
+          [
+            88,
+            88
+          ],
+          [
+            89,
+            90
+          ],
+          [
+            91,
+            91
+          ],
+          [
+            92,
+            92
+          ],
+          [
+            93,
+            94
+          ],
+          [
+            95,
+            95
+          ],
+          [
+            96,
+            96
+          ],
+          [
+            97,
+            98
+          ],
+          [
+            99,
+            99
+          ],
+          [
+            100,
+            100
+          ],
+          [
+            101,
+            102
+          ],
+          [
+            103,
+            103
+          ],
+          [
+            104,
+            104
+          ],
+          [
+            105,
+            106
+          ],
+          [
+            107,
+            107
+          ],
+          [
+            108,
+            108
+          ],
+          [
+            109,
+            109
+          ],
+          [
+            110,
+            235
+          ],
+          [
+            236,
+            238
+          ],
+          [
+            239,
+            241
+          ],
+          [
+            242,
+            244
+          ],
+          [
+            245,
+            247
+          ],
+          [
+            248,
+            249
+          ]
+        ],
+        "omittedRanges": [
+          {
+            "startLine": 1,
+            "endLine": 80,
+            "disposition": "Page introduction, section heading, or nontechnical website/hiring boilerplate; original preserved in source file."
+          },
+          {
+            "startLine": 250,
+            "endLine": 257,
+            "disposition": "Website footer/marketing/hiring content; original preserved in source file."
+          }
+        ],
+        "extractedRecords": 29,
+        "fullyRead": true,
+        "status": "complete"
+      },
+      {
+        "sourceFile": "sixteen.txt",
+        "totalLines": 329,
+        "readRanges": [
+          [
+            1,
+            329
+          ]
+        ],
+        "processing": "Full source read, extraction boundaries reviewed, source answers retained, technical and version corrections applied. Missing screenshots and ambiguous MCQs explicitly flagged.",
+        "includedRanges": [
+          [
+            19,
+            42
+          ],
+          [
+            43,
+            50
+          ],
+          [
+            51,
+            89
+          ],
+          [
+            90,
+            132
+          ],
+          [
+            133,
+            157
+          ],
+          [
+            158,
+            185
+          ],
+          [
+            186,
+            212
+          ],
+          [
+            213,
+            241
+          ],
+          [
+            242,
+            280
+          ],
+          [
+            281,
+            300
+          ],
+          [
+            301,
+            304
+          ],
+          [
+            305,
+            308
+          ],
+          [
+            309,
+            318
+          ],
+          [
+            319,
+            322
+          ],
+          [
+            323,
+            325
+          ]
+        ],
+        "omittedRanges": [
+          {
+            "startLine": 1,
+            "endLine": 18,
+            "disposition": "Page introduction, section heading, or nontechnical website/hiring boilerplate; original preserved in source file."
+          },
+          {
+            "startLine": 326,
+            "endLine": 329,
+            "disposition": "Website footer/marketing/hiring content; original preserved in source file."
+          }
+        ],
+        "extractedRecords": 15,
+        "fullyRead": true,
+        "status": "complete"
+      },
+      {
+        "sourceFile": "thirty.txt",
+        "totalLines": 367,
+        "readRanges": [
+          [
+            1,
+            367
+          ]
+        ],
+        "processing": "Full source read, extraction boundaries reviewed, source answers retained, technical and version corrections applied. Missing screenshots and ambiguous MCQs explicitly flagged.",
+        "includedRanges": [
+          [
+            10,
+            14
+          ],
+          [
+            15,
+            17
+          ],
+          [
+            18,
+            20
+          ],
+          [
+            21,
+            23
+          ],
+          [
+            24,
+            26
+          ],
+          [
+            27,
+            31
+          ],
+          [
+            32,
+            34
+          ],
+          [
+            35,
+            43
+          ],
+          [
+            44,
+            46
+          ],
+          [
+            47,
+            51
+          ],
+          [
+            52,
+            54
+          ],
+          [
+            55,
+            57
+          ],
+          [
+            58,
+            60
+          ],
+          [
+            61,
+            66
+          ],
+          [
+            67,
+            73
+          ],
+          [
+            74,
+            76
+          ],
+          [
+            77,
+            79
+          ],
+          [
+            80,
+            82
+          ],
+          [
+            83,
+            90
+          ],
+          [
+            91,
+            93
+          ],
+          [
+            94,
+            96
+          ],
+          [
+            97,
+            99
+          ],
+          [
+            100,
+            102
+          ],
+          [
+            103,
+            105
+          ],
+          [
+            106,
+            108
+          ],
+          [
+            109,
+            111
+          ],
+          [
+            112,
+            114
+          ],
+          [
+            115,
+            117
+          ],
+          [
+            118,
+            120
+          ],
+          [
+            121,
+            126
+          ],
+          [
+            127,
+            129
+          ],
+          [
+            130,
+            134
+          ],
+          [
+            135,
+            140
+          ],
+          [
+            141,
+            145
+          ],
+          [
+            146,
+            148
+          ],
+          [
+            149,
+            151
+          ],
+          [
+            152,
+            154
+          ],
+          [
+            155,
+            157
+          ],
+          [
+            158,
+            160
+          ],
+          [
+            161,
+            163
+          ],
+          [
+            164,
+            166
+          ],
+          [
+            167,
+            169
+          ],
+          [
+            170,
+            177
+          ],
+          [
+            178,
+            182
+          ],
+          [
+            183,
+            185
+          ],
+          [
+            186,
+            190
+          ],
+          [
+            191,
+            193
+          ],
+          [
+            194,
+            196
+          ],
+          [
+            197,
+            198
+          ]
+        ],
+        "omittedRanges": [
+          {
+            "startLine": 1,
+            "endLine": 9,
+            "disposition": "Page introduction, section heading, or nontechnical website/hiring boilerplate; original preserved in source file."
+          },
+          {
+            "startLine": 199,
+            "endLine": 367,
+            "disposition": "Website footer/marketing/hiring content; original preserved in source file."
+          }
+        ],
+        "extractedRecords": 49,
+        "fullyRead": true,
+        "status": "complete"
+      },
+      {
+        "sourceFile": "thirtyeight.txt",
+        "totalLines": 333,
+        "readRanges": [
+          [
+            1,
+            333
+          ]
+        ],
+        "processing": "Full source read, extraction boundaries reviewed, source answers retained, technical and version corrections applied. Missing screenshots and ambiguous MCQs explicitly flagged.",
+        "includedRanges": [
+          [
+            40,
+            41
+          ],
+          [
+            42,
+            43
+          ],
+          [
+            44,
+            45
+          ],
+          [
+            46,
+            47
+          ],
+          [
+            48,
+            49
+          ],
+          [
+            50,
+            51
+          ],
+          [
+            52,
+            53
+          ],
+          [
+            54,
+            55
+          ],
+          [
+            56,
+            57
+          ],
+          [
+            58,
+            59
+          ],
+          [
+            60,
+            61
+          ],
+          [
+            62,
+            63
+          ],
+          [
+            64,
+            65
+          ],
+          [
+            66,
+            67
+          ],
+          [
+            68,
+            69
+          ],
+          [
+            70,
+            71
+          ],
+          [
+            72,
+            73
+          ],
+          [
+            74,
+            75
+          ],
+          [
+            76,
+            77
+          ],
+          [
+            78,
+            79
+          ],
+          [
+            80,
+            81
+          ],
+          [
+            82,
+            83
+          ],
+          [
+            84,
+            85
+          ],
+          [
+            86,
+            87
+          ],
+          [
+            88,
+            92
+          ],
+          [
+            93,
+            95
+          ],
+          [
+            96,
+            98
+          ],
+          [
+            99,
+            101
+          ],
+          [
+            102,
+            104
+          ],
+          [
+            105,
+            123
+          ],
+          [
+            124,
+            125
+          ],
+          [
+            126,
+            127
+          ],
+          [
+            128,
+            129
+          ],
+          [
+            130,
+            131
+          ],
+          [
+            132,
+            133
+          ],
+          [
+            134,
+            135
+          ],
+          [
+            136,
+            137
+          ],
+          [
+            138,
+            139
+          ],
+          [
+            140,
+            141
+          ],
+          [
+            142,
+            143
+          ],
+          [
+            144,
+            145
+          ],
+          [
+            146,
+            147
+          ],
+          [
+            148,
+            149
+          ],
+          [
+            150,
+            151
+          ],
+          [
+            152,
+            153
+          ],
+          [
+            154,
+            155
+          ],
+          [
+            156,
+            157
+          ],
+          [
+            158,
+            159
+          ],
+          [
+            160,
+            161
+          ],
+          [
+            162,
+            163
+          ],
+          [
+            164,
+            168
+          ],
+          [
+            169,
+            171
+          ],
+          [
+            172,
+            174
+          ],
+          [
+            175,
+            177
+          ],
+          [
+            178,
+            180
+          ],
+          [
+            181,
+            187
+          ],
+          [
+            188,
+            189
+          ],
+          [
+            190,
+            191
+          ],
+          [
+            192,
+            193
+          ],
+          [
+            194,
+            195
+          ],
+          [
+            196,
+            197
+          ],
+          [
+            198,
+            199
+          ],
+          [
+            200,
+            201
+          ],
+          [
+            202,
+            203
+          ],
+          [
+            204,
+            205
+          ],
+          [
+            206,
+            207
+          ],
+          [
+            208,
+            209
+          ],
+          [
+            210,
+            211
+          ],
+          [
+            212,
+            213
+          ],
+          [
+            214,
+            215
+          ],
+          [
+            216,
+            217
+          ],
+          [
+            218,
+            219
+          ],
+          [
+            220,
+            221
+          ],
+          [
+            222,
+            223
+          ],
+          [
+            224,
+            225
+          ],
+          [
+            226,
+            227
+          ],
+          [
+            228,
+            229
+          ],
+          [
+            230,
+            231
+          ],
+          [
+            232,
+            233
+          ],
+          [
+            234,
+            235
+          ],
+          [
+            236,
+            240
+          ],
+          [
+            241,
+            243
+          ],
+          [
+            244,
+            246
+          ],
+          [
+            247,
+            249
+          ],
+          [
+            250,
+            252
+          ],
+          [
+            253,
+            260
+          ]
+        ],
+        "omittedRanges": [
+          {
+            "startLine": 1,
+            "endLine": 39,
+            "disposition": "Page introduction, section heading, or nontechnical website/hiring boilerplate; original preserved in source file."
+          },
+          {
+            "startLine": 261,
+            "endLine": 333,
+            "disposition": "Website footer/marketing/hiring content; original preserved in source file."
+          }
+        ],
+        "extractedRecords": 86,
+        "fullyRead": true,
+        "status": "complete"
+      },
+      {
+        "sourceFile": "thirtyfive.txt",
+        "totalLines": 359,
+        "readRanges": [
+          [
+            1,
+            359
+          ]
+        ],
+        "processing": "Full source read, extraction boundaries reviewed, source answers retained, technical and version corrections applied. Missing screenshots and ambiguous MCQs explicitly flagged.",
+        "includedRanges": [
+          [
+            13,
+            18
+          ],
+          [
+            19,
+            27
+          ],
+          [
+            28,
+            36
+          ],
+          [
+            37,
+            44
+          ],
+          [
+            45,
+            57
+          ],
+          [
+            58,
+            66
+          ],
+          [
+            67,
+            77
+          ],
+          [
+            78,
+            83
+          ],
+          [
+            84,
+            98
+          ],
+          [
+            99,
+            109
+          ],
+          [
+            110,
+            115
+          ],
+          [
+            116,
+            124
+          ],
+          [
+            125,
+            134
+          ],
+          [
+            135,
+            145
+          ],
+          [
+            146,
+            151
+          ],
+          [
+            152,
+            157
+          ],
+          [
+            158,
+            162
+          ],
+          [
+            163,
+            169
+          ],
+          [
+            170,
+            176
+          ],
+          [
+            177,
+            198
+          ],
+          [
+            199,
+            204
+          ],
+          [
+            205,
+            219
+          ],
+          [
+            220,
+            231
+          ],
+          [
+            232,
+            239
+          ],
+          [
+            240,
+            253
+          ],
+          [
+            254,
+            259
+          ],
+          [
+            260,
+            266
+          ],
+          [
+            267,
+            281
+          ],
+          [
+            282,
+            297
+          ],
+          [
+            298,
+            305
+          ]
+        ],
+        "omittedRanges": [
+          {
+            "startLine": 1,
+            "endLine": 12,
+            "disposition": "Page introduction, section heading, or nontechnical website/hiring boilerplate; original preserved in source file."
+          },
+          {
+            "startLine": 306,
+            "endLine": 359,
+            "disposition": "Website footer/marketing/hiring content; original preserved in source file."
+          }
+        ],
+        "extractedRecords": 30,
+        "fullyRead": true,
+        "status": "complete"
+      },
+      {
+        "sourceFile": "thirtyfour.txt",
+        "totalLines": 657,
+        "readRanges": [
+          [
+            1,
+            657
+          ]
+        ],
+        "processing": "Full source read, extraction boundaries reviewed, source answers retained, technical and version corrections applied. Missing screenshots and ambiguous MCQs explicitly flagged.",
+        "includedRanges": [
+          [
+            20,
+            20
+          ],
+          [
+            21,
+            21
+          ],
+          [
+            22,
+            22
+          ],
+          [
+            23,
+            23
+          ],
+          [
+            24,
+            24
+          ],
+          [
+            25,
+            25
+          ],
+          [
+            26,
+            26
+          ],
+          [
+            27,
+            27
+          ],
+          [
+            28,
+            28
+          ],
+          [
+            29,
+            29
+          ],
+          [
+            30,
+            30
+          ],
+          [
+            31,
+            31
+          ],
+          [
+            32,
+            32
+          ],
+          [
+            33,
+            33
+          ],
+          [
+            34,
+            34
+          ],
+          [
+            35,
+            35
+          ],
+          [
+            36,
+            36
+          ],
+          [
+            37,
+            37
+          ],
+          [
+            38,
+            38
+          ],
+          [
+            39,
+            39
+          ],
+          [
+            40,
+            40
+          ],
+          [
+            41,
+            41
+          ],
+          [
+            42,
+            42
+          ],
+          [
+            43,
+            43
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            45,
+            45
+          ],
+          [
+            46,
+            46
+          ],
+          [
+            47,
+            47
+          ],
+          [
+            48,
+            48
+          ],
+          [
+            49,
+            49
+          ],
+          [
+            50,
+            50
+          ],
+          [
+            51,
+            51
+          ],
+          [
+            52,
+            52
+          ],
+          [
+            53,
+            53
+          ],
+          [
+            54,
+            54
+          ],
+          [
+            55,
+            55
+          ],
+          [
+            56,
+            56
+          ],
+          [
+            57,
+            57
+          ],
+          [
+            58,
+            58
+          ],
+          [
+            59,
+            60
+          ],
+          [
+            61,
+            61
+          ],
+          [
+            62,
+            62
+          ],
+          [
+            63,
+            63
+          ],
+          [
+            64,
+            64
+          ],
+          [
+            65,
+            65
+          ],
+          [
+            66,
+            66
+          ],
+          [
+            67,
+            67
+          ],
+          [
+            68,
+            68
+          ],
+          [
+            69,
+            69
+          ],
+          [
+            70,
+            70
+          ],
+          [
+            71,
+            71
+          ],
+          [
+            72,
+            72
+          ],
+          [
+            73,
+            73
+          ],
+          [
+            74,
+            74
+          ],
+          [
+            75,
+            75
+          ],
+          [
+            76,
+            76
+          ],
+          [
+            77,
+            77
+          ],
+          [
+            78,
+            78
+          ],
+          [
+            79,
+            79
+          ],
+          [
+            80,
+            80
+          ],
+          [
+            81,
+            81
+          ],
+          [
+            82,
+            82
+          ],
+          [
+            83,
+            83
+          ],
+          [
+            84,
+            84
+          ],
+          [
+            85,
+            85
+          ],
+          [
+            86,
+            86
+          ],
+          [
+            87,
+            87
+          ],
+          [
+            88,
+            88
+          ],
+          [
+            89,
+            89
+          ],
+          [
+            90,
+            90
+          ],
+          [
+            91,
+            91
+          ],
+          [
+            92,
+            92
+          ],
+          [
+            93,
+            93
+          ],
+          [
+            94,
+            94
+          ],
+          [
+            95,
+            95
+          ],
+          [
+            96,
+            96
+          ],
+          [
+            97,
+            97
+          ],
+          [
+            98,
+            98
+          ],
+          [
+            99,
+            99
+          ],
+          [
+            100,
+            101
+          ],
+          [
+            102,
+            102
+          ],
+          [
+            103,
+            103
+          ],
+          [
+            104,
+            104
+          ],
+          [
+            105,
+            105
+          ],
+          [
+            106,
+            106
+          ],
+          [
+            107,
+            107
+          ],
+          [
+            108,
+            108
+          ],
+          [
+            109,
+            109
+          ],
+          [
+            110,
+            110
+          ],
+          [
+            111,
+            111
+          ],
+          [
+            112,
+            112
+          ],
+          [
+            113,
+            113
+          ],
+          [
+            114,
+            114
+          ],
+          [
+            115,
+            115
+          ],
+          [
+            116,
+            116
+          ],
+          [
+            117,
+            117
+          ],
+          [
+            118,
+            118
+          ],
+          [
+            119,
+            119
+          ],
+          [
+            120,
+            120
+          ],
+          [
+            121,
+            121
+          ],
+          [
+            122,
+            122
+          ],
+          [
+            123,
+            123
+          ],
+          [
+            124,
+            124
+          ],
+          [
+            125,
+            125
+          ],
+          [
+            126,
+            126
+          ],
+          [
+            127,
+            127
+          ],
+          [
+            128,
+            128
+          ],
+          [
+            129,
+            129
+          ],
+          [
+            130,
+            130
+          ],
+          [
+            131,
+            131
+          ],
+          [
+            132,
+            132
+          ],
+          [
+            133,
+            133
+          ],
+          [
+            134,
+            134
+          ],
+          [
+            135,
+            135
+          ],
+          [
+            136,
+            136
+          ],
+          [
+            137,
+            137
+          ],
+          [
+            138,
+            138
+          ],
+          [
+            139,
+            139
+          ],
+          [
+            140,
+            140
+          ],
+          [
+            141,
+            142
+          ],
+          [
+            143,
+            159
+          ],
+          [
+            160,
+            176
+          ],
+          [
+            177,
+            208
+          ],
+          [
+            209,
+            249
+          ],
+          [
+            250,
+            265
+          ],
+          [
+            266,
+            281
+          ],
+          [
+            282,
+            307
+          ],
+          [
+            308,
+            321
+          ],
+          [
+            322,
+            339
+          ],
+          [
+            340,
+            362
+          ],
+          [
+            363,
+            390
+          ],
+          [
+            391,
+            412
+          ],
+          [
+            413,
+            433
+          ],
+          [
+            434,
+            449
+          ],
+          [
+            450,
+            466
+          ],
+          [
+            467,
+            483
+          ],
+          [
+            484,
+            494
+          ],
+          [
+            495,
+            511
+          ],
+          [
+            512,
+            541
+          ],
+          [
+            542,
+            561
+          ],
+          [
+            562,
+            576
+          ]
+        ],
+        "omittedRanges": [
+          {
+            "startLine": 1,
+            "endLine": 19,
+            "disposition": "Page introduction, section heading, or nontechnical website/hiring boilerplate; original preserved in source file."
+          },
+          {
+            "startLine": 577,
+            "endLine": 657,
+            "disposition": "Website footer/marketing/hiring content; original preserved in source file."
+          }
+        ],
+        "extractedRecords": 141,
+        "fullyRead": true,
+        "status": "complete"
+      },
+      {
+        "sourceFile": "thirtyone.txt",
+        "totalLines": 869,
+        "readRanges": [
+          [
+            1,
+            869
+          ]
+        ],
+        "processing": "Full source read, extraction boundaries reviewed, source answers retained, technical and version corrections applied. Missing screenshots and ambiguous MCQs explicitly flagged.",
+        "includedRanges": [
+          [
+            19,
+            39
+          ],
+          [
+            40,
+            50
+          ],
+          [
+            51,
+            76
+          ],
+          [
+            77,
+            90
+          ],
+          [
+            91,
+            118
+          ],
+          [
+            119,
+            140
+          ],
+          [
+            141,
+            164
+          ],
+          [
+            165,
+            178
+          ],
+          [
+            179,
+            194
+          ],
+          [
+            195,
+            208
+          ],
+          [
+            209,
+            243
+          ],
+          [
+            244,
+            254
+          ],
+          [
+            255,
+            286
+          ],
+          [
+            287,
+            300
+          ],
+          [
+            301,
+            360
+          ],
+          [
+            361,
+            384
+          ],
+          [
+            385,
+            444
+          ],
+          [
+            445,
+            464
+          ],
+          [
+            465,
+            502
+          ],
+          [
+            503,
+            532
+          ],
+          [
+            533,
+            585
+          ],
+          [
+            586,
+            596
+          ],
+          [
+            597,
+            610
+          ],
+          [
+            611,
+            626
+          ],
+          [
+            627,
+            639
+          ],
+          [
+            640,
+            653
+          ],
+          [
+            654,
+            709
+          ],
+          [
+            710,
+            730
+          ],
+          [
+            731,
+            748
+          ],
+          [
+            749,
+            785
+          ],
+          [
+            786,
+            823
+          ]
+        ],
+        "omittedRanges": [
+          {
+            "startLine": 1,
+            "endLine": 18,
+            "disposition": "Page introduction, section heading, or nontechnical website/hiring boilerplate; original preserved in source file."
+          },
+          {
+            "startLine": 824,
+            "endLine": 869,
+            "disposition": "Website footer/marketing/hiring content; original preserved in source file."
+          }
+        ],
+        "extractedRecords": 31,
+        "fullyRead": true,
+        "status": "complete"
+      },
+      {
+        "sourceFile": "thirtyseven.txt",
+        "totalLines": 279,
+        "readRanges": [
+          [
+            1,
+            279
+          ]
+        ],
+        "processing": "Full source read, extraction boundaries reviewed, source answers retained, technical and version corrections applied. Missing screenshots and ambiguous MCQs explicitly flagged.",
+        "includedRanges": [
+          [
+            12,
+            16
+          ],
+          [
+            17,
+            21
+          ],
+          [
+            22,
+            28
+          ],
+          [
+            29,
+            35
+          ],
+          [
+            36,
+            44
+          ],
+          [
+            45,
+            51
+          ],
+          [
+            52,
+            56
+          ],
+          [
+            57,
+            63
+          ],
+          [
+            64,
+            70
+          ],
+          [
+            71,
+            78
+          ],
+          [
+            79,
+            85
+          ],
+          [
+            86,
+            94
+          ],
+          [
+            95,
+            101
+          ],
+          [
+            102,
+            106
+          ],
+          [
+            107,
+            113
+          ],
+          [
+            114,
+            122
+          ],
+          [
+            123,
+            129
+          ],
+          [
+            130,
+            138
+          ],
+          [
+            139,
+            147
+          ],
+          [
+            148,
+            155
+          ],
+          [
+            156,
+            160
+          ],
+          [
+            161,
+            167
+          ],
+          [
+            168,
+            173
+          ],
+          [
+            174,
+            178
+          ],
+          [
+            179,
+            185
+          ],
+          [
+            186,
+            194
+          ],
+          [
+            195,
+            199
+          ],
+          [
+            200,
+            210
+          ],
+          [
+            211,
+            217
+          ],
+          [
+            218,
+            221
+          ]
+        ],
+        "omittedRanges": [
+          {
+            "startLine": 1,
+            "endLine": 11,
+            "disposition": "Page introduction, section heading, or nontechnical website/hiring boilerplate; original preserved in source file."
+          },
+          {
+            "startLine": 222,
+            "endLine": 279,
+            "disposition": "Website footer/marketing/hiring content; original preserved in source file."
+          }
+        ],
+        "extractedRecords": 30,
+        "fullyRead": true,
+        "status": "complete"
+      },
+      {
+        "sourceFile": "thirtysix.txt",
+        "totalLines": 725,
+        "readRanges": [
+          [
+            1,
+            725
+          ]
+        ],
+        "processing": "Full source read, extraction boundaries reviewed, source answers retained, technical and version corrections applied. Missing screenshots and ambiguous MCQs explicitly flagged.",
+        "includedRanges": [
+          [
+            6,
+            40
+          ],
+          [
+            41,
+            85
+          ],
+          [
+            86,
+            130
+          ],
+          [
+            131,
+            158
+          ],
+          [
+            159,
+            196
+          ],
+          [
+            197,
+            225
+          ],
+          [
+            226,
+            230
+          ],
+          [
+            231,
+            282
+          ],
+          [
+            283,
+            410
+          ],
+          [
+            411,
+            443
+          ],
+          [
+            444,
+            498
+          ],
+          [
+            499,
+            537
+          ],
+          [
+            538,
+            570
+          ],
+          [
+            571,
+            629
+          ],
+          [
+            630,
+            720
+          ]
+        ],
+        "omittedRanges": [
+          {
+            "startLine": 1,
+            "endLine": 5,
+            "disposition": "Page introduction, section heading, or nontechnical website/hiring boilerplate; original preserved in source file."
+          },
+          {
+            "startLine": 721,
+            "endLine": 725,
+            "disposition": "Website footer/marketing/hiring content; original preserved in source file."
+          }
+        ],
+        "extractedRecords": 15,
+        "fullyRead": true,
+        "status": "complete"
+      },
+      {
+        "sourceFile": "thirtytwo.txt",
+        "totalLines": 206,
+        "readRanges": [
+          [
+            1,
+            206
+          ]
+        ],
+        "processing": "Full source read, extraction boundaries reviewed, source answers retained, technical and version corrections applied. Missing screenshots and ambiguous MCQs explicitly flagged.",
+        "includedRanges": [
+          [
+            23,
+            25
+          ],
+          [
+            26,
+            31
+          ],
+          [
+            32,
+            36
+          ],
+          [
+            37,
+            42
+          ],
+          [
+            43,
+            45
+          ],
+          [
+            46,
+            54
+          ],
+          [
+            55,
+            66
+          ],
+          [
+            67,
+            69
+          ],
+          [
+            70,
+            72
+          ],
+          [
+            73,
+            75
+          ],
+          [
+            76,
+            78
+          ],
+          [
+            79,
+            81
+          ],
+          [
+            82,
+            84
+          ],
+          [
+            85,
+            87
+          ],
+          [
+            88,
+            93
+          ],
+          [
+            94,
+            97
+          ],
+          [
+            98,
+            100
+          ],
+          [
+            101,
+            107
+          ],
+          [
+            108,
+            110
+          ],
+          [
+            111,
+            114
+          ],
+          [
+            115,
+            118
+          ],
+          [
+            119,
+            121
+          ],
+          [
+            122,
+            124
+          ],
+          [
+            125,
+            127
+          ],
+          [
+            128,
+            130
+          ],
+          [
+            131,
+            133
+          ],
+          [
+            134,
+            136
+          ],
+          [
+            137,
+            139
+          ],
+          [
+            140,
+            142
+          ],
+          [
+            143,
+            145
+          ],
+          [
+            146,
+            147
+          ]
+        ],
+        "omittedRanges": [
+          {
+            "startLine": 1,
+            "endLine": 22,
+            "disposition": "Page introduction, section heading, or nontechnical website/hiring boilerplate; original preserved in source file."
+          },
+          {
+            "startLine": 148,
+            "endLine": 206,
+            "disposition": "Website footer/marketing/hiring content; original preserved in source file."
+          }
+        ],
+        "extractedRecords": 31,
+        "fullyRead": true,
+        "status": "complete"
+      },
+      {
+        "sourceFile": "twenty.txt",
+        "totalLines": 583,
+        "readRanges": [
+          [
+            1,
+            583
+          ]
+        ],
+        "processing": "Full source read, extraction boundaries reviewed, source answers retained, technical and version corrections applied. Missing screenshots and ambiguous MCQs explicitly flagged.",
+        "includedRanges": [
+          [
+            22,
+            26
+          ],
+          [
+            27,
+            34
+          ],
+          [
+            35,
+            39
+          ],
+          [
+            40,
+            50
+          ],
+          [
+            51,
+            55
+          ],
+          [
+            56,
+            60
+          ],
+          [
+            61,
+            67
+          ],
+          [
+            68,
+            72
+          ],
+          [
+            73,
+            75
+          ],
+          [
+            76,
+            83
+          ],
+          [
+            84,
+            88
+          ],
+          [
+            89,
+            93
+          ],
+          [
+            94,
+            100
+          ],
+          [
+            101,
+            105
+          ],
+          [
+            106,
+            118
+          ],
+          [
+            119,
+            123
+          ],
+          [
+            124,
+            128
+          ],
+          [
+            129,
+            133
+          ],
+          [
+            134,
+            138
+          ],
+          [
+            139,
+            154
+          ],
+          [
+            155,
+            159
+          ],
+          [
+            160,
+            168
+          ],
+          [
+            169,
+            175
+          ],
+          [
+            176,
+            181
+          ],
+          [
+            182,
+            188
+          ],
+          [
+            189,
+            207
+          ],
+          [
+            208,
+            220
+          ],
+          [
+            221,
+            225
+          ],
+          [
+            226,
+            238
+          ],
+          [
+            239,
+            246
+          ],
+          [
+            247,
+            257
+          ],
+          [
+            258,
+            274
+          ],
+          [
+            275,
+            293
+          ],
+          [
+            294,
+            308
+          ],
+          [
+            309,
+            323
+          ],
+          [
+            324,
+            333
+          ],
+          [
+            334,
+            344
+          ],
+          [
+            345,
+            355
+          ],
+          [
+            356,
+            375
+          ],
+          [
+            376,
+            383
+          ],
+          [
+            384,
+            388
+          ],
+          [
+            389,
+            397
+          ],
+          [
+            398,
+            402
+          ],
+          [
+            403,
+            409
+          ],
+          [
+            410,
+            414
+          ],
+          [
+            415,
+            421
+          ],
+          [
+            422,
+            426
+          ],
+          [
+            427,
+            431
+          ],
+          [
+            432,
+            436
+          ],
+          [
+            437,
+            443
+          ],
+          [
+            444,
+            450
+          ],
+          [
+            451,
+            457
+          ],
+          [
+            458,
+            468
+          ],
+          [
+            469,
+            478
+          ],
+          [
+            479,
+            483
+          ],
+          [
+            484,
+            488
+          ],
+          [
+            489,
+            493
+          ],
+          [
+            494,
+            498
+          ],
+          [
+            499,
+            509
+          ],
+          [
+            510,
+            512
+          ],
+          [
+            513,
+            515
+          ],
+          [
+            516,
+            518
+          ],
+          [
+            519,
+            521
+          ],
+          [
+            522,
+            523
+          ]
+        ],
+        "omittedRanges": [
+          {
+            "startLine": 1,
+            "endLine": 21,
+            "disposition": "Page introduction, section heading, or nontechnical website/hiring boilerplate; original preserved in source file."
+          },
+          {
+            "startLine": 524,
+            "endLine": 583,
+            "disposition": "Website footer/marketing/hiring content; original preserved in source file."
+          }
+        ],
+        "extractedRecords": 64,
+        "fullyRead": true,
+        "status": "complete"
+      },
+      {
+        "sourceFile": "twentyeight.txt",
+        "totalLines": 401,
+        "readRanges": [
+          [
+            1,
+            401
+          ]
+        ],
+        "processing": "Full source read, extraction boundaries reviewed, source answers retained, technical and version corrections applied. Missing screenshots and ambiguous MCQs explicitly flagged.",
+        "includedRanges": [
+          [
+            2,
+            18
+          ],
+          [
+            19,
+            48
+          ],
+          [
+            49,
+            69
+          ],
+          [
+            70,
+            80
+          ],
+          [
+            81,
+            93
+          ],
+          [
+            94,
+            111
+          ],
+          [
+            112,
+            118
+          ],
+          [
+            119,
+            150
+          ],
+          [
+            151,
+            189
+          ],
+          [
+            190,
+            201
+          ],
+          [
+            202,
+            216
+          ],
+          [
+            217,
+            238
+          ],
+          [
+            239,
+            263
+          ],
+          [
+            264,
+            294
+          ],
+          [
+            295,
+            297
+          ],
+          [
+            298,
+            300
+          ],
+          [
+            301,
+            302
+          ],
+          [
+            303,
+            305
+          ],
+          [
+            306,
+            308
+          ],
+          [
+            309,
+            315
+          ],
+          [
+            316,
+            318
+          ],
+          [
+            319,
+            321
+          ],
+          [
+            322,
+            324
+          ],
+          [
+            325,
+            328
+          ],
+          [
+            329,
+            332
+          ],
+          [
+            333,
+            339
+          ],
+          [
+            340,
+            347
+          ],
+          [
+            348,
+            354
+          ],
+          [
+            355,
+            357
+          ],
+          [
+            358,
+            360
+          ],
+          [
+            361,
+            368
+          ],
+          [
+            369,
+            377
+          ],
+          [
+            378,
+            380
+          ],
+          [
+            381,
+            387
+          ],
+          [
+            388,
+            400
+          ],
+          [
+            401,
+            401
+          ]
+        ],
+        "omittedRanges": [
+          {
+            "startLine": 1,
+            "endLine": 1,
+            "disposition": "Page introduction, section heading, or nontechnical website/hiring boilerplate; original preserved in source file."
+          }
+        ],
+        "extractedRecords": 36,
+        "fullyRead": true,
+        "status": "complete"
+      },
+      {
+        "sourceFile": "twentyfive.txt",
+        "totalLines": 753,
+        "readRanges": [
+          [
+            1,
+            753
+          ]
+        ],
+        "processing": "Full source read, extraction boundaries reviewed, source answers retained, technical and version corrections applied. Missing screenshots and ambiguous MCQs explicitly flagged.",
+        "includedRanges": [
+          [
+            8,
+            10
+          ],
+          [
+            11,
+            18
+          ],
+          [
+            19,
+            25
+          ],
+          [
+            26,
+            28
+          ],
+          [
+            29,
+            31
+          ],
+          [
+            32,
+            37
+          ],
+          [
+            38,
+            40
+          ],
+          [
+            41,
+            43
+          ],
+          [
+            44,
+            46
+          ],
+          [
+            47,
+            49
+          ],
+          [
+            50,
+            55
+          ],
+          [
+            56,
+            58
+          ],
+          [
+            59,
+            61
+          ],
+          [
+            62,
+            67
+          ],
+          [
+            68,
+            70
+          ],
+          [
+            71,
+            87
+          ],
+          [
+            88,
+            90
+          ],
+          [
+            91,
+            97
+          ],
+          [
+            98,
+            100
+          ],
+          [
+            101,
+            107
+          ],
+          [
+            108,
+            110
+          ],
+          [
+            111,
+            113
+          ],
+          [
+            114,
+            116
+          ],
+          [
+            117,
+            119
+          ],
+          [
+            120,
+            122
+          ],
+          [
+            123,
+            129
+          ],
+          [
+            130,
+            140
+          ],
+          [
+            141,
+            149
+          ],
+          [
+            150,
+            155
+          ],
+          [
+            156,
+            161
+          ],
+          [
+            162,
+            172
+          ],
+          [
+            173,
+            179
+          ],
+          [
+            180,
+            186
+          ],
+          [
+            187,
+            193
+          ],
+          [
+            194,
+            196
+          ],
+          [
+            197,
+            202
+          ],
+          [
+            203,
+            217
+          ],
+          [
+            218,
+            224
+          ],
+          [
+            225,
+            227
+          ],
+          [
+            228,
+            230
+          ],
+          [
+            231,
+            233
+          ],
+          [
+            234,
+            240
+          ],
+          [
+            241,
+            246
+          ],
+          [
+            247,
+            253
+          ],
+          [
+            254,
+            260
+          ],
+          [
+            261,
+            267
+          ],
+          [
+            268,
+            270
+          ],
+          [
+            271,
+            273
+          ],
+          [
+            274,
+            284
+          ],
+          [
+            285,
+            291
+          ],
+          [
+            292,
+            294
+          ],
+          [
+            295,
+            297
+          ],
+          [
+            298,
+            304
+          ],
+          [
+            305,
+            307
+          ],
+          [
+            308,
+            316
+          ],
+          [
+            317,
+            325
+          ],
+          [
+            326,
+            334
+          ],
+          [
+            335,
+            352
+          ],
+          [
+            353,
+            359
+          ],
+          [
+            360,
+            378
+          ],
+          [
+            379,
+            381
+          ],
+          [
+            382,
+            400
+          ],
+          [
+            401,
+            406
+          ],
+          [
+            407,
+            415
+          ],
+          [
+            416,
+            432
+          ],
+          [
+            433,
+            439
+          ],
+          [
+            440,
+            458
+          ],
+          [
+            459,
+            467
+          ],
+          [
+            468,
+            470
+          ],
+          [
+            471,
+            481
+          ],
+          [
+            482,
+            487
+          ],
+          [
+            488,
+            500
+          ],
+          [
+            501,
+            506
+          ],
+          [
+            507,
+            513
+          ],
+          [
+            514,
+            516
+          ],
+          [
+            517,
+            519
+          ],
+          [
+            520,
+            522
+          ],
+          [
+            523,
+            529
+          ],
+          [
+            530,
+            532
+          ],
+          [
+            533,
+            539
+          ],
+          [
+            540,
+            550
+          ],
+          [
+            551,
+            567
+          ],
+          [
+            568,
+            584
+          ],
+          [
+            585,
+            601
+          ],
+          [
+            602,
+            611
+          ],
+          [
+            612,
+            617
+          ],
+          [
+            618,
+            620
+          ],
+          [
+            621,
+            641
+          ],
+          [
+            642,
+            647
+          ],
+          [
+            648,
+            654
+          ],
+          [
+            655,
+            661
+          ],
+          [
+            662,
+            667
+          ],
+          [
+            668,
+            676
+          ],
+          [
+            677,
+            679
+          ],
+          [
+            680,
+            686
+          ],
+          [
+            687,
+            689
+          ],
+          [
+            690,
+            695
+          ],
+          [
+            696,
+            698
+          ],
+          [
+            699,
+            707
+          ],
+          [
+            708,
+            727
+          ]
+        ],
+        "omittedRanges": [
+          {
+            "startLine": 1,
+            "endLine": 7,
+            "disposition": "Page introduction, section heading, or nontechnical website/hiring boilerplate; original preserved in source file."
+          },
+          {
+            "startLine": 728,
+            "endLine": 753,
+            "disposition": "Website footer/marketing/hiring content; original preserved in source file."
+          }
+        ],
+        "extractedRecords": 100,
+        "fullyRead": true,
+        "status": "complete"
+      },
+      {
+        "sourceFile": "twentynine.txt",
+        "totalLines": 175,
+        "readRanges": [
+          [
+            1,
+            175
+          ]
+        ],
+        "processing": "Full source read, extraction boundaries reviewed, source answers retained, technical and version corrections applied. Missing screenshots and ambiguous MCQs explicitly flagged.",
+        "includedRanges": [
+          [
+            16,
+            18
+          ],
+          [
+            19,
+            21
+          ],
+          [
+            22,
+            29
+          ],
+          [
+            30,
+            32
+          ],
+          [
+            33,
+            35
+          ],
+          [
+            36,
+            38
+          ],
+          [
+            39,
+            41
+          ],
+          [
+            42,
+            44
+          ],
+          [
+            45,
+            47
+          ],
+          [
+            48,
+            50
+          ],
+          [
+            51,
+            57
+          ],
+          [
+            58,
+            60
+          ],
+          [
+            61,
+            63
+          ],
+          [
+            64,
+            66
+          ],
+          [
+            67,
+            72
+          ]
+        ],
+        "omittedRanges": [
+          {
+            "startLine": 1,
+            "endLine": 15,
+            "disposition": "Page introduction, section heading, or nontechnical website/hiring boilerplate; original preserved in source file."
+          },
+          {
+            "startLine": 73,
+            "endLine": 175,
+            "disposition": "Website footer/marketing/hiring content; original preserved in source file."
+          }
+        ],
+        "extractedRecords": 15,
+        "fullyRead": true,
+        "status": "complete"
+      },
+      {
+        "sourceFile": "twentysix.txt",
+        "totalLines": 143,
+        "readRanges": [
+          [
+            1,
+            143
+          ]
+        ],
+        "processing": "Full source read, extraction boundaries reviewed, source answers retained, technical and version corrections applied. Missing screenshots and ambiguous MCQs explicitly flagged.",
+        "includedRanges": [
+          [
+            13,
+            15
+          ],
+          [
+            16,
+            18
+          ],
+          [
+            19,
+            21
+          ],
+          [
+            22,
+            26
+          ],
+          [
+            27,
+            29
+          ],
+          [
+            30,
+            32
+          ],
+          [
+            33,
+            35
+          ],
+          [
+            36,
+            39
+          ],
+          [
+            40,
+            42
+          ],
+          [
+            43,
+            45
+          ],
+          [
+            46,
+            48
+          ],
+          [
+            49,
+            51
+          ],
+          [
+            52,
+            55
+          ],
+          [
+            56,
+            58
+          ],
+          [
+            59,
+            61
+          ],
+          [
+            62,
+            64
+          ],
+          [
+            65,
+            67
+          ],
+          [
+            68,
+            71
+          ],
+          [
+            72,
+            74
+          ],
+          [
+            75,
+            77
+          ],
+          [
+            78,
+            80
+          ],
+          [
+            81,
+            84
+          ],
+          [
+            85,
+            87
+          ],
+          [
+            88,
+            90
+          ],
+          [
+            91,
+            93
+          ],
+          [
+            94,
+            96
+          ],
+          [
+            97,
+            100
+          ],
+          [
+            101,
+            103
+          ],
+          [
+            104,
+            106
+          ],
+          [
+            107,
+            109
+          ],
+          [
+            110,
+            111
+          ]
+        ],
+        "omittedRanges": [
+          {
+            "startLine": 1,
+            "endLine": 12,
+            "disposition": "Page introduction, section heading, or nontechnical website/hiring boilerplate; original preserved in source file."
+          },
+          {
+            "startLine": 112,
+            "endLine": 143,
+            "disposition": "Website footer/marketing/hiring content; original preserved in source file."
+          }
+        ],
+        "extractedRecords": 32,
+        "fullyRead": true,
+        "status": "complete"
+      },
+      {
+        "sourceFile": "twentytwo.txt",
+        "totalLines": 507,
+        "readRanges": [
+          [
+            1,
+            507
+          ]
+        ],
+        "processing": "Full source read, extraction boundaries reviewed, source answers retained, technical and version corrections applied. Missing screenshots and ambiguous MCQs explicitly flagged.",
+        "includedRanges": [
+          [
+            8,
+            17
+          ],
+          [
+            18,
+            23
+          ],
+          [
+            24,
+            30
+          ],
+          [
+            31,
+            33
+          ],
+          [
+            34,
+            189
+          ],
+          [
+            190,
+            193
+          ],
+          [
+            194,
+            203
+          ],
+          [
+            204,
+            211
+          ],
+          [
+            212,
+            219
+          ],
+          [
+            220,
+            222
+          ],
+          [
+            223,
+            229
+          ],
+          [
+            230,
+            240
+          ],
+          [
+            241,
+            243
+          ],
+          [
+            244,
+            248
+          ],
+          [
+            249,
+            252
+          ],
+          [
+            253,
+            255
+          ],
+          [
+            256,
+            259
+          ],
+          [
+            260,
+            266
+          ],
+          [
+            267,
+            269
+          ],
+          [
+            270,
+            272
+          ],
+          [
+            273,
+            275
+          ],
+          [
+            276,
+            280
+          ],
+          [
+            281,
+            283
+          ],
+          [
+            284,
+            286
+          ],
+          [
+            287,
+            293
+          ],
+          [
+            294,
+            297
+          ],
+          [
+            298,
+            317
+          ],
+          [
+            318,
+            321
+          ],
+          [
+            322,
+            331
+          ],
+          [
+            332,
+            349
+          ],
+          [
+            350,
+            368
+          ],
+          [
+            369,
+            379
+          ],
+          [
+            380,
+            382
+          ],
+          [
+            383,
+            385
+          ],
+          [
+            386,
+            388
+          ],
+          [
+            389,
+            391
+          ],
+          [
+            392,
+            396
+          ],
+          [
+            397,
+            407
+          ],
+          [
+            408,
+            418
+          ],
+          [
+            419,
+            429
+          ],
+          [
+            430,
+            440
+          ],
+          [
+            441,
+            451
+          ],
+          [
+            452,
+            462
+          ],
+          [
+            463,
+            474
+          ],
+          [
+            475,
+            486
+          ],
+          [
+            487,
+            497
+          ],
+          [
+            498,
+            507
+          ]
+        ],
+        "omittedRanges": [
+          {
+            "startLine": 1,
+            "endLine": 7,
+            "disposition": "Page introduction, section heading, or nontechnical website/hiring boilerplate; original preserved in source file."
+          }
+        ],
+        "extractedRecords": 47,
+        "fullyRead": true,
+        "status": "complete"
+      }
+    ]
+  },
+  {
+    "part": "root",
+    "data": [
+      {
+        "sourceFile": "twentythree.txt",
+        "fullyRead": true,
+        "readRanges": [
+          [
+            1,
+            856
+          ]
+        ],
+        "questionRanges": [
+          [
+            17,
+            22
+          ],
+          [
+            23,
+            28
+          ],
+          [
+            29,
+            31
+          ],
+          [
+            32,
+            37
+          ],
+          [
+            38,
+            43
+          ],
+          [
+            44,
+            46
+          ],
+          [
+            47,
+            52
+          ],
+          [
+            53,
+            55
+          ],
+          [
+            56,
+            64
+          ],
+          [
+            65,
+            67
+          ],
+          [
+            68,
+            71
+          ],
+          [
+            72,
+            77
+          ],
+          [
+            78,
+            85
+          ],
+          [
+            86,
+            91
+          ],
+          [
+            92,
+            113
+          ],
+          [
+            114,
+            116
+          ],
+          [
+            117,
+            126
+          ],
+          [
+            127,
+            133
+          ],
+          [
+            134,
+            140
+          ],
+          [
+            141,
+            143
+          ],
+          [
+            144,
+            155
+          ],
+          [
+            156,
+            161
+          ],
+          [
+            162,
+            164
+          ],
+          [
+            165,
+            175
+          ],
+          [
+            176,
+            178
+          ],
+          [
+            179,
+            182
+          ],
+          [
+            183,
+            185
+          ],
+          [
+            186,
+            195
+          ],
+          [
+            196,
+            203
+          ],
+          [
+            204,
+            242
+          ],
+          [
+            243,
+            255
+          ],
+          [
+            256,
+            258
+          ],
+          [
+            259,
+            268
+          ],
+          [
+            269,
+            273
+          ],
+          [
+            274,
+            304
+          ],
+          [
+            305,
+            307
+          ],
+          [
+            308,
+            325
+          ],
+          [
+            326,
+            336
+          ],
+          [
+            337,
+            398
+          ],
+          [
+            399,
+            459
+          ],
+          [
+            460,
+            468
+          ],
+          [
+            469,
+            500
+          ],
+          [
+            501,
+            545
+          ],
+          [
+            546,
+            564
+          ],
+          [
+            565,
+            596
+          ],
+          [
+            597,
+            609
+          ],
+          [
+            610,
+            630
+          ],
+          [
+            631,
+            658
+          ],
+          [
+            659,
+            686
+          ],
+          [
+            687,
+            717
+          ],
+          [
+            718,
+            745
+          ]
+        ],
+        "nonQuestionRanges": [
+          {
+            "startLine": 1,
+            "endLine": 16,
+            "reason": "Article metadata, introductory technical context; original preserved, popularity statistics unverified."
+          },
+          {
+            "startLine": 746,
+            "endLine": 856,
+            "reason": "Comments, course/job advertisements, navigation, footer; no further interview prompts."
+          }
+        ],
+        "corrections": [
+          "ORM expands to Object-Relational Mapping.",
+          "Delete/destroy callback behavior.",
+          "skip_callback changes class callback chains.",
+          "Modern asset pipeline/version context.",
+          "Ruby/Python comparison inaccuracies.",
+          "Associations and migration reversibility.",
+          "Broken pasted code and capitalization."
+        ]
+      },
+      {
+        "sourceFile": "twentyseven.txt",
+        "fullyRead": true,
+        "readRanges": [
+          [
+            1,
+            1324
+          ]
+        ],
+        "nonQuestionRanges": [
+          {
+            "startLine": 1,
+            "endLine": 24,
+            "reason": "Title, metadata, marketing and contents."
+          },
+          {
+            "startLine": 1178,
+            "endLine": 1324,
+            "reason": "Recruiting guidance, embedded technical prompts separately extracted, marketing FAQ and related posts; all original text retained in source ledger."
+          }
+        ],
+        "corrections": [
+          "Rails 8 defaults vs legacy Rails tooling.",
+          "HTTP semantics and TLS.",
+          "CookieStore default.",
+          "SQLAlchemy examples were not Rails.",
+          "Untrusted ORDER BY.",
+          "Sidekiq MRI concurrency.",
+          "Tenant isolation.",
+          "Asset versions.",
+          "Russian doll cache invalidation.",
+          "Migration repeatability.",
+          "Legacy payment example unsafe.",
+          "I18n locale leakage."
+        ]
+      }
+    ]
+  }
+]

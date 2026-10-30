@@ -1,0 +1,2983 @@
+<div id="questionsContainer">
+                                                        <article class="question-card" id="question-1">
+                        <div class="question-header" onclick="toggleQuestion(1)">
+                            <div class="d-flex justify-content-between align-items-start flex-wrap">
+                                <div class="d-flex align-items-center flex-wrap gap-2">
+                                    <span class="question-number">1</span>
+                                    <h2 class="question-title h5 mb-0">What is Ruby and why is it popular?</h2>
+                                </div>
+                                <div class="d-flex gap-2 mt-2 mt-sm-0">
+                                    <span class="difficulty-badge bg-success text-white">Beginner</span>
+                                    <span class="category-badge"><i class="fas fa-th"></i> Ruby Basics</span>
+                                    <span class="category-badge"><i class="fas fa-eye me-1"></i>38,976</span>
+                                    <i class="fas fa-chevron-down toggle-icon" id="toggle-icon-1" style="transform: rotate(180deg);"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="question-body show" id="answer-1">
+                            <div class="answer-section"><div class="answer-title"><i class="fas fa-comment-dots me-2 text-primary"></i>Answer:</div><div class="answer-content">Ruby is a dynamic, open-source programming language with a focus on simplicity and productivity. In 2026, Ruby is popular because: 1) Elegant syntax - readable and expressive, 2) Ruby on Rails - powerful web framework, 3) Object-oriented - everything is an object, 4) Dynamic typing - flexible and productive, 5) Metaprogramming - powerful code generation, 6) Large ecosystem - gems for everything, 7) Active community - supportive and vibrant. Ruby is known for developer happiness and rapid development.</div></div>
+                                                        <div class="example-section">
+                                <div class="example-header"><i class="fas fa-code"></i><span>📝 Code Example</span></div>
+                                <pre class="example-content language-ruby" tabindex="0"><code class="language-ruby">Ruby Basics:
+    
+    1. Hello World
+       puts 'Hello, World!'
+    
+    2. Variables and Types
+       # Variables
+       name = 'John'           # String
+       age = 30                # Integer
+       price = 99.99           # Float
+       is_active = true        # Boolean
+       hobbies = ['reading', 'coding']  # Array
+       
+       # Constants
+       PI = 3.14159
+       APP_NAME = 'MyApp'
+       
+       # Symbols
+       status = :active
+        
+       # Hashes
+       user = { name: 'John', age: 30, city: 'NYC' }
+    
+    3. Ruby Key Features
+       Feature | Description
+       --------|------------
+       Everything is Object | True OOP
+       Blocks | Powerful iterators
+       Gems | Package management
+       Metaprogramming | Code generation
+       Rails Framework | Web development
+       Dynamic Typing | Flexible
+       Duck Typing | Type by behavior
+    
+    4. Ruby vs Python
+       Ruby | Python
+       ----|--------
+       Everything object | Almost everything
+       Blocks/lambdas | Lambdas only
+       Rails | Django/Flask
+       Metaprogramming | Limited
+       Developer happiness | Practicality</code></pre>
+                                <button class="copy-btn" onclick="copyCode(this)"><i class="fas fa-copy"></i> Copy Code</button>
+                            </div>
+                                                                                    <div class="explanation-section"><div class="explanation-title"><i class="fas fa-lightbulb me-2 text-warning"></i>Detailed Explanation:</div><div class="answer-content">Ruby is a dynamic, object-oriented language known for its elegant syntax, developer productivity, and the Ruby on Rails framework. It emphasizes programmer happiness and convention over configuration.</div></div>
+                                                        <div class="mt-3 pt-2 border-top"><small class="text-muted"><i class="fas fa-calendar-alt me-1"></i>Added: 2026-09-01<span class="mx-2">•</span><i class="fas fa-chart-line me-1"></i>38,976 views</small></div>
+                        </div>
+                    </article>
+                                        <article class="question-card" id="question-2">
+                        <div class="question-header" onclick="toggleQuestion(2)">
+                            <div class="d-flex justify-content-between align-items-start flex-wrap">
+                                <div class="d-flex align-items-center flex-wrap gap-2">
+                                    <span class="question-number">2</span>
+                                    <h2 class="question-title h5 mb-0">What is the difference between puts, print, and p in Ruby?</h2>
+                                </div>
+                                <div class="d-flex gap-2 mt-2 mt-sm-0">
+                                    <span class="difficulty-badge bg-success text-white">Beginner</span>
+                                    <span class="category-badge"><i class="fas fa-th"></i> Ruby Basics</span>
+                                    <span class="category-badge"><i class="fas fa-eye me-1"></i>37,976</span>
+                                    <i class="fas fa-chevron-down toggle-icon" id="toggle-icon-2" style="transform: rotate(180deg);"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="question-body show" id="answer-2">
+                            <div class="answer-section"><div class="answer-title"><i class="fas fa-comment-dots me-2 text-primary"></i>Answer:</div><div class="answer-content">puts, print, and p are output methods with different behaviors. In 2026: 1) puts - adds newline after output, 2) print - no newline added, 3) p - returns inspect output (debugging), 4) puts - calls to_s, 5) p - calls inspect, 6) puts - returns nil, 7) p - returns the object. Use puts for normal output, print for same line, p for debugging.</div></div>
+                                                        <div class="example-section">
+                                <div class="example-header"><i class="fas fa-code"></i><span>📝 Code Example</span></div>
+                                <pre class="example-content language-ruby" tabindex="0"><code class="language-ruby">puts vs print vs p:
+    
+    1. puts (with newline)
+       puts 'Hello'
+       puts 'World'
+       # Output:
+       # Hello
+       # World
+    
+    2. print (no newline)
+       print 'Hello'
+       print 'World'
+       # Output: HelloWorld
+    
+    3. p (inspect - debugging)
+       p 'Hello'
+       # Output: \"Hello\" (with quotes)
+       
+       p [1, 2, 3]
+       # Output: [1, 2, 3] (inspect format)
+       
+       user = { name: 'John', age: 30 }
+       p user
+       # Output: {:name=&gt;\"John\", :age=&gt;30}
+    
+    4. Comparison Table
+       Method | Newline | Output | Return | Use Case
+       ------|---------|--------|--------|---------
+       puts | Yes | to_s | nil | Normal output
+       print | No | to_s | nil | Same line output
+       p | Yes | inspect | Object | Debugging
+    
+    5. Real-world Examples
+       # puts with arrays
+       puts [1, 2, 3]  # Each element on new line
+       
+       # p with arrays
+       p [1, 2, 3]     # [1, 2, 3] (inspect)
+       
+       # puts with nil
+       puts nil        # (blank line)
+       
+       # p with nil
+       p nil           # nil
+    
+    6. Best Practices
+       - Use puts for normal output
+       - Use print for prompts
+       - Use p for debugging
+       - Use pp for pretty print</code></pre>
+                                <button class="copy-btn" onclick="copyCode(this)"><i class="fas fa-copy"></i> Copy Code</button>
+                            </div>
+                                                                                    <div class="explanation-section"><div class="explanation-title"><i class="fas fa-lightbulb me-2 text-warning"></i>Detailed Explanation:</div><div class="answer-content">puts adds a newline and calls to_s, print outputs without newline, p outputs inspect format for debugging. Use puts for normal output, print for same line, p for debugging.</div></div>
+                                                        <div class="mt-3 pt-2 border-top"><small class="text-muted"><i class="fas fa-calendar-alt me-1"></i>Added: 2026-09-01<span class="mx-2">•</span><i class="fas fa-chart-line me-1"></i>37,976 views</small></div>
+                        </div>
+                    </article>
+                                        <article class="question-card" id="question-3">
+                        <div class="question-header" onclick="toggleQuestion(3)">
+                            <div class="d-flex justify-content-between align-items-start flex-wrap">
+                                <div class="d-flex align-items-center flex-wrap gap-2">
+                                    <span class="question-number">3</span>
+                                    <h2 class="question-title h5 mb-0">What is the difference between blocks, procs, and lambdas in Ruby?</h2>
+                                </div>
+                                <div class="d-flex gap-2 mt-2 mt-sm-0">
+                                    <span class="difficulty-badge bg-warning text-white">Intermediate</span>
+                                    <span class="category-badge"><i class="fas fa-th"></i> Blocks &amp; Procs</span>
+                                    <span class="category-badge"><i class="fas fa-eye me-1"></i>36,976</span>
+                                    <i class="fas fa-chevron-down toggle-icon" id="toggle-icon-3" style="transform: rotate(180deg);"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="question-body show" id="answer-3">
+                            <div class="answer-section"><div class="answer-title"><i class="fas fa-comment-dots me-2 text-primary"></i>Answer:</div><div class="answer-content">Blocks, procs, and lambdas are ways to pass code in Ruby with different behaviors. In 2026: 1) Blocks - anonymous code, not objects, 2) Procs - objects, can be stored, 3) Lambdas - procs with different behavior, 4) Blocks - called with yield, 5) Procs - called with call, 6) Lambdas - check argument count, 7) Lambdas - return exits lambda only, 8) Procs - return exits method. Choose based on need for objects and argument checking.</div></div>
+                                                        <div class="example-section">
+                                <div class="example-header"><i class="fas fa-code"></i><span>📝 Code Example</span></div>
+                                <pre class="example-content language-ruby" tabindex="0"><code class="language-ruby">Blocks, Procs, Lambdas:
+    
+    1. Blocks
+       # Block with do/end
+       5.times do |i|
+           puts i
+       end
+        
+       # Block with {}
+       5.times { |i| puts i }
+        
+       # Block with yield
+       def greet
+           puts 'Before'
+           yield if block_given?
+           puts 'After'
+       end
+        
+       greet { puts 'Hello' }
+    
+    2. Procs
+       # Creating a proc
+       my_proc = Proc.new { |name| puts 'Hello, #{name}' }
+       
+       # Short syntax
+       my_proc = proc { |name| puts 'Hello, #{name}' }
+       
+       # Calling proc
+       my_proc.call('John')
+       my_proc['John']
+       my_proc.('John')
+       
+       # Proc with return
+       def test_proc
+           p = Proc.new { return 'Proc return' }
+           p.call
+           'Method return'
+       end
+       puts test_proc  # Output: Proc return (exits method)
+    
+    3. Lambdas
+       # Creating a lambda
+       my_lambda = lambda { |name| puts 'Hello, #{name}' }
+       
+       # Short syntax
+       my_lambda = -&gt;(name) { puts 'Hello, #{name}' }
+       
+       # Calling lambda
+       my_lambda.call('John')
+       my_lambda['John']
+       my_lambda.('John')
+       
+       # Lambda with return
+       def test_lambda
+           l = lambda { return 'Lambda return' }
+           l.call
+           'Method return'
+       end
+       puts test_lambda  # Output: Method return (lambda returns to method)
+    
+    4. Comparison Table
+       Feature | Block | Proc | Lambda
+       --------|-------|------|--------
+       Object | No | Yes | Yes
+       Argument Check | No | No | Yes
+       Return Behavior | Method exit | Method exit | Lambda exit
+       Syntax | {} or do/end | Proc.new | lambda or -&gt;()
+       Use Case | Iterators | Callbacks | Callbacks with checks
+    
+    5. Proc vs Lambda Example
+       # Proc (loose argument checking)
+       p = Proc.new { |x, y| puts x }
+       p.call(1, 2, 3)  # OK (extra args ignored)
+        
+       # Lambda (strict argument checking)
+       l = lambda { |x, y| puts x }
+       l.call(1, 2)     # OK
+       # l.call(1, 2, 3) # Error (wrong number of arguments)
+    
+    6. When to Use
+       Block | Proc | Lambda
+       ------|------|--------
+       Simple iterators | Stored callbacks | Method-like behavior
+       Each, map | Event handlers | Argument validation
+       Yield | Configuration | Functional programming</code></pre>
+                                <button class="copy-btn" onclick="copyCode(this)"><i class="fas fa-copy"></i> Copy Code</button>
+                            </div>
+                                                                                    <div class="explanation-section"><div class="explanation-title"><i class="fas fa-lightbulb me-2 text-warning"></i>Detailed Explanation:</div><div class="answer-content">Blocks are anonymous code snippets (not objects). Procs are block objects with loose argument checking. Lambdas are procs with strict argument checking and different return behavior. Choose based on needs.</div></div>
+                                                        <div class="mt-3 pt-2 border-top"><small class="text-muted"><i class="fas fa-calendar-alt me-1"></i>Added: 2026-09-01<span class="mx-2">•</span><i class="fas fa-chart-line me-1"></i>36,976 views</small></div>
+                        </div>
+                    </article>
+                                        <article class="question-card" id="question-4">
+                        <div class="question-header" onclick="toggleQuestion(4)">
+                            <div class="d-flex justify-content-between align-items-start flex-wrap">
+                                <div class="d-flex align-items-center flex-wrap gap-2">
+                                    <span class="question-number">4</span>
+                                    <h2 class="question-title h5 mb-0">What is the difference between class and module in Ruby?</h2>
+                                </div>
+                                <div class="d-flex gap-2 mt-2 mt-sm-0">
+                                    <span class="difficulty-badge bg-warning text-white">Intermediate</span>
+                                    <span class="category-badge"><i class="fas fa-th"></i> OOP</span>
+                                    <span class="category-badge"><i class="fas fa-eye me-1"></i>35,976</span>
+                                    <i class="fas fa-chevron-down toggle-icon" id="toggle-icon-4" style="transform: rotate(180deg);"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="question-body show" id="answer-4">
+                            <div class="answer-section"><div class="answer-title"><i class="fas fa-comment-dots me-2 text-primary"></i>Answer:</div><div class="answer-content">Classes and modules are both containers for methods but with different purposes. In 2026: 1) Class - can be instantiated (objects), 2) Module - cannot be instantiated, 3) Class - single inheritance, 4) Module - multiple inclusion (mixins), 5) Class - has state (instance variables), 6) Module - no state (except class variables), 7) Class - can be subclassed, 8) Module - cannot be subclassed. Use classes for objects, modules for behavior sharing.</div></div>
+                                                        <div class="example-section">
+                                <div class="example-header"><i class="fas fa-code"></i><span>📝 Code Example</span></div>
+                                <pre class="example-content language-ruby" tabindex="0"><code class="language-ruby">Class vs Module:
+    
+    1. Class Example
+       class Person
+           attr_accessor :name, :age
+           
+           def initialize(name, age)
+               @name = name
+               @age = age
+           end
+           
+           def greet
+               'Hello, I'm #{@name}'
+           end
+       end
+        
+       john = Person.new('John', 30)
+       puts john.greet
+    
+    2. Module Example
+       module Flyable
+           def fly
+               'Flying!'
+           end
+       end
+        
+       module Swimmable
+           def swim
+               'Swimming!'
+           end
+       end
+        
+       # Mixin modules
+       class Duck
+           include Flyable, Swimmable
+           
+           def quack
+               'Quack!'
+           end
+       end
+        
+       duck = Duck.new
+       puts duck.fly     # Flying!
+       puts duck.swim    # Swimming!
+       puts duck.quack   # Quack!
+    
+    3. Module as Namespace
+       module Math
+           PI = 3.14159
+           
+           def self.square(x)
+               x * x
+           end
+       end
+        
+       puts Math::PI          # 3.14159
+       puts Math.square(5)    # 25
+    
+    4. Comparison Table
+       Feature | Class | Module
+       --------|-------|-------
+       Instantiation | Yes | No
+       Inheritance | Single | Multiple (mixins)
+       State | Yes | Limited
+       Subclassing | Yes | No
+       Methods | Instance &amp; Class | Instance &amp; Module
+       Use Case | Objects | Behavior sharing
+       Super | Yes | No
+    
+    5. Mixin Pattern
+       module Loggable
+           def log(message)
+               puts \"[#{Time.now}] #{message}\"
+           end
+       end
+        
+       class User
+           include Loggable
+           
+           def save
+               log('User saved')
+           end
+       end
+        
+       user = User.new
+       user.save  # [2024-...] User saved
+    
+    6. When to Use
+       Class | Module
+       ------|------
+       Create objects | Share behavior
+       Maintain state | Namespace
+       Single inheritance | Multiple mixins
+       Domain models | Utilities
+       Business logic | Cross-cutting concerns</code></pre>
+                                <button class="copy-btn" onclick="copyCode(this)"><i class="fas fa-copy"></i> Copy Code</button>
+                            </div>
+                                                                                    <div class="explanation-section"><div class="explanation-title"><i class="fas fa-lightbulb me-2 text-warning"></i>Detailed Explanation:</div><div class="answer-content">Classes are instantiable with state and single inheritance. Modules cannot be instantiated and provide multiple inheritance through mixins. Use classes for objects, modules for behavior sharing and namespaces.</div></div>
+                                                        <div class="mt-3 pt-2 border-top"><small class="text-muted"><i class="fas fa-calendar-alt me-1"></i>Added: 2026-09-01<span class="mx-2">•</span><i class="fas fa-chart-line me-1"></i>35,976 views</small></div>
+                        </div>
+                    </article>
+                                        <article class="question-card" id="question-5">
+                        <div class="question-header" onclick="toggleQuestion(5)">
+                            <div class="d-flex justify-content-between align-items-start flex-wrap">
+                                <div class="d-flex align-items-center flex-wrap gap-2">
+                                    <span class="question-number">5</span>
+                                    <h2 class="question-title h5 mb-0">What is the difference between include and extend in Ruby?</h2>
+                                </div>
+                                <div class="d-flex gap-2 mt-2 mt-sm-0">
+                                    <span class="difficulty-badge bg-warning text-white">Intermediate</span>
+                                    <span class="category-badge"><i class="fas fa-th"></i> OOP</span>
+                                    <span class="category-badge"><i class="fas fa-eye me-1"></i>34,976</span>
+                                    <i class="fas fa-chevron-down toggle-icon" id="toggle-icon-5" style="transform: rotate(180deg);"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="question-body show" id="answer-5">
+                            <div class="answer-section"><div class="answer-title"><i class="fas fa-comment-dots me-2 text-primary"></i>Answer:</div><div class="answer-content">include and extend are used to add module methods to classes. In 2026: 1) include - adds instance methods, 2) extend - adds class methods, 3) include - methods available on instances, 4) extend - methods available on class, 5) include - can be mixed in, 6) extend - adds singleton methods, 7) include - used for mixins, 8) extend - used for class extensions. Use include for instance methods, extend for class methods.</div></div>
+                                                        <div class="example-section">
+                                <div class="example-header"><i class="fas fa-code"></i><span>📝 Code Example</span></div>
+                                <pre class="example-content language-ruby" tabindex="0"><code class="language-ruby">include vs extend:
+    
+    1. include (Instance Methods)
+       module Greeting
+           def hello
+               'Hello!'
+           end
+       end
+        
+       class Person
+           include Greeting
+       end
+        
+       person = Person.new
+       puts person.hello  # Hello! (instance method)
+    
+    2. extend (Class Methods)
+       module ClassMethods
+           def create
+               new
+           end
+       end
+        
+       class Person
+           extend ClassMethods
+       end
+        
+       person = Person.create  # Class method
+       puts person.class      # Person
+    
+    3. include vs extend Example
+       module Loggable
+           def log(message)
+               puts \"Log: #{message}\"
+           end
+       end
+        
+       class User
+           include Loggable  # Instance methods
+       end
+        
+       class Config
+           extend Loggable   # Class methods
+       end
+        
+       # include (instance)
+       user = User.new
+       user.log('User created')
+        
+       # extend (class)
+       Config.log('Config loaded')
+    
+    4. include with self.included
+       module Helper
+           def self.included(base)
+               base.extend(ClassMethods)
+           end
+           
+           module ClassMethods
+               def helper_method
+                   'Class method from include'
+               end
+           end
+           
+           def instance_method
+               'Instance method from include'
+           end
+       end
+        
+       class MyClass
+           include Helper
+       end
+        
+       MyClass.helper_method      # Class method
+       MyClass.new.instance_method # Instance method
+    
+    5. Comparison Table
+       Feature | include | extend
+       --------|---------|--------
+       Method Type | Instance | Class
+       Target | Class instances | Class itself
+       Usage | Mixins | Class extensions
+       Singleton | No | Yes
+       Common Use | Behavior | Utilities
+    
+    6. When to Use
+       include | extend
+       --------|--------
+       Instance behavior | Class behavior
+       Mixins | Class extensions
+       Multiple inheritance | Singleton methods
+       Shared functionality | Utilities</code></pre>
+                                <button class="copy-btn" onclick="copyCode(this)"><i class="fas fa-copy"></i> Copy Code</button>
+                            </div>
+                                                                                    <div class="explanation-section"><div class="explanation-title"><i class="fas fa-lightbulb me-2 text-warning"></i>Detailed Explanation:</div><div class="answer-content">include adds instance methods to a class. extend adds class methods to a class. Use include for instance behavior (mixins), extend for class behavior (class extensions).</div></div>
+                                                        <div class="mt-3 pt-2 border-top"><small class="text-muted"><i class="fas fa-calendar-alt me-1"></i>Added: 2026-09-01<span class="mx-2">•</span><i class="fas fa-chart-line me-1"></i>34,976 views</small></div>
+                        </div>
+                    </article>
+                                        <article class="question-card" id="question-6">
+                        <div class="question-header" onclick="toggleQuestion(6)">
+                            <div class="d-flex justify-content-between align-items-start flex-wrap">
+                                <div class="d-flex align-items-center flex-wrap gap-2">
+                                    <span class="question-number">6</span>
+                                    <h2 class="question-title h5 mb-0">What is the difference between symbols and strings in Ruby?</h2>
+                                </div>
+                                <div class="d-flex gap-2 mt-2 mt-sm-0">
+                                    <span class="difficulty-badge bg-warning text-white">Intermediate</span>
+                                    <span class="category-badge"><i class="fas fa-th"></i> Ruby Basics</span>
+                                    <span class="category-badge"><i class="fas fa-eye me-1"></i>33,976</span>
+                                    <i class="fas fa-chevron-down toggle-icon" id="toggle-icon-6" style="transform: rotate(180deg);"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="question-body show" id="answer-6">
+                            <div class="answer-section"><div class="answer-title"><i class="fas fa-comment-dots me-2 text-primary"></i>Answer:</div><div class="answer-content">Symbols and strings are both text representations but with different behaviors. In 2026: 1) Symbols - immutable, single instance, 2) Strings - mutable, new instance, 3) Symbols - memory efficient, 4) Strings - memory heavier, 5) Symbols - used for identifiers, 6) Strings - used for data, 7) Symbols - faster for comparison, 8) Strings - slower for comparison. Use symbols for identifiers, strings for data manipulation.</div></div>
+                                                        <div class="example-section">
+                                <div class="example-header"><i class="fas fa-code"></i><span>📝 Code Example</span></div>
+                                <pre class="example-content language-ruby" tabindex="0"><code class="language-ruby">Symbols vs Strings:
+    
+    1. Symbols (Immutable)
+       # Creating symbols
+       :name
+       :age
+       :\"user name\"
+        
+       # Symbols are unique
+       puts :name.object_id  # Same ID
+       puts :name.object_id  # Same ID
+    
+    2. Strings (Mutable)
+       # Creating strings
+       'name'
+       \"name\"
+       %q[name]
+        
+       # Strings are unique
+       puts 'name'.object_id  # Different ID
+       puts 'name'.object_id  # Different ID
+    
+    3. Performance Comparison
+       # Symbols (faster comparison)
+       :name == :name  # Very fast
+        
+       # Strings (slower comparison)
+       'name' == 'name'  # Slower
+        
+       # Memory usage
+       1000.times { :name }  # One object
+       1000.times { 'name' } # 1000 objects
+    
+    4. Usage Examples
+       # Symbols as hash keys (preferred)
+       user = { name: 'John', age: 30 }
+        
+       # Strings as hash keys (allowed but less efficient)
+       user = { 'name' =&gt; 'John', 'age' =&gt; 30 }
+        
+       # Methods
+       'Hello'.to_sym  # :Hello
+       :hello.to_s      # 'hello'
+    
+    5. Comparison Table
+       Feature | Symbol | String
+       --------|--------|-------
+       Mutability | Immutable | Mutable
+       Identity | Single | Multiple
+       Memory | Efficient | Heavier
+       Comparison | Very fast | Slower
+       Use Case | Identifiers | Data
+       Garbage Collection | No | Yes
+    
+    6. When to Use
+       Symbol | String
+       ------|-------
+       Hash keys | Text data
+       Method names | User input
+       Enum values | String manipulation
+       Identifiers | Output text
+       Constants | Dynamic text
+    
+    7. Best Practices
+       - Use symbols for hash keys
+       - Use symbols for enum values
+       - Use strings for text manipulation
+       - Use string interpolation
+       - Avoid string keys in hashes</code></pre>
+                                <button class="copy-btn" onclick="copyCode(this)"><i class="fas fa-copy"></i> Copy Code</button>
+                            </div>
+                                                                                    <div class="explanation-section"><div class="explanation-title"><i class="fas fa-lightbulb me-2 text-warning"></i>Detailed Explanation:</div><div class="answer-content">Symbols are immutable, single-instance identifiers (memory efficient, faster comparison). Strings are mutable, multi-instance data (slower, heavier). Use symbols for identifiers, strings for data manipulation.</div></div>
+                                                        <div class="mt-3 pt-2 border-top"><small class="text-muted"><i class="fas fa-calendar-alt me-1"></i>Added: 2026-09-01<span class="mx-2">•</span><i class="fas fa-chart-line me-1"></i>33,976 views</small></div>
+                        </div>
+                    </article>
+                                        <article class="question-card" id="question-7">
+                        <div class="question-header" onclick="toggleQuestion(7)">
+                            <div class="d-flex justify-content-between align-items-start flex-wrap">
+                                <div class="d-flex align-items-center flex-wrap gap-2">
+                                    <span class="question-number">7</span>
+                                    <h2 class="question-title h5 mb-0">What is the difference between map, select, and reduce in Ruby?</h2>
+                                </div>
+                                <div class="d-flex gap-2 mt-2 mt-sm-0">
+                                    <span class="difficulty-badge bg-warning text-white">Intermediate</span>
+                                    <span class="category-badge"><i class="fas fa-th"></i> Enumerables</span>
+                                    <span class="category-badge"><i class="fas fa-eye me-1"></i>32,976</span>
+                                    <i class="fas fa-chevron-down toggle-icon" id="toggle-icon-7" style="transform: rotate(180deg);"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="question-body show" id="answer-7">
+                            <div class="answer-section"><div class="answer-title"><i class="fas fa-comment-dots me-2 text-primary"></i>Answer:</div><div class="answer-content">map, select, and reduce are Enumerable methods for collection transformation. In 2026: 1) map - transforms each element, 2) select - filters elements (true), 3) reduce - accumulates values, 4) map - returns new array, 5) select - returns new array, 6) reduce - returns single value, 7) map - N elements in, N elements out, 8) select - N in, 0..N out, 9) reduce - N in, 1 out. Choose based on transformation needs.</div></div>
+                                                        <div class="example-section">
+                                <div class="example-header"><i class="fas fa-code"></i><span>📝 Code Example</span></div>
+                                <pre class="example-content language-ruby" tabindex="0"><code class="language-ruby">map, select, reduce:
+    
+    1. map (Transform)
+       numbers = [1, 2, 3, 4, 5]
+        
+       # Double each number
+       doubled = numbers.map { |n| n * 2 }
+       # [2, 4, 6, 8, 10]
+        
+       # Shorthand
+       doubled = numbers.map { |n| n * 2 }
+        
+       # With &amp;:symbol
+       strings = ['hello', 'world']
+       upcased = strings.map(&amp;:upcase)
+       # ['HELLO', 'WORLD']
+    
+    2. select (Filter)
+       numbers = [1, 2, 3, 4, 5]
+        
+       # Even numbers
+       evens = numbers.select { |n| n.even? }
+       # [2, 4]
+        
+       # Greater than 2
+       greater = numbers.select { |n| n &gt; 2 }
+       # [3, 4, 5]
+        
+       # reject (opposite of select)
+       odds = numbers.reject { |n| n.even? }
+       # [1, 3, 5]
+    
+    3. reduce (Accumulate)
+       numbers = [1, 2, 3, 4, 5]
+        
+       # Sum
+       sum = numbers.reduce(0) { |acc, n| acc + n }
+       # 15
+        
+       # Product
+       product = numbers.reduce(1) { |acc, n| acc * n }
+       # 120
+        
+       # Shorthand
+       sum = numbers.reduce(:+)
+       # 15
+        
+       # With default
+       sum = numbers.reduce(:+)  # 0 + 1 + 2 + ...
+    
+    4. Comparison Table
+       Method | Input | Output | Purpose
+       ------|-------|--------|---------
+       map | N elements | N elements | Transform
+       select | N elements | 0..N elements | Filter
+       reduce | N elements | 1 element | Accumulate
+       reject | N elements | 0..N elements | Filter opposite
+    
+    5. Chaining Example
+       numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+        
+       result = numbers
+           .select { |n| n.even? }        # [2, 4, 6, 8, 10]
+           .map { |n| n * 2 }             # [4, 8, 12, 16, 20]
+           .reduce(:+)                    # 60
+        
+       puts result  # 60
+    
+    6. When to Use
+       map | select | reduce
+       ----|--------|--------
+       Transform all | Filter by condition | Aggregate
+       Double numbers | Even numbers | Sum
+       Upcase strings | Contains text | Product
+       Extract values | Remove nil | Max/Min
+       Collection | Subset | Single value</code></pre>
+                                <button class="copy-btn" onclick="copyCode(this)"><i class="fas fa-copy"></i> Copy Code</button>
+                            </div>
+                                                                                    <div class="explanation-section"><div class="explanation-title"><i class="fas fa-lightbulb me-2 text-warning"></i>Detailed Explanation:</div><div class="answer-content">map transforms each element (N → N), select filters elements based on condition (N → 0..N), reduce accumulates values into a single result (N → 1). Choose based on transformation needs.</div></div>
+                                                        <div class="mt-3 pt-2 border-top"><small class="text-muted"><i class="fas fa-calendar-alt me-1"></i>Added: 2026-09-01<span class="mx-2">•</span><i class="fas fa-chart-line me-1"></i>32,976 views</small></div>
+                        </div>
+                    </article>
+                                        <article class="question-card" id="question-8">
+                        <div class="question-header" onclick="toggleQuestion(8)">
+                            <div class="d-flex justify-content-between align-items-start flex-wrap">
+                                <div class="d-flex align-items-center flex-wrap gap-2">
+                                    <span class="question-number">8</span>
+                                    <h2 class="question-title h5 mb-0">What is the difference between nil, false, and blank?</h2>
+                                </div>
+                                <div class="d-flex gap-2 mt-2 mt-sm-0">
+                                    <span class="difficulty-badge bg-warning text-white">Intermediate</span>
+                                    <span class="category-badge"><i class="fas fa-th"></i> Ruby Basics</span>
+                                    <span class="category-badge"><i class="fas fa-eye me-1"></i>31,976</span>
+                                    <i class="fas fa-chevron-down toggle-icon" id="toggle-icon-8" style="transform: rotate(180deg);"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="question-body show" id="answer-8">
+                            <div class="answer-section"><div class="answer-title"><i class="fas fa-comment-dots me-2 text-primary"></i>Answer:</div><div class="answer-content">nil, false, and blank are different representations of emptiness in Ruby. In 2026: 1) nil - represents no value (object), 2) false - boolean false, 3) blank? - Rails method for empty, 4) nil - false in conditionals, 5) false - false in conditionals, 6) blank? - checks empty? nil? whitespace, 7) nil - class NilClass, 8) false - FalseClass. Use nil for no value, false for false condition, blank? for emptiness.</div></div>
+                                                        <div class="example-section">
+                                <div class="example-header"><i class="fas fa-code"></i><span>📝 Code Example</span></div>
+                                <pre class="example-content language-ruby" tabindex="0"><code class="language-ruby">nil vs false vs blank:
+    
+    1. nil (No Value)
+       name = nil
+       puts name.nil?  # true
+       puts name.class # NilClass
+        
+       if name
+           puts name
+       else
+           puts 'No name'  # This runs
+       end
+    
+    2. false (Boolean False)
+       is_active = false
+       puts is_active.nil?  # false
+       puts is_active.class # FalseClass
+        
+       if is_active
+           puts 'Active'   # Doesn't run
+       else
+           puts 'Inactive' # This runs
+       end
+    
+    3. blank? (Rails)
+       # Requires ActiveSupport
+       ''.blank?         # true
+       '   '.blank?      # true
+       nil.blank?         # true
+       [].blank?          # true
+       {}.blank?          # true
+       false.blank?       # true
+       'hello'.blank?    # false
+       [1, 2].blank?      # false
+    
+    4. empty? (Ruby)
+       ''.empty?         # true
+       'hello'.empty?    # false
+       [].empty?          # true
+       [1, 2].empty?      # false
+       nil.empty?         # NoMethodError
+       false.empty?       # NoMethodError
+    
+    5. Comparison Table
+       Value | nil? | empty? | blank? (Rails) | Truthiness
+       ------|------|--------|----------------|-----------
+       nil | true | Error | true | false
+       false | false | Error | true | false
+       \"\" | false | true | true | true
+       \"   \" | false | false | true | true
+       [] | false | true | true | true
+       {} | false | true | true | true
+    
+    6. Common Patterns
+       # nil vs false
+       def find_user(id)
+           # Returns nil if not found
+           user = User.find_by(id: id)
+           return user if user
+           nil
+       end
+        
+       # blank? for form validation
+       if params[:name].blank?
+           puts 'Name required'
+       end
+        
+       # nil? for presence
+       if user.nil?
+           puts 'User not found'
+       end
+    
+    7. Best Practices
+       - Use nil for no value
+       - Use false for boolean false
+       - Use blank? for Rails emptiness
+       - Use empty? for Ruby collections
+       - Use nil? to check nil</code></pre>
+                                <button class="copy-btn" onclick="copyCode(this)"><i class="fas fa-copy"></i> Copy Code</button>
+                            </div>
+                                                                                    <div class="explanation-section"><div class="explanation-title"><i class="fas fa-lightbulb me-2 text-warning"></i>Detailed Explanation:</div><div class="answer-content">nil represents no value (NilClass), false is a boolean value (FalseClass). blank? is a Rails method that returns true for nil, false, empty, and whitespace strings. Use nil for no value, false for false condition.</div></div>
+                                                        <div class="mt-3 pt-2 border-top"><small class="text-muted"><i class="fas fa-calendar-alt me-1"></i>Added: 2026-09-01<span class="mx-2">•</span><i class="fas fa-chart-line me-1"></i>31,976 views</small></div>
+                        </div>
+                    </article>
+                                        <article class="question-card" id="question-9">
+                        <div class="question-header" onclick="toggleQuestion(9)">
+                            <div class="d-flex justify-content-between align-items-start flex-wrap">
+                                <div class="d-flex align-items-center flex-wrap gap-2">
+                                    <span class="question-number">9</span>
+                                    <h2 class="question-title h5 mb-0">What is the difference between attr_accessor, attr_reader, and attr_writer?</h2>
+                                </div>
+                                <div class="d-flex gap-2 mt-2 mt-sm-0">
+                                    <span class="difficulty-badge bg-warning text-white">Intermediate</span>
+                                    <span class="category-badge"><i class="fas fa-th"></i> OOP</span>
+                                    <span class="category-badge"><i class="fas fa-eye me-1"></i>30,976</span>
+                                    <i class="fas fa-chevron-down toggle-icon" id="toggle-icon-9" style="transform: rotate(180deg);"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="question-body show" id="answer-9">
+                            <div class="answer-section"><div class="answer-title"><i class="fas fa-comment-dots me-2 text-primary"></i>Answer:</div><div class="answer-content">attr_accessor, attr_reader, and attr_writer are Ruby macros for creating getter/setter methods. In 2026: 1) attr_reader - creates getter method (read), 2) attr_writer - creates setter method (write), 3) attr_accessor - creates both (read/write), 4) attr_reader - @variable readable, 5) attr_writer - @variable writable, 6) attr_accessor - @variable both, 7) All are class-level macros. Use based on desired access level.</div></div>
+                                                        <div class="example-section">
+                                <div class="example-header"><i class="fas fa-code"></i><span>📝 Code Example</span></div>
+                                <pre class="example-content language-ruby" tabindex="0"><code class="language-ruby">attr_accessor vs attr_reader vs attr_writer:
+    
+    1. attr_reader (Read Only)
+       class Person
+           attr_reader :name
+           
+           def initialize(name)
+               @name = name
+           end
+       end
+        
+       person = Person.new('John')
+       puts person.name   # John (read)
+       # person.name = 'Bob' # Error (can't write)
+    
+    2. attr_writer (Write Only)
+       class Person
+           attr_writer :name
+           
+           def initialize(name)
+               @name = name
+           end
+       end
+        
+       person = Person.new('John')
+       # puts person.name  # Error (can't read)
+       person.name = 'Bob' # Write OK
+    
+    3. attr_accessor (Read/Write)
+       class Person
+           attr_accessor :name
+           
+           def initialize(name)
+               @name = name
+           end
+       end
+        
+       person = Person.new('John')
+       puts person.name   # John (read)
+       person.name = 'Bob' # Write OK
+       puts person.name   # Bob
+    
+    4. Manual Getters/Setters
+       class Person
+           def initialize(name)
+               @name = name
+           end
+           
+           # Manual getter
+           def name
+               @name
+           end
+           
+           # Manual setter
+           def name=(value)
+               @name = value
+           end
+       end
+    
+    5. Comparison Table
+       Method | Getter | Setter | Use Case
+       -------|--------|--------|---------
+       attr_reader | Yes | No | Read only
+       attr_writer | No | Yes | Write only
+       attr_accessor | Yes | Yes | Read/Write
+    
+    6. Multiple Attributes
+       class User
+           attr_accessor :name, :email
+           attr_reader :id
+           
+           def initialize(id, name, email)
+               @id = id
+               @name = name
+               @email = email
+           end
+       end
+    
+    7. Custom Getters/Setters
+       class Temperature
+           attr_reader :celsius
+           
+           def celsius=(value)
+               @celsius = value
+               @fahrenheit = value * 1.8 + 32
+           end
+           
+           def fahrenheit
+               @fahrenheit ||= celsius * 1.8 + 32
+           end
+       end
+    
+    8. Best Practices
+       - Use attr_reader for read-only
+       - Use attr_writer for write-only
+       - Use attr_accessor for read/write
+       - Use custom methods for validation
+       - Keep interface minimal</code></pre>
+                                <button class="copy-btn" onclick="copyCode(this)"><i class="fas fa-copy"></i> Copy Code</button>
+                            </div>
+                                                                                    <div class="explanation-section"><div class="explanation-title"><i class="fas fa-lightbulb me-2 text-warning"></i>Detailed Explanation:</div><div class="answer-content">attr_reader creates a getter (read), attr_writer creates a setter (write), attr_accessor creates both (read/write). Use based on desired access level for instance variables.</div></div>
+                                                        <div class="mt-3 pt-2 border-top"><small class="text-muted"><i class="fas fa-calendar-alt me-1"></i>Added: 2026-09-01<span class="mx-2">•</span><i class="fas fa-chart-line me-1"></i>30,976 views</small></div>
+                        </div>
+                    </article>
+                                        <article class="question-card" id="question-10">
+                        <div class="question-header" onclick="toggleQuestion(10)">
+                            <div class="d-flex justify-content-between align-items-start flex-wrap">
+                                <div class="d-flex align-items-center flex-wrap gap-2">
+                                    <span class="question-number">10</span>
+                                    <h2 class="question-title h5 mb-0">What is the difference between Ruby and Python for web development?</h2>
+                                </div>
+                                <div class="d-flex gap-2 mt-2 mt-sm-0">
+                                    <span class="difficulty-badge bg-danger text-white">Advanced</span>
+                                    <span class="category-badge"><i class="fas fa-th"></i> Comparison</span>
+                                    <span class="category-badge"><i class="fas fa-eye me-1"></i>29,976</span>
+                                    <i class="fas fa-chevron-down toggle-icon" id="toggle-icon-10" style="transform: rotate(180deg);"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="question-body show" id="answer-10">
+                            <div class="answer-section"><div class="answer-title"><i class="fas fa-comment-dots me-2 text-primary"></i>Answer:</div><div class="answer-content">Ruby and Python are both popular for web development with different approaches. In 2026: 1) Ruby - Rails framework, convention over configuration, 2) Python - Django/Flask, flexibility, 3) Ruby - elegant syntax, 4) Python - readable syntax, 5) Ruby - developer happiness, 6) Python - practicality, 7) Ruby - strong community, 8) Python - larger ecosystem, 9) Ruby - DSL friendly, 10) Python - scientific computing. Choose Ruby for Rails, Python for flexibility.</div></div>
+                                                        <div class="example-section">
+                                <div class="example-header"><i class="fas fa-code"></i><span>📝 Code Example</span></div>
+                                <pre class="example-content language-ruby" tabindex="0"><code class="language-ruby">Ruby vs Python:
+    
+    1. Ruby Example (Rails)
+       # app/controllers/users_controller.rb
+       class UsersController &lt; ApplicationController
+           def index
+               @users = User.all
+           end
+           
+           def create
+               @user = User.new(user_params)
+               if @user.save
+                   redirect_to @user
+               else
+                   render :new
+               end
+           end
+       end
+    
+    2. Python Example (Django)
+       # views.py
+       from django.shortcuts import render, redirect
+       from .models import User
+        
+       def users_list(request):
+           users = User.objects.all()
+           return render(request, 'users/index.html', {'users': users})
+        
+       def create_user(request):
+           if request.method == 'POST':
+               user = User.objects.create(...)
+               return redirect('user_detail', id=user.id)
+           return render(request, 'users/new.html')
+    
+    3. Comparison Table
+       Feature | Ruby | Python
+       --------|------|-------
+       Framework | Rails | Django/Flask
+       Philosophy | Convention | Flexibility
+       Syntax | Elegant | Readable
+       Community | Strong | Very large
+       Web Focus | Yes | Yes
+       Data Science | Limited | Excellent
+       Performance | Moderate | Moderate
+    
+    4. Web Development Comparison
+       Ruby | Python
+       ----|-------
+       Rails (full stack) | Django (full stack)
+       Sinatra (minimal) | Flask (minimal)
+       RSpec (testing) | PyTest (testing)
+       Gems (packages) | Pip (packages)
+       ERB/Slim (templates) | Jinja2 (templates)
+    
+    5. When to Choose
+       Ruby | Python
+       ----|--------
+       Rails development | Django development
+       API development | Data science
+       MVP/startups | Enterprise
+       Elegant code | Practical code
+       Full-stack | Flexible stack
+       Convention-driven | Configuration-driven</code></pre>
+                                <button class="copy-btn" onclick="copyCode(this)"><i class="fas fa-copy"></i> Copy Code</button>
+                            </div>
+                                                                                    <div class="explanation-section"><div class="explanation-title"><i class="fas fa-lightbulb me-2 text-warning"></i>Detailed Explanation:</div><div class="answer-content">Ruby with Rails emphasizes convention over configuration and developer happiness. Python with Django/Flask offers more flexibility and a larger ecosystem. Choose Ruby for Rails, Python for flexibility and data science.</div></div>
+                                                        <div class="mt-3 pt-2 border-top"><small class="text-muted"><i class="fas fa-calendar-alt me-1"></i>Added: 2026-09-01<span class="mx-2">•</span><i class="fas fa-chart-line me-1"></i>29,976 views</small></div>
+                        </div>
+                    </article>
+                                                </div>
+
+
+                                                <div id="questionsContainer">
+                                                        <article class="question-card" id="question-11">
+                        <div class="question-header" onclick="toggleQuestion(11)">
+                            <div class="d-flex justify-content-between align-items-start flex-wrap">
+                                <div class="d-flex align-items-center flex-wrap gap-2">
+                                    <span class="question-number">11</span>
+                                    <h2 class="question-title h5 mb-0">What is the difference between class variables (@@) and instance variables (@) in Ruby?</h2>
+                                </div>
+                                <div class="d-flex gap-2 mt-2 mt-sm-0">
+                                    <span class="difficulty-badge bg-warning text-white">Intermediate</span>
+                                    <span class="category-badge"><i class="fas fa-th"></i> OOP</span>
+                                    <span class="category-badge"><i class="fas fa-eye me-1"></i>28,976</span>
+                                    <i class="fas fa-chevron-down toggle-icon" id="toggle-icon-11" style="transform: rotate(180deg);"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="question-body show" id="answer-11">
+                            <div class="answer-section"><div class="answer-title"><i class="fas fa-comment-dots me-2 text-primary"></i>Answer:</div><div class="answer-content">Class variables and instance variables have different scopes in Ruby. In 2026: 1) Class variable (@@) - shared across all instances, 2) Instance variable (@) - specific to each instance, 3) Class variable - accessible in class methods, 4) Instance variable - accessible in instance methods, 5) Class variable - shared with subclasses, 6) Instance variable - not shared, 7) Class variable - can cause issues, 8) Instance variable - safer. Use instance variables by default.</div></div>
+                                                        <div class="example-section">
+                                <div class="example-header"><i class="fas fa-code"></i><span>📝 Code Example</span></div>
+                                <pre class="example-content language-ruby" tabindex="0"><code class="language-ruby">Class Variables vs Instance Variables:
+    
+    1. Class Variables (@@)
+       class Person
+           @@count = 0
+           
+           def initialize
+               @@count += 1
+           end
+           
+           def self.count
+               @@count
+           end
+       end
+        
+       p1 = Person.new
+       p2 = Person.new
+       puts Person.count  # 2
+        
+       # Shared across all instances
+       p3 = Person.new
+       puts Person.count  # 3
+    
+    2. Instance Variables (@)
+       class Person
+           def initialize(name)
+               @name = name
+           end
+           
+           def name
+               @name
+           end
+           
+           def name=(value)
+               @name = value
+           end
+       end
+        
+       p1 = Person.new('John')
+       p2 = Person.new('Jane')
+       puts p1.name  # John
+       puts p2.name  # Jane (different values)
+    
+    3. Class Variable Issues
+       class Animal
+           @@count = 0
+           
+           def initialize
+               @@count += 1
+           end
+           
+           def self.count
+               @@count
+           end
+       end
+        
+       class Dog &lt; Animal
+           def initialize
+               super
+           end
+       end
+        
+       # All share the same @@count
+       Animal.new
+       Dog.new
+       puts Animal.count  # 2
+       puts Dog.count     # 2 (shared!)
+    
+    4. Class Instance Variables
+       class Person
+           @count = 0  # Class instance variable
+           
+           def self.increment_count
+               @count += 1
+           end
+           
+           def self.count
+               @count
+           end
+       end
+        
+       # Safer alternative to class variables
+       puts Person.count  # 0
+       Person.increment_count
+       puts Person.count  # 1
+    
+    5. Comparison Table
+       Feature | @@ (Class Var) | @ (Instance Var)
+       --------|----------------|-----------------
+       Scope | All instances | One instance
+       Sharing | Yes | No
+       Inheritance | Shared | Not shared
+       Thread Safety | Issues | Safer
+       Use Case | Shared state | Instance state
+       Recommended | No (avoid) | Yes
+    
+    6. When to Use
+       Class Variable (@@) | Instance Variable (@)
+       -------------------|--------------------
+       Avoid (causes issues) | Always preferred
+       Legacy code | State per instance
+       Shared configuration | Instance data
+       Counter across instances | User-specific data
+    
+    7. Best Practices
+       - Avoid class variables (@@)
+       - Use instance variables (@)
+       - Use class instance variables
+       - Use constants for shared values
+       - Use attr_accessor for access</code></pre>
+                                <button class="copy-btn" onclick="copyCode(this)"><i class="fas fa-copy"></i> Copy Code</button>
+                            </div>
+                                                                                    <div class="explanation-section"><div class="explanation-title"><i class="fas fa-lightbulb me-2 text-warning"></i>Detailed Explanation:</div><div class="answer-content">Class variables (@@) are shared across all instances and subclasses (causing issues). Instance variables (@) are specific to each instance. Use instance variables by default, avoid class variables.</div></div>
+                                                        <div class="mt-3 pt-2 border-top"><small class="text-muted"><i class="fas fa-calendar-alt me-1"></i>Added: 2026-09-01<span class="mx-2">•</span><i class="fas fa-chart-line me-1"></i>28,976 views</small></div>
+                        </div>
+                    </article>
+                                        <article class="question-card" id="question-12">
+                        <div class="question-header" onclick="toggleQuestion(12)">
+                            <div class="d-flex justify-content-between align-items-start flex-wrap">
+                                <div class="d-flex align-items-center flex-wrap gap-2">
+                                    <span class="question-number">12</span>
+                                    <h2 class="question-title h5 mb-0">What is the difference between Ruby on Rails and Sinatra?</h2>
+                                </div>
+                                <div class="d-flex gap-2 mt-2 mt-sm-0">
+                                    <span class="difficulty-badge bg-danger text-white">Advanced</span>
+                                    <span class="category-badge"><i class="fas fa-th"></i> Rails</span>
+                                    <span class="category-badge"><i class="fas fa-eye me-1"></i>27,976</span>
+                                    <i class="fas fa-chevron-down toggle-icon" id="toggle-icon-12" style="transform: rotate(180deg);"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="question-body show" id="answer-12">
+                            <div class="answer-section"><div class="answer-title"><i class="fas fa-comment-dots me-2 text-primary"></i>Answer:</div><div class="answer-content">Rails and Sinatra are both Ruby web frameworks with different approaches. In 2026: 1) Rails - full-stack, convention over configuration, 2) Sinatra - minimal, DSL-based, 3) Rails - MVC architecture, 4) Sinatra - Rack-based, 5) Rails - batteries included, 6) Sinatra - minimal, 7) Rails - larger learning curve, 8) Sinatra - easier learning curve, 9) Rails - for large apps, 10) Sinatra - for small apps. Choose Rails for full-featured apps, Sinatra for lightweight APIs.</div></div>
+                                                        <div class="example-section">
+                                <div class="example-header"><i class="fas fa-code"></i><span>📝 Code Example</span></div>
+                                <pre class="example-content language-ruby" tabindex="0"><code class="language-ruby">Rails vs Sinatra:
+    
+    1. Sinatra (Minimal)
+       require 'sinatra'
+        
+       get '/' do
+           'Hello World!'
+       end
+        
+       get '/users/:id' do
+           user = User.find(params[:id])
+           user.to_json
+       end
+        
+       post '/users' do
+           user = User.create(params[:user])
+           user.to_json
+       end
+    
+    2. Rails (Full-Stack)
+       # app/controllers/users_controller.rb
+       class UsersController &lt; ApplicationController
+           def index
+               @users = User.all
+           end
+           
+           def show
+               @user = User.find(params[:id])
+           end
+           
+           def create
+               @user = User.new(user_params)
+               if @user.save
+                   redirect_to @user
+               else
+                   render :new
+               end
+           end
+       end
+    
+    3. Comparison Table
+       Feature | Rails | Sinatra
+       --------|-------|--------
+       Philosophy | Full-stack | Minimal
+       Architecture | MVC | Rack-based
+       Learning Curve | Steep | Easy
+       Code Size | Large | Small
+       Features | Batteries included | Minimal
+       Use Case | Large apps | Microservices
+       Database | Active Record | Manual
+       Templates | ERB/Slim | ERB
+    
+    4. When to Choose
+       Rails | Sinatra
+       ------|--------
+       Full web applications | Microservices
+       Database-driven apps | Simple APIs
+       Admin panels | Prototypes
+       E-commerce | Single-page apps
+       Enterprise | Lightweight services
+       REST APIs | Rack middleware</code></pre>
+                                <button class="copy-btn" onclick="copyCode(this)"><i class="fas fa-copy"></i> Copy Code</button>
+                            </div>
+                                                                                    <div class="explanation-section"><div class="explanation-title"><i class="fas fa-lightbulb me-2 text-warning"></i>Detailed Explanation:</div><div class="answer-content">Rails is a full-stack framework with MVC architecture and batteries included (convention over configuration). Sinatra is a minimal DSL-based framework. Choose Rails for full-featured apps, Sinatra for lightweight APIs.</div></div>
+                                                        <div class="mt-3 pt-2 border-top"><small class="text-muted"><i class="fas fa-calendar-alt me-1"></i>Added: 2026-09-01<span class="mx-2">•</span><i class="fas fa-chart-line me-1"></i>27,976 views</small></div>
+                        </div>
+                    </article>
+                                        <article class="question-card" id="question-13">
+                        <div class="question-header" onclick="toggleQuestion(13)">
+                            <div class="d-flex justify-content-between align-items-start flex-wrap">
+                                <div class="d-flex align-items-center flex-wrap gap-2">
+                                    <span class="question-number">13</span>
+                                    <h2 class="question-title h5 mb-0">What is the difference between nil?, empty?, and blank? in Ruby/Rails?</h2>
+                                </div>
+                                <div class="d-flex gap-2 mt-2 mt-sm-0">
+                                    <span class="difficulty-badge bg-warning text-white">Intermediate</span>
+                                    <span class="category-badge"><i class="fas fa-th"></i> Ruby Basics</span>
+                                    <span class="category-badge"><i class="fas fa-eye me-1"></i>26,976</span>
+                                    <i class="fas fa-chevron-down toggle-icon" id="toggle-icon-13" style="transform: rotate(180deg);"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="question-body show" id="answer-13">
+                            <div class="answer-section"><div class="answer-title"><i class="fas fa-comment-dots me-2 text-primary"></i>Answer:</div><div class="answer-content">nil?, empty?, and blank? are different methods for checking emptiness. In 2026: 1) nil? - checks if nil, 2) empty? - checks if empty collection, 3) blank? - Rails method, 4) nil? - returns true/false, 5) empty? - returns true/false, 6) blank? - checks nil, empty, whitespace, 7) nil? - available everywhere, 8) empty? - available on collections, 9) blank? - Rails only. Use nil? for nil check, empty? for collections, blank? for Rails.</div></div>
+                                                        <div class="example-section">
+                                <div class="example-header"><i class="fas fa-code"></i><span>📝 Code Example</span></div>
+                                <pre class="example-content language-ruby" tabindex="0"><code class="language-ruby">nil? vs empty? vs blank?:
+    
+    1. nil? (Nil Check)
+       name = nil
+       puts name.nil?  # true
+        
+       name = ''
+       puts name.nil?  # false
+        
+       name = 'hello'
+       puts name.nil?  # false
+    
+    2. empty? (Collection Check)
+       ''.empty?         # true
+       'hello'.empty?    # false
+       [].empty?          # true
+       [1, 2].empty?      # false
+       {}.empty?          # true
+       {:name =&gt; 'John'}.empty?  # false
+        
+       # nil doesn't have empty?
+       # nil.empty?  # NoMethodError
+    
+    3. blank? (Rails Emptiness)
+       # Requires ActiveSupport
+       nil.blank?         # true
+       false.blank?       # true
+       ''.blank?         # true
+       '   '.blank?      # true
+       [].blank?          # true
+       {}.blank?          # true
+       'hello'.blank?    # false
+       [1, 2].blank?      # false
+    
+    4. Comparison Table
+       Value | nil? | empty? | blank? (Rails)
+       ------|------|--------|----------------
+       nil | true | Error | true
+       false | false | Error | true
+       \"\" | false | true | true
+       \"   \" | false | false | true
+       [] | false | true | true
+       {} | false | true | true
+       'hello' | false | false | false
+       [1,2] | false | false | false
+    
+    5. Present? (Rails - opposite of blank?)
+       ''.present?       # false
+       'hello'.present?  # true
+       nil.present?       # false
+       [1, 2].present?    # true
+    
+    6. When to Use
+       nil? | empty? | blank?
+       ----|--------|--------
+       Check nil | Check empty collection | Rails emptiness
+       NilClass | String, Array, Hash | Any object
+       Ruby only | Ruby only | Rails only
+       nil check | Empty check | Comprehensive check
+    
+    7. Best Practices
+       - Use nil? for nil check
+       - Use empty? for collections
+       - Use blank? in Rails
+       - Use present? in Rails
+       - Be consistent</code></pre>
+                                <button class="copy-btn" onclick="copyCode(this)"><i class="fas fa-copy"></i> Copy Code</button>
+                            </div>
+                                                                                    <div class="explanation-section"><div class="explanation-title"><i class="fas fa-lightbulb me-2 text-warning"></i>Detailed Explanation:</div><div class="answer-content">nil? checks if value is nil. empty? checks if a collection (string, array, hash) is empty. blank? is a Rails method that checks nil, false, empty, or whitespace. Use nil? for nil, empty? for collections, blank? in Rails.</div></div>
+                                                        <div class="mt-3 pt-2 border-top"><small class="text-muted"><i class="fas fa-calendar-alt me-1"></i>Added: 2026-09-01<span class="mx-2">•</span><i class="fas fa-chart-line me-1"></i>26,976 views</small></div>
+                        </div>
+                    </article>
+                                        <article class="question-card" id="question-14">
+                        <div class="question-header" onclick="toggleQuestion(14)">
+                            <div class="d-flex justify-content-between align-items-start flex-wrap">
+                                <div class="d-flex align-items-center flex-wrap gap-2">
+                                    <span class="question-number">14</span>
+                                    <h2 class="question-title h5 mb-0">What is the difference between Ruby and JavaScript?</h2>
+                                </div>
+                                <div class="d-flex gap-2 mt-2 mt-sm-0">
+                                    <span class="difficulty-badge bg-danger text-white">Advanced</span>
+                                    <span class="category-badge"><i class="fas fa-th"></i> Comparison</span>
+                                    <span class="category-badge"><i class="fas fa-eye me-1"></i>25,976</span>
+                                    <i class="fas fa-chevron-down toggle-icon" id="toggle-icon-14" style="transform: rotate(180deg);"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="question-body show" id="answer-14">
+                            <div class="answer-section"><div class="answer-title"><i class="fas fa-comment-dots me-2 text-primary"></i>Answer:</div><div class="answer-content">Ruby and JavaScript are both popular languages with different use cases. In 2026: 1) Ruby - server-side, Rails, 2) JavaScript - client-side, Node.js, 3) Ruby - object-oriented, 4) JavaScript - prototype-based, 5) Ruby - synchronous (default), 6) JavaScript - asynchronous, 7) Ruby - elegant syntax, 8) JavaScript - C-like syntax, 9) Ruby - Rails framework, 10) JavaScript - React/Vue. Choose Ruby for backend, JavaScript for frontend.</div></div>
+                                                        <div class="example-section">
+                                <div class="example-header"><i class="fas fa-code"></i><span>📝 Code Example</span></div>
+                                <pre class="example-content language-ruby" tabindex="0"><code class="language-ruby">Ruby vs JavaScript:
+    
+    1. Ruby Example
+       class User
+           attr_accessor :name, :age
+           
+           def initialize(name, age)
+               @name = name
+               @age = age
+           end
+           
+           def greet
+               \"Hello, I'm #{@name}\"
+           end
+       end
+        
+       user = User.new('John', 30)
+       puts user.greet
+    
+    2. JavaScript Example
+       class User {
+           constructor(name, age) {
+               this.name = name;
+               this.age = age;
+           }
+           
+           greet() {
+               return `Hello, I'm ${this.name}`;
+           }
+       }
+        
+       const user = new User('John', 30);
+       console.log(user.greet());
+    
+    3. Comparison Table
+       Feature | Ruby | JavaScript
+       --------|------|-----------
+       Paradigm | OOP | Prototype
+       Syntax | Elegant | C-like
+       Server | Yes | Yes (Node.js)
+       Client | No | Yes
+       Concurrency | Threads | Event loop
+       Framework | Rails | React/Vue
+       Typing | Dynamic | Dynamic
+       Learning | Moderate | Moderate
+    
+    4. When to Choose
+       Ruby | JavaScript
+       ----|-----------
+       Backend APIs | Frontend
+       Rails development | Web development
+       Server-side | Client-side
+       Elegant code | Universal
+       Full-stack | Interactive UIs</code></pre>
+                                <button class="copy-btn" onclick="copyCode(this)"><i class="fas fa-copy"></i> Copy Code</button>
+                            </div>
+                                                                                    <div class="explanation-section"><div class="explanation-title"><i class="fas fa-lightbulb me-2 text-warning"></i>Detailed Explanation:</div><div class="answer-content">Ruby is object-oriented with elegant syntax, primarily for server-side development (Rails). JavaScript is prototype-based with event-driven concurrency, primarily for client-side (browser) and server-side (Node.js).</div></div>
+                                                        <div class="mt-3 pt-2 border-top"><small class="text-muted"><i class="fas fa-calendar-alt me-1"></i>Added: 2026-09-01<span class="mx-2">•</span><i class="fas fa-chart-line me-1"></i>25,976 views</small></div>
+                        </div>
+                    </article>
+                                        <article class="question-card" id="question-15">
+                        <div class="question-header" onclick="toggleQuestion(15)">
+                            <div class="d-flex justify-content-between align-items-start flex-wrap">
+                                <div class="d-flex align-items-center flex-wrap gap-2">
+                                    <span class="question-number">15</span>
+                                    <h2 class="question-title h5 mb-0">What is the difference between method_missing and respond_to_missing?</h2>
+                                </div>
+                                <div class="d-flex gap-2 mt-2 mt-sm-0">
+                                    <span class="difficulty-badge bg-danger text-white">Advanced</span>
+                                    <span class="category-badge"><i class="fas fa-th"></i> Metaprogramming</span>
+                                    <span class="category-badge"><i class="fas fa-eye me-1"></i>24,976</span>
+                                    <i class="fas fa-chevron-down toggle-icon" id="toggle-icon-15" style="transform: rotate(180deg);"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="question-body show" id="answer-15">
+                            <div class="answer-section"><div class="answer-title"><i class="fas fa-comment-dots me-2 text-primary"></i>Answer:</div><div class="answer-content">method_missing and respond_to_missing are used together for dynamic method handling. In 2026: 1) method_missing - handles undefined methods, 2) respond_to_missing - responds to respond_to?, 3) method_missing - called when method not found, 4) respond_to_missing - ensures respond_to? works, 5) method_missing - dynamic method dispatch, 6) respond_to_missing - introspection, 7) Always override both together, 8) Use with super for proper behavior. Both are essential for metaprogramming.</div></div>
+                                                        <div class="example-section">
+                                <div class="example-header"><i class="fas fa-code"></i><span>📝 Code Example</span></div>
+                                <pre class="example-content language-ruby" tabindex="0"><code class="language-ruby">method_missing vs respond_to_missing:
+    
+    1. method_missing Only (Bad)
+       class DynamicMethods
+           def method_missing(name, *args, &amp;block)
+               puts \"Called: #{name}\"
+           end
+       end
+        
+       obj = DynamicMethods.new
+       obj.some_method  # Works
+       puts obj.respond_to?(:some_method)  # false (bad!)
+    
+    2. Both Together (Good)
+       class DynamicMethods
+           def method_missing(name, *args, &amp;block)
+               if name.to_s.start_with?('get_')
+                   property = name.to_s[4..-1]
+                   puts \"Getting #{property}\"
+               else
+                   super
+               end
+           end
+           
+           def respond_to_missing?(name, include_private = false)
+               name.to_s.start_with?('get_') || super
+           end
+       end
+        
+       obj = DynamicMethods.new
+       obj.get_name        # Works
+       puts obj.respond_to?(:get_name)  # true (good!)
+       puts obj.respond_to?(:other)      # false
+    
+    3. Real-world Example
+       class User
+           def method_missing(name, *args, &amp;block)
+               if name.to_s.start_with?('find_by_')
+                   field = name.to_s[8..-1]
+                   puts \"Finding by #{field}: #{args.first}\"
+               else
+                   super
+               end
+           end
+           
+           def respond_to_missing?(name, include_private = false)
+               name.to_s.start_with?('find_by_') || super
+           end
+       end
+        
+       user = User.new
+       user.find_by_name('John')    # Works
+       puts user.respond_to?(:find_by_name)  # true
+    
+    4. Comparison Table
+       Feature | method_missing | respond_to_missing
+       --------|----------------|-------------------
+       Purpose | Handle undefined methods | Respond to respond_to?
+       Called | When method not found | When respond_to? called
+       Required | Yes | Yes (with method_missing)
+       Super | Call super for fallback | Call super for fallback
+       Metaprogramming | Essential | Essential
+    
+    5. Common Patterns
+       # ActiveRecord dynamic finders
+       class Model
+           def method_missing(name, *args, &amp;block)
+               if name.to_s.match(/^find_by_(.+)$/)
+                   field = $1
+                   # Dynamic finder logic
+               else
+                   super
+               end
+           end
+           
+           def respond_to_missing?(name, include_private = false)
+               name.to_s.match(/^find_by_(.+)$/) || super
+           end
+       end
+    
+    6. Best Practices
+       - Always override both methods
+       - Call super for unknown methods
+       - Use respond_to_missing? for introspection
+       - Document dynamic methods
+       - Use sparingly for performance</code></pre>
+                                <button class="copy-btn" onclick="copyCode(this)"><i class="fas fa-copy"></i> Copy Code</button>
+                            </div>
+                                                                                    <div class="explanation-section"><div class="explanation-title"><i class="fas fa-lightbulb me-2 text-warning"></i>Detailed Explanation:</div><div class="answer-content">method_missing handles undefined methods dynamically. respond_to_missing ensures respond_to? works correctly. Always override both together for proper metaprogramming.</div></div>
+                                                        <div class="mt-3 pt-2 border-top"><small class="text-muted"><i class="fas fa-calendar-alt me-1"></i>Added: 2026-09-01<span class="mx-2">•</span><i class="fas fa-chart-line me-1"></i>24,976 views</small></div>
+                        </div>
+                    </article>
+                                        <article class="question-card" id="question-16">
+                        <div class="question-header" onclick="toggleQuestion(16)">
+                            <div class="d-flex justify-content-between align-items-start flex-wrap">
+                                <div class="d-flex align-items-center flex-wrap gap-2">
+                                    <span class="question-number">16</span>
+                                    <h2 class="question-title h5 mb-0">What is the difference between Ruby and PHP for web development?</h2>
+                                </div>
+                                <div class="d-flex gap-2 mt-2 mt-sm-0">
+                                    <span class="difficulty-badge bg-danger text-white">Advanced</span>
+                                    <span class="category-badge"><i class="fas fa-th"></i> Comparison</span>
+                                    <span class="category-badge"><i class="fas fa-eye me-1"></i>23,976</span>
+                                    <i class="fas fa-chevron-down toggle-icon" id="toggle-icon-16" style="transform: rotate(180deg);"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="question-body show" id="answer-16">
+                            <div class="answer-section"><div class="answer-title"><i class="fas fa-comment-dots me-2 text-primary"></i>Answer:</div><div class="answer-content">Ruby and PHP are both popular for web development with different philosophies. In 2026: 1) Ruby - elegant, developer-friendly, 2) PHP - practical, widely used, 3) Ruby - Rails framework, 4) PHP - Laravel/WordPress, 5) Ruby - cleaner syntax, 6) PHP - embedded in HTML, 7) Ruby - convention over configuration, 8) PHP - flexible, 9) Ruby - smaller community, 10) PHP - larger community. Choose Ruby for Rails, PHP for WordPress/Laravel.</div></div>
+                                                        <div class="example-section">
+                                <div class="example-header"><i class="fas fa-code"></i><span>📝 Code Example</span></div>
+                                <pre class="example-content language-ruby" tabindex="0"><code class="language-ruby">Ruby vs PHP:
+    
+    1. Ruby Example (Rails)
+       class UsersController &lt; ApplicationController
+           def index
+               @users = User.all
+               render json: @users
+           end
+           
+           def create
+               @user = User.new(user_params)
+               if @user.save
+                   render json: @user
+               else
+                   render json: @user.errors
+               end
+           end
+       end
+    
+    2. PHP Example (Laravel)
+       class UserController extends Controller
+       {
+           public function index()
+           {
+               $users = User::all();
+               return response()-&gt;json($users);
+           }
+           
+           public function store(Request $request)
+           {
+               $user = User::create($request-&gt;all());
+               return response()-&gt;json($user);
+           }
+       }
+    
+    3. Comparison Table
+       Feature | Ruby | PHP
+       --------|------|-------
+       Framework | Rails | Laravel
+       Philosophy | Convention | Practical
+       Syntax | Elegant | C-like
+       Community | Smaller | Very large
+       CMS Support | Limited | WordPress
+       Hosting | Good | Excellent
+       Learning | Moderate | Easy
+    
+    4. When to Choose
+       Ruby | PHP
+       ----|--------
+       Rails development | Laravel
+       Elegant code | WordPress
+       Full-stack | CMS
+       Startups | Enterprises
+       API development | Web applications</code></pre>
+                                <button class="copy-btn" onclick="copyCode(this)"><i class="fas fa-copy"></i> Copy Code</button>
+                            </div>
+                                                                                    <div class="explanation-section"><div class="explanation-title"><i class="fas fa-lightbulb me-2 text-warning"></i>Detailed Explanation:</div><div class="answer-content">Ruby with Rails emphasizes convention over configuration and developer happiness. PHP with Laravel/WordPress offers practicality and widespread use. Choose Ruby for Rails, PHP for WordPress/Laravel.</div></div>
+                                                        <div class="mt-3 pt-2 border-top"><small class="text-muted"><i class="fas fa-calendar-alt me-1"></i>Added: 2026-09-01<span class="mx-2">•</span><i class="fas fa-chart-line me-1"></i>23,976 views</small></div>
+                        </div>
+                    </article>
+                                        <article class="question-card" id="question-17">
+                        <div class="question-header" onclick="toggleQuestion(17)">
+                            <div class="d-flex justify-content-between align-items-start flex-wrap">
+                                <div class="d-flex align-items-center flex-wrap gap-2">
+                                    <span class="question-number">17</span>
+                                    <h2 class="question-title h5 mb-0">What is the difference between ActiveRecord and Mongoid?</h2>
+                                </div>
+                                <div class="d-flex gap-2 mt-2 mt-sm-0">
+                                    <span class="difficulty-badge bg-danger text-white">Advanced</span>
+                                    <span class="category-badge"><i class="fas fa-th"></i> Rails</span>
+                                    <span class="category-badge"><i class="fas fa-eye me-1"></i>22,976</span>
+                                    <i class="fas fa-chevron-down toggle-icon" id="toggle-icon-17" style="transform: rotate(180deg);"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="question-body show" id="answer-17">
+                            <div class="answer-section"><div class="answer-title"><i class="fas fa-comment-dots me-2 text-primary"></i>Answer:</div><div class="answer-content">ActiveRecord and Mongoid are ORM/ODM libraries for Ruby. In 2026: 1) ActiveRecord - SQL databases (Rails default), 2) Mongoid - MongoDB (NoSQL), 3) ActiveRecord - schema-based, 4) Mongoid - schema-less, 5) ActiveRecord - migrations, 6) Mongoid - no migrations, 7) ActiveRecord - associations, 8) Mongoid - embedded documents, 9) ActiveRecord - ACID transactions, 10) Mongoid - eventual consistency. Choose ActiveRecord for SQL, Mongoid for MongoDB.</div></div>
+                                                        <div class="example-section">
+                                <div class="example-header"><i class="fas fa-code"></i><span>📝 Code Example</span></div>
+                                <pre class="example-content language-ruby" tabindex="0"><code class="language-ruby">ActiveRecord vs Mongoid:
+    
+    1. ActiveRecord (SQL)
+       class User &lt; ApplicationRecord
+           has_many :posts
+           validates :name, presence: true
+           validates :email, uniqueness: true
+       end
+        
+       # Query
+       users = User.where(active: true)
+                    .order(:name)
+                    .limit(10)
+        
+       # Create
+       user = User.create(name: 'John', email: 'john@example.com')
+    
+    2. Mongoid (MongoDB)
+       class User
+           include Mongoid::Document
+        
+           field :name, type: String
+           field :email, type: String
+           field :active, type: Boolean
+           
+           has_many :posts
+           
+           validates :name, presence: true
+           validates :email, uniqueness: true
+       end
+        
+       # Query
+       users = User.where(active: true)
+                   .order_by(name: :asc)
+                   .limit(10)
+        
+       # Create
+       user = User.create(name: 'John', email: 'john@example.com')
+    
+    3. Comparison Table
+       Feature | ActiveRecord | Mongoid
+       --------|--------------|---------
+       Database | SQL | MongoDB
+       Schema | Fixed | Flexible
+       Migrations | Yes | No
+       Associations | Yes | Yes
+       Transactions | ACID | Document-level
+       Query Language | SQL | MongoDB
+       Validation | Yes | Yes
+       Callbacks | Yes | Yes
+    
+    4. When to Choose
+       ActiveRecord | Mongoid
+       ------------|---------
+       SQL databases | MongoDB
+       Relations | Embedding
+       Transactions | Eventual consistency
+       Data integrity | Flexibility
+       Legacy SQL | Non-relational data
+       ACID requirements | Scaling needs</code></pre>
+                                <button class="copy-btn" onclick="copyCode(this)"><i class="fas fa-copy"></i> Copy Code</button>
+                            </div>
+                                                                                    <div class="explanation-section"><div class="explanation-title"><i class="fas fa-lightbulb me-2 text-warning"></i>Detailed Explanation:</div><div class="answer-content">ActiveRecord is for SQL databases with schema and migrations (Rails default). Mongoid is for MongoDB (NoSQL) with flexible schema. Choose ActiveRecord for SQL, Mongoid for MongoDB.</div></div>
+                                                        <div class="mt-3 pt-2 border-top"><small class="text-muted"><i class="fas fa-calendar-alt me-1"></i>Added: 2026-09-01<span class="mx-2">•</span><i class="fas fa-chart-line me-1"></i>22,976 views</small></div>
+                        </div>
+                    </article>
+                                        <article class="question-card" id="question-18">
+                        <div class="question-header" onclick="toggleQuestion(18)">
+                            <div class="d-flex justify-content-between align-items-start flex-wrap">
+                                <div class="d-flex align-items-center flex-wrap gap-2">
+                                    <span class="question-number">18</span>
+                                    <h2 class="question-title h5 mb-0">What is the difference between yield and call in Ruby?</h2>
+                                </div>
+                                <div class="d-flex gap-2 mt-2 mt-sm-0">
+                                    <span class="difficulty-badge bg-warning text-white">Intermediate</span>
+                                    <span class="category-badge"><i class="fas fa-th"></i> Blocks &amp; Procs</span>
+                                    <span class="category-badge"><i class="fas fa-eye me-1"></i>21,976</span>
+                                    <i class="fas fa-chevron-down toggle-icon" id="toggle-icon-18" style="transform: rotate(180deg);"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="question-body show" id="answer-18">
+                            <div class="answer-section"><div class="answer-title"><i class="fas fa-comment-dots me-2 text-primary"></i>Answer:</div><div class="answer-content">yield and call are both used to execute blocks but with different contexts. In 2026: 1) yield - passes control to block (implicit), 2) call - executes proc/lambda (explicit), 3) yield - only inside methods, 4) call - anywhere, 5) yield - no block object needed, 6) call - needs proc/lambda object, 7) yield - faster, 8) call - slightly slower. Use yield for simple blocks, call for stored procs/lambdas.</div></div>
+                                                        <div class="example-section">
+                                <div class="example-header"><i class="fas fa-code"></i><span>📝 Code Example</span></div>
+                                <pre class="example-content language-ruby" tabindex="0"><code class="language-ruby">yield vs call:
+    
+    1. yield (Implicit Block)
+       def greet
+           puts 'Before yield'
+           yield if block_given?
+           puts 'After yield'
+       end
+        
+       greet { puts 'Hello' }
+       # Output:
+       # Before yield
+       # Hello
+       # After yield
+    
+    2. call (Explicit Block)
+       def greet(&amp;block)
+           puts 'Before call'
+           block.call if block
+           puts 'After call'
+       end
+        
+       greet { puts 'Hello' }
+       # Output:
+       # Before call
+       # Hello
+       # After call
+    
+    3. yield with Parameters
+       def greet
+           yield('John')
+       end
+        
+       greet { |name| puts 'Hello, #{name}' }
+       # Hello, John
+    
+    4. call with Parameters
+       def greet(&amp;block)
+           block.call('John')
+       end
+        
+       greet { |name| puts 'Hello, #{name}' }
+       # Hello, John
+    
+    5. Comparison Table
+       Feature | yield | call
+       --------|-------|-----
+       Syntax | yield | block.call
+       Block Type | Implicit | Explicit
+       Scope | Method only | Anywhere
+       Object | No | Yes (Proc/Lambda)
+       Performance | Faster | Slightly slower
+       Parameters | yield(value) | call(value)
+       Stored | No | Yes
+    
+    6. When to Use
+       yield | call
+       ------|-----
+       Simple blocks | Stored procs
+       One-time use | Multiple uses
+       Performance | Flexibility
+       Direct execution | Delayed execution
+       Method context | Object context
+    
+    7. Best Practices
+       - Use yield for simple blocks
+       - Use call for stored blocks
+       - Use block_given? with yield
+       - Use &amp;block for explicit blocks
+       - Choose based on need for storage</code></pre>
+                                <button class="copy-btn" onclick="copyCode(this)"><i class="fas fa-copy"></i> Copy Code</button>
+                            </div>
+                                                                                    <div class="explanation-section"><div class="explanation-title"><i class="fas fa-lightbulb me-2 text-warning"></i>Detailed Explanation:</div><div class="answer-content">yield executes an implicit block inside a method (fast, simple). call executes an explicit proc/lambda object (flexible, stored). Use yield for simple blocks, call for stored blocks.</div></div>
+                                                        <div class="mt-3 pt-2 border-top"><small class="text-muted"><i class="fas fa-calendar-alt me-1"></i>Added: 2026-09-01<span class="mx-2">•</span><i class="fas fa-chart-line me-1"></i>21,976 views</small></div>
+                        </div>
+                    </article>
+                                        <article class="question-card" id="question-19">
+                        <div class="question-header" onclick="toggleQuestion(19)">
+                            <div class="d-flex justify-content-between align-items-start flex-wrap">
+                                <div class="d-flex align-items-center flex-wrap gap-2">
+                                    <span class="question-number">19</span>
+                                    <h2 class="question-title h5 mb-0">What is the difference between Ruby and Java?</h2>
+                                </div>
+                                <div class="d-flex gap-2 mt-2 mt-sm-0">
+                                    <span class="difficulty-badge bg-danger text-white">Advanced</span>
+                                    <span class="category-badge"><i class="fas fa-th"></i> Comparison</span>
+                                    <span class="category-badge"><i class="fas fa-eye me-1"></i>20,976</span>
+                                    <i class="fas fa-chevron-down toggle-icon" id="toggle-icon-19" style="transform: rotate(180deg);"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="question-body show" id="answer-19">
+                            <div class="answer-section"><div class="answer-title"><i class="fas fa-comment-dots me-2 text-primary"></i>Answer:</div><div class="answer-content">Ruby and Java are both object-oriented languages with different design goals. In 2026: 1) Ruby - dynamic, interpreted, 2) Java - static, compiled, 3) Ruby - elegant syntax, 4) Java - verbose syntax, 5) Ruby - dynamic typing, 6) Java - static typing, 7) Ruby - Rails, 8) Java - Spring, 9) Ruby - faster development, 10) Java - better performance. Choose Ruby for rapid development, Java for performance and enterprise.</div></div>
+                                                        <div class="example-section">
+                                <div class="example-header"><i class="fas fa-code"></i><span>📝 Code Example</span></div>
+                                <pre class="example-content language-ruby" tabindex="0"><code class="language-ruby">Ruby vs Java:
+    
+    1. Ruby Example
+       class User
+           attr_accessor :name, :age
+           
+           def initialize(name, age)
+               @name = name
+               @age = age
+           end
+           
+           def greet
+               \"Hello, I'm #{@name}\"
+           end
+       end
+        
+       user = User.new('John', 30)
+       puts user.greet
+    
+    2. Java Example
+       public class User {
+           private String name;
+           private int age;
+           
+           public User(String name, int age) {
+               this.name = name;
+               this.age = age;
+           }
+           
+           public String getName() {
+               return name;
+           }
+           
+           public int getAge() {
+               return age;
+           }
+           
+           public String greet() {
+               return \"Hello, I'm \" + name;
+           }
+       }
+        
+       public class Main {
+           public static void main(String[] args) {
+               User user = new User(\"John\", 30);
+               System.out.println(user.greet());
+           }
+       }
+    
+    3. Comparison Table
+       Feature | Ruby | Java
+       --------|------|-------
+       Typing | Dynamic | Static
+       Execution | Interpreted | Compiled
+       Syntax | Elegant | Verbose
+       Framework | Rails | Spring
+       Performance | Slower | Faster
+       Enterprise | Limited | Excellent
+       Learning | Easier | Harder
+       Use Case | Startups | Enterprise
+    
+    4. When to Choose
+       Ruby | Java
+       ----|--------
+       Rapid development | Enterprise
+       Startups | Large companies
+       Rails | Spring
+       Elegant code | Type safety
+       MVP | Long-term projects</code></pre>
+                                <button class="copy-btn" onclick="copyCode(this)"><i class="fas fa-copy"></i> Copy Code</button>
+                            </div>
+                                                                                    <div class="explanation-section"><div class="explanation-title"><i class="fas fa-lightbulb me-2 text-warning"></i>Detailed Explanation:</div><div class="answer-content">Ruby is dynamic with elegant syntax for rapid development (Rails). Java is static with verbose syntax for enterprise and performance (Spring). Choose Ruby for speed, Java for enterprise.</div></div>
+                                                        <div class="mt-3 pt-2 border-top"><small class="text-muted"><i class="fas fa-calendar-alt me-1"></i>Added: 2026-09-01<span class="mx-2">•</span><i class="fas fa-chart-line me-1"></i>20,976 views</small></div>
+                        </div>
+                    </article>
+                                        <article class="question-card" id="question-20">
+                        <div class="question-header" onclick="toggleQuestion(20)">
+                            <div class="d-flex justify-content-between align-items-start flex-wrap">
+                                <div class="d-flex align-items-center flex-wrap gap-2">
+                                    <span class="question-number">20</span>
+                                    <h2 class="question-title h5 mb-0">What is the difference between require, require_relative, and load in Ruby?</h2>
+                                </div>
+                                <div class="d-flex gap-2 mt-2 mt-sm-0">
+                                    <span class="difficulty-badge bg-warning text-white">Intermediate</span>
+                                    <span class="category-badge"><i class="fas fa-th"></i> Ruby Basics</span>
+                                    <span class="category-badge"><i class="fas fa-eye me-1"></i>19,976</span>
+                                    <i class="fas fa-chevron-down toggle-icon" id="toggle-icon-20" style="transform: rotate(180deg);"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="question-body show" id="answer-20">
+                            <div class="answer-section"><div class="answer-title"><i class="fas fa-comment-dots me-2 text-primary"></i>Answer:</div><div class="answer-content">require, require_relative, and load are used for including files with different behaviors. In 2026: 1) require - loads gem/library, 2) require_relative - loads relative file, 3) load - loads file every time, 4) require - no duplicate loading, 5) require_relative - no duplicate loading, 6) load - loads every call, 7) require - absolute path, 8) require_relative - relative path. Use require for gems, require_relative for relative files.</div></div>
+                                                        <div class="example-section">
+                                <div class="example-header"><i class="fas fa-code"></i><span>📝 Code Example</span></div>
+                                <pre class="example-content language-ruby" tabindex="0"><code class="language-ruby">require vs require_relative vs load:
+    
+    1. require (Gem/Library)
+       # Standard library
+       require 'json'
+       require 'yaml'
+       require 'date'
+        
+       # Gem
+       require 'rails'
+       require 'sinatra'
+        
+       # Loads once (cached)
+       require 'json'  # Already loaded, no effect
+    
+    2. require_relative (Relative File)
+       # File structure:
+       # app.rb
+       # lib/user.rb
+        
+       # app.rb
+       require_relative 'lib/user'
+        
+       # Loads once (cached)
+       require_relative 'lib/user'  # No effect
+    
+    3. load (Force Reload)
+       # Loads every time
+       load 'lib/user.rb'
+        
+       # Loads with .rb extension
+       load 'lib/user.rb'
+        
+       # For reloading during development
+       load 'lib/user.rb'  # Reloads file
+    
+    4. Comparison Table
+       Feature | require | require_relative | load
+       --------|---------|------------------|-----
+       Path | Absolute | Relative | Absolute/Relative
+       Cached | Yes | Yes | No
+       File Ext | Optional | Optional | Required (.rb)
+       Use Case | Gems | Relative files | Reloading
+       Loading | Once | Once | Every call
+    
+    5. Example Usage
+       # Gemfile
+       require 'bundler/setup'
+       require 'sinatra'
+        
+       # Local files
+       require_relative 'models/user'
+       require_relative 'helpers/string_helper'
+        
+       # Development reloading
+       if ENV['RACK_ENV'] == 'development'
+           load 'app.rb'
+       end
+    
+    6. When to Use
+       require | require_relative | load
+       --------|------------------|-----
+       Gems | Local files | Reloading
+       Libraries | App files | Development
+       Standard lib | Relative paths | Debugging
+       External code | Project code | Dynamic changes
+    
+    7. Best Practices
+       - Use require for gems
+       - Use require_relative for project files
+       - Use load for development reloading
+       - Organize require_relative calls
+       - Avoid circular requires</code></pre>
+                                <button class="copy-btn" onclick="copyCode(this)"><i class="fas fa-copy"></i> Copy Code</button>
+                            </div>
+                                                                                    <div class="explanation-section"><div class="explanation-title"><i class="fas fa-lightbulb me-2 text-warning"></i>Detailed Explanation:</div><div class="answer-content">require loads gems/libraries once (absolute path). require_relative loads relative files once. load loads files every time (for development reloading). Use require for gems, require_relative for project files.</div></div>
+                                                        <div class="mt-3 pt-2 border-top"><small class="text-muted"><i class="fas fa-calendar-alt me-1"></i>Added: 2026-09-01<span class="mx-2">•</span><i class="fas fa-chart-line me-1"></i>19,976 views</small></div>
+                        </div>
+                    </article>
+                                                </div>
+
+
+                                                <div id="questionsContainer">
+                                                        <article class="question-card" id="question-21">
+                        <div class="question-header" onclick="toggleQuestion(21)">
+                            <div class="d-flex justify-content-between align-items-start flex-wrap">
+                                <div class="d-flex align-items-center flex-wrap gap-2">
+                                    <span class="question-number">21</span>
+                                    <h2 class="question-title h5 mb-0">What are the different types of variables in Ruby?</h2>
+                                </div>
+                                <div class="d-flex gap-2 mt-2 mt-sm-0">
+                                    <span class="difficulty-badge bg-success text-white">Beginner</span>
+                                    <span class="category-badge"><i class="fas fa-th"></i> Ruby Basics</span>
+                                    <span class="category-badge"><i class="fas fa-eye me-1"></i>18,976</span>
+                                    <i class="fas fa-chevron-down toggle-icon" id="toggle-icon-21" style="transform: rotate(180deg);"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="question-body show" id="answer-21">
+                            <div class="answer-section"><div class="answer-title"><i class="fas fa-comment-dots me-2 text-primary"></i>Answer:</div><div class="answer-content">Ruby has several types of variables with different scopes. In 2026: 1) Local variable - local scope (name), 2) Instance variable - object scope (@name), 3) Class variable - class scope (@@name), 4) Global variable - global scope ($name), 5) Constant - starts with uppercase (Name), 6) Class instance variable - class scope (@name), 7) All have different visibility. Choose scope based on need.</div></div>
+                                                        <div class="example-section">
+                                <div class="example-header"><i class="fas fa-code"></i><span>📝 Code Example</span></div>
+                                <pre class="example-content language-ruby" tabindex="0"><code class="language-ruby">Variable Types:
+    
+    1. Local Variable
+       name = 'John'       # Local variable
+       age = 30            # Local variable
+        
+       def greet
+           greeting = 'Hello'  # Local to method
+           puts greeting
+       end
+        
+       # greeting not accessible outside
+    
+    2. Instance Variable
+       class Person
+           def initialize(name)
+               @name = name  # Instance variable
+               @age = 30     # Instance variable
+           end
+           
+           def greet
+               \"Hello, I'm #{@name}\"
+           end
+       end
+        
+       p = Person.new('John')
+       puts p.greet
+    
+    3. Class Variable
+       class Person
+           @@count = 0  # Class variable
+           
+           def initialize
+               @@count += 1
+           end
+           
+           def self.count
+               @@count
+           end
+       end
+        
+       puts Person.count  # 0
+       Person.new
+       puts Person.count  # 1
+    
+    4. Global Variable
+       $global_var = 'Global'  # Global variable
+        
+       def test_global
+           puts $global_var  # Accessible anywhere
+       end
+        
+       test_global  # Global
+    
+    5. Constant
+       PI = 3.14159          # Constant
+       APP_NAME = 'MyApp'    # Constant
+        
+       class Person
+           MAX_AGE = 150      # Class constant
+       end
+        
+       puts PI
+       puts Person::MAX_AGE
+    
+    6. Comparison Table
+       Type | Syntax | Scope | Access
+       ----|--------|-------|--------
+       Local | name | Method | Limited
+       Instance | @name | Object | Within object
+       Class | @@name | Class | All instances
+       Global | $name | Global | Everywhere
+       Constant | NAME | Class | Global access
+    
+    7. When to Use
+       Type | Use Case
+       ----|--------
+       Local | Temporary data
+       Instance | Object state
+       Class | Shared among instances
+       Global | Avoid (use sparingly)
+       Constant | Fixed values
+    
+    8. Best Practices
+       - Use local variables by default
+       - Use instance variables for state
+       - Avoid class variables (@@)
+       - Avoid global variables
+       - Use constants for fixed values</code></pre>
+                                <button class="copy-btn" onclick="copyCode(this)"><i class="fas fa-copy"></i> Copy Code</button>
+                            </div>
+                                                                                    <div class="explanation-section"><div class="explanation-title"><i class="fas fa-lightbulb me-2 text-warning"></i>Detailed Explanation:</div><div class="answer-content">Ruby has local (local scope), instance (@, object scope), class (@@, class scope), global ($, global scope), and constant (uppercase) variables. Choose based on required scope and visibility.</div></div>
+                                                        <div class="mt-3 pt-2 border-top"><small class="text-muted"><i class="fas fa-calendar-alt me-1"></i>Added: 2026-09-01<span class="mx-2">•</span><i class="fas fa-chart-line me-1"></i>18,976 views</small></div>
+                        </div>
+                    </article>
+                                        <article class="question-card" id="question-22">
+                        <div class="question-header" onclick="toggleQuestion(22)">
+                            <div class="d-flex justify-content-between align-items-start flex-wrap">
+                                <div class="d-flex align-items-center flex-wrap gap-2">
+                                    <span class="question-number">22</span>
+                                    <h2 class="question-title h5 mb-0">What is the difference between Ruby and Golang?</h2>
+                                </div>
+                                <div class="d-flex gap-2 mt-2 mt-sm-0">
+                                    <span class="difficulty-badge bg-danger text-white">Advanced</span>
+                                    <span class="category-badge"><i class="fas fa-th"></i> Comparison</span>
+                                    <span class="category-badge"><i class="fas fa-eye me-1"></i>17,976</span>
+                                    <i class="fas fa-chevron-down toggle-icon" id="toggle-icon-22" style="transform: rotate(180deg);"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="question-body show" id="answer-22">
+                            <div class="answer-section"><div class="answer-title"><i class="fas fa-comment-dots me-2 text-primary"></i>Answer:</div><div class="answer-content">Ruby and Golang are both modern languages with different strengths. In 2026: 1) Ruby - dynamic, interpreted, 2) Go - static, compiled, 3) Ruby - Rails, 4) Go - web services, 5) Ruby - easier to learn, 6) Go - moderate learning, 7) Ruby - slower performance, 8) Go - excellent performance, 9) Ruby - developer-friendly, 10) Go - performance-focused. Choose Ruby for web apps, Go for microservices.</div></div>
+                                                        <div class="example-section">
+                                <div class="example-header"><i class="fas fa-code"></i><span>📝 Code Example</span></div>
+                                <pre class="example-content language-ruby" tabindex="0"><code class="language-ruby">Ruby vs Go:
+    
+    1. Ruby Example
+       class User
+           attr_accessor :name, :age
+           
+           def initialize(name, age)
+               @name = name
+               @age = age
+           end
+       end
+        
+       users = []
+       10.times do |i|
+           users &lt;&lt; User.new('User \#{i}', 20 + i)
+       end
+        
+       users.each { |u| puts u.name }
+    
+    2. Go Example
+       package main
+        
+       import \"fmt\"
+        
+       type User struct {
+           Name string
+           Age  int
+       }
+        
+       func main() {
+           users := []User{}
+           for i := 0; i &lt; 10; i++ {
+               users = append(users, User{
+                   Name: fmt.Sprintf(\"User %d\", i),
+                   Age:  20 + i,
+               })
+           }
+           
+           for _, u := range users {
+               fmt.Println(u.Name)
+           }
+       }
+    
+    3. Comparison Table
+       Feature | Ruby | Go
+       --------|------|-------
+       Typing | Dynamic | Static
+       Execution | Interpreted | Compiled
+       Performance | Slower | Faster
+       Concurrency | Threads | Goroutines
+       Framework | Rails | Web services
+       Learning | Easy | Moderate
+       Use Case | Web apps | Microservices
+    
+    4. When to Choose
+       Ruby | Go
+       ----|--------
+       Rails apps | Microservices
+       Web development | High performance
+       Startups | Cloud services
+       MVPs | Systems programming</code></pre>
+                                <button class="copy-btn" onclick="copyCode(this)"><i class="fas fa-copy"></i> Copy Code</button>
+                            </div>
+                                                                                    <div class="explanation-section"><div class="explanation-title"><i class="fas fa-lightbulb me-2 text-warning"></i>Detailed Explanation:</div><div class="answer-content">Ruby is dynamic with Rails for web development. Go is static with goroutines for high-performance microservices. Choose Ruby for web apps, Go for microservices and performance.</div></div>
+                                                        <div class="mt-3 pt-2 border-top"><small class="text-muted"><i class="fas fa-calendar-alt me-1"></i>Added: 2026-09-01<span class="mx-2">•</span><i class="fas fa-chart-line me-1"></i>17,976 views</small></div>
+                        </div>
+                    </article>
+                                        <article class="question-card" id="question-23">
+                        <div class="question-header" onclick="toggleQuestion(23)">
+                            <div class="d-flex justify-content-between align-items-start flex-wrap">
+                                <div class="d-flex align-items-center flex-wrap gap-2">
+                                    <span class="question-number">23</span>
+                                    <h2 class="question-title h5 mb-0">What are the different types of loops in Ruby?</h2>
+                                </div>
+                                <div class="d-flex gap-2 mt-2 mt-sm-0">
+                                    <span class="difficulty-badge bg-success text-white">Beginner</span>
+                                    <span class="category-badge"><i class="fas fa-th"></i> Ruby Basics</span>
+                                    <span class="category-badge"><i class="fas fa-eye me-1"></i>16,976</span>
+                                    <i class="fas fa-chevron-down toggle-icon" id="toggle-icon-23" style="transform: rotate(180deg);"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="question-body show" id="answer-23">
+                            <div class="answer-section"><div class="answer-title"><i class="fas fa-comment-dots me-2 text-primary"></i>Answer:</div><div class="answer-content">Ruby provides several loop types for iteration. In 2026: 1) while - condition-based, 2) until - opposite of while, 3) for - collection iteration, 4) each - Ruby way (preferred), 5) times - fixed iterations, 6) loop - infinite loop, 7) upto/downto - numeric ranges. Use each for collections, times for fixed iterations.</div></div>
+                                                        <div class="example-section">
+                                <div class="example-header"><i class="fas fa-code"></i><span>📝 Code Example</span></div>
+                                <pre class="example-content language-ruby" tabindex="0"><code class="language-ruby">Loops in Ruby:
+    
+    1. while Loop
+       i = 0
+       while i &lt; 5
+           puts i
+           i += 1
+       end
+       # 0, 1, 2, 3, 4
+    
+    2. until Loop
+       i = 0
+       until i == 5
+           puts i
+           i += 1
+       end
+       # 0, 1, 2, 3, 4
+    
+    3. for Loop
+       for i in 0..4
+           puts i
+       end
+       # 0, 1, 2, 3, 4
+        
+       for item in [1, 2, 3]
+           puts item
+       end
+    
+    4. each (Preferred)
+       [1, 2, 3, 4, 5].each do |n|
+           puts n
+       end
+        
+       # With index
+       [1, 2, 3].each_with_index do |n, i|
+           puts '#{i}: #{n}'
+       end
+        
+       # Hash
+       {name: 'John', age: 30}.each do |key, value|
+           puts '#{key}: #{value}'
+       end
+    
+    5. times
+       5.times do |i|
+           puts i
+       end
+       # 0, 1, 2, 3, 4
+        
+       5.times { puts 'Hello' }  # 5 times
+    
+    6. loop (Infinite)
+       i = 0
+       loop do
+           puts i
+           i += 1
+           break if i &gt;= 5
+       end
+    
+    7. upto/downto
+       1.upto(5) { |i| puts i }     # 1,2,3,4,5
+       5.downto(1) { |i| puts i }   # 5,4,3,2,1
+    
+    8. Loop Control
+       # break
+       [1, 2, 3, 4, 5].each do |n|
+           break if n == 3
+           puts n
+       end
+       # 1, 2
+        
+       # next
+       [1, 2, 3, 4, 5].each do |n|
+           next if n.even?
+           puts n
+       end
+       # 1, 3, 5
+        
+       # redo
+       i = 0
+       while i &lt; 5
+           i += 1
+           redo if i == 3
+           puts i
+       end
+    
+    9. Loop Types Comparison
+       Type | Use Case | Example
+       ----|---------|--------
+       while | Condition | while x &lt; 5
+       until | Opposite condition | until x == 5
+       for | Collection | for x in array
+       each | Ruby way | array.each
+       times | Fixed iterations | 5.times
+       loop | Infinite | loop do
+       upto | Numeric range | 1.upto(5)</code></pre>
+                                <button class="copy-btn" onclick="copyCode(this)"><i class="fas fa-copy"></i> Copy Code</button>
+                            </div>
+                                                                                    <div class="explanation-section"><div class="explanation-title"><i class="fas fa-lightbulb me-2 text-warning"></i>Detailed Explanation:</div><div class="answer-content">Ruby provides while (condition), until (opposite), for (collection), each (preferred), times (fixed), loop (infinite), and upto/downto (numeric ranges). Use each for collections, times for fixed iterations.</div></div>
+                                                        <div class="mt-3 pt-2 border-top"><small class="text-muted"><i class="fas fa-calendar-alt me-1"></i>Added: 2026-09-01<span class="mx-2">•</span><i class="fas fa-chart-line me-1"></i>16,976 views</small></div>
+                        </div>
+                    </article>
+                                        <article class="question-card" id="question-24">
+                        <div class="question-header" onclick="toggleQuestion(24)">
+                            <div class="d-flex justify-content-between align-items-start flex-wrap">
+                                <div class="d-flex align-items-center flex-wrap gap-2">
+                                    <span class="question-number">24</span>
+                                    <h2 class="question-title h5 mb-0">What is the difference between Ruby and Swift?</h2>
+                                </div>
+                                <div class="d-flex gap-2 mt-2 mt-sm-0">
+                                    <span class="difficulty-badge bg-danger text-white">Advanced</span>
+                                    <span class="category-badge"><i class="fas fa-th"></i> Comparison</span>
+                                    <span class="category-badge"><i class="fas fa-eye me-1"></i>15,976</span>
+                                    <i class="fas fa-chevron-down toggle-icon" id="toggle-icon-24" style="transform: rotate(180deg);"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="question-body show" id="answer-24">
+                            <div class="answer-section"><div class="answer-title"><i class="fas fa-comment-dots me-2 text-primary"></i>Answer:</div><div class="answer-content">Ruby and Swift are both modern languages with different use cases. In 2026: 1) Ruby - dynamic, interpreted, 2) Swift - static, compiled, 3) Ruby - Rails/web, 4) Swift - iOS/macOS, 5) Ruby - elegant syntax, 6) Swift - modern syntax, 7) Ruby - slower performance, 8) Swift - fast performance, 9) Ruby - server-side, 10) Swift - Apple platforms. Choose Ruby for web, Swift for Apple.</div></div>
+                                                        <div class="example-section">
+                                <div class="example-header"><i class="fas fa-code"></i><span>📝 Code Example</span></div>
+                                <pre class="example-content language-ruby" tabindex="0"><code class="language-ruby">Ruby vs Swift:
+    
+    1. Ruby Example
+       class User
+           attr_accessor :name, :age
+           
+           def initialize(name, age)
+               @name = name
+               @age = age
+           end
+       end
+        
+       user = User.new('John', 30)
+       puts user.name
+    
+    2. Swift Example
+       class User {
+           var name: String
+           var age: Int
+           
+           init(name: String, age: Int) {
+               self.name = name
+               self.age = age
+           }
+       }
+        
+       let user = User(name: 'John', age: 30)
+       print(user.name)
+    
+    3. Comparison Table
+       Feature | Ruby | Swift
+       --------|------|-------
+       Typing | Dynamic | Static
+       Execution | Interpreted | Compiled
+       Platform | Web/server | iOS/macOS
+       Framework | Rails | SwiftUI
+       Performance | Slower | Fast
+       Use Case | Web apps | Apple apps
+    
+    4. When to Choose
+       Ruby | Swift
+       ----|--------
+       Web apps | iOS/macOS
+       Rails | SwiftUI
+       Server-side | Apple ecosystem
+       Startups | Native apps</code></pre>
+                                <button class="copy-btn" onclick="copyCode(this)"><i class="fas fa-copy"></i> Copy Code</button>
+                            </div>
+                                                                                    <div class="explanation-section"><div class="explanation-title"><i class="fas fa-lightbulb me-2 text-warning"></i>Detailed Explanation:</div><div class="answer-content">Ruby is dynamic with Rails for web development. Swift is static with SwiftUI for Apple platforms. Choose Ruby for web, Swift for iOS/macOS development.</div></div>
+                                                        <div class="mt-3 pt-2 border-top"><small class="text-muted"><i class="fas fa-calendar-alt me-1"></i>Added: 2026-09-01<span class="mx-2">•</span><i class="fas fa-chart-line me-1"></i>15,976 views</small></div>
+                        </div>
+                    </article>
+                                        <article class="question-card" id="question-25">
+                        <div class="question-header" onclick="toggleQuestion(25)">
+                            <div class="d-flex justify-content-between align-items-start flex-wrap">
+                                <div class="d-flex align-items-center flex-wrap gap-2">
+                                    <span class="question-number">25</span>
+                                    <h2 class="question-title h5 mb-0">What are best practices for Ruby development?</h2>
+                                </div>
+                                <div class="d-flex gap-2 mt-2 mt-sm-0">
+                                    <span class="difficulty-badge bg-danger text-white">Advanced</span>
+                                    <span class="category-badge"><i class="fas fa-th"></i> Best Practices</span>
+                                    <span class="category-badge"><i class="fas fa-eye me-1"></i>14,976</span>
+                                    <i class="fas fa-chevron-down toggle-icon" id="toggle-icon-25" style="transform: rotate(180deg);"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="question-body show" id="answer-25">
+                            <div class="answer-section"><div class="answer-title"><i class="fas fa-comment-dots me-2 text-primary"></i>Answer:</div><div class="answer-content">Ruby best practices in 2026: 1) Use Ruby style guide, 2) Use Rubocop for linting, 3) Write tests (RSpec), 4) Use Bundler for gems, 5) Follow MVC pattern, 6) Use RESTful routes, 7) Use concern for shared code, 8) Use service objects, 9) Use migrations for DB, 10) Use seeds for data, 11) Use environment variables, 12) Use gems wisely, 13) Use caching, 14) Use background jobs, 15) Use logging.</div></div>
+                                                        <div class="example-section">
+                                <div class="example-header"><i class="fas fa-code"></i><span>📝 Code Example</span></div>
+                                <pre class="example-content language-ruby" tabindex="0"><code class="language-ruby">Ruby Best Practices:
+    
+    1. Code Style
+       # Good
+       def calculate_sum(numbers)
+           numbers.sum
+       end
+        
+       # Avoid
+       def calculate_sum nums
+           nums.inject(:+)
+       end
+    
+    2. Testing (RSpec)
+       describe 'User' do
+           let(:user) { User.new(name: 'John', age: 30) }
+           
+           it 'has a name' do
+               expect(user.name).to eq('John')
+           end
+           
+           it 'is valid' do
+               expect(user).to be_valid
+           end
+       end
+    
+    3. Gem Management
+       # Gemfile
+       source 'https://rubygems.org'
+       gem 'rails', '~&gt; 7.0'
+       gem 'pg'
+       gem 'devise'
+        
+       group :development, :test do
+           gem 'rspec-rails'
+           gem 'rubocop'
+       end
+    
+    4. Service Objects
+       class UserCreator
+           def initialize(params)
+               @params = params
+           end
+           
+           def call
+               user = User.new(@params)
+               if user.save
+                   send_welcome_email(user)
+               end
+               user
+           end
+       end
+    
+    5. Concern Pattern
+       module Loggable
+           extend ActiveSupport::Concern
+           
+           included do
+               after_create :log_creation
+           end
+           
+           def log_creation
+               Rails.logger.info '#{self.class} created'
+           end
+       end
+        
+       class User &lt; ApplicationRecord
+           include Loggable
+       end
+    
+    6. Environment Variables
+       # .env
+       DATABASE_URL=postgresql://localhost
+       SECRET_KEY=abc123
+        
+       # config/application.rb
+       ENV['DATABASE_URL']
+    
+    7. Project Structure
+       app/
+         ├── controllers/
+         ├── models/
+         ├── views/
+         ├── helpers/
+         ├── services/
+         ├── concerns/
+         └── jobs/
+       config/
+         ├── initializers/
+         └── environments/
+       db/
+         ├── migrate/
+         └── seeds.rb
+       spec/
+         ├── models/
+         ├── controllers/
+         └── services/
+    
+    8. Best Practices Summary
+       Practice | Description
+       --------|------------
+       Style Guide | Follow Ruby style
+       Testing | Write RSpec tests
+       Bundler | Manage gems
+       MVC Pattern | Follow Rails MVC
+       Service Objects | Business logic
+       Concerns | Shared behavior
+       Environment Variables | Configuration
+       Caching | Performance
+       Background Jobs | Async tasks</code></pre>
+                                <button class="copy-btn" onclick="copyCode(this)"><i class="fas fa-copy"></i> Copy Code</button>
+                            </div>
+                                                                                    <div class="explanation-section"><div class="explanation-title"><i class="fas fa-lightbulb me-2 text-warning"></i>Detailed Explanation:</div><div class="answer-content">Ruby best practices include using Rubocop, writing tests (RSpec), using Bundler, following MVC pattern, using service objects, concerns, environment variables, caching, and background jobs.</div></div>
+                                                        <div class="mt-3 pt-2 border-top"><small class="text-muted"><i class="fas fa-calendar-alt me-1"></i>Added: 2026-09-01<span class="mx-2">•</span><i class="fas fa-chart-line me-1"></i>14,976 views</small></div>
+                        </div>
+                    </article>
+                                        <article class="question-card" id="question-26">
+                        <div class="question-header" onclick="toggleQuestion(26)">
+                            <div class="d-flex justify-content-between align-items-start flex-wrap">
+                                <div class="d-flex align-items-center flex-wrap gap-2">
+                                    <span class="question-number">26</span>
+                                    <h2 class="question-title h5 mb-0">What is the difference between Ruby and TypeScript?</h2>
+                                </div>
+                                <div class="d-flex gap-2 mt-2 mt-sm-0">
+                                    <span class="difficulty-badge bg-danger text-white">Advanced</span>
+                                    <span class="category-badge"><i class="fas fa-th"></i> Comparison</span>
+                                    <span class="category-badge"><i class="fas fa-eye me-1"></i>13,976</span>
+                                    <i class="fas fa-chevron-down toggle-icon" id="toggle-icon-26" style="transform: rotate(180deg);"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="question-body show" id="answer-26">
+                            <div class="answer-section"><div class="answer-title"><i class="fas fa-comment-dots me-2 text-primary"></i>Answer:</div><div class="answer-content">Ruby and TypeScript are both modern languages with different use cases. In 2026: 1) Ruby - dynamic, interpreted, 2) TypeScript - static, transpiled, 3) Ruby - Rails/web, 4) TypeScript - Angular/React, 5) Ruby - elegant syntax, 6) TypeScript - JavaScript superset, 7) Ruby - server-side, 8) TypeScript - client-side, 9) Ruby - smaller community, 10) TypeScript - larger community. Choose Ruby for backend, TypeScript for frontend.</div></div>
+                                                        <div class="example-section">
+                                <div class="example-header"><i class="fas fa-code"></i><span>📝 Code Example</span></div>
+                                <pre class="example-content language-ruby" tabindex="0"><code class="language-ruby">Ruby vs TypeScript:
+    
+    1. Ruby Example
+       class User
+           attr_accessor :name, :age
+           
+           def initialize(name, age)
+               @name = name
+               @age = age
+           end
+       end
+        
+       user = User.new('John', 30)
+       puts user.name
+    
+    2. TypeScript Example
+       class User {
+           name: string;
+           age: number;
+           
+           constructor(name: string, age: number) {
+               this.name = name;
+               this.age = age;
+           }
+       }
+        
+       const user = new User('John', 30);
+       console.log(user.name);
+    
+    3. Comparison Table
+       Feature | Ruby | TypeScript
+       --------|------|-----------
+       Typing | Dynamic | Static
+       Platform | Server | Browser
+       Framework | Rails | Angular/React
+       Syntax | Elegant | JavaScript
+       Use Case | Backend | Frontend
+    
+    4. When to Choose
+       Ruby | TypeScript
+       ----|-----------
+       Backend APIs | Frontend
+       Rails | Angular/React
+       Server-side | Client-side</code></pre>
+                                <button class="copy-btn" onclick="copyCode(this)"><i class="fas fa-copy"></i> Copy Code</button>
+                            </div>
+                                                                                    <div class="explanation-section"><div class="explanation-title"><i class="fas fa-lightbulb me-2 text-warning"></i>Detailed Explanation:</div><div class="answer-content">Ruby is dynamic with Rails for server-side development. TypeScript is static with Angular/React for client-side development. Choose Ruby for backend, TypeScript for frontend.</div></div>
+                                                        <div class="mt-3 pt-2 border-top"><small class="text-muted"><i class="fas fa-calendar-alt me-1"></i>Added: 2026-09-01<span class="mx-2">•</span><i class="fas fa-chart-line me-1"></i>13,976 views</small></div>
+                        </div>
+                    </article>
+                                        <article class="question-card" id="question-27">
+                        <div class="question-header" onclick="toggleQuestion(27)">
+                            <div class="d-flex justify-content-between align-items-start flex-wrap">
+                                <div class="d-flex align-items-center flex-wrap gap-2">
+                                    <span class="question-number">27</span>
+                                    <h2 class="question-title h5 mb-0">What is the difference between class_eval and instance_eval in Ruby?</h2>
+                                </div>
+                                <div class="d-flex gap-2 mt-2 mt-sm-0">
+                                    <span class="difficulty-badge bg-danger text-white">Advanced</span>
+                                    <span class="category-badge"><i class="fas fa-th"></i> Metaprogramming</span>
+                                    <span class="category-badge"><i class="fas fa-eye me-1"></i>12,976</span>
+                                    <i class="fas fa-chevron-down toggle-icon" id="toggle-icon-27" style="transform: rotate(180deg);"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="question-body show" id="answer-27">
+                            <div class="answer-section"><div class="answer-title"><i class="fas fa-comment-dots me-2 text-primary"></i>Answer:</div><div class="answer-content">class_eval and instance_eval are used for evaluating code in different contexts. In 2026: 1) class_eval - class context, 2) instance_eval - instance context, 3) class_eval - defines class methods, 4) instance_eval - defines instance methods, 5) class_eval - self is class, 6) instance_eval - self is instance, 7) class_eval - used for class metaprogramming, 8) instance_eval - used for instance metaprogramming. Both are powerful metaprogramming tools.</div></div>
+                                                        <div class="example-section">
+                                <div class="example-header"><i class="fas fa-code"></i><span>📝 Code Example</span></div>
+                                <pre class="example-content language-ruby" tabindex="0"><code class="language-ruby">class_eval vs instance_eval:
+    
+    1. class_eval (Class Context)
+       class Person
+       end
+        
+       Person.class_eval do
+           def greet
+               'Hello'
+           end
+       end
+        
+       p = Person.new
+       puts p.greet  # Hello
+    
+    2. instance_eval (Instance Context)
+       class Person
+       end
+        
+       p = Person.new
+       p.instance_eval do
+           def greet
+               'Hello from instance'
+           end
+       end
+        
+       puts p.greet  # Hello from instance
+    
+    3. class_eval vs instance_eval Example
+       class Person
+       end
+        
+       # class_eval adds class methods
+       Person.class_eval do
+           def self.class_method
+               'Class method'
+           end
+       end
+        
+       # instance_eval adds instance methods
+       Person.instance_eval do
+           def instance_method
+               'Instance method'
+           end
+       end
+        
+       puts Person.class_method  # Class method
+       p = Person.new
+       puts p.instance_method   # Instance method
+    
+    4. Comparison Table
+       Feature | class_eval | instance_eval
+       --------|------------|--------------
+       Context | Class | Instance
+       self | Class | Instance
+       Methods | Class methods | Instance methods
+       Use Case | Class metaprogramming | Instance metaprogramming
+       Scope | Class level | Instance level
+    
+    5. When to Use
+       class_eval | instance_eval
+       ----------|---------------
+       Class methods | Instance methods
+       Class definitions | Instance definitions
+       Metaprogramming | Dynamic behavior
+       DSL creation | Object customization
+    
+    6. Real-world Example
+       class User
+           attr_accessor :name, :age
+       end
+        
+       # Dynamically add validation
+       User.class_eval do
+           def valid?
+               name.present? &amp;&amp; age &gt; 0
+           end
+       end
+        
+       # Dynamically add to instance
+       user = User.new
+       user.instance_eval do
+           def greet
+               'Hi!'
+           end
+       end</code></pre>
+                                <button class="copy-btn" onclick="copyCode(this)"><i class="fas fa-copy"></i> Copy Code</button>
+                            </div>
+                                                                                    <div class="explanation-section"><div class="explanation-title"><i class="fas fa-lightbulb me-2 text-warning"></i>Detailed Explanation:</div><div class="answer-content">class_eval evaluates code in class context (adds class methods). instance_eval evaluates code in instance context (adds instance methods). Both are used for metaprogramming.</div></div>
+                                                        <div class="mt-3 pt-2 border-top"><small class="text-muted"><i class="fas fa-calendar-alt me-1"></i>Added: 2026-09-01<span class="mx-2">•</span><i class="fas fa-chart-line me-1"></i>12,976 views</small></div>
+                        </div>
+                    </article>
+                                        <article class="question-card" id="question-28">
+                        <div class="question-header" onclick="toggleQuestion(28)">
+                            <div class="d-flex justify-content-between align-items-start flex-wrap">
+                                <div class="d-flex align-items-center flex-wrap gap-2">
+                                    <span class="question-number">28</span>
+                                    <h2 class="question-title h5 mb-0">What is the difference between Ruby and Elixir?</h2>
+                                </div>
+                                <div class="d-flex gap-2 mt-2 mt-sm-0">
+                                    <span class="difficulty-badge bg-danger text-white">Advanced</span>
+                                    <span class="category-badge"><i class="fas fa-th"></i> Comparison</span>
+                                    <span class="category-badge"><i class="fas fa-eye me-1"></i>11,976</span>
+                                    <i class="fas fa-chevron-down toggle-icon" id="toggle-icon-28" style="transform: rotate(180deg);"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="question-body show" id="answer-28">
+                            <div class="answer-section"><div class="answer-title"><i class="fas fa-comment-dots me-2 text-primary"></i>Answer:</div><div class="answer-content">Ruby and Elixir are both modern languages with different approaches. In 2026: 1) Ruby - dynamic, interpreted, 2) Elixir - functional, compiled, 3) Ruby - Rails, 4) Elixir - Phoenix, 5) Ruby - elegant syntax, 6) Elixir - functional syntax, 7) Ruby - threads, 8) Elixir - actors (Erlang), 9) Ruby - slower performance, 10) Elixir - excellent concurrency. Choose Ruby for Rails, Elixir for concurrent systems.</div></div>
+                                                        <div class="example-section">
+                                <div class="example-header"><i class="fas fa-code"></i><span>📝 Code Example</span></div>
+                                <pre class="example-content language-ruby" tabindex="0"><code class="language-ruby">Ruby vs Elixir:
+    
+    1. Ruby Example
+       class User
+           attr_accessor :name, :age
+           
+           def initialize(name, age)
+               @name = name
+               @age = age
+           end
+       end
+        
+       user = User.new('John', 30)
+       puts user.name
+    
+    2. Elixir Example
+       defmodule User do
+           defstruct name: nil, age: nil
+           
+           def new(name, age) do
+               %User{name: name, age: age}
+           end
+       end
+        
+       user = User.new('John', 30)
+       IO.puts(user.name)
+    
+    3. Comparison Table
+       Feature | Ruby | Elixir
+       --------|------|-------
+       Paradigm | OOP | Functional
+       Execution | Interpreted | Compiled
+       Concurrency | Threads | Actors
+       Framework | Rails | Phoenix
+       Performance | Good | Excellent
+       Use Case | Web apps | Concurrent systems
+    
+    4. When to Choose
+       Ruby | Elixir
+       ----|--------
+       Rails | Phoenix
+       Web apps | Real-time apps
+       Startups | Scalable systems
+       Easy learning | Functional learning</code></pre>
+                                <button class="copy-btn" onclick="copyCode(this)"><i class="fas fa-copy"></i> Copy Code</button>
+                            </div>
+                                                                                    <div class="explanation-section"><div class="explanation-title"><i class="fas fa-lightbulb me-2 text-warning"></i>Detailed Explanation:</div><div class="answer-content">Ruby is OOP with Rails for web development. Elixir is functional with Phoenix for concurrent real-time systems. Choose Ruby for Rails, Elixir for concurrent systems.</div></div>
+                                                        <div class="mt-3 pt-2 border-top"><small class="text-muted"><i class="fas fa-calendar-alt me-1"></i>Added: 2026-09-01<span class="mx-2">•</span><i class="fas fa-chart-line me-1"></i>11,976 views</small></div>
+                        </div>
+                    </article>
+                                        <article class="question-card" id="question-29">
+                        <div class="question-header" onclick="toggleQuestion(29)">
+                            <div class="d-flex justify-content-between align-items-start flex-wrap">
+                                <div class="d-flex align-items-center flex-wrap gap-2">
+                                    <span class="question-number">29</span>
+                                    <h2 class="question-title h5 mb-0">What are the different types of gems in Ruby?</h2>
+                                </div>
+                                <div class="d-flex gap-2 mt-2 mt-sm-0">
+                                    <span class="difficulty-badge bg-warning text-white">Intermediate</span>
+                                    <span class="category-badge"><i class="fas fa-th"></i> Gems</span>
+                                    <span class="category-badge"><i class="fas fa-eye me-1"></i>10,976</span>
+                                    <i class="fas fa-chevron-down toggle-icon" id="toggle-icon-29" style="transform: rotate(180deg);"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="question-body show" id="answer-29">
+                            <div class="answer-section"><div class="answer-title"><i class="fas fa-comment-dots me-2 text-primary"></i>Answer:</div><div class="answer-content">Ruby gems are packages with different types and purposes. In 2026: 1) Application gems - run the app (rails), 2) Development gems - dev tools (pry, rubocop), 3) Testing gems - testing (rspec, capybara), 4) Database gems - database adapters (pg, mysql2), 5) Utility gems - helper functions (active_support), 6) Authentication gems - auth (devise), 7) API gems - API clients (faraday, httparty). Gems are managed via Bundler.</div></div>
+                                                        <div class="example-section">
+                                <div class="example-header"><i class="fas fa-code"></i><span>📝 Code Example</span></div>
+                                <pre class="example-content language-ruby" tabindex="0"><code class="language-ruby">Ruby Gems:
+    
+    1. Gemfile Example
+       source 'https://rubygems.org'
+        
+       # Application gems
+       gem 'rails', '~&gt; 7.0.0'
+       gem 'pg', '~&gt; 1.4'
+        
+       # Development gems
+       group :development do
+           gem 'pry'
+           gem 'rubocop'
+           gem 'better_errors'
+       end
+        
+       # Testing gems
+       group :development, :test do
+           gem 'rspec-rails'
+           gem 'factory_bot_rails'
+           gem 'capybara'
+       end
+        
+       # Authentication
+       gem 'devise'
+        
+       # API
+       gem 'httparty'
+        
+       # Utilities
+       gem 'active_model_serializers'
+    
+    2. Common Gem Types
+       Type | Example | Purpose
+       ----|---------|---------
+       Web Framework | Rails | Web apps
+       Testing | RSpec | Testing
+       Debugging | Pry | Debugging
+       Authentication | Devise | User auth
+       Database | pg | PostgreSQL
+       API Client | HTTParty | HTTP requests
+       Serialization | ActiveModel | JSON/XML
+       Background | Sidekiq | Background jobs
+       Pagination | Kaminari | Pagination
+    
+    3. Gem Commands
+       # Install gem
+       gem install rails
+        
+       # Install from Gemfile
+       bundle install
+        
+       # Update gems
+       bundle update
+        
+       # List installed gems
+       gem list
+        
+       # Search for gems
+       gem search rails
+    
+    4. Best Practices
+       - Use Bundler for management
+       - Version pin gems
+       - Use groups for environments
+       - Keep gems minimal
+       - Update gems regularly</code></pre>
+                                <button class="copy-btn" onclick="copyCode(this)"><i class="fas fa-copy"></i> Copy Code</button>
+                            </div>
+                                                                                    <div class="explanation-section"><div class="explanation-title"><i class="fas fa-lightbulb me-2 text-warning"></i>Detailed Explanation:</div><div class="answer-content">Ruby gems are packages managed via Bundler. Types include application gems (rails), development gems (pry), testing gems (rspec), database gems (pg), utility gems, authentication gems (devise), and API gems (httparty).</div></div>
+                                                        <div class="mt-3 pt-2 border-top"><small class="text-muted"><i class="fas fa-calendar-alt me-1"></i>Added: 2026-09-01<span class="mx-2">•</span><i class="fas fa-chart-line me-1"></i>10,976 views</small></div>
+                        </div>
+                    </article>
+                                        <article class="question-card" id="question-30">
+                        <div class="question-header" onclick="toggleQuestion(30)">
+                            <div class="d-flex justify-content-between align-items-start flex-wrap">
+                                <div class="d-flex align-items-center flex-wrap gap-2">
+                                    <span class="question-number">30</span>
+                                    <h2 class="question-title h5 mb-0">What are best practices for Rails development?</h2>
+                                </div>
+                                <div class="d-flex gap-2 mt-2 mt-sm-0">
+                                    <span class="difficulty-badge bg-danger text-white">Advanced</span>
+                                    <span class="category-badge"><i class="fas fa-th"></i> Best Practices</span>
+                                    <span class="category-badge"><i class="fas fa-eye me-1"></i>9,976</span>
+                                    <i class="fas fa-chevron-down toggle-icon" id="toggle-icon-30" style="transform: rotate(180deg);"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="question-body show" id="answer-30">
+                            <div class="answer-section"><div class="answer-title"><i class="fas fa-comment-dots me-2 text-primary"></i>Answer:</div><div class="answer-content">Rails best practices in 2026: 1) Follow MVC pattern, 2) Use RESTful routes, 3) Use strong parameters, 4) Use validations, 5) Use scopes, 6) Use callbacks wisely, 7) Use concerns for shared code, 8) Use service objects, 9) Use decorators/presenters, 10) Use background jobs, 11) Use caching, 12) Use pagination, 13) Use environment variables, 14) Write tests, 15) Use Rubocop.</div></div>
+                                                        <div class="example-section">
+                                <div class="example-header"><i class="fas fa-code"></i><span>📝 Code Example</span></div>
+                                <pre class="example-content language-ruby" tabindex="0"><code class="language-ruby">Rails Best Practices:
+    
+    1. RESTful Routes
+       resources :users do
+           collection do
+               get :search
+           end
+           
+           member do
+               post :activate
+           end
+       end
+    
+    2. Strong Parameters
+       class UsersController &lt; ApplicationController
+           def create
+               @user = User.new(user_params)
+               if @user.save
+                   redirect_to @user
+               else
+                   render :new
+               end
+           end
+           
+           private
+           
+           def user_params
+               params.require(:user).permit(:name, :email, :password)
+           end
+       end
+    
+    3. Validations
+       class User &lt; ApplicationRecord
+           validates :name, presence: true, length: { minimum: 3 }
+           validates :email, presence: true, uniqueness: true
+           validates :password, length: { minimum: 6 }
+       end
+    
+    4. Scopes
+       class User &lt; ApplicationRecord
+           scope :active, -&gt; { where(active: true) }
+           scope :by_name, -&gt;(name) { where('name ILIKE ?', \"%#{name}%\") }
+           scope :recent, -&gt; { order(created_at: :desc).limit(10) }
+       end
+        
+       User.active.by_name('John')
+    
+    5. Concerns
+       module Loggable
+           extend ActiveSupport::Concern
+           
+           included do
+               after_create :log_creation
+           end
+           
+           def log_creation
+               Rails.logger.info '#{self.class} created'
+           end
+       end
+        
+       class User &lt; ApplicationRecord
+           include Loggable
+       end
+    
+    6. Service Objects
+       class UserCreator
+           def initialize(params)
+               @params = params
+           end
+           
+           def call
+               user = User.new(@params)
+               if user.save
+                   send_welcome_email(user)
+                   true
+               else
+                   false
+               end
+           end
+       end
+    
+    7. Background Jobs
+       class UserNotificationJob &lt; ApplicationJob
+           queue_as :default
+           
+           def perform(user)
+               UserMailer.welcome(user).deliver_later
+           end
+       end
+    
+    8. Caching
+       class UsersController &lt; ApplicationController
+           def index
+               @users = Rails.cache.fetch('users', expires_in: 1.hour) do
+                   User.all.to_a
+               end
+           end
+       end
+    
+    9. Environment Variables
+       # .env
+       DATABASE_URL=postgresql://localhost
+       SECRET_KEY=abc123
+        
+       # config/application.rb
+       ENV['DATABASE_URL']
+    
+    10. Testing
+        describe 'User' do
+            let(:user) { User.new(name: 'John', email: 'john@example.com') }
+            
+            it 'is valid with valid attributes' do
+                expect(user).to be_valid
+            end
+        end
+    
+    11. Best Practices Summary
+        Practice | Description
+        --------|------------
+        MVC | Follow pattern
+        RESTful | Use REST routes
+        Strong Params | Parameter filtering
+        Validations | Model validation
+        Scopes | Query methods
+        Concerns | Shared code
+        Service Objects | Business logic
+        Background Jobs | Async tasks
+        Caching | Performance
+        Testing | RSpec tests</code></pre>
+                                <button class="copy-btn" onclick="copyCode(this)"><i class="fas fa-copy"></i> Copy Code</button>
+                            </div>
+                                                                                    <div class="explanation-section"><div class="explanation-title"><i class="fas fa-lightbulb me-2 text-warning"></i>Detailed Explanation:</div><div class="answer-content">Rails best practices include following MVC, RESTful routes, strong parameters, validations, scopes, concerns, service objects, background jobs, caching, environment variables, and testing.</div></div>
+                                                        <div class="mt-3 pt-2 border-top"><small class="text-muted"><i class="fas fa-calendar-alt me-1"></i>Added: 2026-09-01<span class="mx-2">•</span><i class="fas fa-chart-line me-1"></i>9,976 views</small></div>
+                        </div>
+                    </article>
+                                                </div>

@@ -5,7 +5,8 @@ A self-contained Java tutorial website with **real code execution**. Its structu
 - 167 Java Tutorial pages in 13 groups, plus a separate Java Core Advance area with 18 sections and 116 interview-focused lessons
 - The advanced menu has its own route, expandable sidebar, search scope, and Previous/Next order; the basic Java Tutorial remains separate
 - Spring Framework (30 lessons), Spring Boot (25 lessons) and web Security (12 lessons) courses whose examples run in a local Maven lab
-- A Ruby course (52 pages, 112 runnable examples run by your local Ruby) and a Ruby on Rails course (54 pages following the Rails 8.1 Guides index)
+- A Ruby course (58 pages, 112 runnable examples run by your local Ruby) and a Ruby on Rails course (61 pages following the Rails 8.1 Guides index)
+- Ruby and Rails interview sections with 630 questions and answers (336 Ruby, 294 Rails), collected from the notes in `interview/ruby/` with duplicates merged
 - 270 runnable examples, each with a "Run here" button and a "Try it Yourself »" editor
 - 55 fill-in-the-blank exercises, 15 code challenges and 12 practice problems
 - A 25-question quiz and a 30-question final exam
@@ -78,8 +79,9 @@ public/
   js/content/core_*.js     Java Core Advance roadmap and lessons
   js/content/spring*/      Spring Framework and Spring Boot lesson registrations
   js/content/security/    Security lesson registrations
-  js/content/ruby/        Ruby lessons, interview questions and quiz
-  js/content/rails/       Ruby on Rails lessons, interview questions and quiz
+  js/content/ruby/        Ruby lessons, interview question data and quiz
+  js/content/rails/       Ruby on Rails lessons, interview question data and quiz
+  js/content/interview.js Ruby and Rails interview pages built from */interview_data.js
 docs/
   ANALYSIS.md             reverse-engineering findings and deviations from the reference
   PLAN.md                 build plan, content-authoring guide and test log
@@ -115,11 +117,13 @@ The `/security/` route contains one web-security course with 3 sections and 12 l
 
 # Ruby learning area
 
-The `/ruby/` route teaches Ruby in the order of a W3Schools tutorial: Ruby Tutorial (syntax, output, variables, data types, strings, symbols, operators, input), Control Flow, Collections, Methods and Blocks, Object-Oriented Ruby (classes, modules, mixins, duck typing, equality) and Ruby Advanced (exceptions, files, Struct and Data, pattern matching, frozen objects, metaprogramming, gems). It ends with interview questions and a quiz. Every example runs on the local Ruby (**Run here** / **Try it Yourself**), and the output shown on the page is the real output of Ruby 3.4.
+The `/ruby/` route teaches Ruby in the order of a W3Schools tutorial: Ruby Tutorial (syntax, output, variables, data types, strings, symbols, operators, input), Control Flow, Collections, Methods and Blocks, Object-Oriented Ruby (classes, modules, mixins, duck typing, equality) and Ruby Advanced (exceptions, files, Struct and Data, pattern matching, frozen objects, metaprogramming, gems). It ends with a Ruby Interview section (basics, collections, methods and blocks, OOP, advanced topics, output questions and coding problems) and a quiz. Every example runs on the local Ruby (**Run here** / **Try it Yourself**), and the output shown on the page is the real output of Ruby 3.4.
 
 # Ruby on Rails learning area
 
-The `/rails/` route follows the Guides Index of guides.rubyonrails.org for Rails 8.1: Start Here, Models (Active Record), Views, Controllers, Rails Features (authentication generator, Solid Queue jobs, Action Mailer, Active Storage), Digging Deeper and Going to Production (Puma, caching with Solid Cache, security, error reporting, Kamal). Lessons are original text written for this site. Rails code needs a Rails application, so it is shown with the result Rails prints (console values, SQL, terminal output) rather than run here. Release notes, contributing and policy guides are not included.
+The `/rails/` route follows the Guides Index of guides.rubyonrails.org for Rails 8.1: Start Here, Models (Active Record), Views, Controllers, Rails Features (authentication generator, Solid Queue jobs, Action Mailer, Active Storage), Digging Deeper and Going to Production (Puma, caching with Solid Cache, security, error reporting, Kamal). Lessons are original text written for this site. Rails code needs a Rails application, so it is shown with the result Rails prints (console values, SQL, terminal output) rather than run here. Release notes, contributing and policy guides are not included. The course ends with a Rails Interview section (basics, models, database and queries, controllers and views, security, jobs and caching, testing and deployment, and production scenarios) and a quiz.
+
+Each interview page groups questions by topic and labels them Beginner, Intermediate or Advanced. Questions that appeared several times in the source notes are merged into one answer, with the other wordings listed under it. A filter box searches the questions on the page.
 
 # Lesson format
 

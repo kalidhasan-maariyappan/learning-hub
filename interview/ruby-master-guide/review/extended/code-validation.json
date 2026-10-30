@@ -1,0 +1,58 @@
+{
+  "runtime": "ruby 4.0.1 (2026-01-13 revision e04267a14b) +PRISM [x64-mingw-ucrt]",
+  "compiled": 378,
+  "skippedNonRubyOrIllustrative": [
+    "seven:FAQ1",
+    "seven:FAQ2",
+    "seven:FAQ3",
+    "seven:FAQ4",
+    "seven:FAQ5",
+    "eight:Expert-01",
+    "eight:Expert-09",
+    "nine:58",
+    "nine:69",
+    "nine:72",
+    "ten:5",
+    "ten:23",
+    "ten:26",
+    "ten:29",
+    "ten:30",
+    "ten:32",
+    "ten:33",
+    "ten:34",
+    "ten:37",
+    "ten:50",
+    "ten:52",
+    "eleven:11",
+    "eleven:14",
+    "thirteen:replay-Move Stones Over Grid",
+    "nineteen:60",
+    "nineteen:comparison",
+    "nineteen:FAQ1",
+    "nineteen:FAQ2",
+    "nineteen:FAQ3",
+    "nineteen:FAQ4",
+    "nineteen:FAQ5",
+    "nineteen:FAQ6",
+    "eight:preparation-strategy"
+  ],
+  "failures": [
+    {
+      "key": "twentyone:case-3",
+      "error": "<compiled>:2: syntax errors found\n"
+    },
+    {
+      "key": "twentyone:case-9",
+      "error": "<compiled>:2: syntax errors found\n"
+    },
+    {
+      "key": "twentyone:comparison-10",
+      "error": "<compiled>:4: syntax errors found\n"
+    }
+  ],
+  "intentionallyInvalidMCQ": [
+    "twentyone:case-3",
+    "twentyone:case-9",
+    "twentyone:comparison-10"
+  ]
+}

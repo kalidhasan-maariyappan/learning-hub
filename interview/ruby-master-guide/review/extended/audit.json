@@ -1,0 +1,3631 @@
+[
+  {
+    "sourceFile": "seven.txt",
+    "bytes": 20774,
+    "sha256": "362e9ad5afbffc9c56b67a11306f809f0ab0bee6853fc4db8b82cfb7af2f893c",
+    "totalLines": 417,
+    "readRanges": [
+      [
+        1,
+        417
+      ]
+    ],
+    "processedCompletely": true,
+    "extractedCount": 25,
+    "recordRanges": [
+      [
+        23,
+        42
+      ],
+      [
+        43,
+        51
+      ],
+      [
+        52,
+        68
+      ],
+      [
+        69,
+        81
+      ],
+      [
+        82,
+        88
+      ],
+      [
+        89,
+        104
+      ],
+      [
+        105,
+        133
+      ],
+      [
+        134,
+        155
+      ],
+      [
+        156,
+        172
+      ],
+      [
+        173,
+        196
+      ],
+      [
+        197,
+        216
+      ],
+      [
+        217,
+        229
+      ],
+      [
+        230,
+        250
+      ],
+      [
+        251,
+        272
+      ],
+      [
+        273,
+        281
+      ],
+      [
+        282,
+        294
+      ],
+      [
+        295,
+        313
+      ],
+      [
+        314,
+        335
+      ],
+      [
+        336,
+        353
+      ],
+      [
+        354,
+        378
+      ],
+      [
+        401,
+        404
+      ],
+      [
+        405,
+        407
+      ],
+      [
+        408,
+        410
+      ],
+      [
+        411,
+        413
+      ],
+      [
+        414,
+        417
+      ]
+    ],
+    "excludedContent": "Publisher metadata, marketing, navigation/table-of-contents repeats, editor widget labels and unrelated footer links. Full originals remain unchanged.",
+    "notes": [],
+    "omittedRanges": [
+      {
+        "startLine": 1,
+        "endLine": 22,
+        "disposition": "Publisher metadata, introduction/duplicate table of contents, section framing, promotion, related-link or footer material; original text retained in the unchanged source file. Technical concepts appearing here are covered by the extracted concept/question records."
+      },
+      {
+        "startLine": 379,
+        "endLine": 400,
+        "disposition": "Publisher metadata, introduction/duplicate table of contents, section framing, promotion, related-link or footer material; original text retained in the unchanged source file. Technical concepts appearing here are covered by the extracted concept/question records."
+      }
+    ],
+    "corrections": [
+      {
+        "key": "seven:2",
+        "startLine": 43,
+        "issue": "Updated private-method receiver rule: literal self is permitted in Ruby 2.7+; older blanket prohibition is outdated."
+      },
+      {
+        "key": "seven:3",
+        "startLine": 52,
+        "issue": "Qualified absolute identity/performance claims: frozen strings may be shared; dynamic symbols can be collected; symbols are not universally faster."
+      },
+      {
+        "key": "seven:13",
+        "startLine": 230,
+        "issue": "Corrected non-lambda Proc return target: defining method, not calling method."
+      },
+      {
+        "key": "seven:18",
+        "startLine": 314,
+        "issue": "Clarified that plain Enumerator transformations are not inherently lazy; use Enumerator::Lazy."
+      }
+    ],
+    "incompleteSourcePrompts": [
+      {
+        "key": "seven:FAQ2",
+        "startLine": 405,
+        "issues": [
+          "Incomplete source: this FAQ prompt has no captured answer; an original study recommendation is supplied."
+        ]
+      },
+      {
+        "key": "seven:FAQ3",
+        "startLine": 408,
+        "issues": [
+          "Incomplete source: this FAQ prompt has no captured answer; an original study recommendation is supplied."
+        ]
+      },
+      {
+        "key": "seven:FAQ4",
+        "startLine": 411,
+        "issues": [
+          "Incomplete source: this FAQ prompt has no captured answer; an original study recommendation is supplied."
+        ]
+      },
+      {
+        "key": "seven:FAQ5",
+        "startLine": 414,
+        "issues": [
+          "Incomplete source: this FAQ prompt has no captured answer; an original study recommendation is supplied."
+        ]
+      }
+    ],
+    "repeatedContentsMappings": []
+  },
+  {
+    "sourceFile": "eight.txt",
+    "bytes": 18308,
+    "sha256": "dd839729f781971ab62f1d5554ab3ef40bb5112e652ed6b3930ae3c19542e0eb",
+    "totalLines": 347,
+    "readRanges": [
+      [
+        1,
+        347
+      ]
+    ],
+    "processedCompletely": true,
+    "extractedCount": 31,
+    "recordRanges": [
+      [
+        19,
+        27
+      ],
+      [
+        28,
+        35
+      ],
+      [
+        36,
+        43
+      ],
+      [
+        44,
+        49
+      ],
+      [
+        50,
+        59
+      ],
+      [
+        60,
+        72
+      ],
+      [
+        73,
+        86
+      ],
+      [
+        87,
+        96
+      ],
+      [
+        97,
+        109
+      ],
+      [
+        110,
+        120
+      ],
+      [
+        121,
+        127
+      ],
+      [
+        128,
+        144
+      ],
+      [
+        145,
+        163
+      ],
+      [
+        164,
+        172
+      ],
+      [
+        173,
+        184
+      ],
+      [
+        185,
+        196
+      ],
+      [
+        197,
+        202
+      ],
+      [
+        203,
+        209
+      ],
+      [
+        210,
+        219
+      ],
+      [
+        220,
+        231
+      ],
+      [
+        232,
+        237
+      ],
+      [
+        238,
+        244
+      ],
+      [
+        245,
+        259
+      ],
+      [
+        260,
+        271
+      ],
+      [
+        272,
+        287
+      ],
+      [
+        288,
+        293
+      ],
+      [
+        294,
+        302
+      ],
+      [
+        303,
+        314
+      ],
+      [
+        315,
+        320
+      ],
+      [
+        321,
+        331
+      ],
+      [
+        332,
+        340
+      ]
+    ],
+    "excludedContent": "Publisher metadata, marketing, navigation/table-of-contents repeats, editor widget labels and unrelated footer links. Full originals remain unchanged.",
+    "notes": [],
+    "omittedRanges": [
+      {
+        "startLine": 1,
+        "endLine": 18,
+        "disposition": "Publisher metadata, introduction/duplicate table of contents, section framing, promotion, related-link or footer material; original text retained in the unchanged source file. Technical concepts appearing here are covered by the extracted concept/question records."
+      },
+      {
+        "startLine": 341,
+        "endLine": 347,
+        "disposition": "Publisher metadata, introduction/duplicate table of contents, section framing, promotion, related-link or footer material; original text retained in the unchanged source file. Technical concepts appearing here are covered by the extracted concept/question records."
+      }
+    ],
+    "corrections": [
+      {
+        "key": "eight:Junior-01",
+        "startLine": 19,
+        "issue": "Qualified absolute identity/performance claims: frozen strings may be shared; dynamic symbols can be collected; symbols are not universally faster."
+      },
+      {
+        "key": "eight:Junior-06",
+        "startLine": 60,
+        "issue": "Source answer contradicts itself about whether puts should be used. Corrected to distinguish printing from returning."
+      },
+      {
+        "key": "eight:Mid-09",
+        "startLine": 210,
+        "issue": "Rails 6.0.3 in the source Gemfile is a historical example, not a current version recommendation."
+      },
+      {
+        "key": "eight:Expert-02",
+        "startLine": 238,
+        "issue": "Source omitted require \"objspace\" for extended ObjectSpace inspection methods."
+      },
+      {
+        "key": "eight:Expert-04",
+        "startLine": 260,
+        "issue": "Clarified output versus Fiber#resume return values and scheduler behavior."
+      },
+      {
+        "key": "eight:Expert-05",
+        "startLine": 272,
+        "issue": "Source loosely equates monads with a design pattern and side effects; added the operation/law requirement."
+      }
+    ],
+    "incompleteSourcePrompts": [],
+    "repeatedContentsMappings": []
+  },
+  {
+    "sourceFile": "nine.txt",
+    "bytes": 42216,
+    "sha256": "fdcf72b93f26e87456219abbcdf1a8fff819b68e72f4c082a77b2fcb82cf7910",
+    "totalLines": 853,
+    "readRanges": [
+      [
+        1,
+        853
+      ]
+    ],
+    "processedCompletely": true,
+    "extractedCount": 100,
+    "recordRanges": [
+      [
+        8,
+        14
+      ],
+      [
+        15,
+        19
+      ],
+      [
+        20,
+        28
+      ],
+      [
+        29,
+        37
+      ],
+      [
+        38,
+        46
+      ],
+      [
+        47,
+        56
+      ],
+      [
+        57,
+        65
+      ],
+      [
+        66,
+        77
+      ],
+      [
+        78,
+        81
+      ],
+      [
+        82,
+        87
+      ],
+      [
+        88,
+        91
+      ],
+      [
+        92,
+        95
+      ],
+      [
+        96,
+        101
+      ],
+      [
+        102,
+        105
+      ],
+      [
+        106,
+        109
+      ],
+      [
+        110,
+        113
+      ],
+      [
+        114,
+        119
+      ],
+      [
+        120,
+        127
+      ],
+      [
+        128,
+        131
+      ],
+      [
+        132,
+        139
+      ],
+      [
+        140,
+        143
+      ],
+      [
+        144,
+        149
+      ],
+      [
+        150,
+        153
+      ],
+      [
+        154,
+        157
+      ],
+      [
+        158,
+        165
+      ],
+      [
+        166,
+        175
+      ],
+      [
+        176,
+        179
+      ],
+      [
+        180,
+        186
+      ],
+      [
+        187,
+        196
+      ],
+      [
+        197,
+        205
+      ],
+      [
+        206,
+        212
+      ],
+      [
+        213,
+        224
+      ],
+      [
+        225,
+        230
+      ],
+      [
+        231,
+        236
+      ],
+      [
+        237,
+        247
+      ],
+      [
+        248,
+        253
+      ],
+      [
+        254,
+        262
+      ],
+      [
+        263,
+        283
+      ],
+      [
+        284,
+        311
+      ],
+      [
+        312,
+        315
+      ],
+      [
+        316,
+        333
+      ],
+      [
+        334,
+        342
+      ],
+      [
+        343,
+        346
+      ],
+      [
+        347,
+        354
+      ],
+      [
+        355,
+        358
+      ],
+      [
+        359,
+        366
+      ],
+      [
+        367,
+        374
+      ],
+      [
+        375,
+        380
+      ],
+      [
+        381,
+        388
+      ],
+      [
+        389,
+        404
+      ],
+      [
+        405,
+        420
+      ],
+      [
+        421,
+        434
+      ],
+      [
+        435,
+        444
+      ],
+      [
+        445,
+        466
+      ],
+      [
+        467,
+        470
+      ],
+      [
+        471,
+        482
+      ],
+      [
+        483,
+        488
+      ],
+      [
+        489,
+        494
+      ],
+      [
+        495,
+        500
+      ],
+      [
+        501,
+        508
+      ],
+      [
+        509,
+        512
+      ],
+      [
+        513,
+        516
+      ],
+      [
+        517,
+        522
+      ],
+      [
+        523,
+        526
+      ],
+      [
+        527,
+        530
+      ],
+      [
+        531,
+        534
+      ],
+      [
+        535,
+        538
+      ],
+      [
+        539,
+        542
+      ],
+      [
+        543,
+        546
+      ],
+      [
+        547,
+        555
+      ],
+      [
+        556,
+        559
+      ],
+      [
+        560,
+        565
+      ],
+      [
+        566,
+        571
+      ],
+      [
+        572,
+        577
+      ],
+      [
+        578,
+        585
+      ],
+      [
+        586,
+        591
+      ],
+      [
+        592,
+        597
+      ],
+      [
+        598,
+        604
+      ],
+      [
+        605,
+        613
+      ],
+      [
+        614,
+        624
+      ],
+      [
+        625,
+        633
+      ],
+      [
+        634,
+        637
+      ],
+      [
+        638,
+        641
+      ],
+      [
+        642,
+        659
+      ],
+      [
+        660,
+        667
+      ],
+      [
+        668,
+        675
+      ],
+      [
+        676,
+        682
+      ],
+      [
+        683,
+        691
+      ],
+      [
+        692,
+        706
+      ],
+      [
+        707,
+        715
+      ],
+      [
+        716,
+        725
+      ],
+      [
+        726,
+        737
+      ],
+      [
+        738,
+        761
+      ],
+      [
+        762,
+        770
+      ],
+      [
+        771,
+        774
+      ],
+      [
+        775,
+        786
+      ],
+      [
+        787,
+        795
+      ],
+      [
+        796,
+        804
+      ],
+      [
+        805,
+        813
+      ],
+      [
+        814,
+        818
+      ]
+    ],
+    "excludedContent": "Publisher metadata, marketing, navigation/table-of-contents repeats, editor widget labels and unrelated footer links. Full originals remain unchanged.",
+    "notes": [
+      "Lines 835–853 are related-post teasers about Ruby and Rails already covered by the extracted Ruby/Rails definition records, not additional complete interview questions."
+    ],
+    "omittedRanges": [
+      {
+        "startLine": 1,
+        "endLine": 7,
+        "disposition": "Publisher metadata, introduction/duplicate table of contents, section framing, promotion, related-link or footer material; original text retained in the unchanged source file. Technical concepts appearing here are covered by the extracted concept/question records."
+      },
+      {
+        "startLine": 819,
+        "endLine": 853,
+        "disposition": "Publisher metadata, introduction/duplicate table of contents, section framing, promotion, related-link or footer material; original text retained in the unchanged source file. Technical concepts appearing here are covered by the extracted concept/question records."
+      }
+    ],
+    "corrections": [
+      {
+        "key": "nine:2",
+        "startLine": 15,
+        "issue": "Corrected creator nickname from Martz to Matz."
+      },
+      {
+        "key": "nine:13",
+        "startLine": 96,
+        "issue": "Corrected obsolete/wrong claim that retry restarts a whole loop."
+      },
+      {
+        "key": "nine:18",
+        "startLine": 120,
+        "issue": "Corrected claim that both syntaxes always have identical functionality."
+      },
+      {
+        "key": "nine:26",
+        "startLine": 166,
+        "issue": "Qualified “single space concatenation” as adjacent literals, not arbitrary variables."
+      },
+      {
+        "key": "nine:28",
+        "startLine": 180,
+        "issue": "Corrected casecmp return-value claim."
+      },
+      {
+        "key": "nine:34",
+        "startLine": 231,
+        "issue": "Corrected contradictory claim that Time.new always requires a year."
+      },
+      {
+        "key": "nine:39",
+        "startLine": 284,
+        "issue": "Corrected truncated method name and missing closure in examples."
+      },
+      {
+        "key": "nine:40",
+        "startLine": 312,
+        "issue": "Corrected claim that sysread opens a file in any mode."
+      },
+      {
+        "key": "nine:42",
+        "startLine": 334,
+        "issue": "Replaced removed Dir.exists? with Dir.exist?."
+      },
+      {
+        "key": "nine:46",
+        "startLine": 359,
+        "issue": "Source syntax example was missing; supplied a bounded retry illustration."
+      },
+      {
+        "key": "nine:47",
+        "startLine": 367,
+        "issue": "Qualified source’s absolute “always runs” claim and added return-in-ensure caveat."
+      },
+      {
+        "key": "nine:56",
+        "startLine": 471,
+        "issue": "Clarified the source expression’s output-length off-by-two behavior."
+      },
+      {
+        "key": "nine:58",
+        "startLine": 489,
+        "issue": "Corrected outdated gem-versus-plugin location rule."
+      },
+      {
+        "key": "nine:60",
+        "startLine": 501,
+        "issue": "Corrected nonsensical Float/Dig/Max descriptions and capitalization."
+      },
+      {
+        "key": "nine:65",
+        "startLine": 527,
+        "issue": "Updated historical Fixnum/Bignum class explanation."
+      },
+      {
+        "key": "nine:68",
+        "startLine": 539,
+        "issue": "Incomplete/ambiguous question wording retained; explained only the identifiable method-call content."
+      },
+      {
+        "key": "nine:69",
+        "startLine": 543,
+        "issue": "Flagged removed taint/safe-level option -T in old source."
+      },
+      {
+        "key": "nine:75",
+        "startLine": 578,
+        "issue": "Updated private-method receiver rule: literal self is permitted in Ruby 2.7+; older blanket prohibition is outdated."
+      },
+      {
+        "key": "nine:78",
+        "startLine": 598,
+        "issue": "Updated private-method receiver rule: literal self is permitted in Ruby 2.7+; older blanket prohibition is outdated."
+      },
+      {
+        "key": "nine:83",
+        "startLine": 638,
+        "issue": "Corrected nonexistent method_missing? name and oversimplified lookup order."
+      },
+      {
+        "key": "nine:86",
+        "startLine": 668,
+        "issue": "Corrected pasted typographic quote delimiters and clarified inspected output."
+      },
+      {
+        "key": "nine:87",
+        "startLine": 676,
+        "issue": "Added missing lowercase-rest behavior."
+      },
+      {
+        "key": "nine:88",
+        "startLine": 683,
+        "issue": "Source simplification omitted lowercasing the remaining characters."
+      },
+      {
+        "key": "nine:90",
+        "startLine": 707,
+        "issue": "Qualified source’s claim that each/map leave the original unaffected regardless of block behavior."
+      },
+      {
+        "key": "nine:95",
+        "startLine": 771,
+        "issue": "Clarified instance-level extensions versus modules mixed into the ordinary class."
+      },
+      {
+        "key": "nine:98",
+        "startLine": 796,
+        "issue": "Corrected suggestion that #binding simply alters a closure’s binding."
+      }
+    ],
+    "incompleteSourcePrompts": [
+      {
+        "key": "nine:49",
+        "startLine": 381,
+        "issues": [
+          "Incomplete source: referenced val1/val2 code is absent."
+        ]
+      },
+      {
+        "key": "nine:51",
+        "startLine": 405,
+        "issues": [
+          "Incomplete source: missing definitions and original call list."
+        ]
+      },
+      {
+        "key": "nine:52",
+        "startLine": 421,
+        "issues": [
+          "Incomplete source: referenced code line is missing; example explicitly reconstructed."
+        ]
+      },
+      {
+        "key": "nine:84",
+        "startLine": 642,
+        "issues": [
+          "Incomplete source: original code is absent."
+        ]
+      },
+      {
+        "key": "nine:89",
+        "startLine": 692,
+        "issues": [
+          "Incomplete source: defining class/method is missing."
+        ]
+      },
+      {
+        "key": "nine:92",
+        "startLine": 726,
+        "issues": [
+          "Incomplete source: ABC/xyz implementation is missing."
+        ]
+      },
+      {
+        "key": "nine:94",
+        "startLine": 762,
+        "issues": [
+          "Incomplete source and inaccurate explanation: missing prior code; reading alone does not define a local."
+        ]
+      }
+    ],
+    "repeatedContentsMappings": []
+  },
+  {
+    "sourceFile": "ten.txt",
+    "bytes": 22504,
+    "sha256": "18cd0d428c98d0b58de0b51e6885cd0bb975be808e6a6410a2a534ff640faf00",
+    "totalLines": 414,
+    "readRanges": [
+      [
+        1,
+        414
+      ]
+    ],
+    "processedCompletely": true,
+    "extractedCount": 52,
+    "recordRanges": [
+      [
+        30,
+        32
+      ],
+      [
+        33,
+        40
+      ],
+      [
+        41,
+        43
+      ],
+      [
+        44,
+        46
+      ],
+      [
+        47,
+        52
+      ],
+      [
+        53,
+        55
+      ],
+      [
+        56,
+        60
+      ],
+      [
+        61,
+        63
+      ],
+      [
+        64,
+        67
+      ],
+      [
+        68,
+        76
+      ],
+      [
+        77,
+        79
+      ],
+      [
+        80,
+        85
+      ],
+      [
+        86,
+        88
+      ],
+      [
+        89,
+        94
+      ],
+      [
+        95,
+        97
+      ],
+      [
+        98,
+        103
+      ],
+      [
+        104,
+        106
+      ],
+      [
+        107,
+        112
+      ],
+      [
+        113,
+        115
+      ],
+      [
+        116,
+        121
+      ],
+      [
+        122,
+        124
+      ],
+      [
+        125,
+        130
+      ],
+      [
+        131,
+        133
+      ],
+      [
+        134,
+        140
+      ],
+      [
+        141,
+        143
+      ],
+      [
+        144,
+        146
+      ],
+      [
+        147,
+        152
+      ],
+      [
+        153,
+        157
+      ],
+      [
+        158,
+        160
+      ],
+      [
+        161,
+        166
+      ],
+      [
+        167,
+        169
+      ],
+      [
+        170,
+        172
+      ],
+      [
+        173,
+        178
+      ],
+      [
+        179,
+        183
+      ],
+      [
+        184,
+        188
+      ],
+      [
+        189,
+        194
+      ],
+      [
+        195,
+        200
+      ],
+      [
+        201,
+        205
+      ],
+      [
+        206,
+        227
+      ],
+      [
+        228,
+        242
+      ],
+      [
+        243,
+        245
+      ],
+      [
+        246,
+        257
+      ],
+      [
+        258,
+        276
+      ],
+      [
+        277,
+        286
+      ],
+      [
+        287,
+        294
+      ],
+      [
+        295,
+        311
+      ],
+      [
+        312,
+        314
+      ],
+      [
+        315,
+        320
+      ],
+      [
+        321,
+        323
+      ],
+      [
+        324,
+        329
+      ],
+      [
+        330,
+        332
+      ],
+      [
+        333,
+        335
+      ]
+    ],
+    "excludedContent": "Publisher metadata, marketing, navigation/table-of-contents repeats, editor widget labels and unrelated footer links. Full originals remain unchanged.",
+    "notes": [],
+    "omittedRanges": [
+      {
+        "startLine": 1,
+        "endLine": 29,
+        "disposition": "Publisher metadata, introduction/duplicate table of contents, section framing, promotion, related-link or footer material; original text retained in the unchanged source file. Technical concepts appearing here are covered by the extracted concept/question records."
+      },
+      {
+        "startLine": 336,
+        "endLine": 414,
+        "disposition": "Publisher metadata, introduction/duplicate table of contents, section framing, promotion, related-link or footer material; original text retained in the unchanged source file. Technical concepts appearing here are covered by the extracted concept/question records."
+      }
+    ],
+    "corrections": [
+      {
+        "key": "ten:22",
+        "startLine": 125,
+        "issue": "Clarified that Rails observers were extracted from the default framework; modern behavior needs an explicit mechanism."
+      },
+      {
+        "key": "ten:24",
+        "startLine": 134,
+        "issue": "Corrected claim that controller namespaces guarantee compatibility."
+      },
+      {
+        "key": "ten:33",
+        "startLine": 173,
+        "issue": "Qualified old blanket claim that the pipeline always bundles/minifies/compresses all assets."
+      },
+      {
+        "key": "ten:39",
+        "startLine": 206,
+        "issue": "Corrected ambiguous render status: :not_found and unrestricted full-model serialization."
+      },
+      {
+        "key": "ten:44",
+        "startLine": 277,
+        "issue": "Improved quadratic duplicate scan and supplied explicit complexity."
+      },
+      {
+        "key": "ten:46",
+        "startLine": 295,
+        "issue": "Corrected typographic quote syntax, quadratic construction and ambiguous built-in restriction."
+      },
+      {
+        "key": "ten:52",
+        "startLine": 333,
+        "issue": "Labelled the source’s project story and 40% figure as illustrative, not established personal evidence."
+      }
+    ],
+    "incompleteSourcePrompts": [],
+    "repeatedContentsMappings": []
+  },
+  {
+    "sourceFile": "eleven.txt",
+    "bytes": 8779,
+    "sha256": "c6ffb9221f4f1aeacb1d84df71684ba8c352fee9d7fac05a398796b454592d1c",
+    "totalLines": 253,
+    "readRanges": [
+      [
+        1,
+        253
+      ]
+    ],
+    "processedCompletely": true,
+    "extractedCount": 15,
+    "recordRanges": [
+      [
+        26,
+        33
+      ],
+      [
+        34,
+        51
+      ],
+      [
+        52,
+        65
+      ],
+      [
+        66,
+        85
+      ],
+      [
+        86,
+        94
+      ],
+      [
+        95,
+        112
+      ],
+      [
+        113,
+        118
+      ],
+      [
+        119,
+        144
+      ],
+      [
+        145,
+        150
+      ],
+      [
+        151,
+        156
+      ],
+      [
+        157,
+        174
+      ],
+      [
+        175,
+        181
+      ],
+      [
+        182,
+        190
+      ],
+      [
+        191,
+        196
+      ],
+      [
+        197,
+        210
+      ]
+    ],
+    "excludedContent": "Publisher metadata, marketing, navigation/table-of-contents repeats, editor widget labels and unrelated footer links. Full originals remain unchanged.",
+    "notes": [],
+    "omittedRanges": [
+      {
+        "startLine": 1,
+        "endLine": 25,
+        "disposition": "Publisher metadata, introduction/duplicate table of contents, section framing, promotion, related-link or footer material; original text retained in the unchanged source file. Technical concepts appearing here are covered by the extracted concept/question records."
+      },
+      {
+        "startLine": 211,
+        "endLine": 253,
+        "disposition": "Publisher metadata, introduction/duplicate table of contents, section framing, promotion, related-link or footer material; original text retained in the unchanged source file. Technical concepts appearing here are covered by the extracted concept/question records."
+      }
+    ],
+    "corrections": [
+      {
+        "key": "eleven:4",
+        "startLine": 66,
+        "issue": "“Conversion operators” is not a standard Ruby operator category; conversions are typically methods such as Integer(), to_i and to_s."
+      },
+      {
+        "key": "eleven:4",
+        "startLine": 66,
+        "issue": "Conversions such as to_i/Integer() are methods, not a distinct built-in conversion-operator family."
+      },
+      {
+        "key": "eleven:10",
+        "startLine": 151,
+        "issue": "Corrected unsupported implication that Numeric has a built-in plus method."
+      },
+      {
+        "key": "eleven:13",
+        "startLine": 182,
+        "issue": "Separated Rails database/model/controller naming conventions from Ruby language rules."
+      },
+      {
+        "key": "eleven:13",
+        "startLine": 182,
+        "issue": "Corrected conflation of Ruby syntax rules with Rails naming conventions."
+      }
+    ],
+    "incompleteSourcePrompts": [],
+    "repeatedContentsMappings": [
+      {
+        "sourceLine": 219,
+        "question": "What are the standout features of the Ruby programming language?",
+        "disposition": "Repeated table-of-contents entry, not a separate answer occurrence",
+        "mapsToKey": "eleven:1",
+        "answerStartLine": 26
+      },
+      {
+        "sourceLine": 220,
+        "question": "What is the difference between raise/rescue and throw/catch in Ruby?",
+        "disposition": "Repeated table-of-contents entry, not a separate answer occurrence",
+        "mapsToKey": "eleven:2",
+        "answerStartLine": 34
+      },
+      {
+        "sourceLine": 221,
+        "question": "What are variables in Ruby?",
+        "disposition": "Repeated table-of-contents entry, not a separate answer occurrence",
+        "mapsToKey": "eleven:3",
+        "answerStartLine": 52
+      },
+      {
+        "sourceLine": 222,
+        "question": "What are the different operators used in Ruby?",
+        "disposition": "Repeated table-of-contents entry, not a separate answer occurrence",
+        "mapsToKey": "eleven:4",
+        "answerStartLine": 66
+      },
+      {
+        "sourceLine": 223,
+        "question": "What are the different class libraries used in Ruby?",
+        "disposition": "Repeated table-of-contents entry, not a separate answer occurrence",
+        "mapsToKey": "eleven:5",
+        "answerStartLine": 86
+      },
+      {
+        "sourceLine": 224,
+        "question": "What are the data types used in Ruby?",
+        "disposition": "Repeated table-of-contents entry, not a separate answer occurrence",
+        "mapsToKey": "eleven:6",
+        "answerStartLine": 95
+      },
+      {
+        "sourceLine": 225,
+        "question": "When is the “super” keyword used in Ruby?",
+        "disposition": "Repeated table-of-contents entry, not a separate answer occurrence",
+        "mapsToKey": "eleven:7",
+        "answerStartLine": 113
+      },
+      {
+        "sourceLine": 226,
+        "question": "What are Block, Proc, and Lambda in Ruby?",
+        "disposition": "Repeated table-of-contents entry, not a separate answer occurrence",
+        "mapsToKey": "eleven:8",
+        "answerStartLine": 119
+      },
+      {
+        "sourceLine": 227,
+        "question": "What is interpolation in the Ruby programming language?",
+        "disposition": "Repeated table-of-contents entry, not a separate answer occurrence",
+        "mapsToKey": "eleven:9",
+        "answerStartLine": 145
+      },
+      {
+        "sourceLine": 228,
+        "question": "Why is Ruby known as a flexible language?",
+        "disposition": "Repeated table-of-contents entry, not a separate answer occurrence",
+        "mapsToKey": "eleven:10",
+        "answerStartLine": 151
+      },
+      {
+        "sourceLine": 229,
+        "question": "What is Rails Migration?",
+        "disposition": "Repeated table-of-contents entry, not a separate answer occurrence",
+        "mapsToKey": "eleven:11",
+        "answerStartLine": 157
+      },
+      {
+        "sourceLine": 230,
+        "question": "What is a Rails Controller?",
+        "disposition": "Repeated table-of-contents entry, not a separate answer occurrence",
+        "mapsToKey": "eleven:12",
+        "answerStartLine": 175
+      },
+      {
+        "sourceLine": 231,
+        "question": "What are the naming conventions in Ruby?",
+        "disposition": "Repeated table-of-contents entry, not a separate answer occurrence",
+        "mapsToKey": "eleven:13",
+        "answerStartLine": 182
+      },
+      {
+        "sourceLine": 232,
+        "question": "How is the migration command created in Ruby?",
+        "disposition": "Repeated table-of-contents entry, not a separate answer occurrence",
+        "mapsToKey": "eleven:14",
+        "answerStartLine": 191
+      },
+      {
+        "sourceLine": 233,
+        "question": "What are load() and require() in Ruby?",
+        "disposition": "Repeated table-of-contents entry, not a separate answer occurrence",
+        "mapsToKey": "eleven:15",
+        "answerStartLine": 197
+      }
+    ]
+  },
+  {
+    "sourceFile": "thirteen.txt",
+    "bytes": 17541,
+    "sha256": "1be0ec1bdc50a523716b91672c99970dc134d1a4e9f8f2b5e505d7d0a2c8eaf7",
+    "totalLines": 311,
+    "readRanges": [
+      [
+        1,
+        311
+      ]
+    ],
+    "processedCompletely": true,
+    "extractedCount": 22,
+    "recordRanges": [
+      [
+        16,
+        22
+      ],
+      [
+        23,
+        33
+      ],
+      [
+        34,
+        36
+      ],
+      [
+        37,
+        45
+      ],
+      [
+        46,
+        59
+      ],
+      [
+        60,
+        83
+      ],
+      [
+        84,
+        94
+      ],
+      [
+        95,
+        102
+      ],
+      [
+        103,
+        120
+      ],
+      [
+        121,
+        123
+      ],
+      [
+        124,
+        132
+      ],
+      [
+        133,
+        139
+      ],
+      [
+        140,
+        159
+      ],
+      [
+        160,
+        173
+      ],
+      [
+        174,
+        203
+      ],
+      [
+        204,
+        221
+      ],
+      [
+        222,
+        248
+      ],
+      [
+        249,
+        272
+      ],
+      [
+        273,
+        283
+      ],
+      [
+        287,
+        290
+      ],
+      [
+        291,
+        294
+      ],
+      [
+        295,
+        298
+      ]
+    ],
+    "excludedContent": "Publisher metadata, marketing, navigation/table-of-contents repeats, editor widget labels and unrelated footer links. Full originals remain unchanged.",
+    "notes": [
+      "Lines 1–15 frame Ruby interview-language choice and contain dated 2022/2023 usage/salary statistics. These remain as raw source context; runtime distinctions are extracted at line 16. No current statistical claim is inferred."
+    ],
+    "omittedRanges": [
+      {
+        "startLine": 1,
+        "endLine": 15,
+        "disposition": "Publisher metadata, introduction/duplicate table of contents, section framing, promotion, related-link or footer material; original text retained in the unchanged source file. Technical concepts appearing here are covered by the extracted concept/question records."
+      },
+      {
+        "startLine": 284,
+        "endLine": 286,
+        "disposition": "Publisher metadata, introduction/duplicate table of contents, section framing, promotion, related-link or footer material; original text retained in the unchanged source file. Technical concepts appearing here are covered by the extracted concept/question records."
+      },
+      {
+        "startLine": 299,
+        "endLine": 311,
+        "disposition": "Publisher metadata, introduction/duplicate table of contents, section framing, promotion, related-link or footer material; original text retained in the unchanged source file. Technical concepts appearing here are covered by the extracted concept/question records."
+      }
+    ],
+    "corrections": [
+      {
+        "key": "thirteen:runtime",
+        "startLine": 16,
+        "issue": "The source’s 2022/2023 popularity and salary statistics are historical context, not current evidence."
+      },
+      {
+        "key": "thirteen:concept-5",
+        "startLine": 60,
+        "issue": "Corrected source’s misleading claim about Rails generating per-instance singleton attribute methods."
+      },
+      {
+        "key": "thirteen:concept-13",
+        "startLine": 160,
+        "issue": "Corrected nonworking File.open(... ) or die example."
+      },
+      {
+        "key": "thirteen:concept-18",
+        "startLine": 273,
+        "issue": "Corrected supposedly equivalent String-key-to-Symbol-key style transformation."
+      }
+    ],
+    "incompleteSourcePrompts": [
+      {
+        "key": "thirteen:replay-Validate string against dictionary",
+        "startLine": 287,
+        "issues": [
+          "Incomplete source: only an interview-replay title is supplied; the full problem statement and constraints are absent."
+        ]
+      },
+      {
+        "key": "thirteen:replay-Minimum tree depth",
+        "startLine": 291,
+        "issues": [
+          "Incomplete source: only an interview-replay title is supplied; the full problem statement and constraints are absent."
+        ]
+      },
+      {
+        "key": "thirteen:replay-Move Stones Over Grid",
+        "startLine": 295,
+        "issues": [
+          "Incomplete source: only an interview-replay title is supplied; the full problem statement and constraints are absent."
+        ]
+      }
+    ],
+    "repeatedContentsMappings": []
+  },
+  {
+    "sourceFile": "fourteen.txt",
+    "bytes": 6845,
+    "sha256": "2f167cc4823978ef5e4f034f9943d7004c903a3881c2ccf3da83ba66e1961513",
+    "totalLines": 128,
+    "readRanges": [
+      [
+        1,
+        128
+      ]
+    ],
+    "processedCompletely": true,
+    "extractedCount": 41,
+    "recordRanges": [
+      [
+        7,
+        9
+      ],
+      [
+        10,
+        12
+      ],
+      [
+        13,
+        15
+      ],
+      [
+        16,
+        18
+      ],
+      [
+        19,
+        21
+      ],
+      [
+        22,
+        24
+      ],
+      [
+        25,
+        27
+      ],
+      [
+        28,
+        30
+      ],
+      [
+        31,
+        33
+      ],
+      [
+        34,
+        36
+      ],
+      [
+        37,
+        39
+      ],
+      [
+        40,
+        42
+      ],
+      [
+        43,
+        45
+      ],
+      [
+        46,
+        48
+      ],
+      [
+        49,
+        51
+      ],
+      [
+        52,
+        54
+      ],
+      [
+        55,
+        57
+      ],
+      [
+        58,
+        60
+      ],
+      [
+        61,
+        63
+      ],
+      [
+        64,
+        66
+      ],
+      [
+        67,
+        69
+      ],
+      [
+        70,
+        72
+      ],
+      [
+        73,
+        75
+      ],
+      [
+        76,
+        78
+      ],
+      [
+        79,
+        81
+      ],
+      [
+        82,
+        84
+      ],
+      [
+        85,
+        87
+      ],
+      [
+        88,
+        90
+      ],
+      [
+        91,
+        93
+      ],
+      [
+        94,
+        96
+      ],
+      [
+        97,
+        99
+      ],
+      [
+        100,
+        102
+      ],
+      [
+        103,
+        105
+      ],
+      [
+        106,
+        108
+      ],
+      [
+        109,
+        111
+      ],
+      [
+        112,
+        114
+      ],
+      [
+        115,
+        117
+      ],
+      [
+        118,
+        120
+      ],
+      [
+        121,
+        123
+      ],
+      [
+        124,
+        126
+      ],
+      [
+        127,
+        128
+      ]
+    ],
+    "excludedContent": "Publisher metadata, marketing, navigation/table-of-contents repeats, editor widget labels and unrelated footer links. Full originals remain unchanged.",
+    "notes": [
+      "41 catalog prompts preserved; all supplied solutions are original standard variants with explicit assumptions, not recovered linked content.",
+      "41 catalog prompts preserved; all supplied solutions are original standard variants with explicit assumptions, not recovered linked content.",
+      "41 catalog prompts preserved; all supplied solutions are original standard variants with explicit assumptions, not recovered linked content.",
+      "41 catalog prompts preserved; all supplied solutions are original standard variants with explicit assumptions, not recovered linked content.",
+      "41 catalog prompts preserved; all supplied solutions are original standard variants with explicit assumptions, not recovered linked content."
+    ],
+    "omittedRanges": [
+      {
+        "startLine": 1,
+        "endLine": 6,
+        "disposition": "Publisher metadata, introduction/duplicate table of contents, section framing, promotion, related-link or footer material; original text retained in the unchanged source file. Technical concepts appearing here are covered by the extracted concept/question records."
+      }
+    ],
+    "corrections": [],
+    "incompleteSourcePrompts": [
+      {
+        "key": "fourteen:1",
+        "startLine": 7,
+        "issues": [
+          "Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer."
+        ]
+      },
+      {
+        "key": "fourteen:2",
+        "startLine": 10,
+        "issues": [
+          "Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer."
+        ]
+      },
+      {
+        "key": "fourteen:3",
+        "startLine": 13,
+        "issues": [
+          "Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer."
+        ]
+      },
+      {
+        "key": "fourteen:4",
+        "startLine": 16,
+        "issues": [
+          "Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer."
+        ]
+      },
+      {
+        "key": "fourteen:5",
+        "startLine": 19,
+        "issues": [
+          "Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer."
+        ]
+      },
+      {
+        "key": "fourteen:6",
+        "startLine": 22,
+        "issues": [
+          "Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer."
+        ]
+      },
+      {
+        "key": "fourteen:7",
+        "startLine": 25,
+        "issues": [
+          "Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer."
+        ]
+      },
+      {
+        "key": "fourteen:8",
+        "startLine": 28,
+        "issues": [
+          "Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer."
+        ]
+      },
+      {
+        "key": "fourteen:9",
+        "startLine": 31,
+        "issues": [
+          "Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer."
+        ]
+      },
+      {
+        "key": "fourteen:10",
+        "startLine": 34,
+        "issues": [
+          "Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer."
+        ]
+      },
+      {
+        "key": "fourteen:11",
+        "startLine": 37,
+        "issues": [
+          "Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer."
+        ]
+      },
+      {
+        "key": "fourteen:12",
+        "startLine": 40,
+        "issues": [
+          "Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer."
+        ]
+      },
+      {
+        "key": "fourteen:13",
+        "startLine": 43,
+        "issues": [
+          "Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer."
+        ]
+      },
+      {
+        "key": "fourteen:14",
+        "startLine": 46,
+        "issues": [
+          "Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer."
+        ]
+      },
+      {
+        "key": "fourteen:15",
+        "startLine": 49,
+        "issues": [
+          "Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer."
+        ]
+      },
+      {
+        "key": "fourteen:16",
+        "startLine": 52,
+        "issues": [
+          "Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer."
+        ]
+      },
+      {
+        "key": "fourteen:17",
+        "startLine": 55,
+        "issues": [
+          "Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer."
+        ]
+      },
+      {
+        "key": "fourteen:18",
+        "startLine": 58,
+        "issues": [
+          "Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer."
+        ]
+      },
+      {
+        "key": "fourteen:19",
+        "startLine": 61,
+        "issues": [
+          "Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer."
+        ]
+      },
+      {
+        "key": "fourteen:20",
+        "startLine": 64,
+        "issues": [
+          "Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer."
+        ]
+      },
+      {
+        "key": "fourteen:21",
+        "startLine": 67,
+        "issues": [
+          "Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer."
+        ]
+      },
+      {
+        "key": "fourteen:22",
+        "startLine": 70,
+        "issues": [
+          "Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer."
+        ]
+      },
+      {
+        "key": "fourteen:23",
+        "startLine": 73,
+        "issues": [
+          "Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer."
+        ]
+      },
+      {
+        "key": "fourteen:24",
+        "startLine": 76,
+        "issues": [
+          "Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer."
+        ]
+      },
+      {
+        "key": "fourteen:25",
+        "startLine": 79,
+        "issues": [
+          "Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer."
+        ]
+      },
+      {
+        "key": "fourteen:26",
+        "startLine": 82,
+        "issues": [
+          "Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer."
+        ]
+      },
+      {
+        "key": "fourteen:27",
+        "startLine": 85,
+        "issues": [
+          "Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer."
+        ]
+      },
+      {
+        "key": "fourteen:28",
+        "startLine": 88,
+        "issues": [
+          "Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer."
+        ]
+      },
+      {
+        "key": "fourteen:29",
+        "startLine": 91,
+        "issues": [
+          "Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer."
+        ]
+      },
+      {
+        "key": "fourteen:30",
+        "startLine": 94,
+        "issues": [
+          "Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer."
+        ]
+      },
+      {
+        "key": "fourteen:31",
+        "startLine": 97,
+        "issues": [
+          "Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer."
+        ]
+      },
+      {
+        "key": "fourteen:32",
+        "startLine": 100,
+        "issues": [
+          "Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer."
+        ]
+      },
+      {
+        "key": "fourteen:33",
+        "startLine": 103,
+        "issues": [
+          "Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer."
+        ]
+      },
+      {
+        "key": "fourteen:34",
+        "startLine": 106,
+        "issues": [
+          "Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer."
+        ]
+      },
+      {
+        "key": "fourteen:35",
+        "startLine": 109,
+        "issues": [
+          "Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer."
+        ]
+      },
+      {
+        "key": "fourteen:36",
+        "startLine": 112,
+        "issues": [
+          "Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer."
+        ]
+      },
+      {
+        "key": "fourteen:37",
+        "startLine": 115,
+        "issues": [
+          "Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer."
+        ]
+      },
+      {
+        "key": "fourteen:38",
+        "startLine": 118,
+        "issues": [
+          "Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer."
+        ]
+      },
+      {
+        "key": "fourteen:39",
+        "startLine": 121,
+        "issues": [
+          "Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer."
+        ]
+      },
+      {
+        "key": "fourteen:40",
+        "startLine": 124,
+        "issues": [
+          "Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer."
+        ]
+      },
+      {
+        "key": "fourteen:41",
+        "startLine": 127,
+        "issues": [
+          "Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer."
+        ]
+      }
+    ],
+    "repeatedContentsMappings": []
+  },
+  {
+    "sourceFile": "nineteen.txt",
+    "bytes": 58486,
+    "sha256": "bc49de7d52317adb5e02c6c4e09c76bbf0d4b14f3cbafe151cd4118feecf8775",
+    "totalLines": 1238,
+    "readRanges": [
+      [
+        1,
+        1238
+      ]
+    ],
+    "processedCompletely": true,
+    "extractedCount": 67,
+    "recordRanges": [
+      [
+        112,
+        124
+      ],
+      [
+        125,
+        138
+      ],
+      [
+        139,
+        162
+      ],
+      [
+        163,
+        177
+      ],
+      [
+        178,
+        190
+      ],
+      [
+        191,
+        202
+      ],
+      [
+        203,
+        217
+      ],
+      [
+        218,
+        232
+      ],
+      [
+        233,
+        250
+      ],
+      [
+        251,
+        264
+      ],
+      [
+        265,
+        285
+      ],
+      [
+        286,
+        302
+      ],
+      [
+        303,
+        314
+      ],
+      [
+        315,
+        331
+      ],
+      [
+        332,
+        343
+      ],
+      [
+        344,
+        355
+      ],
+      [
+        356,
+        370
+      ],
+      [
+        371,
+        376
+      ],
+      [
+        377,
+        390
+      ],
+      [
+        391,
+        409
+      ],
+      [
+        410,
+        435
+      ],
+      [
+        436,
+        449
+      ],
+      [
+        450,
+        472
+      ],
+      [
+        473,
+        494
+      ],
+      [
+        495,
+        509
+      ],
+      [
+        510,
+        529
+      ],
+      [
+        530,
+        546
+      ],
+      [
+        547,
+        563
+      ],
+      [
+        564,
+        582
+      ],
+      [
+        583,
+        595
+      ],
+      [
+        596,
+        609
+      ],
+      [
+        610,
+        627
+      ],
+      [
+        628,
+        642
+      ],
+      [
+        643,
+        660
+      ],
+      [
+        661,
+        674
+      ],
+      [
+        675,
+        687
+      ],
+      [
+        688,
+        706
+      ],
+      [
+        707,
+        721
+      ],
+      [
+        722,
+        740
+      ],
+      [
+        741,
+        781
+      ],
+      [
+        782,
+        807
+      ],
+      [
+        808,
+        824
+      ],
+      [
+        825,
+        841
+      ],
+      [
+        842,
+        853
+      ],
+      [
+        854,
+        866
+      ],
+      [
+        867,
+        882
+      ],
+      [
+        883,
+        898
+      ],
+      [
+        899,
+        914
+      ],
+      [
+        915,
+        920
+      ],
+      [
+        921,
+        926
+      ],
+      [
+        927,
+        939
+      ],
+      [
+        940,
+        954
+      ],
+      [
+        955,
+        973
+      ],
+      [
+        974,
+        986
+      ],
+      [
+        987,
+        1001
+      ],
+      [
+        1002,
+        1018
+      ],
+      [
+        1019,
+        1034
+      ],
+      [
+        1035,
+        1048
+      ],
+      [
+        1049,
+        1069
+      ],
+      [
+        1070,
+        1078
+      ],
+      [
+        1079,
+        1086
+      ],
+      [
+        1119,
+        1120
+      ],
+      [
+        1121,
+        1122
+      ],
+      [
+        1123,
+        1124
+      ],
+      [
+        1125,
+        1126
+      ],
+      [
+        1127,
+        1128
+      ],
+      [
+        1129,
+        1130
+      ]
+    ],
+    "excludedContent": "Publisher metadata, marketing, navigation/table-of-contents repeats, editor widget labels and unrelated footer links. Full originals remain unchanged.",
+    "notes": [],
+    "omittedRanges": [
+      {
+        "startLine": 1,
+        "endLine": 111,
+        "disposition": "Publisher metadata, introduction/duplicate table of contents, section framing, promotion, related-link or footer material; original text retained in the unchanged source file. Technical concepts appearing here are covered by the extracted concept/question records."
+      },
+      {
+        "startLine": 1087,
+        "endLine": 1118,
+        "disposition": "Publisher metadata, introduction/duplicate table of contents, section framing, promotion, related-link or footer material; original text retained in the unchanged source file. Technical concepts appearing here are covered by the extracted concept/question records."
+      },
+      {
+        "startLine": 1131,
+        "endLine": 1238,
+        "disposition": "Publisher metadata, introduction/duplicate table of contents, section framing, promotion, related-link or footer material; original text retained in the unchanged source file. Technical concepts appearing here are covered by the extracted concept/question records."
+      }
+    ],
+    "corrections": [
+      {
+        "key": "nineteen:3",
+        "startLine": 139,
+        "issue": "Qualified absolute identity/performance claims: frozen strings may be shared; dynamic symbols can be collected; symbols are not universally faster."
+      },
+      {
+        "key": "nineteen:4",
+        "startLine": 163,
+        "issue": "Corrected inference that absence of explicit return commonly implies nil: a nonempty method returns its final expression."
+      },
+      {
+        "key": "nineteen:4",
+        "startLine": 163,
+        "issue": "Source’s statement about methods without explicit return often returning nil needed correction."
+      },
+      {
+        "key": "nineteen:17",
+        "startLine": 356,
+        "issue": "Qualified claim that operators are methods and replaced questionable compact multiple-assignment initializer with standard syntax."
+      },
+      {
+        "key": "nineteen:27",
+        "startLine": 530,
+        "issue": "Updated private-method receiver rule: literal self is permitted in Ruby 2.7+; older blanket prohibition is outdated."
+      },
+      {
+        "key": "nineteen:33",
+        "startLine": 628,
+        "issue": "Clarified freeze is shallow and does not prevent variable/constant reassignment."
+      },
+      {
+        "key": "nineteen:36",
+        "startLine": 675,
+        "issue": "Qualified “immutable” as shallow member protection; preserved nested mutability."
+      },
+      {
+        "key": "nineteen:45",
+        "startLine": 854,
+        "issue": "Corrected invalid 5.singleton_class example and “each object has its own singleton class” overstatement."
+      },
+      {
+        "key": "nineteen:57",
+        "startLine": 1019,
+        "issue": "Clarified experimental introduction in 2.7 and missing unmatched-pattern behavior."
+      },
+      {
+        "key": "nineteen:59",
+        "startLine": 1049,
+        "issue": "Corrected potential eql?/hash contract mismatch in source’s numeric-coordinate example."
+      },
+      {
+        "key": "nineteen:comparison",
+        "startLine": 1079,
+        "issue": "Qualified dated runtime/GIL and ecosystem generalizations in language-comparison table."
+      }
+    ],
+    "incompleteSourcePrompts": [],
+    "repeatedContentsMappings": [
+      {
+        "sourceLine": 45,
+        "question": "What is Ruby and what makes it distinctive?",
+        "disposition": "Repeated table-of-contents entry, not a separate answer occurrence",
+        "mapsToKey": "nineteen:1",
+        "answerStartLine": 112
+      },
+      {
+        "sourceLine": 46,
+        "question": "What does it mean that everything in Ruby is an object?",
+        "disposition": "Repeated table-of-contents entry, not a separate answer occurrence",
+        "mapsToKey": "nineteen:2",
+        "answerStartLine": 125
+      },
+      {
+        "sourceLine": 47,
+        "question": "What is the difference between a symbol and a string?",
+        "disposition": "Repeated table-of-contents entry, not a separate answer occurrence",
+        "mapsToKey": "nineteen:3",
+        "answerStartLine": 139
+      },
+      {
+        "sourceLine": 48,
+        "question": "What is nil, and what counts as false in Ruby?",
+        "disposition": "Repeated table-of-contents entry, not a separate answer occurrence",
+        "mapsToKey": "nineteen:4",
+        "answerStartLine": 163
+      },
+      {
+        "sourceLine": 49,
+        "question": "What are the variable types in Ruby and how do you tell them apart?",
+        "disposition": "Repeated table-of-contents entry, not a separate answer occurrence",
+        "mapsToKey": "nineteen:5",
+        "answerStartLine": 178
+      },
+      {
+        "sourceLine": 50,
+        "question": "How does string interpolation work in Ruby?",
+        "disposition": "Repeated table-of-contents entry, not a separate answer occurrence",
+        "mapsToKey": "nineteen:6",
+        "answerStartLine": 191
+      },
+      {
+        "sourceLine": 51,
+        "question": "What are arrays and hashes in Ruby?",
+        "disposition": "Repeated table-of-contents entry, not a separate answer occurrence",
+        "mapsToKey": "nineteen:7",
+        "answerStartLine": 203
+      },
+      {
+        "sourceLine": 52,
+        "question": "How do iterators like each work in Ruby?",
+        "disposition": "Repeated table-of-contents entry, not a separate answer occurrence",
+        "mapsToKey": "nineteen:8",
+        "answerStartLine": 218
+      },
+      {
+        "sourceLine": 53,
+        "question": "What is a block and how do you pass one?",
+        "disposition": "Repeated table-of-contents entry, not a separate answer occurrence",
+        "mapsToKey": "nineteen:9",
+        "answerStartLine": 233
+      },
+      {
+        "sourceLine": 54,
+        "question": "How do you define a method, and how does return work?",
+        "disposition": "Repeated table-of-contents entry, not a separate answer occurrence",
+        "mapsToKey": "nineteen:10",
+        "answerStartLine": 251
+      },
+      {
+        "sourceLine": 55,
+        "question": "How do you define a class and its constructor?",
+        "disposition": "Repeated table-of-contents entry, not a separate answer occurrence",
+        "mapsToKey": "nineteen:11",
+        "answerStartLine": 265
+      },
+      {
+        "sourceLine": 56,
+        "question": "What do attr_accessor, attr_reader, and attr_writer do?",
+        "disposition": "Repeated table-of-contents entry, not a separate answer occurrence",
+        "mapsToKey": "nineteen:12",
+        "answerStartLine": 286
+      },
+      {
+        "sourceLine": 57,
+        "question": "What is the difference between puts, print, and p?",
+        "disposition": "Repeated table-of-contents entry, not a separate answer occurrence",
+        "mapsToKey": "nineteen:13",
+        "answerStartLine": 303
+      },
+      {
+        "sourceLine": 58,
+        "question": "How do conditionals work, including unless and modifier form?",
+        "disposition": "Repeated table-of-contents entry, not a separate answer occurrence",
+        "mapsToKey": "nineteen:14",
+        "answerStartLine": 315
+      },
+      {
+        "sourceLine": 59,
+        "question": "What are ranges and how are they used?",
+        "disposition": "Repeated table-of-contents entry, not a separate answer occurrence",
+        "mapsToKey": "nineteen:15",
+        "answerStartLine": 332
+      },
+      {
+        "sourceLine": 60,
+        "question": "Which common string methods should you know?",
+        "disposition": "Repeated table-of-contents entry, not a separate answer occurrence",
+        "mapsToKey": "nineteen:16",
+        "answerStartLine": 344
+      },
+      {
+        "sourceLine": 61,
+        "question": "Are Ruby operators actually methods?",
+        "disposition": "Repeated table-of-contents entry, not a separate answer occurrence",
+        "mapsToKey": "nineteen:17",
+        "answerStartLine": 356
+      },
+      {
+        "sourceLine": 62,
+        "question": "What is the difference between require and load?",
+        "disposition": "Repeated table-of-contents entry, not a separate answer occurrence",
+        "mapsToKey": "nineteen:18",
+        "answerStartLine": 371
+      },
+      {
+        "sourceLine": 63,
+        "question": "How do comments and naming conventions work in Ruby?",
+        "disposition": "Repeated table-of-contents entry, not a separate answer occurrence",
+        "mapsToKey": "nineteen:19",
+        "answerStartLine": 377
+      },
+      {
+        "sourceLine": 64,
+        "question": "What does the safe navigation operator (&.) do?",
+        "disposition": "Repeated table-of-contents entry, not a separate answer occurrence",
+        "mapsToKey": "nineteen:20",
+        "answerStartLine": 391
+      },
+      {
+        "sourceLine": 66,
+        "question": "What is the difference between blocks, procs, and lambdas?",
+        "disposition": "Repeated table-of-contents entry, not a separate answer occurrence",
+        "mapsToKey": "nineteen:21",
+        "answerStartLine": 410
+      },
+      {
+        "sourceLine": 67,
+        "question": "How do yield and block_given? work?",
+        "disposition": "Repeated table-of-contents entry, not a separate answer occurrence",
+        "mapsToKey": "nineteen:22",
+        "answerStartLine": 436
+      },
+      {
+        "sourceLine": 68,
+        "question": "What are modules and how do mixins work?",
+        "disposition": "Repeated table-of-contents entry, not a separate answer occurrence",
+        "mapsToKey": "nineteen:23",
+        "answerStartLine": 450
+      },
+      {
+        "sourceLine": 69,
+        "question": "What is the difference between include, extend, and prepend?",
+        "disposition": "Repeated table-of-contents entry, not a separate answer occurrence",
+        "mapsToKey": "nineteen:24",
+        "answerStartLine": 473
+      },
+      {
+        "sourceLine": 70,
+        "question": "What is duck typing in Ruby?",
+        "disposition": "Repeated table-of-contents entry, not a separate answer occurrence",
+        "mapsToKey": "nineteen:25",
+        "answerStartLine": 495
+      },
+      {
+        "sourceLine": 71,
+        "question": "What does self refer to in Ruby?",
+        "disposition": "Repeated table-of-contents entry, not a separate answer occurrence",
+        "mapsToKey": "nineteen:26",
+        "answerStartLine": 510
+      },
+      {
+        "sourceLine": 72,
+        "question": "What are public, private, and protected methods?",
+        "disposition": "Repeated table-of-contents entry, not a separate answer occurrence",
+        "mapsToKey": "nineteen:27",
+        "answerStartLine": 530
+      },
+      {
+        "sourceLine": 73,
+        "question": "How do the spaceship operator and Comparable work together?",
+        "disposition": "Repeated table-of-contents entry, not a separate answer occurrence",
+        "mapsToKey": "nineteen:28",
+        "answerStartLine": 547
+      },
+      {
+        "sourceLine": 74,
+        "question": "What is the Enumerable module and why does it matter?",
+        "disposition": "Repeated table-of-contents entry, not a separate answer occurrence",
+        "mapsToKey": "nineteen:29",
+        "answerStartLine": 564
+      },
+      {
+        "sourceLine": 75,
+        "question": "What does &:method mean in something like map(&:upcase)?",
+        "disposition": "Repeated table-of-contents entry, not a separate answer occurrence",
+        "mapsToKey": "nineteen:30",
+        "answerStartLine": 583
+      },
+      {
+        "sourceLine": 76,
+        "question": "Which hash methods and patterns should you know?",
+        "disposition": "Repeated table-of-contents entry, not a separate answer occurrence",
+        "mapsToKey": "nineteen:31",
+        "answerStartLine": 596
+      },
+      {
+        "sourceLine": 77,
+        "question": "How does exception handling work in Ruby?",
+        "disposition": "Repeated table-of-contents entry, not a separate answer occurrence",
+        "mapsToKey": "nineteen:32",
+        "answerStartLine": 610
+      },
+      {
+        "sourceLine": 78,
+        "question": "What does freeze do, and what is frozen_string_literal?",
+        "disposition": "Repeated table-of-contents entry, not a separate answer occurrence",
+        "mapsToKey": "nineteen:33",
+        "answerStartLine": 628
+      },
+      {
+        "sourceLine": 79,
+        "question": "How does case/when actually match, and what is ===?",
+        "disposition": "Repeated table-of-contents entry, not a separate answer occurrence",
+        "mapsToKey": "nineteen:34",
+        "answerStartLine": 643
+      },
+      {
+        "sourceLine": 80,
+        "question": "How do keyword arguments work, and how are they different from a hash?",
+        "disposition": "Repeated table-of-contents entry, not a separate answer occurrence",
+        "mapsToKey": "nineteen:35",
+        "answerStartLine": 661
+      },
+      {
+        "sourceLine": 81,
+        "question": "When would you use Struct or Data?",
+        "disposition": "Repeated table-of-contents entry, not a separate answer occurrence",
+        "mapsToKey": "nineteen:36",
+        "answerStartLine": 675
+      },
+      {
+        "sourceLine": 82,
+        "question": "What are singleton methods and the singleton class?",
+        "disposition": "Repeated table-of-contents entry, not a separate answer occurrence",
+        "mapsToKey": "nineteen:37",
+        "answerStartLine": 688
+      },
+      {
+        "sourceLine": 83,
+        "question": "What are gems and how does Bundler manage them?",
+        "disposition": "Repeated table-of-contents entry, not a separate answer occurrence",
+        "mapsToKey": "nineteen:38",
+        "answerStartLine": 707
+      },
+      {
+        "sourceLine": 84,
+        "question": "How do you write tests in Ruby with RSpec or Minitest?",
+        "disposition": "Repeated table-of-contents entry, not a separate answer occurrence",
+        "mapsToKey": "nineteen:39",
+        "answerStartLine": 722
+      },
+      {
+        "sourceLine": 85,
+        "question": "How does memoization with ||= work, and where does it bite?",
+        "disposition": "Repeated table-of-contents entry, not a separate answer occurrence",
+        "mapsToKey": "nineteen:40",
+        "answerStartLine": 741
+      },
+      {
+        "sourceLine": 87,
+        "question": "How does method_missing work, and what should you pair it with?",
+        "disposition": "Repeated table-of-contents entry, not a separate answer occurrence",
+        "mapsToKey": "nineteen:41",
+        "answerStartLine": 782
+      },
+      {
+        "sourceLine": 88,
+        "question": "How does define_method work and when is it better than method_missing?",
+        "disposition": "Repeated table-of-contents entry, not a separate answer occurrence",
+        "mapsToKey": "nineteen:42",
+        "answerStartLine": 808
+      },
+      {
+        "sourceLine": 89,
+        "question": "How does Ruby resolve a method call?",
+        "disposition": "Repeated table-of-contents entry, not a separate answer occurrence",
+        "mapsToKey": "nineteen:43",
+        "answerStartLine": 825
+      },
+      {
+        "sourceLine": 90,
+        "question": "How does concurrency work in Ruby, and what is the GIL?",
+        "disposition": "Repeated table-of-contents entry, not a separate answer occurrence",
+        "mapsToKey": "nineteen:44",
+        "answerStartLine": 842
+      },
+      {
+        "sourceLine": 91,
+        "question": "Walk through Ruby's object model: classes, metaclasses, and BasicObject.",
+        "disposition": "Repeated table-of-contents entry, not a separate answer occurrence",
+        "mapsToKey": "nineteen:45",
+        "answerStartLine": 854
+      },
+      {
+        "sourceLine": 92,
+        "question": "What does reopening a class (monkey patching) mean, and what are the risks?",
+        "disposition": "Repeated table-of-contents entry, not a separate answer occurrence",
+        "mapsToKey": "nineteen:46",
+        "answerStartLine": 867
+      },
+      {
+        "sourceLine": 93,
+        "question": "What are refinements and when do they beat monkey patching?",
+        "disposition": "Repeated table-of-contents entry, not a separate answer occurrence",
+        "mapsToKey": "nineteen:47",
+        "answerStartLine": 883
+      },
+      {
+        "sourceLine": 94,
+        "question": "What are instance_eval, class_eval, and instance_exec used for?",
+        "disposition": "Repeated table-of-contents entry, not a separate answer occurrence",
+        "mapsToKey": "nineteen:48",
+        "answerStartLine": 899
+      },
+      {
+        "sourceLine": 95,
+        "question": "How does Ruby manage memory and garbage collection?",
+        "disposition": "Repeated table-of-contents entry, not a separate answer occurrence",
+        "mapsToKey": "nineteen:49",
+        "answerStartLine": 915
+      },
+      {
+        "sourceLine": 96,
+        "question": "Can a Ruby process leak memory, and how would you diagnose it?",
+        "disposition": "Repeated table-of-contents entry, not a separate answer occurrence",
+        "mapsToKey": "nineteen:50",
+        "answerStartLine": 921
+      },
+      {
+        "sourceLine": 97,
+        "question": "How do you reduce object allocation in a hot Ruby path?",
+        "disposition": "Repeated table-of-contents entry, not a separate answer occurrence",
+        "mapsToKey": "nineteen:51",
+        "answerStartLine": 927
+      },
+      {
+        "sourceLine": 98,
+        "question": "How do closures and binding work in Ruby?",
+        "disposition": "Repeated table-of-contents entry, not a separate answer occurrence",
+        "mapsToKey": "nineteen:52",
+        "answerStartLine": 940
+      },
+      {
+        "sourceLine": 99,
+        "question": "How are class methods implemented, and what does class << self mean?",
+        "disposition": "Repeated table-of-contents entry, not a separate answer occurrence",
+        "mapsToKey": "nineteen:53",
+        "answerStartLine": 955
+      },
+      {
+        "sourceLine": 100,
+        "question": "How does Ruby on Rails structure an application, and where does Ruby's design help?",
+        "disposition": "Repeated table-of-contents entry, not a separate answer occurrence",
+        "mapsToKey": "nineteen:54",
+        "answerStartLine": 974
+      },
+      {
+        "sourceLine": 101,
+        "question": "What is the N+1 query problem and how do you fix it in Rails?",
+        "disposition": "Repeated table-of-contents entry, not a separate answer occurrence",
+        "mapsToKey": "nineteen:55",
+        "answerStartLine": 987
+      },
+      {
+        "sourceLine": 102,
+        "question": "How do you write thread-safe Ruby code?",
+        "disposition": "Repeated table-of-contents entry, not a separate answer occurrence",
+        "mapsToKey": "nineteen:56",
+        "answerStartLine": 1002
+      },
+      {
+        "sourceLine": 103,
+        "question": "How does Ruby's pattern matching (case/in) work?",
+        "disposition": "Repeated table-of-contents entry, not a separate answer occurrence",
+        "mapsToKey": "nineteen:57",
+        "answerStartLine": 1019
+      },
+      {
+        "sourceLine": 104,
+        "question": "What do tap and then (yield_self) do, and when are they useful?",
+        "disposition": "Repeated table-of-contents entry, not a separate answer occurrence",
+        "mapsToKey": "nineteen:58",
+        "answerStartLine": 1035
+      },
+      {
+        "sourceLine": 105,
+        "question": "What is the contract between eql? and hash for custom objects used as hash keys?",
+        "disposition": "Repeated table-of-contents entry, not a separate answer occurrence",
+        "mapsToKey": "nineteen:59",
+        "answerStartLine": 1049
+      },
+      {
+        "sourceLine": 106,
+        "question": "A Ruby service is slow or misbehaving in production. Walk through your approach.",
+        "disposition": "Repeated table-of-contents entry, not a separate answer occurrence",
+        "mapsToKey": "nineteen:60",
+        "answerStartLine": 1070
+      }
+    ]
+  },
+  {
+    "sourceFile": "twentyone.txt",
+    "bytes": 10728,
+    "sha256": "8878d218420e4379980e4b25cf994a138c1edad9801cf5d4d54c8920d32cc536",
+    "totalLines": 585,
+    "readRanges": [
+      [
+        1,
+        585
+      ]
+    ],
+    "processedCompletely": true,
+    "extractedCount": 46,
+    "recordRanges": [
+      [
+        5,
+        16
+      ],
+      [
+        17,
+        30
+      ],
+      [
+        31,
+        46
+      ],
+      [
+        47,
+        60
+      ],
+      [
+        61,
+        67
+      ],
+      [
+        68,
+        81
+      ],
+      [
+        82,
+        94
+      ],
+      [
+        95,
+        103
+      ],
+      [
+        104,
+        120
+      ],
+      [
+        121,
+        137
+      ],
+      [
+        138,
+        156
+      ],
+      [
+        157,
+        177
+      ],
+      [
+        178,
+        191
+      ],
+      [
+        192,
+        207
+      ],
+      [
+        208,
+        240
+      ],
+      [
+        241,
+        260
+      ],
+      [
+        261,
+        265
+      ],
+      [
+        266,
+        283
+      ],
+      [
+        284,
+        301
+      ],
+      [
+        302,
+        314
+      ],
+      [
+        315,
+        330
+      ],
+      [
+        331,
+        335
+      ],
+      [
+        336,
+        340
+      ],
+      [
+        341,
+        350
+      ],
+      [
+        351,
+        367
+      ],
+      [
+        368,
+        382
+      ],
+      [
+        383,
+        387
+      ],
+      [
+        388,
+        402
+      ],
+      [
+        403,
+        409
+      ],
+      [
+        410,
+        422
+      ],
+      [
+        423,
+        445
+      ],
+      [
+        446,
+        450
+      ],
+      [
+        451,
+        457
+      ],
+      [
+        458,
+        463
+      ],
+      [
+        464,
+        471
+      ],
+      [
+        472,
+        482
+      ],
+      [
+        483,
+        490
+      ],
+      [
+        491,
+        498
+      ],
+      [
+        499,
+        506
+      ],
+      [
+        507,
+        516
+      ],
+      [
+        517,
+        526
+      ],
+      [
+        527,
+        536
+      ],
+      [
+        537,
+        546
+      ],
+      [
+        547,
+        556
+      ],
+      [
+        557,
+        568
+      ],
+      [
+        569,
+        585
+      ]
+    ],
+    "excludedContent": "Publisher metadata, marketing, navigation/table-of-contents repeats, editor widget labels and unrelated footer links. Full originals remain unchanged.",
+    "notes": [
+      "46 MCQs; answer keys were not captured. Derived solutions are explicitly labelled and all original options remain in sourceAnswer.",
+      "46 MCQs; answer keys were not captured. Derived solutions are explicitly labelled and all original options remain in sourceAnswer.",
+      "46 MCQs; answer keys were not captured. Derived solutions are explicitly labelled and all original options remain in sourceAnswer.",
+      "46 MCQs; answer keys were not captured. Derived solutions are explicitly labelled and all original options remain in sourceAnswer.",
+      "46 MCQs; answer keys were not captured. Derived solutions are explicitly labelled and all original options remain in sourceAnswer."
+    ],
+    "omittedRanges": [
+      {
+        "startLine": 1,
+        "endLine": 4,
+        "disposition": "Publisher metadata, introduction/duplicate table of contents, section framing, promotion, related-link or footer material; original text retained in the unchanged source file. Technical concepts appearing here are covered by the extracted concept/question records."
+      }
+    ],
+    "corrections": [],
+    "incompleteSourcePrompts": [
+      {
+        "key": "twentyone:unless-1",
+        "startLine": 5,
+        "issues": [
+          "Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied."
+        ]
+      },
+      {
+        "key": "twentyone:unless-2",
+        "startLine": 17,
+        "issues": [
+          "Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied."
+        ]
+      },
+      {
+        "key": "twentyone:unless-3",
+        "startLine": 31,
+        "issues": [
+          "Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied."
+        ]
+      },
+      {
+        "key": "twentyone:unless-4",
+        "startLine": 47,
+        "issues": [
+          "Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied."
+        ]
+      },
+      {
+        "key": "twentyone:unless-5",
+        "startLine": 61,
+        "issues": [
+          "Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied."
+        ]
+      },
+      {
+        "key": "twentyone:unless-6",
+        "startLine": 68,
+        "issues": [
+          "Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied."
+        ]
+      },
+      {
+        "key": "twentyone:unless-7",
+        "startLine": 82,
+        "issues": [
+          "Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied."
+        ]
+      },
+      {
+        "key": "twentyone:unless-8",
+        "startLine": 95,
+        "issues": [
+          "Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied."
+        ]
+      },
+      {
+        "key": "twentyone:unless-9",
+        "startLine": 104,
+        "issues": [
+          "Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied."
+        ]
+      },
+      {
+        "key": "twentyone:unless-10",
+        "startLine": 121,
+        "issues": [
+          "Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied."
+        ]
+      },
+      {
+        "key": "twentyone:unless-11",
+        "startLine": 138,
+        "issues": [
+          "Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied."
+        ]
+      },
+      {
+        "key": "twentyone:case-1",
+        "startLine": 157,
+        "issues": [
+          "Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied."
+        ]
+      },
+      {
+        "key": "twentyone:case-2",
+        "startLine": 178,
+        "issues": [
+          "Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied."
+        ]
+      },
+      {
+        "key": "twentyone:case-3",
+        "startLine": 192,
+        "issues": [
+          "Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied."
+        ]
+      },
+      {
+        "key": "twentyone:case-4",
+        "startLine": 208,
+        "issues": [
+          "Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied."
+        ]
+      },
+      {
+        "key": "twentyone:case-5",
+        "startLine": 241,
+        "issues": [
+          "Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied.",
+          "Incomplete source: input or prior variable initialization is not supplied; conditional outcomes are stated instead of inventing it."
+        ]
+      },
+      {
+        "key": "twentyone:case-6",
+        "startLine": 261,
+        "issues": [
+          "Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied."
+        ]
+      },
+      {
+        "key": "twentyone:case-7",
+        "startLine": 266,
+        "issues": [
+          "Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied.",
+          "Incomplete source: input or prior variable initialization is not supplied; conditional outcomes are stated instead of inventing it."
+        ]
+      },
+      {
+        "key": "twentyone:case-8",
+        "startLine": 284,
+        "issues": [
+          "Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied.",
+          "Incomplete source: input or prior variable initialization is not supplied; conditional outcomes are stated instead of inventing it."
+        ]
+      },
+      {
+        "key": "twentyone:case-9",
+        "startLine": 302,
+        "issues": [
+          "Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied."
+        ]
+      },
+      {
+        "key": "twentyone:case-10",
+        "startLine": 315,
+        "issues": [
+          "Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied."
+        ]
+      },
+      {
+        "key": "twentyone:comparison-1",
+        "startLine": 331,
+        "issues": [
+          "Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied."
+        ]
+      },
+      {
+        "key": "twentyone:comparison-2",
+        "startLine": 336,
+        "issues": [
+          "Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied."
+        ]
+      },
+      {
+        "key": "twentyone:comparison-3",
+        "startLine": 341,
+        "issues": [
+          "Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied."
+        ]
+      },
+      {
+        "key": "twentyone:comparison-4",
+        "startLine": 351,
+        "issues": [
+          "Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied."
+        ]
+      },
+      {
+        "key": "twentyone:comparison-5",
+        "startLine": 368,
+        "issues": [
+          "Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied."
+        ]
+      },
+      {
+        "key": "twentyone:comparison-6",
+        "startLine": 383,
+        "issues": [
+          "Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied."
+        ]
+      },
+      {
+        "key": "twentyone:comparison-7",
+        "startLine": 388,
+        "issues": [
+          "Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied."
+        ]
+      },
+      {
+        "key": "twentyone:comparison-8",
+        "startLine": 403,
+        "issues": [
+          "Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied."
+        ]
+      },
+      {
+        "key": "twentyone:comparison-9",
+        "startLine": 410,
+        "issues": [
+          "Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied.",
+          "Incomplete source: input or prior variable initialization is not supplied; conditional outcomes are stated instead of inventing it."
+        ]
+      },
+      {
+        "key": "twentyone:comparison-10",
+        "startLine": 423,
+        "issues": [
+          "Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied."
+        ]
+      },
+      {
+        "key": "twentyone:operator-1",
+        "startLine": 446,
+        "issues": [
+          "Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied."
+        ]
+      },
+      {
+        "key": "twentyone:operator-2",
+        "startLine": 451,
+        "issues": [
+          "Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied."
+        ]
+      },
+      {
+        "key": "twentyone:operator-3",
+        "startLine": 458,
+        "issues": [
+          "Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied."
+        ]
+      },
+      {
+        "key": "twentyone:operator-4",
+        "startLine": 464,
+        "issues": [
+          "Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied."
+        ]
+      },
+      {
+        "key": "twentyone:operator-5",
+        "startLine": 472,
+        "issues": [
+          "Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied."
+        ]
+      },
+      {
+        "key": "twentyone:operator-6",
+        "startLine": 483,
+        "issues": [
+          "Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied."
+        ]
+      },
+      {
+        "key": "twentyone:operator-7",
+        "startLine": 491,
+        "issues": [
+          "Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied."
+        ]
+      },
+      {
+        "key": "twentyone:operator-8",
+        "startLine": 499,
+        "issues": [
+          "Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied."
+        ]
+      },
+      {
+        "key": "twentyone:operator-9",
+        "startLine": 507,
+        "issues": [
+          "Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied."
+        ]
+      },
+      {
+        "key": "twentyone:operator-10",
+        "startLine": 517,
+        "issues": [
+          "Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied."
+        ]
+      },
+      {
+        "key": "twentyone:operator-11",
+        "startLine": 527,
+        "issues": [
+          "Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied."
+        ]
+      },
+      {
+        "key": "twentyone:operator-12",
+        "startLine": 537,
+        "issues": [
+          "Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied."
+        ]
+      },
+      {
+        "key": "twentyone:operator-13",
+        "startLine": 547,
+        "issues": [
+          "Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied."
+        ]
+      },
+      {
+        "key": "twentyone:operator-14",
+        "startLine": 557,
+        "issues": [
+          "Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied."
+        ]
+      },
+      {
+        "key": "twentyone:operator-15",
+        "startLine": 569,
+        "issues": [
+          "Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied."
+        ]
+      }
+    ],
+    "repeatedContentsMappings": []
+  },
+  {
+    "sourceFile": "twentyfour.txt",
+    "bytes": 30276,
+    "sha256": "cfb7b171ba1372bb0c3b923c295f43582bf9cd7bab2353276550998a206ddf65",
+    "totalLines": 757,
+    "readRanges": [
+      [
+        1,
+        757
+      ]
+    ],
+    "processedCompletely": true,
+    "extractedCount": 15,
+    "recordRanges": [
+      [
+        7,
+        39
+      ],
+      [
+        40,
+        97
+      ],
+      [
+        98,
+        124
+      ],
+      [
+        125,
+        151
+      ],
+      [
+        152,
+        202
+      ],
+      [
+        203,
+        235
+      ],
+      [
+        236,
+        361
+      ],
+      [
+        362,
+        415
+      ],
+      [
+        416,
+        494
+      ],
+      [
+        495,
+        523
+      ],
+      [
+        524,
+        560
+      ],
+      [
+        561,
+        585
+      ],
+      [
+        586,
+        636
+      ],
+      [
+        637,
+        673
+      ],
+      [
+        674,
+        756
+      ]
+    ],
+    "excludedContent": "Publisher metadata, marketing, navigation/table-of-contents repeats, editor widget labels and unrelated footer links. Full originals remain unchanged.",
+    "notes": [
+      "Headline advertises 100 questions, but only 15 question bodies are present. No absent questions were invented.",
+      "Headline advertises 100 questions, but only 15 question bodies are present. No absent questions were invented.",
+      "Headline advertises 100 questions, but only 15 question bodies are present. No absent questions were invented.",
+      "Headline advertises 100 questions, but only 15 question bodies are present. No absent questions were invented.",
+      "Headline advertises 100 questions, but only 15 question bodies are present. No absent questions were invented."
+    ],
+    "omittedRanges": [
+      {
+        "startLine": 1,
+        "endLine": 6,
+        "disposition": "Publisher metadata, introduction/duplicate table of contents, section framing, promotion, related-link or footer material; original text retained in the unchanged source file. Technical concepts appearing here are covered by the extracted concept/question records."
+      },
+      {
+        "startLine": 757,
+        "endLine": 757,
+        "disposition": "Publisher metadata, introduction/duplicate table of contents, section framing, promotion, related-link or footer material; original text retained in the unchanged source file. Technical concepts appearing here are covered by the extracted concept/question records."
+      }
+    ],
+    "corrections": [
+      {
+        "key": "twentyfour:1",
+        "startLine": 7,
+        "issue": "Removed unsupported claims about “Mediterranean quality”, code rearrangement, and Rails introducing many-to-many relationships."
+      },
+      {
+        "key": "twentyfour:2",
+        "startLine": 40,
+        "issue": "Corrected nonportable backgrounding advice and unsupported require \"shell\"/Shell#open browser example."
+      },
+      {
+        "key": "twentyfour:4",
+        "startLine": 125,
+        "issue": "Qualified absolute identity/performance claims: frozen strings may be shared; dynamic symbols can be collected; symbols are not universally faster."
+      },
+      {
+        "key": "twentyfour:5",
+        "startLine": 152,
+        "issue": "Corrected global-scope claim, unsupported warning invocation and claim that freeze prohibits constant reassignment."
+      },
+      {
+        "key": "twentyfour:7",
+        "startLine": 236,
+        "issue": "Corrected String#grep misuse, each return-value claim, collect distinction, String#upto star output and “step indents” claim."
+      },
+      {
+        "key": "twentyfour:8",
+        "startLine": 362,
+        "issue": "Corrected exception hierarchy, claim that every custom exception is rescued automatically, and check-before-read race."
+      },
+      {
+        "key": "twentyfour:9",
+        "startLine": 416,
+        "issue": "Corrected invalid naming regex, variable access-control claim, local lifetime claim (closures retain locals) and instance-variable external visibility."
+      },
+      {
+        "key": "twentyfour:10",
+        "startLine": 495,
+        "issue": "Source declares both attr_reader and attr_writer, so name=/age= assignments succeed; the comments claiming errors are wrong."
+      },
+      {
+        "key": "twentyfour:11",
+        "startLine": 524,
+        "issue": "Removed unsupported Ruby 2.6 “trashcan” and context-dependent reference-counting/hybrid claims; count_objects[:FREE] is not a collector-enabling API."
+      },
+      {
+        "key": "twentyfour:12",
+        "startLine": 561,
+        "issue": "Corrected false claim that chomp removes all trailing whitespace."
+      },
+      {
+        "key": "twentyfour:15",
+        "startLine": 674,
+        "issue": "Corrected nonworking visibility example, recursive method_missing risk, unsafe eval localization recommendation and overstatement that method_missing is the heart of duck typing."
+      }
+    ],
+    "incompleteSourcePrompts": [],
+    "repeatedContentsMappings": []
+  }
+]

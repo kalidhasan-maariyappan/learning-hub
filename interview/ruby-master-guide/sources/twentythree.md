@@ -1,0 +1,920 @@
+# Source ledger: twentythree.txt
+
+SHA-256: `7491d1b14d513f688161a48148c69a645e41a7725c177da30a708f0c6de29a14`
+
+856 physical lines; 51 extracted question/concept occurrences. The complete source is retained below, including original inaccuracies, missing-answer markers and website boilerplate. This is evidence, not the corrected study answer.
+
+| Occurrence | Original lines | Final question | Original prompt |
+|---|---:|---|---|
+| SRC-01393 | 17–22 | [B-0128](../B-rails.md#b-0128) | What is Ruby on Rails? |
+| SRC-01394 | 23–28 | [B-0143](../B-rails.md#b-0143) | What is the naming convention in Ruby on Rails? |
+| SRC-01395 | 29–31 | [B-0014](../B-rails.md#b-0014) | Explain ORM in Ruby on Rails? |
+| SRC-01396 | 32–37 | [A-0373](../A-ruby.md#a-0373) | What is the difference between false and nil in Ruby on Rails? |
+| SRC-01397 | 38–43 | [A-0380](../A-ruby.md#a-0380) | What is the difference between String and Symbol? |
+| SRC-01398 | 44–46 | [B-0309](../B-rails.md#b-0309) | Explain the role of the sub-directory app/controller and app/helper. |
+| SRC-01399 | 47–52 | [C-0029](../C-database-sql.md#c-0029) | What is Active Record in Ruby on Rails? |
+| SRC-01400 | 53–55 | [B-0269](../B-rails.md#b-0269) | What is Rails Migration? |
+| SRC-01401 | 56–64 | [B-0246](../B-rails.md#b-0246) | List out what can Rails Migration do. |
+| SRC-01402 | 65–67 | [A-0278](../A-ruby.md#a-0278) | What is Mixin in Rails? |
+| SRC-01403 | 68–71 | [A-0262](../A-ruby.md#a-0262) | How to define the Instance variable, Global variable, and Class variable in Ruby. |
+| SRC-01404 | 72–77 | [B-0241](../B-rails.md#b-0241) | How many types of Association relationships does a Model have? |
+| SRC-01405 | 78–85 | [B-0123](../B-rails.md#b-0123) | What is Rails Scaffolding? |
+| SRC-01406 | 86–91 | [B-0286](../B-rails.md#b-0286) | Name the three default environments in Rails. |
+| SRC-01407 | 92–113 | [B-0102](../B-rails.md#b-0102) | What are the three components of Ruby on Rails? |
+| SRC-01408 | 114–116 | [B-0294](../B-rails.md#b-0294) | What is Gemfile in Ruby on Rails? |
+| SRC-01409 | 117–126 | [B-0102](../B-rails.md#b-0102) | What is MVC and How it Works? |
+| SRC-01410 | 127–133 | [F-0094](../F-advanced.md#f-0094) | What is the Garbage Collection in Ruby on Rails? |
+| SRC-01411 | 134–140 | [A-0277](../A-ruby.md#a-0277) | What is Class Library in Ruby? |
+| SRC-01412 | 141–143 | [B-0156](../B-rails.md#b-0156) | What is your understanding of the DRY code? |
+| SRC-01413 | 144–155 | [B-0095](../B-rails.md#b-0095) | What are the benefits of using Ruby on Rails? |
+| SRC-01414 | 156–161 | [B-0352](../B-rails.md#b-0352) | What is Nested Layout in Ruby on Rails? |
+| SRC-01415 | 162–164 | [A-0170](../A-ruby.md#a-0170) | What is the Role of Load and Require in Ruby? |
+| SRC-01416 | 165–175 | [B-0023](../B-rails.md#b-0023) | Explain what Delete does in Ruby on Rails. |
+| SRC-01417 | 176–178 | [A-0094](../A-ruby.md#a-0094) | How do you create comments in Ruby code? |
+| SRC-01418 | 179–182 | [A-0379](../A-ruby.md#a-0379) | What is the difference between single quotes and double quotes for strings |
+| SRC-01419 | 183–185 | [B-0281](../B-rails.md#b-0281) | Explain what is Gems and Gemset in Ruby on Rails. |
+| SRC-01420 | 186–195 | [B-0088](../B-rails.md#b-0088) | What are Filters? |
+| SRC-01421 | 196–203 | [B-0337](../B-rails.md#b-0337) | What are Helpers and How do use Helpers in Ruby on Rails? |
+| SRC-01422 | 204–242 | [B-0344](../B-rails.md#b-0344) | What do you mean by Render and Redirect_to? |
+| SRC-01423 | 243–255 | [B-0205](../B-rails.md#b-0205) | What is Active Job? |
+| SRC-01424 | 256–258 | [B-0131](../B-rails.md#b-0131) | What is the difference between After_save and After_commit? |
+| SRC-01425 | 259–268 | [B-0351](../B-rails.md#b-0351) | What is an Asset Pipeline in Rails? |
+| SRC-01426 | 269–273 | [B-0117](../B-rails.md#b-0117) | What is Callback in Ruby on Rails? |
+| SRC-01427 | 274–304 | [B-0021](../B-rails.md#b-0021) | Explain types of Callbacks in Ruby on Rails. |
+| SRC-01428 | 305–307 | [B-0260](../B-rails.md#b-0260) | What do you mean by Polymorphic Association in Rails? |
+| SRC-01429 | 308–325 | [B-0135](../B-rails.md#b-0135) | What is the difference between has_many :through and has_and_belongs_to_many and which one is better? |
+| SRC-01430 | 326–336 | [B-0009](../B-rails.md#b-0009) | Do you know about Activestorage in Ruby on Rails and How can you use this? |
+| SRC-01431 | 337–398 | [A-0265](../A-ruby.md#a-0265) | What are Accessor Methods in Ruby? |
+| SRC-01432 | 399–459 | [A-0282](../A-ruby.md#a-0282) | What is the difference between super and super() Call? |
+| SRC-01433 | 460–468 | [B-0241](../B-rails.md#b-0241) | What are the different types of Association in Rails? |
+| SRC-01434 | 469–500 | [B-0038](../B-rails.md#b-0038) | Explain with the help of an example Skip Callback in Rails. |
+| SRC-01435 | 501–545 | [B-0105](../B-rails.md#b-0105) | What do you mean by Concerns in Rails? |
+| SRC-01436 | 546–564 | [B-0024](../B-rails.md#b-0024) | Explain what Destroy does in Ruby on Rails. |
+| SRC-01437 | 565–596 | [A-0238](../A-ruby.md#a-0238) | Does Ruby support Multiple Inheritance and Single Inheritance? |
+| SRC-01438 | 597–609 | [A-0370](../A-ruby.md#a-0370) | What is Hash in Ruby on Rails? |
+| SRC-01439 | 610–630 | [A-0195](../A-ruby.md#a-0195) | Explain the difference between Array#each and Array#map |
+| SRC-01440 | 631–658 | [B-0036](../B-rails.md#b-0036) | Explain when self.up and self.down method is used? |
+| SRC-01441 | 659–686 | [A-0231](../A-ruby.md#a-0231) | What is Yield in Ruby on Rails? |
+| SRC-01442 | 687–717 | [A-0141](../A-ruby.md#a-0141) | What is Clouser in Ruby on Rails? |
+| SRC-01443 | 718–745 | [A-0103](../A-ruby.md#a-0103) | How is Ruby different from Python? |
+
+## Complete original text
+
+```text
+Ruby on Rails Interview Questions And Answers
+Last Updated :
+23 Jul, 2025
+Ruby on Rails, often shortened to Rails, is a server-side web application framework written in Ruby under the MIT License. Rails is known for its ease of use and ability to build complex web applications quickly. It was created by David Heinemeier Hansson and was first released in 2004. Now, Over 3.8 million websites currently use Ruby on Rails, with over 600,000 active sites. This translates to roughly 5.3% of all websites being built with Rails.
+
+Here, we provided over 50+ Ruby on Rails Interview Questions and Answers tailored for both beginners as well as for experienced professionals with 2, 7, or up to 10 years of experience. Here, we cover everything about Ruby on Rails from basic concepts to advanced concepts such as Core Syntax, OOPs concepts, Model-View-Controller (MVC) architecture, Active Record, CoC Principle, Routing, Authentication and authorization, API development, Security, Deployment, Caching, etc., and more that help you to crack your next Rails interview.
+
+Ruby-on-Rails-Interview-Question-And-Answers-(1)
+Ruby On Rails Interview Questions and Answers (2024)
+
+
+Table of Content
+
+Ruby on Rails Interview Questions for Fresher
+Ruby on Rails Interview Questions for Experienced
+Ruby on Rails Interview Questions for Fresher
+1. What is Ruby on Rails?
+Ruby on Rails is an open-source, server-side web application development framework that is written in the Ruby programming language.
+
+Open-source: Anyone can use and contribute to Ruby on Rails, making it a collaborative and constantly evolving framework.
+Server-side: Ruby on Rails handles tasks happening behind the scenes on a web server, like processing data and interacting with databases.
+Web application development: Ruby on Rails streamlines the process of creating websites and web apps with features like user accounts, databases, and dynamic content.
+2. What is the naming convention in Ruby on Rails?
+Database table: Plural with underscores separating words (e.g., book_clubs).
+Model Class: Singural with the first letter of each word capitalized (e.g., BookClub).
+Variables: All letters are lowercase, and words are separated by underscore (e.g., book_club)
+Controller: Represented in plural form like OrdersController.
+Class and Module: Class and Module names should also be written in CamelCase, no underscore (e.g., UserManager)
+3. Explain ORM in Ruby on Rails?
+In Rails, the ORM or Object Relationship Model indicates that your classes are mapped to the database table, and objects are directly mapped to the table rows. The attributes and relationships of objects in an application may be easily stored and retrieved from a database using ORM, which requires less overall database access code and does not require writing SQL queries directly.
+
+4. What is the difference between false and nil in Ruby on Rails?
+Property	False	Nil
+Data Type	Boolean	NilClass (special value)
+Valid Value	Yes (represents "not true")	Yes (represents absence of value)
+Object Type	FalseClass	NilClass
+Represents	"Not true"	Absence of a value (nothing, void)
+5. What is the difference between String and Symbol?
+Property	String	Symbol
+Definition	Sequence of characters	Similar to string, prefixed by colon (':')
+Mutability	Mutable (can be changed)	Immutable (cannot be changed)
+Memory Allocation	Separate memory for each string	Single instance per symbol
+Example	name = "Geeksforgeek"	status = :geeksforgeek
+6. Explain the role of the sub-directory app/controller and app/helper.
+app/controllers: All the controller files are stored here. A controller handles all the web requests from the user.
+app/helper: The helper's directory contains helper modules that provide reusable methods for your views and controllers. Helper methods can be used to encapsulate common functionality and avoid code duplication. These methods can be accessed within views and controllers to perform tasks such as formatting data, generating URLs, or rendering partial views. Helper filenames end with _helper.rb, such as users_helper.rb
+7. What is Active Record in Ruby on Rails?
+Active record is an Object-Relational Mapping framework in Ruby on Rails.
+It simplifies database interaction by mapping database tables to ruby classes
+Active Record facilitates Create, Read, Update, and Delete operations without writing raw SQL queries.
+Developers can define associations between models and enforce data validation easily.
+It provides callbacks for executing logic at specific points in the object lifecycle, enhancing flexibility in application development.
+8. What is Rails Migration?
+A Rails migration is a tool for altering the database schema of an application. Instead of handling SQL scripts, you use a domain-specific language to define database modifications (DSL). Because the code is database-agnostic, you can quickly port your project to a different platform. Migrations can be rolled back and managed alongside your application source code
+
+9. List out what can Rails Migration do.
+Here are the functions of rails migration:
+
+Manage changes to the database schema.
+Create, modify, or delete tables, columns, and indexes.
+Version control with timestamped files.
+Abstract away database-specific SQL.
+Support rollback operations for reverting changes.
+Initialize database schema for consistency across environments.
+10. What is Mixin in Rails?
+Mixin in ruby allows modules to access instance methods of another one using the include method. Mixin provides a controlled way of adding functionality to classes. The code in the mixin starts to interact with the code in the class. In ruby, a code wrapped up in a module is called mixins that a class can include or extend. A class consists of many mixins.
+
+11. How to define the Instance variable, Global variable, and Class variable in Ruby.
+Ruby Instance variable begins with "@"
+Ruby Class variables begin with "@@"
+Ruby Global variables begin with "$"
+12. How many types of Association relationships does a Model have?
+There are three different types of association relationships in Ruby on Rails:
+
+One-to-One Association Relationships
+One-to-Many Association Relationships
+Many-to-Many Association Relationships
+13. What is Rails Scaffolding?
+Scaffolding in Rails is a way to generate a basic structure for your application, including the necessary files and code to perform CRUD (Create, Read, Update, and Delete) operations.
+
+It's like a blueprint for your application, providing a starting point and a guide for how to organize your code.
+Scaffolding is an extremely useful feature that creates a basic structure of the application including controllers, routes, views, and models.
+It speeds up the development process by encouraging best practices and providing a consistent structure.
+for more: Ruby on Rails - Scaffolding
+
+14. Name the three default environments in Rails.
+In Ruby on Rails, the three default environments are:
+
+Development: This environment is used by developers for building and testing the application locally. It typically has settings optimized for ease of development and debugging.
+Test: The test environment is used for running automated tests, such as unit tests, integration tests, and system tests. It's separate from the development environment to ensure that tests don’t interface with the development process and vice versa.
+Production: This environment is where the application runs in a live, production environment, serving real users. It’s optimized for performance, reliability, and security.
+15. What are the three components of Ruby on Rails?
+The three primary components of Ruby on Rails are:
+
+1. Model:
+
+Responsible for managing the data and business logic of the application.
+Interacts with the database to perform CRUD (Create, Read, Update, Delete) operations on data.
+Represents the underlying structure and rules of the application's data domain.
+Often implemented using ActiveRecord, Rails' Object-Relational Mapping (ORM) library.
+2. View:
+
+Handles the presentation layer of the application.
+Responsible for generating the user interface and displaying data to users.
+Typically consists of HTML templates with embedded Ruby code (ERB) or other templating engines.
+Separation of concerns principle: Views should focus solely on displaying information and not contain business logic.
+3. Controller:
+
+Acts as an intermediary between the model and the view.
+Receives requests from the user's browser, processes them, and determines the appropriate response.
+Orchestrates the flow of data and operations between the model and the view.
+Implements application logic, such as authentication, authorization, and data validation.
+Typically consists of action methods that correspond to different HTTP request types (e.g., GET, POST, PUT, DELETE).
+16. What is Gemfile in Ruby on Rails?
+In Ruby projects, a Gemfile is a file that contains the list of Gem dependencies of the project. The Gemfile should be present at the root of the project. You can specify your list of gems with their version number.
+
+17. What is MVC and How it Works?
+MVC, or Model-View-Controller, is a software design pattern commonly used in web development frameworks like Ruby on Rails. It divides the application into three interconnected components, each with its responsibilities:
+
+Rails-MVC-Architecture
+Ruby on Rails MVC
+Model: The Model represents the data and the business logic of the application. It interacts with the database to retrieve, store, and manipulate data. In Ruby on Rails, models are typically ActiveRecord classes that correspond to database tables. They encapsulate data validation, associations, and other logic related to data manipulation.
+View: The View is responsible for presenting data to the user in a readable format. It generates HTML, CSS, and JavaScript code that is sent to the user's web browser. Views in Ruby on Rails are often written using embedded Ruby (ERB) templates, which allow Ruby code to be embedded within HTML markup. Views render data provided by the controller and often include dynamic content based on user input or application state.
+Controller: The Controller is an intermediary between the Model and the View. It receives requests from the user's browser, interacts with the Model to retrieve or update data, and determines which View to render in response to the request. Controllers in Ruby on Rails are Ruby classes that inherit from the ApplicationController class and define action methods corresponding to different HTTP requests (e.g., GET, POST, PUT, DELETE). Each action method typically performs some business logic, retrieves data from the Model, and renders a corresponding View.
+fro more: Ruby on Rails - MVC
+
+18. What is the Garbage Collection in Ruby on Rails?
+Garbage collection is a technique for controlling the amount of memory computer programs use. Garbage collection and other memory management techniques, like reference counting, work by having the language keep track of which objects are used by a program rather than the developer.
+
+This allows the programmer to concentrate on the business logic or other challenges at hand rather than the intricacies of memory allocation and release.
+This also aids program stability and security, as improper memory management can cause crashes, and memory management bugs account for a major fraction of security bugs.
+for more: Garbage Collection in Ruby on Rails
+
+19. What is Class Library in Ruby?
+Ruby class libraries consist of a variety of domains, such as thread programming, data types, various domains, etc. These classes give flexible capabilities at a high level of abstraction, giving you the ability to create powerful Ruby scripts useful in a variety of problem domains. The following domains that have relevant class libraries are,
+
+GUI programming
+Network programming
+CGI Programming
+Text processing
+20. What is your understanding of the DRY code?
+DRY, which stands for ‘don’t repeat yourself,’ is a principle of software development that aims at reducing the repetition of patterns and code duplication in favor of abstractions and avoiding redundancy.
+
+21. What are the benefits of using Ruby on Rails?
+Some Benefits of using Rails on Rails in 2024 is:
+
+Rapid Development: Ruby on Rails enables fast development thanks to its convention over configuration principle, reducing setup time and allowing developers to focus on coding.
+Developer Productivity: Ruby's clean syntax and extensive library of gems streamline development tasks, enhancing developer efficiency and speeding up project completion.
+Modular Design: Rails encourages modular architecture, facilitating code organization, maintenance, and scalability as projects evolve.
+Active Community: With a vibrant community of developers, Rails benefits from continuous support, updates, and contributions, ensuring its relevance and reliability.
+Security Features: Rails comes with built-in security mechanisms, protecting applications from common vulnerabilities such as SQL injection and cross-site scripting (XSS).
+Scalability: While initially favored for its rapid development capabilities, Rails can also scale effectively to handle increased traffic and data volume as applications grow.
+Cost-Effectiveness: Being open-source, Ruby on Rails eliminates licensing fees, making it an economical choice for startups and businesses seeking to develop robust web applications without significant financial investment.
+for more: Features of Ruby on Rails
+
+22. What is Nested Layout in Ruby on Rails?
+Nested layouts are used when you want to create a hierarchy of layouts, where one layout file wraps another layout file. This can be useful when you have common elements shared across multiple pages, but some pages have additional layout requirements.
+
+To use nested layouts in Rails, you first create your layout files in the app/views/layouts directory.
+Let's say you have two layout files: application.html.erb and admin.html.erb.
+You want the admin.html.erb layout to inherit from the application.html.erb layout.
+23. What is the Role of Load and Require in Ruby?
+load(): We use load to execute code.
+require(): We use require to import libraries.
+24. Explain what Delete does in Ruby on Rails.
+The delete method is used to remove records from the database. Unlike the destroy method, which triggers callbacks and validations, delete directly removes records without any additional processing, making it faster but bypassing these mechanisms.
+
+For example, suppose we have a User model and want to delete a specific user with an ID of 1:
+
+user = User.find(1)user.delete
+This code will delete the user with an ID of 1 from the database immediately. Alternatively, if we want to delete all users with a certain condition, such as users with the age of 30:
+
+User.where(age: 30).delete_all
+This command will remove all users whose age is 30 from the database in a single operation.
+
+25. How do you create comments in Ruby code?
+# symbol followed by your comment text is used for adding comments in Ruby on Rails. Comments are ignored by the Ruby interpreter but help document your code. (Single line comment).
+
+26. What is the difference between single quotes and double quotes for strings
+Both can be used for strings, but double quotes allow string interpolation (embedding variables within the string using #{})
+
+Ruby on Rails Interview Questions for Experienced
+27. Explain what is Gems and Gemset in Ruby on Rails.
+Gems: Gems are pre-packaged ruby code libraries that provide specific functionalities or features, easily installable and manageable via the RubyGems package manager. For example, if you wanted to change the color of some text, you could install and use the colorized gem. You get all of its functionality without ever having to write that code yourself.
+Gemset: Gemset is a set of gems collected together. These sets of gems collected together can be used for the development of your particular application.
+28. What are Filters?
+Rails filters are methods that run before or after a controller’s action method is executed. They are helpful when you ensure that a given block of code runs with whatever action method is called.
+
+Rails support three types of filter methods:
+
+Before filters
+After filters
+Around filters
+fro more: Ruby on Rails Filters - GeeksforGeeks
+
+29. What are Helpers and How do use Helpers in Ruby on Rails?
+A helper is a method that is (mostly) used in your rails views to share reusable code. Rails comes with a set of built-in helper methods. If you are writing custom helper methods, the correct directory path is app/helpers
+
+Instructions:
+
+Create a new file under app/helpers.
+Name it something like user_helper.rb.
+Add a new module that matches the file name.
+30. What do you mean by Render and Redirect_to?
+Render:
+
+The ‘render’ method is used to render a view template in response to a request. It renders the specified view without performing an HTTP redirect.
+You might use ‘render’ when you want to display a view template as the response to a request, typically after performing some action in a controller.
+‘render’ allows you to render both inline content and view templates. You can render a specific view template or a partial.
+Example:
+
+
+
+
+#inside a controller action
+def show
+@article = Article.find(params[:id])
+render ‘articles/show’ #render the ‘show’ view template for article
+end
+In this example, when the ‘show’ action of the ‘ArticlesController’ is called, it fetches an article and renders the ‘show.html.erb’ template, passing it the ‘@article’ instance variable.
+
+Redirect_to:
+
+The ‘redirect_to’ method is used to perform an HTTP redirect to a different URL. It sends a response back to the browser telling it to request a new URL
+You might use ‘redirect_to’ when you want to direct the user to a different page, typically after completing a certain action.
+‘redirect_to’ is commonly used after form submissions, sign-ins, sign-outs, and other actions where you want to send the user to a different URL.
+Example:
+
+
+
+
+# inside the controller action
+def create
+@article = Article.new(article_params)
+If @article.save
+redirect_to @article #Redirect to the show page of the newly created article
+else
+render ‘new’ # Render the ‘new’ view templates again with validation errors
+end
+end
+In this example, after creating a new article, if the article is successfully saved, the user is redirected to the show page of the newly created article using 'redirect_to' @article'. If there are validation errors, the 'new' template is rendered again using 'render 'new''.
+
+31. What is Active Job?
+In Ruby on Rails (ROR), the active job is the framework known for declaring, scheduling, and executing background jobs and making them run on various queuing backends.
+
+We use this for almost every job, such as scheduled clean-ups, billing charges, sending an email, etc.
+Instead of pushing off these everyday jobs in the primary process, we can push them onto a queue to execute them sequentially. The active job framework in Ruby handles anything divided into smaller chunks of work and runs them simultaneously.
+Example:
+
+Suppose we have to send a professional email that includes thousands of registered employees. Each email takes around 1 second. To send an email to 1500 users will take 1500 seconds - approximately 25 min.
+
+We would have to wait 25 minutes for the completion of this job, and no user would prefer to wait that long.
+
+If we implement this with an active job, background jobs will run parallel to the normal flow of requests. We can access other applications along with emailing all the employees with ease.
+
+32. What is the difference between After_save and After_commit?
+After_save is invoked when an object is created and updated.
+After_commit is called on create, update, and destroy.
+33. What is an Asset Pipeline in Rails?
+The asset pipeline provides a framework to concatenate and minify or compress JavaScript and CSS assets. It also adds the ability to write these assets in other languages such as CoffeeScript, Sass, and ERB. Let’s say you have 25 javascript files and 25 CSS files (hopefully you won’t but who knows). Every time your app interacts with each one of those files it will make a request. Websites browsers are limited to the number of requests they can make at once so hitting all 50 of these files and then some is going to slow down your app. The asset pipeline takes care of this for you.
+
+The asset pipeline will concatenate all of these files into one type. This means there will be one Javascript file and one CSS file generated by Rails. This makes your site much more efficient.
+
+The asset pipeline does three main things:
+
+Concatenate
+Minify
+Preprocess
+34. What is Callback in Ruby on Rails?
+Callbacks are methods that get called at certain moments of an object’s life cycle. With callback, it is possible to write code that will run whenever an Active Record object is created, saved, updated, deleted, validated, or loaded from the database.
+
+for more: What are Callbacks in Ruby on Rails?
+
+35. Explain types of Callbacks in Ruby on Rails.
+There are several types of callbacks in Ruby on Rails. Here is a list with all the available Active record callbacks, listed in the same order in which they will get called during the respective operations:
+
+Creating anWhen object:
+
+Before_validation
+After_validation
+Before_save
+Around_save
+Before_create
+Around_create
+After_create
+After_save
+After_commit/after_rollback
+Updating an object:
+
+Before_validation
+After_validation
+Before_save
+Around_save
+Before_update
+Around_update
+After_update
+After_save
+After_commit/after_rollback
+Destroying an object:
+
+Before_destroy
+Around_destroy
+After_destroy
+After_commit/after_rollback
+36. What do you mean by Polymorphic Association in Rails?
+Polymorphic association is a type of association that allows a model to belong to more than one other model, where the associated model can be of different types. This is particularly useful when you have a situation where a single model needs to be associated with multiple other models.
+
+37. What is the difference between has_many :through and has_and_belongs_to_many and which one is better?
+Both has_many :through and has_and_belongs_to_many are association types in Ruby on Rails for defining many-to-many relationships between models. While they achieve similar goals, they have differences in terms of flexibility, functionality, and usage.
+
+has_and_belongs_to_many (HABTM):
+
+HABTM is a simpler association that directly creates a many-to-many relationship between two models without the need for an explicit join model.
+It relies on a join table that contains foreign keys referencing the associated models. Rails generates this join table based on the names of the associated models.
+HABTM does not support additional attributes or methods on the join model.
+It's a good choice when you have a simple many-to-many relationship without any additional attributes or methods needed on the join model.
+has_many :through:
+
+has_many :through establishes a many-to-many relationship using an intermediate or join model. This intermediate model allows for additional attributes and methods to be defined on the join model.
+It provides more flexibility and control over the relationship, as you have direct access to the join model and can define validations, callbacks, and additional associations on it.
+has_many :through is often preferred when you need to represent a many-to-many relationship with additional attributes or when you need to encapsulate the relationship logic within a separate model.
+The simplest rule of thumb is that you should set up a has_many :through relationship if you need to work with the relationship model as an independent entity. If you don't need to do anything with the relationship model, it may be simpler to set up a has_and_belongs_to_many relationship (though you'll need to remember to create the joining table in the database).
+
+You should use has_many :through if you need validations, callbacks, or extra attributes on the join model.
+
+38. Do you know about Activestorage in Ruby on Rails and How can you use this?
+Active Storage is a built-in library in Ruby on Rails that provides a way to handle file uploads and storage in Rails applications. It simplifies the process of uploading files to cloud storage services like Amazon S3, Google Cloud Storage, or Microsoft Azure Storage, as well as local disk storage.
+
+To use Active Storage in a Rails application, you typically follow these steps:
+
+Setup: Ensure that Active Storage is installed and configured in your Rails application. This typically involves running a generator to set up the necessary database migrations and configuration files.
+Attach Files to Models: Define an association in your model to attach files using Active Storage. This is typically done using the has_one_attached or has_many_attached method.
+Upload Files: Create forms in your views to allow users to upload files. These forms should include fields for selecting the files to upload.
+Display Uploaded Files: Once files are uploaded, you can display them in your views using the url_for or rails_blob_path helper methods provided by Active Storage.
+if you want to know more about: How to Upload Files in Ruby on Rails?
+
+39. What are Accessor Methods in Ruby?
+In Ruby on Rails, the term “accessor” typically refers to methods that allow you to read and write instance variables of an object. Accessors provide a way to interact with the internal state of an object, and they are commonly used to encapsulate and control access to attributes.
+
+There are three main types of accessors in rails:
+
+attr_reader
+attr_writer
+attr_accessor
+attr_reader: This method creates a getter method for the specified instance variable. Getter methods allow you to retrieve the value of an instance variable but do not allow direct modification of the variable's value from outside the object.
+
+Example:
+
+
+
+
+class Person
+  attr_reader :name  # Creates a getter method for the instance variable @name
+​
+  def initialize(name)
+    @name = name
+  end
+end
+​
+person = Person.new("GeeksforGeek")
+puts person.name  # Outputs: GeeksforGeek
+attr_writer: This method creates a setter method for the specified instance variable. Setter methods allow you to modify the value of an instance variable but do not allow direct access to its value.
+
+Example:
+
+
+
+
+class Person
+  attr_writer :name  # Creates a setter method for the instance variable @name
+​
+  def initialize(name)
+    @name = name
+  end
+end
+​
+person = Person.new("Hello")
+person.name = "GeeksforGeek"
+puts person.name  # Outputs: This will give an error as attr_writer only creates the setter method
+attr_accessor: This method creates both getter and setter methods for the specified instance variable. It provides both read and write access to the variable's value.
+
+Example:
+
+
+
+
+class Person
+  attr_accessor :name  # Creates both getter and setter methods for the instance variable @name
+​
+  def initialize(name)
+    @name = name
+  end
+end
+​
+person = Person.new("GeeksforGeek")
+puts person.name  # Outputs: Geeksforgeek
+person.name = "Hello"
+puts person.name  # Outputs: Hello
+40. What is the difference between super and super() Call?
+When you call super with no arguments, Ruby sends a message to the parent of the current object, asking it to invoke a method with the same name as where you called super from, along with the arguments that were passed to that method.
+
+When we use super(), it sends no arguments to the parent.
+
+Example of super:
+
+
+
+
+class Parent
+  def initialize(name)
+    @name = name
+  end
+​
+  def greeting
+    "Hello, I'm #{@name}."
+  end
+end
+​
+class Child < Parent
+  def initialize(name, age)
+    super(name) # Calls the initialize method of the Parent class with 'name' argument
+    @age = age
+  end
+end
+​
+child = Child.new("GeeksforGeek", 5)
+puts child.greeting # Output: Hello, I'm GeeksforGeek.
+In this example, super(name) is used within the initialize method of the Child class to call the initialize method of the Parent class with the name argument.
+
+Example of super():
+
+
+
+
+class Parent
+  def initialize(name)
+    @name = name
+  end
+​
+  def greeting
+    "Hello, I'm #{@name}."
+  end
+end
+​
+class Child < Parent
+  def initialize(name, age)
+    super(name) # Calls the initialize method of the Parent class with 'name' argument
+    @age = age
+  end
+​
+  def greeting
+    super() + " I'm #{@age} years old." # Calls the greeting method of the Parent class without passing any arguments
+  end
+end
+​
+child = Child.new("Alice", 5)
+puts child.greeting # Output: Hello, I'm Alice. I'm 5 years old.
+In this example, super() is used within the greeting method of the Child class to call the greeting method of the Parent class without passing any arguments.
+
+41. What are the different types of Association in Rails?
+In Ruby on Rails, there are several types of associations that you can define between ActiveRecord models. These associations help establish relationships between different models in your application's database schema. The main types of associations in Rails are:
+
+Belongs_to: This association indicates a one-to-one relationship where the declaring model (source) belongs to another model (target). For example, a Comment might belong to a Post.
+Has_one: This association also represents a one-to-one relationship but in the opposite direction of belongs_to. It's typically used when a model has a single associated record in another model. For instance, a Profile might have one User.
+Has_many: This association represents a one-to-many relationship, where a model can have multiple associated records in another model. For instance, a User might have many Comments.
+Has_many :through: This association is used to define many-to-many relationships through a third model (join table). It allows you to associate two models indirectly through a third model. For example, a Doctor has many Patients through Appointments.
+Has_one :through: Similar to has_many :through, but representing a one-to-one relationship through a join table.
+Has_and_belongs_to_many (HABTM): This association is also for many-to-many relationships, but without a separate model (join table). It's simpler to set up but offers less flexibility compared to has_many :through.
+42. Explain with the help of an example Skip Callback in Rails.
+The skip_callback method in Rails allows you to temporarily disable a callback for a specific object. This can be useful in situations where you want to prevent a callback from running under certain conditions.
+
+Here’s an explanation of how ‘skip_callback’ works:
+
+Skip_callback(:save, :before, :method_name)
+
+This line of code tells Rails to skip the method_name callback that would normally run before saving an object.
+
+Here's a breakdown of the parameters:
+
+:save: Specifies the callback event, in this case, it's before saving.
+:before: Specifies whether it's a before or after the callback.
+:method_name: The name of the method that you want to skip as a callback.
+Here’s an example to illustrate how you might use ‘skip_callback’:
+
+
+
+
+class User < ApplicationRecord
+  before_save :do_something
+​
+  def do_something
+    puts "Hello GeeksforGeek"
+  end
+end
+​
+user = User.new
+user.save  # Outputs: "Hello GeeksforGeek"
+​
+User.skip_callback(:save, :before, :do_something)
+user.save  # No output because the callback was skipped
+43. What do you mean by Concerns in Rails?
+In Ruby on Rails, a concern is a way to share code across different parts of your application in a modular and reusable manner. Concerns are typically used to extract common functionality from models, controllers, or other parts of the Rails application into separate modules, making the code more maintainable and easier to understand.
+
+Here’s how you can use a concern in Rails:
+
+1. Create a Concern Module: First, you create a module that contains the shared functionality. You typically place these modules in the ‘app/controllers/concerns’ or ‘app/models/concerns’ directory, depending on whether the concern is related to controllers or models.
+
+For example, let's say you have a ‘User’ model and you want to add some authentication-related methods. You could create a concern like this:
+
+
+
+
+# app/models/concerns/authentication.rb
+module Authentication
+  extend ActiveSupport::Concern
+​
+  included do
+    # Add any methods or associations you want to include
+  end
+​
+  def authenticate
+    # Method implementation
+  end
+​
+  # Other methods...
+End
+2. Include the Concern: Once you've defined the concern, you include it in the appropriate class (e.g., a model or a controller). You do this using the include method inside the class definition.
+
+For example, to include the Authentication concern in the User model:
+
+
+
+
+# app/models/user.rb
+class User < ApplicationRecord
+  include Authentication
+​
+  # Your User model code...
+End
+By including the concern, all the methods defined in the concern module become available to instances of the User class.
+
+3. Use the Concern Methods: Now, you can use the methods defined in the concern as if they were defined directly in the class itself. For instance, if you included an authenticate method in the Authentication concern, you could call it on a User instance like so:
+
+user = User.find(1)user.authenticate
+
+44. Explain what Destroy does in Ruby on Rails.
+When you call destroy on an Active Record object, it triggers the deletion of the corresponding record from the database. This is a destructive action, meaning it permanently removes the record from the database table.
+
+Here’s how it works:
+
+1. Locate the Record: First, you typically find the record you want to delete using methods like find or find_by. For example:
+
+user = User.find(params[:id])
+
+2. Destroy the Record: Once you have the record object, you can call the destroy method on it:
+
+user.destroy
+
+3. Database Operation: Behind the scenes, Rails generates and executes an SQL DELETE query to remove the record from the corresponding database table. This operation removes the record and any associated data (depending on your database constraints and associations).
+
+4. Callbacks and Associations: The destroy method also triggers any callbacks defined in your model, such as before_destroy or after_destroy. Additionally, it automatically handles associated records based on your model's associations. For example, if a User has many Posts, deleting the user will also delete all associated posts.
+
+It's important to note that calling destroy is irreversible and permanently deletes the record from the database. If you want to delete a record without triggering callbacks or validations, you can use the delete method instead. However, deletion bypasses these safeguards, so it should be used with caution.
+
+45. Does Ruby support Multiple Inheritance and Single Inheritance?
+Ruby supports single inheritance, where a class can only inherit from one superclass.
+
+Ruby does not support multiple inheritance in the same way that some other programming languages like C++ do, where a class can inherit from more than one superclass directly. However, Ruby provides a feature called "mixins" which allows classes to inherit behavior from multiple sources indirectly.
+
+Here's a simple explanation with an example:
+
+
+
+
+module A
+  def method_a
+    puts "Method A"
+  end
+end
+​
+module B
+  def method_b
+    puts "Method B"
+  end
+end
+​
+class MyClass
+  include A
+  include B
+end
+​
+obj = MyClass.new
+obj.method_a  # Output: Method A
+obj.method_b  # Output: Method B
+In this example, MyClass includes both modules A and B. When you include a module in a class using the include keyword, all the methods defined within that module become available to instances of the class as if they were defined directly within the class itself.
+
+46. What is Hash in Ruby on Rails?
+Hash is a data structure that stores data in key-value pairs. It is similar to a dictionary in other programming languages. Hashes are often used to represent structured data, such as attributes of an object or parameters for a method.
+
+Here’s an example of a hash in Ruby:
+
+person = { "name" => "John", "age" => 30, "city" => "New York" }
+
+In this hash, "name", "age", and "city" are the keys, and "John", 30, and "New York" are the corresponding values. You can access values in a hash using their keys:
+
+puts person["name"] # Output: Johnputs person["age"] # Output: 30puts person["city"] # Output: New York
+
+Hashes in Ruby are commonly used in Rails applications to represent data structures such as parameters passed to controller actions, configuration settings, or data retrieved from a database. They provide a convenient way to organize and access data in a structured manner.
+
+47. Explain the difference between Array#each and Array#map
+Array#each:
+
+each is an iterator method that iterates over each element of an array and executes the given block for each element.
+It does not modify the original array; it simply iterates over its elements.
+The return value of each is the original array itself.
+It is typically used when you want to perform some action on each element of the array without changing the array itself.
+Example:
+
+numbers = [1, 2, 3, 4, 5] numbers.each { |num| puts num * 2 } # Output: 2 4 6 8 10
+
+Array#map:
+
+map is also an iterator method that iterates over each element of an array and applies the given block to each element, creating a new array with the results of the block.
+It returns a new array containing the results of applying the block to each element.
+It does not modify the original array.
+map is typically used when you want to transform each element of the array in some way and collect the results in a new array.
+Example:
+
+numbers = [1, 2, 3, 4, 5]doubled_numbers = numbers.map { |num| num * 2 }puts doubled_numbers.inspect # Output: [2, 4, 6, 8, 10]
+
+48. Explain when self.up and self.down method is used?
+In Ruby on Rails, self.up and self.down methods are used in the context of database migrations. Database migrations are a way to alter the database schema over time. These methods are typically used within migration files to define the changes that need to be made to the database schema when migrating to a new version of the application
+
+Example:
+
+
+
+
+class CreateProducts < ActiveRecord::Migration[6.0]
+  def up
+    create_table :products do |t|
+      t.string :name
+      t.text :description
+​
+      t.timestamps
+    end
+  end
+​
+  def down
+    drop_table :products
+  end
+end
+In this example, we have a migration file named create_products.rb. Inside this migration file, there are up and down methods.
+
+The up method is responsible for defining the changes that need to be made to the database schema when the migration is applied (i.e., when migrating "up" to a newer version of the application). In this case, it creates a new table called products with columns for name, description, and timestamps for tracking creation and updates.
+
+The down method is responsible for defining how to reverse the changes made by the up method. It specifies how to undo the migration. In this case, it simply drops the products table if the migration needs to be rolled back (i.e., when migrating "down" to a previous version of the application).
+
+49. What is Yield in Ruby on Rails?
+In Ruby on Rails, yield is a special keyword used in conjunction with blocks to execute a block of code that is passed to a method. It allows methods to accept a block of code as an argument and then execute that block within the method's context.
+
+Example:
+
+
+
+
+def greeting
+  puts "Hello,"
+  yield
+  puts "Nice to meet you!"
+end
+​
+greeting do
+  puts "I'm Ruby on Rails."
+end
+In this example
+
+We define a method called greeting that prints "Hello," and "Nice to meet you!".
+The yield keyword is used within the greeting method to execute any block of code that is passed to it. In this case, the block is puts "I'm Ruby on Rails.".
+When we call the greeting method and pass a block of code (puts "I'm Ruby on Rails."), the block gets executed at the location of the yield keyword within the greeting method.
+So, when we run the code, it will output:
+Output:
+
+Hello,
+I'm Ruby on Rails.
+Nice to meet you!
+50. What is Clouser in Ruby on Rails?
+In Ruby, closure is a function or a block of code with variables that are bound to the environment that the closure is called. In other words, closure can be treated like a variable that can be assigned to another variable or can be passed to any function as an argument.
+
+A closure block can be defined in one scope and can be called in a different scope.
+Closure always remembers the variable within its scope at the creation time and when it's called it can access the variable even if they are not in the current scope i.e. closure retains its knowledge of its lexical environment at the time of defining.
+In Ruby, Blocks, procs, lambdas are clousers.
+Example:
+
+
+
+
+def generate_greeting(name)
+  # This is a closure (a block of code)
+  lambda { "Hello, #{name}!" }
+end
+​
+# Create a personalized greeting closure
+greet_john = generate_greeting("John")
+​
+# Now, we can use the closure to generate greetings for different names
+puts greet_john.call  # Output: Hello, John!
+​
+# We can create another closure for a different name
+greet_emily = generate_greeting("Emily")
+puts greet_emily.call  # Output: Hello, Emily!
+In this example:
+
+We define a method generate_greeting that takes a name parameter. Inside this method, we create a closure (using lambda) that returns a personalized greeting message.
+We then create different instances of this closure, each with a different name.
+When we call greet_john.call, the closure executes with the context of "John" as the name variable, generating the greeting "Hello, John!".
+Similarly, when we call greet_emily.call, the closure executes with the context of "Emily", generating the greeting "Hello, Emily!".
+51. How is Ruby different from Python?
+Terms
+
+Python
+
+Ruby
+
+Definition	Python is a high-level programming language	Ruby is a general-purpose programming language
+Object-oriented	Not a fully object-oriented programming language	Fully object-oriented programming language
+Developing Environment	Multiple IDEs are supported	EclipseIDE is supported.
+Mixins	Mixins can't be used	Mixins are used
+Web frameworks	Django	Ruby on Rails
+Libraries	Has a larger range of libraries	It has a smaller library than Python.
+elseif	Elif	elseif
+Developers	Created in 1991 by Guido van Rossum.	Created in 1995 by Yukihiro "Matz" Matsumoto.
+Unset a variable	It will be present in the symbol table as long as it is in scope.	Once a variable is set, you can't unset it back.
+Anonymous functions	Supports only lambdas	Supports blocks, procs, and lambdas.
+lambda functions	It supports only single-line lambda functions	Its lambda functions are larger.
+Functions	It has functions.	It doesn't have functions
+Community	Focused on academia and Linux.	Mainly focused on the web.
+switch/case statement	It doesn't support switch/case statements.	It supports switch/case statements.
+yield keyword	It returns execution to the scope outside the function's invocation. External code is responsible for resuming the function.	It will execute another function that has been passed as the final argument, and then immediately resume.
+Built-in-classes	Built-in classes can't be modified	Built-in classes can be modified.
+Inheritance	Supports multiple inheritance.	Supports single inheritance
+Tuples	It supports tuples.	It doesn't support tuples
+Usage	Google, Dropbox, Instagram, Mozilla, Yahoo, Venom, Youtube	Apple, GitHub, Twitter, Hulu, ZenDesk, Urban Dictionary
+for more: Python vs Ruby
+
+Comment
+S
+
+sumitmehra720661
+
+2
+Upcoming Courses
+On Sale
+AI Engineering Course - Generative AI & Agentic AI
+
+Starting from - October 31, 2026
+
+• LIVE
+
+4.7
+Java Backend Course - Spring Boot, Microservices with AI
+
+Starting from - November 1, 2026
+
+• LIVE
+
+4.6
+DevOps & Cloud Course - AWS, Docker, Kubernetes with AI
+
+Starting from - November 1, 2026
+
+• LIVE
+
+4.7
+View All
+→
+Fresher Jobs
+Experienced Jobs
+Advanced Java & System Design (Intern) -TCE | GeeksforGeeks
+Advanced Java & System Design (Intern) -TCE
+
+GeeksforGeeks
+
+Internship • Onsite - Noida (Uttar Pradesh)
+
+Apply by Sat Oct 31 2026
+
+Member of Technical Staf (Data Science) | GeeksforGeeks
+Member of Technical Staf (Data Science)
+
+GeeksforGeeks
+
+Internship • Onsite - Noida (Uttar Pradesh)
+
+Apply by Sat Oct 31 2026
+
+Technical Program Intern- DSA (Mentor + Writer) | GeeksforGeeks
+Technical Program Intern- DSA (Mentor + Writer)
+
+GeeksforGeeks
+
+Internship • Onsite - Noida (Uttar Pradesh)
+
+Apply by Sat Oct 31 2026
+
+View All
+→
+GeeksforGeeks
+location
+Corporate & Communications Address:
+A-143, 6th Floor, Sovereign Corporate Tower, Sector- 136, Noida, Uttar Pradesh (201305)
+location
+Registered Address:
+K 061, Tower K, Gulshan Vivante Apartment, Sector 137, Noida, Gautam Buddh Nagar, Uttar Pradesh, 201305
+GFG App on Play Store
+GFG App on App Store
+Company
+About Us
+Legal
+Privacy Policy
+Careers
+Contact Us
+Corporate Solution
+Campus Training Program
+Explore
+POTD
+Practice Problems
+Blogs
+Upskill Courses
+Connect
+Tutorials
+Programming Languages
+DSA
+Web Technology
+AI, ML & Data Science
+DevOps
+CS Core Subjects
+GATE
+School Subjects
+Software and Tools
+Courses
+ML and Data Science
+DSA and Placements
+Web Development
+Data Science
+Programming Languages
+DevOps & Cloud
+GATE
+MongoDB Certifications
+Preparation Corner
+Interview Corner
+Aptitude
+Puzzles
+GfG 160
+System Design
+@GeeksforGeeks, Sanchhaya Education Private Limited, All rights reserved
+```

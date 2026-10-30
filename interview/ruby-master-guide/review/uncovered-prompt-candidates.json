@@ -1,0 +1,547 @@
+[
+  {
+    "file": "eleven.txt",
+    "line": 219,
+    "text": "1. What are the standout features of the Ruby programming language?"
+  },
+  {
+    "file": "eleven.txt",
+    "line": 220,
+    "text": "2. What is the difference between raise/rescue and throw/catch in Ruby?"
+  },
+  {
+    "file": "eleven.txt",
+    "line": 221,
+    "text": "3. What are variables in Ruby?"
+  },
+  {
+    "file": "eleven.txt",
+    "line": 222,
+    "text": "4. What are the different operators used in Ruby?"
+  },
+  {
+    "file": "eleven.txt",
+    "line": 223,
+    "text": "5. What are the different class libraries used in Ruby?"
+  },
+  {
+    "file": "eleven.txt",
+    "line": 224,
+    "text": "6. What are the data types used in Ruby?"
+  },
+  {
+    "file": "eleven.txt",
+    "line": 225,
+    "text": "7. When is the “super” keyword used in Ruby?"
+  },
+  {
+    "file": "eleven.txt",
+    "line": 226,
+    "text": "8. What are Block, Proc, and Lambda in Ruby?"
+  },
+  {
+    "file": "eleven.txt",
+    "line": 227,
+    "text": "9. What is interpolation in the Ruby programming language?"
+  },
+  {
+    "file": "eleven.txt",
+    "line": 228,
+    "text": "10. Why is Ruby known as a flexible language?"
+  },
+  {
+    "file": "eleven.txt",
+    "line": 229,
+    "text": "11. What is Rails Migration?"
+  },
+  {
+    "file": "eleven.txt",
+    "line": 230,
+    "text": "12. What is a Rails Controller?"
+  },
+  {
+    "file": "eleven.txt",
+    "line": 231,
+    "text": "13. What are the naming conventions in Ruby?"
+  },
+  {
+    "file": "eleven.txt",
+    "line": 232,
+    "text": "14. How is the migration command created in Ruby?"
+  },
+  {
+    "file": "eleven.txt",
+    "line": 233,
+    "text": "15. What are load() and require() in Ruby?"
+  },
+  {
+    "file": "eleven.txt",
+    "line": 237,
+    "text": "What is Natural Language Understanding (NLU)?"
+  },
+  {
+    "file": "eleven.txt",
+    "line": 240,
+    "text": "What is Natural Language Understanding (NLU)?"
+  },
+  {
+    "file": "eleven.txt",
+    "line": 241,
+    "text": "What is Java? What is it used for?"
+  },
+  {
+    "file": "eleven.txt",
+    "line": 244,
+    "text": "What is Java? What is it used for?"
+  },
+  {
+    "file": "eleven.txt",
+    "line": 249,
+    "text": "What's happening in the tech world?"
+  },
+  {
+    "file": "nine.txt",
+    "line": 835,
+    "text": "What is Ruby on Rails and use cases of Ruby on Rails?"
+  },
+  {
+    "file": "nine.txt",
+    "line": 841,
+    "text": "What is Ruby on Rails? Ruby on Rails, often referred to simply as Rails, is an open-source web application framework written in the Ruby programming language. It…"
+  },
+  {
+    "file": "nine.txt",
+    "line": 845,
+    "text": "What is Ruby and use cases of Ruby?"
+  },
+  {
+    "file": "nine.txt",
+    "line": 851,
+    "text": "What is Ruby? Ruby is a dynamic, object-oriented programming language that emphasizes productivity and simplicity. It was planned and developed by Yukihiro “Matz” Matsumoto in the mid-1990s…."
+  },
+  {
+    "file": "nineteen.txt",
+    "line": 1,
+    "text": "What Is Ruby?"
+  },
+  {
+    "file": "nineteen.txt",
+    "line": 45,
+    "text": "1. What is Ruby and what makes it distinctive?"
+  },
+  {
+    "file": "nineteen.txt",
+    "line": 46,
+    "text": "2. What does it mean that everything in Ruby is an object?"
+  },
+  {
+    "file": "nineteen.txt",
+    "line": 47,
+    "text": "3. What is the difference between a symbol and a string?"
+  },
+  {
+    "file": "nineteen.txt",
+    "line": 48,
+    "text": "4. What is nil, and what counts as false in Ruby?"
+  },
+  {
+    "file": "nineteen.txt",
+    "line": 49,
+    "text": "5. What are the variable types in Ruby and how do you tell them apart?"
+  },
+  {
+    "file": "nineteen.txt",
+    "line": 50,
+    "text": "6. How does string interpolation work in Ruby?"
+  },
+  {
+    "file": "nineteen.txt",
+    "line": 51,
+    "text": "7. What are arrays and hashes in Ruby?"
+  },
+  {
+    "file": "nineteen.txt",
+    "line": 52,
+    "text": "8. How do iterators like each work in Ruby?"
+  },
+  {
+    "file": "nineteen.txt",
+    "line": 53,
+    "text": "9. What is a block and how do you pass one?"
+  },
+  {
+    "file": "nineteen.txt",
+    "line": 54,
+    "text": "10. How do you define a method, and how does return work?"
+  },
+  {
+    "file": "nineteen.txt",
+    "line": 55,
+    "text": "11. How do you define a class and its constructor?"
+  },
+  {
+    "file": "nineteen.txt",
+    "line": 56,
+    "text": "12. What do attr_accessor, attr_reader, and attr_writer do?"
+  },
+  {
+    "file": "nineteen.txt",
+    "line": 57,
+    "text": "13. What is the difference between puts, print, and p?"
+  },
+  {
+    "file": "nineteen.txt",
+    "line": 58,
+    "text": "14. How do conditionals work, including unless and modifier form?"
+  },
+  {
+    "file": "nineteen.txt",
+    "line": 59,
+    "text": "15. What are ranges and how are they used?"
+  },
+  {
+    "file": "nineteen.txt",
+    "line": 60,
+    "text": "16. Which common string methods should you know?"
+  },
+  {
+    "file": "nineteen.txt",
+    "line": 61,
+    "text": "17. Are Ruby operators actually methods?"
+  },
+  {
+    "file": "nineteen.txt",
+    "line": 62,
+    "text": "18. What is the difference between require and load?"
+  },
+  {
+    "file": "nineteen.txt",
+    "line": 63,
+    "text": "19. How do comments and naming conventions work in Ruby?"
+  },
+  {
+    "file": "nineteen.txt",
+    "line": 64,
+    "text": "20. What does the safe navigation operator (&.) do?"
+  },
+  {
+    "file": "nineteen.txt",
+    "line": 66,
+    "text": "21. What is the difference between blocks, procs, and lambdas?"
+  },
+  {
+    "file": "nineteen.txt",
+    "line": 67,
+    "text": "22. How do yield and block_given? work?"
+  },
+  {
+    "file": "nineteen.txt",
+    "line": 68,
+    "text": "23. What are modules and how do mixins work?"
+  },
+  {
+    "file": "nineteen.txt",
+    "line": 69,
+    "text": "24. What is the difference between include, extend, and prepend?"
+  },
+  {
+    "file": "nineteen.txt",
+    "line": 70,
+    "text": "25. What is duck typing in Ruby?"
+  },
+  {
+    "file": "nineteen.txt",
+    "line": 71,
+    "text": "26. What does self refer to in Ruby?"
+  },
+  {
+    "file": "nineteen.txt",
+    "line": 72,
+    "text": "27. What are public, private, and protected methods?"
+  },
+  {
+    "file": "nineteen.txt",
+    "line": 73,
+    "text": "28. How do the spaceship operator and Comparable work together?"
+  },
+  {
+    "file": "nineteen.txt",
+    "line": 74,
+    "text": "29. What is the Enumerable module and why does it matter?"
+  },
+  {
+    "file": "nineteen.txt",
+    "line": 75,
+    "text": "30. What does &:method mean in something like map(&:upcase)?"
+  },
+  {
+    "file": "nineteen.txt",
+    "line": 76,
+    "text": "31. Which hash methods and patterns should you know?"
+  },
+  {
+    "file": "nineteen.txt",
+    "line": 77,
+    "text": "32. How does exception handling work in Ruby?"
+  },
+  {
+    "file": "nineteen.txt",
+    "line": 78,
+    "text": "33. What does freeze do, and what is frozen_string_literal?"
+  },
+  {
+    "file": "nineteen.txt",
+    "line": 79,
+    "text": "34. How does case/when actually match, and what is ===?"
+  },
+  {
+    "file": "nineteen.txt",
+    "line": 80,
+    "text": "35. How do keyword arguments work, and how are they different from a hash?"
+  },
+  {
+    "file": "nineteen.txt",
+    "line": 81,
+    "text": "36. When would you use Struct or Data?"
+  },
+  {
+    "file": "nineteen.txt",
+    "line": 82,
+    "text": "37. What are singleton methods and the singleton class?"
+  },
+  {
+    "file": "nineteen.txt",
+    "line": 83,
+    "text": "38. What are gems and how does Bundler manage them?"
+  },
+  {
+    "file": "nineteen.txt",
+    "line": 84,
+    "text": "39. How do you write tests in Ruby with RSpec or Minitest?"
+  },
+  {
+    "file": "nineteen.txt",
+    "line": 85,
+    "text": "40. How does memoization with ||= work, and where does it bite?"
+  },
+  {
+    "file": "nineteen.txt",
+    "line": 87,
+    "text": "41. How does method_missing work, and what should you pair it with?"
+  },
+  {
+    "file": "nineteen.txt",
+    "line": 88,
+    "text": "42. How does define_method work and when is it better than method_missing?"
+  },
+  {
+    "file": "nineteen.txt",
+    "line": 89,
+    "text": "43. How does Ruby resolve a method call?"
+  },
+  {
+    "file": "nineteen.txt",
+    "line": 90,
+    "text": "44. How does concurrency work in Ruby, and what is the GIL?"
+  },
+  {
+    "file": "nineteen.txt",
+    "line": 92,
+    "text": "46. What does reopening a class (monkey patching) mean, and what are the risks?"
+  },
+  {
+    "file": "nineteen.txt",
+    "line": 93,
+    "text": "47. What are refinements and when do they beat monkey patching?"
+  },
+  {
+    "file": "nineteen.txt",
+    "line": 94,
+    "text": "48. What are instance_eval, class_eval, and instance_exec used for?"
+  },
+  {
+    "file": "nineteen.txt",
+    "line": 95,
+    "text": "49. How does Ruby manage memory and garbage collection?"
+  },
+  {
+    "file": "nineteen.txt",
+    "line": 96,
+    "text": "50. Can a Ruby process leak memory, and how would you diagnose it?"
+  },
+  {
+    "file": "nineteen.txt",
+    "line": 97,
+    "text": "51. How do you reduce object allocation in a hot Ruby path?"
+  },
+  {
+    "file": "nineteen.txt",
+    "line": 98,
+    "text": "52. How do closures and binding work in Ruby?"
+  },
+  {
+    "file": "nineteen.txt",
+    "line": 99,
+    "text": "53. How are class methods implemented, and what does class << self mean?"
+  },
+  {
+    "file": "nineteen.txt",
+    "line": 100,
+    "text": "54. How does Ruby on Rails structure an application, and where does Ruby's design help?"
+  },
+  {
+    "file": "nineteen.txt",
+    "line": 101,
+    "text": "55. What is the N+1 query problem and how do you fix it in Rails?"
+  },
+  {
+    "file": "nineteen.txt",
+    "line": 102,
+    "text": "56. How do you write thread-safe Ruby code?"
+  },
+  {
+    "file": "nineteen.txt",
+    "line": 103,
+    "text": "57. How does Ruby's pattern matching (case/in) work?"
+  },
+  {
+    "file": "nineteen.txt",
+    "line": 104,
+    "text": "58. What do tap and then (yield_self) do, and when are they useful?"
+  },
+  {
+    "file": "nineteen.txt",
+    "line": 105,
+    "text": "59. What is the contract between eql? and hash for custom objects used as hash keys?"
+  },
+  {
+    "file": "ten.txt",
+    "line": 345,
+    "text": "How to Introduce Yourself in an Interview Professionally?"
+  },
+  {
+    "file": "thirteen.txt",
+    "line": 1,
+    "text": "How is Ruby Used in Technical Interviews?"
+  },
+  {
+    "file": "thirteen.txt",
+    "line": 14,
+    "text": "What does this mean for you as a candidate? If Ruby is your strongest language, there's no reason to avoid using it in technical interviews. While less common, Ruby is still a viable and respected choice among interviewers."
+  },
+  {
+    "file": "thirty.txt",
+    "line": 292,
+    "text": "How to contact us?"
+  },
+  {
+    "file": "thirtyeight.txt",
+    "line": 15,
+    "text": "Do you need an expert Ruby on Rails developer for your organization?"
+  },
+  {
+    "file": "thirtyeight.txt",
+    "line": 17,
+    "text": "Are you wondering how you can make the hiring process more manageable?"
+  },
+  {
+    "file": "thirtyeight.txt",
+    "line": 32,
+    "text": "When should you use Ruby on Rails interview questions?"
+  },
+  {
+    "file": "thirtyeight.txt",
+    "line": 34,
+    "text": "When hiring a Ruby on Rails expert, which soft skills should you look for?"
+  },
+  {
+    "file": "thirtyeight.txt",
+    "line": 262,
+    "text": "When should you use Ruby on Rails interview questions?"
+  },
+  {
+    "file": "thirtyeight.txt",
+    "line": 299,
+    "text": "When hiring a Ruby on Rails expert, which soft skills should you look for?"
+  },
+  {
+    "file": "thirtyone.txt",
+    "line": 837,
+    "text": "Why CoderPad?"
+  },
+  {
+    "file": "thirtyseven.txt",
+    "line": 227,
+    "text": "Are you a Ruby on Rails developer looking for amazing projects? Join as a Talent"
+  },
+  {
+    "file": "thirtytwo.txt",
+    "line": 16,
+    "text": "Do you think you know everything about Active Record in Ruby on Rails? Let’s find out!"
+  },
+  {
+    "file": "thirtytwo.txt",
+    "line": 180,
+    "text": "What are your thoughts?"
+  },
+  {
+    "file": "twenty.txt",
+    "line": 13,
+    "text": "Are you gearing up for a Ruby on Rails interview? You should be pumped to show off your skills without any nervousness. No worries! I have got your back with the most asked Ruby on Rails interview questions and answers."
+  },
+  {
+    "file": "twentyseven.txt",
+    "line": 20,
+    "text": "Which Ruby on Rails skills should you evaluate during the interview phase?"
+  },
+  {
+    "file": "twentyseven.txt",
+    "line": 1178,
+    "text": "Which Ruby on Rails skills should you evaluate during the interview phase?"
+  },
+  {
+    "file": "twentyseven.txt",
+    "line": 1181,
+    "text": "Which Ruby on Rails skills should you evaluate during the interview phase?"
+  },
+  {
+    "file": "twentyseven.txt",
+    "line": 1246,
+    "text": "What are some good Ruby on Rails interview questions for freshers?"
+  },
+  {
+    "file": "twentyseven.txt",
+    "line": 1247,
+    "text": "What are some challenging Ruby on Rails interview questions for experienced developers?"
+  },
+  {
+    "file": "twentyseven.txt",
+    "line": 1248,
+    "text": "How can I use Ruby on Rails interview questions to assess problem-solving skills?"
+  },
+  {
+    "file": "twentyseven.txt",
+    "line": 1249,
+    "text": "What are some important topics to cover in a Ruby on Rails interview?"
+  },
+  {
+    "file": "twentyseven.txt",
+    "line": 1250,
+    "text": "Why are Ruby on Rails interview questions important?"
+  },
+  {
+    "file": "twentyseven.txt",
+    "line": 1251,
+    "text": "How can skills assessments help in the Ruby on Rails hiring process?"
+  },
+  {
+    "file": "twentysix.txt",
+    "line": 136,
+    "text": "What are your thoughts?"
+  },
+  {
+    "file": "twentytwo.txt",
+    "line": 5,
+    "text": "Are you looking for a Ruby on Rails job? You are in the right place. In this article, you will find out what to expect in your next interview and how to ace it. The greatest strategy to improve your interviewing skills is to practice what they are likely to ask you and how you will respond to the questions."
+  }
+]

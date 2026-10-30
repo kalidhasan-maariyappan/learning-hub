@@ -1,0 +1,656 @@
+As Ruby on Rails (RoR) remains a popular web development framework for building scalable, high-performance applications, recruiters must identify RoR developers who can design, develop, and optimize full-stack web applications efficiently. With expertise in MVC architecture, ActiveRecord, RESTful APIs, and deployment strategies, RoR professionals help businesses deliver secure and maintainable web solutions.
+
+This resource, "100+ Ruby on Rails Interview Questions and Answers," is tailored for recruiters to simplify the evaluation process. It covers topics from Ruby on Rails fundamentals to advanced web development techniques, including database management, authentication, background jobs, and API integrations.
+
+Whether hiring entry-level RoR developers or senior backend engineers, this guide enables you to assess a candidate’s:
+
+Core Ruby on Rails Knowledge: Understanding of MVC architecture, Rails conventions, routing, and ActiveRecord ORM.
+Advanced Skills: Testing with RSpec, Sidekiq for background jobs, caching strategies, and security best practices.
+Real-World Proficiency: Optimizing performance, integrating third-party APIs, and deploying Rails applications on AWS, Heroku, or Docker.
+For a streamlined assessment process, consider platforms like WeCP, which allow you to:
+
+✅ Create customized Ruby on Rails assessments with hands-on coding tasks.
+✅ Include real-world web application scenarios to test problem-solving skills.
+✅ Conduct remote proctored exams to ensure test integrity.
+✅ Leverage AI-powered evaluation for faster and more accurate hiring decisions.
+
+Save time, improve hiring efficiency, and confidently recruit Ruby on Rails developers who can build robust, scalable web applications from day one.
+
+Question for Beginners
+What is Ruby on Rails, and what are its main features?
+What is the difference between Ruby and Ruby on Rails?
+How do you create a new Rails project?
+What are Models, Views, and Controllers in Rails?
+What is Active Record in Rails?
+What is the purpose of the rail's server command?
+Explain the concept of RESTful routes in Rails.
+What are migrations in Rails, and why are they important?
+What is the purpose of the config/routes.rb file?
+How does Rails handle database schema changes?
+What is the difference between render and redirect_to in controllers?
+What is a partial in Rails, and why would you use it?
+What is the role of a controller in a Rails application?
+What is the purpose of the application.rb file?
+What is the difference between link_to and button_to in Rails?
+What is a Gemfile in a Rails application?
+How can you add a new gem to your Rails application?
+How does Rails handle request-response cycles?
+What are the key differences between GET, POST, PUT, and DELETE HTTP methods?
+What is the purpose of the before_action callback in Rails?
+What is a session in Rails, and how is it managed?
+How do you define associations between models in Rails (e.g., has_many, belongs_to)?
+What is the significance of the db/seeds.rb file?
+How can you define validations in a Rails model?
+How do you implement simple authentication in Rails?
+What is the asset pipeline in Rails?
+What is the difference between save and create in ActiveRecord?
+How do you handle errors in Rails?
+What is a "scaffold" in Rails?
+How do you handle form submissions in Rails?
+What is the params object in Rails?
+What is the role of a helper in Rails?
+What are the key differences between Rails 4 and Rails 5?
+What is the purpose of the assets folder in Rails?
+How do you run a Rails migration?
+How can you connect a Rails app to a database (e.g., MySQL, PostgreSQL)?
+What is a flash message in Rails, and how do you use it?
+What are the main parts of a Rails view?
+How do you define a route in config/routes.rb for a controller action?
+How do you check the current version of Rails?
+Question for Intermediate
+What is the Rails convention over configuration (CoC) principle?
+What is Rails' "DRY" principle, and how is it implemented?
+What are concerns in Rails, and how do you use them?
+How does Rails handle security, and what are some best practices for securing a Rails application?
+Explain the MVC (Model-View-Controller) design pattern in the context of Rails.
+What are polymorphic associations in Rails?
+What is the difference between has many: through and has_and_belongs_to_many associations?
+How do you implement user authentication using Devise in Rails?
+How can you implement role-based authorization in Rails?
+What is a scope in Rails, and how do you define it?
+How do you handle background jobs in Rails (e.g., using Sidekiq or ActiveJob)?
+What is caching in Rails, and how do you implement it?
+What is the ActiveJob framework, and how does it work?
+How do you handle file uploads in Rails (e.g., using ActiveStorage or CarrierWave)?
+Explain the use of respond_to in controllers.
+How do you handle file downloads in Rails?
+What is the role of the strong_parameters gem in Rails?
+How do you test models in Rails?
+How do you implement pagination in Rails?
+What is the purpose of the config/database.yml file?
+What are migrations, and how do you roll back a migration in Rails?
+What is the rails console, and how is it useful for debugging?
+How does Rails implement lazy loading?
+Explain the importance of before_save and after_save callbacks in Rails.
+What is the purpose of validates_uniqueness_of in Rails models?
+What is the difference between find and find_by in ActiveRecord?
+How do you implement a custom validation in Rails?
+What is a view helper in Rails?
+What is the difference between render and render_to_string?
+How do you handle exceptions in Rails?
+How does Rails implement parameterized queries to prevent SQL injection?
+What is the active_record query interface in Rails?
+What are the benefits of using Rails engines?
+How do you implement nested resources in Rails?
+How do you configure background job processing in Rails?
+What are the differences between create! and create in ActiveRecord?
+How do you implement "soft deletes" in Rails?
+What is the enum feature in Rails, and how do you use it?
+How do you configure asset precompilation in production?
+How do you monitor and log a Rails application in production?
+Question for Experienced
+How do you scale a Rails application to handle increased traffic?
+How would you optimize database queries in a large Rails application?
+What is service-oriented architecture (SOA), and how can you implement it in Rails?
+Explain the concept of background job queues in Rails and how to optimize them.
+How do you manage multiple environments (development, test, production) in Rails?
+How do you handle multi-tenancy in a Rails application?
+How do you write custom Rake tasks in Rails?
+What are the different ways to manage configuration settings across environments in Rails?
+What is the role of an API-only application in Rails, and when would you use it?
+What is the Rails.cache object, and how do you use it for caching data?
+How do you handle server-side rendering (SSR) in Rails?
+How do you perform custom SQL queries in Rails, and when is it appropriate to do so?
+Explain the Rails asset pipeline, and what are the advantages of using Webpacker over the asset pipeline?
+How do you implement OAuth authentication in Rails?
+How would you structure a large Rails codebase with many models, controllers, and views?
+What is a polymorphic has_many association, and how does it differ from a regular has_many?
+How do you implement rate-limiting and throttling in Rails?
+What is the importance of database indexing, and how do you implement it in Rails?
+How do you handle asynchronous processing in Rails beyond just background jobs?
+How do you create and manage custom Rails engines for reusable code?
+How would you handle a large number of database records in Rails (e.g., pagination, batch processing)?
+How do you handle security issues such as XSS (Cross-site Scripting) and CSRF (Cross-site Request Forgery) in Rails?
+Explain the difference between monolithic and microservices architecture, and how can Rails fit in either model?
+How would you implement multi-language (i18n) support in Rails?
+How do you test a Rails application with integration tests, and what tools would you use?
+How do you use WebSockets or ActionCable in Rails to build real-time features?
+How do you implement a microservice architecture using Ruby on Rails?
+What is the purpose of the ActiveSupport::Concern module in Rails?
+How do you implement a search functionality in Rails (e.g., using Elasticsearch or pg_search)?
+How do you manage large data imports or exports in Rails?
+What is the concern gem in Rails, and how does it differ from standard modules?
+How do you handle error handling and logging in production-level Rails applications?
+How do you deal with memory management and performance issues in Rails?
+What are Rails engines, and how can they help structure reusable components across multiple applications?
+How would you migrate a Rails application from an old version (e.g., Rails 4 to Rails 6)?
+What are the different ways to handle database migrations in a high-traffic Rails application?
+How do you secure API endpoints in a Rails application?
+How do you implement real-time notifications using Rails?
+How do you optimize image and file uploads for performance in Rails?
+How do you ensure a Rails application is production-ready, with proper monitoring, error handling, and performance tuning
+Beginners Question with Answer
+1. What is Ruby on Rails, and what are its main features?
+Ruby on Rails, commonly known as Rails, is a full-stack web application framework built using the Ruby programming language. It was created by David Heinemeier Hansson in 2004 to streamline the web development process by emphasizing developer productivity and ease of use. Rails follows the Model-View-Controller (MVC) architectural pattern, which separates the application into three primary components, allowing for better code organization, maintainability, and scalability.
+
+Main Features of Ruby on Rails:
+
+MVC Architecture: The Model-View-Controller (MVC) design pattern is the core of Rails. It organizes code into three parts:some text
+Model: Represents the data and business logic of the application.
+View: Represents the user interface and is responsible for displaying data to the user.
+Controller: Manages the flow of data between models and views, responding to user requests.
+Convention over Configuration: Rails emphasizes convention over configuration, which means that it assumes sensible defaults (e.g., table names, file structures) so developers don't have to explicitly configure them, making it easier and faster to get started with development.
+ActiveRecord ORM: ActiveRecord is Rails' built-in Object-Relational Mapping (ORM) layer. It abstracts the interaction with the database, allowing developers to work with database records as Ruby objects, rather than writing raw SQL queries.
+RESTful Routing: Rails encourages using REST (Representational State Transfer) for organizing routes and managing resources. This makes it easier to follow predictable, maintainable routes for actions like creating, reading, updating, and deleting records.
+Scaffolding: Rails allows you to generate default code (models, controllers, views) for basic CRUD operations using scaffolding commands. This dramatically speeds up development.
+Asset Pipeline: The Rails asset pipeline helps manage JavaScript, CSS, and image files, providing features like minification, concatenation, and compilation (e.g., CoffeeScript to JavaScript, Sass to CSS).
+Built-in Testing Framework: Rails comes with a robust testing framework, encouraging Test-Driven Development (TDD) and ensuring high-quality, bug-free applications.
+Security Features: Rails includes built-in security features like Cross-Site Scripting (XSS) protection, Cross-Site Request Forgery (CSRF) protection, and SQL Injection prevention.
+Tooling and Gems: Rails offers a rich ecosystem of libraries (called gems) that extend the functionality of your application, such as authentication, authorization, background job processing, and more.
+2. What is the difference between Ruby and Ruby on Rails?
+Ruby is a general-purpose, object-oriented programming language created by Yukihiro Matsumoto in 1993. It is known for its simplicity, readability, and flexibility. Ruby is used for a wide range of applications, from scripting and automation to building web applications and more. Its clean syntax and dynamic features make it a favorite among developers.
+
+Ruby on Rails (often abbreviated as Rails), on the other hand, is a web application framework built using the Ruby programming language. Rails provides an opinionated structure for building web applications quickly and efficiently by abstracting many complexities, such as database management, routing, and HTTP request handling.
+
+Key Differences:
+
+Ruby:some text
+A language that can be used for many different purposes (not limited to web development).
+Provides the building blocks for object-oriented programming, dynamic typing, and metaprogramming.
+Used for scripting, automation, and backend applications.
+Ruby on Rails:some text
+A framework specifically designed for web development.
+Built on Ruby, Rails provides predefined structures and conventions for organizing code, handling database interactions, routing HTTP requests, and managing user sessions.
+Rails allows developers to create full-fledged web applications by writing less code, focusing on business logic and core functionality instead of low-level details.
+In summary, Ruby is the programming language, while Ruby on Rails is a framework for building web applications using Ruby.
+
+3. How do you create a new Rails project?
+Creating a new Rails project is straightforward and can be done in just a few steps:
+
+Install Ruby and Rails: Ensure that you have Ruby and the Rails gem installed on your machine. You can verify the Ruby version with bash
+
+ruby -v
+And to install Rails, run:
+bash
+
+
+
+Generate a New Rails Project: After installing Rails, you can create a new project by running the following command:
+bash
+rails new my_app
+
+Replace my_app with the desired name of your application. This command will generate a new Rails application with the required folder structure and files.
+Navigate to the Project Directory: After the project is generated, navigate into your project folder:
+bash
+cd my_app
+
+Start the Rails Server: To run the application locally in development mode, use the Rails server command:
+bash
+rails server
+
+This starts the server on http://localhost:3000 by default. You can view your app by visiting that URL in your browser.
+Database Setup: If your application needs a database, you can set it up using:
+bash
+rails db:create
+
+This will create the database defined in your config/database.yml file.
+Now you have a running Rails application where you can begin adding models, controllers, views, and other features
+
+4. What are Models, Views, and Controllers in Rails?
+In Ruby on Rails, Models, Views, and Controllers (MVC) are the core components of the framework. The MVC architecture helps separate the application’s logic, presentation, and data management, which improves maintainability and scalability.
+
+Model: The Model represents the application’s data and business logic. It interacts with the database, validating, saving, and retrieving data. Models typically correspond to tables in the database and are responsible for defining relationships between different models
+
+ (e.g., has_many, belongs_to).
+‍
+
+Example:
+
+class User < ApplicationRecord
+  validates :name, presence: true
+  has_many :posts
+end
+View: The View represents the user interface. It renders the data passed by the controller into a readable format (usually HTML), often mixed with Ruby code. Views are where developers define the structure of web pages that users will see.
+Example (in ERB template format):erb
+
+<h1>Welcome, <%= @user.name %>!</h1>
+Controller: The Controller serves as the bridge between the Model and the View. It processes user requests, interacts with the model to retrieve or manipulate data, and then decides which view to render. Controllers contain actions that are triggered by specific routes and HTTP methods.
+Example: ruby
+
+class UsersController < ApplicationController
+  def show
+    @user = User.find(params[:id])
+  end
+end
+using associations such as has_many, belongs_to, has_one, and has_and_belongs_to_many.
+Example: ruby
+
+class Post < ApplicationRecord
+  belongs_to :user
+  has_many :comments
+end
+Validations: Active Record allows you to validate data before it is saved to the database, ensuring that it meets specific criteria (e.g., presence, uniqueness, numerically).
+Example: ruby
+
+class User < ApplicationRecord
+  validates :email, presence: true, uniqueness: true
+end
+Active Record enables developers to work with data using object-oriented principles, which increases productivity and reduces the amount of boilerplate SQL code.
+
+6. What is the purpose of the rails server command?
+The rails server command is used to start the web server for a Rails application, enabling it to handle HTTP requests and serve responses. By default, Rails uses the Puma web server in the development environment. The server listens for requests on port 3000, though you can specify a different port if needed.
+
+Purpose and Use:
+
+Starting the Server: When you run the rails server command (rails s for short), Rails loads the application and listens for incoming HTTP requests on http://localhost:3000.bash rail server
+
+Specify a Port: You can run the server on a different port using the -p flag. bash
+
+This would start the server on http://localhost:4000.
+Production Environment: By default, the rails server command starts the app in development mode. To run it in production mode, use the -e flag:
+bash
+rails server -e production
+
+In short, the rails server command is essential for local development and testing, allowing you to view your Rails app in a browser and interact with it via HTTP requests.
+
+7. Explain the concept of RESTful routes in Rails.
+RESTful routing is an architectural pattern that defines how web applications should handle HTTP requests. Rails encourages the use of REST (Representational State Transfer) to manage the CRUD operations for resources in a consistent and predictable manner.
+
+In Rails, a resource refers to an entity that your application manages (e.g., a User, Post, or Comment). Rails generates routes for these resources using the resources keyword.
+
+RESTful Routes:
+
+For a resource like posts, the following routes are automatically created:
+
+GET /posts: Index action (lists all posts).
+GET /posts/:id: Show action (displays a single post).
+POST /posts: Create action (creates a new post).
+PATCH/PUT /posts/:id: Update action (modifies an existing post).
+DELETE /posts/:id: Destroy action (deletes a post).
+These routes map to specific actions in the controller (e.g., index, show, create, update, destroy), making it easier to organize the application and follow a standardized approach to handling data.
+
+8. What are migrations in Rails, and why are they important?
+Migrations in Rails are a way to manage changes to the database schema over time. They allow you to modify the database structure without writing raw SQL, making schema changes easy to version-control and apply consistently across different environments.
+
+Why Migrations Are Important:
+
+Version Control: Migrations allow you to track changes to the database schema, making it easier to collaborate with others and deploy schema changes in a controlled manner.
+Reversibility: Migrations are reversible, meaning you can undo changes if necessary, using the rails db:rollback command.
+Consistency: Migrations ensure that database changes are applied consistently across different development, staging, and production environments.
+Example of a Migration:
+
+To generate a migration to add a new column to the user's table:
+
+bash
+
+rails generate migration AddAgeToUsers age:integer
+
+‍
+
+To apply the migration and update the schema:
+
+bash
+
+rails db:migrate
+
+‍
+
+9. What is the purpose of the config/routes.rb file?
+The config/routes.rb file defines how incoming HTTP requests are routed to specific controllers and actions in a Rails application. This file is where you set up URL patterns and their corresponding controller actions.
+
+Mapping Requests to Actions: Routes are mapped to controller actions, which determine how to respond to the request.
+Example: ruby
+
+Rails.application.routes.draw do
+  get 'home/index'
+  resources :posts
+end
+‍
+
+In this example, GET /home/index maps to the index action in the HomeController, and the resources :posts automatically generates RESTful routes for the Post resource.
+Custom Routes: You can define custom routes using get, post, put, and delete methods to specify paths for special actions.
+10. How does Rails handle database schema changes?
+Rails handles database schema changes using migrations. Migrations are scripts that allow you to alter the database structure in a consistent and versioned manner. Instead of manually writing SQL commands to update the database, Rails provides an abstraction layer where developers define changes using Ruby code.
+
+Process:
+
+Generate a Migration: To create a migration, you use the rails generate migration command: bash
+
+rails generate migration AddAgeToUsers age:integer
+Run Migrations: Once the migration file is generated, apply the changes with bash
+
+rails db:migrate
+Rollback Migrations: If you need to undo a migration, Rails allows you to rollback: bash
+
+rails db:rollback
+Migrations provide a consistent way to manage database schema changes, ensure that developers work with the same schema, and allow schema changes to be tracked in version control.
+
+‍
+
+11. What is the difference between render and redirect_to in controllers?
+Both render and redirect_to are methods used in Rails controllers, but they have different purposes and behaviors:
+
+render: The render method is used to render a specific view template, either the default view for the current action or a different one. When you call render, the controller action will continue processing and the same request will be reused, meaning the browser's URL won't change. Example: ruby :ruby
+
+def show
+  @post = Post.find(params[:id])
+  render :show  # Renders the show.html.erb view
+end
+redirect_to: The redirect to method is used to send an HTTP response that tells the browser to make a new request to a different URL. This causes the browser's URL to change, and the corresponding action and view are processed. ExampleExample ruby
+
+def create
+  @post = Post.new(post_params)
+  if @post.save
+    redirect_to @post  # Redirects the user to the show page of the newly created post
+  else
+    render :new  # Renders the new.html.erb view in case of failure
+  end
+end
+Key Difference:
+
+render keeps the URL the same and just renders a view.
+redirect_to changes the URL and sends a new request to the browser.
+12. What is a partial in Rails, and why would you use it?
+A partial in Rails is a reusable chunk of HTML and Ruby code that you can include in different parts of your views. Partials are typically used to avoid repetition by breaking down large view templates into smaller, modular pieces of code.
+
+Why use a partial?
+
+Code Reusability: Partials allow you to reuse view code across different templates, reducing redundancy.
+Maintainability: It is easier to update and maintain smaller, focused view components.
+Cleaner Code: Partials help you organize your views into more readable and manageable pieces.
+Example:
+
+You can create a partial to display a single post:
+
+erb
+
+<!-- app/views/posts/_post.html.erb -->
+<div class="post">
+  <h2><%= post.title %></h2>
+  <p><%= post.body %></p>
+</div>
+You can then render this partial in another view:
+
+erb
+
+<%= render partial: 'post', locals: { post: @post } %>
+The underscore (_post.html.erb) is a Rails convention to denote that it's a partial file.
+
+‍
+
+13. What is the role of a controller in a Rails application?
+In a Rails application, the controller is responsible for receiving HTTP requests from the client (browser), processing them (often interacting with models), and rendering an appropriate response (usually through a view). The controller is the "middleman" between the model (data) and the view (UI).
+
+Key Responsibilities of a Controller:
+
+Request Handling: Determines which action to execute based on the request URL and method.
+Data Management: Interacts with models to retrieve, modify, or create data.
+View Rendering: Selects and renders the correct view (HTML, JSON, etc.) to send back to the client.
+Action Filters: Executes before, after, or around specific controller actions (e.g., authentication).
+Example:
+
+ruby
+
+class PostsController < ApplicationController
+  def index
+    @posts = Post.all
+  end
+
+  def show
+    @post = Post.find(params[:id])
+  end
+end
+14. What is the purpose of the application.rb file?
+The application.rb file, located in the config folder, is the central configuration file for a Rails application. It is where you set global settings and configurations for your app, including framework defaults, middleware, and other initialization settings.
+
+Key purposes:
+
+Configuration: Defines default settings for the app, such as timezone, locale, and which frameworks to include.
+Initialization: Sets up custom initialization logic that runs when the Rails app starts (e.g., loading custom libraries or setting paths).
+Middleware Setup: Configures the middleware stack used by the Rails application.
+Example:
+
+ruby
+
+module MyApp
+  class Application < Rails::Application
+    config.load_defaults 6.0
+    config.time_zone = 'UTC'
+    config.eager_load_paths += %W(#{config.root}/lib)
+  end
+end
+Here, config.load_defaults 6.0 loads the default settings for Rails 6, and config.time_zone sets the default time zone for the application.
+
+15. What is the difference between link_to and button_to in Rails?
+Both link_to and button_to are helpers used to create links or buttons in Rails views, but they generate different HTML and are used in different scenarios.
+
+link_to: Generates an HTML <a> (anchor) tag, typically used for navigation. It is commonly used to navigate between pages, usually with a GET request.
+
+‍Example:
+
+<%= link_to 'Show Post', post_path(@post) %>
+button_to: Generates an HTML <form> with a submit button. This is used when you want to trigger an action that involves modifying data (e.g., creating, updating, or deleting records) and typically uses HTTP methods like POST, DELETE, or PUT.
+
+‍Example:
+
+<%= button_to 'Delete Post', post_path(@post), method: :delete %>
+Key Differences:
+
+link_to is used for navigation (typically GET), while button_to is used for form submission (e.g., POST, DELETE).
+16. What is a Gemfile in a Rails application?
+The Gemfile is a file in the root directory of a Rails application that lists all the external libraries (gems) your application depends on. It specifies which gems to install and, in some cases, which versions to use.
+
+Purpose:
+
+Dependency Management: It allows you to list all the required gems for your application.
+Version Control: You can specify versions of gems to ensure consistency across different environments (e.g., development, staging, production).
+Example
+
+source 'https://rubygems.org'
+
+gem 'rails', '~> 6.0'
+gem 'pg', '>= 0.18', '< 2.0'
+gem 'puma', '~> 4.1'
+gem 'devise', '~> 4.7'
+This file is used by the Bundler tool to install and manage gems.
+
+17. How can you add a new gem to your Rails application?
+To add a new gem to your Rails application, follow these steps:
+
+Edit the Gemfile: Add the gem to the Gemfile.
+
+gem 'gem_name'
+Install the Gem: Run the bundle install command to install the gem and its dependencies. bash
+
+bundle install
+Configure the Gem: Some gems may require additional configuration or initialization files. Refer to the gem's documentation for specific setup instructions.
+For example, to add the devise gem for authentication:
+
+Add gem 'devise' to the Gemfile.
+Run bundle install.
+Run the Devise generator to set it up: bash
+
+rails generate devise:install
+18. How does Rails handle request-response cycles?
+Rails follows a request-response cycle for processing incoming HTTP requests and generating the corresponding response. Here’s how it works:
+
+Request: The browser sends an HTTP request (such as a GET or POST) to the server.
+Routing: The Rails router (config/routes.rb) maps the incoming request to a specific controller action based on the URL and HTTP method.
+Controller Action: The controller action is executed, which may involve interacting with models (e.g., fetching data from the database) and preparing the response.
+View Rendering: The controller renders a view (typically HTML or JSON) to present the data to the user. If an action redirects to another URL, the browser is instructed to make a new request.
+Response: The Rails server sends the response back to the browser, where it is displayed to the user.
+Key Steps:
+
+Request → 2. Routing → 3. Controller → 4. View → 5. Response
+19. What are the key differences between GET, POST, PUT, and DELETE HTTP methods?
+These are common HTTP methods used in web applications to perform different actions:
+
+GET: Requests data from the server. It is safe and idempotent, meaning it should not modify data and multiple requests will yield the same result.
+Example: GET /posts
+POST: Sends data to the server to create a new resource. It is not idempotent; submitting the same data multiple times will result in multiple resources being created.
+Example: POST /posts
+PUT: Updates an existing resource with new data. It is idempotent, meaning sending the same request multiple times will result in the same outcome.
+Example: PUT /posts/:id
+DELETE: Deletes a resource. It is idempotent, meaning multiple delete requests will have the same effect after the resource is deleted.
+Example: DELETE /posts/:id
+Summary:
+
+GET: Retrieve data.
+POST: Create data.
+PUT: Update data.
+DELETE: Remove data.
+20. What is the purpose of the before_action callback in Rails?
+The before_action callback is a filter in Rails controllers that allows you to execute specific code before an action is run. It is often used for tasks like authentication, logging, or setting instance variables that are shared across multiple actions.
+
+Common use cases:
+
+Authentication: Ensuring the user is logged in before they can access certain actions.
+Authorization: Checking whether the user has permission to perform a certain action.
+Setting up resources: Setting instance variables needed for actions (e.g., loading a specific post before show or edit).
+Example:
+
+class PostsController < ApplicationController
+  before_action :authenticate_user!, only: [:create, :update, :destroy]
+
+  def create
+    @post = Post.new(post_params)
+    if @post.save
+      redirect_to @post
+    else
+      render :new
+    end
+  end
+
+  private
+
+  def authenticate_user!
+    redirect_to login_path unless current_user
+  end
+end
+In this example, authenticate_user! is called before the create, update, and destroy actions, ensuring only authenticated users can access them.
+
+21. What is a session in Rails, and how is it managed?
+In Rails, a session is used to persist data across multiple HTTP requests from the same user. It allows you to store information, such as user login status or preferences, that is needed throughout the user's session with the application.
+
+How sessions work:
+
+Cookie-based sessions: By default, Rails uses a cookie-based session store, where the session data is stored in the browser as an encrypted cookie. Each request from the user sends the cookie, allowing the server to access the stored session data.
+Server-side storage: Alternatively, Rails can store session data server-side (e.g., in the database or cache) for additional security and scalability.
+Accessing session data: You can access and modify session data using the session hash in controllers.
+Example:
+
+# Storing data in session
+session[:user_id] = @user.id
+
+# Retrieving data from session
+@current_user = User.find(session[:user_id])
+
+# Deleting session data
+session.delete(:user_id)
+By default, Rails provides a session management mechanism that is simple and secure, but you can customize it based on your application needs.
+
+22. How do you define associations between models in Rails (e.g., has_many, belongs_to)?
+In Rails, associations are defined using built-in ActiveRecord macros like has_many, belongs_to, has_one, and has_and_belongs_to_many to establish relationships between models. These associations are used to manage related data across tables and automatically handle foreign keys and join tables.
+
+Types of Associations:
+
+has_many: Indicates a one-to-many relationship where one model can have many associated models. This is used on the "one" side of the relationship. ruby
+
+class Author < ApplicationRecord
+  has_many :books
+end
+
+class Book < ApplicationRecord
+  belongs_to :author
+end
+
+WeCP Team
+Team @WeCP
+WeCP is a leading talent assessment platform that helps companies streamline their recruitment and L&D process by evaluating candidates' skills through tailored assessments
+Check out these other Interview Questions...
+Interviews, tips, guides, industry best practices, and news.
+Manual Testing Interview Questions and Answers
+Computer Vision interview Questions and Answers
+Dell Boomi Interview Questions and Answers
+Rest API Interview Questions and Answers
+Spring Framework Interview Questions and Answers
+Angular Interview Questions and Answers
+C++ interview Questions and Answers
+Informatica Interview Questions and Answers
+Laravel Interview Questions and Answers
+View all posts
+
+WeCP is the #1 AI Talent Assessment Platform to assess, interview, hire, and upskill candidates who truly deserve to work with you.
+Copyright © 2026 WeCP (We Create Problems). All rights reserved.
+Backed By
+
+Platform
+AI Interviews
+AI Assessments
+Panel Interviews
+WeCP AI
+English Pro
+Culture Pro
+Vibe Coder Assessment
+Company
+About Us
+Our Customers
+Wall Of Love ❤️
+Newsroom
+Careers
+Contact
+Compare
+WeCP Vs Hirevue
+WeCP Vs HackerRank
+WeCP Vs Coderpad
+WeCP Vs TestGorilla
+WeCP Vs Codility
+View All 
+Resources
+Blogs
+Email Templates
+Job Descriptions
+Interview Questions
+Case Study
+Voice
+Integrations
+Change Log
+Test Library
+AI-Powered Quiz Maker
+AI-Powered Question Generator
+Online Hackathon Platform
+Online Proctoring Software
+Solutions
+Launch AI Interviewers
+Evaluate AI-ready Technical Talent
+Measure Communication and Soft Skills
+Run Human Interviews with an AI Companion
+SF, USA
+3388 17th St San Francisco,
+California - 94110
+USA
+Austin, USA
+701 Tillery St, Austin,
+Texas - 78702
+USA
+Bengaluru, India
+2728, 27th Main Road, Sector 1, HSR Layout, Bangalore - 560102 India
+Pune, India
+WeCP, Wework Raheja Woods, Kalyani Nagar, Pune - 411006
+India
+London, uk
+PO Box 1487,
+Peterborough, PE1 9XX,
+UK
+Terms of Use
+Privacy Policy

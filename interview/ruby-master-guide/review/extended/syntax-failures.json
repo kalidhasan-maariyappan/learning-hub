@@ -1,0 +1,57 @@
+[
+  {
+    "key": "eight:Junior-07",
+    "error": "<compiled>:5: syntax error found\n",
+    "code": "    # code that might raise an exception\n    puts \"An error occurred: #{e.message}\"\n    # code that will run regardless of whether an exception occurred\n    puts \"This runs no matter what\"\nend"
+  },
+  {
+    "key": "nine:84",
+    "error": "<compiled>:3: syntax error found\n",
+    "code": "class User\n  attr_reader :address\n  def address=(value) = @address = value.strip\n  def initialize(value)\n    self.address = value\n  end\nend"
+  },
+  {
+    "key": "thirteen:concept-17",
+    "error": "<compiled>:4: syntax errors found\n",
+    "code": "def faulty_method\n    puts \"Rescued from error: #{e}\"\n  end\nend\n  10.times do |i|\n    puts i\n  end\nend\n# Output: 0 1 2 3 4 5"
+  },
+  {
+    "key": "nineteen:13",
+    "error": "<compiled>:1: syntax errors found\n",
+    "code": "puts writes its argument and adds a newline, calling to_s. print writes without a trailing newline. p writes the inspect form (showing quotes and structure) and returns the object, which makes it handy for debugging.\nputs \"hi\"    # hi        (returns nil)\nprint \"hi\"   # hi        (no newline)\np \"hi\"       # \"hi\"      (returns \"hi\")\np :hi        # :hi       (shows it is a symbol)"
+  },
+  {
+    "key": "nineteen:14",
+    "error": "<compiled>:3: syntax error found\n",
+    "code": "status = if score >= 90 then \"A\" else \"B\" end\nputs \"denied\" unless authorized\ngrade = case score\n        end"
+  },
+  {
+    "key": "nineteen:58",
+    "error": "<compiled>:4: syntax errors found\n",
+    "code": "user = User.new.tap do |u|\n  u.name = \"Asha\"\n  u.role = \"admin\"\nresult = 5.then { |n| n * 2 }.then { |n| n + 1 }   # 11"
+  },
+  {
+    "key": "nineteen:comparison",
+    "error": "<compiled>:1: syntax errors found\n",
+    "code": "Node.js\tDynamic\tHigh-concurrency I/O, real-time apps\tCallback complexity, CPU-bound work"
+  },
+  {
+    "key": "twentyone:unless-1",
+    "error": "<compiled>:1: syntax errors found\n",
+    "code": "unless conditional [then]\n   code\nelse\n   code \nend"
+  },
+  {
+    "key": "twentyone:case-3",
+    "error": "<compiled>:2: syntax errors found\n",
+    "code": "age =  4\ncase age\nputs \"baby\" when 0 .. 2\nputs \"little child\" when 3 .. 6\nputs \"child\" when 7 .. 12\nputs \"youth\" when 13 .. 18\nputs \"adult\" else\nend"
+  },
+  {
+    "key": "twentyone:case-9",
+    "error": "<compiled>:2: syntax errors found\n",
+    "code": "l=9\ncase l\nprint \"ruby\" when l==9\nprint \"language\" when l==10\nend"
+  },
+  {
+    "key": "twentyone:comparison-10",
+    "error": "<compiled>:4: syntax errors found\n",
+    "code": "counter=1\nif counter<=5\n    puts (counter)\n    counter=counter+1"
+  }
+]

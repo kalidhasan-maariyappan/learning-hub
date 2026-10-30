@@ -1,0 +1,250 @@
+# Source ledger: thirtytwo.txt
+
+SHA-256: `995a9c4a8f83a6d272aa45d0140f588abc785da02e097520ef204860e0330ee5`
+
+206 physical lines; 31 extracted question/concept occurrences. The complete source is retained below, including original inaccuracies, missing-answer markers and website boilerplate. This is evidence, not the corrected study answer.
+
+| Occurrence | Original lines | Final question | Original prompt |
+|---|---:|---|---|
+| SRC-01068 | 23–25 | [C-0029](../C-database-sql.md#c-0029) | What is Active Record? |
+| SRC-01069 | 26–31 | [B-0046](../B-rails.md#b-0046) | How do you define a User model in Rails? |
+| SRC-01070 | 32–36 | [B-0045](../B-rails.md#b-0045) | How do you create a User model with name and email attributes using generator? |
+| SRC-01071 | 37–42 | [C-0028](../C-database-sql.md#c-0028) | What is a join table in Rails and how do you create one using generator? |
+| SRC-01072 | 43–45 | [C-0001](../C-database-sql.md#c-0001) | What is the difference between find and find_by in Rails? |
+| SRC-01073 | 46–54 | [C-0024](../C-database-sql.md#c-0024) | How do you manage database transactions in Rails? |
+| SRC-01074 | 55–66 | [B-0117](../B-rails.md#b-0117) | What is a callback in Rails and how do to use it? |
+| SRC-01075 | 67–69 | [B-0154](../B-rails.md#b-0154) | What is the purpose of the rails db:seed task? |
+| SRC-01076 | 70–72 | [B-0102](../B-rails.md#b-0102) | What does MVC mean? |
+| SRC-01077 | 73–75 | [B-0268](../B-rails.md#b-0268) | What is an Active Record in Rails? |
+| SRC-01078 | 76–78 | [B-0270](../B-rails.md#b-0270) | What is the difference between Active Record and Active Model? |
+| SRC-01079 | 79–81 | [F-0071](../F-advanced.md#f-0071) | What is the Active Record architecture pattern? |
+| SRC-01080 | 82–84 | [B-0014](../B-rails.md#b-0014) | What is ORM? |
+| SRC-01081 | 85–87 | [B-0271](../B-rails.md#b-0271) | What is the difference between Active Record and ORM? |
+| SRC-01082 | 88–93 | [B-0094](../B-rails.md#b-0094) | What are the advantages of using ORM? |
+| SRC-01083 | 94–97 | [B-0087](../B-rails.md#b-0087) | What are disadvantages of using ORM? |
+| SRC-01084 | 98–100 | [B-0236](../B-rails.md#b-0236) | How Convention over Configuration works in Active Record? |
+| SRC-01085 | 101–107 | [B-0259](../B-rails.md#b-0259) | What are the optional reserved column names you can use in Active Record? |
+| SRC-01086 | 108–110 | [B-0229](../B-rails.md#b-0229) | What is the purpose of the ApplicationRecord class in Rails? |
+| SRC-01087 | 111–114 | [B-0243](../B-rails.md#b-0243) | How to override table name in Active Record? |
+| SRC-01088 | 115–118 | [B-0242](../B-rails.md#b-0242) | How to override primary key in Active Record? |
+| SRC-01089 | 119–121 | [B-0112](../B-rails.md#b-0112) | What happen if you try to create a column named id which is not the primary key? |
+| SRC-01090 | 122–124 | [B-0108](../B-rails.md#b-0108) | What does CRUD mean? |
+| SRC-01091 | 125–127 | [B-0090](../B-rails.md#b-0090) | What are Validations in Active Record? |
+| SRC-01092 | 128–130 | [B-0117](../B-rails.md#b-0117) | What are Callbacks in Active Record? |
+| SRC-01093 | 131–133 | [B-0269](../B-rails.md#b-0269) | What are Migrations in Active Record? |
+| SRC-01094 | 134–136 | [B-0263](../B-rails.md#b-0263) | What does it mean that Active Record migrations are database-agnostic? |
+| SRC-01095 | 137–139 | [B-0275](../B-rails.md#b-0275) | Where Rails keeps track of which migrations have been committed? |
+| SRC-01096 | 140–142 | [B-0244](../B-rails.md#b-0244) | How to run and rollback Active Record migration? |
+| SRC-01097 | 143–145 | [B-0241](../B-rails.md#b-0241) | What are Association in Active Record? |
+| SRC-01098 | 146–147 | [B-0277](../B-rails.md#b-0277) | Why it’s not recommended to use non-primary key columns in Active Record? |
+
+## Complete original text
+
+```text
+31 Ruby on Rails Interview Questions you must know | Active Record
+rubyhub.io
+rubyhub.io
+
+Follow
+5 min read
+·
+Jun 15, 2024
+203
+
+
+2
+
+
+
+Do you think you know everything about Active Record in Ruby on Rails? Let’s find out!
+
+Press enter or click to view image in full size
+
+Photo by benjamin lehman on Unsplash
+If you are interested in Ruby on Rails, you can find more questions on: https://www.rubyhub.io/questions
+
+1. What is Active Record?
+Active Record is the ORM (Object-Relational Mapping) layer in Rails. It connects classes to relational database tables to establish a nearly zero-configuration persistence layer for applications. This allows developers to interact with the database using Ruby methods instead of raw SQL.
+
+2. How do you define a User model in Rails?
+# A model in Rails is a Ruby class that inherits from 
+# This automatically maps the users table in the database to the User model.
+
+class User < ApplicationRecord
+end
+3. How do you create a User model with name and email attributes using generator?
+# This command creates a model file, a migration file, and test files
+# for the User model.
+
+rails generate model User name:string email:string
+4. What is a join table in Rails and how do you create one using generator?
+A join table is used to establish a many-to-many relationship between two models. It typically contains only foreign keys to the related models.
+
+# generates a migration for a join table named users_groups.
+
+rails generate migration CreateJoinTableUserGroup users groups
+5. What is the difference between find and find_by in Rails?
+The find method Fetches a record by its primary key (ID) and raises an exception if not found, while find_by fetches the first record that matches the given conditions and returns nil if not found.
+
+6. How do you manage database transactions in Rails?
+Database transactions can be managed using ActiveRecord::Base.transaction method to ensure atomic operations.
+
+# If any part of the transaction fails, all operations are rolled back.
+
+ActiveRecord::Base.transaction do
+  user.save!
+  order.save!
+end
+7. What is a callback in Rails and how do to use it?
+Callbacks are methods that are triggered at specific points in an object’s life cycle (e.g., before_save, after_create).
+
+class User < ApplicationRecord
+  before_save :normalize_name
+    
+  private
+    
+  def normalize_name
+    self.name = name.downcase.titleize
+  end
+end
+8. What is the purpose of the rails db:seed task?
+The rails db:seed task is used to populate the database with initial data.
+
+9. What does MVC mean?
+MVC stands for Model-View-Controller. It’s a software architectural pattern commonly used in the development of user interfaces, particularly for web applications.
+
+10. What is an Active Record in Rails?
+Active Record is part of the M in MVC pattern — which is the layer of the system responsible for representing data and business logic.
+
+11. What is the difference between Active Record and Active Model?
+Active Record is an ORM framework in Rails that connects classes to database tables, enabling database operations through Ruby objects, while Active Model provides modules for building custom models without a database, offering features like validations, serialization, and callbacks.
+
+12. What is the Active Record architecture pattern?
+Active Record is a design pattern in which an object’s data and behavior are encapsulated, allowing it to directly represent and interact with database records. It is commonly used in object-relational mapping (ORM) frameworks.
+
+13. What is ORM?
+It stands for Object Relational Mapping — it is a technique that connect object of an application to table in RDBMS. Using ORM the properties and relationships of the objects in an application can be easily stored and retrived from a database without writing SQL statements and less or without access code.
+
+14. What is the difference between Active Record and ORM?
+ORM is a broader concept encompassing various techniques for mapping objects to relational databases, while Active Record is a specific implementation of ORM.
+
+15. What are the advantages of using ORM?
+You write less code
+It speeds up development time
+Decreases the cost of development
+Handles the logic required to interact with databases
+Improves security. Mostly it is built to eliminate the possibility of SQL injection.
+16. What are disadvantages of using ORM?
+learning how to use it can be time
+they are generally slower than using
+they are perform worse when very complex queries are involved
+17. How Convention over Configuration works in Active Record?
+If you follow the conventions adopted by Rails, you’ll need to write very little configuration (in some cases no configuration at all) when creating Active Record models. Explicit configuration would be needed only in those cases where you can’t follow the standard convention.
+
+18. What are the optional reserved column names you can use in Active Record?
+created_at
+updated_at
+lock_version
+type
+(association_name)_type
+(table_name)_count
+19. What is the purpose of the ApplicationRecord class in Rails?
+ApplicationRecord allows you to centralize configurations that apply to all models in your application.
+
+20. How to override table name in Active Record?
+class Product < ApplicationRecord
+  self.table_name = "my_products"
+end
+21. How to override primary key in Active Record?
+class Product < ApplicationRecord
+  self.primary_key = "product_id"
+end
+22. What happen if you try to create a column named id which is not the primary key?
+Migration throw an error during migrations with warning. To create it you have to use { id: false }, arguments in the migration.
+
+23. What does CRUD mean?
+CRUD is an acronym for the four verbs we use to operate on data: Create, Read, Update and Delete.
+
+24. What are Validations in Active Record?
+Active Record Validations allows you to validate the state of a model before it gets written into the database.
+
+25. What are Callbacks in Active Record?
+Active Record callbacks allow you to attach code to certain events in the life-cycle of your models. This enables you to add behavior to your models by transparently executing code when those events occur, like when you create a new record, update it, destroy it, and so on.
+
+26. What are Migrations in Active Record?
+Rails provides a convenient way to manage changes to a database schema via migrations. Migrations are written in a domain-specific language and stored in files which are executed against any database that Active Record supports.
+
+27. What does it mean that Active Record migrations are database-agnostic?
+It means that you can run it in MySQL, PostgreSQL, SQLite, and others.
+
+28. Where Rails keeps track of which migrations have been committed?
+Rails keeps track of which migrations have been committed to the database and stores them in a neighboring table in that same database called schema_migrations.
+
+29. How to run and rollback Active Record migration?
+To run the migration and create the table, you’d run bin/rails db:migrate, and to roll it back and delete the table, bin/rails db:rollback.
+
+30. What are Association in Active Record?
+Active Record associations allow you to define relationships between models. Associations can be used to describe one-to-one, one-to-many, and many-to-many relationships.
+
+31. Why it’s not recommended to use non-primary key columns in Active Record?
+Active Record does not recommend using non-primary key columns named id. Using a column named id which is not a single-column primary key complicates the access to the column value. The application will have to use the id_value alias attribute to access the value of the non-PK id column.
+
+As I mentioned before, if you are interested in Ruby on Rails, you can find more questions on: https://www.rubyhub.io/questions
+
+Ruby On Rails
+
+Development
+
+Programming
+
+Software Development
+
+Software Engineering
+
+203
+
+
+2
+
+
+rubyhub.io
+Written by rubyhub.io
+528 followers
+·
+78 following
+[🔴 100% Follow-Back 🔴] I'm Full Stack Developer with 5-years of experience working with Ruby on Rails, trying to share my knowledge with others.
+
+
+Follow
+Responses (2)
+Unknown user
+Write a response
+
+What are your thoughts?
+
+Cancel
+Respond
+More from rubyhub.io
+See all from rubyhub.io
+Recommended from Medium
+See more recommendations
+Help
+
+Status
+
+About
+
+Careers
+
+Press
+
+Blog
+
+Store
+
+Privacy
+
+Rules
+
+T
+```

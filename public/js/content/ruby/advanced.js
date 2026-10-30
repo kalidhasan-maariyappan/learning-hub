@@ -309,25 +309,6 @@
     K.tip('Prefix commands with <code>bundle exec</code> (or use the <code>bin/</code> scripts in a Rails app) so they use the project’s gem versions.'),
   ]);
 
-  page('ruby_interview', () => [
-    h2('Ruby interview questions'),
-    p('These questions come up in interviews for experienced Ruby and Rails developers. Try to answer each one before opening it.'),
-    K.interview([
-      ['What is the difference between a proc and a lambda?', 'A lambda checks the number of arguments and <code>return</code> exits only the lambda. A proc fills missing arguments with <code>nil</code>, and <code>return</code> exits the method in which the proc was defined. See ' + JT.link('ruby_procs_lambdas', 'Procs and Lambdas') + '.'],
-      ['What is the difference between <code>==</code>, <code>eql?</code>, <code>equal?</code> and <code>===</code>?', '<code>==</code> compares values, <code>eql?</code> compares value and type (used for hash keys), <code>equal?</code> compares object identity, and <code>===</code> is case equality used by <code>case/when</code>.'],
-      ['What is the difference between <code>include</code>, <code>extend</code> and <code>prepend</code>?', '<code>include</code> adds module methods as instance methods after the class in the lookup chain; <code>prepend</code> puts them before the class so they can wrap its methods; <code>extend</code> adds them to a single object, which makes them class methods when used on a class.'],
-      ['How does method lookup work?', 'Ruby searches the object’s singleton class, then prepended modules, the class, included modules (last included first), then the superclass chain up to <code>BasicObject</code>. If nothing is found it calls <code>method_missing</code>. <code>Class.ancestors</code> shows the order.'],
-      ['Why should you not <code>rescue Exception</code>?', 'It also catches <code>SignalException</code> (Ctrl+C), <code>SystemExit</code> and <code>NoMemoryError</code>, which should stop the program. Rescue <code>StandardError</code> or a specific subclass.'],
-      ['What is a symbol and why use it for hash keys?', 'A symbol is an immutable, unique name: each symbol exists once, so comparing two symbols is an identity check. That makes them cheap hash keys and option names.'],
-      ['What does <code>||=</code> do, and when is it wrong?', 'It assigns only when the variable is <code>nil</code> or <code>false</code>. For memoizing a method that can legitimately return <code>nil</code> or <code>false</code>, the value is recomputed every time; use <code>defined?(@x)</code> or <code>instance_variable_defined?</code> instead.'],
-      ['What is the difference between <code>map</code> and <code>each</code>?', '<code>each</code> runs the block for its side effects and returns the original collection; <code>map</code> returns a new array of the block’s results.'],
-      ['What is duck typing?', 'Code depends on what an object can do (the methods it responds to), not on its class. Any object with the right methods can be used.'],
-      ['How is <code>method_missing</code> used, and what must go with it?', 'It handles calls to undefined methods, for example dynamic finders. It must call <code>super</code> for unhandled names and be paired with <code>respond_to_missing?</code>.'],
-      ['What does <code>freeze</code> do, and is it deep?', 'It makes the object immutable and raises <code>FrozenError</code> on change. It is shallow: objects referenced by a frozen array or hash are not frozen.'],
-      ['What is the Global VM Lock (GVL)?', 'In CRuby only one thread runs Ruby code at a time. Threads still help with I/O-bound work, because the lock is released while waiting for I/O. For CPU-bound parallelism, use processes or Ractors.'],
-    ]),
-  ]);
-
   const quiz = K.mixQuiz([
     { q: 'Which values are falsy in Ruby?', options: ['Only false and nil', 'false, nil, 0 and ""', 'false and 0', 'Only false'], answer: 0 },
     { q: 'What does [1, 2, 3].map { |n| n * 2 } return?', options: ['[2, 4, 6]', '[1, 2, 3]', '12', 'nil'], answer: 0 },

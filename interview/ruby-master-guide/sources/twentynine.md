@@ -1,0 +1,203 @@
+# Source ledger: twentynine.txt
+
+SHA-256: `f14e3df2200a9622dcf32242ed8e65696958315772e4087b57f1fb97ed2bfbb2`
+
+175 physical lines; 15 extracted question/concept occurrences. The complete source is retained below, including original inaccuracies, missing-answer markers and website boilerplate. This is evidence, not the corrected study answer.
+
+| Occurrence | Original lines | Final question | Original prompt |
+|---|---:|---|---|
+| SRC-01299 | 16–18 | [B-0128](../B-rails.md#b-0128) | What is Ruby on Rails |
+| SRC-01300 | 19–21 | [B-0095](../B-rails.md#b-0095) | What are some of the advantages of Ruby on Rails? |
+| SRC-01301 | 22–29 | [B-0143](../B-rails.md#b-0143) | What is the naming convention used in Ruby on Rails? |
+| SRC-01302 | 30–32 | [A-0277](../A-ruby.md#a-0277) | What is meant by a “class library”? |
+| SRC-01303 | 33–35 | [B-0216](../B-rails.md#b-0216) | What does the term “Yield” refer to in the context of Ruby on Rails? |
+| SRC-01304 | 36–38 | [A-0373](../A-ruby.md#a-0373) | What is the difference between “false” and “nil”? |
+| SRC-01305 | 39–41 | [B-0227](../B-rails.md#b-0227) | What is the Object Relationship Model (ORM) in Rails? |
+| SRC-01306 | 42–44 | [A-0380](../A-ruby.md#a-0380) | What is the difference between Symbol and String? |
+| SRC-01307 | 45–47 | [A-0352](../A-ruby.md#a-0352) | How are Symbols different from variables? |
+| SRC-01308 | 48–50 | [A-0142](../A-ruby.md#a-0142) | What is an enum in Ruby? |
+| SRC-01309 | 51–57 | [B-0311](../B-rails.md#b-0311) | How can you create a controller in Rails? |
+| SRC-01310 | 58–60 | [B-0269](../B-rails.md#b-0269) | What is referred to by Rails Migration? |
+| SRC-01311 | 61–63 | [B-0159](../B-rails.md#b-0159) | When do you use self.down and self.up in Ruby on Rails? |
+| SRC-01312 | 64–66 | [A-0278](../A-ruby.md#a-0278) | What is Mixin? |
+| SRC-01313 | 67–72 | [A-0346](../A-ruby.md#a-0346) | How are Variables defined in Ruby? |
+
+## Complete original text
+
+```text
+Practice these Ruby on Rails Interview Questions to Help You Land Your Next Role
+11/17/2022
+7 minutes
+Adam-Carpenter.png?w=288
+By Adam Carpenter
+It doesn’t matter if this is your first Ruby on Rails interview or your fifth — congrats! A lot of work went into landing this interview, from networking to resume writing to building your technical portfolio — and let’s not forget the whole process of actually learning Rails — you should be proud of all of that!
+
+But now it’s time to prep for your interview, and one of the best ways to do that is by practicing common Ruby on Rails interview questions. Not only does this help you work out the answers beforehand, but it can also help you identify any areas or skills that you need to brush up on before your interview.
+
+If you want to take this one step further, see if you can borrow a friend or family member for an hour and set up a mock interview. Have them ask you these questions in person or virtually (ideally matching the way you’ll be interviewed); that way, you can practice saying your answers out loud before you’re in front of the interview committee.
+
+Ready to get started? Here are 15 Ruby on Rails interview questions and answers to help you prepare for your interview.
+
+Learn something new for free
+Intro to ChatGPT Learn SQL
+1. What is Ruby on Rails
+Ruby on Rails is an open-source, object-oriented framework that’s used to develop web applications. It’s written in the Ruby programming language, and developers turn to Ruby on Rails for its time-saving features and fast development. It’s often referred to simply as Rails.
+
+2. What are some of the advantages of Ruby on Rails?
+There are many advantages of Ruby on Rails, and your answer to this question can be guided by what you like most about it. Do you benefit from the built-in testing feature? If so, you could mention how Rails supports fixtures and harnesses that make creating and executing test cases more manageable. Or you could talk about meta-programming and how it makes it easier to construct extensive, detailed code within Ruby. Rails has three separate environments: development, production, and testing. What about scaffolding? You could go over how Rails makes it easier to scaffold by automatically creating temporary code. Another advantage that you might want to mention is that you don’t have to spend a lot of time and energy configuring within Rails if you follow naming conventions.
+
+3. What is the naming convention used in Ruby on Rails?
+Naming within Ruby on Rails consists of five elements:
+
+Class and module. Classes and modules make use of MixedCase, and they don’t have an underscore. The words in modules and classes begin with uppercase letters.
+Variables. The letters used when declaring variables are in snake_case: all lowercase letters and underscores to separate words.
+Database table. When you name a database table, it should be in snake_case. Table names should be pluralized.
+Controller. To write controller names, you use a pluralized form of a word to denote what the controller manages. For example, you could use “OrdersController” to refer to the controller that works with an order table.
+Model. When specifying a model, you use MixedCase and put it in the singular form.
+4. What is meant by a “class library”?
+A class library consists of domains in Ruby on Rails, including thread programming, data types, and more. These allow you to create abstractions of code, making it possible to efficiently use the same logic within different elements of an app or in another program.
+
+5. What does the term “Yield” refer to in the context of Ruby on Rails?
+Yield refers to what a Ruby method uses to refer to a code block while invoking it. When yield gets called within a method, it allows the method to refer to all the code within the block. This prevents a programmer from manually having to insert many lines of code repeatedly.
+
+6. What is the difference between “false” and “nil”?
+“False” refers to an object of FalseClass that represents a Boolean value. “Nil” is an object that indicates when there is no value present.
+
+7. What is the Object Relationship Model (ORM) in Rails?
+An ORM indicates when your classes are being mapped to a table within the database. Also, objects are mapped directly to the rows within a table. This makes it easier to incorporate the attributes of several different classes within a single table.
+
+8. What is the difference between Symbol and String?
+The difference between String and Symbol can be primarily found in the object ID. Strings are mutable, meaning they can be changed. Symbols, on the other hand, are immutable objects. While a String and a Symbol can consist of similar code, the mutable or immutable nature of each often means they serve very different roles in the context of the application as a whole.
+
+9. How are Symbols different from variables?
+Symbols in Ruby are immutable and are stored in a fixed location in memory, while variables are mutable and point to a value in memory. A symbol represents the value itself and, once created, can be reused throughout a program without the need to be allocated more memory. On the other hand, when a new value is assigned to a variable, the variable will change its pointer, or reference, to that new value. Symbols are sometimes compared to strings in their functionality and can be converted back and forth between a string and a symbol type.
+
+10. What is an enum in Ruby?
+An enum refers to a data type consisting of a set of named values. It allows values to be mapped to integers within the database, and this enables them to be queried using their names.
+
+11. How can you create a controller in Rails?
+You can create a controller with this command:
+
+$ bin/rails generate controller Subjects
+
+This command generates corresponding routes, views, test files, and stylesheets. There are many other convenient commands like one for generating a model. The typical workflow would be first to generate a model and migrate that into the schema, then generate the corresponding controller, and finally construct the view accordingly.
+
+12. What is referred to by Rails Migration?
+Rails Migration makes it so Ruby can alter the database schema, which makes it possible to utilize a version control system to leave everything synchronized with your actual code. This enables you to avoid managing individual SQL scripts and use a domain-specific language (DSL) to define your changes.
+
+13. When do you use self.down and self.up in Ruby on Rails?
+You use self.up when you’re migrating to a new version, and you use self.down when you’re rolling back changes that have been made. By using both self.up and self.down, you can perform a migration and roll it back within only a few lines of code.
+
+14. What is Mixin?
+Mixin gives you an alternative to having multiple inheritances since it’s possible to import Mixin modules inside a class. This gives you a manageable way of allowing classes to perform more functions. Classes are often composed of many different Mixins.
+
+15. How are Variables defined in Ruby?
+In Ruby, there are three main types of variables:
+
+Global variables start with $ and can be accessed from anywhere in a program.
+Class variables start with @@ and can be used anywhere within the class that it’s defined in. They’re shared by class descendants.
+Instance variables start with @. The value stored inside this type of variable is used in a local scope that’s specific to instances of the created object. Instance variables may vary from object to object.
+Prepare to ace your interview
+If you need a refresher before diving into interviews, check out our Learn Ruby on Rails course, where you’ll go over the basics of the framework while also building eight web applications with Rails — so you’ll definitely have the opportunity to brush up on your skills. And if you need a refresher on the programming language Ruby, our Learn Ruby course is a great option.
+
+Once you feel confident in your Ruby on Rails skills and knowledge, it’s time to prepare for your interviews. Our complete guide to the technical interview will walk you through the key parts of a technical interview so you know what to expect. And here are tips to help you prepare for the whiteboard interview.
+
+Also, check out our Career Center for more interview resources, as well as resume and cover letter writing guides.
+
+Related courses
+3 courses
+Learn Ruby
+Beginner
+Learn to program in Ruby, a ﬂexible and beginner-friendly language used to create sites like Codecademy.
+Learn Ruby on Rails
+Beginner
+Learn the basics of building applications with this convenient and powerful web development framework.
+Learn Authentication with Ruby on Rails
+Beginner
+Learn how to add user sign up, login & logout functionality to your Rails applications.
+Subscribe for news, tips, and more
+youremail@youremail.com
+Subscribe
+
+
+
+
+
+
+
+Find a plan that fits your goals
+Explore plans
+Company
+About
+Careers
+Affiliates
+Partnerships
+Resources
+Articles
+Blog
+Cheatsheets
+Code challenges
+Docs
+Projects
+Videos
+Workspaces
+Support
+Help Center
+Plans
+For individuals
+For students
+For teams
+Discounts
+Community
+Visit community
+Code Crew
+Events
+Learner Stories
+Subjects
+AI
+Cloud Computing
+Code Foundations
+Computer Science
+Cybersecurity
+Data Analytics
+Data Science
+Data Visualization
+Developer Tools
+DevOps
+Game Development
+IT
+Machine Learning
+Math
+Mobile Development
+Web Design
+Web Development
+Languages
+Bash
+C
+C++
+C#
+Go
+HTML & CSS
+Java
+JavaScript
+Kotlin
+PHP
+Python
+R
+Ruby
+SQL
+Swift
+Career building
+Career paths
+Career center
+Interview prep
+Professional certification
+—
+Full Catalog
+Beta Content
+Roadmap
+Mobile
+Download on the App Store
+Get it on Google Play
+Privacy Policy Cookie Policy Do Not Sell My Personal Information
+```

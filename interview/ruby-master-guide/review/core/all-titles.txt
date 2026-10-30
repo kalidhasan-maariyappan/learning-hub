@@ -1,0 +1,1444 @@
+A customer reports that unauthorized users can modify another user's profile by changing the request parameters. How would you investigate and resolve this issue?
+Blocks
+Build an array based on the following scenario.
+Can you call a private method outside a Ruby class using its object?
+Can you describe a real-world scenario where you used MVC, and what challenges did you encounter?
+Can you describe the MVC pattern and how it's used in Rails? Imagine you're explaining it to a kid with building blocks.
+Can you describe the purpose of a Rails migration?
+Can you tell me the three levels of method access control for classes and modules?  What do they imply about the method?
+Can you tell me the three levels of method access control for classes and modules? What do they imply about the method?
+Code-related: Implement a Ruby method that takes an array of integers as input and returns a new array containing only the unique elements, removing any duplicates.
+Consider the following code:
+
+
+
+```ruby
+VAL = 'Global'
+ 
+module Foo
+  VAL = 'Foo Local'
+ 
+  class Bar
+    def value1
+      VAL
+    end
+  end
+end
+ 
+class Foo::Bar
+  def value2
+    VAL
+  end
+end
+
+```
+
+
+What will be the value of each of the following:
+
+
+
+```ruby
+Foo::Bar.new.value1
+Foo::Bar.new.value2
+
+```
+
+
+Explain your answer.
+Consider the following code:
+
+
+
+```ruby
+class A
+  def self.a(b)
+    if b > 0
+      b * b
+    end
+  end
+end
+
+```
+
+
+What will be the values of:
+
+
+
+
+- `var1 = A.a(0)`
+
+- `var2 = A.a(2)`
+Consider the following scenario related to variables.
+Consider the following two methods:
+
+
+
+```ruby
+def times_two(arg1);
+  puts arg1 * 2;
+end
+
+def sum(arg1, arg2);
+  puts arg1 + arg2;
+end
+
+```
+
+
+What will be the result of each of the following lines of code:
+
+
+
+```ruby
+times_two 5
+times_two(5)
+times_two (5)
+sum 1, 2
+sum(1, 2)
+sum (1, 2)
+
+```
+Consider the following:
+Consider the scenario below and answer the following questions:
+Create a Ruby class called Person with attributes name and age. Implement a custom setter method for the age attribute that restricts the age to be within a specific range (e.g., 0 to 120).
+Create a Ruby function that takes an array of numbers as input and returns a new array containing only the even numbers.
+Create a Ruby module called Helper with a method that calculates the square of a number. Then, implement a class Calculator that includes the Helper module and uses the square method to calculate the square of a given number.
+Create a Ruby module called MathHelper that provides methods for calculating the factorial and the square root of a number. Implement a class Calculator that includes the MathHelper module and uses its methods to perform calculations.
+Define MVC
+Define the role of Rails Controller.
+Describe a challenging Rails project you worked on and the lessons you learned from it.
+Describe a challenging bug you resolved in Rails.
+Describe a time you had to debug a complex issue in a Rails application. What steps did you take to identify and resolve the problem?
+Describe how Rails implements single-table inheritance (STI).
+Describe how to implement a Rails callback for setting a default value before creating a record.
+Describe how you would debug a Rails application. What tools and techniques do you find most helpful?
+Describe how you would implement API versioning in a Rails application.
+Describe how you would implement a custom validator in Rails. Provide an example.
+Describe recent trends and advancements in the Ruby language.
+Describe some frameworks developers use for background jobs.
+Describe the 'method' method and its applications.
+Describe the MVC architecture in Rails.
+Describe the concept of metaclasses (eigenclasses) in Ruby.
+Describe the difference between 'GET' and 'POST' HTTP methods.
+Describe the difference between 'puts' and 'print' statements.
+Describe the difference between class and instance variables? Class variables are created with the prefix ‘@@’ and are shared by all objects in a class.
+Describe the flow of a request in a Rails application from the browser to the database and back. Explain how the MVC components are involved.
+Describe the process of deploying a Rails application to a production environment.
+Describe the purpose of routes in a Rails application.
+Describe the purpose of the 'prepend' method in Ruby and how it affects method lookup.
+Describe the role of 'self' in Ruby and its contexts.
+Describe the role of Ruby in the evolution of natural language processing and chatbots.
+Describe the role of routes.rb in a Rails application.
+Describe the use of `ActiveModel::Serializers` in Rails. When should you use it?
+Describe what destructive methods are.
+Describe your experience contributing to open-source Rails projects or developing your own Rails gems.
+Describe your experience with different Rails ORMs (e.g., ActiveRecord, Sequel) and your preferred approach to interacting with databases.
+Describe your experience with different Rails caching techniques (e.g., fragment caching, Russian doll caching) and when you would use each one.
+Describe your experience with different Rails code analysis tools (e.g., RuboCop, Brakeman) and how they help improve code quality.
+Describe your experience with different Rails engines and when you would use an engine in a Rails project.
+Describe your experience with different Rails testing frameworks (e.g., RSpec, Minitest) and your preferred testing strategies.
+Describe your experience with different deployment strategies for Rails applications (e.g., Capistrano, Docker, Kubernetes).
+Describe your understanding of polymorphic associations in Rails. Give a practical use case.
+Difference between includes, joins, preload, and eager_load.
+Differentiate between '==' and 'equal?' comparison operators.
+Differentiate between 'dup' and 'clone' methods.
+Differentiate between local variables and instance variables.
+Discuss Ruby's approach to multithreading and concurrency.
+Discuss Ruby's role in blockchain and cryptocurrency applications.
+Discuss the 'super' keyword and its usage.
+Discuss the Rails delegate method.
+Discuss the concept of blocks and their significance.
+Discuss the concept of refinements in Ruby.
+Discuss the concept of ‘Matz's Ruby Interpreter’ (MRI).
+Discuss the differences between eager loading and lazy loading in ActiveRecord.
+Discuss the global interpreter lock (GIL) and its impact on Ruby's performance.
+Discuss the growing importance of Ruby in the field of robotics and automation.
+Discuss the growing influence of Rust and Elixir in the Ruby ecosystem.
+Discuss the potential impact of Ruby in the field of quantum machine learning.
+Discuss the purpose of RVM and rbenv for managing Ruby versions.
+Discuss the purpose of the 'yield' keyword in Ruby.
+Discuss the relevance of Ruby in the context of IoT (internet of things) development.
+Discuss the role of Ruby in creating and manipulating XML and JSON data.
+Discuss the role of Ruby in the development of quantum algorithms and quantum programming.
+Discuss the use of partials and layouts in Rails views.
+Do you know about Activestorage in Ruby on Rails and How can you use this?
+Does Ruby Allow Multiple Inheritance?
+Does Ruby Support Single Inheritance/Multiple Inheritance Or Both?
+Does Ruby support Multiple Inheritance and Single Inheritance?
+Does Ruby support multiple inheritance?
+Does Ruby support single inheritance?
+During deployment, a new feature requires database changes without affecting existing production data. How would you handle this?
+Explain Cross-Site Request Forgery (CSRF). How is Rails protected against it?
+Explain MVC architecture in Ruby on Rails with an example.
+Explain ORM in Ruby on Rails?
+Explain Rails Migration.
+Explain a polymorphic association:
+Explain break statement in Ruby.
+Explain case statement in Ruby.
+Explain do while loop in Ruby.
+Explain each of the following operators and how and when they should be used:  `==`, `===`, `eql?`, `equal?`.
+Explain eager loading and lazy loading in Rails.
+Explain for loop in Ruby.
+Explain how (almost) everything is an object in Ruby:
+Explain how Rails handles logging.
+Explain how Rails manages sessions and cookies. How can developers use sessions for user authentication?
+Explain how Symbol is different from variables?
+Explain how class variables are different from instance variables.
+Explain how rail implements Ajax?
+Explain how to generate a new Rails application.
+Explain how you can list all routes for an application?
+Explain how you can run Rails application without creating databases?
+Explain how you define Instance Variable, Global Variable, and Class Variable in Ruby?
+Explain how you would handle internationalization (i18n) and localization (l10n) in a Rails application.
+Explain how you would implement a RESTful API in Rails, including versioning, authentication, and documentation.
+Explain how you would implement a complex search functionality with filtering, sorting, and pagination in a Rails application.
+Explain how you would implement a payment gateway integration in a Rails application.
+Explain how you would implement a real-time feature in a Rails application (e.g., using Action Cable or WebSockets).
+Explain how you would implement a role-based access control (RBAC) system in a Rails application.
+Explain how you would implement a search engine optimization (SEO) strategy in a Rails application.
+Explain how you would implement a search functionality in a Rails application. What are some performance considerations?
+Explain how you would implement caching in a Rails application. What different caching strategies are available?
+Explain how you would optimize a slow-performing Rails application. What tools and techniques would you use?
+Explain multiple inheritance and mixins in Ruby.
+Explain some of the looping structures available in Ruby?
+Explain the MVC (Model-View-Controller) design pattern in the context of Rails.
+Explain the MVC architecture in Rails.
+Explain the Model-View-Controller (MVC) architectural pattern in the context of Ruby on Rails.
+Explain the Model-View-Controller (MVC) architectural pattern used in Ruby on Rails. How does it contribute to the development of web applications?
+Explain the Rails asset pipeline, and what are the advantages of using Webpacker over the asset pipeline?
+Explain the Rails controller action lifecycle.
+Explain the Rails initialization process.
+Explain the concept of Action Cable in Ruby on Rails and how it facilitates real-time features in web applications.
+Explain the concept of ActiveRecord callbacks in Ruby on Rails.
+Explain the concept of MVC architecture in the context of Ruby on Rails.
+Explain the concept of RESTful routes in Rails.
+Explain the concept of RESTful routes in Ruby on Rails and why they are considered best practices for web applications.
+Explain the concept of RESTful routing in Ruby on Rails.
+Explain the concept of RESTful routing in Ruby on Rails. How does it help in building web applications?
+Explain the concept of Rails callbacks and provide examples of where they can be used in real-world applications.
+Explain the concept of Service Objects in Rails.
+Explain the concept of WebAssembly and its implications for Ruby web applications.
+Explain the concept of a block in Ruby and provide an example of its usage.
+Explain the concept of a symbol in Ruby and why it is useful compared to strings.
+Explain the concept of asset pipeline in Ruby on Rails and how it optimizes the delivery of assets in web applications.
+Explain the concept of asset pipeline in Ruby on Rails and its significance in web development.
+Explain the concept of associations in ActiveRecord.
+Explain the concept of background job queues in Rails and how to optimize them.
+Explain the concept of caching in Ruby on Rails. How can caching improve the performance of web applications?
+Explain the concept of closures in Ruby and how they capture their surrounding context.
+Explain the concept of concerns in Rails. When and why would you use them?
+Explain the concept of concurrency and parallelism in Ruby, and how they are achieved.
+Explain the concept of continuous integration and continuous deployment (CI/CD).
+Explain the concept of duck typing in Ruby and how it differs from static typing in other programming languages.
+Explain the concept of eager loading in Rails. Why is it important and how does it work?
+Explain the concept of eager loading in Ruby on Rails and why it is beneficial.
+Explain the concept of fibers and their use in managing lightweight concurrent tasks.
+Explain the concept of garbage collection in Ruby and how it helps manage memory.
+Explain the concept of inheritance in Ruby and how it facilitates code reuse.
+Explain the concept of metaprogramming in Ruby and how it is utilized in real-world applications.
+Explain the concept of method hooks (method_missing, method_added, method_removed).
+Explain the concept of migrations in Ruby on Rails and why they are essential for database management.
+Explain the concept of mixins in Ruby.
+Explain the concept of partials in Ruby on Rails views and their benefits in web development.
+Explain the concept of procs and lambdas.
+Explain the concept of refinements in Ruby and their intended use.
+Explain the concept of symbols in Ruby.
+Explain the concept of ‘Crystal’, a statically-typed language inspired by Ruby, and its relationship to Ruby.
+Explain the concept of ‘JIT’ (just-in-time) compilation in Ruby.
+Explain the difference between #equal and #==.
+Explain the difference between 'GET' and 'POST' requests.
+Explain the difference between ActiveSupport’s "HashWithIndifferentAccess" and Ruby’s "Hash"?
+Explain the difference between Array#each and Array#map
+Explain the difference between Array#each and Array#map.
+Explain the difference between `render` and `redirect_to` in a Rails controller.
+Explain the difference between a Ruby class and an instance of a class.
+Explain the difference between before_action, around_action, and after_action.
+Explain the difference between dynamic and static scaffolding.
+Explain the difference between modules and classes in Ruby and when to use each.
+Explain the difference between monolithic and microservices architecture, and how can Rails fit in either model?
+Explain the difference between proc and lambda in Ruby.
+Explain the difference between puts and print in Ruby. Also, describe the concept of blocks and how they are used.
+Explain the difference between raise/rescue and throw/catch.
+Explain the differences between gems and plugins in Ruby on Rails.
+Explain the differences between nil and false in Ruby on Rails.
+Explain the importance of before_save and after_save callbacks in Rails.
+Explain the model-view-controller (MVC) architecture in Ruby on Rails.
+Explain the naming convention in Rails.
+Explain the potential impact of WebAssembly on Ruby development.
+Explain the potential impacts of quantum computing on Ruby and programming languages in general.
+Explain the potential impacts of quantum computing on the future development of the Ruby language.
+Explain the potential role of Ruby in the future of augmented reality (AR) and virtual reality (VR) technologies.
+Explain the principle of DRY (Don't Repeat Yourself) in Ruby.
+Explain the purpose and use of Rails' Active Storage service.
+Explain the purpose of Active Record in Ruby on Rails and how it simplifies database interactions.
+Explain the purpose of Rails helpers.
+Explain the purpose of a Rails controller.
+Explain the purpose of exceptions in Ruby and how they help handle errors and unexpected situations.
+Explain the purpose of modules in Ruby and how they facilitate code organization and reusability.
+Explain the purpose of the Gemfile in a Rails application.
+Explain the purpose of the Rails convention over configuration principle.
+Explain the role of Bundler and gems in the Ruby ecosystem.
+Explain the role of background jobs and queues in enhancing Ruby application performance.
+Explain the role of sub-directory app/controllers and app/helpers.
+Explain the role of the sub-directory app/controller and app/helper.
+Explain the singleton class and its use cases.
+Explain the usage of the 'if' statement in Ruby.
+Explain the use of respond_to in controllers.
+Explain the use of scopes in Rails models. How do they improve code readability and maintainability?
+Explain the use of yield in Rails layouts.
+Explain this ruby idiom: a ||= b
+Explain types of Callbacks in Ruby on Rails.
+Explain until loop in Ruby.
+Explain what ActiveJob is.
+Explain what ActiveRecord is in Ruby on Rails and how it simplifies database interactions.
+Explain what Delete does in Ruby on Rails.
+Explain what Destroy does in Ruby on Rails.
+Explain what ORM means in Ruby on Rails.
+Explain what Rails environments are (development, test, production).
+Explain what Ruby on Rails is.
+Explain what Spring is.
+Explain what Strong Parameters are.
+Explain what a Rails engine is.
+Explain what a proc is.
+Explain what a string is in Ruby on Rails.
+Explain what a symbol is in Ruby on Rails.
+Explain what an asset pipeline is.
+Explain what blocks are in Ruby on Rails.
+Explain what callbacks are in Ruby on Rails.
+Explain what count does in Ruby on Rails.
+Explain what delete does in Ruby on Rails.
+Explain what destroy does in Ruby on Rails.
+Explain what dynamic finders are.
+Explain what functional testing is:
+Explain what harnesses are.
+Explain what initializers are in Ruby on Rails.
+Explain what is Cross-Site Request Forgery (CSRF) and how Rails is protected against it?
+Explain what is Gems and Gemset in Ruby on Rails.
+Explain what is ORM (Object-Relationship-Model) in Rails?
+Explain what is Ruby on Rails?
+Explain what is class libraries in Ruby?
+Explain what is rake in Rails?
+Explain what is the role of sub-directory app/controllers and app/helpers?
+Explain what is “Yield” in Ruby on Rails?
+Explain what length does in Ruby on Rails.
+Explain what load does in Ruby on Rails.
+Explain what naming conventions are in Rails.
+Explain what observers are in Ruby on Rails.
+Explain what require does in Ruby on Rails.
+Explain what size does in Ruby on Rails.
+Explain what the splat operator is.
+Explain what “rake” means in Ruby on Rails.
+Explain what “scaffolding” is.
+Explain when self.up and self.down method is used?
+Explain whether instance methods are private or public.
+Explain which symbols developers use to define variables, global variables, and class variables.
+Explain with the help of an example Skip Callback in Rails.
+Explain your approach to securing a Rails application against common web vulnerabilities like CSRF, XSS, and SQL injection.
+For the class `ABC` the given as:
+
+
+
+```ruby
+class ABC
+  def xyz
+    puts "xyz in ABC"
+  end
+end
+
+```
+
+What is the return value for:
+
+
+
+
+- `ABC::new::xyz`
+
+- `ABC::new.xyz`
+
+- `ABC.new::xyz`
+
+- `ABC.new.xyz`
+Give an example of a filter in Ruby on Rails.
+Give the output of the stated class implementation:
+Given an array [1,2,34,5,6,7,8,9], sum it up using a method:
+Given that the following code has been run:
+
+
+
+```ruby
+if false
+  foo = 'test'
+end
+
+```
+
+
+What will be the value of:
+
+
+
+
+- `defined? foo`
+
+- `defined? bar`
+Given this input:
+Given two models, Author and Book, where an author can have many books, how would you define the relationship in both models using Active Record? Also, write an Active Record query to find all books written by an author with the name 'Jane Doe'.
+Given:
+
+
+
+```ruby
+x = "hello"
+
+```
+
+
+Explain the difference between:
+
+
+
+```ruby
+x += " world"
+
+```
+
+
+and
+
+
+
+```ruby
+x.concat " world"
+
+```
+HOW Web Works
+Have you worked with WebSockets in Rails (e.g., ActionCable)?
+How Convention over Configuration works in Active Record?
+How and when would you declare a Global Variable?
+How are Symbols different from variables?
+How are Variables defined in Ruby?
+How can developers contribute to the growth of the Ruby ecosystem?
+How can recruiters reduce time-to-hire for Rails developers?
+How can you achieve multiple inheritance in Ruby?
+How can you add a comment in Ruby code?
+How can you add a new gem to your Rails application?
+How can you connect a Rails app to a database (e.g., MySQL, PostgreSQL)?
+How can you create a controller in Rails?
+How can you create a custom DSL (domain-specific language) in Ruby?
+How can you define validations in a Rails model?
+How can you implement authentication and authorization in a Rails app?
+How can you implement authentication and authorization in a Rails application? What gems or techniques would you consider?
+How can you implement custom iterators in Ruby?
+How can you implement memoization in Ruby to optimize recursive functions?
+How can you implement role-based authorization in Rails?
+How can you include a module in a class in Ruby?
+How can you modify existing classes and methods dynamically?
+How can you override a private method in a subclass in Ruby?
+How can you perform CRUD (Create, Read, Update, Delete) operations in Rails?
+How do Active Record associations work?
+How do I prepare for a Rails interview?
+How do Procs and lambdas differ in Ruby?
+How do Rails scopes work?
+How do weekdays and weekends affect this schedule?
+How do you add CSS and JavaScript to your Rails application?
+How do you analyze performance issues in a Rails application?
+How do you approach code reviews in a Rails project, and what are the key things you look for in a code review?
+How do you approach working with legacy Rails codebases, and what are some strategies for refactoring and modernizing them?
+How do you assess Ruby on Rails developer skills?
+How do you cache partials and pages in Rails?
+How do you check the current version of Rails?
+How do you configure asset precompilation in production?
+How do you configure background job processing in Rails?
+How do you configure internationalization (i18n) in Rails?
+How do you create a User model with name and email attributes using generator?
+How do you create a custom generator in Rails?
+How do you create a custom validation in Rails?
+How do you create a new Rails application?
+How do you create a new Rails project?
+How do you create a new controller in Rails using the command line?
+How do you create an array in Ruby?
+How do you create and manage custom Rails engines for reusable code?
+How do you create and publish your own Ruby Gem?
+How do you create comments in Ruby code?
+How do you deal with memory management and performance issues in Rails?
+How do you debug a Rails app?
+How do you debug a Rails application?
+How do you define a User model in Rails?
+How do you define a custom route in Rails?
+How do you define a method in Ruby?
+How do you define a model with attributes in Rails?
+How do you define a route in Rails?
+How do you define a route in config/routes.rb for a controller action?
+How do you define and use a singleton method in Ruby?
+How do you define associations between models in Rails (e.g., has_many, belongs_to)?
+How do you define routes in Rails?
+How do you deploy a Rails app?
+How do you deploy a Rails application?
+How do you ensure a Rails application is production-ready, with proper monitoring, error handling, and performance tuning
+How do you ensure code quality in large applications?
+How do you ensure scalability in Rails applications?
+How do you ensure your code stays maintainable as a Rails app grows?
+How do you establish inheritance in Ruby classes?
+How do you generate JSON responses in Rails?
+How do you generate a migration in Rails?
+How do you handle API authentication?
+How do you handle asynchronous processing in Rails beyond just background jobs?
+How do you handle background jobs in Rails (e.g., using Sidekiq or ActiveJob)?
+How do you handle background jobs in Rails, and what are the pros and cons of different background processing libraries (e.g., Sidekiq, Resque)?
+How do you handle background jobs in Rails?
+How do you handle database migrations in a Rails project, and what are some best practices for writing and running migrations?
+How do you handle database transactions?
+How do you handle different environments (e.g., development, test, production) in a Rails application?
+How do you handle error handling and logging in production-level Rails applications?
+How do you handle errors in Rails?
+How do you handle exceptions in Rails?
+How do you handle exceptions in Ruby code?
+How do you handle exceptions in Ruby?
+How do you handle file attachments in Rails?
+How do you handle file downloads in Rails?
+How do you handle file uploads and storage in a Rails application, and what are some considerations for security and scalability?
+How do you handle file uploads in Rails (e.g., using ActiveStorage or CarrierWave)?
+How do you handle file uploads in Rails?
+How do you handle file uploads in Rails? What gems or techniques would you use for image processing?
+How do you handle form submissions in Rails?
+How do you handle form submissions with nested attributes in Rails?
+How do you handle internationalization (i18n)?
+How do you handle multi-tenancy in a Rails application?
+How do you handle parameters in a controller action?
+How do you handle performance monitoring and alerting in a Rails application, and what tools do you use for this purpose?
+How do you handle security issues such as XSS (Cross-site Scripting) and CSRF (Cross-site Request Forgery) in Rails?
+How do you handle server-side rendering (SSR) in Rails?
+How do you handle time zones in Rails?
+How do you handle validations in Rails?
+How do you identify and resolve memory leaks in a Ruby application?
+How do you implement "soft deletes" in Rails?
+How do you implement OAuth authentication in Rails?
+How do you implement RESTful APIs in Rails?
+How do you implement a custom validation in Rails?
+How do you implement a microservice architecture using Ruby on Rails?
+How do you implement a search functionality in Rails (e.g., using Elasticsearch or pg_search)?
+How do you implement authentication and authorization in Rails?
+How do you implement caching in Rails?
+How do you implement nested forms in Rails?
+How do you implement nested resources in Rails?
+How do you implement pagination in Rails?
+How do you implement rate-limiting and throttling in Rails?
+How do you implement real-time notifications using Rails?
+How do you implement simple authentication in Rails?
+How do you implement user authentication using Devise in Rails?
+How do you install a Ruby gem?
+How do you install gems in a Rails project?
+How do you integrate a third-party API in Rails?
+How do you integrate multiple databases in a Rails application?
+How do you manage background jobs in Rails?
+How do you manage database transactions in Rails?
+How do you manage large data imports or exports in Rails?
+How do you manage multiple environments (development, test, production) in Rails?
+How do you mock external APIs in tests?
+How do you monitor and log a Rails application in production?
+How do you optimize Rails app performance?
+How do you optimize a slow SQL query in a Rails app?
+How do you optimize asset loading in Rails?
+How do you optimize database queries in Rails applications?
+How do you optimize database queries in Rails?
+How do you optimize image and file uploads for performance in Rails?
+How do you pass data from a controller to a view?
+How do you perform custom SQL queries in Rails, and when is it appropriate to do so?
+How do you perform database indexing in Rails?
+How do you perform eager loading in Rails?
+How do you prevent SQL injection in Rails?
+How do you remove `nil` values in array using ruby?
+How do you run a Rails migration?
+How do you run database migrations in Rails?
+How do you scale a Rails application across multiple servers?
+How do you scale a Rails application to handle increased traffic?
+How do you schedule tasks in Rails?
+How do you secure API endpoints in a Rails application?
+How do you secure a Rails app?
+How do you secure sensitive data in a Rails application?
+How do you secure session management?
+How do you securely handle file uploads in Rails?
+How do you set up a custom validation in Rails?
+How do you start a Rails server?
+How do you stay up-to-date with the latest trends and best practices in the Rails ecosystem?
+How do you structure a large Rails application (e.g., modularization, boundaries)?
+How do you test a Rails app?
+How do you test a Rails application with integration tests, and what tools would you use?
+How do you test background jobs or mailers in Rails?
+How do you test models in Rails?
+How do you use ActiveRecord callbacks?
+How do you use Rails helpers?
+How do you use Rails validations?
+How do you use Strong Parameters?
+How do you use WebSockets or ActionCable in Rails to build real-time features?
+How do you use caching in Rails?
+How do you use helpers in Ruby on Rails?
+How do you use nested layouts?
+How do you validate uniqueness in Rails models?
+How do you write custom Rake tasks in Rails?
+How do you write tests in Rails applications?
+How does MVC work?
+How does Rails autoloading work in Zeitwerk mode?
+How does Rails compare to Django?
+How does Rails extend the Ruby language? (Convenience methods, 3.seconds.ago, hash.slice, ...)
+How does Rails handle database connection pooling?
+How does Rails handle database migrations, and what's the process for rolling back a migration?
+How does Rails handle database migrations, and why is it important for the development process?
+How does Rails handle database schema changes?
+How does Rails handle database transactions?
+How does Rails handle multi-tenancy?
+How does Rails handle polymorphic associations?
+How does Rails handle request-response cycles?
+How does Rails handle routing and request flow?
+How does Rails handle routing?
+How does Rails handle security vulnerabilities?
+How does Rails handle security, and what are some best practices for securing a Rails application?
+How does Rails handle user authentication and authorization? Provide an overview of commonly used gems or techniques for implementing these functionalities.
+How does Rails implement lazy loading?
+How does Rails implement parameterized queries to prevent SQL injection?
+How does Rails implement strong parameters, and why is it important?
+How does Rails manage database state?
+How does Rails protect against SQL injection?
+How does Rails support internationalization (i18n) and what is an example of using locale files for translations?
+How does Rails' ActiveSupport::Notifications work for monitoring and debugging, and provide an example of subscribing to a notification event?
+How does Ruby contribute to the field of data science and big data analytics?
+How does Ruby manage memory and garbage collection?
+How does Ruby's garbage collection work?
+How does a symbol differ from a string?
+How does counter_cache work and when would you use it?
+How does the Hotwire integration in Rails 7 improve real-time functionality in web applications?
+How does the has_many :through association work?
+How have you implemented authorization in the past?
+How is Ruby adapting to modern web development demands?
+How is Ruby addressing the challenges posed by the rise of microservices architecture?
+How is Ruby being utilized in the development of cross-platform mobile applications?
+How is Ruby contributing to the field of bioinformatics and computational biology?
+How is Ruby different from Python?
+How is Ruby on Rails different from Python?
+How is Ruby on Rails similar to Python?
+How is Ruby positioned in the context of edge computing and its potential impact on distributed systems?
+How is Ruby used in artificial intelligence and machine learning?
+How is Symbol different from variables?
+How is exception handling implemented in Ruby?
+How is the Ruby community addressing concerns about the performance of web frameworks compared to other languages?
+How is the Ruby language adapting to the increasing demand for serverless computing?
+How many types of Association relationships does a Model have?
+How many types of variables are used in Ruby and what are they?
+How might the emergence of quantum computing impact the future development of the Ruby language?
+How much does a Ruby on Rails developer make?
+How to declare a constructor in a Ruby class?
+How to define Instance Variable, Global Variable, and Class Variable in Ruby?
+How to define the Instance variable, Global variable, and Class variable in Ruby.
+How to design and implement callbacks safely in Rails models?
+How to implement metaprogramming in Ruby to improve code flexibility?
+How to optimize ActiveRecord queries in Rails for better performance?
+How to override primary key in Active Record?
+How to override table name in Active Record?
+How to run a migration?
+How to run and rollback Active Record migration?
+How to use Ruby's introspection capabilities to create more maintainable code?
+How would you create a new database in Rails?
+How would you create getter and setter methods in Ruby?
+How would you declare and use a constructor in Ruby?
+How would you define a model in Rails? Can you give a simple example?
+How would you design a Rails application for high traffic?
+How would you display a variable from a controller in a Rails view?
+How would you flatten the following?
+How would you handle a large number of database records in Rails (e.g., pagination, batch processing)?
+How would you handle a scenario where you need to optimize a Rails application's performance due to slow database queries?
+How would you handle background jobs in Rails? Tools?
+How would you handle background tasks in a Rails application? What are some options, and what are the trade-offs?
+How would you implement a multi-tenancy architecture in a Rails application, and what are the considerations for data isolation and scalability?
+How would you implement multi-language (i18n) support in Rails?
+How would you implement real-time features (e.g., chat, notifications) in a Rails application?
+How would you implement soft deletes in Rails?
+How would you migrate a Rails application from an old version (e.g., Rails 4 to Rails 6)?
+How would you optimize a slow Rails application, focusing on database query optimization and caching strategies?
+How would you optimize database queries in a large Rails application?
+How would you optimize the performance of a Ruby application?
+How would you profile and debug a performance bottleneck in a Rails app?
+How would you structure a large Rails codebase with many models, controllers, and views?
+How would you use two databases for one application?
+Implement a Ruby class that represents a geometric shape. The class should have a method to calculate the area of the shape.
+Implement a Ruby method that converts a given sentence to title case.
+Implement a Ruby method that finds the most frequent element in an array.
+Import GraphQL data, model it in Rails, and expose RESTful CRUD endpoints
+In Rails routing, what is the key difference between using resources :articles and resource :account?
+In Rails, what is the key difference between using where and find_by in Active Record queries?
+In Rails, what is the primary purpose of accepts_nested_attributes_for?
+In Rails, what is the primary purpose of using render partial?
+In Ruby code, you quite often see the trick of using an expression like `array.map(&:method_name)` as a shorthand form of `array.map { |element| element.method_name }`.  How exactly does it work?
+In Ruby on Rails, what is the fundamental difference between using a _path helper and a _url helper when generating URLs?
+In Ruby on Rails, what is the primary purpose of the content_tag helper method?
+In Ruby on Rails, what is the primary purpose of the form_with helper?
+In Ruby on Rails, what is the primary purpose of the url_for helper method?
+In a Rails application, what is the primary purpose of a layout?
+In a Rails application, what is the primary purpose of the flash object?
+In a Rails controller, what is the key difference between using redirect_to and render?
+In a Rails controller, what is the primary purpose of a before_action filter?
+In a Rails controller, what is the primary purpose of the render method?
+In a Ruby on Rails application, which file is primarily responsible for configuring settings specific to the 'production' environment?
+In what ways is Ruby on Rails limited?
+Inject
+Is Ruby a flexible language? Why, or why not?
+Is Ruby front end or backend?
+Is Ruby on Rails in demand?
+Is Ruby on rails good for freelancing?
+Is Ruby statically typed or dynamically typed?
+Is it possible in Ruby to develop database-driven applications in Ruby Tell anyone the basic approach through which the same can be developed in ruby?
+Is the line of code below valid Ruby code?  If so, what does it do?  Explain your answer.
+
+
+
+```ruby
+-> (a) {p a}["Hello world"]
+
+```
+Lambda
+Lambda vs Blocks
+List out what can Rails Migration do.
+List some things you would change about Rails
+Literal way of writing Lambda & Proc
+Map
+Mention the log that has to be seen to report errors in Ruby Rails?
+Mention what is Rails Migration?
+Mention what is the command to create a migration?
+Mention what is the difference between Active support’s “HashWithIndifferent” and Ruby’s “Hash”?
+Mention what is the difference between String and Symbol?
+Mention what is the function of garbage collection in Ruby on Rails?
+Mention what is the purpose of RJs in Rails?
+Mention what the difference is between false and nil in Ruby?
+Name a few Directories in ruby and explain their purpose?
+Name the three default environments in Rails.
+Name the three default environments in Rails?
+Outline the types of associations models can have in Ruby on Rails.
+Outline three components of Rails.
+Rail’s application framework is called-
+Strongly or Weakly Typed Ruby?
+Tell anyone basic factor which is necessary to be followed when it comes to creating the rails application?
+Tell me about getters and setters in Ruby
+Tell something about Action Controller in Ruby on Rails?
+The following Ruby on Rails code is intended to create a form for adding a new product to the database. However, it contains a logical error and doesn’t work correctly. Identify the error and fix the code.
+
+<%= form_tag products_path do %>
+  <%= label_tag :name, "Product Name" %>
+  <%= text_field_tag :name %>
+
+  <%= label_tag :price, "Price" %>
+  <%= text_field_tag :price %>
+
+  <%= submit_tag "Add Product" %>
+<%= end_form_tag %>
+Code language: HTML, XML (xml)
+The following Ruby on Rails code is intended to create a new article record and save it to the database. However, it contains a syntax error and doesn’t work as expected. Identify the error and fix the code.
+
+# Controller
+class ArticlesController < ApplicationController
+  def create
+    @article = Article.new(params[:article])
+    if @article.save
+      redirect_to articles_path
+    else
+      render 'new'
+    end
+  end
+end
+
+# View (new.html.erb)
+<%= form_for @article do |f| %>
+  <%= f.label :title %>
+  <%= f.text_field :title %>
+
+  <%= f.label :content %>
+  <%= f.text_area :content %>
+
+  <%= f.submit 'Create Article' %>
+<% end %>
+Code language: CSS (css)
+The following Ruby on Rails code is intended to define a migration to create a products table with attributes name and price. However, it contains a syntax error and doesn’t work as expected. Identify the error and fix the code.
+
+class CreateProducts < ActiveRecord::Migration[6.1]
+  def up
+    create_table :products do |t
+      t.string :name
+      t.decimal :price, precision: 10, scale: 2
+      t.timestamps
+    end
+  end
+
+  def down
+    drop_table :products
+  end
+end
+The following Ruby on Rails code is intended to define a one-to-many association between the Product model and the Category model. However, it contains a logical error and doesn’t work as expected. Identify the error and fix the code.
+
+class Product < ApplicationRecord
+  belongs_to :category
+end
+
+class Category < ApplicationRecord
+  has_many :products
+end
+Code language: CSS (css)
+The following Ruby on Rails code is intended to define a simple controller action to retrieve and display a list of products from the database. However, it contains a syntax error and doesn’t work as expected. Identify the error and fix the code.
+
+class ProductsController < ApplicationController
+  def index
+    @products = Product.all
+  end
+end
+Code language: JavaScript (javascript)
+The following Ruby on Rails code is intended to define a validation for the name attribute in the Product model. However, it contains a logical error and doesn’t work as expected. Identify the error and fix the code.
+
+class Product < ApplicationRecord
+  validates name, presence: true, length: { minimum: 3, maximum: 50 }
+end
+Code language: CSS (css)
+The following Ruby on Rails code is intended to delete an article record from the database when the user clicks the “Delete” link. However, it contains a logical error and doesn’t delete the article. Identify the error and fix the code.
+
+# Controller
+class ArticlesController < ApplicationController
+  def destroy
+    @article = Article.find(params[:id])
+    if @article.destroy
+      redirect_to articles_path
+    else
+      flash[:error] = 'Failed to delete the article.'
+      redirect_to article_path(@article)
+    end
+  end
+end
+
+# View (show.html.erb)
+<%= link_to 'Delete', article_path(@article), method: :delete, data: { confirm: 'Are you sure?' } %>
+The following Ruby on Rails code is intended to display a list of articles and their corresponding authors on the index page. However, it contains a logical error and doesn’t display the authors correctly. Identify the error
+
+and fix the code.
+
+# Models
+class Article < ApplicationRecord
+  belongs_to :author
+end
+
+class Author < ApplicationRecord
+  has_many :articles
+end
+
+# Controller
+class ArticlesController < ApplicationController
+  def index
+    @articles = Article.all
+  end
+end
+
+# View (index.html.erb)
+<% @articles.each do |article| %>
+  <p><%= article.title %> - <%= article.author.name %></p>
+<% end %>
+Code language: CSS (css)
+The following Ruby on Rails code is intended to fetch a list of articles from the database and display their titles. However, it contains a logical error and doesn’t display any articles. Identify the error and fix the code.
+
+# Controller
+class ArticlesController < ApplicationController
+  def index
+    @articles = Article.all
+  end
+end
+
+# View (index.html.erb)
+<% @articles.each do |article| %>
+  <p><%= article.title %></p>
+<% end %>
+Code language: CSS (css)
+The following Ruby on Rails code is intended to update an existing article’s title and content in the database. However, it contains a logical error and doesn’t update the article as expected. Identify the error and fix the code.
+
+# Controller
+class ArticlesController < ApplicationController
+  def update
+    @article = Article.find(params[:id])
+    if @article.update(params[:article])
+      redirect_to article_path(@article)
+    else
+      render 'edit'
+    end
+  end
+end
+
+# View (edit.html.erb)
+<%= form_for @article do |f| %>
+  <%= f.label :title %>
+  <%= f.text_field :title %>
+
+  <%= f.label :content %>
+  <%= f.text_area :content %>
+
+  <%= f.submit 'Update Article' %>
+<% end %>
+Code language: CSS (css)
+The user interface of Twitter has been built using
+Theoretical: Explain the concept of metaprogramming in Ruby and provide an example of how it can be used.
+There are four ways to invoke a method in ruby.  Can you give me at least two?
+There are three ways to invoke a method in ruby. Can you give me at least two?
+What Rails design patterns have you used?
+What are Accessor Methods in Ruby?
+What are Action Mailers in Rails?
+What are ActionCable and WebSockets in Rails?
+What are Association in Active Record?
+What are Callbacks in Active Record?
+What are Filters?
+What are Gems and how do you use them in a Rails project?
+What are Helpers and How do use Helpers in Ruby on Rails?
+What are Migrations in Active Record?
+What are Models, Views, and Controllers in Rails?
+What are Procs in Ruby?  How do they compare to closures in JS?
+What are Rails Environments?
+What are Rails callbacks?
+What are Rails engines, and how can they help structure reusable components across multiple applications?
+What are Rails engines?
+What are Rails migrations?
+What are Rails routes? Can you give an example of a simple route?
+What are Rails sessions and cookies used for?
+What are Rails validations, and why are they important?
+What are Ruby refinements and how do they affect method behavior?
+What are RubyGems?  Got any favourites?
+What are Validations in Active Record?
+What are access modifiers in Ruby?
+What are best practices for Rails development?
+What are best practices for Ruby development?
+What are callbacks and filters in Rails?
+What are callbacks?
+What are class libraries in Ruby?
+What are concerns and when should you use them?
+What are concerns in Rails, and how do you use them?
+What are concerns in Rails, and when do you use them?
+What are database transactions and how are they implemented in Rails?
+What are disadvantages of using ORM?
+What are filters in Rails controllers?
+What are fixtures in Ruby on Rails?
+What are helpers in Rails?
+What are initializers in Rails?
+What are joins and includes in Rails? How are they different?
+What are mass-assignment vulnerabilities and how are they prevented?
+What are migrations in Rails, and why are they important?
+What are migrations in Rails?
+What are migrations, and how do you roll back a migration in Rails?
+What are modules and how are they different from classes?
+What are partials in Rails?
+What are polymorphic associations in Rails?
+What are polymorphic routes in Rails?
+What are rubygems?  Any favorites not including rails?  Any that you've worked on personally?
+What are scopes in Rails?
+What are some best practices for writing Rails tests?
+What are some common anti-patterns you’ve seen in Rails apps?
+What are some common data types you might use in a Rails model (e.g., string, integer)?
+What are some disadvantages (real and potential)?
+What are some of the advantages of Ruby on Rails?
+What are some of your favorite gems? What are their alternatives?
+What are strong parameters? Explain in brief.
+What are symbols in Ruby, and when should you use them?
+What are the access modifiers in Ruby?
+What are the advanced features of the Ruby on Rails framework?
+What are the advantages of scaffolding in Ruby on Rails?
+What are the advantages of using ORM?
+What are the advantages of using Ruby on Rails?
+What are the basic conditions that a user should pay attention to while preparing an ERB document in Ruby?
+What are the benefits of using Rails engines?
+What are the benefits of using Ruby on Rails?
+What are the benefits of using Service Objects in Rails applications? Explain with example.
+What are the benefits of using `ActiveJob` in Rails, and how does it work with different queueing backends?
+What are the benefits of using the importmap-rails gem introduced in Rails 7 for managing JavaScript dependencies?
+What are the best practices for structuring a large Rails application?
+What are the common data types in Rails migrations?
+What are the common methods for error handling in Ruby and Rails?
+What are the components of Rails?
+What are the core principles of object-oriented programming that are essential in Ruby development?
+What are the differences between create! and create in ActiveRecord?
+What are the differences between unit, functional, and integration tests in Rails?
+What are the different techniques to implement polymorphism in Ruby on Rails?
+What are the different types of ActiveRecord associations?
+What are the different types of Association in Rails?
+What are the different types of Rails associations (e.g., `has_many`, `belongs_to`), and how do you choose the right one?
+What are the different types of gems in Ruby?
+What are the different types of loops in Ruby?
+What are the different types of variables in Ruby?
+What are the different uses of Ruby modules? Could you provide an example of each and explain why it is valuable?
+What are the different ways to handle database migrations in a high-traffic Rails application?
+What are the different ways to handle internationalization (i18n) in a Rails application?
+What are the different ways to manage configuration settings across environments in Rails?
+What are the features of Rails?
+What are the key differences between GET, POST, PUT, and DELETE HTTP methods?
+What are the key differences between Rails 4 and Rails 5?
+What are the limits of Ruby on Rails?
+What are the main features of Ruby?
+What are the main parts of a Rails view?
+What are the major improvements introduced in Rails 8?
+What are the most common Ruby on Rails interview questions?
+What are the most important Ruby on Rails interview questions?
+What are the naming conventions?
+What are the optional reserved column names you can use in Active Record?
+What are the strategies to create efficient Domain-Specific Languages (DSLs) in Ruby?
+What are the three components of Ruby on Rails?
+What are the three levels of method access control available in Ruby?
+What are the two guiding principles of the Rails framework?
+What are views in Rails? What's their purpose?
+What are your strategies for handling large datasets (e.g., pagination, streaming)?
+What command can you use to create a controller for the subject?
+What command is used to create a migration?
+What could a developer do to address these disadvantages?
+What do subdirectory app/controllers and app/helpers do?
+What do you mean by Concerns in Rails?
+What do you mean by Polymorphic Association in Rails?
+What do you mean by Render and Redirect_to?
+What do you mean by the term Rail Migration?
+What do you understand about Rails Active Record in ROR?
+What do you understand with the ERB in Ruby on Rails?
+What does "skinny controllers, skinny models" mean?
+What does CRUD mean?
+What does CRUD stand for? Give examples of how CRUD actions relate to a 'User' model.
+What does MVC mean?
+What does MVC stand for in Rails, and why is it important?
+What does a Ruby on Rails developer do?
+What does false mean?
+What does garbage collection do in Ruby on Rails?
+What does it mean that Active Record migrations are database-agnostic?
+What does nil mean?
+What does self mean in Ruby?
+What does self mean?
+What does the subdirectory app/controllers do?
+What does the term “Yield” refer to in the context of Ruby on Rails?
+What does this say about the advantages of ruby's dynamic (duck) typed system?
+What does “everything is an object” mean in Ruby?
+What does “fat models, skinny controllers” mean?
+What does “skinny controllers, skinny models” mean?
+What exactly are Harnesses and Fixtures in the Ruby?
+What exactly are the pre-software requirements for developing a project with Ruby on Rails?
+What exactly class libraries in ruby have in them?
+What exactly do you know about Ruby on Rails and how well it can be defined?
+What exactly do you know about the Active Records Rail?
+What exactly is the role of Active Record in Ruby?
+What experience is required for a senior Rails developer?
+What extension is used to save the ruby file?
+What filters are available in Rails controllers and how do you use them?
+What frameworks have you used for background jobs?
+What gems do you consider essential in most Rails projects?
+What happen if you try to create a column named id which is not the primary key?
+What happens when you call a method in Ruby?
+What is Active Job?
+What is Active Record in Rails?
+What is Active Record in Ruby on Rails?
+What is Active Record?
+What is ActiveRecord in Rails?
+What is ActiveRecord::Enum in Rails?
+What is ActiveRecord?
+What is ActiveRecord? What does it help us do?
+What is ActiveSupport?
+What is CRUD, and how is it implemented in Rails?
+What is CSRF and how does Rails protect against it?
+What is CSRF protection and how does Rails implement it?
+What is CSRF protection in Rails?
+What is CSRF, and how does Rails prevent it?
+What is Callback in Ruby on Rails?
+What is Class Library in Ruby?
+What is Clouser in Ruby on Rails?
+What is Garbage collection in ruby on Rails?
+What is Gemfile in Ruby on Rails?
+What is Gemfile.lock?
+What is Gemfile?
+What is Hash in Ruby on Rails?
+What is JSON?
+What is MVC and How it Works?
+What is MVC and how does it work?
+What is MVC?
+What is Mixin in Rails?
+What is Mixin?
+What is Nested Layout in Ruby on Rails?
+What is ORM in Rails?
+What is ORM(Object-Relationship-Model).
+What is ORM?
+What is PORO?
+What is REST in Rails?
+What is RSpec and how is it used for testing in Ruby?
+What is Rails Active Record in Ruby on Rails?
+What is Rails Migration?
+What is Rails Scaffolding?
+What is Rails good at?  What is it not so good at?
+What is Rails' "DRY" principle, and how is it implemented?
+What is Rails? Explain it like I'm five.
+What is Rails? Explain it like you're talking to a friend who knows nothing about web development.
+What is Rails’ ActiveSupport::Concern?
+What is Rails’ asset pipeline?
+What is Rake?
+What is Ruby and why is it considered an object-oriented language (OOP)?
+What is Ruby and why is it popular?
+What is Ruby on Rails
+What is Ruby on Rails, and what are its main features?
+What is Ruby on Rails, and why is it popular for web development?
+What is Ruby on Rails, and why use it?
+What is Ruby on Rails?
+What is Ruby’s programming language?
+What is Solid Queue in Rails?
+What is Spring in Rails?
+What is Turbolinks in Rails?
+What is Yield in Ruby on Rails?
+What is a "scaffold" in Rails?
+What is a 'form' in HTML, and how does it relate to a Rails application?
+What is a 'gem' in Ruby on Rails? Give an example of a gem and what it does.
+What is a 'rake' task in Rails, and give an example?
+What is a 'rake' task? Can you describe a common rake task?
+What is a Concern in Rails?
+What is a DSL (Domain Specific Language) and why is Ruby a popular language to build DSLs in?
+What is a Gemfile in Ruby on Rails?
+What is a Gemfile in a Rails application?
+What is a Hash in Ruby on Rails?
+What is a PORO in Rails?
+What is a Proc?
+What is a Rails Concern? How do you use it?
+What is a Rails Controller?
+What is a Rails concern vs. a module?
+What is a Rails controller? What is its main job?
+What is a Rails engine?
+What is a Rails form, and how do you create one?
+What is a Rails gem?
+What is a Rails helper?
+What is a Rails initializer?
+What is a Rails migration? Why would you use one?
+What is a Rails model, and what does it do?
+What is a Rails partial, and why would you use one?
+What is a Rails view, and how does it relate to the controller?
+What is a callback in Rails and how do to use it?
+What is a class?
+What is a closure in Ruby and how is it used?
+What is a closure in Ruby on Rails?
+What is a concern in Rails?
+What is a database schema in Rails?
+What is a database? What is a common database used with Rails?
+What is a filter in Ruby on Rails?
+What is a flash message in Rails, and how do you use it?
+What is a gem in Ruby on Rails?
+What is a gem in Ruby, and how is it useful in the development process?
+What is a gem in Ruby?
+What is a gemset?
+What is a helper in Ruby on Rails?
+What is a join table in Rails and how do you create one using generator?
+What is a migration in Ruby on Rails?
+What is a migration rollback? How do you use it?
+What is a module in Ruby, and how is it different from a class?
+What is a module?  Can you tell me the difference between classes and modules?
+What is a module? Can you tell me the difference between classes and modules?
+What is a nested resource in Rails?
+What is a partial in Rails views? Why would you use one?
+What is a partial in Rails, and why would you use it?
+What is a partial in Rails?
+What is a plugin in Ruby on Rails?
+What is a polymorphic association?
+What is a polymorphic has_many association, and how does it differ from a regular has_many?
+What is a rack?
+What is a range and how is it defined in Ruby?
+What is a scope in Rails, and how do you define it?
+What is a scope in Rails?
+What is a serializer in Rails?
+What is a session in Rails, and how is it managed?
+What is a view helper in Rails?
+What is a “gem” in Ruby on Rails?
+What is an 'association' in Rails? Give an example like 'has_many'.
+What is an Action Cable?
+What is an Active Job?
+What is an Active Record in Rails?
+What is an Asset Pipeline in Rails?
+What is an N+1 query problem in Rails?
+What is an asset pipeline in Rails? What problem does it solve?
+What is an enum in Ruby?
+What is an object?
+What is before_action in Rails?
+What is caching and how can you implement it in Rails?
+What is caching in Rails, and how do you implement it?
+What is meant by Rails migration?
+What is meant by a “class library”?
+What is meant by “Rails migration”?
+What is metaprogramming in Ruby?
+What is metaprogramming?
+What is method overloading and does Ruby support it?
+What is method_missing and how is it used in Ruby?
+What is referred to by Rails Migration?
+What is request.xhr?
+What is restful in rails
+What is rvm?
+What is self in Ruby?
+What is service-oriented architecture (SOA), and how can you implement it in Rails?
+What is something you like about working with Rails?
+What is testing in the context of Ruby on Rails? Why is it important?
+What is the Active Record architecture pattern?
+What is the ActiveJob framework, and how does it work?
+What is the Garbage Collection in Ruby on Rails?
+What is the MVC pattern in Rails?
+What is the MVC principle stands for in Ruby and what are the subsystems in which it divides the work of an application?
+What is the N+1 query problem and how do you avoid it?
+What is the Object Relationship Model (ORM) in Rails?
+What is the Rails Asset Pipeline?
+What is the Rails convention over configuration (CoC) principle?
+What is the Rails request lifecycle?
+What is the Rails router's scope?
+What is the Rails.cache object, and how do you use it for caching data?
+What is the Role of Load and Require in Ruby?
+What is the active_record query interface in Rails?
+What is the asset pipeline in Rails?
+What is the asset pipeline in Rails? What is its purpose?
+What is the asset pipeline?
+What is the best thing which you find about Ruby on Rail so far?
+What is the concern gem in Rails, and how does it differ from standard modules?
+What is the convention over configuration principle?
+What is the difference between Active Record and Active Model?
+What is the difference between Active Record and ORM?
+What is the difference between ActiveRecord and Mongoid?
+What is the difference between After_save and After_commit?
+What is the difference between Ruby and Elixir?
+What is the difference between Ruby and Golang?
+What is the difference between Ruby and Java?
+What is the difference between Ruby and JavaScript?
+What is the difference between Ruby and PHP for web development?
+What is the difference between Ruby and Python for web development?
+What is the difference between Ruby and Rails?
+What is the difference between Ruby and Ruby on Rails?
+What is the difference between Ruby and Swift?
+What is the difference between Ruby and TypeScript?
+What is the difference between Ruby on Rails and Sinatra?
+What is the difference between String and Symbol?
+What is the difference between Symbol and String?
+What is the difference between _extend_ and _include_?
+What is the difference between `Array#map` and `Array#each`?
+
+
+Note: `collect` is an alias of `map`
+What is the difference between `and`/`or` and `&&`/`||`?  What is the result of `a = nil and true`?
+What is the difference between `extend` and `include` in ruby?
+What is the difference between a class and a module?
+What is the difference between a module and class?
+What is the difference between a plugin and a gem?
+What is the difference between a proc and a lambda?
+What is the difference between attr_accessor, attr_reader, and attr_writer?
+What is the difference between before_validation and before_save callbacks?
+What is the difference between blocks, procs, and lambdas in Ruby?
+What is the difference between calling `super` and calling `super()`?
+What is the difference between class and module in Ruby?
+What is the difference between class methods and instance methods?
+What is the difference between class variables (@@) and instance variables (@) in Ruby?
+What is the difference between class_eval and instance_eval in Ruby?
+What is the difference between delete and destroy in Rails?
+What is the difference between delete and destroy_all?
+What is the difference between deleting and destroying?
+What is the difference between dependent: :destroy and :delete?
+What is the difference between development and production environments?
+What is the difference between false and nil in Ruby on Rails?
+What is the difference between false and nil in Ruby?
+What is the difference between find and find_by in ActiveRecord?
+What is the difference between find and find_by in Rails?
+What is the difference between find and find_by?
+What is the difference between form_for and form_with?
+What is the difference between has many: through and has_and_belongs_to_many associations?
+What is the difference between has_many :through and has_and_belongs_to_many and which one is better?
+What is the difference between has_many :through and has_and_belongs_to_many?
+What is the difference between has_many and belongs_to?
+What is the difference between include and extend in Ruby?
+What is the difference between includes, joins, and eager_load?
+What is the difference between link_to and button_to in Rails?
+What is the difference between load, require, and require_relative?
+What is the difference between map, select, and reduce in Ruby?
+What is the difference between method_missing and respond_to_missing?
+What is the difference between nil, false, and blank?
+What is the difference between nil?, empty?, and blank? in Ruby/Rails?
+What is the difference between observers and callbacks in Ruby on rails?
+What is the difference between optimistic and pessimistic locking in Rails?
+What is the difference between polymorphic and single table inheritance (STI) in Rails?
+What is the difference between puts, print, and p in Ruby?
+What is the difference between quantity, length and size?
+What is the difference between render and redirect_to in Rails?
+What is the difference between render and redirect_to in controllers?
+What is the difference between render and redirect_to?
+What is the difference between render and render_to_string?
+What is the difference between require, require_relative, and load in Ruby?
+What is the difference between save and create in ActiveRecord?
+What is the difference between save and save! in Rails?
+What is the difference between save and save!?
+What is the difference between single quotes and double quotes for strings
+What is the difference between string and text in Rails?
+What is the difference between super and super() Call?
+What is the difference between symbols and strings in Ruby?
+What is the difference between symbols and strings?
+What is the difference between the Observers and Callbacks?
+What is the difference between the `Object` methods `clone` and `dup`?
+What is the difference between yield and call in Ruby?
+What is the difference between “false” and “nil”?
+What is the enum feature in Rails, and how do you use it?
+What is the error in this Rails route configuration?
+What is the flash hash in Rails?
+What is the function of `method_missing`?  How is it used in meta-programming in Ruby?
+What is the function of modules in Ruby?
+What is the has_secure_password method in Rails?
+What is the importance of database indexing, and how do you implement it in Rails?
+What is the issue in the following code? Make it correct.
+What is the logic behind the helper?
+What is the naming convention in Ruby on Rails?
+What is the naming convention used in Ruby on Rails?
+What is the object relationship model in Ruby on Rails?
+What is the output of the given code?
+What is the params object in Rails?
+What is the primary difference in these two code snippets?
+What is the primary purpose of a CSRF token in a Rails application?
+What is the primary purpose of config.autoload_paths in a Rails application's config/application.rb file?
+What is the primary purpose of strong parameters in Rails?
+What is the primary purpose of the content_for helper in Rails?
+What is the problem with the following controller code? How would you fix it?
+What is the purpose of ActiveJob in Rails?
+What is the purpose of Rails layouts?
+What is the purpose of `Rack` in the context of a Rails application?
+What is the purpose of a 'flash' message in Rails?
+What is the purpose of a controller in Rails?
+What is the purpose of application.rb?
+What is the purpose of environment.rb in Rails?
+What is the purpose of flash in Rails?
+What is the purpose of the 'Gemfile' in a Rails project?
+What is the purpose of the 'nil' value in Ruby?
+What is the purpose of the 'rails console'?
+What is the purpose of the ActiveSupport::Concern module in Rails?
+What is the purpose of the ApplicationRecord class in Rails?
+What is the purpose of the Gemfile in a Rails application?
+What is the purpose of the Gemfile?
+What is the purpose of the application.rb file?
+What is the purpose of the assets folder in Rails?
+What is the purpose of the before_action callback in Rails?
+What is the purpose of the config/database.yml file?
+What is the purpose of the config/routes.rb file?
+What is the purpose of the find_or_create_by method in Rails?
+What is the purpose of the rail's server command?
+What is the purpose of the rails db:seed task?
+What is the purpose of the rails server command?
+What is the purpose of the rake command in Rails?
+What is the purpose of the rakefile available in the demo directory in Ruby?
+What is the purpose of using gems like `Pundit` or `CanCanCan` in Rails? How do they help with authorization?
+What is the purpose of validates_uniqueness_of in Rails models?
+What is the rails console, and how is it useful for debugging?
+What is the role of ActiveSupport?
+What is the role of a controller in a Rails application?
+What is the role of a helper in Rails?
+What is the role of an API-only application in Rails, and when would you use it?
+What is the role of load and require in Ruby?
+What is the role of the 'routes.rb' file in a Rails application?
+What is the role of the config/routes.rb file?
+What is the role of the strong_parameters gem in Rails?
+What is the significance of Ruby in the context of ethical hacking and cybersecurity?
+What is the significance of the db/seeds.rb file?
+What is the use of load and require in Ruby?
+What is the use of load and required?
+What is the value of the variable `upcased` in the below piece of code?
+
+
+`upcased = ["one", "two", "three"].map {|n| puts n.upcase }`
+What is unit testing (in classical terms)?  What is the primary technique when writing a test?
+What is unit testing (in classical terms)? What is the primary technique when writing a test?
+What is your favorite api resource for ruby?
+What is your understanding of the DRY code?
+What is ‘Sorbet’ and how does it enhance Ruby code with static typing?
+What paths (HTTP verb and URL) will be defined by the following snippet in config/routes.rb?
+What paths does the following code snip set define?
+What skills are needed for a Rails developer job?
+What techniques do you use for caching in Rails?
+What testing libraries have you used with Rails (e.g., RSpec, Capybara, FactoryBot)?
+What tools do you use for debugging Rails applications?
+What values are "falsey" in Rails?  Or, which values are "truthy"?  What is the result of `a = 0 || 1`?
+What will `val1` and `val2` equal after the code below is executed?  Explain your answer.
+
+
+
+```ruby
+val1 = true and false  # hint: output of this statement in IRB is NOT value of val1!
+val2 = true && false
+
+```
+What will be the output of the following code snippet?
+What will be the output of the following code?
+What will be the output of the given code snippet?
+What will be the output?
+What's the difference between 'rails new' and 'rails generate'?
+What’s wrong with the code below and why?
+What’s your favorite testing tool? Rspec, FactoryGirl, Capybara, and Cucumber.
+What’s your strategy for writing maintainable tests?
+When do we use "I" in Ruby?
+When do you use self.down and self.up in Ruby on Rails?
+When is the after_create callback in an Active Record model triggered?
+When should you use ActiveJob?
+When would you use find_each vs all.each?
+When would you use the before_save or after_save callback?
+Where Rails keeps track of which migrations have been committed?
+Where one should look for the controller classes for handling the web request in Ruby?
+Which of the expressions listed below will result in `"false"`?
+
+
+
+```ruby
+true    ? "true" : "false"
+false   ? "true" : "false"
+nil     ? "true" : "false"
+1       ? "true" : "false"
+0       ? "true" : "false"
+"false" ? "true" : "false"
+""      ? "true" : "false"
+[]      ? "true" : "false"
+
+```
+Which of the following Rails migration commands is the most efficient and conventional way to add an index to an existing column named email on a table named users?
+Which of the following best describes the primary purpose of a Rails Engine?
+Which of the following best describes the primary purpose of using scopes in Rails models?
+Which of the following is not a valid datatype in Ruby?
+Which of the following statements best describes the belongs_to association in Rails Active Record?
+Which of the following statements best describes the primary function of the Rails asset pipeline?
+Which of the following validators in a Rails model ensures that a specified attribute is not empty, meaning it is neither nil nor a blank string?
+Which skills do developers need to use Ruby on Rails?
+While writing the Rails Application, what are the tasks to which you need to pay attention?
+Why Ruby is known as a language of flexibility?
+Why Ruby on Rails
+Why is Ruby known as a language of flexibility?
+Why is Ruby on Rails popular for startups?
+Why is it advised to rescue from _StandardError_ rather than _Exception_?
+Why is skill-based hiring important for Rails roles?
+Why it’s not recommended to use non-primary key columns in Active Record?
+Write a Ruby class representing a basic bank account. It should have methods to deposit, withdraw, and check the balance.
+Write a Ruby method that takes a block and executes it only if the block is given.
+Write a Ruby method that takes a string as input and returns a new string with the words reversed.
+Write a Ruby method that takes a string as input and returns the number of occurrences of each word in the string.
+Write a Ruby method that takes a string as input and returns the number of words in the string.
+Write a Ruby method that takes an array of integers as input and returns a new array containing only the prime numbers.
+Write a Ruby method that takes an array of strings and returns a new array containing only the strings that are of even length.’
+Write a code that prints the value of x, the sum of x and y and the average of x, y, and z in Ruby?
+Write a code to automatically clean and format the user input.
+Write a function in Ruby to check if the string is a palindrome.
+Write a function that sorts the keys in a hash by the length of the key as a string. For instance, the hash:
+
+
+
+```ruby
+{ abc: 'hello', 'another_key' => 123, 4567 => 'third' }
+
+```
+
+
+should result in:
+
+
+
+```ruby
+["abc", "4567", "another_key"]
+
+```
+Write a function to check if the string is or not a palindrome in Ruby?
+Write a single line of Ruby code that prints the Fibonacci sequence of any length as an array.
+
+
+(Hint: use `inject`/`reduce`)
+Write code that splits a given array of integers into two arrays; the first containing odd numbers and second containing even numbers.
+Your Rails application becomes slow after adding a dashboard that displays users, their orders, and payment history. How would you identify and fix the issue?
+Your application needs to send thousands of confirmation emails after users register. How would you prevent slow response times?
+Your client wants only administrators to access the user management page. How would you implement this in Rails?
+__________ is a tool for altering the database schema of an application.

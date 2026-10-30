@@ -1,0 +1,3544 @@
+[
+  {
+    "finalId": "A-0066",
+    "occurrenceId": "SRC-00347",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-loop-types",
+    "question": "Explain Some Of The Looping Structures Available In Ruby?"
+  },
+  {
+    "finalId": "A-0066",
+    "occurrenceId": "SRC-01187",
+    "type": "exact-question-duplicate",
+    "rule": "concept:ruby-loop-types",
+    "question": "Explain some of the looping structures available in Ruby?"
+  },
+  {
+    "finalId": "A-0079",
+    "occurrenceId": "SRC-01173",
+    "type": "exact-question-duplicate",
+    "rule": "exact:explain this ruby idiom: a ||= b",
+    "question": "Explain this ruby idiom: a ||= b"
+  },
+  {
+    "finalId": "A-0082",
+    "occurrenceId": "SRC-00816",
+    "type": "exact-question-duplicate",
+    "rule": "exact:explain what the splat operator is.",
+    "question": "Explain what the splat operator is."
+  },
+  {
+    "finalId": "A-0095",
+    "occurrenceId": "SRC-00243",
+    "type": "exact-question-duplicate",
+    "rule": "exact:how do you define a method in ruby?",
+    "question": "How do you define a method in Ruby?"
+  },
+  {
+    "finalId": "A-0101",
+    "occurrenceId": "SRC-00157",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-exception-handling",
+    "question": "How do you handle exceptions in Ruby?"
+  },
+  {
+    "finalId": "A-0101",
+    "occurrenceId": "SRC-00167",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-exception-handling",
+    "question": "How do you handle exceptions in Ruby code?"
+  },
+  {
+    "finalId": "A-0101",
+    "occurrenceId": "SRC-00248",
+    "type": "exact-question-duplicate",
+    "rule": "concept:ruby-exception-handling",
+    "question": "How do you handle exceptions in Ruby?"
+  },
+  {
+    "finalId": "A-0101",
+    "occurrenceId": "SRC-00533",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-exception-handling",
+    "question": "How does exception handling work in Ruby?"
+  },
+  {
+    "finalId": "A-0137",
+    "occurrenceId": "SRC-01177",
+    "type": "exact-question-duplicate",
+    "rule": "exact:what does this say about the advantages of ruby's dynamic (duck) typed system?",
+    "question": "What does this say about the advantages of ruby's dynamic (duck) typed system?"
+  },
+  {
+    "finalId": "A-0141",
+    "occurrenceId": "SRC-00140",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-closure",
+    "question": "Explain the concept of closures in Ruby and how they capture their surrounding context."
+  },
+  {
+    "finalId": "A-0141",
+    "occurrenceId": "SRC-00369",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-closure",
+    "question": "Describe a closure in Ruby?"
+  },
+  {
+    "finalId": "A-0141",
+    "occurrenceId": "SRC-00809",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-closure",
+    "question": "What is a closure in Ruby on Rails?"
+  },
+  {
+    "finalId": "A-0141",
+    "occurrenceId": "SRC-01442",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-closure",
+    "question": "What is Clouser in Ruby on Rails?"
+  },
+  {
+    "finalId": "A-0143",
+    "occurrenceId": "SRC-00526",
+    "type": "exact-question-duplicate",
+    "rule": "concept:ruby-duck-typing",
+    "question": "What is duck typing in Ruby?"
+  },
+  {
+    "finalId": "A-0158",
+    "occurrenceId": "SRC-00514",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-puts-print-p",
+    "question": "What is the difference between puts, print, and p?"
+  },
+  {
+    "finalId": "A-0160",
+    "occurrenceId": "SRC-00665",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-load-require-relative",
+    "question": "What is the difference between load, require, and require_relative?"
+  },
+  {
+    "finalId": "A-0166",
+    "occurrenceId": "SRC-00159",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-self-receiver",
+    "question": "What is self in Ruby?"
+  },
+  {
+    "finalId": "A-0166",
+    "occurrenceId": "SRC-00223",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-self-receiver",
+    "question": "What is the purpose of the self keyword in Ruby?"
+  },
+  {
+    "finalId": "A-0166",
+    "occurrenceId": "SRC-00527",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-self-receiver",
+    "question": "What does self refer to in Ruby?"
+  },
+  {
+    "finalId": "A-0166",
+    "occurrenceId": "SRC-00627",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-self-receiver",
+    "question": "What is the role of 'self' in Ruby?"
+  },
+  {
+    "finalId": "A-0166",
+    "occurrenceId": "SRC-00649",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-self-receiver",
+    "question": "What does self mean in Ruby?"
+  },
+  {
+    "finalId": "A-0166",
+    "occurrenceId": "SRC-00677",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-self-receiver",
+    "question": "What does self mean?"
+  },
+  {
+    "finalId": "A-0166",
+    "occurrenceId": "SRC-01174",
+    "type": "exact-question-duplicate",
+    "rule": "concept:ruby-self-receiver",
+    "question": "What does self mean?"
+  },
+  {
+    "finalId": "A-0170",
+    "occurrenceId": "SRC-00280",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-load-require",
+    "question": "What is the use of load and require in Ruby?"
+  },
+  {
+    "finalId": "A-0170",
+    "occurrenceId": "SRC-00333",
+    "type": "exact-question-duplicate",
+    "rule": "concept:ruby-load-require",
+    "question": "What Is The Use Of Load And Require In Ruby?"
+  },
+  {
+    "finalId": "A-0170",
+    "occurrenceId": "SRC-00438",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-load-require",
+    "question": "What are load() and require() in Ruby?"
+  },
+  {
+    "finalId": "A-0170",
+    "occurrenceId": "SRC-00519",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-load-require",
+    "question": "What is the difference between require and load?"
+  },
+  {
+    "finalId": "A-0170",
+    "occurrenceId": "SRC-00729",
+    "type": "exact-question-duplicate",
+    "rule": "concept:ruby-load-require",
+    "question": "What is the use of load and require in Ruby?"
+  },
+  {
+    "finalId": "A-0170",
+    "occurrenceId": "SRC-01361",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-load-require",
+    "question": "What is the role of load and require in Ruby?"
+  },
+  {
+    "finalId": "A-0170",
+    "occurrenceId": "SRC-01415",
+    "type": "exact-question-duplicate",
+    "rule": "concept:ruby-load-require",
+    "question": "What is the Role of Load and Require in Ruby?"
+  },
+  {
+    "finalId": "A-0195",
+    "occurrenceId": "SRC-00811",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-each-map",
+    "question": "Explain the difference between Array#each and Array#map."
+  },
+  {
+    "finalId": "A-0195",
+    "occurrenceId": "SRC-01439",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-each-map",
+    "question": "Explain the difference between Array#each and Array#map"
+  },
+  {
+    "finalId": "A-0196",
+    "occurrenceId": "SRC-00144",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-class-module",
+    "question": "Explain the difference between modules and classes in Ruby and when to use each."
+  },
+  {
+    "finalId": "A-0196",
+    "occurrenceId": "SRC-00163",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-class-module",
+    "question": "What is the difference between a module and class?"
+  },
+  {
+    "finalId": "A-0196",
+    "occurrenceId": "SRC-00180",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-class-module",
+    "question": "What is the difference between class and module in Ruby?"
+  },
+  {
+    "finalId": "A-0196",
+    "occurrenceId": "SRC-00224",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-class-module",
+    "question": "What is the difference between a Ruby class and a module?"
+  },
+  {
+    "finalId": "A-0196",
+    "occurrenceId": "SRC-00348",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-class-module",
+    "question": "What Is The Difference Between A Class And A Module?"
+  },
+  {
+    "finalId": "A-0196",
+    "occurrenceId": "SRC-00673",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-class-module",
+    "question": "What is a module?  Can you tell me the difference between classes and modules?"
+  },
+  {
+    "finalId": "A-0196",
+    "occurrenceId": "SRC-01170",
+    "type": "exact-question-duplicate",
+    "rule": "concept:ruby-class-module",
+    "question": "What is a module? Can you tell me the difference between classes and modules?"
+  },
+  {
+    "finalId": "A-0196",
+    "occurrenceId": "SRC-01180",
+    "type": "exact-question-duplicate",
+    "rule": "concept:ruby-class-module",
+    "question": "What is the difference between a class and a module?"
+  },
+  {
+    "finalId": "A-0211",
+    "occurrenceId": "SRC-00431",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-block-proc-lambda",
+    "question": "What are Block, Proc, and Lambda in Ruby?"
+  },
+  {
+    "finalId": "A-0211",
+    "occurrenceId": "SRC-00442",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-block-proc-lambda",
+    "question": "Explain Blocks, Procs, Lambdas."
+  },
+  {
+    "finalId": "A-0211",
+    "occurrenceId": "SRC-00522",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-block-proc-lambda",
+    "question": "What is the difference between blocks, procs, and lambdas?"
+  },
+  {
+    "finalId": "A-0224",
+    "occurrenceId": "SRC-00245",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-gem-definition",
+    "question": "What is a Gem in Ruby?"
+  },
+  {
+    "finalId": "A-0224",
+    "occurrenceId": "SRC-00374",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-gem-definition",
+    "question": "What are Gems in Ruby on Rails?"
+  },
+  {
+    "finalId": "A-0224",
+    "occurrenceId": "SRC-00752",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-gem-definition",
+    "question": "What is a “gem” in Ruby on Rails?"
+  },
+  {
+    "finalId": "A-0224",
+    "occurrenceId": "SRC-00762",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-gem-definition",
+    "question": "What is a gem in Ruby on Rails?"
+  },
+  {
+    "finalId": "A-0224",
+    "occurrenceId": "SRC-01101",
+    "type": "exact-question-duplicate",
+    "rule": "concept:ruby-gem-definition",
+    "question": "What is a gem in Ruby?"
+  },
+  {
+    "finalId": "A-0224",
+    "occurrenceId": "SRC-01481",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-gem-definition",
+    "question": "What is a 'gem' in Ruby on Rails? Give an example of a gem and what it does."
+  },
+  {
+    "finalId": "A-0225",
+    "occurrenceId": "SRC-01175",
+    "type": "exact-question-duplicate",
+    "rule": "exact:what is a proc?",
+    "question": "What is a Proc?"
+  },
+  {
+    "finalId": "A-0228",
+    "occurrenceId": "SRC-00062",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-proc-lambda",
+    "question": "How do Procs and lambdas differ in Ruby?"
+  },
+  {
+    "finalId": "A-0228",
+    "occurrenceId": "SRC-00153",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-proc-lambda",
+    "question": "Explain the difference between proc and lambda in Ruby."
+  },
+  {
+    "finalId": "A-0228",
+    "occurrenceId": "SRC-00229",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-proc-lambda",
+    "question": "What is the difference between proc and lambda in Ruby?"
+  },
+  {
+    "finalId": "A-0228",
+    "occurrenceId": "SRC-00255",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-proc-lambda",
+    "question": "What are Ruby's Proc and Lambda objects?"
+  },
+  {
+    "finalId": "A-0228",
+    "occurrenceId": "SRC-01050",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-proc-lambda",
+    "question": "What is the difference between a proc and a lambda?"
+  },
+  {
+    "finalId": "A-0231",
+    "occurrenceId": "SRC-00688",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-yield",
+    "question": "Explain what is “Yield” in Ruby on Rails?"
+  },
+  {
+    "finalId": "A-0231",
+    "occurrenceId": "SRC-01441",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-yield",
+    "question": "What is Yield in Ruby on Rails?"
+  },
+  {
+    "finalId": "A-0238",
+    "occurrenceId": "SRC-00795",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-multiple-inheritance",
+    "question": "Does Ruby support multiple inheritance?"
+  },
+  {
+    "finalId": "A-0238",
+    "occurrenceId": "SRC-01043",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-multiple-inheritance",
+    "question": "Does Ruby Allow Multiple Inheritance?"
+  },
+  {
+    "finalId": "A-0238",
+    "occurrenceId": "SRC-01369",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-multiple-inheritance",
+    "question": "Does Ruby Support Single Inheritance/Multiple Inheritance Or Both?"
+  },
+  {
+    "finalId": "A-0238",
+    "occurrenceId": "SRC-01437",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-multiple-inheritance",
+    "question": "Does Ruby support Multiple Inheritance and Single Inheritance?"
+  },
+  {
+    "finalId": "A-0261",
+    "occurrenceId": "SRC-01182",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-constructor",
+    "question": "How would you declare and use a constructor in Ruby?"
+  },
+  {
+    "finalId": "A-0262",
+    "occurrenceId": "SRC-01360",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-variable-prefix-three",
+    "question": "How to define Instance Variable, Global Variable, and Class Variable in Ruby?"
+  },
+  {
+    "finalId": "A-0262",
+    "occurrenceId": "SRC-01403",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-variable-prefix-three",
+    "question": "How to define the Instance variable, Global variable, and Class variable in Ruby."
+  },
+  {
+    "finalId": "A-0265",
+    "occurrenceId": "SRC-00624",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-accessor-getter-setter",
+    "question": "What are Ruby's accessor methods?"
+  },
+  {
+    "finalId": "A-0265",
+    "occurrenceId": "SRC-01027",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-accessor-getter-setter",
+    "question": "Tell me about getters and setters in Ruby"
+  },
+  {
+    "finalId": "A-0265",
+    "occurrenceId": "SRC-01185",
+    "type": "exact-question-duplicate",
+    "rule": "concept:ruby-accessor-getter-setter",
+    "question": "How would you create getter and setter methods in Ruby?"
+  },
+  {
+    "finalId": "A-0265",
+    "occurrenceId": "SRC-01431",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-accessor-getter-setter",
+    "question": "What are Accessor Methods in Ruby?"
+  },
+  {
+    "finalId": "A-0270",
+    "occurrenceId": "SRC-00218",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-method-visibility",
+    "question": "What are the levels of access control for Ruby methods?"
+  },
+  {
+    "finalId": "A-0270",
+    "occurrenceId": "SRC-00346",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-method-visibility",
+    "question": "What Are The Three Levels Of Method Access Control For Classes And What Do They Signify? What Do They Imply About The Method?"
+  },
+  {
+    "finalId": "A-0270",
+    "occurrenceId": "SRC-00349",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-method-visibility",
+    "question": "Name the three levels of access control for Ruby methods?"
+  },
+  {
+    "finalId": "A-0270",
+    "occurrenceId": "SRC-00528",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-method-visibility",
+    "question": "What are public, private, and protected methods?"
+  },
+  {
+    "finalId": "A-0270",
+    "occurrenceId": "SRC-00674",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-method-visibility",
+    "question": "Can you tell me the three levels of method access control for classes and modules?  What do they imply about the method?"
+  },
+  {
+    "finalId": "A-0270",
+    "occurrenceId": "SRC-01107",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-method-visibility",
+    "question": "What are the access modifiers in Ruby?"
+  },
+  {
+    "finalId": "A-0270",
+    "occurrenceId": "SRC-01171",
+    "type": "exact-question-duplicate",
+    "rule": "concept:ruby-method-visibility",
+    "question": "Can you tell me the three levels of method access control for classes and modules? What do they imply about the method?"
+  },
+  {
+    "finalId": "A-0270",
+    "occurrenceId": "SRC-01362",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-method-visibility",
+    "question": "What are access modifiers in Ruby?"
+  },
+  {
+    "finalId": "A-0271",
+    "occurrenceId": "SRC-00513",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-accessor-three-macros",
+    "question": "What do attr_accessor, attr_reader, and attr_writer do?"
+  },
+  {
+    "finalId": "A-0273",
+    "occurrenceId": "SRC-01168",
+    "type": "exact-question-duplicate",
+    "rule": "exact:what is a class?",
+    "question": "What is a class?"
+  },
+  {
+    "finalId": "A-0276",
+    "occurrenceId": "SRC-01169",
+    "type": "exact-question-duplicate",
+    "rule": "exact:what is an object?",
+    "question": "What is an object?"
+  },
+  {
+    "finalId": "A-0276",
+    "occurrenceId": "SRC-01181",
+    "type": "exact-question-duplicate",
+    "rule": "exact:what is an object?",
+    "question": "What is an object?"
+  },
+  {
+    "finalId": "A-0277",
+    "occurrenceId": "SRC-00301",
+    "type": "exact-question-duplicate",
+    "rule": "concept:ruby-class-library",
+    "question": "What are class libraries in Ruby?"
+  },
+  {
+    "finalId": "A-0277",
+    "occurrenceId": "SRC-00428",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-class-library",
+    "question": "What are the different class libraries used in Ruby?"
+  },
+  {
+    "finalId": "A-0277",
+    "occurrenceId": "SRC-00687",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-class-library",
+    "question": "Explain what is class libraries in Ruby?"
+  },
+  {
+    "finalId": "A-0277",
+    "occurrenceId": "SRC-00722",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-class-library",
+    "question": "What exactly class libraries in ruby have in them?"
+  },
+  {
+    "finalId": "A-0277",
+    "occurrenceId": "SRC-00728",
+    "type": "exact-question-duplicate",
+    "rule": "concept:ruby-class-library",
+    "question": "What are class libraries in Ruby?"
+  },
+  {
+    "finalId": "A-0277",
+    "occurrenceId": "SRC-01302",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-class-library",
+    "question": "What is meant by a “class library”?"
+  },
+  {
+    "finalId": "A-0277",
+    "occurrenceId": "SRC-01411",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-class-library",
+    "question": "What is Class Library in Ruby?"
+  },
+  {
+    "finalId": "A-0278",
+    "occurrenceId": "SRC-01402",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-mixin",
+    "question": "What is Mixin in Rails?"
+  },
+  {
+    "finalId": "A-0279",
+    "occurrenceId": "SRC-00440",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-object-values",
+    "question": "Explain Everything is an Object."
+  },
+  {
+    "finalId": "A-0279",
+    "occurrenceId": "SRC-00503",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-object-values",
+    "question": "What does it mean that everything in Ruby is an object?"
+  },
+  {
+    "finalId": "A-0279",
+    "occurrenceId": "SRC-00643",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-object-values",
+    "question": "What does “everything is an object” mean in Ruby?"
+  },
+  {
+    "finalId": "A-0279",
+    "occurrenceId": "SRC-01178",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-object-values",
+    "question": "Explain how (almost) everything is an object in Ruby:"
+  },
+  {
+    "finalId": "A-0281",
+    "occurrenceId": "SRC-00808",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-instance-class-variable",
+    "question": "Explain how class variables are different from instance variables."
+  },
+  {
+    "finalId": "A-0281",
+    "occurrenceId": "SRC-01186",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-instance-class-variable",
+    "question": "Describe the difference between class and instance variables? Class variables are created with the prefix ‘@@’ and are shared by all objects in a class."
+  },
+  {
+    "finalId": "A-0282",
+    "occurrenceId": "SRC-00319",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-super",
+    "question": "What is the difference between calling super and calling super()?"
+  },
+  {
+    "finalId": "A-0282",
+    "occurrenceId": "SRC-01432",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-super",
+    "question": "What is the difference between super and super() Call?"
+  },
+  {
+    "finalId": "A-0283",
+    "occurrenceId": "SRC-00119",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-dup-clone",
+    "question": "What is the difference between the `Object` methods `clone` and `dup`?"
+  },
+  {
+    "finalId": "A-0283",
+    "occurrenceId": "SRC-00366",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-dup-clone",
+    "question": "What is the difference between the Object methods clone and dup?"
+  },
+  {
+    "finalId": "A-0287",
+    "occurrenceId": "SRC-01176",
+    "type": "exact-question-duplicate",
+    "rule": "exact:what is unit testing (in classical terms)? what is the primary technique when writing a test?",
+    "question": "What is unit testing (in classical terms)? What is the primary technique when writing a test?"
+  },
+  {
+    "finalId": "A-0298",
+    "occurrenceId": "SRC-00684",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-gems-experience",
+    "question": "What are rubygems?  Any favorites not including rails?  Any that you've worked on personally?"
+  },
+  {
+    "finalId": "A-0301",
+    "occurrenceId": "SRC-01056",
+    "type": "exact-question-duplicate",
+    "rule": "exact:what is the purpose of the gemfile in a rails application?",
+    "question": "What is the purpose of the Gemfile in a Rails application?"
+  },
+  {
+    "finalId": "A-0326",
+    "occurrenceId": "SRC-00235",
+    "type": "exact-question-duplicate",
+    "rule": "concept:ruby-include-extend",
+    "question": "What is the difference between include and extend in Ruby?"
+  },
+  {
+    "finalId": "A-0326",
+    "occurrenceId": "SRC-00253",
+    "type": "exact-question-duplicate",
+    "rule": "concept:ruby-include-extend",
+    "question": "What is the difference between include and extend in Ruby?"
+  },
+  {
+    "finalId": "A-0351",
+    "occurrenceId": "SRC-00507",
+    "type": "exact-question-duplicate",
+    "rule": "exact:how does string interpolation work in ruby?",
+    "question": "How does string interpolation work in Ruby?"
+  },
+  {
+    "finalId": "A-0352",
+    "occurrenceId": "SRC-00693",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-symbol-variable",
+    "question": "Explain how Symbol is different from variables?"
+  },
+  {
+    "finalId": "A-0352",
+    "occurrenceId": "SRC-01307",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-symbol-variable",
+    "question": "How are Symbols different from variables?"
+  },
+  {
+    "finalId": "A-0363",
+    "occurrenceId": "SRC-00197",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-four-variable-types",
+    "question": "What are the different types of variables in Ruby?"
+  },
+  {
+    "finalId": "A-0363",
+    "occurrenceId": "SRC-00217",
+    "type": "exact-question-duplicate",
+    "rule": "concept:ruby-four-variable-types",
+    "question": "What are the different types of variables in Ruby?"
+  },
+  {
+    "finalId": "A-0363",
+    "occurrenceId": "SRC-00352",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-four-variable-types",
+    "question": "Ruby provides four types of variables. List them and provide a brief explanation for each?"
+  },
+  {
+    "finalId": "A-0363",
+    "occurrenceId": "SRC-00368",
+    "type": "exact-question-duplicate",
+    "rule": "concept:ruby-four-variable-types",
+    "question": "How many types of variables are used in Ruby and what are they?"
+  },
+  {
+    "finalId": "A-0370",
+    "occurrenceId": "SRC-00818",
+    "type": "exact-question-duplicate",
+    "rule": "concept:ruby-hash",
+    "question": "What is a Hash in Ruby on Rails?"
+  },
+  {
+    "finalId": "A-0370",
+    "occurrenceId": "SRC-01438",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-hash",
+    "question": "What is Hash in Ruby on Rails?"
+  },
+  {
+    "finalId": "A-0373",
+    "occurrenceId": "SRC-01304",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-nil-false",
+    "question": "What is the difference between “false” and “nil”?"
+  },
+  {
+    "finalId": "A-0373",
+    "occurrenceId": "SRC-01349",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-nil-false",
+    "question": "What is the difference between false and nil in Ruby?"
+  },
+  {
+    "finalId": "A-0373",
+    "occurrenceId": "SRC-01396",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-nil-false",
+    "question": "What is the difference between false and nil in Ruby on Rails?"
+  },
+  {
+    "finalId": "A-0380",
+    "occurrenceId": "SRC-00182",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-symbol-string",
+    "question": "What is the difference between symbols and strings in Ruby?"
+  },
+  {
+    "finalId": "A-0380",
+    "occurrenceId": "SRC-00219",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-symbol-string",
+    "question": "What is the difference between symbols and strings?"
+  },
+  {
+    "finalId": "A-0380",
+    "occurrenceId": "SRC-00345",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-symbol-string",
+    "question": "How Does A Symbol Differ From A String?"
+  },
+  {
+    "finalId": "A-0380",
+    "occurrenceId": "SRC-00450",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-symbol-string",
+    "question": "Explain When to Use Symbols vs. Strings."
+  },
+  {
+    "finalId": "A-0380",
+    "occurrenceId": "SRC-00504",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-symbol-string",
+    "question": "What is the difference between a symbol and a string?"
+  },
+  {
+    "finalId": "A-0380",
+    "occurrenceId": "SRC-00618",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-symbol-string",
+    "question": "Explain the difference between symbols and strings in Ruby."
+  },
+  {
+    "finalId": "A-0380",
+    "occurrenceId": "SRC-00648",
+    "type": "exact-question-duplicate",
+    "rule": "concept:ruby-symbol-string",
+    "question": "What is the difference between symbols and strings?"
+  },
+  {
+    "finalId": "A-0380",
+    "occurrenceId": "SRC-00692",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-symbol-string",
+    "question": "Mention what is the difference between String and Symbol?"
+  },
+  {
+    "finalId": "A-0380",
+    "occurrenceId": "SRC-01183",
+    "type": "exact-question-duplicate",
+    "rule": "concept:ruby-symbol-string",
+    "question": "How does a symbol differ from a string?"
+  },
+  {
+    "finalId": "A-0380",
+    "occurrenceId": "SRC-01306",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-symbol-string",
+    "question": "What is the difference between Symbol and String?"
+  },
+  {
+    "finalId": "A-0380",
+    "occurrenceId": "SRC-01350",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-symbol-string",
+    "question": "What is the difference between String and Symbol?"
+  },
+  {
+    "finalId": "A-0380",
+    "occurrenceId": "SRC-01397",
+    "type": "exact-question-duplicate",
+    "rule": "concept:ruby-symbol-string",
+    "question": "What is the difference between String and Symbol?"
+  },
+  {
+    "finalId": "A-0381",
+    "occurrenceId": "SRC-00755",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-nil-value",
+    "question": "What does nil mean?"
+  },
+  {
+    "finalId": "B-0005",
+    "occurrenceId": "SRC-01214",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-custom-validation",
+    "question": "How do you set up a custom validation in Rails?"
+  },
+  {
+    "finalId": "B-0005",
+    "occurrenceId": "SRC-01260",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-custom-validation",
+    "question": "How do you create a custom validation in Rails?"
+  },
+  {
+    "finalId": "B-0005",
+    "occurrenceId": "SRC-01499",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-custom-validation",
+    "question": "Describe how you would implement a custom validator in Rails. Provide an example."
+  },
+  {
+    "finalId": "B-0009",
+    "occurrenceId": "SRC-01430",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-active-storage-purpose",
+    "question": "Do you know about Activestorage in Ruby on Rails and How can you use this?"
+  },
+  {
+    "finalId": "B-0012",
+    "occurrenceId": "SRC-00902",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-cache-how",
+    "question": "What is caching in Rails, and how do you implement it?"
+  },
+  {
+    "finalId": "B-0012",
+    "occurrenceId": "SRC-01144",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-cache-how",
+    "question": "How do you use caching in Rails?"
+  },
+  {
+    "finalId": "B-0012",
+    "occurrenceId": "SRC-01218",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-cache-how",
+    "question": "How do you implement caching in Rails?"
+  },
+  {
+    "finalId": "B-0012",
+    "occurrenceId": "SRC-01265",
+    "type": "exact-question-duplicate",
+    "rule": "concept:rails-cache-how",
+    "question": "What is caching in Rails, and how do you implement it?"
+  },
+  {
+    "finalId": "B-0012",
+    "occurrenceId": "SRC-01509",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-cache-how",
+    "question": "Explain how you would implement caching in a Rails application. What different caching strategies are available?"
+  },
+  {
+    "finalId": "B-0014",
+    "occurrenceId": "SRC-01023",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-orm",
+    "question": "What is ORM in Rails?"
+  },
+  {
+    "finalId": "B-0014",
+    "occurrenceId": "SRC-01080",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-orm",
+    "question": "What is ORM?"
+  },
+  {
+    "finalId": "B-0014",
+    "occurrenceId": "SRC-01195",
+    "type": "exact-question-duplicate",
+    "rule": "concept:rails-orm",
+    "question": "What is ORM in Rails?"
+  },
+  {
+    "finalId": "B-0014",
+    "occurrenceId": "SRC-01395",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-orm",
+    "question": "Explain ORM in Ruby on Rails?"
+  },
+  {
+    "finalId": "B-0020",
+    "occurrenceId": "SRC-01035",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-callback-save-pair",
+    "question": "When would you use the before_save or after_save callback?"
+  },
+  {
+    "finalId": "B-0022",
+    "occurrenceId": "SRC-00787",
+    "type": "exact-question-duplicate",
+    "rule": "exact:explain what count does in ruby on rails.",
+    "question": "Explain what count does in Ruby on Rails."
+  },
+  {
+    "finalId": "B-0023",
+    "occurrenceId": "SRC-00763",
+    "type": "exact-question-duplicate",
+    "rule": "exact:explain what delete does in ruby on rails.",
+    "question": "Explain what delete does in Ruby on Rails."
+  },
+  {
+    "finalId": "B-0023",
+    "occurrenceId": "SRC-01416",
+    "type": "exact-question-duplicate",
+    "rule": "exact:explain what delete does in ruby on rails.",
+    "question": "Explain what Delete does in Ruby on Rails."
+  },
+  {
+    "finalId": "B-0024",
+    "occurrenceId": "SRC-01436",
+    "type": "exact-question-duplicate",
+    "rule": "exact:explain what destroy does in ruby on rails.",
+    "question": "Explain what Destroy does in Ruby on Rails."
+  },
+  {
+    "finalId": "B-0027",
+    "occurrenceId": "SRC-01036",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-initializer",
+    "question": "What are initializers in Rails?"
+  },
+  {
+    "finalId": "B-0027",
+    "occurrenceId": "SRC-01233",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-initializer",
+    "question": "What is a Rails initializer?"
+  },
+  {
+    "finalId": "B-0028",
+    "occurrenceId": "SRC-00788",
+    "type": "exact-question-duplicate",
+    "rule": "exact:explain what length does in ruby on rails.",
+    "question": "Explain what length does in Ruby on Rails."
+  },
+  {
+    "finalId": "B-0033",
+    "occurrenceId": "SRC-00760",
+    "type": "exact-question-duplicate",
+    "rule": "exact:explain what ruby on rails is.",
+    "question": "Explain what Ruby on Rails is."
+  },
+  {
+    "finalId": "B-0034",
+    "occurrenceId": "SRC-00789",
+    "type": "exact-question-duplicate",
+    "rule": "exact:explain what size does in ruby on rails.",
+    "question": "Explain what size does in Ruby on Rails."
+  },
+  {
+    "finalId": "B-0035",
+    "occurrenceId": "SRC-00790",
+    "type": "exact-question-duplicate",
+    "rule": "concept:rails-spring",
+    "question": "Explain what Spring is."
+  },
+  {
+    "finalId": "B-0035",
+    "occurrenceId": "SRC-01239",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-spring",
+    "question": "What is Spring in Rails?"
+  },
+  {
+    "finalId": "B-0036",
+    "occurrenceId": "SRC-01440",
+    "type": "exact-question-duplicate",
+    "rule": "exact:explain when self.up and self.down method is used?",
+    "question": "Explain when self.up and self.down method is used?"
+  },
+  {
+    "finalId": "B-0044",
+    "occurrenceId": "SRC-00830",
+    "type": "exact-question-duplicate",
+    "rule": "concept:rails-new-application",
+    "question": "How do you create a new Rails application?"
+  },
+  {
+    "finalId": "B-0044",
+    "occurrenceId": "SRC-00853",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-new-application",
+    "question": "How do you create a new Rails project?"
+  },
+  {
+    "finalId": "B-0044",
+    "occurrenceId": "SRC-00973",
+    "type": "exact-question-duplicate",
+    "rule": "concept:rails-new-application",
+    "question": "How do you create a new Rails project?"
+  },
+  {
+    "finalId": "B-0044",
+    "occurrenceId": "SRC-01058",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-new-application",
+    "question": "Explain how to generate a new Rails application."
+  },
+  {
+    "finalId": "B-0052",
+    "occurrenceId": "SRC-01258",
+    "type": "exact-question-duplicate",
+    "rule": "exact:how do you handle exceptions in rails?",
+    "question": "How do you handle exceptions in Rails?"
+  },
+  {
+    "finalId": "B-0054",
+    "occurrenceId": "SRC-01141",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-upload-how",
+    "question": "How do you handle file uploads in Rails?"
+  },
+  {
+    "finalId": "B-0054",
+    "occurrenceId": "SRC-01215",
+    "type": "exact-question-duplicate",
+    "rule": "concept:rails-upload-how",
+    "question": "How do you handle file uploads in Rails?"
+  },
+  {
+    "finalId": "B-0054",
+    "occurrenceId": "SRC-01242",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-upload-how",
+    "question": "How do you handle file attachments in Rails?"
+  },
+  {
+    "finalId": "B-0054",
+    "occurrenceId": "SRC-01274",
+    "type": "exact-question-duplicate",
+    "rule": "concept:rails-upload-how",
+    "question": "How do you handle file uploads in Rails?"
+  },
+  {
+    "finalId": "B-0056",
+    "occurrenceId": "SRC-01338",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-soft-delete",
+    "question": "How would you implement soft deletes in Rails?"
+  },
+  {
+    "finalId": "B-0057",
+    "occurrenceId": "SRC-01247",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-nested-resources",
+    "question": "What is a nested resource in Rails?"
+  },
+  {
+    "finalId": "B-0058",
+    "occurrenceId": "SRC-01243",
+    "type": "exact-question-duplicate",
+    "rule": "exact:how do you implement pagination in rails?",
+    "question": "How do you implement pagination in Rails?"
+  },
+  {
+    "finalId": "B-0064",
+    "occurrenceId": "SRC-00975",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-start-server",
+    "question": "What is the purpose of the rails server command?"
+  },
+  {
+    "finalId": "B-0064",
+    "occurrenceId": "SRC-01462",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-start-server",
+    "question": "How do you start a Rails server?"
+  },
+  {
+    "finalId": "B-0064",
+    "occurrenceId": "SRC-01482",
+    "type": "exact-question-duplicate",
+    "rule": "concept:rails-start-server",
+    "question": "How do you start a Rails server?"
+  },
+  {
+    "finalId": "B-0070",
+    "occurrenceId": "SRC-01134",
+    "type": "exact-question-duplicate",
+    "rule": "exact:how is ruby on rails different from python?",
+    "question": "How is Ruby on Rails different from Python?"
+  },
+  {
+    "finalId": "B-0076",
+    "occurrenceId": "SRC-01370",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-limits",
+    "question": "What are the limits of Ruby on Rails?"
+  },
+  {
+    "finalId": "B-0088",
+    "occurrenceId": "SRC-00768",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-controller-filter",
+    "question": "What is a filter in Ruby on Rails?"
+  },
+  {
+    "finalId": "B-0088",
+    "occurrenceId": "SRC-00797",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-controller-filter",
+    "question": "Give an example of a filter in Ruby on Rails."
+  },
+  {
+    "finalId": "B-0088",
+    "occurrenceId": "SRC-01067",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-controller-filter",
+    "question": "What filters are available in Rails controllers and how do you use them?"
+  },
+  {
+    "finalId": "B-0088",
+    "occurrenceId": "SRC-01262",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-controller-filter",
+    "question": "What are filters in Rails controllers?"
+  },
+  {
+    "finalId": "B-0088",
+    "occurrenceId": "SRC-01420",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-controller-filter",
+    "question": "What are Filters?"
+  },
+  {
+    "finalId": "B-0090",
+    "occurrenceId": "SRC-00874",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-validation-use",
+    "question": "How can you define validations in a Rails model?"
+  },
+  {
+    "finalId": "B-0090",
+    "occurrenceId": "SRC-01091",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-validation-use",
+    "question": "What are Validations in Active Record?"
+  },
+  {
+    "finalId": "B-0090",
+    "occurrenceId": "SRC-01113",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-validation-use",
+    "question": "How do you handle validations in Rails?"
+  },
+  {
+    "finalId": "B-0090",
+    "occurrenceId": "SRC-01276",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-validation-use",
+    "question": "How do you use Rails validations?"
+  },
+  {
+    "finalId": "B-0095",
+    "occurrenceId": "SRC-01200",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-advantages",
+    "question": "What are the advantages of using Ruby on Rails?"
+  },
+  {
+    "finalId": "B-0095",
+    "occurrenceId": "SRC-01300",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-advantages",
+    "question": "What are some of the advantages of Ruby on Rails?"
+  },
+  {
+    "finalId": "B-0095",
+    "occurrenceId": "SRC-01413",
+    "type": "exact-question-duplicate",
+    "rule": "concept:rails-advantages",
+    "question": "What are the benefits of using Ruby on Rails?"
+  },
+  {
+    "finalId": "B-0098",
+    "occurrenceId": "SRC-00954",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-i18n",
+    "question": "How would you implement multi-language (i18n) support in Rails?"
+  },
+  {
+    "finalId": "B-0098",
+    "occurrenceId": "SRC-01145",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-i18n",
+    "question": "How do you handle internationalization (i18n)?"
+  },
+  {
+    "finalId": "B-0098",
+    "occurrenceId": "SRC-01281",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-i18n",
+    "question": "How do you configure internationalization (i18n) in Rails?"
+  },
+  {
+    "finalId": "B-0098",
+    "occurrenceId": "SRC-01515",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-i18n",
+    "question": "What are the different ways to handle internationalization (i18n) in a Rails application?"
+  },
+  {
+    "finalId": "B-0098",
+    "occurrenceId": "SRC-01534",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-i18n",
+    "question": "Explain how you would handle internationalization (i18n) and localization (l10n) in a Rails application."
+  },
+  {
+    "finalId": "B-0102",
+    "occurrenceId": "SRC-00370",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-mvc",
+    "question": "How does Ruby on Rails use the Model View Controller (MVC) framework?"
+  },
+  {
+    "finalId": "B-0102",
+    "occurrenceId": "SRC-00373",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-mvc",
+    "question": "What is MVC in Ruby on Rails?"
+  },
+  {
+    "finalId": "B-0102",
+    "occurrenceId": "SRC-00642",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-mvc",
+    "question": "Explain MVC architecture in Ruby on Rails with an example."
+  },
+  {
+    "finalId": "B-0102",
+    "occurrenceId": "SRC-00718",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-mvc",
+    "question": "What is the MVC principle stands for in Ruby and what are the subsystems in which it divides the work of an application?"
+  },
+  {
+    "finalId": "B-0102",
+    "occurrenceId": "SRC-00748",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-mvc",
+    "question": "What does MVC mean?"
+  },
+  {
+    "finalId": "B-0102",
+    "occurrenceId": "SRC-00749",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-mvc",
+    "question": "How does MVC work?"
+  },
+  {
+    "finalId": "B-0102",
+    "occurrenceId": "SRC-00828",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-mvc",
+    "question": "Explain the MVC architecture in Rails."
+  },
+  {
+    "finalId": "B-0102",
+    "occurrenceId": "SRC-00895",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-mvc",
+    "question": "Explain the MVC (Model-View-Controller) design pattern in the context of Rails."
+  },
+  {
+    "finalId": "B-0102",
+    "occurrenceId": "SRC-00993",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-mvc",
+    "question": "Explain the Model-View-Controller (MVC) architectural pattern in the context of Ruby on Rails."
+  },
+  {
+    "finalId": "B-0102",
+    "occurrenceId": "SRC-01003",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-mvc",
+    "question": "Explain the concept of MVC architecture in the context of Ruby on Rails."
+  },
+  {
+    "finalId": "B-0102",
+    "occurrenceId": "SRC-01013",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-mvc",
+    "question": "Explain the Model-View-Controller (MVC) architectural pattern used in Ruby on Rails. How does it contribute to the development of web applications?"
+  },
+  {
+    "finalId": "B-0102",
+    "occurrenceId": "SRC-01031",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-mvc",
+    "question": "What is MVC?"
+  },
+  {
+    "finalId": "B-0102",
+    "occurrenceId": "SRC-01054",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-mvc",
+    "question": "Describe the MVC architecture in Rails."
+  },
+  {
+    "finalId": "B-0102",
+    "occurrenceId": "SRC-01076",
+    "type": "exact-question-duplicate",
+    "rule": "concept:rails-mvc",
+    "question": "What does MVC mean?"
+  },
+  {
+    "finalId": "B-0102",
+    "occurrenceId": "SRC-01100",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-mvc",
+    "question": "What is the MVC pattern in Rails?"
+  },
+  {
+    "finalId": "B-0102",
+    "occurrenceId": "SRC-01194",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-mvc",
+    "question": "Define MVC"
+  },
+  {
+    "finalId": "B-0102",
+    "occurrenceId": "SRC-01201",
+    "type": "exact-question-duplicate",
+    "rule": "concept:rails-mvc",
+    "question": "Explain the MVC architecture in Rails."
+  },
+  {
+    "finalId": "B-0102",
+    "occurrenceId": "SRC-01363",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-mvc",
+    "question": "What is MVC and how does it work?"
+  },
+  {
+    "finalId": "B-0102",
+    "occurrenceId": "SRC-01407",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-mvc",
+    "question": "What are the three components of Ruby on Rails?"
+  },
+  {
+    "finalId": "B-0102",
+    "occurrenceId": "SRC-01409",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-mvc",
+    "question": "What is MVC and How it Works?"
+  },
+  {
+    "finalId": "B-0102",
+    "occurrenceId": "SRC-01445",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-mvc",
+    "question": "What does MVC stand for in Rails, and why is it important?"
+  },
+  {
+    "finalId": "B-0102",
+    "occurrenceId": "SRC-01473",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-mvc",
+    "question": "Can you describe the MVC pattern and how it's used in Rails? Imagine you're explaining it to a kid with building blocks."
+  },
+  {
+    "finalId": "B-0105",
+    "occurrenceId": "SRC-00893",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-concern",
+    "question": "What are concerns in Rails, and how do you use them?"
+  },
+  {
+    "finalId": "B-0105",
+    "occurrenceId": "SRC-00958",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-concern",
+    "question": "What is the purpose of the ActiveSupport::Concern module in Rails?"
+  },
+  {
+    "finalId": "B-0105",
+    "occurrenceId": "SRC-01124",
+    "type": "exact-question-duplicate",
+    "rule": "concept:rails-concern",
+    "question": "What is a concern in Rails?"
+  },
+  {
+    "finalId": "B-0105",
+    "occurrenceId": "SRC-01217",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-concern",
+    "question": "What is a Rails Concern? How do you use it?"
+  },
+  {
+    "finalId": "B-0105",
+    "occurrenceId": "SRC-01263",
+    "type": "exact-question-duplicate",
+    "rule": "concept:rails-concern",
+    "question": "What is a Concern in Rails?"
+  },
+  {
+    "finalId": "B-0105",
+    "occurrenceId": "SRC-01282",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-concern",
+    "question": "What are concerns in Rails, and when do you use them?"
+  },
+  {
+    "finalId": "B-0105",
+    "occurrenceId": "SRC-01292",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-concern",
+    "question": "What is Rails’ ActiveSupport::Concern?"
+  },
+  {
+    "finalId": "B-0105",
+    "occurrenceId": "SRC-01317",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-concern",
+    "question": "What are concerns and when should you use them?"
+  },
+  {
+    "finalId": "B-0105",
+    "occurrenceId": "SRC-01435",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-concern",
+    "question": "What do you mean by Concerns in Rails?"
+  },
+  {
+    "finalId": "B-0105",
+    "occurrenceId": "SRC-01498",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-concern",
+    "question": "Explain the concept of concerns in Rails. When and why would you use them?"
+  },
+  {
+    "finalId": "B-0115",
+    "occurrenceId": "SRC-01447",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-define-model",
+    "question": "What is a Rails model, and what does it do?"
+  },
+  {
+    "finalId": "B-0115",
+    "occurrenceId": "SRC-01454",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-define-model",
+    "question": "How do you define a model with attributes in Rails?"
+  },
+  {
+    "finalId": "B-0115",
+    "occurrenceId": "SRC-01477",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-define-model",
+    "question": "How would you define a model in Rails? Can you give a simple example?"
+  },
+  {
+    "finalId": "B-0117",
+    "occurrenceId": "SRC-01009",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-callback",
+    "question": "Explain the concept of ActiveRecord callbacks in Ruby on Rails."
+  },
+  {
+    "finalId": "B-0117",
+    "occurrenceId": "SRC-01018",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-callback",
+    "question": "Explain the concept of Rails callbacks and provide examples of where they can be used in real-world applications."
+  },
+  {
+    "finalId": "B-0117",
+    "occurrenceId": "SRC-01034",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-callback",
+    "question": "What are callbacks?"
+  },
+  {
+    "finalId": "B-0117",
+    "occurrenceId": "SRC-01074",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-callback",
+    "question": "What is a callback in Rails and how do to use it?"
+  },
+  {
+    "finalId": "B-0117",
+    "occurrenceId": "SRC-01092",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-callback",
+    "question": "What are Callbacks in Active Record?"
+  },
+  {
+    "finalId": "B-0117",
+    "occurrenceId": "SRC-01208",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-callback",
+    "question": "What are Rails callbacks?"
+  },
+  {
+    "finalId": "B-0117",
+    "occurrenceId": "SRC-01268",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-callback",
+    "question": "How do you use ActiveRecord callbacks?"
+  },
+  {
+    "finalId": "B-0117",
+    "occurrenceId": "SRC-01426",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-callback",
+    "question": "What is Callback in Ruby on Rails?"
+  },
+  {
+    "finalId": "B-0120",
+    "occurrenceId": "SRC-01285",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-poro",
+    "question": "What is a PORO in Rails?"
+  },
+  {
+    "finalId": "B-0123",
+    "occurrenceId": "SRC-00746",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-scaffolding",
+    "question": "Explain what “scaffolding” is."
+  },
+  {
+    "finalId": "B-0123",
+    "occurrenceId": "SRC-00747",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-scaffolding",
+    "question": "What are the advantages of scaffolding in Ruby on Rails?"
+  },
+  {
+    "finalId": "B-0123",
+    "occurrenceId": "SRC-00879",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-scaffolding",
+    "question": "What is a \"scaffold\" in Rails?"
+  },
+  {
+    "finalId": "B-0123",
+    "occurrenceId": "SRC-01405",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-scaffolding",
+    "question": "What is Rails Scaffolding?"
+  },
+  {
+    "finalId": "B-0127",
+    "occurrenceId": "SRC-00971",
+    "type": "exact-question-duplicate",
+    "rule": "exact:what is ruby on rails, and what are its main features?",
+    "question": "What is Ruby on Rails, and what are its main features?"
+  },
+  {
+    "finalId": "B-0128",
+    "occurrenceId": "SRC-00372",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-definition",
+    "question": "What is Ruby on Rails?"
+  },
+  {
+    "finalId": "B-0128",
+    "occurrenceId": "SRC-00686",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-definition",
+    "question": "Explain what is Ruby on Rails?"
+  },
+  {
+    "finalId": "B-0128",
+    "occurrenceId": "SRC-00706",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-definition",
+    "question": "What exactly do you know about Ruby on Rails and how well it can be defined?"
+  },
+  {
+    "finalId": "B-0128",
+    "occurrenceId": "SRC-00821",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-definition",
+    "question": "What is Ruby on Rails, and why is it popular for web development?"
+  },
+  {
+    "finalId": "B-0128",
+    "occurrenceId": "SRC-01025",
+    "type": "exact-question-duplicate",
+    "rule": "concept:rails-definition",
+    "question": "Explain what is Ruby on Rails?"
+  },
+  {
+    "finalId": "B-0128",
+    "occurrenceId": "SRC-01053",
+    "type": "exact-question-duplicate",
+    "rule": "concept:rails-definition",
+    "question": "What is Ruby on Rails, and why is it popular for web development?"
+  },
+  {
+    "finalId": "B-0128",
+    "occurrenceId": "SRC-01099",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-definition",
+    "question": "What is Ruby on Rails, and why use it?"
+  },
+  {
+    "finalId": "B-0128",
+    "occurrenceId": "SRC-01199",
+    "type": "exact-question-duplicate",
+    "rule": "concept:rails-definition",
+    "question": "What is Ruby on Rails?"
+  },
+  {
+    "finalId": "B-0128",
+    "occurrenceId": "SRC-01299",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-definition",
+    "question": "What is Ruby on Rails"
+  },
+  {
+    "finalId": "B-0128",
+    "occurrenceId": "SRC-01355",
+    "type": "exact-question-duplicate",
+    "rule": "concept:rails-definition",
+    "question": "What is Ruby on Rails?"
+  },
+  {
+    "finalId": "B-0128",
+    "occurrenceId": "SRC-01393",
+    "type": "exact-question-duplicate",
+    "rule": "concept:rails-definition",
+    "question": "What is Ruby on Rails?"
+  },
+  {
+    "finalId": "B-0133",
+    "occurrenceId": "SRC-01241",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-delete-destroy",
+    "question": "What is the difference between delete and destroy in Rails?"
+  },
+  {
+    "finalId": "B-0135",
+    "occurrenceId": "SRC-01295",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-habtm-through",
+    "question": "What is the difference between has_many :through and has_and_belongs_to_many?"
+  },
+  {
+    "finalId": "B-0135",
+    "occurrenceId": "SRC-01429",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-habtm-through",
+    "question": "What is the difference between has_many :through and has_and_belongs_to_many and which one is better?"
+  },
+  {
+    "finalId": "B-0137",
+    "occurrenceId": "SRC-00984",
+    "type": "exact-question-duplicate",
+    "rule": "exact:what is the difference between link_to and button_to in rails?",
+    "question": "What is the difference between link_to and button_to in Rails?"
+  },
+  {
+    "finalId": "B-0138",
+    "occurrenceId": "SRC-00972",
+    "type": "exact-question-duplicate",
+    "rule": "concept:ruby-vs-rails",
+    "question": "What is the difference between Ruby and Ruby on Rails?"
+  },
+  {
+    "finalId": "B-0138",
+    "occurrenceId": "SRC-01102",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-vs-rails",
+    "question": "What is the difference between Ruby and Rails?"
+  },
+  {
+    "finalId": "B-0140",
+    "occurrenceId": "SRC-01212",
+    "type": "exact-question-duplicate",
+    "rule": "concept:rails-save-bang",
+    "question": "What is the difference between save and save!?"
+  },
+  {
+    "finalId": "B-0140",
+    "occurrenceId": "SRC-01261",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-save-bang",
+    "question": "What is the difference between save and save! in Rails?"
+  },
+  {
+    "finalId": "B-0141",
+    "occurrenceId": "SRC-01371",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-observer-callback",
+    "question": "What is the difference between observers and callbacks in Ruby on rails?"
+  },
+  {
+    "finalId": "B-0143",
+    "occurrenceId": "SRC-01301",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-constant-naming",
+    "question": "What is the naming convention used in Ruby on Rails?"
+  },
+  {
+    "finalId": "B-0143",
+    "occurrenceId": "SRC-01347",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-constant-naming",
+    "question": "Explain the naming convention in Rails."
+  },
+  {
+    "finalId": "B-0143",
+    "occurrenceId": "SRC-01394",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-constant-naming",
+    "question": "What is the naming convention in Ruby on Rails?"
+  },
+  {
+    "finalId": "B-0145",
+    "occurrenceId": "SRC-00887",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-flash",
+    "question": "What is a flash message in Rails, and how do you use it?"
+  },
+  {
+    "finalId": "B-0145",
+    "occurrenceId": "SRC-01275",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-flash",
+    "question": "What is the purpose of flash in Rails?"
+  },
+  {
+    "finalId": "B-0145",
+    "occurrenceId": "SRC-01493",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-flash",
+    "question": "What is the purpose of a 'flash' message in Rails?"
+  },
+  {
+    "finalId": "B-0146",
+    "occurrenceId": "SRC-00912",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-console",
+    "question": "What is the rails console, and how is it useful for debugging?"
+  },
+  {
+    "finalId": "B-0146",
+    "occurrenceId": "SRC-01483",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-console",
+    "question": "What is the purpose of the 'rails console'?"
+  },
+  {
+    "finalId": "B-0147",
+    "occurrenceId": "SRC-00983",
+    "type": "exact-question-duplicate",
+    "rule": "concept:rails-application-config",
+    "question": "What is the purpose of the application.rb file?"
+  },
+  {
+    "finalId": "B-0147",
+    "occurrenceId": "SRC-01115",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-application-config",
+    "question": "What is the purpose of application.rb?"
+  },
+  {
+    "finalId": "B-0148",
+    "occurrenceId": "SRC-00989",
+    "type": "exact-question-duplicate",
+    "rule": "concept:rails-before-action",
+    "question": "What is the purpose of the before_action callback in Rails?"
+  },
+  {
+    "finalId": "B-0148",
+    "occurrenceId": "SRC-01244",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-before-action",
+    "question": "What is before_action in Rails?"
+  },
+  {
+    "finalId": "B-0150",
+    "occurrenceId": "SRC-01248",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-uniqueness-validation",
+    "question": "How do you validate uniqueness in Rails models?"
+  },
+  {
+    "finalId": "B-0151",
+    "occurrenceId": "SRC-00831",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-coc",
+    "question": "Explain the purpose of the Rails convention over configuration principle."
+  },
+  {
+    "finalId": "B-0151",
+    "occurrenceId": "SRC-00891",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-coc",
+    "question": "What is the Rails convention over configuration (CoC) principle?"
+  },
+  {
+    "finalId": "B-0151",
+    "occurrenceId": "SRC-01059",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-coc",
+    "question": "What is the convention over configuration principle?"
+  },
+  {
+    "finalId": "B-0152",
+    "occurrenceId": "SRC-01252",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-active-support",
+    "question": "What is ActiveSupport?"
+  },
+  {
+    "finalId": "B-0154",
+    "occurrenceId": "SRC-01075",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-seeds",
+    "question": "What is the purpose of the rails db:seed task?"
+  },
+  {
+    "finalId": "B-0157",
+    "occurrenceId": "SRC-01475",
+    "type": "exact-question-duplicate",
+    "rule": "exact:what's the difference between 'rails new' and 'rails generate'?",
+    "question": "What's the difference between 'rails new' and 'rails generate'?"
+  },
+  {
+    "finalId": "B-0161",
+    "occurrenceId": "SRC-00764",
+    "type": "exact-question-duplicate",
+    "rule": "exact:which skills do developers need to use ruby on rails?",
+    "question": "Which skills do developers need to use Ruby on Rails?"
+  },
+  {
+    "finalId": "B-0172",
+    "occurrenceId": "SRC-00793",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-strong-parameters",
+    "question": "Explain what Strong Parameters are."
+  },
+  {
+    "finalId": "B-0172",
+    "occurrenceId": "SRC-00838",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-strong-parameters",
+    "question": "How does Rails implement strong parameters, and why is it important?"
+  },
+  {
+    "finalId": "B-0172",
+    "occurrenceId": "SRC-01118",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-strong-parameters",
+    "question": "How do you use Strong Parameters?"
+  },
+  {
+    "finalId": "B-0172",
+    "occurrenceId": "SRC-01368",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-strong-parameters",
+    "question": "What are strong parameters? Explain in brief."
+  },
+  {
+    "finalId": "B-0173",
+    "occurrenceId": "SRC-01504",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-auth-implementation",
+    "question": "How can you implement authentication and authorization in a Rails application? What gems or techniques would you consider?"
+  },
+  {
+    "finalId": "B-0189",
+    "occurrenceId": "SRC-00990",
+    "type": "exact-question-duplicate",
+    "rule": "exact:what is a session in rails, and how is it managed?",
+    "question": "What is a session in Rails, and how is it managed?"
+  },
+  {
+    "finalId": "B-0190",
+    "occurrenceId": "SRC-00698",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-csrf",
+    "question": "Explain what is Cross-Site Request Forgery (CSRF) and how Rails is protected against it?"
+  },
+  {
+    "finalId": "B-0190",
+    "occurrenceId": "SRC-01114",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-csrf",
+    "question": "What is CSRF protection in Rails?"
+  },
+  {
+    "finalId": "B-0190",
+    "occurrenceId": "SRC-01334",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-csrf",
+    "question": "What is CSRF protection and how does Rails implement it?"
+  },
+  {
+    "finalId": "B-0190",
+    "occurrenceId": "SRC-01359",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-csrf",
+    "question": "Explain Cross-Site Request Forgery (CSRF). How is Rails protected against it?"
+  },
+  {
+    "finalId": "B-0197",
+    "occurrenceId": "SRC-01021",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-action-cable",
+    "question": "Explain the concept of Action Cable in Ruby on Rails and how it facilitates real-time features in web applications."
+  },
+  {
+    "finalId": "B-0197",
+    "occurrenceId": "SRC-01128",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-action-cable",
+    "question": "What is an Action Cable?"
+  },
+  {
+    "finalId": "B-0205",
+    "occurrenceId": "SRC-00792",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-job",
+    "question": "When should you use ActiveJob?"
+  },
+  {
+    "finalId": "B-0205",
+    "occurrenceId": "SRC-00817",
+    "type": "exact-question-duplicate",
+    "rule": "concept:rails-job",
+    "question": "Explain what ActiveJob is."
+  },
+  {
+    "finalId": "B-0205",
+    "occurrenceId": "SRC-01120",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-job",
+    "question": "What is an Active Job?"
+  },
+  {
+    "finalId": "B-0205",
+    "occurrenceId": "SRC-01280",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-job",
+    "question": "What is the purpose of ActiveJob in Rails?"
+  },
+  {
+    "finalId": "B-0205",
+    "occurrenceId": "SRC-01423",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-job",
+    "question": "What is Active Job?"
+  },
+  {
+    "finalId": "B-0217",
+    "occurrenceId": "SRC-01540",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-rbac",
+    "question": "Explain how you would implement a role-based access control (RBAC) system in a Rails application."
+  },
+  {
+    "finalId": "B-0218",
+    "occurrenceId": "SRC-01365",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-hash-indifferent",
+    "question": "Explain the difference between ActiveSupport’s \"HashWithIndifferentAccess\" and Ruby’s \"Hash\"?"
+  },
+  {
+    "finalId": "B-0228",
+    "occurrenceId": "SRC-01237",
+    "type": "exact-question-duplicate",
+    "rule": "exact:what is the params object in rails?",
+    "question": "What is the params object in Rails?"
+  },
+  {
+    "finalId": "B-0231",
+    "occurrenceId": "SRC-00739",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-controller-dir",
+    "question": "What does the subdirectory app/controllers do?"
+  },
+  {
+    "finalId": "B-0237",
+    "occurrenceId": "SRC-00799",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-two-databases",
+    "question": "How would you use two databases for one application?"
+  },
+  {
+    "finalId": "B-0241",
+    "occurrenceId": "SRC-00650",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-associations",
+    "question": "How do Active Record associations work?"
+  },
+  {
+    "finalId": "B-0241",
+    "occurrenceId": "SRC-00807",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-associations",
+    "question": "Outline the types of associations models can have in Ruby on Rails."
+  },
+  {
+    "finalId": "B-0241",
+    "occurrenceId": "SRC-00820",
+    "type": "exact-question-duplicate",
+    "rule": "concept:rails-associations",
+    "question": "Outline the types of associations models can have in Ruby on Rails."
+  },
+  {
+    "finalId": "B-0241",
+    "occurrenceId": "SRC-00872",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-associations",
+    "question": "How do you define associations between models in Rails (e.g., has_many, belongs_to)?"
+  },
+  {
+    "finalId": "B-0241",
+    "occurrenceId": "SRC-00991",
+    "type": "exact-question-duplicate",
+    "rule": "concept:rails-associations",
+    "question": "How do you define associations between models in Rails (e.g., has_many, belongs_to)?"
+  },
+  {
+    "finalId": "B-0241",
+    "occurrenceId": "SRC-01097",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-associations",
+    "question": "What are Association in Active Record?"
+  },
+  {
+    "finalId": "B-0241",
+    "occurrenceId": "SRC-01319",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-associations",
+    "question": "What are the different types of ActiveRecord associations?"
+  },
+  {
+    "finalId": "B-0241",
+    "occurrenceId": "SRC-01404",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-associations",
+    "question": "How many types of Association relationships does a Model have?"
+  },
+  {
+    "finalId": "B-0241",
+    "occurrenceId": "SRC-01433",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-associations",
+    "question": "What are the different types of Association in Rails?"
+  },
+  {
+    "finalId": "B-0241",
+    "occurrenceId": "SRC-01488",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-associations",
+    "question": "What is an 'association' in Rails? Give an example like 'has_many'."
+  },
+  {
+    "finalId": "B-0241",
+    "occurrenceId": "SRC-01500",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-associations",
+    "question": "What are the different types of Rails associations (e.g., `has_many`, `belongs_to`), and how do you choose the right one?"
+  },
+  {
+    "finalId": "B-0246",
+    "occurrenceId": "SRC-01401",
+    "type": "exact-question-duplicate",
+    "rule": "exact:list out what can rails migration do.",
+    "question": "List out what can Rails Migration do."
+  },
+  {
+    "finalId": "B-0247",
+    "occurrenceId": "SRC-00437",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-create-migration",
+    "question": "How is the migration command created in Ruby?"
+  },
+  {
+    "finalId": "B-0247",
+    "occurrenceId": "SRC-00695",
+    "type": "exact-question-duplicate",
+    "rule": "concept:rails-create-migration",
+    "question": "Mention what is the command to create a migration?"
+  },
+  {
+    "finalId": "B-0247",
+    "occurrenceId": "SRC-01266",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-create-migration",
+    "question": "How do you generate a migration in Rails?"
+  },
+  {
+    "finalId": "B-0247",
+    "occurrenceId": "SRC-01357",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-create-migration",
+    "question": "What command is used to create a migration?"
+  },
+  {
+    "finalId": "B-0260",
+    "occurrenceId": "SRC-00849",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-polymorphic",
+    "question": "How does Rails handle polymorphic associations?"
+  },
+  {
+    "finalId": "B-0260",
+    "occurrenceId": "SRC-00896",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-polymorphic",
+    "question": "What are polymorphic associations in Rails?"
+  },
+  {
+    "finalId": "B-0260",
+    "occurrenceId": "SRC-01135",
+    "type": "exact-question-duplicate",
+    "rule": "concept:rails-polymorphic",
+    "question": "What is a polymorphic association?"
+  },
+  {
+    "finalId": "B-0260",
+    "occurrenceId": "SRC-01188",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-polymorphic",
+    "question": "Explain a polymorphic association:"
+  },
+  {
+    "finalId": "B-0260",
+    "occurrenceId": "SRC-01211",
+    "type": "exact-question-duplicate",
+    "rule": "concept:rails-polymorphic",
+    "question": "What are polymorphic associations in Rails?"
+  },
+  {
+    "finalId": "B-0260",
+    "occurrenceId": "SRC-01428",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-polymorphic",
+    "question": "What do you mean by Polymorphic Association in Rails?"
+  },
+  {
+    "finalId": "B-0260",
+    "occurrenceId": "SRC-01503",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-polymorphic",
+    "question": "Describe your understanding of polymorphic associations in Rails. Give a practical use case."
+  },
+  {
+    "finalId": "B-0269",
+    "occurrenceId": "SRC-00376",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-migration",
+    "question": "What is the purpose of migrations in Rails?"
+  },
+  {
+    "finalId": "B-0269",
+    "occurrenceId": "SRC-00434",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-migration",
+    "question": "What is Rails Migration?"
+  },
+  {
+    "finalId": "B-0269",
+    "occurrenceId": "SRC-00694",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-migration",
+    "question": "Mention what is Rails Migration?"
+  },
+  {
+    "finalId": "B-0269",
+    "occurrenceId": "SRC-00738",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-migration",
+    "question": "What is meant by “Rails migration”?"
+  },
+  {
+    "finalId": "B-0269",
+    "occurrenceId": "SRC-00761",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-migration",
+    "question": "What is meant by Rails migration?"
+  },
+  {
+    "finalId": "B-0269",
+    "occurrenceId": "SRC-00822",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-migration",
+    "question": "What are migrations in Rails?"
+  },
+  {
+    "finalId": "B-0269",
+    "occurrenceId": "SRC-00858",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-migration",
+    "question": "What are migrations in Rails, and why are they important?"
+  },
+  {
+    "finalId": "B-0269",
+    "occurrenceId": "SRC-00977",
+    "type": "exact-question-duplicate",
+    "rule": "concept:rails-migration",
+    "question": "What are migrations in Rails, and why are they important?"
+  },
+  {
+    "finalId": "B-0269",
+    "occurrenceId": "SRC-00995",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-migration",
+    "question": "Explain the concept of migrations in Ruby on Rails and why they are essential for database management."
+  },
+  {
+    "finalId": "B-0269",
+    "occurrenceId": "SRC-01093",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-migration",
+    "question": "What are Migrations in Active Record?"
+  },
+  {
+    "finalId": "B-0269",
+    "occurrenceId": "SRC-01205",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-migration",
+    "question": "What are Rails migrations?"
+  },
+  {
+    "finalId": "B-0269",
+    "occurrenceId": "SRC-01310",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-migration",
+    "question": "What is referred to by Rails Migration?"
+  },
+  {
+    "finalId": "B-0269",
+    "occurrenceId": "SRC-01346",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-migration",
+    "question": "Explain Rails Migration."
+  },
+  {
+    "finalId": "B-0269",
+    "occurrenceId": "SRC-01400",
+    "type": "exact-question-duplicate",
+    "rule": "concept:rails-migration",
+    "question": "What is Rails Migration?"
+  },
+  {
+    "finalId": "B-0269",
+    "occurrenceId": "SRC-01446",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-migration",
+    "question": "Can you describe the purpose of a Rails migration?"
+  },
+  {
+    "finalId": "B-0269",
+    "occurrenceId": "SRC-01474",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-migration",
+    "question": "What is a Rails migration? Why would you use one?"
+  },
+  {
+    "finalId": "B-0278",
+    "occurrenceId": "SRC-01507",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-api-versioning",
+    "question": "Describe how you would implement API versioning in a Rails application."
+  },
+  {
+    "finalId": "B-0282",
+    "occurrenceId": "SRC-01024",
+    "type": "exact-question-duplicate",
+    "rule": "exact:explain what is rake in rails?",
+    "question": "Explain what is rake in Rails?"
+  },
+  {
+    "finalId": "B-0284",
+    "occurrenceId": "SRC-00986",
+    "type": "exact-question-duplicate",
+    "rule": "concept:rails-gem-install",
+    "question": "How can you add a new gem to your Rails application?"
+  },
+  {
+    "finalId": "B-0284",
+    "occurrenceId": "SRC-01464",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-gem-install",
+    "question": "How do you install gems in a Rails project?"
+  },
+  {
+    "finalId": "B-0286",
+    "occurrenceId": "SRC-00715",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-environments",
+    "question": "Name the three default environments in Rails?"
+  },
+  {
+    "finalId": "B-0286",
+    "occurrenceId": "SRC-01236",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-environments",
+    "question": "What are Rails Environments?"
+  },
+  {
+    "finalId": "B-0286",
+    "occurrenceId": "SRC-01406",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-environments",
+    "question": "Name the three default environments in Rails."
+  },
+  {
+    "finalId": "B-0286",
+    "occurrenceId": "SRC-01461",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-environments",
+    "question": "Explain what Rails environments are (development, test, production)."
+  },
+  {
+    "finalId": "B-0291",
+    "occurrenceId": "SRC-00399",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-rake-task",
+    "question": "How do you create a custom rake task in Rails?"
+  },
+  {
+    "finalId": "B-0291",
+    "occurrenceId": "SRC-00937",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-rake-task",
+    "question": "How do you write custom Rake tasks in Rails?"
+  },
+  {
+    "finalId": "B-0291",
+    "occurrenceId": "SRC-01465",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-rake-task",
+    "question": "What is a 'rake' task in Rails, and give an example?"
+  },
+  {
+    "finalId": "B-0294",
+    "occurrenceId": "SRC-00826",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-gemfile",
+    "question": "Explain the purpose of the Gemfile in a Rails application."
+  },
+  {
+    "finalId": "B-0294",
+    "occurrenceId": "SRC-00866",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-gemfile",
+    "question": "What is a Gemfile in a Rails application?"
+  },
+  {
+    "finalId": "B-0294",
+    "occurrenceId": "SRC-00985",
+    "type": "exact-question-duplicate",
+    "rule": "concept:rails-gemfile",
+    "question": "What is a Gemfile in a Rails application?"
+  },
+  {
+    "finalId": "B-0294",
+    "occurrenceId": "SRC-01029",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-gemfile",
+    "question": "What is Gemfile?"
+  },
+  {
+    "finalId": "B-0294",
+    "occurrenceId": "SRC-01104",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-gemfile",
+    "question": "What is the purpose of the Gemfile?"
+  },
+  {
+    "finalId": "B-0294",
+    "occurrenceId": "SRC-01408",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-gemfile",
+    "question": "What is Gemfile in Ruby on Rails?"
+  },
+  {
+    "finalId": "B-0294",
+    "occurrenceId": "SRC-01463",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-gemfile",
+    "question": "What is the purpose of the 'Gemfile' in a Rails project?"
+  },
+  {
+    "finalId": "B-0296",
+    "occurrenceId": "SRC-00736",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-rake",
+    "question": "Explain what “rake” means in Ruby on Rails."
+  },
+  {
+    "finalId": "B-0296",
+    "occurrenceId": "SRC-01255",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-rake",
+    "question": "What is the purpose of the rake command in Rails?"
+  },
+  {
+    "finalId": "B-0296",
+    "occurrenceId": "SRC-01364",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-rake",
+    "question": "What is the purpose of the rakefile available in the demo directory in Ruby?"
+  },
+  {
+    "finalId": "B-0302",
+    "occurrenceId": "SRC-01484",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-get-post",
+    "question": "Explain the difference between 'GET' and 'POST' requests."
+  },
+  {
+    "finalId": "B-0305",
+    "occurrenceId": "SRC-00976",
+    "type": "exact-question-duplicate",
+    "rule": "concept:rails-rest",
+    "question": "Explain the concept of RESTful routes in Rails."
+  },
+  {
+    "finalId": "B-0305",
+    "occurrenceId": "SRC-00997",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-rest",
+    "question": "Explain the concept of RESTful routes in Ruby on Rails and why they are considered best practices for web applications."
+  },
+  {
+    "finalId": "B-0305",
+    "occurrenceId": "SRC-01007",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-rest",
+    "question": "Explain the concept of RESTful routing in Ruby on Rails."
+  },
+  {
+    "finalId": "B-0305",
+    "occurrenceId": "SRC-01017",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-rest",
+    "question": "Explain the concept of RESTful routing in Ruby on Rails. How does it help in building web applications?"
+  },
+  {
+    "finalId": "B-0305",
+    "occurrenceId": "SRC-01469",
+    "type": "exact-question-duplicate",
+    "rule": "concept:rails-rest",
+    "question": "Explain the concept of RESTful routes in Rails."
+  },
+  {
+    "finalId": "B-0306",
+    "occurrenceId": "SRC-00378",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-controller",
+    "question": "What is a Rails controller?"
+  },
+  {
+    "finalId": "B-0306",
+    "occurrenceId": "SRC-00435",
+    "type": "exact-question-duplicate",
+    "rule": "concept:rails-controller",
+    "question": "What is a Rails Controller?"
+  },
+  {
+    "finalId": "B-0306",
+    "occurrenceId": "SRC-00712",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-controller",
+    "question": "Tell something about Action Controller in Ruby on Rails?"
+  },
+  {
+    "finalId": "B-0306",
+    "occurrenceId": "SRC-00863",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-controller",
+    "question": "What is the role of a controller in a Rails application?"
+  },
+  {
+    "finalId": "B-0306",
+    "occurrenceId": "SRC-00982",
+    "type": "exact-question-duplicate",
+    "rule": "concept:rails-controller",
+    "question": "What is the role of a controller in a Rails application?"
+  },
+  {
+    "finalId": "B-0306",
+    "occurrenceId": "SRC-01063",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-controller",
+    "question": "What is the purpose of a controller in Rails?"
+  },
+  {
+    "finalId": "B-0306",
+    "occurrenceId": "SRC-01353",
+    "type": "exact-question-duplicate",
+    "rule": "concept:rails-controller",
+    "question": "What is a Rails Controller?"
+  },
+  {
+    "finalId": "B-0306",
+    "occurrenceId": "SRC-01448",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-controller",
+    "question": "Explain the purpose of a Rails controller."
+  },
+  {
+    "finalId": "B-0306",
+    "occurrenceId": "SRC-01479",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-controller",
+    "question": "What is a Rails controller? What is its main job?"
+  },
+  {
+    "finalId": "B-0309",
+    "occurrenceId": "SRC-00691",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-controller-helper-dir",
+    "question": "Explain what is the role of sub-directory app/controllers and app/helpers?"
+  },
+  {
+    "finalId": "B-0309",
+    "occurrenceId": "SRC-01352",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-controller-helper-dir",
+    "question": "What do subdirectory app/controllers and app/helpers do?"
+  },
+  {
+    "finalId": "B-0309",
+    "occurrenceId": "SRC-01398",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-controller-helper-dir",
+    "question": "Explain the role of the sub-directory app/controller and app/helper."
+  },
+  {
+    "finalId": "B-0315",
+    "occurrenceId": "SRC-01060",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-route-definition",
+    "question": "How do you define a route in Rails?"
+  },
+  {
+    "finalId": "B-0315",
+    "occurrenceId": "SRC-01110",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-route-definition",
+    "question": "How do you define routes in Rails?"
+  },
+  {
+    "finalId": "B-0315",
+    "occurrenceId": "SRC-01257",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-route-definition",
+    "question": "How do you define a custom route in Rails?"
+  },
+  {
+    "finalId": "B-0325",
+    "occurrenceId": "SRC-00987",
+    "type": "exact-question-duplicate",
+    "rule": "exact:how does rails handle request-response cycles?",
+    "question": "How does Rails handle request-response cycles?"
+  },
+  {
+    "finalId": "B-0337",
+    "occurrenceId": "SRC-00744",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-helper",
+    "question": "How do you use helpers in Ruby on Rails?"
+  },
+  {
+    "finalId": "B-0337",
+    "occurrenceId": "SRC-00882",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-helper",
+    "question": "What is the role of a helper in Rails?"
+  },
+  {
+    "finalId": "B-0337",
+    "occurrenceId": "SRC-00918",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-helper",
+    "question": "What is a view helper in Rails?"
+  },
+  {
+    "finalId": "B-0337",
+    "occurrenceId": "SRC-01112",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-helper",
+    "question": "What is a Rails helper?"
+  },
+  {
+    "finalId": "B-0337",
+    "occurrenceId": "SRC-01245",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-helper",
+    "question": "What are helpers in Rails?"
+  },
+  {
+    "finalId": "B-0337",
+    "occurrenceId": "SRC-01286",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-helper",
+    "question": "How do you use Rails helpers?"
+  },
+  {
+    "finalId": "B-0337",
+    "occurrenceId": "SRC-01421",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-helper",
+    "question": "What are Helpers and How do use Helpers in Ruby on Rails?"
+  },
+  {
+    "finalId": "B-0337",
+    "occurrenceId": "SRC-01457",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-helper",
+    "question": "Explain the purpose of Rails helpers."
+  },
+  {
+    "finalId": "B-0338",
+    "occurrenceId": "SRC-00974",
+    "type": "exact-question-duplicate",
+    "rule": "exact:what are models, views, and controllers in rails?",
+    "question": "What are Models, Views, and Controllers in Rails?"
+  },
+  {
+    "finalId": "B-0339",
+    "occurrenceId": "SRC-00988",
+    "type": "exact-question-duplicate",
+    "rule": "exact:what are the key differences between get, post, put, and delete http methods?",
+    "question": "What are the key differences between GET, POST, PUT, and DELETE HTTP methods?"
+  },
+  {
+    "finalId": "B-0344",
+    "occurrenceId": "SRC-00980",
+    "type": "exact-question-duplicate",
+    "rule": "concept:rails-render-redirect",
+    "question": "What is the difference between render and redirect_to in controllers?"
+  },
+  {
+    "finalId": "B-0344",
+    "occurrenceId": "SRC-01204",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-render-redirect",
+    "question": "What is the difference between render and redirect_to in Rails?"
+  },
+  {
+    "finalId": "B-0344",
+    "occurrenceId": "SRC-01290",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-render-redirect",
+    "question": "What is the difference between render and redirect_to?"
+  },
+  {
+    "finalId": "B-0344",
+    "occurrenceId": "SRC-01422",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-render-redirect",
+    "question": "What do you mean by Render and Redirect_to?"
+  },
+  {
+    "finalId": "B-0344",
+    "occurrenceId": "SRC-01505",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-render-redirect",
+    "question": "Explain the difference between `render` and `redirect_to` in a Rails controller."
+  },
+  {
+    "finalId": "B-0346",
+    "occurrenceId": "SRC-00786",
+    "type": "exact-question-duplicate",
+    "rule": "exact:what does \"skinny controllers, skinny models\" mean?",
+    "question": "What does “skinny controllers, skinny models” mean?"
+  },
+  {
+    "finalId": "B-0346",
+    "occurrenceId": "SRC-01039",
+    "type": "exact-question-duplicate",
+    "rule": "exact:what does \"skinny controllers, skinny models\" mean?",
+    "question": "What does \"skinny controllers, skinny models\" mean?"
+  },
+  {
+    "finalId": "B-0348",
+    "occurrenceId": "SRC-00981",
+    "type": "exact-question-duplicate",
+    "rule": "concept:rails-partial",
+    "question": "What is a partial in Rails, and why would you use it?"
+  },
+  {
+    "finalId": "B-0348",
+    "occurrenceId": "SRC-01001",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-partial",
+    "question": "Explain the concept of partials in Ruby on Rails views and their benefits in web development."
+  },
+  {
+    "finalId": "B-0348",
+    "occurrenceId": "SRC-01116",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-partial",
+    "question": "What is a partial in Rails?"
+  },
+  {
+    "finalId": "B-0348",
+    "occurrenceId": "SRC-01246",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-partial",
+    "question": "What are partials in Rails?"
+  },
+  {
+    "finalId": "B-0348",
+    "occurrenceId": "SRC-01288",
+    "type": "exact-question-duplicate",
+    "rule": "concept:rails-partial",
+    "question": "What are partials in Rails?"
+  },
+  {
+    "finalId": "B-0348",
+    "occurrenceId": "SRC-01460",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-partial",
+    "question": "What is a Rails partial, and why would you use one?"
+  },
+  {
+    "finalId": "B-0348",
+    "occurrenceId": "SRC-01491",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-partial",
+    "question": "What is a partial in Rails views? Why would you use one?"
+  },
+  {
+    "finalId": "B-0350",
+    "occurrenceId": "SRC-01480",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-view",
+    "question": "What are views in Rails? What's their purpose?"
+  },
+  {
+    "finalId": "B-0351",
+    "occurrenceId": "SRC-00801",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-asset",
+    "question": "Explain what an asset pipeline is."
+  },
+  {
+    "finalId": "B-0351",
+    "occurrenceId": "SRC-00876",
+    "type": "exact-question-duplicate",
+    "rule": "concept:rails-asset",
+    "question": "What is the asset pipeline in Rails?"
+  },
+  {
+    "finalId": "B-0351",
+    "occurrenceId": "SRC-00999",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-asset",
+    "question": "Explain the concept of asset pipeline in Ruby on Rails and its significance in web development."
+  },
+  {
+    "finalId": "B-0351",
+    "occurrenceId": "SRC-01020",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-asset",
+    "question": "Explain the concept of asset pipeline in Ruby on Rails and how it optimizes the delivery of assets in web applications."
+  },
+  {
+    "finalId": "B-0351",
+    "occurrenceId": "SRC-01117",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-asset",
+    "question": "What is the asset pipeline?"
+  },
+  {
+    "finalId": "B-0351",
+    "occurrenceId": "SRC-01207",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-asset",
+    "question": "What is the Rails Asset Pipeline?"
+  },
+  {
+    "finalId": "B-0351",
+    "occurrenceId": "SRC-01259",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-asset",
+    "question": "What is Rails’ asset pipeline?"
+  },
+  {
+    "finalId": "B-0351",
+    "occurrenceId": "SRC-01425",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-asset",
+    "question": "What is an Asset Pipeline in Rails?"
+  },
+  {
+    "finalId": "B-0351",
+    "occurrenceId": "SRC-01458",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-asset",
+    "question": "What is an asset pipeline in Rails? What problem does it solve?"
+  },
+  {
+    "finalId": "B-0351",
+    "occurrenceId": "SRC-01490",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-asset",
+    "question": "What is the asset pipeline in Rails? What is its purpose?"
+  },
+  {
+    "finalId": "B-0363",
+    "occurrenceId": "SRC-00379",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-routes",
+    "question": "Explain the role of routing in Rails."
+  },
+  {
+    "finalId": "B-0363",
+    "occurrenceId": "SRC-00823",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-routes",
+    "question": "Describe the role of routes.rb in a Rails application."
+  },
+  {
+    "finalId": "B-0363",
+    "occurrenceId": "SRC-00832",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-routes",
+    "question": "How does Rails handle routing?"
+  },
+  {
+    "finalId": "B-0363",
+    "occurrenceId": "SRC-00859",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-routes",
+    "question": "What is the purpose of the config/routes.rb file?"
+  },
+  {
+    "finalId": "B-0363",
+    "occurrenceId": "SRC-00978",
+    "type": "exact-question-duplicate",
+    "rule": "concept:rails-routes",
+    "question": "What is the purpose of the config/routes.rb file?"
+  },
+  {
+    "finalId": "B-0363",
+    "occurrenceId": "SRC-01229",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-routes",
+    "question": "What is the role of the config/routes.rb file?"
+  },
+  {
+    "finalId": "B-0363",
+    "occurrenceId": "SRC-01451",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-routes",
+    "question": "What is the role of the 'routes.rb' file in a Rails application?"
+  },
+  {
+    "finalId": "B-0363",
+    "occurrenceId": "SRC-01478",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-routes",
+    "question": "What are Rails routes? Can you give an example of a simple route?"
+  },
+  {
+    "finalId": "B-0379",
+    "occurrenceId": "SRC-00659",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-test-general",
+    "question": "How do you write tests in Rails applications?"
+  },
+  {
+    "finalId": "B-0379",
+    "occurrenceId": "SRC-01127",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-test-general",
+    "question": "How do you test a Rails app?"
+  },
+  {
+    "finalId": "C-0001",
+    "occurrenceId": "SRC-00916",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-find-findby",
+    "question": "What is the difference between find and find_by in ActiveRecord?"
+  },
+  {
+    "finalId": "C-0001",
+    "occurrenceId": "SRC-01072",
+    "type": "exact-question-duplicate",
+    "rule": "concept:rails-find-findby",
+    "question": "What is the difference between find and find_by in Rails?"
+  },
+  {
+    "finalId": "C-0001",
+    "occurrenceId": "SRC-01142",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-find-findby",
+    "question": "What is the difference between find and find_by?"
+  },
+  {
+    "finalId": "C-0001",
+    "occurrenceId": "SRC-01269",
+    "type": "exact-question-duplicate",
+    "rule": "concept:rails-find-findby",
+    "question": "What is the difference between find and find_by?"
+  },
+  {
+    "finalId": "C-0008",
+    "occurrenceId": "SRC-00900",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-scope",
+    "question": "What is a scope in Rails, and how do you define it?"
+  },
+  {
+    "finalId": "C-0008",
+    "occurrenceId": "SRC-01251",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-scope",
+    "question": "What is a scope in Rails?"
+  },
+  {
+    "finalId": "C-0008",
+    "occurrenceId": "SRC-01291",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-scope",
+    "question": "What are scopes in Rails?"
+  },
+  {
+    "finalId": "C-0008",
+    "occurrenceId": "SRC-01513",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-scope",
+    "question": "Explain the use of scopes in Rails models. How do they improve code readability and maintainability?"
+  },
+  {
+    "finalId": "C-0015",
+    "occurrenceId": "SRC-00921",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-sql-injection",
+    "question": "How does Rails implement parameterized queries to prevent SQL injection?"
+  },
+  {
+    "finalId": "C-0015",
+    "occurrenceId": "SRC-01333",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-sql-injection",
+    "question": "How does Rails protect against SQL injection?"
+  },
+  {
+    "finalId": "C-0016",
+    "occurrenceId": "SRC-00885",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-run-migration",
+    "question": "How do you run a Rails migration?"
+  },
+  {
+    "finalId": "C-0016",
+    "occurrenceId": "SRC-01383",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-run-migration",
+    "question": "How to run a migration?"
+  },
+  {
+    "finalId": "C-0016",
+    "occurrenceId": "SRC-01466",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-run-migration",
+    "question": "How do you run database migrations in Rails?"
+  },
+  {
+    "finalId": "C-0019",
+    "occurrenceId": "SRC-00979",
+    "type": "exact-question-duplicate",
+    "rule": "exact:how does rails handle database schema changes?",
+    "question": "How does Rails handle database schema changes?"
+  },
+  {
+    "finalId": "C-0024",
+    "occurrenceId": "SRC-00833",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-transaction-management",
+    "question": "How does Rails handle database transactions?"
+  },
+  {
+    "finalId": "C-0024",
+    "occurrenceId": "SRC-01073",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-transaction-management",
+    "question": "How do you manage database transactions in Rails?"
+  },
+  {
+    "finalId": "C-0024",
+    "occurrenceId": "SRC-01125",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-transaction-management",
+    "question": "How do you handle database transactions?"
+  },
+  {
+    "finalId": "C-0029",
+    "occurrenceId": "SRC-00707",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-activerecord",
+    "question": "What exactly is the role of Active Record in Ruby?"
+  },
+  {
+    "finalId": "C-0029",
+    "occurrenceId": "SRC-00803",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-activerecord",
+    "question": "What is Active Record in Ruby on Rails?"
+  },
+  {
+    "finalId": "C-0029",
+    "occurrenceId": "SRC-00819",
+    "type": "exact-question-duplicate",
+    "rule": "concept:rails-activerecord",
+    "question": "What is Active Record in Ruby on Rails?"
+  },
+  {
+    "finalId": "C-0029",
+    "occurrenceId": "SRC-00824",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-activerecord",
+    "question": "What is ActiveRecord in Rails?"
+  },
+  {
+    "finalId": "C-0029",
+    "occurrenceId": "SRC-00855",
+    "type": "exact-question-duplicate",
+    "rule": "concept:rails-activerecord",
+    "question": "What is Active Record in Rails?"
+  },
+  {
+    "finalId": "C-0029",
+    "occurrenceId": "SRC-01032",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-activerecord",
+    "question": "What is ActiveRecord?"
+  },
+  {
+    "finalId": "C-0029",
+    "occurrenceId": "SRC-01068",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-activerecord",
+    "question": "What is Active Record?"
+  },
+  {
+    "finalId": "C-0029",
+    "occurrenceId": "SRC-01103",
+    "type": "exact-question-duplicate",
+    "rule": "concept:rails-activerecord",
+    "question": "What is Active Record?"
+  },
+  {
+    "finalId": "C-0029",
+    "occurrenceId": "SRC-01202",
+    "type": "exact-question-duplicate",
+    "rule": "concept:rails-activerecord",
+    "question": "What is Active Record?"
+  },
+  {
+    "finalId": "C-0029",
+    "occurrenceId": "SRC-01354",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-activerecord",
+    "question": "What is Rails Active Record in Ruby on Rails?"
+  },
+  {
+    "finalId": "C-0029",
+    "occurrenceId": "SRC-01399",
+    "type": "exact-question-duplicate",
+    "rule": "concept:rails-activerecord",
+    "question": "What is Active Record in Ruby on Rails?"
+  },
+  {
+    "finalId": "C-0029",
+    "occurrenceId": "SRC-01453",
+    "type": "exact-question-duplicate",
+    "rule": "concept:rails-activerecord",
+    "question": "What is ActiveRecord in Rails?"
+  },
+  {
+    "finalId": "C-0029",
+    "occurrenceId": "SRC-01476",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-activerecord",
+    "question": "What is ActiveRecord? What does it help us do?"
+  },
+  {
+    "finalId": "C-0034",
+    "occurrenceId": "SRC-01278",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-indexing",
+    "question": "How do you perform database indexing in Rails?"
+  },
+  {
+    "finalId": "E-0010",
+    "occurrenceId": "SRC-00945",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-large-structure",
+    "question": "How would you structure a large Rails codebase with many models, controllers, and views?"
+  },
+  {
+    "finalId": "E-0010",
+    "occurrenceId": "SRC-01343",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-large-structure",
+    "question": "How do you structure a large Rails application (e.g., modularization, boundaries)?"
+  },
+  {
+    "finalId": "E-0016",
+    "occurrenceId": "SRC-00663",
+    "type": "exact-question-duplicate",
+    "rule": "concept:rails-background-how",
+    "question": "How do you handle background jobs in Rails?"
+  },
+  {
+    "finalId": "E-0016",
+    "occurrenceId": "SRC-00901",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-background-how",
+    "question": "How do you handle background jobs in Rails (e.g., using Sidekiq or ActiveJob)?"
+  },
+  {
+    "finalId": "E-0016",
+    "occurrenceId": "SRC-01222",
+    "type": "exact-question-duplicate",
+    "rule": "concept:rails-background-how",
+    "question": "How do you handle background jobs in Rails?"
+  },
+  {
+    "finalId": "E-0016",
+    "occurrenceId": "SRC-01235",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-background-how",
+    "question": "How do you manage background jobs in Rails?"
+  },
+  {
+    "finalId": "E-0016",
+    "occurrenceId": "SRC-01296",
+    "type": "exact-question-duplicate",
+    "rule": "concept:rails-background-how",
+    "question": "How do you handle background jobs in Rails?"
+  },
+  {
+    "finalId": "E-0016",
+    "occurrenceId": "SRC-01324",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-background-how",
+    "question": "How would you handle background jobs in Rails? Tools?"
+  },
+  {
+    "finalId": "E-0021",
+    "occurrenceId": "SRC-01264",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-deploy-how",
+    "question": "How do you deploy a Rails application?"
+  },
+  {
+    "finalId": "E-0021",
+    "occurrenceId": "SRC-01516",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-deploy-how",
+    "question": "Describe the process of deploying a Rails application to a production environment."
+  },
+  {
+    "finalId": "E-0028",
+    "occurrenceId": "SRC-00652",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-query-optimization",
+    "question": "How do you optimize database queries in Rails applications?"
+  },
+  {
+    "finalId": "E-0028",
+    "occurrenceId": "SRC-00932",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-query-optimization",
+    "question": "How would you optimize database queries in a large Rails application?"
+  },
+  {
+    "finalId": "E-0028",
+    "occurrenceId": "SRC-01216",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-query-optimization",
+    "question": "How do you optimize database queries in Rails?"
+  },
+  {
+    "finalId": "E-0032",
+    "occurrenceId": "SRC-01253",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-nplusone",
+    "question": "What is an N+1 query problem in Rails?"
+  },
+  {
+    "finalId": "E-0032",
+    "occurrenceId": "SRC-01320",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-nplusone",
+    "question": "What is the N+1 query problem and how do you avoid it?"
+  },
+  {
+    "finalId": "E-0051",
+    "occurrenceId": "SRC-01337",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-multitenancy",
+    "question": "How does Rails handle multi-tenancy?"
+  },
+  {
+    "finalId": "E-0051",
+    "occurrenceId": "SRC-01529",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-multitenancy",
+    "question": "How would you implement a multi-tenancy architecture in a Rails application, and what are the considerations for data isolation and scalability?"
+  },
+  {
+    "finalId": "E-0055",
+    "occurrenceId": "SRC-01148",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-debug-how",
+    "question": "How do you debug a Rails app?"
+  },
+  {
+    "finalId": "E-0055",
+    "occurrenceId": "SRC-01230",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-debug-how",
+    "question": "How do you debug a Rails application?"
+  },
+  {
+    "finalId": "E-0055",
+    "occurrenceId": "SRC-01289",
+    "type": "exact-question-duplicate",
+    "rule": "concept:rails-debug-how",
+    "question": "How do you debug a Rails application?"
+  },
+  {
+    "finalId": "E-0055",
+    "occurrenceId": "SRC-01471",
+    "type": "exact-question-duplicate",
+    "rule": "concept:rails-debug-how",
+    "question": "How do you debug a Rails application?"
+  },
+  {
+    "finalId": "E-0055",
+    "occurrenceId": "SRC-01511",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-debug-how",
+    "question": "Describe how you would debug a Rails application. What tools and techniques do you find most helpful?"
+  },
+  {
+    "finalId": "E-0056",
+    "occurrenceId": "SRC-01520",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:rails-environments-manage",
+    "question": "How do you handle different environments (e.g., development, test, production) in a Rails application?"
+  },
+  {
+    "finalId": "F-0031",
+    "occurrenceId": "SRC-00099",
+    "type": "exact-question-duplicate",
+    "rule": "exact:how is the ruby language adapting to the increasing demand for serverless computing?",
+    "question": "How is the Ruby language adapting to the increasing demand for serverless computing?"
+  },
+  {
+    "finalId": "F-0058",
+    "occurrenceId": "SRC-00328",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-flexibility",
+    "question": "Why Ruby Is Known As A Language Of Flexibility?"
+  },
+  {
+    "finalId": "F-0058",
+    "occurrenceId": "SRC-00433",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-flexibility",
+    "question": "Why is Ruby known as a flexible language?"
+  },
+  {
+    "finalId": "F-0058",
+    "occurrenceId": "SRC-00727",
+    "type": "exact-question-duplicate",
+    "rule": "concept:ruby-flexibility",
+    "question": "Why Ruby is known as a language of flexibility?"
+  },
+  {
+    "finalId": "F-0058",
+    "occurrenceId": "SRC-00802",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-flexibility",
+    "question": "Is Ruby a flexible language? Why, or why not?"
+  },
+  {
+    "finalId": "F-0082",
+    "occurrenceId": "SRC-00065",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-refinement",
+    "question": "Discuss the concept of refinements in Ruby."
+  },
+  {
+    "finalId": "F-0082",
+    "occurrenceId": "SRC-00146",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-refinement",
+    "question": "Explain the concept of refinements in Ruby and their intended use."
+  },
+  {
+    "finalId": "F-0084",
+    "occurrenceId": "SRC-00142",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-metaprogramming",
+    "question": "Explain the concept of metaprogramming in Ruby and how it is utilized in real-world applications."
+  },
+  {
+    "finalId": "F-0084",
+    "occurrenceId": "SRC-00208",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-metaprogramming",
+    "question": "How to implement metaprogramming in Ruby to improve code flexibility?"
+  },
+  {
+    "finalId": "F-0084",
+    "occurrenceId": "SRC-00252",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-metaprogramming",
+    "question": "Explain the concept of metaprogramming in Ruby."
+  },
+  {
+    "finalId": "F-0084",
+    "occurrenceId": "SRC-00413",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-metaprogramming",
+    "question": "What is metaprogramming in Ruby, and can you give an example of its use?"
+  },
+  {
+    "finalId": "F-0084",
+    "occurrenceId": "SRC-00629",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-metaprogramming",
+    "question": "How does Ruby support metaprogramming?"
+  },
+  {
+    "finalId": "F-0084",
+    "occurrenceId": "SRC-00633",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-metaprogramming",
+    "question": "What is metaprogramming?"
+  },
+  {
+    "finalId": "F-0084",
+    "occurrenceId": "SRC-00646",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-metaprogramming",
+    "question": "What is metaprogramming in Ruby?"
+  },
+  {
+    "finalId": "F-0094",
+    "occurrenceId": "SRC-00148",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-gc",
+    "question": "Explain the concept of garbage collection in Ruby and how it helps manage memory."
+  },
+  {
+    "finalId": "F-0094",
+    "occurrenceId": "SRC-00154",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-gc",
+    "question": "How does Ruby's garbage collection work?"
+  },
+  {
+    "finalId": "F-0094",
+    "occurrenceId": "SRC-00231",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-gc",
+    "question": "What is Ruby’s garbage collection mechanism, and how does it work?"
+  },
+  {
+    "finalId": "F-0094",
+    "occurrenceId": "SRC-00330",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-gc",
+    "question": "Explain About Garbage Collection Feature Of Ruby?"
+  },
+  {
+    "finalId": "F-0094",
+    "occurrenceId": "SRC-00550",
+    "type": "exact-question-duplicate",
+    "rule": "concept:ruby-gc",
+    "question": "How does Ruby manage memory and garbage collection?"
+  },
+  {
+    "finalId": "F-0094",
+    "occurrenceId": "SRC-00625",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-gc",
+    "question": "How does garbage collection work in Ruby?"
+  },
+  {
+    "finalId": "F-0094",
+    "occurrenceId": "SRC-00704",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-gc",
+    "question": "Mention what is the function of garbage collection in Ruby on Rails?"
+  },
+  {
+    "finalId": "F-0094",
+    "occurrenceId": "SRC-00724",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-gc",
+    "question": "What is Garbage collection in ruby on Rails?"
+  },
+  {
+    "finalId": "F-0094",
+    "occurrenceId": "SRC-00766",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-gc",
+    "question": "What does garbage collection do in Ruby on Rails?"
+  },
+  {
+    "finalId": "F-0094",
+    "occurrenceId": "SRC-01358",
+    "type": "exact-question-duplicate",
+    "rule": "concept:ruby-gc",
+    "question": "What does garbage collection do in Ruby on Rails?"
+  },
+  {
+    "finalId": "F-0094",
+    "occurrenceId": "SRC-01410",
+    "type": "semantic-question-duplicate",
+    "rule": "concept:ruby-gc",
+    "question": "What is the Garbage Collection in Ruby on Rails?"
+  }
+]

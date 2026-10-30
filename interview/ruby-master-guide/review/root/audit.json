@@ -1,0 +1,275 @@
+[
+  {
+    "sourceFile": "twentythree.txt",
+    "fullyRead": true,
+    "readRanges": [
+      [
+        1,
+        856
+      ]
+    ],
+    "questionRanges": [
+      [
+        17,
+        22
+      ],
+      [
+        23,
+        28
+      ],
+      [
+        29,
+        31
+      ],
+      [
+        32,
+        37
+      ],
+      [
+        38,
+        43
+      ],
+      [
+        44,
+        46
+      ],
+      [
+        47,
+        52
+      ],
+      [
+        53,
+        55
+      ],
+      [
+        56,
+        64
+      ],
+      [
+        65,
+        67
+      ],
+      [
+        68,
+        71
+      ],
+      [
+        72,
+        77
+      ],
+      [
+        78,
+        85
+      ],
+      [
+        86,
+        91
+      ],
+      [
+        92,
+        113
+      ],
+      [
+        114,
+        116
+      ],
+      [
+        117,
+        126
+      ],
+      [
+        127,
+        133
+      ],
+      [
+        134,
+        140
+      ],
+      [
+        141,
+        143
+      ],
+      [
+        144,
+        155
+      ],
+      [
+        156,
+        161
+      ],
+      [
+        162,
+        164
+      ],
+      [
+        165,
+        175
+      ],
+      [
+        176,
+        178
+      ],
+      [
+        179,
+        182
+      ],
+      [
+        183,
+        185
+      ],
+      [
+        186,
+        195
+      ],
+      [
+        196,
+        203
+      ],
+      [
+        204,
+        242
+      ],
+      [
+        243,
+        255
+      ],
+      [
+        256,
+        258
+      ],
+      [
+        259,
+        268
+      ],
+      [
+        269,
+        273
+      ],
+      [
+        274,
+        304
+      ],
+      [
+        305,
+        307
+      ],
+      [
+        308,
+        325
+      ],
+      [
+        326,
+        336
+      ],
+      [
+        337,
+        398
+      ],
+      [
+        399,
+        459
+      ],
+      [
+        460,
+        468
+      ],
+      [
+        469,
+        500
+      ],
+      [
+        501,
+        545
+      ],
+      [
+        546,
+        564
+      ],
+      [
+        565,
+        596
+      ],
+      [
+        597,
+        609
+      ],
+      [
+        610,
+        630
+      ],
+      [
+        631,
+        658
+      ],
+      [
+        659,
+        686
+      ],
+      [
+        687,
+        717
+      ],
+      [
+        718,
+        745
+      ]
+    ],
+    "nonQuestionRanges": [
+      {
+        "startLine": 1,
+        "endLine": 16,
+        "reason": "Article metadata, introductory technical context; original preserved, popularity statistics unverified."
+      },
+      {
+        "startLine": 746,
+        "endLine": 856,
+        "reason": "Comments, course/job advertisements, navigation, footer; no further interview prompts."
+      }
+    ],
+    "corrections": [
+      "ORM expands to Object-Relational Mapping.",
+      "Delete/destroy callback behavior.",
+      "skip_callback changes class callback chains.",
+      "Modern asset pipeline/version context.",
+      "Ruby/Python comparison inaccuracies.",
+      "Associations and migration reversibility.",
+      "Broken pasted code and capitalization."
+    ]
+  },
+  {
+    "sourceFile": "twentyseven.txt",
+    "fullyRead": true,
+    "readRanges": [
+      [
+        1,
+        1324
+      ]
+    ],
+    "nonQuestionRanges": [
+      {
+        "startLine": 1,
+        "endLine": 24,
+        "reason": "Title, metadata, marketing and contents."
+      },
+      {
+        "startLine": 1178,
+        "endLine": 1324,
+        "reason": "Recruiting guidance, embedded technical prompts separately extracted, marketing FAQ and related posts; all original text retained in source ledger."
+      }
+    ],
+    "corrections": [
+      "Rails 8 defaults vs legacy Rails tooling.",
+      "HTTP semantics and TLS.",
+      "CookieStore default.",
+      "SQLAlchemy examples were not Rails.",
+      "Untrusted ORDER BY.",
+      "Sidekiq MRI concurrency.",
+      "Tenant isolation.",
+      "Asset versions.",
+      "Russian doll cache invalidation.",
+      "Migration repeatability.",
+      "Legacy payment example unsafe.",
+      "I18n locale leakage."
+    ]
+  }
+]

@@ -1,0 +1,206 @@
+# Extended Ruby source review
+
+Read all lines of 10 source files. Extracted 414 records without discarding source duplicates. The machine-readable audit includes source hashes, exact line ranges and excluded-line dispositions.
+
+Source answers are preserved independently from corrected answers. 101 records have missing original answers, code, input, constraints or linked solutions, even where a carefully labelled derived solution is possible. No claim is made to recover unavailable web-page content.
+
+## Per-file counts
+
+- seven.txt: 25 records, 417 lines read.
+- eight.txt: 31 records, 347 lines read.
+- nine.txt: 100 records, 853 lines read.
+- ten.txt: 52 records, 414 lines read.
+- eleven.txt: 15 records, 253 lines read.
+- thirteen.txt: 22 records, 311 lines read.
+- fourteen.txt: 41 records, 128 lines read.
+- nineteen.txt: 67 records, 1238 lines read.
+- twentyone.txt: 46 records, 585 lines read.
+- twentyfour.txt: 15 records, 757 lines read.
+
+## Corrections
+
+- seven.txt:43 (seven:2): Updated private-method receiver rule: literal self is permitted in Ruby 2.7+; older blanket prohibition is outdated.
+- seven.txt:52 (seven:3): Qualified absolute identity/performance claims: frozen strings may be shared; dynamic symbols can be collected; symbols are not universally faster.
+- seven.txt:230 (seven:13): Corrected non-lambda Proc return target: defining method, not calling method.
+- seven.txt:314 (seven:18): Clarified that plain Enumerator transformations are not inherently lazy; use Enumerator::Lazy.
+- eight.txt:19 (eight:Junior-01): Qualified absolute identity/performance claims: frozen strings may be shared; dynamic symbols can be collected; symbols are not universally faster.
+- eight.txt:60 (eight:Junior-06): Source answer contradicts itself about whether puts should be used. Corrected to distinguish printing from returning.
+- eight.txt:210 (eight:Mid-09): Rails 6.0.3 in the source Gemfile is a historical example, not a current version recommendation.
+- eight.txt:238 (eight:Expert-02): Source omitted require "objspace" for extended ObjectSpace inspection methods.
+- eight.txt:260 (eight:Expert-04): Clarified output versus Fiber#resume return values and scheduler behavior.
+- eight.txt:272 (eight:Expert-05): Source loosely equates monads with a design pattern and side effects; added the operation/law requirement.
+- nine.txt:15 (nine:2): Corrected creator nickname from Martz to Matz.
+- nine.txt:96 (nine:13): Corrected obsolete/wrong claim that retry restarts a whole loop.
+- nine.txt:120 (nine:18): Corrected claim that both syntaxes always have identical functionality.
+- nine.txt:166 (nine:26): Qualified “single space concatenation” as adjacent literals, not arbitrary variables.
+- nine.txt:180 (nine:28): Corrected casecmp return-value claim.
+- nine.txt:231 (nine:34): Corrected contradictory claim that Time.new always requires a year.
+- nine.txt:284 (nine:39): Corrected truncated method name and missing closure in examples.
+- nine.txt:312 (nine:40): Corrected claim that sysread opens a file in any mode.
+- nine.txt:334 (nine:42): Replaced removed Dir.exists? with Dir.exist?.
+- nine.txt:359 (nine:46): Source syntax example was missing; supplied a bounded retry illustration.
+- nine.txt:367 (nine:47): Qualified source’s absolute “always runs” claim and added return-in-ensure caveat.
+- nine.txt:471 (nine:56): Clarified the source expression’s output-length off-by-two behavior.
+- nine.txt:489 (nine:58): Corrected outdated gem-versus-plugin location rule.
+- nine.txt:501 (nine:60): Corrected nonsensical Float/Dig/Max descriptions and capitalization.
+- nine.txt:527 (nine:65): Updated historical Fixnum/Bignum class explanation.
+- nine.txt:539 (nine:68): Incomplete/ambiguous question wording retained; explained only the identifiable method-call content.
+- nine.txt:543 (nine:69): Flagged removed taint/safe-level option -T in old source.
+- nine.txt:578 (nine:75): Updated private-method receiver rule: literal self is permitted in Ruby 2.7+; older blanket prohibition is outdated.
+- nine.txt:598 (nine:78): Updated private-method receiver rule: literal self is permitted in Ruby 2.7+; older blanket prohibition is outdated.
+- nine.txt:638 (nine:83): Corrected nonexistent method_missing? name and oversimplified lookup order.
+- nine.txt:668 (nine:86): Corrected pasted typographic quote delimiters and clarified inspected output.
+- nine.txt:676 (nine:87): Added missing lowercase-rest behavior.
+- nine.txt:683 (nine:88): Source simplification omitted lowercasing the remaining characters.
+- nine.txt:707 (nine:90): Qualified source’s claim that each/map leave the original unaffected regardless of block behavior.
+- nine.txt:771 (nine:95): Clarified instance-level extensions versus modules mixed into the ordinary class.
+- nine.txt:796 (nine:98): Corrected suggestion that #binding simply alters a closure’s binding.
+- ten.txt:125 (ten:22): Clarified that Rails observers were extracted from the default framework; modern behavior needs an explicit mechanism.
+- ten.txt:134 (ten:24): Corrected claim that controller namespaces guarantee compatibility.
+- ten.txt:173 (ten:33): Qualified old blanket claim that the pipeline always bundles/minifies/compresses all assets.
+- ten.txt:206 (ten:39): Corrected ambiguous render status: :not_found and unrestricted full-model serialization.
+- ten.txt:277 (ten:44): Improved quadratic duplicate scan and supplied explicit complexity.
+- ten.txt:295 (ten:46): Corrected typographic quote syntax, quadratic construction and ambiguous built-in restriction.
+- ten.txt:333 (ten:52): Labelled the source’s project story and 40% figure as illustrative, not established personal evidence.
+- eleven.txt:66 (eleven:4): “Conversion operators” is not a standard Ruby operator category; conversions are typically methods such as Integer(), to_i and to_s.
+- eleven.txt:66 (eleven:4): Conversions such as to_i/Integer() are methods, not a distinct built-in conversion-operator family.
+- eleven.txt:151 (eleven:10): Corrected unsupported implication that Numeric has a built-in plus method.
+- eleven.txt:182 (eleven:13): Separated Rails database/model/controller naming conventions from Ruby language rules.
+- eleven.txt:182 (eleven:13): Corrected conflation of Ruby syntax rules with Rails naming conventions.
+- thirteen.txt:16 (thirteen:runtime): The source’s 2022/2023 popularity and salary statistics are historical context, not current evidence.
+- thirteen.txt:60 (thirteen:concept-5): Corrected source’s misleading claim about Rails generating per-instance singleton attribute methods.
+- thirteen.txt:160 (thirteen:concept-13): Corrected nonworking File.open(... ) or die example.
+- thirteen.txt:273 (thirteen:concept-18): Corrected supposedly equivalent String-key-to-Symbol-key style transformation.
+- nineteen.txt:139 (nineteen:3): Qualified absolute identity/performance claims: frozen strings may be shared; dynamic symbols can be collected; symbols are not universally faster.
+- nineteen.txt:163 (nineteen:4): Corrected inference that absence of explicit return commonly implies nil: a nonempty method returns its final expression.
+- nineteen.txt:163 (nineteen:4): Source’s statement about methods without explicit return often returning nil needed correction.
+- nineteen.txt:356 (nineteen:17): Qualified claim that operators are methods and replaced questionable compact multiple-assignment initializer with standard syntax.
+- nineteen.txt:530 (nineteen:27): Updated private-method receiver rule: literal self is permitted in Ruby 2.7+; older blanket prohibition is outdated.
+- nineteen.txt:628 (nineteen:33): Clarified freeze is shallow and does not prevent variable/constant reassignment.
+- nineteen.txt:675 (nineteen:36): Qualified “immutable” as shallow member protection; preserved nested mutability.
+- nineteen.txt:854 (nineteen:45): Corrected invalid 5.singleton_class example and “each object has its own singleton class” overstatement.
+- nineteen.txt:1019 (nineteen:57): Clarified experimental introduction in 2.7 and missing unmatched-pattern behavior.
+- nineteen.txt:1049 (nineteen:59): Corrected potential eql?/hash contract mismatch in source’s numeric-coordinate example.
+- nineteen.txt:1079 (nineteen:comparison): Qualified dated runtime/GIL and ecosystem generalizations in language-comparison table.
+- twentyfour.txt:7 (twentyfour:1): Removed unsupported claims about “Mediterranean quality”, code rearrangement, and Rails introducing many-to-many relationships.
+- twentyfour.txt:40 (twentyfour:2): Corrected nonportable backgrounding advice and unsupported require "shell"/Shell#open browser example.
+- twentyfour.txt:125 (twentyfour:4): Qualified absolute identity/performance claims: frozen strings may be shared; dynamic symbols can be collected; symbols are not universally faster.
+- twentyfour.txt:152 (twentyfour:5): Corrected global-scope claim, unsupported warning invocation and claim that freeze prohibits constant reassignment.
+- twentyfour.txt:236 (twentyfour:7): Corrected String#grep misuse, each return-value claim, collect distinction, String#upto star output and “step indents” claim.
+- twentyfour.txt:362 (twentyfour:8): Corrected exception hierarchy, claim that every custom exception is rescued automatically, and check-before-read race.
+- twentyfour.txt:416 (twentyfour:9): Corrected invalid naming regex, variable access-control claim, local lifetime claim (closures retain locals) and instance-variable external visibility.
+- twentyfour.txt:495 (twentyfour:10): Source declares both attr_reader and attr_writer, so name=/age= assignments succeed; the comments claiming errors are wrong.
+- twentyfour.txt:524 (twentyfour:11): Removed unsupported Ruby 2.6 “trashcan” and context-dependent reference-counting/hybrid claims; count_objects[:FREE] is not a collector-enabling API.
+- twentyfour.txt:561 (twentyfour:12): Corrected false claim that chomp removes all trailing whitespace.
+- twentyfour.txt:674 (twentyfour:15): Corrected nonworking visibility example, recursive method_missing risk, unsafe eval localization recommendation and overstatement that method_missing is the heart of duck typing.
+
+## Missing original material
+
+- seven:FAQ2 (seven.txt:405): Incomplete source: this FAQ prompt has no captured answer; an original study recommendation is supplied.
+- seven:FAQ3 (seven.txt:408): Incomplete source: this FAQ prompt has no captured answer; an original study recommendation is supplied.
+- seven:FAQ4 (seven.txt:411): Incomplete source: this FAQ prompt has no captured answer; an original study recommendation is supplied.
+- seven:FAQ5 (seven.txt:414): Incomplete source: this FAQ prompt has no captured answer; an original study recommendation is supplied.
+- nine:49 (nine.txt:381): Incomplete source: referenced val1/val2 code is absent.
+- nine:51 (nine.txt:405): Incomplete source: missing definitions and original call list.
+- nine:52 (nine.txt:421): Incomplete source: referenced code line is missing; example explicitly reconstructed.
+- nine:84 (nine.txt:642): Incomplete source: original code is absent.
+- nine:89 (nine.txt:692): Incomplete source: defining class/method is missing.
+- nine:92 (nine.txt:726): Incomplete source: ABC/xyz implementation is missing.
+- nine:94 (nine.txt:762): Incomplete source and inaccurate explanation: missing prior code; reading alone does not define a local.
+- thirteen:replay-Validate string against dictionary (thirteen.txt:287): Incomplete source: only an interview-replay title is supplied; the full problem statement and constraints are absent.
+- thirteen:replay-Minimum tree depth (thirteen.txt:291): Incomplete source: only an interview-replay title is supplied; the full problem statement and constraints are absent.
+- thirteen:replay-Move Stones Over Grid (thirteen.txt:295): Incomplete source: only an interview-replay title is supplied; the full problem statement and constraints are absent.
+- fourteen:1 (fourteen.txt:7): Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer.
+- fourteen:2 (fourteen.txt:10): Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer.
+- fourteen:3 (fourteen.txt:13): Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer.
+- fourteen:4 (fourteen.txt:16): Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer.
+- fourteen:5 (fourteen.txt:19): Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer.
+- fourteen:6 (fourteen.txt:22): Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer.
+- fourteen:7 (fourteen.txt:25): Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer.
+- fourteen:8 (fourteen.txt:28): Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer.
+- fourteen:9 (fourteen.txt:31): Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer.
+- fourteen:10 (fourteen.txt:34): Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer.
+- fourteen:11 (fourteen.txt:37): Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer.
+- fourteen:12 (fourteen.txt:40): Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer.
+- fourteen:13 (fourteen.txt:43): Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer.
+- fourteen:14 (fourteen.txt:46): Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer.
+- fourteen:15 (fourteen.txt:49): Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer.
+- fourteen:16 (fourteen.txt:52): Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer.
+- fourteen:17 (fourteen.txt:55): Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer.
+- fourteen:18 (fourteen.txt:58): Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer.
+- fourteen:19 (fourteen.txt:61): Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer.
+- fourteen:20 (fourteen.txt:64): Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer.
+- fourteen:21 (fourteen.txt:67): Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer.
+- fourteen:22 (fourteen.txt:70): Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer.
+- fourteen:23 (fourteen.txt:73): Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer.
+- fourteen:24 (fourteen.txt:76): Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer.
+- fourteen:25 (fourteen.txt:79): Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer.
+- fourteen:26 (fourteen.txt:82): Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer.
+- fourteen:27 (fourteen.txt:85): Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer.
+- fourteen:28 (fourteen.txt:88): Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer.
+- fourteen:29 (fourteen.txt:91): Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer.
+- fourteen:30 (fourteen.txt:94): Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer.
+- fourteen:31 (fourteen.txt:97): Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer.
+- fourteen:32 (fourteen.txt:100): Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer.
+- fourteen:33 (fourteen.txt:103): Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer.
+- fourteen:34 (fourteen.txt:106): Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer.
+- fourteen:35 (fourteen.txt:109): Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer.
+- fourteen:36 (fourteen.txt:112): Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer.
+- fourteen:37 (fourteen.txt:115): Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer.
+- fourteen:38 (fourteen.txt:118): Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer.
+- fourteen:39 (fourteen.txt:121): Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer.
+- fourteen:40 (fourteen.txt:124): Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer.
+- fourteen:41 (fourteen.txt:127): Incomplete source: linked solution and detailed constraints are not included; assumptions are explicitly stated in this answer.
+- twentyone:unless-1 (twentyone.txt:5): Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied.
+- twentyone:unless-2 (twentyone.txt:17): Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied.
+- twentyone:unless-3 (twentyone.txt:31): Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied.
+- twentyone:unless-4 (twentyone.txt:47): Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied.
+- twentyone:unless-5 (twentyone.txt:61): Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied.
+- twentyone:unless-6 (twentyone.txt:68): Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied.
+- twentyone:unless-7 (twentyone.txt:82): Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied.
+- twentyone:unless-8 (twentyone.txt:95): Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied.
+- twentyone:unless-9 (twentyone.txt:104): Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied.
+- twentyone:unless-10 (twentyone.txt:121): Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied.
+- twentyone:unless-11 (twentyone.txt:138): Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied.
+- twentyone:case-1 (twentyone.txt:157): Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied.
+- twentyone:case-2 (twentyone.txt:178): Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied.
+- twentyone:case-3 (twentyone.txt:192): Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied.
+- twentyone:case-4 (twentyone.txt:208): Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied.
+- twentyone:case-5 (twentyone.txt:241): Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied. Incomplete source: input or prior variable initialization is not supplied; conditional outcomes are stated instead of inventing it.
+- twentyone:case-6 (twentyone.txt:261): Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied.
+- twentyone:case-7 (twentyone.txt:266): Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied. Incomplete source: input or prior variable initialization is not supplied; conditional outcomes are stated instead of inventing it.
+- twentyone:case-8 (twentyone.txt:284): Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied. Incomplete source: input or prior variable initialization is not supplied; conditional outcomes are stated instead of inventing it.
+- twentyone:case-9 (twentyone.txt:302): Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied.
+- twentyone:case-10 (twentyone.txt:315): Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied.
+- twentyone:comparison-1 (twentyone.txt:331): Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied.
+- twentyone:comparison-2 (twentyone.txt:336): Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied.
+- twentyone:comparison-3 (twentyone.txt:341): Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied.
+- twentyone:comparison-4 (twentyone.txt:351): Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied.
+- twentyone:comparison-5 (twentyone.txt:368): Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied.
+- twentyone:comparison-6 (twentyone.txt:383): Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied.
+- twentyone:comparison-7 (twentyone.txt:388): Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied.
+- twentyone:comparison-8 (twentyone.txt:403): Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied.
+- twentyone:comparison-9 (twentyone.txt:410): Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied. Incomplete source: input or prior variable initialization is not supplied; conditional outcomes are stated instead of inventing it.
+- twentyone:comparison-10 (twentyone.txt:423): Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied.
+- twentyone:operator-1 (twentyone.txt:446): Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied.
+- twentyone:operator-2 (twentyone.txt:451): Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied.
+- twentyone:operator-3 (twentyone.txt:458): Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied.
+- twentyone:operator-4 (twentyone.txt:464): Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied.
+- twentyone:operator-5 (twentyone.txt:472): Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied.
+- twentyone:operator-6 (twentyone.txt:483): Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied.
+- twentyone:operator-7 (twentyone.txt:491): Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied.
+- twentyone:operator-8 (twentyone.txt:499): Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied.
+- twentyone:operator-9 (twentyone.txt:507): Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied.
+- twentyone:operator-10 (twentyone.txt:517): Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied.
+- twentyone:operator-11 (twentyone.txt:527): Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied.
+- twentyone:operator-12 (twentyone.txt:537): Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied.
+- twentyone:operator-13 (twentyone.txt:547): Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied.
+- twentyone:operator-14 (twentyone.txt:557): Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied.
+- twentyone:operator-15 (twentyone.txt:569): Incomplete source: hidden answer key/rationale was not captured; a derived answer is supplied.
+
+## Executed verification
+
+- Runtime: Ruby 4.0.1 on Windows.
+- 41 named assertions passed across all 40 executable catalog coding variants in validate_algorithms.rb. The ticket-sales design was reviewed but has no backend integration test.
+- 378 curated snippets compiled successfully; 33 prose/shell/illustrative snippets were excluded from Ruby parsing. Three deliberately malformed MCQ snippets produce their expected syntax errors (case-3, case-9, comparison-10).
+- Syntax checks establish parse validity, not execution of Rails examples or proof of every stated answer.

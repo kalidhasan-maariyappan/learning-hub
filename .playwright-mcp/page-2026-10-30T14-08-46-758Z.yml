@@ -1,0 +1,200 @@
+- generic [active] [ref=f8e1]:
+  - banner [ref=f8e2]:
+    - button "Toggle the Ruby menu" [ref=f8e3] [cursor=pointer]: ☰
+    - link "JT JavaTrail" [ref=f8e4] [cursor=pointer]:
+      - /url: /java/
+      - generic [ref=f8e5]: JT
+      - generic [ref=f8e6]: JavaTrail
+    - navigation "Sections" [ref=f8e7]:
+      - link "Java Core Advance" [ref=f8e8] [cursor=pointer]:
+        - /url: /java-core-advanced/
+      - link "Spring Framework" [ref=f8e9] [cursor=pointer]:
+        - /url: /spring/
+      - link "Spring Boot" [ref=f8e10] [cursor=pointer]:
+        - /url: /spring-boot/
+      - link "Security" [ref=f8e11] [cursor=pointer]:
+        - /url: /security/
+      - link "Ruby" [ref=f8e12] [cursor=pointer]:
+        - /url: /ruby/
+      - link "Rails" [ref=f8e13] [cursor=pointer]:
+        - /url: /rails/
+    - searchbox "Search the Java tutorial" [ref=f8e15]
+    - button "Toggle dark mode" [ref=f8e16] [cursor=pointer]: ◐
+  - complementary "Ruby navigation" [ref=f8e17]:
+    - heading "Ruby Tutorial" [level=2] [ref=f8e18]
+    - link "Ruby Home" [ref=f8e19] [cursor=pointer]:
+      - /url: /ruby/
+    - link "Ruby Intro" [ref=f8e20] [cursor=pointer]:
+      - /url: /ruby/ruby_intro
+    - link "Ruby Get Started" [ref=f8e21] [cursor=pointer]:
+      - /url: /ruby/ruby_get_started
+    - link "Ruby Syntax" [ref=f8e22] [cursor=pointer]:
+      - /url: /ruby/ruby_syntax
+    - link "Ruby Output" [ref=f8e23] [cursor=pointer]:
+      - /url: /ruby/ruby_output
+    - link "Ruby Comments" [ref=f8e24] [cursor=pointer]:
+      - /url: /ruby/ruby_comments
+    - link "Ruby Variables" [ref=f8e25] [cursor=pointer]:
+      - /url: /ruby/ruby_variables
+    - link "Ruby Data Types" [ref=f8e26] [cursor=pointer]:
+      - /url: /ruby/ruby_data_types
+    - link "Ruby Numbers" [ref=f8e27] [cursor=pointer]:
+      - /url: /ruby/ruby_numbers
+    - link "Ruby Strings" [ref=f8e28] [cursor=pointer]:
+      - /url: /ruby/ruby_strings
+    - link "Ruby String Methods" [ref=f8e29] [cursor=pointer]:
+      - /url: /ruby/ruby_string_methods
+    - link "Ruby Symbols" [ref=f8e30] [cursor=pointer]:
+      - /url: /ruby/ruby_symbols
+    - link "Ruby Booleans and nil" [ref=f8e31] [cursor=pointer]:
+      - /url: /ruby/ruby_booleans
+    - link "Ruby Operators" [ref=f8e32] [cursor=pointer]:
+      - /url: /ruby/ruby_operators
+    - link "Ruby Type Conversion" [ref=f8e33] [cursor=pointer]:
+      - /url: /ruby/ruby_conversion
+    - link "Ruby User Input" [ref=f8e34] [cursor=pointer]:
+      - /url: /ruby/ruby_input
+    - heading "Control Flow" [level=2] [ref=f8e35]
+    - link "Ruby If...Else" [ref=f8e36] [cursor=pointer]:
+      - /url: /ruby/ruby_if
+    - link "Ruby unless and Modifiers" [ref=f8e37] [cursor=pointer]:
+      - /url: /ruby/ruby_unless
+    - link "Ruby case...when" [ref=f8e38] [cursor=pointer]:
+      - /url: /ruby/ruby_case
+    - link "Ruby while and until" [ref=f8e39] [cursor=pointer]:
+      - /url: /ruby/ruby_loops
+    - link "Ruby Iterators" [ref=f8e40] [cursor=pointer]:
+      - /url: /ruby/ruby_iterators
+    - link "Ruby break and next" [ref=f8e41] [cursor=pointer]:
+      - /url: /ruby/ruby_break_next
+    - heading "Collections" [level=2] [ref=f8e42]
+    - link "Ruby Arrays" [ref=f8e43] [cursor=pointer]:
+      - /url: /ruby/ruby_arrays
+    - link "Ruby Array Methods" [ref=f8e44] [cursor=pointer]:
+      - /url: /ruby/ruby_array_methods
+    - link "Ruby Hashes" [ref=f8e45] [cursor=pointer]:
+      - /url: /ruby/ruby_hashes
+    - link "Ruby Hash Methods" [ref=f8e46] [cursor=pointer]:
+      - /url: /ruby/ruby_hash_methods
+    - link "Ruby Ranges" [ref=f8e47] [cursor=pointer]:
+      - /url: /ruby/ruby_ranges
+    - link "Ruby Enumerable" [ref=f8e48] [cursor=pointer]:
+      - /url: /ruby/ruby_enumerable
+    - heading "Methods and Blocks" [level=2] [ref=f8e49]
+    - link "Ruby Methods" [ref=f8e50] [cursor=pointer]:
+      - /url: /ruby/ruby_methods
+    - link "Ruby Method Arguments" [ref=f8e51] [cursor=pointer]:
+      - /url: /ruby/ruby_arguments
+    - link "Ruby Blocks and yield" [ref=f8e52] [cursor=pointer]:
+      - /url: /ruby/ruby_blocks
+    - link "Ruby Procs and Lambdas" [ref=f8e53] [cursor=pointer]:
+      - /url: /ruby/ruby_procs_lambdas
+    - heading "Object-Oriented Ruby" [level=2] [ref=f8e54]
+    - link "Ruby Classes and Objects" [ref=f8e55] [cursor=pointer]:
+      - /url: /ruby/ruby_classes
+    - link "Ruby Attributes" [ref=f8e56] [cursor=pointer]:
+      - /url: /ruby/ruby_attributes
+    - link "Ruby Class Methods" [ref=f8e57] [cursor=pointer]:
+      - /url: /ruby/ruby_class_methods
+    - link "Ruby Inheritance" [ref=f8e58] [cursor=pointer]:
+      - /url: /ruby/ruby_inheritance
+    - link "Ruby private and protected" [ref=f8e59] [cursor=pointer]:
+      - /url: /ruby/ruby_visibility
+    - link "Ruby Modules" [ref=f8e60] [cursor=pointer]:
+      - /url: /ruby/ruby_modules
+    - link "Ruby Mixins" [ref=f8e61] [cursor=pointer]:
+      - /url: /ruby/ruby_mixins
+    - link "Ruby Duck Typing" [ref=f8e62] [cursor=pointer]:
+      - /url: /ruby/ruby_duck_typing
+    - link "Ruby Object Equality" [ref=f8e63] [cursor=pointer]:
+      - /url: /ruby/ruby_equality
+    - heading "Ruby Advanced" [level=2] [ref=f8e64]
+    - link "Ruby Exceptions" [ref=f8e65] [cursor=pointer]:
+      - /url: /ruby/ruby_exceptions
+    - link "Ruby Custom Exceptions" [ref=f8e66] [cursor=pointer]:
+      - /url: /ruby/ruby_custom_exceptions
+    - link "Ruby File Handling" [ref=f8e67] [cursor=pointer]:
+      - /url: /ruby/ruby_files
+    - link "Ruby Struct and Data" [ref=f8e68] [cursor=pointer]:
+      - /url: /ruby/ruby_struct_data
+    - link "Ruby Pattern Matching" [ref=f8e69] [cursor=pointer]:
+      - /url: /ruby/ruby_pattern_matching
+    - link "Ruby Frozen Objects" [ref=f8e70] [cursor=pointer]:
+      - /url: /ruby/ruby_frozen
+    - link "Ruby Metaprogramming" [ref=f8e71] [cursor=pointer]:
+      - /url: /ruby/ruby_metaprogramming
+    - link "Ruby method_missing" [ref=f8e72] [cursor=pointer]:
+      - /url: /ruby/ruby_method_missing
+    - link "Ruby Gems and Bundler" [ref=f8e73] [cursor=pointer]:
+      - /url: /ruby/ruby_gems
+    - heading "Ruby Interview" [level=2] [ref=f8e74]
+    - link "Ruby Interview Questions" [ref=f8e75] [cursor=pointer]:
+      - /url: /ruby/ruby_interview
+    - link "Ruby Quiz" [ref=f8e76] [cursor=pointer]:
+      - /url: /ruby/ruby_quiz
+  - main [ref=f8e77]:
+    - heading "Ruby Blocks and yield" [level=1] [ref=f8e78]
+    - generic [ref=f8e79]:
+      - link "❮ Previous" [ref=f8e80] [cursor=pointer]:
+        - /url: /ruby/ruby_arguments
+      - link "Next ❯" [ref=f8e81] [cursor=pointer]:
+        - /url: /ruby/ruby_procs_lambdas
+    - separator [ref=f8e82]
+    - heading "What is a block?" [level=2] [ref=f8e83]
+    - paragraph [ref=f8e84]:
+      - text: A block is a chunk of code passed to a method, written with
+      - code [ref=f8e85]: "{ }"
+      - text: or
+      - code [ref=f8e86]: do ... end
+      - text: . The method runs the block with
+      - code [ref=f8e87]: yield
+      - text: .
+    - generic [ref=f8e88]:
+      - heading "Example" [level=3] [ref=f8e89]
+      - generic [ref=f8e90]: "def twice yield yield end twice { puts \"Hi!\" }"
+      - generic [ref=f8e91]:
+        - link "Try it Yourself »" [ref=f8e92] [cursor=pointer]:
+          - /url: /tryit?page=ruby_blocks&ex=0
+        - button "Run here" [ref=f8e93] [cursor=pointer]
+      - generic [ref=f8e94]: Output Hi! Hi!
+    - heading "Passing values to a block" [level=2] [ref=f8e95]
+    - generic [ref=f8e96]:
+      - heading "Example" [level=3] [ref=f8e97]
+      - generic [ref=f8e98]: "def each_pair_sum(a, b) yield a + b, a * b end each_pair_sum(3, 4) { |sum, product| puts \"sum=#{sum} product=#{product}\" }"
+      - generic [ref=f8e99]:
+        - link "Try it Yourself »" [ref=f8e100] [cursor=pointer]:
+          - /url: /tryit?page=ruby_blocks&ex=1
+        - button "Run here" [ref=f8e101] [cursor=pointer]
+      - generic [ref=f8e102]: Output sum=7 product=12
+    - heading "Optional blocks" [level=2] [ref=f8e103]
+    - paragraph [ref=f8e104]:
+      - code [ref=f8e105]: block_given?
+      - text: "tells a method whether a block was passed:"
+    - generic [ref=f8e106]:
+      - heading "Example" [level=3] [ref=f8e107]
+      - generic [ref=f8e108]: "def fetch_name name = nil return name || yield if block_given? name || \"unknown\" end puts fetch_name puts fetch_name { \"from block\" }"
+      - generic [ref=f8e109]:
+        - link "Try it Yourself »" [ref=f8e110] [cursor=pointer]:
+          - /url: /tryit?page=ruby_blocks&ex=2
+        - button "Run here" [ref=f8e111] [cursor=pointer]
+      - generic [ref=f8e112]: Output unknown from block
+    - heading "Blocks for setup and cleanup" [level=2] [ref=f8e113]
+    - paragraph [ref=f8e114]:
+      - text: Blocks let a method run code before and after your code.
+      - code [ref=f8e115]: File.open
+      - text: "uses this to close the file for you. Here is the same idea for timing:"
+    - generic [ref=f8e116]:
+      - heading "Example" [level=3] [ref=f8e117]
+      - generic [ref=f8e118]: "def measure(label) puts \"start #{label}\" result = yield puts \"end #{label}\" result end value = measure(\"sum\") { (1..100).sum } puts value"
+      - generic [ref=f8e119]:
+        - link "Try it Yourself »" [ref=f8e120] [cursor=pointer]:
+          - /url: /tryit?page=ruby_blocks&ex=3
+        - button "Run here" [ref=f8e121] [cursor=pointer]
+      - generic [ref=f8e122]: Output start sum end sum 5050
+    - separator [ref=f8e123]
+    - generic [ref=f8e124]:
+      - link "❮ Previous" [ref=f8e125] [cursor=pointer]:
+        - /url: /ruby/ruby_arguments
+      - link "Next ❯" [ref=f8e126] [cursor=pointer]:
+        - /url: /ruby/ruby_procs_lambdas
+  - contentinfo [ref=f8e127]: JavaTrail — an independent learning site. Java examples run through your local JDK and Ruby examples through your local Ruby; Spring Framework project snippets require their documented Spring dependencies.

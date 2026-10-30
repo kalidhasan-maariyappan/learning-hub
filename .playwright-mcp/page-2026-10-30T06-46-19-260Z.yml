@@ -1,0 +1,104 @@
+- generic [active] [ref=f6e1]:
+  - banner [ref=f6e2]:
+    - button "Toggle the Security menu" [ref=f6e3] [cursor=pointer]: ☰
+    - link "JT JavaTrail" [ref=f6e4] [cursor=pointer]:
+      - /url: /java/
+      - generic [ref=f6e5]: JT
+      - generic [ref=f6e6]: JavaTrail
+    - navigation "Sections" [ref=f6e7]:
+      - link "Java Core Advance" [ref=f6e8] [cursor=pointer]:
+        - /url: /java-core-advanced/
+      - link "Spring Framework" [ref=f6e9] [cursor=pointer]:
+        - /url: /spring/
+      - link "Spring Boot" [ref=f6e10] [cursor=pointer]:
+        - /url: /spring-boot/
+      - link "Security" [ref=f6e11] [cursor=pointer]:
+        - /url: /security/
+    - searchbox "Search the Java tutorial" [ref=f6e13]
+    - button "Toggle dark mode" [ref=f6e14] [cursor=pointer]: ◐
+  - complementary "Security navigation" [ref=f6e15]:
+    - heading "JavaTrail Security" [level=2] [ref=f6e16]
+    - link "Security Home" [ref=f6e17] [cursor=pointer]:
+      - /url: /security/
+    - generic [ref=f6e18]:
+      - link "Injection and Browser Attacks" [ref=f6e19] [cursor=pointer]:
+        - /url: /security/security_group_browser
+      - button "Show Injection and Browser Attacks sub-topics" [ref=f6e20] [cursor=pointer]: ▼
+    - generic [ref=f6e21]:
+      - link "Sessions and Authentication" [ref=f6e22] [cursor=pointer]:
+        - /url: /security/security_group_identity
+      - button "Show Sessions and Authentication sub-topics" [ref=f6e23] [cursor=pointer]: ▼
+    - generic [ref=f6e24]:
+      - link "Access Control and Data Protection" [ref=f6e25] [cursor=pointer]:
+        - /url: /security/security_group_access
+      - button "Show Access Control and Data Protection sub-topics" [ref=f6e26] [cursor=pointer]: ▼
+  - main [ref=f6e27]:
+    - heading "JavaTrail Security" [level=1] [ref=f6e28]
+    - link "Next ❯" [ref=f6e30] [cursor=pointer]:
+      - /url: /security/security_group_browser
+    - separator [ref=f6e31]
+    - paragraph [ref=f6e32]: "This course covers the security problems a Java web developer meets in real projects and is expected to explain in an interview: injection, browser attacks, sessions, authentication, access control and data exposure."
+    - paragraph [ref=f6e33]: "Each lesson follows the same steps: what the vulnerability is, why it happens, vulnerable code, the impact, the fix, why the fix works, its limits, and how to test it."
+    - heading "Course map" [level=2] [ref=f6e34]
+    - heading [level=3] [ref=f6e35]:
+      - link "Injection and Browser Attacks" [ref=f6e36] [cursor=pointer]:
+        - /url: /security/security_group_browser
+    - list [ref=f6e37]:
+      - listitem [ref=f6e38]:
+        - link "SQL injection" [ref=f6e39] [cursor=pointer]:
+          - /url: /security/security_sql_injection
+      - listitem [ref=f6e40]:
+        - link "Cross-site scripting (XSS)" [ref=f6e41] [cursor=pointer]:
+          - /url: /security/security_xss
+      - listitem [ref=f6e42]:
+        - link "Cross-site request forgery (CSRF)" [ref=f6e43] [cursor=pointer]:
+          - /url: /security/security_csrf
+      - listitem [ref=f6e44]:
+        - link "CORS" [ref=f6e45] [cursor=pointer]:
+          - /url: /security/security_cors
+      - listitem [ref=f6e46]:
+        - link "Security headers and clickjacking" [ref=f6e47] [cursor=pointer]:
+          - /url: /security/security_security_headers
+    - heading [level=3] [ref=f6e48]:
+      - link "Sessions and Authentication" [ref=f6e49] [cursor=pointer]:
+        - /url: /security/security_group_identity
+    - list [ref=f6e50]:
+      - listitem [ref=f6e51]:
+        - link "Session fixation and session ID protection" [ref=f6e52] [cursor=pointer]:
+          - /url: /security/security_session_fixation
+      - listitem [ref=f6e53]:
+        - link "Password hashing" [ref=f6e54] [cursor=pointer]:
+          - /url: /security/security_password_hashing
+      - listitem [ref=f6e55]:
+        - link "Authentication vs authorization in Spring Security" [ref=f6e56] [cursor=pointer]:
+          - /url: /security/security_authn_authz
+      - listitem [ref=f6e57]:
+        - link "JWT security" [ref=f6e58] [cursor=pointer]:
+          - /url: /security/security_jwt
+    - heading [level=3] [ref=f6e59]:
+      - link "Access Control and Data Protection" [ref=f6e60] [cursor=pointer]:
+        - /url: /security/security_group_access
+    - list [ref=f6e61]:
+      - listitem [ref=f6e62]:
+        - link "Broken access control and IDOR" [ref=f6e63] [cursor=pointer]:
+          - /url: /security/security_idor
+      - listitem [ref=f6e64]:
+        - link "Path traversal in file handling" [ref=f6e65] [cursor=pointer]:
+          - /url: /security/security_path_traversal
+      - listitem [ref=f6e66]:
+        - link "Sensitive data in logs and errors" [ref=f6e67] [cursor=pointer]:
+          - /url: /security/security_sensitive_data
+    - heading "Before you start" [level=2] [ref=f6e68]
+    - list [ref=f6e69]:
+      - listitem [ref=f6e70]: You should know Java, basic HTTP (methods, headers, cookies, status codes) and basic Spring MVC.
+      - listitem [ref=f6e71]:
+        - text: Plain Java examples use
+        - strong [ref=f6e72]: Run here
+        - text: . Spring examples use
+        - strong [ref=f6e73]: Run with Maven
+        - text: and run inside a MockMvc test context, so no real server or network is involved.
+      - listitem [ref=f6e74]: All data is fake. Do not try these techniques against systems you do not own.
+    - separator [ref=f6e75]
+    - link "Next ❯" [ref=f6e77] [cursor=pointer]:
+      - /url: /security/security_group_browser
+  - contentinfo [ref=f6e78]: JavaTrail — an independent learning site. Java examples run through your local JDK; Spring Framework project snippets require their documented Spring dependencies.

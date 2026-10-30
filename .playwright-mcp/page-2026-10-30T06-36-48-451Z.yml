@@ -1,0 +1,198 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - button "Toggle the Java Core Advance menu" [ref=e3] [cursor=pointer]: ☰
+    - link "JT JavaTrail" [ref=e4] [cursor=pointer]:
+      - /url: /java/
+      - generic [ref=e5]: JT
+      - generic [ref=e6]: JavaTrail
+    - navigation "Sections" [ref=e7]:
+      - link "Java Core Advance" [ref=e8] [cursor=pointer]:
+        - /url: /java-core-advanced/
+      - link "Spring Framework" [ref=e9] [cursor=pointer]:
+        - /url: /spring/
+      - link "Spring Boot" [ref=e10] [cursor=pointer]:
+        - /url: /spring-boot/
+      - link "Security" [ref=e11] [cursor=pointer]:
+        - /url: /security/
+    - searchbox "Search the Java tutorial" [ref=e13]
+    - button "Toggle dark mode" [ref=e14] [cursor=pointer]: ◐
+  - complementary "Java Core Advance navigation" [ref=e15]:
+    - heading "Java Core Advanced" [level=2] [ref=e16]
+    - link "Course Home" [ref=e17] [cursor=pointer]:
+      - /url: /java-core-advanced/
+    - generic [ref=e18]:
+      - link "JVM & Runtime" [ref=e19] [cursor=pointer]:
+        - /url: /java-core-advanced/java_ca_group_runtime_compilation
+      - button "Show JVM & Runtime sub-topics" [ref=e20] [cursor=pointer]: ▼
+    - generic [ref=e21]:
+      - link "Object Equality & Immutability" [ref=e22] [cursor=pointer]:
+        - /url: /java-core-advanced/java_ca_oop
+      - button "Show Object Equality & Immutability sub-topics" [ref=e23] [cursor=pointer]: ▼
+    - generic [ref=e24]:
+      - link "HashMap Internals" [ref=e25] [cursor=pointer]:
+        - /url: /java-core-advanced/java_ca_collections
+      - button "Show HashMap Internals sub-topics" [ref=e26] [cursor=pointer]: ▼
+    - generic [ref=e27]:
+      - link "Collections Internals" [ref=e28] [cursor=pointer]:
+        - /url: /java-core-advanced/java_ca_group_advanced_collections
+      - button "Show Collections Internals sub-topics" [ref=e29] [cursor=pointer]: ▼
+    - generic [ref=e30]:
+      - link "Generics" [ref=e31] [cursor=pointer]:
+        - /url: /java-core-advanced/java_ca_generics
+      - button "Show Generics sub-topics" [ref=e32] [cursor=pointer]: ▼
+    - generic [ref=e33]:
+      - link "Exception Handling" [ref=e34] [cursor=pointer]:
+        - /url: /java-core-advanced/java_ca_exceptions
+      - button "Show Exception Handling sub-topics" [ref=e35] [cursor=pointer]: ▼
+    - generic [ref=e36]:
+      - link "Multithreading Fundamentals" [ref=e37] [cursor=pointer]:
+        - /url: /java-core-advanced/java_ca_concurrency
+      - button "Show Multithreading Fundamentals sub-topics" [ref=e38] [cursor=pointer]: ▼
+    - generic [ref=e39]:
+      - link "Executors & Asynchronous Java" [ref=e40] [cursor=pointer]:
+        - /url: /java-core-advanced/java_ca_group_executors_async
+      - button "Show Executors & Asynchronous Java sub-topics" [ref=e41] [cursor=pointer]: ▼
+    - generic [ref=e42]:
+      - link "Locks & Concurrency Utilities" [ref=e43] [cursor=pointer]:
+        - /url: /java-core-advanced/java_ca_group_synchronization_utilities
+      - button "Show Locks & Concurrency Utilities sub-topics" [ref=e44] [cursor=pointer]: ▼
+    - generic [ref=e45]:
+      - link "Lambdas & Streams" [ref=e46] [cursor=pointer]:
+        - /url: /java-core-advanced/java_ca_functional
+      - button "Show Lambdas & Streams sub-topics" [ref=e47] [cursor=pointer]: ▼
+    - generic [ref=e48]:
+      - link "JVM Memory & Garbage Collection" [ref=e49] [cursor=pointer]:
+        - /url: /java-core-advanced/java_ca_memory_gc
+      - button "Show JVM Memory & Garbage Collection sub-topics" [ref=e50] [cursor=pointer]: ▼
+    - generic [ref=e51]:
+      - link "Modern Java (17 to 21)" [ref=e52] [cursor=pointer]:
+        - /url: /java-core-advanced/java_ca_modern
+      - button "Show Modern Java (17 to 21) sub-topics" [ref=e53] [cursor=pointer]: ▼
+    - generic [ref=e54]:
+      - link "Reflection, Annotations & Proxies" [ref=e55] [cursor=pointer]:
+        - /url: /java-core-advanced/java_ca_reflection
+      - button "Show Reflection, Annotations & Proxies sub-topics" [ref=e56] [cursor=pointer]: ▼
+    - generic [ref=e57]:
+      - link "Date/Time & HTTP Client" [ref=e58] [cursor=pointer]:
+        - /url: /java-core-advanced/java_ca_datetime
+      - button "Show Date/Time & HTTP Client sub-topics" [ref=e59] [cursor=pointer]: ▼
+    - generic [ref=e60]:
+      - link "Files & I/O" [ref=e61] [cursor=pointer]:
+        - /url: /java-core-advanced/java_ca_io_nio
+      - button "Show Files & I/O sub-topics" [ref=e62] [cursor=pointer]: ▼
+    - generic [ref=e63]:
+      - link "Performance" [ref=e64] [cursor=pointer]:
+        - /url: /java-core-advanced/java_ca_performance
+      - button "Show Performance sub-topics" [ref=e65] [cursor=pointer]: ▼
+    - generic [ref=e66]:
+      - link "Production Diagnostics" [ref=e67] [cursor=pointer]:
+        - /url: /java-core-advanced/java_ca_diagnostics
+      - button "Show Production Diagnostics sub-topics" [ref=e68] [cursor=pointer]: ▼
+    - generic [ref=e69]:
+      - link "Design Patterns & JDBC" [ref=e70] [cursor=pointer]:
+        - /url: /java-core-advanced/java_ca_patterns
+      - button "Show Design Patterns & JDBC sub-topics" [ref=e71] [cursor=pointer]: ▼
+  - main [ref=e72]:
+    - heading "Java Core Advanced" [level=1] [ref=e73]
+    - link "Next ❯" [ref=e75] [cursor=pointer]:
+      - /url: /java-core-advanced/java_ca_group_runtime_compilation
+    - separator [ref=e76]
+    - paragraph [ref=e77]: "Java Core Advanced covers the Java topics that experienced developers use at work and are asked about in senior interviews: JVM internals, collections internals, concurrency, memory and garbage collection, modern Java, diagnostics, design patterns and JDBC."
+    - paragraph [ref=e78]:
+      - text: It assumes you know basic Java syntax, classes, collections and exceptions from the
+      - link "Java Tutorial" [ref=e79] [cursor=pointer]:
+        - /url: /java/
+      - text: . Web security is taught in the separate
+      - link "Security course" [ref=e80] [cursor=pointer]:
+        - /url: /security/
+      - text: .
+    - heading "18 sections" [level=2] [ref=e81]
+    - generic [ref=e82]:
+      - link "JVM & Runtime 7 lessons" [ref=e83] [cursor=pointer]:
+        - /url: /java-core-advanced/java_ca_group_runtime_compilation
+        - text: JVM & Runtime
+        - generic [ref=e84]: 7 lessons
+      - link "Object Equality & Immutability 5 lessons" [ref=e85] [cursor=pointer]:
+        - /url: /java-core-advanced/java_ca_oop
+        - text: Object Equality & Immutability
+        - generic [ref=e86]: 5 lessons
+      - link "HashMap Internals 7 lessons" [ref=e87] [cursor=pointer]:
+        - /url: /java-core-advanced/java_ca_collections
+        - text: HashMap Internals
+        - generic [ref=e88]: 7 lessons
+      - link "Collections Internals 8 lessons" [ref=e89] [cursor=pointer]:
+        - /url: /java-core-advanced/java_ca_group_advanced_collections
+        - text: Collections Internals
+        - generic [ref=e90]: 8 lessons
+      - link "Generics 4 lessons" [ref=e91] [cursor=pointer]:
+        - /url: /java-core-advanced/java_ca_generics
+        - text: Generics
+        - generic [ref=e92]: 4 lessons
+      - link "Exception Handling 6 lessons" [ref=e93] [cursor=pointer]:
+        - /url: /java-core-advanced/java_ca_exceptions
+        - text: Exception Handling
+        - generic [ref=e94]: 6 lessons
+      - link "Multithreading Fundamentals 7 lessons" [ref=e95] [cursor=pointer]:
+        - /url: /java-core-advanced/java_ca_concurrency
+        - text: Multithreading Fundamentals
+        - generic [ref=e96]: 7 lessons
+      - link "Executors & Asynchronous Java 8 lessons" [ref=e97] [cursor=pointer]:
+        - /url: /java-core-advanced/java_ca_group_executors_async
+        - text: Executors & Asynchronous Java
+        - generic [ref=e98]: 8 lessons
+      - link "Locks & Concurrency Utilities 10 lessons" [ref=e99] [cursor=pointer]:
+        - /url: /java-core-advanced/java_ca_group_synchronization_utilities
+        - text: Locks & Concurrency Utilities
+        - generic [ref=e100]: 10 lessons
+      - link "Lambdas & Streams 9 lessons" [ref=e101] [cursor=pointer]:
+        - /url: /java-core-advanced/java_ca_functional
+        - text: Lambdas & Streams
+        - generic [ref=e102]: 9 lessons
+      - link "JVM Memory & Garbage Collection 9 lessons" [ref=e103] [cursor=pointer]:
+        - /url: /java-core-advanced/java_ca_memory_gc
+        - text: JVM Memory & Garbage Collection
+        - generic [ref=e104]: 9 lessons
+      - link "Modern Java (17 to 21) 5 lessons" [ref=e105] [cursor=pointer]:
+        - /url: /java-core-advanced/java_ca_modern
+        - text: Modern Java (17 to 21)
+        - generic [ref=e106]: 5 lessons
+      - link "Reflection, Annotations & Proxies 4 lessons" [ref=e107] [cursor=pointer]:
+        - /url: /java-core-advanced/java_ca_reflection
+        - text: Reflection, Annotations & Proxies
+        - generic [ref=e108]: 4 lessons
+      - link "Date/Time & HTTP Client 3 lessons" [ref=e109] [cursor=pointer]:
+        - /url: /java-core-advanced/java_ca_datetime
+        - text: Date/Time & HTTP Client
+        - generic [ref=e110]: 3 lessons
+      - link "Files & I/O 3 lessons" [ref=e111] [cursor=pointer]:
+        - /url: /java-core-advanced/java_ca_io_nio
+        - text: Files & I/O
+        - generic [ref=e112]: 3 lessons
+      - link "Performance 4 lessons" [ref=e113] [cursor=pointer]:
+        - /url: /java-core-advanced/java_ca_performance
+        - text: Performance
+        - generic [ref=e114]: 4 lessons
+      - link "Production Diagnostics 6 lessons" [ref=e115] [cursor=pointer]:
+        - /url: /java-core-advanced/java_ca_diagnostics
+        - text: Production Diagnostics
+        - generic [ref=e116]: 6 lessons
+      - link "Design Patterns & JDBC 11 lessons" [ref=e117] [cursor=pointer]:
+        - /url: /java-core-advanced/java_ca_patterns
+        - text: Design Patterns & JDBC
+        - generic [ref=e118]: 11 lessons
+    - heading "Suggested order" [level=2] [ref=e119]
+    - list [ref=e120]:
+      - listitem [ref=e121]:
+        - strong [ref=e122]: "Start with:"
+        - text: Object Equality, HashMap Internals, Collections Internals, Exception Handling, Lambdas & Streams.
+      - listitem [ref=e123]:
+        - strong [ref=e124]: "Then:"
+        - text: Multithreading Fundamentals, Executors, Locks & Concurrency Utilities, JVM Memory & GC.
+      - listitem [ref=e125]:
+        - strong [ref=e126]: "Finally:"
+        - text: JVM & Runtime, Generics, Modern Java, Reflection & Proxies, Performance, Production Diagnostics, Design Patterns & JDBC.
+    - paragraph [ref=e128]: Each lesson has a short explanation, a runnable example with its expected output, the key points and a common mistake. Version-specific features are labelled with the Java release that introduced them.
+    - separator [ref=e129]
+    - link "Next ❯" [ref=e131] [cursor=pointer]:
+      - /url: /java-core-advanced/java_ca_group_runtime_compilation
+  - contentinfo [ref=e132]: JavaTrail — an independent learning site. Java examples run through your local JDK; Spring Framework project snippets require their documented Spring dependencies.

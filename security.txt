@@ -1,0 +1,836 @@
+# Task: Build a Comprehensive Java, Spring Framework and Spring Boot Security Learning Section in JavaTrail
+
+Act as a senior application security engineer, Java security specialist, Spring Framework/Spring Boot expert, penetration-testing educator, and frontend engineer.
+
+I am building JavaTrail, a W3Schools-style learning website. I want a new top-level navigation menu called **Security**, with three independent learning sections:
+
+1. Java Security
+2. Spring Framework Security
+3. Spring Boot Security
+
+This must be a comprehensive, practical, step-by-step security education section. Do not merely create a navigation menu or a collection of definitions.
+
+The main teaching method must be:
+
+**Understand the vulnerability → reproduce it in a controlled local lab → identify the root cause → implement the fix → rerun the same test → verify the fix → learn prevention and detection.**
+
+The curriculum should cover the major relevant security weaknesses, common variants, implementation mistakes, mitigations, testing strategies, and production safeguards. Do not claim that any finite curriculum covers every possible vulnerability. Use recognized security standards and a documented coverage checklist to make the scope comprehensive and auditable.
+
+## 1. Inspect JavaTrail Before Making Changes
+
+First inspect the existing project:
+
+- Identify the frontend architecture and folder structure.
+- Find the top navigation, sidebar, lesson routes, content rendering, search, styling and code examples.
+- Inspect the current Java code runner and determine which code and dependencies it can execute.
+- Inspect existing Spring Framework and Spring Boot sections if they already exist.
+- Identify reusable lesson components, syntax highlighting, copy-code functionality and responsive layouts.
+- Check the installed Java version and relevant project configuration.
+- Identify existing tests and available build commands.
+
+Write a short implementation plan based on the real codebase.
+
+Reuse existing conventions and components. Do not rewrite unrelated areas of JavaTrail.
+
+## 2. Create the Security Navigation
+
+Add a top-level navigation menu named **Security**.
+
+It must contain three clearly separate categories:
+
+- Java Security
+- Spring Framework Security
+- Spring Boot Security
+
+Each category must have its own landing page, sidebar grouping, lesson routes and curriculum order.
+
+Requirements:
+
+- Preserve all existing Java, Spring Framework and Spring Boot navigation.
+- Use unique, stable lesson identifiers and routes.
+- Highlight the active category and lesson.
+- Support previous and next lesson navigation.
+- Integrate all security lessons with existing search.
+- Make the pages responsive on desktop, tablet and mobile.
+- Reuse the site's existing design system.
+- Do not migrate the application to React or Angular.
+- Do not introduce unnecessary dependencies.
+
+## 3. Mandatory Teaching Format for Every Vulnerability
+
+Every vulnerability lesson must follow this structure.
+
+### A. Vulnerability overview
+
+Explain:
+
+- What the vulnerability is.
+- Why it exists.
+- Which security property it breaks.
+- What an attacker may be able to achieve.
+- Which application types and components are affected.
+- When the vulnerability is applicable and when it is not.
+- Its relationship to relevant OWASP categories, CWE identifiers and security standards.
+
+Use simple English first, followed by the technical explanation.
+
+### B. Vulnerable application
+
+Provide a deliberately vulnerable example that demonstrates the issue.
+
+Include:
+
+- The complete relevant source code.
+- The file name and location.
+- Required dependencies and configuration.
+- The request, input or application condition that triggers the issue.
+- A line-by-line explanation of the insecure code.
+- The trust boundary that is being violated.
+- The exact reason the vulnerability occurs.
+
+Clearly label all intentionally vulnerable code as **INSECURE — LOCAL TRAINING LAB ONLY**.
+
+Do not use real credentials, real personal information, production URLs or real customer data.
+
+### C. Controlled reproduction
+
+Give exact steps to reproduce the issue in an isolated local lab.
+
+Explain:
+
+1. What environment must be running.
+2. Which endpoint or function to test.
+3. What sample input to supply.
+4. Which command, HTTP request, unit test or browser action to use.
+5. What should happen in the vulnerable implementation.
+6. How to inspect the response, output, logs or database state.
+7. Why the observed result proves the vulnerability exists.
+
+Provide harmless, purpose-built test inputs.
+
+For web vulnerabilities, use localhost, a local mock service, a test database or an explicitly authorized test environment.
+
+Do not instruct learners to exploit public websites, real accounts or systems for which they have no authorization.
+
+If a reproduction depends on a specific browser, server, framework version or security configuration, state that dependency.
+
+### D. Root-cause analysis
+
+Explain the underlying cause rather than just naming the insecure line.
+
+For example:
+
+- Untrusted input was treated as executable SQL.
+- Untrusted data was inserted into an HTML execution context.
+- An authorization check was missing from a resource lookup.
+- A file path was constructed without restricting the allowed directory.
+- A cryptographic primitive was used incorrectly.
+- A request was trusted without validating its origin or identity.
+
+Distinguish the immediate bug from the broader design mistake.
+
+### E. Fixed implementation
+
+Provide the corrected implementation.
+
+Include:
+
+- Complete relevant corrected code.
+- Required imports and dependencies.
+- Configuration changes.
+- A clear explanation of each fix.
+- Why the fix prevents the demonstrated attack.
+- Any trade-offs or limitations.
+- Other locations in an application where the same mistake might occur.
+
+Prefer established security APIs and maintained libraries over custom security implementations.
+
+### F. Verify the fix
+
+Repeat the same reproduction steps against the fixed implementation.
+
+Show:
+
+- The request or input used.
+- The expected secure behavior.
+- The expected HTTP status or application result.
+- The unit or integration test that checks the behavior.
+- Negative test cases.
+- Any logs or state that confirm the attack no longer succeeds.
+
+Do not claim that the fix is effective without a clear verification method.
+
+For issues that cannot be fully prevented by one code change, explain the remaining risk and the additional controls required.
+
+### G. Prevention checklist
+
+Provide practical prevention rules, code-review questions, secure defaults, recommended tests, monitoring guidance and common mistakes.
+
+### H. Practice and interview questions
+
+Include:
+
+- A beginner exercise.
+- An intermediate debugging or code-review exercise.
+- An advanced scenario.
+- At least five relevant interview questions with answers.
+- A secure-coding checklist for the lesson.
+
+Use exercises that teach understanding, not just memorization.
+
+## 4. Section One: Java Security
+
+Create a comprehensive curriculum for core Java security without requiring Spring.
+
+### 4.1 Security fundamentals
+
+- Confidentiality, integrity and availability
+- Authentication vs authorization
+- Identification, authentication and accountability
+- Least privilege
+- Defense in depth
+- Secure defaults and fail-safe behavior
+- Trust boundaries and untrusted input
+- Threat modeling and attack surfaces
+- Security requirements and abuse cases
+- Risk assessment and security testing
+- OWASP, CWE, CVE, CVSS and responsible disclosure
+- Secure coding lifecycle and security code reviews
+
+### 4.2 Input handling and injection
+
+- Input validation and allowlisting
+- Input canonicalization and normalization
+- SQL injection in JDBC
+- PreparedStatement vs unsafe SQL concatenation
+- Dynamic SQL identifiers and safe query construction
+- LDAP injection where applicable
+- OS command injection and ProcessBuilder misuse
+- Expression language injection
+- Log injection and log forging
+- CSV/formula injection when exporting untrusted data
+- Output encoding vs input validation
+- Avoiding unsafe string construction at trust boundaries
+
+For each injection type, explain the vulnerable sink, the untrusted source, the correct mitigation and how to test it.
+
+### 4.3 Cryptography
+
+- Encryption vs hashing vs encoding
+- Symmetric vs asymmetric cryptography
+- Java Cryptography Architecture
+- SecureRandom and randomness
+- Secure key generation and storage
+- AES-GCM and authenticated encryption
+- IV/nonce uniqueness and management
+- RSA and appropriate use cases
+- Digital signatures and signature verification
+- Message authentication codes and HMAC
+- Hashing and collision concepts
+- Password hashing with Argon2id, scrypt, bcrypt or an appropriate maintained implementation
+- Salts, work factors and password verification
+- Why plain SHA-256 is not an appropriate password-storage scheme
+- TLS and certificate validation
+- Secure key rotation
+- Deprecated or unsafe algorithms and modes
+- Cryptographic exception handling
+- Common mistakes in custom cryptography
+
+Do not teach learners to design their own cryptographic algorithms. Use standard Java APIs and vetted libraries, and explain when a dependency is necessary.
+
+### 4.4 Authentication and authorization in Java applications
+
+- Authentication vs authorization
+- Secure password verification
+- Password reset tokens
+- Token generation and expiry
+- Session identifiers and session fixation
+- Secure session invalidation
+- Role-based access control
+- Attribute-based access control
+- Object-level authorization
+- Insecure Direct Object Reference (IDOR)
+- Privilege escalation
+- Missing function-level access control
+- Multi-tenant authorization boundaries
+- Secure comparison of secrets where appropriate
+- Fail-closed authorization behavior
+
+### 4.5 File, path and resource security
+
+- Path traversal
+- Arbitrary file read
+- Arbitrary file write
+- Unsafe temporary files
+- Symlink and time-of-check/time-of-use risks
+- File permission mistakes
+- Unsafe archive extraction and zip-slip
+- File upload validation
+- File extension vs actual file content
+- MIME-type trust problems
+- Resource exhaustion from large files
+- Secure resource cleanup
+- Secure handling of file names and paths
+- Directory containment checks
+
+### 4.6 Serialization and object security
+
+- Java native serialization risks
+- Unsafe deserialization
+- Gadget chains at a conceptual level
+- Serialization filters and object allowlists
+- Safer interchange formats such as JSON
+- XML External Entity (XXE) risks
+- Secure XML parser configuration
+- Reflection and unintended access
+- Dynamic class loading and untrusted classes
+- Unsafe object construction
+- Prototype or object-copying mistakes where applicable
+- Defensive copying and immutability
+
+### 4.7 Network and protocol security
+
+- TLS and HTTPS
+- Certificate validation
+- Hostname verification
+- Unsafe trust managers and hostname verifiers
+- Secure HTTP clients
+- Connection, read and request timeouts
+- Redirect handling
+- Server-Side Request Forgery (SSRF)
+- DNS rebinding concepts
+- Internal service access restrictions
+- URI and URL parsing pitfalls
+- Header injection
+- HTTP request smuggling concepts and deployment dependencies
+- Secure socket communication
+- Network allowlists and egress restrictions
+
+### 4.8 Concurrency and availability
+
+- Race conditions
+- Time-of-check/time-of-use bugs
+- Broken authorization checks under concurrency
+- Thread safety and shared mutable state
+- Unsafe publication of security-sensitive objects
+- Concurrent session and token state changes
+- Resource exhaustion
+- Unbounded queues and thread pools
+- Denial-of-service risks
+- ReDoS and unsafe regular expressions
+- Oversized request and decompression risks
+- Rate limiting and bounded resource consumption
+- Safe timeouts and cancellation
+
+### 4.9 Error handling, logging and secrets
+
+- Sensitive information in exception messages
+- Stack trace exposure
+- Logging passwords, tokens and personal data
+- Log injection
+- Secret hardcoding
+- Secrets in configuration files and repositories
+- Environment variables and secret managers
+- Secret rotation
+- Secure error messages
+- Security event logging
+- Audit trail integrity
+- Log retention and access control
+- Avoiding sensitive data in debug output
+
+### 4.10 Dependencies and JVM-related security
+
+- Vulnerable third-party dependencies
+- Dependency confusion and typosquatting
+- Transitive dependency risks
+- Software Composition Analysis (SCA)
+- SBOM concepts
+- Dependency pinning and integrity
+- Maven and Gradle dependency verification
+- Signed artifacts and trusted repositories
+- Secure JAR packaging
+- JVM security updates
+- Classpath and module-path concerns
+- Native library risks
+- Java Security Manager history and removal in modern Java
+- Avoiding outdated security recommendations
+- Secure build and CI/CD practices
+
+## 5. Section Two: Spring Framework Security
+
+Focus on vulnerabilities caused by Spring Framework features, configuration and application integration, without making Spring Boot mandatory.
+
+### 5.1 Spring security architecture and configuration
+
+- Spring Framework vs Spring Security
+- Servlet filter chain concepts
+- Spring MVC request lifecycle
+- Trust boundaries between filters, interceptors, controllers and services
+- Security configuration mistakes
+- Bean exposure and unintended application entry points
+- Secure XML and Java configuration
+- Dependency and version risks
+- Fail-open vs fail-closed behavior
+- Secure error handling and logging
+
+### 5.2 Spring MVC vulnerabilities
+
+- SQL injection in controller/service/DAO flows
+- Cross-Site Scripting (XSS)
+- Reflected, stored and DOM-based XSS
+- Output encoding and template escaping
+- Cross-Site Request Forgery (CSRF)
+- Open redirects
+- Path traversal
+- Unsafe file upload and download
+- Mass assignment and over-posting
+- Insecure object binding
+- Excessive data exposure
+- Broken access control
+- IDOR and missing ownership checks
+- HTTP method and content-type mistakes
+- CORS misconfiguration
+- Security-sensitive request parameters
+- Error and stack trace exposure
+- Insecure response headers
+- Unsafe redirects and forwarded URLs
+- Request size and resource-exhaustion issues
+
+### 5.3 Validation, binding and data access
+
+- Bean Validation and validation boundaries
+- Validation bypass caused by trusting the wrong layer
+- `@Valid` and `@Validated`
+- DTOs vs binding directly to persistence entities
+- Mass assignment
+- JDBC injection and prepared statements
+- ORM and JPQL injection risks
+- Unsafe native SQL
+- Dynamic sort and column identifiers
+- Data exposure through serialization
+- Tenant and ownership checks
+- Repository methods that bypass authorization
+- Safe transaction boundaries
+- Database least privilege
+
+### 5.4 Spring AOP and internal behavior
+
+- Proxy-based security assumptions
+- Self-invocation and skipped proxy advice
+- Method security and unprotected internal methods
+- Incorrect pointcut definitions
+- Advice ordering issues
+- Transaction and authorization boundary mistakes
+- Bean lifecycle and sensitive configuration
+- Reflection and dynamic proxy concerns
+- Safe extension points
+- Testing whether security advice is actually applied
+
+### 5.5 Framework integration risks
+
+- Secure XML parser and XXE configuration
+- Resource loading and arbitrary resource access
+- External HTTP client and SSRF risks
+- Session handling and cookie configuration
+- Serialization and message conversion
+- File resource exposure
+- Exception translation and information leaks
+- Internationalization and untrusted messages
+- WebSocket and messaging authorization where applicable
+- Secure handling of asynchronous tasks and propagated security context
+
+### 5.6 Spring Security fundamentals
+
+Teach Spring Security as a related framework and include:
+
+- Authentication architecture
+- Authorization architecture
+- `SecurityFilterChain`
+- `SecurityContext`
+- `AuthenticationManager` and providers
+- `UserDetailsService`
+- `PasswordEncoder`
+- In-memory and database-backed authentication
+- Role and authority checks
+- Request authorization
+- Method security
+- Form login and HTTP Basic
+- Session-based authentication
+- Session fixation protection
+- Logout and session invalidation
+- CSRF protection
+- CORS configuration
+- Security headers
+- Custom authentication failures
+- Access-denied handling
+- Security testing
+
+Include the correct version-specific configuration style. Do not default to obsolete `WebSecurityConfigurerAdapter` examples for modern Spring Security.
+
+## 6. Section Three: Spring Boot Security
+
+Focus on Spring Boot applications, REST APIs, production configuration and Spring Boot's integration with Spring Security.
+
+### 6.1 Boot configuration and startup security
+
+- Secure defaults and auto-configuration
+- Security starter dependencies
+- Custom `SecurityFilterChain`
+- Accidental replacement of secure defaults
+- Profile-specific security configuration
+- Development vs production configuration
+- Secrets in `application.properties` and YAML
+- Environment variable and secret-manager usage
+- Debug endpoints and diagnostic exposure
+- Error pages and stack traces
+- Actuator endpoint exposure
+- Health and metrics endpoint protection
+- CORS and cookie configuration
+- HTTPS and reverse-proxy configuration
+- Configuration precedence and unexpected overrides
+
+### 6.2 REST API security
+
+- Broken Object Level Authorization (BOLA)
+- Broken Function Level Authorization (BFLA)
+- IDOR
+- Broken Authentication
+- Excessive data exposure
+- Mass assignment
+- Missing authorization checks
+- Request validation
+- SQL injection
+- XSS in API data consumers and server-rendered views
+- CSRF for cookie-authenticated applications
+- CORS misconfiguration
+- Open redirects
+- SSRF
+- Path traversal
+- Unsafe file upload/download
+- Rate limiting
+- Resource exhaustion
+- API inventory and deprecated endpoints
+- Inconsistent HTTP status codes
+- Information disclosure
+- Security testing for each endpoint
+
+### 6.3 JWT security
+
+- JWT structure and claims
+- Signed tokens vs encrypted tokens
+- Authentication vs authorization claims
+- Algorithm selection and validation
+- Signature verification
+- Issuer and audience validation
+- Expiration and not-before validation
+- Clock skew
+- Key management and rotation
+- Token storage
+- Access and refresh tokens
+- Refresh-token rotation and replay detection
+- Revocation strategies
+- Token leakage in URLs and logs
+- Weak signing secrets
+- Algorithm confusion and unsafe verification configuration
+- Authorization checks after successful token verification
+- Multi-tenant token boundaries
+- JWT testing and common implementation mistakes
+
+Never teach the unsafe pattern of merely decoding a JWT and trusting its claims without verifying its signature and required claims.
+
+### 6.4 OAuth 2.0 and OpenID Connect
+
+- OAuth 2.0 roles and flows
+- OpenID Connect
+- Authorization Code flow with PKCE
+- Client credentials flow
+- Redirect URI validation
+- `state` and `nonce`
+- Scopes, audiences and resource servers
+- Access and refresh token handling
+- Confidential vs public clients
+- Client secrets
+- Token introspection where applicable
+- Secure logout considerations
+- Common OAuth implementation mistakes
+- Version-compatible Spring Security configuration
+
+Explain which flow is appropriate for browser applications, mobile clients, service-to-service communication and resource servers.
+
+### 6.5 Database and multi-tenant security
+
+- Least-privilege database accounts
+- SQL injection
+- ORM and native query security
+- Transaction integrity
+- Ownership validation
+- Tenant isolation
+- Cross-tenant data leakage
+- Repository authorization boundaries
+- Secure database credentials
+- Connection pool configuration
+- Audit logging
+- Safe bulk operations
+- Database migration security
+- Data encryption and retention
+- Tests that prove one tenant cannot access another tenant's data
+
+### 6.6 File, integration and messaging security
+
+- Secure multipart uploads
+- File type and size validation
+- Malware scanning integration concepts
+- Safe file storage and download authorization
+- Path traversal
+- SSRF through external integrations
+- HTTP client timeouts and redirect restrictions
+- Webhook authentication and replay prevention
+- Message broker credentials and TLS
+- Queue authorization
+- Message validation
+- Duplicate message and idempotency handling
+- Deserialization risks
+- Secret management for external services
+
+### 6.7 Production security
+
+- HTTPS and TLS
+- Reverse proxy and forwarded-header trust
+- Secure cookies
+- HSTS and other security headers
+- CSRF and CORS decisions
+- Rate limiting and abuse controls
+- Secrets management
+- Dependency scanning
+- Container image security
+- Non-root containers
+- Minimal runtime images
+- Least-privilege service accounts
+- CI/CD security
+- SBOM and artifact integrity
+- Logging and monitoring
+- Security incident response
+- Backup and recovery protection
+- Security configuration verification
+- Production readiness checklist
+
+## 7. Additional Cross-Cutting Vulnerabilities
+
+Ensure the three curricula collectively address these topics, assigning each lesson to the most relevant section and linking related lessons across sections:
+
+- SQL injection
+- Cross-Site Scripting (XSS): reflected, stored and DOM-based
+- Cross-Site Request Forgery (CSRF)
+- Broken access control
+- IDOR/BOLA and privilege escalation
+- Authentication and session-management weaknesses
+- Server-Side Request Forgery (SSRF)
+- Path traversal and arbitrary file access
+- File upload vulnerabilities
+- XML External Entity (XXE)
+- Unsafe deserialization
+- Command injection
+- LDAP injection
+- Expression language injection
+- Open redirects
+- Mass assignment
+- Security misconfiguration
+- Sensitive information disclosure
+- Weak cryptography
+- Password storage mistakes
+- JWT and OAuth implementation errors
+- CORS and security-header misconfiguration
+- Insecure direct resource access
+- HTTP request smuggling and related proxy/server parsing risks
+- Denial of service and resource exhaustion
+- Race conditions and TOCTOU
+- ReDoS
+- Dependency and supply-chain vulnerabilities
+- Secret exposure
+- Insecure logging and error handling
+- Missing rate limiting
+- Missing ownership/tenant checks
+- WebSocket and webhook security
+- Cache-related data leakage
+- Insecure temporary files and archive extraction
+- Business-logic abuse
+- Insecure defaults and unsafe configuration
+- API versioning and deprecated endpoint exposure
+- Inadequate authorization tests
+- Misconfigured production diagnostics
+
+Do not duplicate entire lessons unnecessarily. Create a canonical lesson and cross-link it from other categories when the same vulnerability appears in multiple technologies.
+
+## 8. Required Vulnerability Lab Examples
+
+Prioritize practical labs for at least these scenarios:
+
+1. SQL injection using unsafe JDBC string concatenation, then PreparedStatement.
+2. Stored and reflected XSS in a local web application, then context-appropriate output encoding.
+3. CSRF in a cookie-authenticated application, then framework CSRF protection.
+4. IDOR/BOLA where one user accesses another user's record, then object-level authorization.
+5. Missing role authorization, then endpoint and method-level authorization.
+6. Path traversal in file download, then safe path resolution and directory containment.
+7. Unsafe file upload, then content validation, size limits and safe storage.
+8. SSRF through a URL-fetching endpoint, then destination allowlisting and network restrictions.
+9. XXE in unsafe XML parsing, then secure parser configuration.
+10. Unsafe deserialization, then safer data formats or restrictive filters.
+11. Command injection, then avoiding shell interpretation and validating arguments.
+12. Passwords stored using plain text or a fast hash, then an appropriate password-hashing approach.
+13. Weak JWT verification, then signature and claim validation.
+14. Overly permissive CORS, then a restricted origin policy.
+15. Sensitive information in exception responses, then generic client errors and secure server-side logs.
+16. Hardcoded secrets, then externalized secrets and rotation.
+17. Cross-tenant access, then tenant-aware authorization and isolation tests.
+18. Missing rate limits, then bounded requests and appropriate throttling.
+19. Vulnerable dependencies, then scanning and controlled dependency updates.
+20. Insecure cookie/session configuration, then appropriate cookie attributes and session controls.
+
+These are minimum priority labs, not the complete curriculum.
+
+For every lab, provide a vulnerable implementation, exact local reproduction steps, fixed implementation and regression test.
+
+## 9. Safety and Isolation Requirements
+
+All deliberately vulnerable applications must be isolated training examples.
+
+- Use localhost, local containers or disposable test environments.
+- Use fake accounts, synthetic records and test-only credentials.
+- Never use real patient data, customer data, production secrets or third-party targets.
+- Do not include destructive payloads or instructions to attack systems without authorization.
+- For exploit demonstrations, focus on proving the security property has failed using harmless, controlled inputs.
+- Keep vulnerable code out of production paths and make its training-only status obvious.
+- Provide cleanup instructions for test databases and lab resources.
+- Prefer defensive tests and regression tests that can be run repeatedly.
+- Clearly explain when a reproduction requires a deliberately weakened local configuration.
+- Do not weaken real application security settings to make an example work.
+
+## 10. Automated Tests and Security Verification
+
+Where the existing stack supports them, include practical examples of:
+
+- Unit tests for input validation and secure utility methods.
+- Integration tests for repository and database security.
+- MockMvc tests for authentication and authorization.
+- Tests for unauthenticated and unauthorized requests.
+- Tests for cross-user and cross-tenant access.
+- Tests for validation failures and safe error responses.
+- Tests for CSRF protection where applicable.
+- Tests for security headers and CORS policy.
+- Tests for JWT issuer, audience, signature and expiration validation.
+- Dependency vulnerability scanning.
+- Static analysis and security-focused code review.
+- Regression tests that demonstrate a vulnerable behavior is no longer possible.
+
+Every lesson should state which security properties the tests prove and which risks still require other testing methods.
+
+Do not claim that a single passing test guarantees the application is secure.
+
+## 11. Security Standards and Version Accuracy
+
+Use recognized sources and standards as the basis for curriculum coverage:
+
+- OWASP Top 10 for web application security.
+- OWASP API Security Top 10.
+- OWASP ASVS for verifiable application security requirements.
+- OWASP Cheat Sheet Series for implementation guidance.
+- CWE for weakness classification.
+- NIST guidance where relevant to cryptography, authentication and secure development.
+- Official Java documentation.
+- Official Spring Framework and Spring Security documentation.
+- Official Spring Boot documentation.
+- Official dependency and testing tool documentation.
+
+Verify version-sensitive guidance against the relevant official documentation.
+
+Clearly distinguish:
+
+- Java security from Spring Framework security.
+- Spring Framework from Spring Security.
+- Spring Boot from Spring Security.
+- Browser-side protections from server-side protections.
+- Authentication from authorization.
+- Input validation from output encoding.
+- Encryption from hashing.
+- Vulnerability detection from proof of remediation.
+
+Do not recommend obsolete APIs or deprecated security practices as the default. When legacy code is useful for recognizing real-world issues, label it as legacy and show the modern replacement.
+
+## 12. Curriculum Index and Coverage Tracking
+
+Create a security coverage checklist within the project, documenting:
+
+- Vulnerability or control.
+- Relevant Java/Spring/Spring Boot section.
+- Lesson route or identifier.
+- CWE/OWASP references where appropriate.
+- Vulnerable example status.
+- Fixed example status.
+- Reproduction instructions status.
+- Regression test status.
+- Last verification date and applicable versions.
+
+Use this checklist to find missing topics and prevent duplicate lessons.
+
+Do not claim “all security issues are covered.” Instead, describe the actual coverage, identify known gaps and make the curriculum extensible.
+
+## 13. User Interface Requirements
+
+Follow the existing JavaTrail lesson layout.
+
+Each lesson should display clear sections such as:
+
+- Overview
+- Vulnerability
+- Insecure Code
+- Reproduce the Issue
+- Root Cause
+- Secure Fix
+- Verify the Fix
+- Prevention Checklist
+- Practice Exercise
+- Interview Questions
+- References
+
+Use clear visual distinctions for vulnerable code and corrected code without relying on color alone.
+
+Include syntax highlighting, copy-code controls and a code comparison where supported by the existing UI.
+
+Do not use an unsafe code execution feature or falsely claim that a code sample has been executed.
+
+If the current runner cannot execute Spring applications with external dependencies, explain how to run the lab using a local Maven/Gradle project and provide the necessary commands.
+
+## 14. Implementation Workflow
+
+Work in this order:
+
+1. Inspect the existing project.
+2. Identify reusable navigation, lesson, routing and testing components.
+3. Produce the security curriculum outline and coverage matrix.
+4. Add the Security top-level navigation and three category landing pages.
+5. Implement the reusable vulnerability lesson structure.
+6. Add the priority labs with vulnerable and fixed implementations.
+7. Integrate search and cross-links.
+8. Add relevant regression tests and security checks.
+9. Validate routes, responsive layout and existing functionality.
+10. Run available build and test commands.
+11. Report files changed, completed lessons, tests actually executed, known limitations and remaining curriculum work.
+
+Do not generate hundreds of empty lesson pages just to make the curriculum appear complete. Build reusable structure first and implement meaningful, verified lessons in stages.
+
+## Acceptance Criteria
+
+The task is complete only when:
+
+- The Security menu is visible and functional.
+- Java Security, Spring Framework Security and Spring Boot Security are separate categories.
+- The curriculum covers the major relevant vulnerability classes.
+- Every implemented vulnerability lesson includes reproduction, root-cause analysis, a secure fix and verification.
+- Vulnerable examples are explicitly restricted to isolated training labs.
+- Examples are version-appropriate and technically accurate.
+- Search, routes, navigation and responsive behavior work.
+- Existing JavaTrail functionality is preserved.
+- Relevant tests have been run and their results reported honestly.
+- Incomplete topics and limitations are documented.
+
+Start by inspecting the current JavaTrail project, then implement the security section using the existing architecture. Do not commit or push changes unless explicitly requested.

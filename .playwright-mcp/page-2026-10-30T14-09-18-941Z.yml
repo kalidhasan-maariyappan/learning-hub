@@ -1,0 +1,185 @@
+- generic [active] [ref=f11e1]:
+  - banner [ref=f11e2]:
+    - button "Toggle the Ruby menu" [ref=f11e3] [cursor=pointer]: ☰
+    - link "JT" [ref=f11e4] [cursor=pointer]:
+      - /url: /java/
+    - navigation "Sections" [ref=f11e6]:
+      - link "Java Core Advance" [ref=f11e7] [cursor=pointer]:
+        - /url: /java-core-advanced/
+      - link "Spring Framework" [ref=f11e8] [cursor=pointer]:
+        - /url: /spring/
+      - link "Spring Boot" [ref=f11e9] [cursor=pointer]:
+        - /url: /spring-boot/
+      - link "Security" [ref=f11e10] [cursor=pointer]:
+        - /url: /security/
+      - link "Ruby" [ref=f11e11] [cursor=pointer]:
+        - /url: /ruby/
+      - link "Rails" [ref=f11e12] [cursor=pointer]:
+        - /url: /rails/
+    - searchbox "Search Ruby lessons" [ref=f11e14]
+    - button "Toggle dark mode" [ref=f11e15] [cursor=pointer]: ◐
+  - complementary "Ruby navigation" [ref=f11e16]:
+    - heading "Ruby Tutorial" [level=2] [ref=f11e17]
+    - link "Ruby Home" [ref=f11e18] [cursor=pointer]:
+      - /url: /ruby/
+    - link "Ruby Intro" [ref=f11e19] [cursor=pointer]:
+      - /url: /ruby/ruby_intro
+    - link "Ruby Get Started" [ref=f11e20] [cursor=pointer]:
+      - /url: /ruby/ruby_get_started
+    - link "Ruby Syntax" [ref=f11e21] [cursor=pointer]:
+      - /url: /ruby/ruby_syntax
+    - link "Ruby Output" [ref=f11e22] [cursor=pointer]:
+      - /url: /ruby/ruby_output
+    - link "Ruby Comments" [ref=f11e23] [cursor=pointer]:
+      - /url: /ruby/ruby_comments
+    - link "Ruby Variables" [ref=f11e24] [cursor=pointer]:
+      - /url: /ruby/ruby_variables
+    - link "Ruby Data Types" [ref=f11e25] [cursor=pointer]:
+      - /url: /ruby/ruby_data_types
+    - link "Ruby Numbers" [ref=f11e26] [cursor=pointer]:
+      - /url: /ruby/ruby_numbers
+    - link "Ruby Strings" [ref=f11e27] [cursor=pointer]:
+      - /url: /ruby/ruby_strings
+    - link "Ruby String Methods" [ref=f11e28] [cursor=pointer]:
+      - /url: /ruby/ruby_string_methods
+    - link "Ruby Symbols" [ref=f11e29] [cursor=pointer]:
+      - /url: /ruby/ruby_symbols
+    - link "Ruby Booleans and nil" [ref=f11e30] [cursor=pointer]:
+      - /url: /ruby/ruby_booleans
+    - link "Ruby Operators" [ref=f11e31] [cursor=pointer]:
+      - /url: /ruby/ruby_operators
+    - link "Ruby Type Conversion" [ref=f11e32] [cursor=pointer]:
+      - /url: /ruby/ruby_conversion
+    - link "Ruby User Input" [ref=f11e33] [cursor=pointer]:
+      - /url: /ruby/ruby_input
+    - heading "Control Flow" [level=2] [ref=f11e34]
+    - link "Ruby If...Else" [ref=f11e35] [cursor=pointer]:
+      - /url: /ruby/ruby_if
+    - link "Ruby unless and Modifiers" [ref=f11e36] [cursor=pointer]:
+      - /url: /ruby/ruby_unless
+    - link "Ruby case...when" [ref=f11e37] [cursor=pointer]:
+      - /url: /ruby/ruby_case
+    - link "Ruby while and until" [ref=f11e38] [cursor=pointer]:
+      - /url: /ruby/ruby_loops
+    - link "Ruby Iterators" [ref=f11e39] [cursor=pointer]:
+      - /url: /ruby/ruby_iterators
+    - link "Ruby break and next" [ref=f11e40] [cursor=pointer]:
+      - /url: /ruby/ruby_break_next
+    - heading "Collections" [level=2] [ref=f11e41]
+    - link "Ruby Arrays" [ref=f11e42] [cursor=pointer]:
+      - /url: /ruby/ruby_arrays
+    - link "Ruby Array Methods" [ref=f11e43] [cursor=pointer]:
+      - /url: /ruby/ruby_array_methods
+    - link "Ruby Hashes" [ref=f11e44] [cursor=pointer]:
+      - /url: /ruby/ruby_hashes
+    - link "Ruby Hash Methods" [ref=f11e45] [cursor=pointer]:
+      - /url: /ruby/ruby_hash_methods
+    - link "Ruby Ranges" [ref=f11e46] [cursor=pointer]:
+      - /url: /ruby/ruby_ranges
+    - link "Ruby Enumerable" [ref=f11e47] [cursor=pointer]:
+      - /url: /ruby/ruby_enumerable
+    - heading "Methods and Blocks" [level=2] [ref=f11e48]
+    - link "Ruby Methods" [ref=f11e49] [cursor=pointer]:
+      - /url: /ruby/ruby_methods
+    - link "Ruby Method Arguments" [ref=f11e50] [cursor=pointer]:
+      - /url: /ruby/ruby_arguments
+    - link "Ruby Blocks and yield" [ref=f11e51] [cursor=pointer]:
+      - /url: /ruby/ruby_blocks
+    - link "Ruby Procs and Lambdas" [ref=f11e52] [cursor=pointer]:
+      - /url: /ruby/ruby_procs_lambdas
+    - heading "Object-Oriented Ruby" [level=2] [ref=f11e53]
+    - link "Ruby Classes and Objects" [ref=f11e54] [cursor=pointer]:
+      - /url: /ruby/ruby_classes
+    - link "Ruby Attributes" [ref=f11e55] [cursor=pointer]:
+      - /url: /ruby/ruby_attributes
+    - link "Ruby Class Methods" [ref=f11e56] [cursor=pointer]:
+      - /url: /ruby/ruby_class_methods
+    - link "Ruby Inheritance" [ref=f11e57] [cursor=pointer]:
+      - /url: /ruby/ruby_inheritance
+    - link "Ruby private and protected" [ref=f11e58] [cursor=pointer]:
+      - /url: /ruby/ruby_visibility
+    - link "Ruby Modules" [ref=f11e59] [cursor=pointer]:
+      - /url: /ruby/ruby_modules
+    - link "Ruby Mixins" [ref=f11e60] [cursor=pointer]:
+      - /url: /ruby/ruby_mixins
+    - link "Ruby Duck Typing" [ref=f11e61] [cursor=pointer]:
+      - /url: /ruby/ruby_duck_typing
+    - link "Ruby Object Equality" [ref=f11e62] [cursor=pointer]:
+      - /url: /ruby/ruby_equality
+    - heading "Ruby Advanced" [level=2] [ref=f11e63]
+    - link "Ruby Exceptions" [ref=f11e64] [cursor=pointer]:
+      - /url: /ruby/ruby_exceptions
+    - link "Ruby Custom Exceptions" [ref=f11e65] [cursor=pointer]:
+      - /url: /ruby/ruby_custom_exceptions
+    - link "Ruby File Handling" [ref=f11e66] [cursor=pointer]:
+      - /url: /ruby/ruby_files
+    - link "Ruby Struct and Data" [ref=f11e67] [cursor=pointer]:
+      - /url: /ruby/ruby_struct_data
+    - link "Ruby Pattern Matching" [ref=f11e68] [cursor=pointer]:
+      - /url: /ruby/ruby_pattern_matching
+    - link "Ruby Frozen Objects" [ref=f11e69] [cursor=pointer]:
+      - /url: /ruby/ruby_frozen
+    - link "Ruby Metaprogramming" [ref=f11e70] [cursor=pointer]:
+      - /url: /ruby/ruby_metaprogramming
+    - link "Ruby method_missing" [ref=f11e71] [cursor=pointer]:
+      - /url: /ruby/ruby_method_missing
+    - link "Ruby Gems and Bundler" [ref=f11e72] [cursor=pointer]:
+      - /url: /ruby/ruby_gems
+    - heading "Ruby Interview" [level=2] [ref=f11e73]
+    - link "Ruby Interview Questions" [ref=f11e74] [cursor=pointer]:
+      - /url: /ruby/ruby_interview
+    - link "Ruby Quiz" [ref=f11e75] [cursor=pointer]:
+      - /url: /ruby/ruby_quiz
+  - main [ref=f11e76]:
+    - heading "Ruby Hashes" [level=1] [ref=f11e77]
+    - generic [ref=f11e78]:
+      - link "❮ Previous" [ref=f11e79] [cursor=pointer]:
+        - /url: /ruby/ruby_array_methods
+      - link "Next ❯" [ref=f11e80] [cursor=pointer]:
+        - /url: /ruby/ruby_hash_methods
+    - separator [ref=f11e81]
+    - heading "Ruby Hashes" [level=2] [ref=f11e82]
+    - paragraph [ref=f11e83]: A hash stores key-value pairs. Keys are usually symbols. Hashes keep the order in which keys were inserted.
+    - generic [ref=f11e84]:
+      - heading "Example" [level=3] [ref=f11e85]
+      - generic [ref=f11e86]: "user = { name: \"Ada\", age: 36 } puts user[:name] user[:city] = \"London\" user[:age] += 1 p user p user[:email]"
+      - generic [ref=f11e87]:
+        - link "Try it Yourself »" [ref=f11e88] [cursor=pointer]:
+          - /url: /tryit?page=ruby_hashes&ex=0
+        - button "Run here" [ref=f11e89] [cursor=pointer]
+      - generic [ref=f11e90]: "Output Ada {name: \"Ada\", age: 37, city: \"London\"} nil"
+    - heading "Loop through a hash" [level=2] [ref=f11e91]
+    - generic [ref=f11e92]:
+      - heading "Example" [level=3] [ref=f11e93]
+      - generic [ref=f11e94]: "prices = { tea: 3, cake: 5 } prices.each do |item, price| puts \"#{item} costs #{price}\" end"
+      - generic [ref=f11e95]:
+        - link "Try it Yourself »" [ref=f11e96] [cursor=pointer]:
+          - /url: /tryit?page=ruby_hashes&ex=1
+        - button "Run here" [ref=f11e97] [cursor=pointer]
+      - generic [ref=f11e98]: Output tea costs 3 cake costs 5
+    - heading "Default values" [level=2] [ref=f11e99]
+    - paragraph [ref=f11e100]:
+      - code [ref=f11e101]: Hash.new(0)
+      - text: "returns 0 for missing keys, which makes counting easy:"
+    - generic [ref=f11e102]:
+      - heading "Example" [level=3] [ref=f11e103]
+      - generic [ref=f11e104]: "counts = Hash.new(0) \"banana\".each_char { |c| counts[c] += 1 } p counts"
+      - generic [ref=f11e105]:
+        - link "Try it Yourself »" [ref=f11e106] [cursor=pointer]:
+          - /url: /tryit?page=ruby_hashes&ex=2
+        - button "Run here" [ref=f11e107] [cursor=pointer]
+      - generic [ref=f11e108]: "Output {\"b\" => 1, \"a\" => 3, \"n\" => 2}"
+    - paragraph [ref=f11e110]:
+      - strong [ref=f11e111]: "Common mistake:"
+      - text: Mixing string and symbol keys.
+      - code [ref=f11e112]: user["name"]
+      - text: and
+      - code [ref=f11e113]: user[:name]
+      - text: are different keys.
+    - separator [ref=f11e114]
+    - generic [ref=f11e115]:
+      - link "❮ Previous" [ref=f11e116] [cursor=pointer]:
+        - /url: /ruby/ruby_array_methods
+      - link "Next ❯" [ref=f11e117] [cursor=pointer]:
+        - /url: /ruby/ruby_hash_methods
+  - contentinfo [ref=f11e118]: JavaTrail — an independent learning site. Java examples run through your local JDK and Ruby examples through your local Ruby; Spring Framework project snippets require their documented Spring dependencies.

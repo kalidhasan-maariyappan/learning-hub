@@ -1,0 +1,827 @@
+For JavaTrail, I’d create a separate top navigation menu called Spring Boot, following the W3Schools learning style: concepts in a logical order, simple explanations, small examples, expected output, exercises, and interview questions.
+
+Spring Boot should be taught as its own curriculum, separate from your Spring Framework menu. We’ll focus on how Spring Boot simplifies application setup and configuration, while still teaching the underlying concepts instead of just copying annotations.
+Spring Boot — proposed navigation menu
+
+
+
+
+
+
+
+
+
+1. Spring Boot HOME
+- What is Spring Boot?
+- Why was Spring Boot created?
+- Problems Spring Boot solves
+- Spring Framework vs Spring Boot
+- Spring Boot architecture
+- Advantages and disadvantages
+- Spring Boot prerequisites
+
+
+
+
+
+
+
+
+
+
+
+
+2. Spring Boot Get Started
+- Install Java and configure JDK
+- Maven vs Gradle
+- Create a project with Spring Initializr
+- Spring Boot project structure
+- pom.xml and build.gradle
+- Main application class
+- Run from IDE and terminal
+- First Spring Boot application
+- Build and run a JAR
+
+
+
+
+
+
+
+
+
+
+
+
+3. Spring Boot Core Concepts
+- @SpringBootApplication
+- SpringApplication.run()
+- Auto-configuration
+- Component scanning
+- Starter dependencies
+- Embedded servers
+- Convention over configuration
+- Spring Boot startup lifecycle
+- How Spring Boot uses the Spring Framework
+
+
+
+
+
+
+
+
+
+
+
+
+4. Beans and Dependency Injection
+- What is a Spring bean?
+- @Component, @Service, @Repository
+- @Configuration and @Bean
+- Constructor injection
+- @Autowired, @Qualifier, @Primary
+- Bean scopes and lifecycle
+- ApplicationContext
+- @Lazy and @Profile
+- Circular dependencies
+- Debugging bean creation errors
+
+
+
+
+
+
+
+
+
+
+
+
+5. Configuration and Profiles
+- application.properties
+- application.yml
+- Properties vs YAML
+- @Value
+- @ConfigurationProperties
+- Custom configuration classes
+- Development, testing and production profiles
+- @Profile
+- Environment variables
+- Command-line arguments
+- Externalized configuration
+- Configuration precedence
+- Secrets and sensitive settings
+
+
+
+
+
+
+
+
+
+
+
+
+6. Spring Boot Web and REST API
+- Embedded Tomcat and other supported servers
+- @RestController and @Controller
+- @RequestMapping
+- @GetMapping, @PostMapping
+- @PutMapping, @PatchMapping, @DeleteMapping
+- @PathVariable and @RequestParam
+- @RequestBody and @ResponseBody
+- HTTP status codes and ResponseEntity
+- JSON serialization and deserialization
+- Content negotiation
+- Request and response headers
+- DTOs (Data Transfer Objects)
+- Build CRUD REST APIs
+
+
+
+
+
+
+
+
+
+
+
+
+7. Validation and Exception Handling
+- Bean Validation fundamentals
+- @Valid and @Validated
+- @NotNull, @NotBlank, @Size, @Email
+- Custom validation
+- BindingResult
+- @ExceptionHandler
+- @ControllerAdvice and @RestControllerAdvice
+- ResponseStatusException
+- ProblemDetail where supported
+- Consistent API error responses
+- Logging exceptions safely
+
+
+
+
+
+
+
+
+
+
+
+
+8. Database and Spring Data JPA
+- JDBC vs JPA vs Hibernate
+- Configure PostgreSQL/MySQL
+- Datasource configuration
+- Entities and @Entity
+- Primary keys and @Id
+- JpaRepository and CRUD methods
+- Derived query methods
+- JPQL and native SQL queries
+- Pagination and sorting
+- One-to-one, one-to-many and many-to-many
+- Lazy vs eager loading
+- N+1 query problem
+- Database migrations with Flyway or Liquibase
+- Auditing and entity lifecycle callbacks
+
+
+
+
+
+
+
+
+
+
+
+
+9. Transaction Management
+- What is a database transaction?
+- ACID properties
+- @Transactional
+- Commit and rollback
+- Propagation types
+- Isolation levels
+- Read-only transactions
+- Rollback rules
+- Transaction boundaries
+- Proxy-based transaction behavior
+- Self-invocation pitfalls
+- Transactions across multiple operations
+
+
+
+
+
+
+
+
+
+
+
+
+10. Spring Boot Security
+- Authentication vs authorization
+- Spring Security architecture
+- SecurityFilterChain
+- In-memory and database authentication
+- PasswordEncoder
+- Roles and authorities
+- URL-based authorization
+- Method security
+- Form login and HTTP Basic
+- Session-based authentication
+- CSRF and CORS
+- JWT authentication
+- Refresh tokens and token expiry
+- OAuth 2.0 and OpenID Connect fundamentals
+- Secure password reset and logout
+
+
+
+
+
+
+
+
+
+
+
+
+11. Testing Spring Boot Applications
+- JUnit 5 fundamentals
+- Mockito and mock objects
+- Unit vs integration tests
+- @SpringBootTest
+- @WebMvcTest
+- @DataJpaTest
+- MockMvc
+- Mocking service dependencies
+- Repository tests
+- Test profiles and test properties
+- Testcontainers
+- Testing exceptions and validation
+- Code coverage and test strategy
+
+
+
+
+
+
+
+
+
+
+
+
+12. Actuator and Observability
+- What is Spring Boot Actuator?
+- Health endpoints
+- Application info
+- Metrics and Micrometer
+- Readiness and liveness probes
+- Custom health indicators
+- Logging configuration
+- Log levels and structured logging
+- Distributed tracing concepts
+- Metrics exposure and endpoint security
+
+
+
+
+
+
+
+
+
+
+
+
+13. Scheduling and Asynchronous Processing
+- @EnableScheduling and @Scheduled
+- Fixed rate vs fixed delay
+- Cron expressions
+- @EnableAsync and @Async
+- Configure thread pools
+- Handle async exceptions
+- CompletableFuture
+- Task execution and graceful shutdown
+- Scheduling pitfalls in multiple instances
+
+
+
+
+
+
+
+
+
+
+
+
+14. Caching
+- Why caching is needed
+- Spring Cache abstraction
+- @EnableCaching
+- @Cacheable
+- @CachePut
+- @CacheEvict
+- Cache keys and conditions
+- In-memory cache vs Redis
+- Cache invalidation
+- TTL, stale data and cache consistency
+- Cache-related testing
+
+
+
+
+
+
+
+
+
+
+
+
+15. Messaging and Event-Driven Applications
+- Application events
+- ApplicationEventPublisher
+- @EventListener
+- Synchronous vs asynchronous events
+- Message queues and brokers
+- Spring for Apache Kafka
+- Spring AMQP and RabbitMQ
+- Producers and consumers
+- Retry and dead-letter queues
+- Idempotency and duplicate messages
+- Event-driven architecture basics
+
+
+
+
+
+
+
+
+
+
+
+
+16. Calling External APIs
+- RestClient where supported
+- WebClient
+- RestTemplate and its current status
+- Configure timeouts
+- Headers, authentication and JSON
+- Handle HTTP errors
+- Retry and backoff
+- Connection pooling
+- Resilience patterns and circuit breakers
+- External API testing
+
+
+
+
+
+
+
+
+
+
+
+
+17. Packaging and Deployment
+- Executable JARs
+- JAR vs WAR
+- Embedded vs external servlet container
+- Maven and Gradle build lifecycle
+- Environment-specific configuration
+- Dockerizing a Spring Boot application
+- Docker Compose for local dependencies
+- JVM memory and container limits
+- Graceful shutdown
+- CI/CD fundamentals
+- Cloud deployment concepts
+
+
+
+
+
+
+
+
+
+
+
+
+18. Microservices with Spring Boot
+- Monolith vs microservices
+- Service-to-service communication
+- Centralized configuration
+- Service discovery
+- API Gateway
+- OpenFeign or HTTP clients
+- Timeouts, retries and circuit breakers
+- Resilience patterns
+- Distributed tracing
+- Distributed transactions and Saga basics
+- Idempotency
+- Spring Cloud overview as a separate ecosystem
+
+
+
+
+
+
+
+
+
+
+
+
+19. Performance and Production Readiness
+- Startup time and memory usage
+- Connection pool configuration
+- Thread pool sizing
+- Slow database queries
+- Pagination and bulk operations
+- N+1 query diagnosis
+- Caching strategies
+- Heap dumps and thread dumps
+- Profiling and Java Flight Recorder
+- Graceful degradation
+- Health checks and production diagnostics
+
+
+
+
+
+
+
+
+
+
+
+
+20. Troubleshooting
+- Failed application startup
+- Port already in use
+- Missing or ambiguous beans
+- Circular dependency errors
+- Database connection failures
+- Schema and migration errors
+- HTTP 400, 401, 403, 404, 405 and 500
+- HTTP 415 and 406
+- Unexpected transaction rollback
+- Security filter-chain debugging
+- Logging and diagnostic techniques
+
+
+
+
+
+
+
+
+
+
+
+
+21. Design and Best Practices
+- Controller-Service-Repository architecture
+- DTO vs Entity
+- Dependency inversion
+- Clean separation of concerns
+- Mapping and validation boundaries
+- API versioning
+- Pagination and consistent responses
+- Configuration and secrets management
+- Avoiding fat controllers and services
+- Avoiding unnecessary abstractions
+- Maintainable package structure
+
+
+
+
+
+
+
+
+
+
+
+
+22. Spring Boot Internals
+- How auto-configuration works
+- @ConditionalOnClass and related conditions
+- Auto-configuration imports and registration
+- How starters work
+- Configuration properties binding
+- Bean creation and context refresh
+- Embedded server startup
+- Custom auto-configuration
+- Custom starter development
+- Debugging the condition evaluation report
+
+
+
+
+
+
+
+
+
+
+
+
+23. Practical Projects
+- Employee CRUD REST API
+- Student management API with validation
+- Authentication and authorization API
+- PostgreSQL application with pagination
+- Transactional money-transfer example
+- File upload and download API
+- Redis caching example
+- Scheduled report-generation job
+- External API integration
+- Kafka event producer and consumer
+- Production-style REST API with tests and logging
+
+
+
+
+
+
+
+
+
+
+
+
+24. Interview Questions and Exercises
+- Beginner, intermediate and advanced questions
+- Scenario-based questions
+- “What, why and how is it implemented?”
+- Debugging exercises
+- Code-output questions
+- REST API design scenarios
+- Database and transaction scenarios
+- Security scenarios
+- Performance and production incidents
+- Six-year-experience interview preparation
+
+
+
+Codex prompt — create the Spring Boot section
+Copy this prompt into Codex. It instructs Codex to inspect your existing JavaTrail project and implement the Spring Boot navigation using the same architecture and styling as your current tutorials.
+Task: Add a Complete Spring Boot Learning Section to JavaTrail
+Act as a senior Java developer, Spring Boot instructor, and frontend engineer who is building a W3Schools-style educational website.
+Objective
+Add a new top-level navigation menu named Spring Boot to the existing JavaTrail website.
+
+The section must provide a structured, beginner-to-advanced Spring Boot curriculum with individual lesson pages, practical examples, expected outputs, exercises, and interview questions.
+
+This is a real implementation task. Do not only provide a plan or a list of topics.
+1. Inspect the Existing Project First
+Before making changes:
+1. Inspect the existing folder structure and identify the frontend architecture.
+2. Find the current top navigation, sidebar, lesson pages, routing logic, search functionality, and CSS.
+3. Inspect how the existing Java tutorials store and render lesson content.
+4. Identify the current code execution API and determine which languages and dependencies it supports.
+5. Identify existing navigation, responsive layout, theme, and lesson components that can be reused.
+6. Check the installed Java version and existing Maven/Gradle configuration if available.
+7. Create a concise implementation plan based on the actual codebase.
+Follow the existing project conventions. Do not replace the existing application architecture.
+2. Add the Top Navigation
+Add a top-level menu called Spring Boot beside the existing language and framework menus.
+
+Requirements:
+- Match the existing JavaTrail navigation style.
+- Provide a suitable landing page.
+- Make the navigation work on desktop, tablet, and mobile.
+- Add a sidebar containing the Spring Boot lesson categories.
+- Highlight the active lesson and current category.
+- Support previous lesson and next lesson navigation.
+- Preserve all existing navigation and Java tutorial behavior.
+- Reuse existing CSS classes and components wherever possible.
+- Avoid duplicate navigation logic.
+3. Create These Curriculum Categories
+Implement these categories in a logical learning order:
+1. Spring Boot HOME
+2. Spring Boot Get Started
+3. Spring Boot Core Concepts
+4. Beans and Dependency Injection
+5. Configuration and Profiles
+6. Spring Boot Web and REST API
+7. Validation and Exception Handling
+8. Database and Spring Data JPA
+9. Transaction Management
+10. Spring Boot Security
+11. Testing Spring Boot Applications
+12. Actuator and Observability
+13. Scheduling and Asynchronous Processing
+14. Caching
+15. Messaging and Event-Driven Applications
+16. Calling External APIs
+17. Packaging and Deployment
+18. Microservices with Spring Boot
+19. Performance and Production Readiness
+20. Troubleshooting
+21. Design and Best Practices
+22. Spring Boot Internals
+23. Practical Projects
+24. Interview Questions and Exercises
+Create individual lesson entries under each category rather than displaying only these category names.
+
+Include the following topics in their appropriate lessons:
+- Spring Boot vs Spring Framework
+- Spring Initializr, Maven, Gradle and project structure
+- @SpringBootApplication and SpringApplication.run()
+- Auto-configuration, starter dependencies and embedded servers
+- @Component, @Service, @Repository, @Bean and @Configuration
+- Constructor injection, @Autowired, @Qualifier and @Primary
+- application.properties, YAML, profiles and externalized configuration
+- REST controllers, HTTP methods, DTOs and ResponseEntity
+- Validation, exception handling and consistent API errors
+- Spring Data JPA, Hibernate, repositories and entity relationships
+- Pagination, sorting, lazy loading and the N+1 problem
+- @Transactional, propagation, isolation and rollback behavior
+- Spring Security, authentication, authorization, JWT, CSRF and CORS
+- JUnit, Mockito, integration tests, MockMvc and Testcontainers
+- Actuator, metrics, health checks and logging
+- Scheduling, asynchronous tasks, caching, Redis and messaging
+- External API calls, timeouts, retries and resilience
+- Executable JARs, Docker, deployment and CI/CD
+- Microservices, API gateways, service discovery and distributed tracing
+- Auto-configuration internals and custom starter development
+- Production troubleshooting, performance and scenario-based interviews
+4. Every Lesson Must Follow a Consistent Teaching Format
+Use a W3Schools-like educational format.
+
+Each lesson should contain:
+1. What is it? — a simple definition.
+2. Why do we need it? — the problem it solves.
+3. How does it work? — explain the internal flow in simple steps.
+4. Prerequisites — explain what the learner should know first.
+5. Syntax and configuration — explain relevant annotations, classes and configuration.
+6. Practical example — provide complete, meaningful code.
+7. Expected output — show the output or HTTP response the learner should expect.
+8. Step-by-step explanation — explain important lines and execution flow.
+9. Real-world scenario — demonstrate where the concept is used in an actual application.
+10. Common mistakes — explain frequent errors and how to fix them.
+11. Best practices — show the recommended approach and explain why.
+12. Interview questions — include questions with answers appropriate to the lesson.
+13. Practice exercise — give a task with requirements and expected behavior.
+14. Related lessons — link to relevant lessons within JavaTrail.
+Do not repeat the same generic content for every lesson. Each lesson must teach its own concept accurately and meaningfully.
+5. Code Example Requirements
+Use Java and genuine Spring Boot examples.
+
+For REST API lessons, show realistic examples such as:
+- Controller
+- Service
+- Repository
+- DTO
+- Entity
+- Configuration
+- Request and response
+- Validation
+- Exception handling
+- Database interaction
+- Relevant dependencies
+Keep examples small enough for beginners to understand. Introduce additional layers only when they help explain the current concept.
+
+When appropriate, show:
+- The complete code
+- The file name and location
+- Required Maven or Gradle dependencies
+- The request to send
+- Expected HTTP status
+- Expected JSON response
+- How the request flows through the application
+For example, a CRUD lesson should explain how a request moves from the controller to the service and repository and then back to the client.
+
+Do not present incomplete snippets as complete, runnable projects.
+6. Code Execution Must Be Honest
+Inspect the existing JavaTrail code runner before deciding how examples should behave.
+
+If the current runner compiles only standalone Java code and cannot resolve Spring Boot dependencies:
+- Do not claim Spring Boot code can run in that runner.
+- Do not attempt to run Spring examples through an incompatible endpoint.
+- Clearly identify Spring Boot examples as Maven/Gradle project examples.
+- Provide the required project structure and run commands.
+- Show expected output based on the actual code.
+- Where appropriate, provide separate plain-Java demonstrations for supporting concepts.
+- Reuse the current code editor or syntax-highlighting components if available.
+Do not introduce a new execution backend unless it is explicitly necessary and can be implemented safely within the existing project.
+7. Version and Dependency Accuracy
+Inspect the existing project and select a supported Spring Boot baseline compatible with its Java version.
+
+Use official Spring documentation to verify version-sensitive details, dependencies, annotations, and recommended practices.
+- Keep the curriculum consistent with the chosen Spring Boot version.
+- Explain meaningful differences between major versions where relevant.
+- Do not mix incompatible dependency versions.
+- Use the correct Spring Boot Maven parent or Gradle plugin where appropriate.
+- Explain when a feature belongs to Spring Framework, Spring Boot, Spring Security, Spring Data, or Spring Cloud.
+- Do not teach deprecated APIs as the default approach.
+- Clearly label legacy approaches when they are included for interview or migration purposes.
+8. User Interface and Learning Experience
+Make the Spring Boot section feel like a natural part of JavaTrail.
+
+Include, where supported by the existing application:
+- Top navigation entry
+- Landing page with a short introduction
+- Sidebar with collapsible topic groups
+- Active lesson highlighting
+- Previous and next lesson links
+- Lesson search integration
+- Code syntax highlighting
+- Copy-code functionality
+- Responsive code blocks
+- Tables for comparisons
+- Useful diagrams for architecture and execution flows
+- Exercises and interview question sections
+- Clear prerequisite and related-topic links
+Use diagrams only when they improve understanding. Do not add decorative diagrams that do not explain the concept.
+
+Do not redesign unrelated parts of the site.
+9. Curriculum Content Quality
+Write explanations in simple, clear English.
+
+Teach concepts progressively:
+- Start with what the concept means.
+- Explain why it exists.
+- Show a small example.
+- Explain the execution flow.
+- Then introduce real-world usage and advanced details.
+Distinguish Spring Boot from Spring Framework throughout the curriculum. Spring Boot builds on Spring Framework; the two should not be presented as unrelated technologies.
+
+Do not make every lesson a Spring Boot annotation reference. Teach the underlying reasoning, lifecycle, configuration, trade-offs, and debugging techniques.
+
+Include beginner, intermediate, and advanced material, with additional scenario-based questions for experienced developers.
+10. Search and Navigation Integration
+Integrate the new lessons into the existing search and navigation mechanisms.
+
+Ensure:
+- Every lesson has a unique route or identifier.
+- Sidebar links open the correct lesson.
+- Browser refresh works on lesson routes.
+- Direct navigation to a lesson works.
+- Search returns relevant Spring Boot lessons.
+- Previous and next links follow the intended curriculum order.
+- Existing Java tutorial routes continue to work.
+Use the existing routing mechanism rather than adding a new routing library without a clear need.
+11. Testing and Validation
+After implementation, test:
+- Spring Boot menu visibility and navigation.
+- Landing page and individual lesson routes.
+- Sidebar category expansion and active lesson state.
+- Search results.
+- Previous and next lesson navigation.
+- Responsive layout.
+- Code formatting and copy functionality.
+- Browser console errors.
+- Existing Java tutorial navigation and functionality.
+- Build or test commands supported by the repository.
+Fix issues introduced by the changes.
+
+Do not report a test as passed unless it was actually run successfully.
+12. Implementation Workflow
+Follow this sequence:
+1. Inspect the current codebase.
+2. Report the relevant existing files and a concise plan.
+3. Implement the top navigation and Spring Boot landing page.
+4. Add the curriculum structure and lesson routes.
+5. Implement reusable lesson content rendering using existing patterns.
+6. Add meaningful lesson content and examples.
+7. Integrate search, sidebar state, and previous/next navigation.
+8. Add or update tests.
+9. Run available validation commands.
+10. Report the files changed, features implemented, tests run, and any remaining limitations.
+Final Constraints
+- Work inside the existing JavaTrail project.
+- Preserve existing functionality.
+- Reuse the existing stack, styles and conventions.
+- Do not migrate the application to React or Angular.
+- Do not add unnecessary dependencies.
+- Do not generate empty lesson pages just to make every route appear complete.
+- Prioritize a functional, maintainable implementation and accurate educational content.
+- Do not commit or push changes unless explicitly requested.
+Begin by inspecting the existing project. Then implement the Spring Boot section according to these requirements.
+
+
+
+
+Recommended implementation order
+Don't ask Codex to perfect all 24 sections at once if that would lead to shallow content. Have it build the navigation and curriculum structure first, then fill lessons in stages.
+1. Foundation: Spring Boot HOME, Get Started, Core Concepts, Beans, Dependency Injection, Configuration.
+2. Backend development: REST APIs, Validation, JPA, Transactions, Security and Testing.
+3. Production skills: Actuator, Async, Caching, Messaging, External APIs, Deployment.
+4. Advanced learning: Microservices, Internals, Troubleshooting, Projects and Interviews.
+This gives you a W3Schools-like Spring Boot learning path while keeping it distinct from the Spring Framework section you planned earlier.

@@ -1,0 +1,200 @@
+- generic [active] [ref=f5e1]:
+  - banner [ref=f5e2]:
+    - button "Toggle the Java Core Advance menu" [ref=f5e3] [cursor=pointer]: ☰
+    - link "JT JavaTrail" [ref=f5e4] [cursor=pointer]:
+      - /url: /java/
+      - generic [ref=f5e5]: JT
+      - generic [ref=f5e6]: JavaTrail
+    - navigation "Sections" [ref=f5e7]:
+      - link "Java Core Advance" [ref=f5e8] [cursor=pointer]:
+        - /url: /java-core-advanced/
+      - link "Spring Framework" [ref=f5e9] [cursor=pointer]:
+        - /url: /spring/
+      - link "Spring Boot" [ref=f5e10] [cursor=pointer]:
+        - /url: /spring-boot/
+      - link "Security" [ref=f5e11] [cursor=pointer]:
+        - /url: /security/
+    - searchbox "Search the Java tutorial" [ref=f5e13]
+    - button "Toggle dark mode" [ref=f5e14] [cursor=pointer]: ◐
+  - complementary "Java Core Advance navigation" [ref=f5e15]:
+    - heading "Java Core Advanced" [level=2] [ref=f5e16]
+    - link "Course Home" [ref=f5e17] [cursor=pointer]:
+      - /url: /java-core-advanced/
+    - generic [ref=f5e18]:
+      - link "JVM & Runtime" [ref=f5e19] [cursor=pointer]:
+        - /url: /java-core-advanced/java_ca_group_runtime_compilation
+      - button "Show JVM & Runtime sub-topics" [ref=f5e20] [cursor=pointer]: ▼
+    - generic [ref=f5e21]:
+      - link "Object Equality & Immutability" [ref=f5e22] [cursor=pointer]:
+        - /url: /java-core-advanced/java_ca_oop
+      - button "Show Object Equality & Immutability sub-topics" [ref=f5e23] [cursor=pointer]: ▼
+    - generic [ref=f5e24]:
+      - link "HashMap Internals" [ref=f5e25] [cursor=pointer]:
+        - /url: /java-core-advanced/java_ca_collections
+      - button "Show HashMap Internals sub-topics" [expanded] [ref=f5e26] [cursor=pointer]: ▲
+    - generic [ref=f5e27]:
+      - link "Section overview" [ref=f5e28] [cursor=pointer]:
+        - /url: /java-core-advanced/java_ca_collections
+      - link "Hashing and bucket index" [ref=f5e29] [cursor=pointer]:
+        - /url: /java-core-advanced/java_ca_hashmap_internals_bucket_index
+      - link "Hash collisions" [ref=f5e30] [cursor=pointer]:
+        - /url: /java-core-advanced/java_ca_hashmap_internals_hash_collisions
+      - link "Treeified bins (Java 8+)" [ref=f5e31] [cursor=pointer]:
+        - /url: /java-core-advanced/java_ca_hashmap_internals_tree_bins
+      - link "Capacity, load factor and threshold" [ref=f5e32] [cursor=pointer]:
+        - /url: /java-core-advanced/java_ca_hashmap_internals_capacity_load_factor
+      - link "Resizing and rehashing" [ref=f5e33] [cursor=pointer]:
+        - /url: /java-core-advanced/java_ca_hashmap_internals_hashmap_resize
+      - link "put() and get() internal flow" [ref=f5e34] [cursor=pointer]:
+        - /url: /java-core-advanced/java_ca_hashmap_internals_put_get_flow
+      - link "HashMap time complexity" [ref=f5e35] [cursor=pointer]:
+        - /url: /java-core-advanced/java_ca_hashmap_internals_hashmap_complexity
+    - generic [ref=f5e36]:
+      - link "Collections Internals" [ref=f5e37] [cursor=pointer]:
+        - /url: /java-core-advanced/java_ca_group_advanced_collections
+      - button "Show Collections Internals sub-topics" [ref=f5e38] [cursor=pointer]: ▼
+    - generic [ref=f5e39]:
+      - link "Generics" [ref=f5e40] [cursor=pointer]:
+        - /url: /java-core-advanced/java_ca_generics
+      - button "Show Generics sub-topics" [ref=f5e41] [cursor=pointer]: ▼
+    - generic [ref=f5e42]:
+      - link "Exception Handling" [ref=f5e43] [cursor=pointer]:
+        - /url: /java-core-advanced/java_ca_exceptions
+      - button "Show Exception Handling sub-topics" [ref=f5e44] [cursor=pointer]: ▼
+    - generic [ref=f5e45]:
+      - link "Multithreading Fundamentals" [ref=f5e46] [cursor=pointer]:
+        - /url: /java-core-advanced/java_ca_concurrency
+      - button "Show Multithreading Fundamentals sub-topics" [ref=f5e47] [cursor=pointer]: ▼
+    - generic [ref=f5e48]:
+      - link "Executors & Asynchronous Java" [ref=f5e49] [cursor=pointer]:
+        - /url: /java-core-advanced/java_ca_group_executors_async
+      - button "Show Executors & Asynchronous Java sub-topics" [ref=f5e50] [cursor=pointer]: ▼
+    - generic [ref=f5e51]:
+      - link "Locks & Concurrency Utilities" [ref=f5e52] [cursor=pointer]:
+        - /url: /java-core-advanced/java_ca_group_synchronization_utilities
+      - button "Show Locks & Concurrency Utilities sub-topics" [ref=f5e53] [cursor=pointer]: ▼
+    - generic [ref=f5e54]:
+      - link "Lambdas & Streams" [ref=f5e55] [cursor=pointer]:
+        - /url: /java-core-advanced/java_ca_functional
+      - button "Show Lambdas & Streams sub-topics" [ref=f5e56] [cursor=pointer]: ▼
+    - generic [ref=f5e57]:
+      - link "JVM Memory & Garbage Collection" [ref=f5e58] [cursor=pointer]:
+        - /url: /java-core-advanced/java_ca_memory_gc
+      - button "Show JVM Memory & Garbage Collection sub-topics" [ref=f5e59] [cursor=pointer]: ▼
+    - generic [ref=f5e60]:
+      - link "Modern Java (17 to 21)" [ref=f5e61] [cursor=pointer]:
+        - /url: /java-core-advanced/java_ca_modern
+      - button "Show Modern Java (17 to 21) sub-topics" [ref=f5e62] [cursor=pointer]: ▼
+    - generic [ref=f5e63]:
+      - link "Reflection, Annotations & Proxies" [ref=f5e64] [cursor=pointer]:
+        - /url: /java-core-advanced/java_ca_reflection
+      - button "Show Reflection, Annotations & Proxies sub-topics" [ref=f5e65] [cursor=pointer]: ▼
+    - generic [ref=f5e66]:
+      - link "Date/Time & HTTP Client" [ref=f5e67] [cursor=pointer]:
+        - /url: /java-core-advanced/java_ca_datetime
+      - button "Show Date/Time & HTTP Client sub-topics" [ref=f5e68] [cursor=pointer]: ▼
+    - generic [ref=f5e69]:
+      - link "Files & I/O" [ref=f5e70] [cursor=pointer]:
+        - /url: /java-core-advanced/java_ca_io_nio
+      - button "Show Files & I/O sub-topics" [ref=f5e71] [cursor=pointer]: ▼
+    - generic [ref=f5e72]:
+      - link "Performance" [ref=f5e73] [cursor=pointer]:
+        - /url: /java-core-advanced/java_ca_performance
+      - button "Show Performance sub-topics" [ref=f5e74] [cursor=pointer]: ▼
+    - generic [ref=f5e75]:
+      - link "Production Diagnostics" [ref=f5e76] [cursor=pointer]:
+        - /url: /java-core-advanced/java_ca_diagnostics
+      - button "Show Production Diagnostics sub-topics" [ref=f5e77] [cursor=pointer]: ▼
+    - generic [ref=f5e78]:
+      - link "Design Patterns & JDBC" [ref=f5e79] [cursor=pointer]:
+        - /url: /java-core-advanced/java_ca_patterns
+      - button "Show Design Patterns & JDBC sub-topics" [ref=f5e80] [cursor=pointer]: ▼
+  - main [ref=f5e81]:
+    - heading "Java HashMap Internals" [level=1] [ref=f5e82]
+    - generic [ref=f5e83]:
+      - link "❮ Previous" [ref=f5e84] [cursor=pointer]:
+        - /url: /java-core-advanced/java_ca_object_internals_immutability_copying
+      - link "Next ❯" [ref=f5e85] [cursor=pointer]:
+        - /url: /java-core-advanced/java_ca_hashmap_internals_bucket_index
+    - separator [ref=f5e86]
+    - heading "HashMap Internals" [level=2] [ref=f5e87]
+    - paragraph [ref=f5e88]: HashMap stores key-value pairs in a table of buckets. A key hash narrows the search to a bucket, and equality identifies the matching key there.
+    - paragraph [ref=f5e89]: Knowing this behavior helps explain lookup speed, collisions, resizing, key requirements and why changing a key after insertion breaks lookups.
+    - generic [ref=f5e90]:
+      - paragraph [ref=f5e91]:
+        - strong [ref=f5e92]: In this section
+      - list [ref=f5e93]:
+        - listitem [ref=f5e94]: HashMap iteration order is unspecified.
+        - listitem [ref=f5e95]: Collisions are handled within a bucket.
+        - listitem [ref=f5e96]: Never mutate fields used by a key’s equals() or hashCode() while it is stored.
+    - heading "Lessons" [level=2] [ref=f5e97]
+    - list [ref=f5e98]:
+      - listitem [ref=f5e99]:
+        - link "Hashing and bucket index" [ref=f5e100] [cursor=pointer]:
+          - /url: /java-core-advanced/java_ca_hashmap_internals_bucket_index
+      - listitem [ref=f5e101]:
+        - link "Hash collisions" [ref=f5e102] [cursor=pointer]:
+          - /url: /java-core-advanced/java_ca_hashmap_internals_hash_collisions
+      - listitem [ref=f5e103]:
+        - link "Treeified bins (Java 8+)" [ref=f5e104] [cursor=pointer]:
+          - /url: /java-core-advanced/java_ca_hashmap_internals_tree_bins
+      - listitem [ref=f5e105]:
+        - link "Capacity, load factor and threshold" [ref=f5e106] [cursor=pointer]:
+          - /url: /java-core-advanced/java_ca_hashmap_internals_capacity_load_factor
+      - listitem [ref=f5e107]:
+        - link "Resizing and rehashing" [ref=f5e108] [cursor=pointer]:
+          - /url: /java-core-advanced/java_ca_hashmap_internals_hashmap_resize
+      - listitem [ref=f5e109]:
+        - link "put() and get() internal flow" [ref=f5e110] [cursor=pointer]:
+          - /url: /java-core-advanced/java_ca_hashmap_internals_put_get_flow
+      - listitem [ref=f5e111]:
+        - link "HashMap time complexity" [ref=f5e112] [cursor=pointer]:
+          - /url: /java-core-advanced/java_ca_hashmap_internals_hashmap_complexity
+    - paragraph [ref=f5e113]:
+      - link "Start with Hashing and bucket index ❯" [ref=f5e114] [cursor=pointer]:
+        - /url: /java-core-advanced/java_ca_hashmap_internals_bucket_index
+    - heading "Quick quiz" [level=2] [ref=f5e115]
+    - paragraph [ref=f5e116]: Check your understanding of this section.
+    - generic [ref=f5e117]:
+      - generic [ref=f5e118]:
+        - generic [ref=f5e119]: Question 1 of 2
+        - paragraph [ref=f5e120]:
+          - strong [ref=f5e121]: What does a HashMap use after selecting a bucket to identify an equal key?
+        - generic [ref=f5e122] [cursor=pointer]:
+          - radio "equals()" [ref=f5e123]
+          - text: equals()
+        - generic [ref=f5e124] [cursor=pointer]:
+          - radio "compareTo() only" [ref=f5e125]
+          - text: compareTo() only
+        - generic [ref=f5e126] [cursor=pointer]:
+          - radio "Object identity only" [ref=f5e127]
+          - text: Object identity only
+        - generic [ref=f5e128] [cursor=pointer]:
+          - radio "toString()" [ref=f5e129]
+          - text: toString()
+      - generic [ref=f5e130]:
+        - generic [ref=f5e131]: Question 2 of 2
+        - paragraph [ref=f5e132]:
+          - strong [ref=f5e133]: Which collection is a common choice for FIFO queue behavior without capacity limits?
+        - generic [ref=f5e134] [cursor=pointer]:
+          - radio "ArrayDeque" [ref=f5e135]
+          - text: ArrayDeque
+        - generic [ref=f5e136] [cursor=pointer]:
+          - radio "TreeMap" [ref=f5e137]
+          - text: TreeMap
+        - generic [ref=f5e138] [cursor=pointer]:
+          - radio "HashSet" [ref=f5e139]
+          - text: HashSet
+        - generic [ref=f5e140] [cursor=pointer]:
+          - radio "StringBuilder" [ref=f5e141]
+          - text: StringBuilder
+      - generic [ref=f5e142]:
+        - button "Submit answers" [ref=f5e143] [cursor=pointer]
+        - button "Try again" [ref=f5e144] [cursor=pointer]
+    - separator [ref=f5e145]
+    - generic [ref=f5e146]:
+      - link "❮ Previous" [ref=f5e147] [cursor=pointer]:
+        - /url: /java-core-advanced/java_ca_object_internals_immutability_copying
+      - link "Next ❯" [ref=f5e148] [cursor=pointer]:
+        - /url: /java-core-advanced/java_ca_hashmap_internals_bucket_index
+  - contentinfo [ref=f5e149]: JavaTrail — an independent learning site. Java examples run through your local JDK; Spring Framework project snippets require their documented Spring dependencies.

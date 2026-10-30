@@ -1,0 +1,21 @@
+- generic [active] [ref=f10e1]:
+  - generic [ref=f10e2]:
+    - link "JT JavaTrail" [ref=f10e3] [cursor=pointer]:
+      - /url: /java/
+      - generic [ref=f10e4]: JT
+      - generic [ref=f10e5]: JavaTrail
+    - button "Run ❯" [disabled] [ref=f10e6]
+    - generic [ref=f10e7]: Ruby User Input — example 1
+    - button "Change orientation" [ref=f10e8] [cursor=pointer]: ⇅
+    - button "Toggle dark mode" [ref=f10e9] [cursor=pointer]: ◐
+  - generic [ref=f10e10]:
+    - generic [ref=f10e12]:
+      - generic [aria-hidden]: "print \"What is your name? \" name = gets.chomp puts \"Hello, #{name}!\""
+      - textbox "Ruby code editor" [ref=f10e13]: "print \"What is your name? \" name = gets.chomp puts \"Hello, #{name}!\""
+    - separator "Resize panes" [ref=f10e14]
+    - generic [ref=f10e15]:
+      - group [ref=f10e16]:
+        - generic "Program input (stdin)" [ref=f10e17] [cursor=pointer]
+        - textbox "Text typed here is sent to $stdin (gets) when the program runs." [ref=f10e18]: Ada
+      - generic [ref=f10e19]: Running…
+      - generic [ref=f10e20]: "Result size: 696 x 848"

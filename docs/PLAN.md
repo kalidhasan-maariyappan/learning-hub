@@ -68,6 +68,7 @@ public/
   js/core.js        JT.esc, JT.highlight (regex tokenizer), JT.createEditor, JT.runJava,
                     JT.showResult, JT.normalizeOutput, theme toggle
   js/nav.js         JT.nav (sidebar tree), JT.order (Prev/Next order), JT.navInfo[slug]
+  js/core-advanced-nav.js  separate advanced navigation/order for `/java-core-advanced/`
   js/app.js         router, sidebar rendering, search, page registry, content helpers,
                     exercise/challenge/quiz engines
   js/tryit.js       Try-it page logic (reads ?page=<slug>&ex=<index>)
@@ -86,6 +87,7 @@ Everything hangs off a single global, `window.JT`.
 - `JT.order` is the flattened reading order used for Previous/Next; each slug appears once.
 - `JT.navInfo[slug] = { title, parent, group, fullTitle, heading }`.
 - **The sidebar tree is the single source of truth for which pages exist.** Every slug in `nav.js` must have a page registered in a content file, and no content file may register a slug that is not in `nav.js`.
+- Java Core Advanced has a separate `JT.coreAdvNav`, `JT.coreAdvOrder`, and `JT.coreAdvInfo`. Its sidebar, search, and Previous/Next stay inside `/java-core-advanced/`; the existing Java Tutorial remains under `/java/`.
 
 ---
 
@@ -197,6 +199,9 @@ The slugs come from `nav.js`. ✅ means written.
 | `advanced.js` ✅ | java_wrapper_classes, java_generics, java_annotations, java_regex, java_threads, java_lambda, java_advanced_sorting, java_projects, java_howtos |
 | `reference.js` ✅ | java_ref_reference, java_ref_keywords, java_ref_string, java_ref_math, java_ref_output, java_ref_arrays, java_ref_arraylist, java_ref_linkedlist, java_ref_hashmap, java_ref_scanner, java_ref_file, java_ref_fileinputstream, java_ref_fileoutputstream, java_ref_bufferedreader, java_ref_bufferedwriter, java_ref_iterators, java_ref_collections, java_ref_system, java_ref_errors |
 | `extras.js` ✅ | java_examples, java_compiler, java_exercises, java_quiz, java_exam, java_challenges, java_practice, java_server, java_syllabus, java_study_plan, java_interview_questions |
+| `core_fundamentals.js` | `java_ca_jdk_jre_jvm` (first complete Java Core Advanced lesson) |
+| `core_roadmap.js` | `java_ca_home` (generated from the navigation) |
+| `core_topic_pages.js` | the 18 section overview pages: short introduction, lesson list and quiz |
 
 ---
 
@@ -329,10 +334,13 @@ Fix everything found, then rerun until clean.
 | 8 extras.js | ✅ done (2026-10-28) |
 | 9 Full test | ✅ done (2026-10-28) |
 | 10 Docs and wrap-up | ✅ done (2026-10-28) |
+| 11 Java Core Advanced foundation | ✅ done (2026-10-28) |
+| 12 Java Core Advanced topic lessons | ✅ done (2026-10-28) |
+| 13 Checklist navigation and focused lessons | ✅ done (2026-10-28) |
 
 ## 7. Known issues and open items
 
-- None open. `docs/sidebar.json` is regenerated from `nav.js`; the dead `FILE_MODE` code and unused helpers are removed.
+- Java Core Advanced is served in its own top-navbar area and sidebar. Its navigation follows the 19 supplied groups and 185 concept topics. Each concept has a direct lesson route with focused explanations and examples where a deterministic, dependency-free example is appropriate. External-service and diagnostic-tool lessons use clearly labelled snippets instead of pretending they ran in the local runner.
 - Accepted limitation: the runner is not a sandbox (see README, Security).
 
 ## 8. How to run the quick checks
@@ -379,3 +387,44 @@ Run-all-examples snippet (paste into the browser console on any `/java/` page):
   - Also verified: the theme toggle switches dark/light and persists in `localStorage` (`jt-theme`).
   - Test-harness notes: drawer timing and Back/Forward looked flaky only when measured right after a heavy synchronous loop or with too-short waits; they pass when isolated.
 - **2026-10-28, Step 10:** Regenerated `docs/sidebar.json` from `nav.js` (13 groups, 167 pages). ANALYSIS.md: corrected the "full tree" claim, added §10 (deviations from the reference, with reasons) and §11 (final comparison against a fresh REA capture of the reference `java_variables` page, evidence `ev_e56b9a6e…`; layout and navigation structure match, and the differences are intentional). Wrote `README.md` (requirements, run, env vars, security, layout, how to add pages). Removed dead `FILE_MODE`/`data-href` code from `app.js` and `index.html`, and unused helpers in `control.js`. Regression check after cleanup: all pages present, top nav works, inline run and Try It links work, Next walk 167/167, no console messages. Deleted `.playwright-mcp/` test output. **Project complete.**
+- **2026-10-28, Step 11:** Added the `Java Core Advance` top-navbar entry with its own `/java-core-advanced/` route, sidebar, search scope, and Previous/Next order. Added an overview and all 19 section overview pages; the full lesson roadmap is visible in the advanced area. The first complete lesson, `java_ca_jdk_jre_jvm`, uses existing example, table, note, and exercise helpers. Loaded the content in both shells. The existing Java sidebar snapshot remains 13 groups/167 pages; advanced navigation has 21 entries (overview, 19 sections, and the first lesson). Registration checks, JS syntax checks, route response, and a JDK 25 `/api/run` execution passed. Full browser regression has not yet been run for this new slice.
+- **2026-10-28, Step 12:** Expanded the advanced section pages with lesson explanations, practical examples, output blocks, comparisons and concept-specific diagrams across OOP, collections/generics, exceptions/concurrency, functional programming, JVM/GC, I/O/NIO/reflection, modern Java, date/time, networking/security, performance/diagnostics, patterns and JDBC. Added shared responsive flow/choice diagram styles and loaded each focused lesson module in both HTML shells. JavaScript syntax and registration checks passed; all 18 runnable examples compiled and ran through `/api/run` on JDK 25, matching their documented output. Direct-route and full browser interaction checks remain unverified in this pass.
+- **2026-10-28, Step 13:** Replaced the broad advanced menu with the supplied 19 topic groups and 185 checklist concepts. Added a direct route for every concept, then added focused lessons for the complete inventory using reusable JavaTrail rendering helpers and modular `core_*_lessons.js` files. Kept the JDK/JRE/JVM lesson and the original 167-page Java Tutorial. Added a separate HashMap implementation challenge. All 205 advanced routes registered and rendered; all 143 runnable lesson examples compiled and matched their expected output through `/api/run` on JDK 25. The HashMap challenge solution compiled and matched its expected output. HTTP checks passed for all 167 original routes and 205 advanced routes. Full interactive-browser and mobile visual checks have not been run for this expanded menu.
+# Spring Framework course implementation note — 2026-10-28
+
+- Added an independent `/spring/` route space, top-navbar entry, Spring sidebar, direct topic slugs, search scope, and Previous/Next order. Existing `/java/` and `/java-core-advanced/` route spaces remain separate.
+- Navigation is declared in `public/js/spring-nav.js`; lesson pages are registered in `public/js/content/spring/lessons.js` using the existing `JT.def` and `JT.h` helpers.
+- The course includes 28 navigation groups and 315 registered routes (home, group overviews, and individual topics), covering the requested Spring Framework curriculum.
+- The reference examples use Spring Framework directly. They are project snippets, not runner examples: JavaTrail's existing runner deliberately remains dependency-free and unchanged.
+- The documented course baseline is Spring Framework 7.0.x with Java 17+. Version-specific APIs and Jakarta namespaces should be checked against the selected Spring release when the lessons are expanded or maintained.
+- Validation performed for this change: JavaScript syntax checks; a VM registration/render check confirmed every Spring navigation slug has non-empty registered content. Browser interaction, visual mobile review, and execution of Spring project samples were not performed; the samples cannot run through the current plain-Java runner.
+
+# Spring Boot course implementation note — 2026-10-28
+
+- Added the independent `/spring-boot/` top-navbar menu and route space; it keeps separate sidebar, search scope, direct topic routes and Previous/Next sequence from Java, Java Core Advance and Spring Framework.
+- Parsed the supplied `springboot.txt` menu into `public/js/spring-boot-nav.js`: 24 groups and 264 topic entries. `public/js/content/spring-boot/lessons.js` registers a Spring Boot home page, all group overview pages and every topic page through the existing `JT.def` and `JT.h` helpers.
+- Baseline: Spring Boot 4.1.1, Java 17+. The official first-app guide uses `spring-boot-starter-webmvc`; Boot 4.1 documents that `spring-boot-starter-web` is deprecated in favor of it. Examples follow Boot dependency management rather than pinning unrelated Spring versions.
+- Boot examples are project snippets; JavaTrail's local runner is unchanged and does not claim to execute Spring dependencies. Practical exercise prompts are included in topic pages.
+- Validation performed: `node --check` on the app, nav and content modules; VM registry/render check confirms 289 routes (home + 24 overviews + 264 topics), all present and non-empty. Direct HTTP route, browser interaction, mobile visual review and application-level Spring Boot builds are pending/not run in this pass.
+- Version references: [Spring Boot project](https://spring.io/projects/spring-boot/), [system requirements](https://docs.spring.io/spring-boot/system-requirements.html), [first application tutorial](https://docs.spring.io/spring-boot/tutorial/first-application/index.html), and [starter catalog](https://docs.spring.io/spring-boot/reference/using/build-systems.html).
+
+# Spring Maven Try It and Security learning area — 2026-10-28
+
+- Added `/api/spring/run` as an opt-in project runner for Spring Framework and Spring Boot lessons. It generates a fixed Maven POM from a server-side module allow-list, compiles source in a temporary folder, permits only one Maven build at a time, and applies a timeout/output cap. Lesson code cannot select a POM or dependency. The existing `/api/run` Java execution path and its limits remain separate.
+- Spring Framework snippets now run in a temporary Spring 7.0.10 context with MockMvc. The lab infers a simple controller route, performs one request, and attaches a Spring Security filter proxy when configured. Spring Boot snippets use Boot 4.1.1. Web snippets start on a random local port, perform one request and close the context. H2 is in-memory. PostgreSQL credentials and external services are not used.
+- Verified locally: Spring MVC controller returns HTTP 200 and JSON through MockMvc; a Spring Framework SecurityFilterChain denies an anonymous request with HTTP 401; a Boot MVC controller returns HTTP 200 and JSON; Boot Security denies the unauthenticated root request with HTTP 401; the original Java `/api/run` still prints its expected output. Main course shell routes for Java, Java Core Advance, Spring, Spring Boot and Security return HTTP 200. `node --check` passes on edited JavaScript modules.
+- Added a top-navbar Security route with independent Java Security, Spring Framework Security and Spring Boot Security tracks. The current route registry contains 40 registered pages including overview pages. These entries form the initial roadmap and short lessons; coverage of the much larger supplied security inventory remains incremental. Do not interpret topic count or a compiling lab snippet as a complete security review or production-ready configuration.
+- Security labs use fake local examples. The Maven lab runs submitted code with the JavaTrail user's permissions and is not a sandbox. Keep the server on loopback; do not run untrusted code.
+- Security-related project dependencies are versioned in the generated fixed POM. No database login was saved or read, no PostgreSQL connection was attempted, and no commit or push was made.
+
+# Curriculum review and rewrite — 2026-10-28
+
+- Goal: keep only what an experienced (6+ years) Java web developer uses and is asked in interviews, and teach each topic in a W3Schools-style order: what, why, example, output, how it works, important points, interview questions.
+- **Security**: the three generated tracks (40 template pages with one shared sample) were replaced by one course of 12 hand-written lessons in 3 sections: SQL injection, XSS, CSRF, CORS, security headers/clickjacking, session fixation and session ID protection, password hashing, authentication vs authorization, JWT, IDOR, path traversal, sensitive data in logs and errors. Each lesson has vulnerable code, the fix, limits, a test idea and interview questions.
+- **Spring Framework**: 315 generated pages were replaced by 30 lessons in 7 sections (IoC/DI, beans, configuration, AOP and proxies, JdbcTemplate and transactions, MVC, events and `@Async`). Files: `content/spring/lessons.js`, `content/spring/lessons_data_web.js`.
+- **Spring Boot**: 289 generated pages were replaced by 25 lessons in 7 sections (core, configuration, REST, Spring Data JPA, security, testing, production). Files: `content/spring-boot/lessons.js`, `content/spring-boot/lessons_data_prod.js`.
+- **Java Core Advanced**: the navigation was pruned from 185 to 116 lessons in 18 sections. Removed: niche or rarely asked topics (bytecode details, bridge methods, heap pollution, raw types, StampedLock, CyclicBarrier, scoped values, structured concurrency, JPMS, text blocks, NIO channels/buffers, sockets, TCP/UDP, annotation processing, VisualVM/JConsole, debugger basics, JDBC driver internals) and the Java security section (now covered by the Security course). The home page is now generated from the navigation. `core_network_security.js` was deleted because none of its pages were reachable.
+- `server.js`: program-mode Maven labs now always add `package javatrail.lab;` when missing and pick the public class as the main class (previously Spring programs failed to compile). The Spring Framework lab POM now includes `jakarta.annotation-api` for `@PostConstruct`/`@PreDestroy`.
+- Verification: every runnable example was executed and its output compared with the lesson text — Security 16/16, Spring 31/31, Spring Boot 24/24 (Maven lab, JDK 25, Maven 3.9.9), Java Core Advanced 104/104 (plain runner). Browser and mobile visual review were not performed in this pass.
+- **2026-10-30, Core Advanced W3Schools layout:** every Core Advanced lesson now renders through `JT.kit.coreLesson` (definition, example with output inside the example box, How it works, Remember and Common mistake boxes) instead of the fixed "What is it? / Why does it matter? / How does it work?" form. The 18 section overview pages were essays of 400–700 words covering the whole section; they are now a short introduction plus the lesson list, generated in `core_topic_pages.js`. The nine old overview files (`core_oop.js`, `core_collections_generics.js`, `core_exceptions_concurrency.js`, `core_functional.js`, `core_jvm_memory.js`, `core_io_reflection.js`, `core_modern_datetime.js`, `core_performance_diagnostics.js`, `core_patterns_jdbc.js`) were deleted. The pass-by-value lesson now covers only pass-by-value. Section quizzes were rewritten to match their sections. Verification: 88/88 Core examples match their shown output; all 459 pages render without errors.
+- **2026-10-30, Ruby and Ruby on Rails courses:** Installed Ruby 3.4.10 (RubyInstaller with Devkit, `C:\Ruby34-x64`) and added `POST /api/ruby/run` to `server.js` (same limits and same-origin checks as the Java runner, UTF-8 I/O). `app.js` now uses one course table (`COURSES`) for URLs, sidebar, search, Previous/Next and body classes instead of per-course conditionals. `core.js` gained a Ruby highlighter, Ruby-aware editor indentation and `JT.runCode`; `JT.h.ex` and the Try It page accept `lang: 'ruby'`. New courses: `/ruby/` (52 pages) and `/rails/` (54 pages, following the Rails 8.1 Guides index; Release Notes, Contributing and Policies left out). Rails code is shown with its result, not run (Rails is not installed). Quiz options in both quizzes are rotated so the right answer is not always first. Verification: 112/112 Ruby examples match the output shown; Core Advanced 88/88 still pass; all 565 pages render; browser check of Ruby run, Try It with stdin, Rails pages, quiz, mobile width (no horizontal scroll) and all course routes with no console errors.

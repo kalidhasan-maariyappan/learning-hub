@@ -1,0 +1,340 @@
+- generic [active] [ref=f1e1]:
+  - banner [ref=f1e2]:
+    - button "Toggle the Java Core Advance menu" [ref=f1e3] [cursor=pointer]: ☰
+    - link "JT JavaTrail" [ref=f1e4] [cursor=pointer]:
+      - /url: /java/
+      - generic [ref=f1e5]: JT
+      - generic [ref=f1e6]: JavaTrail
+    - navigation "Sections" [ref=f1e7]:
+      - link "Java Core Advance" [ref=f1e8] [cursor=pointer]:
+        - /url: /java-core-advanced/
+      - link "Spring Framework" [ref=f1e9] [cursor=pointer]:
+        - /url: /spring/
+      - link "Spring Boot" [ref=f1e10] [cursor=pointer]:
+        - /url: /spring-boot/
+      - link "Security" [ref=f1e11] [cursor=pointer]:
+        - /url: /security/
+    - searchbox "Search the Java tutorial" [ref=f1e13]
+    - button "Toggle dark mode" [ref=f1e14] [cursor=pointer]: ◐
+  - complementary "Java Core Advance navigation" [ref=f1e15]:
+    - heading "Java Core Advanced" [level=2] [ref=f1e16]
+    - link "Course Home" [ref=f1e17] [cursor=pointer]:
+      - /url: /java-core-advanced/
+    - generic [ref=f1e18]:
+      - link "JVM & Runtime" [ref=f1e19] [cursor=pointer]:
+        - /url: /java-core-advanced/java_ca_group_runtime_compilation
+      - button "Show JVM & Runtime sub-topics" [ref=f1e20] [cursor=pointer]: ▼
+    - generic [ref=f1e21]:
+      - link "Object Equality & Immutability" [ref=f1e22] [cursor=pointer]:
+        - /url: /java-core-advanced/java_ca_oop
+      - button "Show Object Equality & Immutability sub-topics" [ref=f1e23] [cursor=pointer]: ▼
+    - generic [ref=f1e24]:
+      - link "HashMap Internals" [ref=f1e25] [cursor=pointer]:
+        - /url: /java-core-advanced/java_ca_collections
+      - button "Show HashMap Internals sub-topics" [expanded] [ref=f1e26] [cursor=pointer]: ▲
+    - generic [ref=f1e27]:
+      - link "Section overview" [ref=f1e28] [cursor=pointer]:
+        - /url: /java-core-advanced/java_ca_collections
+      - link "Hashing and bucket index" [ref=f1e29] [cursor=pointer]:
+        - /url: /java-core-advanced/java_ca_hashmap_internals_bucket_index
+      - link "Hash collisions" [ref=f1e30] [cursor=pointer]:
+        - /url: /java-core-advanced/java_ca_hashmap_internals_hash_collisions
+      - link "Treeified bins (Java 8+)" [ref=f1e31] [cursor=pointer]:
+        - /url: /java-core-advanced/java_ca_hashmap_internals_tree_bins
+      - link "Capacity, load factor and threshold" [ref=f1e32] [cursor=pointer]:
+        - /url: /java-core-advanced/java_ca_hashmap_internals_capacity_load_factor
+      - link "Resizing and rehashing" [ref=f1e33] [cursor=pointer]:
+        - /url: /java-core-advanced/java_ca_hashmap_internals_hashmap_resize
+      - link "put() and get() internal flow" [ref=f1e34] [cursor=pointer]:
+        - /url: /java-core-advanced/java_ca_hashmap_internals_put_get_flow
+      - link "HashMap time complexity" [ref=f1e35] [cursor=pointer]:
+        - /url: /java-core-advanced/java_ca_hashmap_internals_hashmap_complexity
+    - generic [ref=f1e36]:
+      - link "Collections Internals" [ref=f1e37] [cursor=pointer]:
+        - /url: /java-core-advanced/java_ca_group_advanced_collections
+      - button "Show Collections Internals sub-topics" [ref=f1e38] [cursor=pointer]: ▼
+    - generic [ref=f1e39]:
+      - link "Generics" [ref=f1e40] [cursor=pointer]:
+        - /url: /java-core-advanced/java_ca_generics
+      - button "Show Generics sub-topics" [ref=f1e41] [cursor=pointer]: ▼
+    - generic [ref=f1e42]:
+      - link "Exception Handling" [ref=f1e43] [cursor=pointer]:
+        - /url: /java-core-advanced/java_ca_exceptions
+      - button "Show Exception Handling sub-topics" [ref=f1e44] [cursor=pointer]: ▼
+    - generic [ref=f1e45]:
+      - link "Multithreading Fundamentals" [ref=f1e46] [cursor=pointer]:
+        - /url: /java-core-advanced/java_ca_concurrency
+      - button "Show Multithreading Fundamentals sub-topics" [ref=f1e47] [cursor=pointer]: ▼
+    - generic [ref=f1e48]:
+      - link "Executors & Asynchronous Java" [ref=f1e49] [cursor=pointer]:
+        - /url: /java-core-advanced/java_ca_group_executors_async
+      - button "Show Executors & Asynchronous Java sub-topics" [ref=f1e50] [cursor=pointer]: ▼
+    - generic [ref=f1e51]:
+      - link "Locks & Concurrency Utilities" [ref=f1e52] [cursor=pointer]:
+        - /url: /java-core-advanced/java_ca_group_synchronization_utilities
+      - button "Show Locks & Concurrency Utilities sub-topics" [ref=f1e53] [cursor=pointer]: ▼
+    - generic [ref=f1e54]:
+      - link "Lambdas & Streams" [ref=f1e55] [cursor=pointer]:
+        - /url: /java-core-advanced/java_ca_functional
+      - button "Show Lambdas & Streams sub-topics" [ref=f1e56] [cursor=pointer]: ▼
+    - generic [ref=f1e57]:
+      - link "JVM Memory & Garbage Collection" [ref=f1e58] [cursor=pointer]:
+        - /url: /java-core-advanced/java_ca_memory_gc
+      - button "Show JVM Memory & Garbage Collection sub-topics" [ref=f1e59] [cursor=pointer]: ▼
+    - generic [ref=f1e60]:
+      - link "Modern Java (17 to 21)" [ref=f1e61] [cursor=pointer]:
+        - /url: /java-core-advanced/java_ca_modern
+      - button "Show Modern Java (17 to 21) sub-topics" [ref=f1e62] [cursor=pointer]: ▼
+    - generic [ref=f1e63]:
+      - link "Reflection, Annotations & Proxies" [ref=f1e64] [cursor=pointer]:
+        - /url: /java-core-advanced/java_ca_reflection
+      - button "Show Reflection, Annotations & Proxies sub-topics" [ref=f1e65] [cursor=pointer]: ▼
+    - generic [ref=f1e66]:
+      - link "Date/Time & HTTP Client" [ref=f1e67] [cursor=pointer]:
+        - /url: /java-core-advanced/java_ca_datetime
+      - button "Show Date/Time & HTTP Client sub-topics" [ref=f1e68] [cursor=pointer]: ▼
+    - generic [ref=f1e69]:
+      - link "Files & I/O" [ref=f1e70] [cursor=pointer]:
+        - /url: /java-core-advanced/java_ca_io_nio
+      - button "Show Files & I/O sub-topics" [ref=f1e71] [cursor=pointer]: ▼
+    - generic [ref=f1e72]:
+      - link "Performance" [ref=f1e73] [cursor=pointer]:
+        - /url: /java-core-advanced/java_ca_performance
+      - button "Show Performance sub-topics" [ref=f1e74] [cursor=pointer]: ▼
+    - generic [ref=f1e75]:
+      - link "Production Diagnostics" [ref=f1e76] [cursor=pointer]:
+        - /url: /java-core-advanced/java_ca_diagnostics
+      - button "Show Production Diagnostics sub-topics" [ref=f1e77] [cursor=pointer]: ▼
+    - generic [ref=f1e78]:
+      - link "Design Patterns & JDBC" [ref=f1e79] [cursor=pointer]:
+        - /url: /java-core-advanced/java_ca_patterns
+      - button "Show Design Patterns & JDBC sub-topics" [ref=f1e80] [cursor=pointer]: ▼
+  - main [ref=f1e81]:
+    - heading "Java Collections Framework" [level=1] [ref=f1e82]
+    - generic [ref=f1e83]:
+      - link "❮ Previous" [ref=f1e84] [cursor=pointer]:
+        - /url: /java-core-advanced/java_ca_object_internals_immutability_copying
+      - link "Next ❯" [ref=f1e85] [cursor=pointer]:
+        - /url: /java-core-advanced/java_ca_hashmap_internals_bucket_index
+    - separator [ref=f1e86]
+    - heading "Choose a collection by the job it does" [level=2] [ref=f1e87]
+    - paragraph [ref=f1e88]: The Collections Framework provides interfaces and implementations for groups of objects. Choose the interface from the behavior you need, then choose an implementation that fits the size, ordering, concurrency and access pattern.
+    - table [ref=f1e90]:
+      - rowgroup [ref=f1e91]:
+        - row [ref=f1e92]:
+          - columnheader "Interface" [ref=f1e93]
+          - columnheader "Use it for" [ref=f1e94]
+          - columnheader "Common implementations" [ref=f1e95]
+      - rowgroup [ref=f1e96]:
+        - row [ref=f1e97]:
+          - cell "List" [ref=f1e98]
+          - cell "Ordered items; duplicates are allowed." [ref=f1e99]
+          - cell "ArrayList, LinkedList" [ref=f1e100]
+        - row [ref=f1e101]:
+          - cell "Set" [ref=f1e102]
+          - cell "Unique items." [ref=f1e103]
+          - cell "HashSet, LinkedHashSet, TreeSet" [ref=f1e104]
+        - row [ref=f1e105]:
+          - cell "Queue / Deque" [ref=f1e106]
+          - cell "Items processed in a queue or at either end." [ref=f1e107]
+          - cell "ArrayDeque, PriorityQueue" [ref=f1e108]
+        - row [ref=f1e109]:
+          - cell "Map" [ref=f1e110]
+          - cell "Values looked up by keys." [ref=f1e111]
+          - cell "HashMap, LinkedHashMap, TreeMap" [ref=f1e112]
+    - paragraph [ref=f1e113]:
+      - code [ref=f1e114]: ArrayList
+      - text: is a strong default for indexed access and appending.
+      - code [ref=f1e115]: LinkedList
+      - text: is a doubly linked list, but indexed access walks nodes, so it is rarely a faster list choice.
+      - code [ref=f1e116]: ArrayDeque
+      - text: is usually preferable to
+      - code [ref=f1e117]: Stack
+      - text: for stack or queue behavior.
+      - code [ref=f1e118]: PriorityQueue
+      - text: exposes the smallest (or comparator-first) item, not a fully sorted iteration.
+    - paragraph [ref=f1e119]:
+      - text: A class can implement
+      - code [ref=f1e120]: Comparable<T>
+      - text: to define one natural ordering through
+      - code [ref=f1e121]: compareTo
+      - text: . A
+      - code [ref=f1e122]: Comparator<T>
+      - text: supplies an ordering from outside the class, so the same objects can be sorted by different fields. An
+      - code [ref=f1e123]: Iterator
+      - text: moves forward; a
+      - code [ref=f1e124]: ListIterator
+      - text: can also move backward and update a list during traversal.
+    - heading "Hashing, collisions and HashMap lookup" [level=2] [ref=f1e125]
+    - paragraph [ref=f1e126]:
+      - text: A hash map uses a key’s
+      - code [ref=f1e127]: hashCode()
+      - text: to choose a bucket, then uses
+      - code [ref=f1e128]: equals()
+      - text: to identify the key within that bucket. Different keys can land in the same bucket; this is a collision, and the map still checks equality. When the table gets too full, it resizes and redistributes entries. Exact thresholds and internal layout are implementation details, so code should rely on the Map contract rather than a particular bucket count.
+    - figure "How a hash map finds a value Hashing narrows the search; equality identifies the key." [ref=f1e129]:
+      - generic [ref=f1e130]:
+        - strong [ref=f1e131]: How a hash map finds a value
+        - generic [ref=f1e132]: Hashing narrows the search; equality identifies the key.
+      - generic [ref=f1e133]:
+        - generic [ref=f1e134]:
+          - generic [ref=f1e135]: Key
+          - generic [ref=f1e136]: equals/hashCode
+        - generic [aria-hidden] [ref=f1e137]: →
+        - generic [ref=f1e138]:
+          - generic [ref=f1e139]: hashCode()
+          - generic [ref=f1e140]: produces a hash
+        - generic [aria-hidden] [ref=f1e141]: →
+        - generic [ref=f1e142]:
+          - generic [ref=f1e143]: Bucket
+          - generic [ref=f1e144]: one or more entries
+        - generic [aria-hidden] [ref=f1e145]: →
+        - generic [ref=f1e146]:
+          - generic [ref=f1e147]: equals()
+          - generic [ref=f1e148]: finds the matching key
+        - generic [aria-hidden] [ref=f1e149]: →
+        - generic [ref=f1e150]:
+          - generic [ref=f1e151]: Value
+          - generic [ref=f1e152]: returned to caller
+    - generic [ref=f1e153]:
+      - heading "Store and look up values by key" [level=3] [ref=f1e154]
+      - generic [ref=f1e155]: "import java.util.HashMap; import java.util.Map; public class Main { public static void main(String[] args) { Map<String, Integer> visits = new HashMap<>(); visits.put(\"Mina\", 2); visits.put(\"Mina\", visits.get(\"Mina\") + 1); System.out.println(\"Mina: \" + visits.get(\"Mina\")); System.out.println(\"Has Omar: \" + visits.containsKey(\"Omar\")); } }"
+      - generic [ref=f1e156]:
+        - link "Try it Yourself »" [ref=f1e157] [cursor=pointer]:
+          - /url: /tryit?page=java_ca_collections&ex=0
+        - button "Run here" [ref=f1e158] [cursor=pointer]
+    - generic [ref=f1e159]: "Mina: 3 Has Omar: false"
+    - heading "What the map contract means for your keys" [level=3] [ref=f1e160]
+    - list [ref=f1e161]:
+      - listitem [ref=f1e162]:
+        - text: If two keys are equal according to
+        - code [ref=f1e163]: equals()
+        - text: ", they must return the same"
+        - code [ref=f1e164]: hashCode()
+        - text: .
+      - listitem [ref=f1e165]:
+        - text: Do not mutate fields used by
+        - code [ref=f1e166]: equals()
+        - text: or
+        - code [ref=f1e167]: hashCode()
+        - text: while an object is a map key.
+      - listitem [ref=f1e168]:
+        - code [ref=f1e169]: HashMap
+        - text: and
+        - code [ref=f1e170]: HashSet
+        - text: do not promise iteration order. Use linked variants for insertion order and tree variants for sorted order.
+      - listitem [ref=f1e171]:
+        - code [ref=f1e172]: Hashtable
+        - text: is a legacy synchronized map. For shared concurrent access, prefer the operations and guarantees of
+        - code [ref=f1e173]: ConcurrentHashMap
+        - text: .
+    - heading "Iteration and performance" [level=2] [ref=f1e174]
+    - paragraph [ref=f1e175]:
+      - text: A fail-fast iterator may throw
+      - code [ref=f1e176]: ConcurrentModificationException
+      - text: "when the collection is structurally changed outside that iterator. This is a best-effort bug detector, not a thread-safety guarantee. Concurrent collections may instead provide weakly consistent iterators: they can safely proceed while updates occur, but may not reflect every update made during the traversal."
+    - paragraph [ref=f1e177]:
+      - code [ref=f1e178]: ConcurrentHashMap
+      - text: supports concurrent reads and updates without locking the entire map for every operation. Its iterators are weakly consistent. Legacy
+      - code [ref=f1e179]: Hashtable
+      - text: synchronizes individual operations but is usually not the best choice for new concurrent code.
+    - table [ref=f1e181]:
+      - rowgroup [ref=f1e182]:
+        - row [ref=f1e183]:
+          - columnheader "Operation" [ref=f1e184]
+          - columnheader "Typical cost" [ref=f1e185]
+          - columnheader "Caveat" [ref=f1e186]
+      - rowgroup [ref=f1e187]:
+        - row [ref=f1e188]:
+          - cell "ArrayList get(index)" [ref=f1e189]
+          - cell "O(1)" [ref=f1e190]
+          - cell "Insert/remove in the middle shifts later elements." [ref=f1e191]
+        - row [ref=f1e192]:
+          - cell "HashMap get/put" [ref=f1e193]
+          - cell "O(1) average" [ref=f1e194]
+          - cell "Collisions and resizing affect cost; not a worst-case promise." [ref=f1e195]
+        - row [ref=f1e196]:
+          - cell "TreeMap get/put" [ref=f1e197]
+          - cell "O(log n)" [ref=f1e198]
+          - cell "Keys are kept in sorted order." [ref=f1e199]
+        - row [ref=f1e200]:
+          - cell "LinkedList get(index)" [ref=f1e201]
+          - cell "O(n)" [ref=f1e202]
+          - cell "Must walk from an end to reach the index." [ref=f1e203]
+    - heading "Common mistake" [level=2] [ref=f1e204]
+    - paragraph [ref=f1e205]:
+      - text: Do not assume a
+      - code [ref=f1e206]: HashMap
+      - text: or
+      - code [ref=f1e207]: HashSet
+      - text: prints items in insertion or sorted order. If output order matters, choose an ordered collection or sort the results explicitly.
+    - heading "Interview question" [level=2] [ref=f1e208]
+    - paragraph [ref=f1e209]: Why must equals() and hashCode() agree? A hash-based collection uses the hash to select where to search and equality to identify the key. Equal keys with different hashes can be placed in different buckets and fail lookup.
+    - heading "Lessons in this section" [level=2] [ref=f1e210]
+    - list [ref=f1e211]:
+      - listitem [ref=f1e212]:
+        - link "Hashing and bucket index →" [ref=f1e213] [cursor=pointer]:
+          - /url: /java-core-advanced/java_ca_hashmap_internals_bucket_index
+      - listitem [ref=f1e214]:
+        - link "Hash collisions →" [ref=f1e215] [cursor=pointer]:
+          - /url: /java-core-advanced/java_ca_hashmap_internals_hash_collisions
+      - listitem [ref=f1e216]:
+        - link "Treeified bins (Java 8+) →" [ref=f1e217] [cursor=pointer]:
+          - /url: /java-core-advanced/java_ca_hashmap_internals_tree_bins
+      - listitem [ref=f1e218]:
+        - link "Capacity, load factor and threshold →" [ref=f1e219] [cursor=pointer]:
+          - /url: /java-core-advanced/java_ca_hashmap_internals_capacity_load_factor
+      - listitem [ref=f1e220]:
+        - link "Resizing and rehashing →" [ref=f1e221] [cursor=pointer]:
+          - /url: /java-core-advanced/java_ca_hashmap_internals_hashmap_resize
+      - listitem [ref=f1e222]:
+        - link "put() and get() internal flow →" [ref=f1e223] [cursor=pointer]:
+          - /url: /java-core-advanced/java_ca_hashmap_internals_put_get_flow
+      - listitem [ref=f1e224]:
+        - link "HashMap time complexity →" [ref=f1e225] [cursor=pointer]:
+          - /url: /java-core-advanced/java_ca_hashmap_internals_hashmap_complexity
+    - heading "Quick quiz" [level=2] [ref=f1e226]
+    - paragraph [ref=f1e227]: Check your understanding of this section.
+    - generic [ref=f1e228]:
+      - generic [ref=f1e229]:
+        - generic [ref=f1e230]: Question 1 of 2
+        - paragraph [ref=f1e231]:
+          - strong [ref=f1e232]: What does a HashMap use after selecting a bucket to identify an equal key?
+        - generic [ref=f1e233] [cursor=pointer]:
+          - radio "equals()" [ref=f1e234]
+          - text: equals()
+        - generic [ref=f1e235] [cursor=pointer]:
+          - radio "compareTo() only" [ref=f1e236]
+          - text: compareTo() only
+        - generic [ref=f1e237] [cursor=pointer]:
+          - radio "Object identity only" [ref=f1e238]
+          - text: Object identity only
+        - generic [ref=f1e239] [cursor=pointer]:
+          - radio "toString()" [ref=f1e240]
+          - text: toString()
+      - generic [ref=f1e241]:
+        - generic [ref=f1e242]: Question 2 of 2
+        - paragraph [ref=f1e243]:
+          - strong [ref=f1e244]: Which collection is a common choice for FIFO queue behavior without capacity limits?
+        - generic [ref=f1e245] [cursor=pointer]:
+          - radio "ArrayDeque" [ref=f1e246]
+          - text: ArrayDeque
+        - generic [ref=f1e247] [cursor=pointer]:
+          - radio "TreeMap" [ref=f1e248]
+          - text: TreeMap
+        - generic [ref=f1e249] [cursor=pointer]:
+          - radio "HashSet" [ref=f1e250]
+          - text: HashSet
+        - generic [ref=f1e251] [cursor=pointer]:
+          - radio "StringBuilder" [ref=f1e252]
+          - text: StringBuilder
+      - generic [ref=f1e253]:
+        - button "Submit answers" [ref=f1e254] [cursor=pointer]
+        - button "Try again" [ref=f1e255] [cursor=pointer]
+    - separator [ref=f1e256]
+    - generic [ref=f1e257]:
+      - link "❮ Previous" [ref=f1e258] [cursor=pointer]:
+        - /url: /java-core-advanced/java_ca_object_internals_immutability_copying
+      - link "Next ❯" [ref=f1e259] [cursor=pointer]:
+        - /url: /java-core-advanced/java_ca_hashmap_internals_bucket_index
+  - contentinfo [ref=f1e260]: JavaTrail — an independent learning site. Java examples run through your local JDK; Spring Framework project snippets require their documented Spring dependencies.

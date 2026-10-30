@@ -1,0 +1,569 @@
+# Task: Add a Complete Spring Framework Learning Section to JavaTrail
+
+## Objective
+
+Add a new top-level navigation menu named **Spring Framework** to the existing JavaTrail website.
+
+The website follows a W3Schools-style tutorial experience. The new section must provide a structured, beginner-to-advanced learning path for the **Spring Framework itself, not Spring Boot**.
+
+The goal is not merely to create a navigation menu. Build the complete curriculum structure, create meaningful lesson content for every topic and subtopic, and integrate it with the existing tutorial rendering and navigation system.
+
+## 1. Inspect the existing project first
+
+Before making changes, inspect the existing implementation and documentation.
+
+Relevant files may include:
+
+- `server.js`
+- `public/index.html`
+- `public/tryit.html`
+- `public/js/core.js`
+- `public/js/nav.js`
+- `public/js/app.js`
+- `public/js/tryit.js`
+- `public/css/style.css`
+- `public/js/content/`
+- `docs/PLAN.md`
+- `docs/ANALYSIS.md`
+- `docs/sidebar.json`
+
+Use the actual files and conventions in the repository rather than assuming every path or function exists exactly as listed.
+
+Understand:
+
+1. How the existing top navigation is rendered.
+2. How sidebar sections and nested topics are registered.
+3. How tutorial routes and page slugs work.
+4. How lesson content is registered using `JT.def(slug, page)`.
+5. How challenges are registered using `JT.challenge(topic, data)`.
+6. How examples are displayed and executed through `/api/run`.
+7. How the Try It editor works.
+8. How search, active navigation, previous/next navigation, and responsive styling work.
+9. How existing Java content files are organized.
+
+Preserve the current project architecture.
+
+Do not migrate the project to React, Angular, Vue, or another framework. Do not introduce unnecessary dependencies.
+
+## 2. Add the top-level navigation
+
+Create a new top-level menu:
+
+**Spring Framework**
+
+Requirements:
+
+- Follow the appearance and interaction patterns of existing top-navigation menus.
+- Provide a dedicated Spring Framework home page.
+- Provide a dedicated Spring Framework sidebar with expandable topic groups and nested lessons.
+- Support active-topic highlighting.
+- Support direct navigation to individual lesson URLs.
+- Support browser refresh on lesson URLs.
+- Preserve browser back/forward navigation.
+- Support previous and next lesson navigation.
+- Integrate lessons into existing search and navigation features where supported.
+- Preserve existing Java lessons, routes, styling, and behavior.
+- Ensure responsive navigation works on desktop, tablet, and mobile.
+
+Do not rename, reorganize, or break the existing Java curriculum.
+
+## 3. Spring Framework curriculum
+
+Create the following sidebar groups and lesson topics.
+
+### A. Spring HOME
+- Spring Framework overview
+- What Spring solves
+- Spring architecture
+- Spring Framework vs Spring Boot
+- Prerequisites and environment setup
+
+### B. Spring Get Started
+- Spring project setup without Spring Boot
+- Maven dependencies
+- Gradle dependencies
+- Spring Framework version compatibility
+- First Spring application
+- Running a plain Spring application
+
+### C. Spring Architecture
+- Spring modules overview
+- Core Container
+- Beans module
+- Context module
+- Spring Expression Language (SpEL)
+- AOP module
+- Data Access/Integration
+- Web MVC module
+- Test module
+
+### D. Spring IoC Container
+- Inversion of Control (IoC)
+- Dependency Injection (DI)
+- ApplicationContext
+- BeanFactory
+- ApplicationContext vs BeanFactory
+- How the container creates objects
+- Container lifecycle
+- ApplicationContext implementations
+
+### E. Spring Beans
+- What is a Spring bean?
+- Bean definitions
+- Bean naming
+- Bean scopes: singleton, prototype, request, session, application, websocket
+- Bean lifecycle
+- Bean initialization and destruction
+- BeanPostProcessor
+- FactoryBean
+- Lazy initialization
+- Circular dependencies
+- Bean scope and thread safety
+
+### F. Spring Dependency Injection
+- Constructor injection
+- Setter injection
+- Field injection and its trade-offs
+- Dependency resolution
+- Autowiring
+- @Autowired
+- @Qualifier
+- @Primary
+- Optional dependencies
+- Collection injection
+- Resolving multiple matching beans
+- Circular dependency problems
+
+### G. Spring Configuration
+- XML-based configuration
+- Annotation-based configuration
+- Java-based configuration
+- @Configuration
+- @Bean
+- @ComponentScan
+- @Import
+- @PropertySource
+- Environment and property resolution
+- Profiles with @Profile
+- Conditional configuration concepts
+- Combining XML and Java configuration
+
+### H. Spring Stereotypes
+- @Component
+- @Service
+- @Repository
+- @Controller
+- @RestController in Spring MVC
+- Component scanning
+- Stereotype differences
+- Custom stereotype annotations
+
+### I. Spring Annotations
+- @Autowired
+- @Qualifier
+- @Primary
+- @Value
+- @Lazy
+- @Scope
+- @DependsOn
+- @PostConstruct and @PreDestroy
+- @Order
+- @Profile
+- Annotation processing in the container
+- Meta-annotations and composed annotations
+
+### J. Spring Expression Language
+- SpEL fundamentals
+- Literal values and operators
+- Property and bean references
+- Method invocation
+- Collections and selection
+- SpEL in @Value
+- Evaluation contexts
+- SpEL safety considerations
+
+### K. Spring AOP
+- Aspect-Oriented Programming concepts
+- Cross-cutting concerns
+- Aspect, advice, pointcut and join point
+- @Aspect and @EnableAspectJAutoProxy
+- Before advice
+- After advice
+- After returning and after throwing
+- Around advice
+- Pointcut expressions
+- Proxy-based AOP
+- JDK dynamic proxies vs CGLIB
+- Self-invocation limitation
+- AOP debugging and common mistakes
+
+### L. Spring Events
+- Application events
+- ApplicationEventPublisher
+- Custom event classes
+- @EventListener
+- Synchronous event handling
+- Asynchronous event listeners
+- Transactional event listeners
+- Event ordering and error handling
+
+### M. Spring Resources
+- Resource abstraction
+- ResourceLoader
+- ClassPathResource
+- FileSystemResource
+- URL resources
+- Resource injection
+- Reading resources safely
+
+### N. Spring Validation and Conversion
+- ConversionService
+- TypeConverter
+- Formatter and Converter
+- Property editors
+- Validator interface
+- DataBinder
+- Bean Validation integration
+- Binding errors
+- Validation without Spring Boot
+
+### O. Spring JDBC
+- Spring JDBC overview
+- JdbcTemplate
+- NamedParameterJdbcTemplate
+- RowMapper
+- ResultSetExtractor
+- PreparedStatementCreator
+- SQLException translation
+- DataSource configuration
+- Connection management
+- Batch operations
+- DAO design
+- Transaction integration
+
+### P. Spring Transactions
+- Transaction management concepts
+- PlatformTransactionManager
+- Declarative transactions
+- @Transactional
+- Transaction propagation
+- Isolation levels
+- Read-only transactions
+- Rollback rules
+- Transaction boundaries
+- Proxy-based transaction limitations
+- Programmatic transactions with TransactionTemplate
+- Transactions and multiple data sources
+
+### Q. Spring ORM Integration
+- Spring ORM overview
+- Hibernate integration
+- JPA integration without Spring Boot
+- EntityManagerFactory configuration
+- SessionFactory integration
+- Transaction integration
+- Open Session in View trade-offs
+- Persistence exception translation
+- Lazy loading and transaction boundaries
+
+### R. Spring MVC
+- Servlet-based web architecture
+- DispatcherServlet
+- Spring MVC request lifecycle
+- WebApplicationContext
+- Controllers and handler mappings
+- RequestMapping and HTTP method mappings
+- Path variables and request parameters
+- Request and response bodies
+- Message converters
+- Content negotiation
+- Form handling
+- Model and ModelAndView
+- ViewResolver and JSP/Thymeleaf integration
+- Static resources
+- REST APIs using Spring MVC without Boot
+
+### S. Spring MVC Advanced
+- Data binding
+- Validation in controllers
+- @ExceptionHandler
+- @ControllerAdvice
+- Interceptors
+- Filters vs interceptors
+- Multipart file uploads
+- CORS configuration
+- Asynchronous MVC requests
+- Content negotiation
+- API error response design
+- Spring MVC testing with MockMvc
+
+### T. Spring Security Integration
+- Spring Security architecture and dependencies
+- Filter chain fundamentals
+- Authentication vs authorization
+- SecurityContext
+- SecurityFilterChain configuration
+- In-memory authentication for learning
+- PasswordEncoder
+- Method security
+- CSRF protection
+- CORS vs CSRF
+- Session management
+- Securing Spring MVC endpoints
+- Security testing
+- Security version compatibility
+
+### U. Spring Testing
+- Unit tests for plain Java objects
+- Testing Spring-managed beans
+- Spring TestContext Framework
+- JUnit integration
+- Context caching
+- @ContextConfiguration
+- @WebAppConfiguration
+- MockMvc
+- Testing MVC controllers
+- Testing repositories and JDBC
+- Transaction rollback in tests
+- Mock objects and test doubles
+- ApplicationContext debugging
+
+### V. Spring Internationalization
+- MessageSource
+- Message bundles
+- LocaleResolver
+- Locale selection
+- Localized validation messages
+- Formatting dates and numbers
+- Internationalization in Spring MVC
+
+### W. Spring Scheduling and Async
+- TaskExecutor abstraction
+- TaskScheduler abstraction
+- @EnableAsync and @Async
+- Executor configuration
+- Exception handling for async methods
+- @Scheduled
+- Fixed rate vs fixed delay
+- Cron expressions
+- Scheduling lifecycle
+- Thread pools and application shutdown
+
+### X. Spring WebSocket and Messaging
+- Spring messaging overview
+- WebSocket integration
+- STOMP messaging
+- MessageBroker configuration
+- MessageMapping
+- Message handling methods
+- User destinations
+- Security considerations
+- Testing messaging endpoints
+
+### Y. Spring Integration Patterns
+- Application layering
+- Controller-Service-Repository separation
+- Dependency inversion in practice
+- DTOs and mapping
+- Service boundaries
+- Domain events
+- Exception translation
+- External API clients without Boot
+- Configuration separation
+- Multi-module applications
+
+### Z. Spring Internals
+- BeanDefinition and bean registry
+- BeanFactoryPostProcessor
+- BeanPostProcessor
+- Bean creation and dependency resolution sequence
+- ApplicationContext refresh lifecycle
+- Aware interfaces
+- Proxy creation and lifecycle
+- AOP advisor chain
+- Transaction interceptor internals
+- MVC HandlerMapping and HandlerAdapter
+- Message converter selection
+- Spring extension points
+
+### AA. Spring Troubleshooting
+- NoSuchBeanDefinitionException
+- NoUniqueBeanDefinitionException
+- BeanCurrentlyInCreationException
+- UnsatisfiedDependencyException
+- ApplicationContext startup failures
+- Circular dependencies
+- Proxy and transaction surprises
+- MVC 404 vs 405 vs 415
+- Transaction rollback debugging
+- Logging and diagnostics
+- Context initialization performance
+- Production configuration mistakes
+
+### AB. Spring Best Practices
+- Constructor injection by default
+- Explicit and maintainable configuration
+- Avoiding unnecessary singleton state
+- Thread safety of singleton beans
+- Transaction boundary design
+- Validation and exception handling
+- Secure configuration
+- Resource cleanup
+- Testing strategy
+- Performance and observability
+- Migration between Spring Framework versions
+
+## 4. Lesson content quality requirements
+
+Do not create empty pages or pages containing only a title and a short definition.
+
+Every lesson must teach the concept thoroughly, using a consistent W3Schools-style tutorial format.
+
+Each lesson should include:
+
+1. **What is it?** Explain the concept in simple English.
+2. **Why do we need it?** Explain the problem it solves.
+3. **How does it work?** Explain the lifecycle, internal process, or execution flow.
+4. **How to configure it?** Show the relevant XML, Java configuration, or annotations.
+5. **Complete runnable example.** Include imports, required classes, configuration, and an entry point where appropriate.
+6. **Expected output.** Show actual output and explain why it occurs.
+7. **Step-by-step execution.** Explain what happens when the code runs.
+8. **Real-world scenario.** Use realistic examples such as employee management, orders, payments, logging, or database access.
+9. **Common mistakes.** Explain errors, incorrect assumptions, and debugging techniques.
+10. **Interview questions.** Include practical questions appropriate for experienced Java developers.
+11. **Practice exercise.** Include a problem, expected behavior, and solution or revealable answer.
+12. **Related concepts.** Link to relevant lessons in the Spring Framework section.
+
+Adapt the structure to the subject. For example, an architecture lesson needs a diagram; an annotation reference needs usage examples; a transaction lesson needs commit, rollback, and propagation scenarios.
+
+Use diagrams when they clarify relationships, object lifecycles, execution sequences, or request flows. Avoid decorative diagrams that do not teach anything.
+
+Explain advanced terminology when it first appears. Do not assume the learner already understands the internal behavior of Spring.
+
+## 5. Runnable examples
+
+The current site uses a local Java compiler/runner through `/api/run`.
+
+Do not assume Spring Framework code can run in the existing plain-Java runner.
+
+For Spring examples:
+
+- Clearly distinguish standalone Java examples from Spring application examples.
+- Provide complete source files and the required Maven or Gradle dependencies.
+- Include the necessary Spring configuration and application entry point.
+- Explain how to run the example in a real Spring project.
+- If the existing editor cannot execute the example, display the code and instructions without falsely claiming it ran.
+- Never add Spring dependencies to the existing Java runner unless the existing architecture explicitly supports a safe and maintainable extension.
+- Keep the current Java Try It functionality working.
+
+Where practical, provide examples that use an in-memory or mock implementation before introducing a database or external service.
+
+## 6. Spring Framework, not Spring Boot
+
+This is a strict requirement.
+
+Do not create Spring Boot as the main curriculum or use it as a shortcut for configuring Spring Framework.
+
+Avoid:
+
+- @SpringBootApplication
+- SpringApplication.run()
+- Spring Boot starters as the default dependency mechanism
+- Spring Boot auto-configuration as a substitute for understanding Spring configuration
+- application.properties examples that depend on Spring Boot-specific behavior
+- Spring Boot CLI or Actuator as core requirements
+
+Instead, teach explicit configuration with the Spring Framework itself.
+
+For example, teach:
+
+- AnnotationConfigApplicationContext for standalone annotation-based applications.
+- ClassPathXmlApplicationContext for XML-based applications.
+- Explicit Maven or Gradle dependencies.
+- Explicit DataSource and transaction manager configuration.
+- DispatcherServlet and WebApplicationInitializer or equivalent servlet-container configuration for web applications.
+- Standard Spring testing APIs.
+
+If a comparison with Spring Boot is useful, explain the difference briefly, but do not turn it into a Spring Boot tutorial.
+
+## 7. Version and compatibility requirements
+
+Before implementing lessons, determine a consistent supported Spring Framework baseline.
+
+- Inspect the project's JDK version and current Java examples.
+- Prefer a stable Spring Framework version compatible with the project's supported JDK.
+- Document the chosen Spring Framework and Java versions.
+- Distinguish APIs that differ between Spring Framework 5, 6, and 7.
+- Account for the `javax.*` to `jakarta.*` transition in Spring Framework 6.
+- Identify features that are version-specific or deprecated.
+- Do not present removed APIs as current best practices.
+- Verify version-sensitive details against official Spring documentation.
+
+Do not mix incompatible dependencies or configuration styles in a single runnable example.
+
+## 8. Architecture and content organization
+
+Use the existing project's content registration, navigation, routing, and styling mechanisms.
+
+Prefer a dedicated content directory for Spring Framework lessons if that fits the existing architecture, for example:
+
+`public/js/content/spring/`
+
+Organize lesson content into maintainable files rather than one enormous file.
+
+Every sidebar lesson must map to a valid lesson slug and a real lesson definition.
+
+Maintain a clear mapping between:
+
+- Top-level menu
+- Sidebar group
+- Lesson title
+- Lesson slug
+- Registered lesson content
+- Related lessons
+- Previous and next navigation
+
+Avoid duplicate slugs, conflicting registrations, and broken links.
+
+Update project documentation to describe the new Spring Framework curriculum and its organization.
+
+## 9. Acceptance criteria
+
+The task is complete only when:
+
+- The Spring Framework menu appears alongside the existing Java navigation.
+- Existing Java pages continue to work without regressions.
+- Every listed group and subtopic appears in the correct sidebar hierarchy.
+- Every topic has a dedicated lesson route.
+- Every lesson contains meaningful, technically correct instructional content.
+- Internal lesson links and previous/next navigation work.
+- Search and active navigation behave consistently with the existing application.
+- The layout is responsive.
+- Examples are clearly labeled according to whether they can actually run in the existing editor.
+- Spring Framework examples do not depend on Spring Boot.
+- Dependencies and version-specific APIs are consistent.
+- There are no duplicate lesson slugs, missing registrations, or JavaScript console errors.
+- Existing Java execution behavior remains intact.
+- Automated checks, available tests, and manual smoke tests are completed.
+- Documentation is updated.
+
+## 10. Implementation workflow
+
+Work in these stages:
+
+1. Inspect the existing application and report the relevant architecture.
+2. Propose the navigation structure and lesson registration approach.
+3. Implement the new top-level menu and sidebar.
+4. Create and register all lesson routes.
+5. Write the lesson content using the quality requirements.
+6. Add examples, expected output, exercises, and related links.
+7. Integrate the lessons with search and navigation.
+8. Run tests and inspect the affected pages.
+9. Fix regressions and broken routes.
+10. Summarize the files changed, lessons created, checks performed, and any limitations.
+
+Do not stop after creating only the menu or sidebar. Implement the complete curriculum.
+
+Do not commit or push changes unless explicitly requested.
+
+Start by inspecting the existing codebase, then proceed with the implementation.

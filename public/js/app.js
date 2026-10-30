@@ -4,8 +4,27 @@
   const JT = window.JT;
   const esc = JT.esc;
 
+  // Each course has its own URL base, slug prefix, navigation and Previous/Next order.
+  // The Java Tutorial is last because it is the fallback for every other slug.
+  const COURSES = [
+    { base: '/security', home: 'security_home', prefix: 'security_', name: 'Security', nav: 'securityNav', order: 'securityOrder', css: 'security-route', search: 'security lessons' },
+    { base: '/spring-boot', home: 'springboot_home', prefix: 'springboot_', name: 'Spring Boot', nav: 'springBootNav', order: 'springBootOrder', css: 'springboot-route', search: 'Spring Boot lessons' },
+    { base: '/spring', home: 'spring_home', prefix: 'spring_', name: 'Spring Framework', nav: 'springNav', order: 'springOrder', css: 'spring-route', search: 'Spring lessons' },
+    { base: '/java-core-advanced', home: 'java_ca_home', prefix: 'java_ca_', name: 'Java Core Advance', nav: 'coreAdvNav', order: 'coreAdvOrder', css: 'core-advanced-route', search: 'Core Advanced lessons' },
+    { base: '/ruby', home: 'ruby_home', prefix: 'ruby_', name: 'Ruby', nav: 'rubyNav', order: 'rubyOrder', css: 'ruby-route', search: 'Ruby lessons' },
+    { base: '/rails', home: 'rails_home', prefix: 'rails_', name: 'Ruby on Rails', nav: 'railsNav', order: 'railsOrder', css: 'rails-route', search: 'Rails lessons' },
+    { base: '/java', home: 'default', prefix: '', name: 'Java', nav: 'nav', order: 'order', css: 'java-route', search: 'Java pages' },
+  ];
+  const courseForSlug = (slug) => COURSES.find((c) => slug === c.home || slug.startsWith(c.prefix));
+  const courseForPath = (p) => COURSES.find((c) => p === c.base || p.startsWith(c.base + '/'));
+  const course = () => courseForPath(location.pathname) || COURSES[COURSES.length - 1];
+  JT.course = course;
+
   // The site is served by server.js (it needs /api/run), so URLs are always absolute paths.
-  JT.url = (slug) => '/java/' + (slug === 'default' ? '' : slug);
+  JT.url = (slug) => {
+    const c = courseForSlug(slug);
+    return c.base + '/' + (slug === c.home ? '' : slug);
+  };
   JT.tryitUrl = (slug, i) => '/tryit?page=' + encodeURIComponent(slug) + '&ex=' + i;
   const link = (slug, text) => '<a href="' + JT.url(slug) + '">' + (text || esc((JT.navInfo[slug] || {}).fullTitle || slug)) + '</a>';
   JT.link = link;
@@ -20,8 +39,12 @@
   // ---- Sidebar ----
   function renderSidebar(current) {
     const side = document.getElementById('sidebar');
+    const nav = JT[course().nav];
+    side.setAttribute('aria-label', course().name + ' navigation');
+    const menuButton = document.getElementById('menu-btn');
+    if (menuButton) menuButton.setAttribute('aria-label', 'Toggle the ' + course().name + ' menu');
     let html = '';
-    for (const g of JT.nav) {
+    for (const g of nav) {
       const words = g.title.split(' ');
       html += '<h2><span>' + esc(words[0]) + '</span> ' + esc(words.slice(1).join(' ')) + '</h2>';
       for (const it of g.items) {
@@ -78,14 +101,16 @@
     syn: (c, title) => '<div class="example"><h3>' + (title || 'Syntax') + '</h3><pre class="code">' + JT.highlight(dedent(c)) + '</pre></div>',
     table: (head, rows) => '<div class="table-wrap"><table class="ref"><thead><tr>' + head.map((h) => '<th>' + h + '</th>').join('') + '</tr></thead><tbody>' +
       rows.map((r) => '<tr>' + r.map((c) => '<td>' + c + '</td>').join('') + '</tr>').join('') + '</tbody></table></div>',
-    // Runnable example. opts: {title, desc, stdin, noRun}
+    // Runnable example. opts: {title, desc, stdin, noRun, lang: 'ruby'}
     ex(code, opts = {}) {
       code = dedent(code);
       const idx = collecting ? collecting.length : 0;
-      if (collecting) collecting.push({ code, run: JT.runnable(code), offset: JT.wrapOffset(code), stdin: opts.stdin || '', title: opts.title || '' });
+      // Ruby runs as written; Java snippets are wrapped in a Main class.
+      const ruby = opts.lang === 'ruby';
+      if (collecting) collecting.push({ code, lang: ruby ? 'ruby' : 'java', run: ruby ? code : JT.runnable(code), offset: ruby ? 0 : JT.wrapOffset(code), stdin: opts.stdin || '', title: opts.title || '' });
       const slug = JT.currentSlug;
       return '<div class="example"><h3>' + (opts.title || 'Example') + '</h3>' + (opts.desc ? '<p>' + opts.desc + '</p>' : '') +
-        '<pre class="code">' + JT.highlight(code) + '</pre>' +
+        '<pre class="code">' + (ruby ? JT.highlightRuby(code) : JT.highlight(code)) + '</pre>' +
         (opts.noRun ? '' : '<div class="run-bar"><a class="btn" target="_blank" href="' + JT.tryitUrl(slug, idx) + '">Try it Yourself »</a>' +
         '<button class="btn ghost" data-run-ex="' + idx + '">Run here</button><span class="run-status"></span></div><div class="ex-out" hidden></div>') + '</div>';
     },
@@ -93,6 +118,20 @@
 
   JT.pages = {};
   JT.def = (slug, page) => { JT.pages[slug] = page; };
+  JT.springLabMarkup = (course, module, mode, code) => '<section class="spring-project-lab" data-course="' + esc(course) + '" data-module="' + esc(module || 'core') + '" data-mode="' + esc(mode || 'program') + '"><h2>Try it Yourself</h2>' +
+    '<p>Edit the lesson example and run it in a temporary Maven project. Lesson snippets are wrapped in a small application context; complete programs run as written. Some database labs use in-memory H2. The lab never uses your PostgreSQL credentials.</p>' +
+    '<div class="spring-lab-editor"><textarea class="spring-lab-seed" hidden>' + esc(code) + '</textarea><div class="spring-lab-code"></div></div>' +
+    '<div class="run-bar"><button class="btn" data-spring-run>Run with Maven</button><button class="btn ghost" data-spring-reset>Reset example</button><span class="run-status" data-spring-status></span></div>' +
+    '<div class="console spring-lab-console" data-spring-console aria-live="polite">Edit the example, then choose Run with Maven. The first run may download dependencies.</div>' +
+    '<p class="small">The local lab runs user code with the permissions of JavaTrail. Keep JavaTrail on localhost. Boot web samples use a random loopback port for one request and then stop. PostgreSQL, Redis, Kafka and other external services are not started automatically.</p></section>';
+  JT.runSpring = async (course, module, mode, code) => {
+    try {
+      const res = await fetch('/api/spring/run', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ course, module, mode, code }) });
+      const data = await res.json();
+      if (!res.ok && !data.error) data.error = 'Spring lab request failed (HTTP ' + res.status + ').';
+      return data;
+    } catch { return { error: 'Cannot reach the Spring Maven lab. Start JavaTrail with node server.js and open it from http://127.0.0.1:8081/.' }; }
+  };
   JT.challenge = (topic, c) => {
     const slug = 'java_challenges_' + topic;
     const info = JT.navInfo[slug];
@@ -247,21 +286,29 @@
 
   // ---- Page rendering ----
   function nextPrev(slug) {
-    const i = JT.order.indexOf(slug);
-    const prev = i > 0 ? JT.order[i - 1] : null;
-    const next = i >= 0 && i < JT.order.length - 1 ? JT.order[i + 1] : null;
+    const order = JT[course().order];
+    const i = order.indexOf(slug);
+    const prev = i > 0 ? order[i - 1] : null;
+    const next = i >= 0 && i < order.length - 1 ? order[i + 1] : null;
     return '<div class="nextprev">' + (prev ? '<a class="btn" href="' + JT.url(prev) + '">❮ Previous</a>' : '<span></span>') +
       (next ? '<a class="btn" href="' + JT.url(next) + '">Next ❯</a>' : '<span></span>') + '</div>';
   }
 
   function render(slug, keepScroll) {
     JT.currentRoute = slug;
+    for (const c of COURSES) document.body.classList.toggle(c.css, c === course());
+    const search = document.getElementById('search');
+    if (search) { search.placeholder = 'Search ' + course().search + '… ( / )'; search.setAttribute('aria-label', 'Search ' + course().search); }
+    document.querySelectorAll('.topnav a.course-link').forEach((a) => a.classList.toggle('current', a.getAttribute('href') === course().base + '/'));
+    // On phones the course links scroll sideways; bring the current one into view.
+    const current = document.querySelector('.topnav a.current');
+    if (current) current.parentElement.scrollLeft = current.offsetLeft - current.parentElement.offsetLeft - 8;
     const info = JT.navInfo[slug];
     const page = JT.pages[slug];
     const main = document.getElementById('main');
     renderSidebar(slug);
     if (!info || !page) {
-      main.innerHTML = '<h1>Page not found</h1><p>There is no Java lesson called <code>' + esc(slug) + '</code>.</p><p>' + link('default', 'Go to the Java tutorial home') + '</p>';
+      main.innerHTML = '<h1>Page not found</h1><p>There is no ' + esc(course().name) + ' lesson called <code>' + esc(slug) + '</code>.</p><p>' + link(course().home, 'Go to the ' + esc(course().name) + ' home page') + '</p>';
       document.title = 'Not found · JavaTrail';
       return;
     }
@@ -272,6 +319,7 @@
     let out = '<h1>' + h1 + '</h1>' + nextPrev(slug) + '<hr>' + html;
     if (page.challenge) out += renderChallenge(page.challenge);
     if (page.exercise) out += '<hr>' + JT.renderExercise(page.exercise, slug);
+    if (page.springLab) out += JT.springLabMarkup(page.springLab.course, page.springLab.module, page.springLab.mode, page.springLab.code);
     out += '<hr>' + nextPrev(slug);
     main.innerHTML = out;
 
@@ -280,13 +328,34 @@
       const status = b.nextElementSibling;
       const outEl = b.closest('.example').querySelector('.ex-out');
       b.disabled = true; status.textContent = 'Compiling and running…';
-      const r = await JT.runJava(ex.run, ex.stdin);
+      const r = await JT.runCode(ex.lang, ex.run, ex.stdin);
       // The box shows the bare snippet, so shift line numbers back past the hidden wrapper.
       if (ex.offset && r.stderr) r.stderr = r.stderr.replace(/Main\.java:(\d+)/g, (m, n) => 'Main.java:' + (n - ex.offset));
       b.disabled = false; status.textContent = '';
       outEl.hidden = false; outEl.className = 'ex-out console';
       JT.showResult(outEl, r);
     }));
+    main.querySelectorAll('.spring-project-lab').forEach((lab) => {
+      const seed = lab.querySelector('.spring-lab-seed');
+      const initial = seed.value;
+      seed.remove();
+      const editor = JT.createEditor(lab.querySelector('.spring-lab-code'), initial, { minHeight: 260 });
+      const runButton = lab.querySelector('[data-spring-run]');
+      const resetButton = lab.querySelector('[data-spring-reset]');
+      const status = lab.querySelector('[data-spring-status]');
+      const consoleEl = lab.querySelector('[data-spring-console]');
+      runButton.addEventListener('click', async () => {
+        runButton.disabled = true;
+        status.textContent = 'Building the fixed Maven project; the first run may take a few minutes…';
+        consoleEl.textContent = '';
+        const labCourse = lab.dataset.course || (isSpringBootRoute() ? 'springboot' : 'spring');
+        const result = await JT.runSpring(labCourse, lab.dataset.module || 'core', lab.dataset.mode || 'program', editor.value);
+        runButton.disabled = false;
+        status.textContent = result.ms ? 'Completed in ' + result.ms + ' ms' : '';
+        JT.showResult(consoleEl, result);
+      });
+      resetButton.addEventListener('click', () => { editor.value = initial; status.textContent = ''; consoleEl.textContent = 'Example reset.'; });
+    });
     if (page.exercise) wireExercise(main.querySelector('.exercise'), page.exercise, slug);
     if (page.challenge) wireChallenge(slug, page.challenge);
     if (page.after) page.after(main, { wireExercise, wireQuiz, renderChallenge, wireChallenge });
@@ -297,11 +366,11 @@
 
   // ---- Router ----
   function slugFromLocation() {
-    const m = location.pathname.match(/^\/java\/?([^/]*)/);
-    let s = m ? m[1] : '';
-    s = s.replace(/\.(asp|php|html)$/, '');
-    return s || 'default';
+    const c = course();
+    const s = location.pathname.slice(c.base.length).replace(/^\//, '').split('/')[0].replace(/\.(asp|php|html)$/, '');
+    return s || c.home;
   }
+  function isSpringBootRoute() { return course().base === '/spring-boot'; }
   function navigate(href, push) {
     const u = new URL(href, location.href);
     if (push) history.pushState({}, '', u.pathname + u.search + u.hash);
@@ -311,7 +380,7 @@
     const a = e.target.closest('a[href]');
     if (!a || a.target || e.ctrlKey || e.metaKey || e.shiftKey || e.button !== 0) return;
     const u = new URL(a.getAttribute('href'), location.href);
-    if (u.origin === location.origin && /^\/java(\/|$)/.test(u.pathname) && !u.hash) { e.preventDefault(); navigate(u.href, true); }
+    if (u.origin === location.origin && courseForPath(u.pathname) && !u.hash) { e.preventDefault(); navigate(u.href, true); }
   });
   window.addEventListener('popstate', () => render(slugFromLocation(), true));
 
@@ -321,12 +390,15 @@
     const box = document.getElementById('search-results');
     let sel = 0, hits = [];
     const show = () => {
+      input.placeholder = 'Search ' + course().search + '… ( / )';
+      input.setAttribute('aria-label', 'Search ' + course().search);
       const q = input.value.trim().toLowerCase();
       if (!q) { box.hidden = true; return; }
       const words = q.split(/\s+/);
-      hits = JT.order.filter((s) => { const i = JT.navInfo[s]; const hay = (i.fullTitle + ' ' + i.title + ' ' + i.group + ' ' + s).toLowerCase(); return words.every((w) => hay.includes(w)); }).slice(0, 14);
+      const order = JT[course().order];
+      hits = order.filter((s) => { const i = JT.navInfo[s]; const hay = (i.fullTitle + ' ' + i.title + ' ' + i.group + ' ' + s).toLowerCase(); return words.every((w) => hay.includes(w)); }).slice(0, 14);
       sel = 0;
-      box.innerHTML = hits.length ? hits.map((s, i) => '<a href="' + JT.url(s) + '"' + (i === 0 ? ' class="sel"' : '') + '>' + esc(JT.navInfo[s].fullTitle) + ' <span class="grp">· ' + esc(JT.navInfo[s].group) + '</span></a>').join('') : '<div class="empty">No matching Java pages.</div>';
+      box.innerHTML = hits.length ? hits.map((s, i) => '<a href="' + JT.url(s) + '"' + (i === 0 ? ' class="sel"' : '') + '>' + esc(JT.navInfo[s].fullTitle) + ' <span class="grp">· ' + esc(JT.navInfo[s].group) + '</span></a>').join('') : '<div class="empty">No matching ' + course().search + '.</div>';
       box.hidden = false;
     };
     input.addEventListener('input', show);

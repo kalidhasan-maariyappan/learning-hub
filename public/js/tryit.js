@@ -1,4 +1,4 @@
-// Try-it page: loads an example by ?page=<slug>&ex=<index>, edits it, and runs it on the local JDK.
+// Try-it page: loads an example by ?page=<slug>&ex=<index>, edits it, and runs it on the local JDK or Ruby.
 (function () {
   'use strict';
   const JT = window.JT;
@@ -9,20 +9,25 @@
   const ex = examples[idx];
   const fallback = 'public class Main {\n    public static void main(String[] args) {\n        System.out.println("Hello, Java!");\n    }\n}\n';
   const code = ex ? ex.run : fallback;
+  const lang = ex ? ex.lang : 'java';
 
   const titleEl = document.getElementById('tryit-title');
   if (ex) titleEl.textContent = (JT.navInfo[slug] ? JT.navInfo[slug].fullTitle : slug) + ' — example ' + (idx + 1);
   else if (slug) titleEl.textContent = 'Example not found — showing a starter program';
+  if (lang === 'ruby') {
+    document.getElementById('stdin').placeholder = 'Text typed here is sent to $stdin (gets) when the program runs.';
+    document.getElementById('console').innerHTML = '<span class="sys">Press Run to execute the code with the local Ruby.</span>';
+  }
   if (ex && ex.stdin) { document.getElementById('stdin').value = ex.stdin; document.querySelector('details.stdin').open = true; }
 
   const consoleEl = document.getElementById('console');
   const runBtn = document.getElementById('run-btn');
-  const editor = JT.createEditor(document.getElementById('editor'), code, { onRun: run });
+  const editor = JT.createEditor(document.getElementById('editor'), code, { onRun: run, lang });
 
   async function run() {
     runBtn.disabled = true;
-    consoleEl.innerHTML = '<span class="sys">Compiling and running…</span>';
-    const r = await JT.runJava(editor.value, document.getElementById('stdin').value);
+    consoleEl.innerHTML = '<span class="sys">' + (lang === 'ruby' ? 'Running…' : 'Compiling and running…') + '</span>';
+    const r = await JT.runCode(lang, editor.value, document.getElementById('stdin').value);
     runBtn.disabled = false;
     JT.showResult(consoleEl, r);
   }

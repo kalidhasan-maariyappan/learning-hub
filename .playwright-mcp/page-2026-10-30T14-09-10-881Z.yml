@@ -1,0 +1,204 @@
+- generic [active] [ref=f9e1]:
+  - banner [ref=f9e2]:
+    - link "JT JavaTrail" [ref=f9e3] [cursor=pointer]:
+      - /url: /java/
+      - generic [ref=f9e4]: JT
+      - generic [ref=f9e5]: JavaTrail
+    - navigation "Sections" [ref=f9e6]:
+      - link "Tutorial" [ref=f9e7] [cursor=pointer]:
+        - /url: /java/
+      - link "Reference" [ref=f9e8] [cursor=pointer]:
+        - /url: /java/java_ref_reference
+      - link "Java Core Advance" [ref=f9e9] [cursor=pointer]:
+        - /url: /java-core-advanced/
+      - link "Spring Framework" [ref=f9e10] [cursor=pointer]:
+        - /url: /spring/
+      - link "Spring Boot" [ref=f9e11] [cursor=pointer]:
+        - /url: /spring-boot/
+      - link "Security" [ref=f9e12] [cursor=pointer]:
+        - /url: /security/
+      - link "Ruby" [ref=f9e13] [cursor=pointer]:
+        - /url: /ruby/
+      - link "Rails" [ref=f9e14] [cursor=pointer]:
+        - /url: /rails/
+      - link "Exercises" [ref=f9e15] [cursor=pointer]:
+        - /url: /java/java_exercises
+      - link "Quiz" [ref=f9e16] [cursor=pointer]:
+        - /url: /java/java_quiz
+      - link "Compiler" [ref=f9e17] [cursor=pointer]:
+        - /url: /java/java_compiler
+    - searchbox "Search Rails lessons" [ref=f9e19]
+    - button "Toggle dark mode" [ref=f9e20] [cursor=pointer]: ◐
+  - complementary "Ruby on Rails navigation" [ref=f9e21]:
+    - heading "Start Here" [level=2] [ref=f9e22]
+    - link "Rails Home" [ref=f9e23] [cursor=pointer]:
+      - /url: /rails/
+    - link "Rails Intro" [ref=f9e24] [cursor=pointer]:
+      - /url: /rails/rails_intro
+    - link "Install Rails" [ref=f9e25] [cursor=pointer]:
+      - /url: /rails/rails_install
+    - link "Create a Rails App" [ref=f9e26] [cursor=pointer]:
+      - /url: /rails/rails_new_app
+    - link "Rails MVC" [ref=f9e27] [cursor=pointer]:
+      - /url: /rails/rails_mvc
+    - link "Hello, Rails!" [ref=f9e28] [cursor=pointer]:
+      - /url: /rails/rails_hello
+    - link "Rails Console" [ref=f9e29] [cursor=pointer]:
+      - /url: /rails/rails_console
+    - heading "Models" [level=2] [ref=f9e30]
+    - link "Active Record Basics" [ref=f9e31] [cursor=pointer]:
+      - /url: /rails/rails_ar_basics
+    - link "Active Record CRUD" [ref=f9e32] [cursor=pointer]:
+      - /url: /rails/rails_ar_crud
+    - link "Migrations" [ref=f9e33] [cursor=pointer]:
+      - /url: /rails/rails_migrations
+    - link "Changing Tables" [ref=f9e34] [cursor=pointer]:
+      - /url: /rails/rails_migrations_change
+    - link "Validations" [ref=f9e35] [cursor=pointer]:
+      - /url: /rails/rails_validations
+    - link "Custom Validations and Errors" [ref=f9e36] [cursor=pointer]:
+      - /url: /rails/rails_validation_errors
+    - link "Callbacks" [ref=f9e37] [cursor=pointer]:
+      - /url: /rails/rails_callbacks
+    - link "Associations" [ref=f9e38] [cursor=pointer]:
+      - /url: /rails/rails_associations
+    - link "More Associations" [ref=f9e39] [cursor=pointer]:
+      - /url: /rails/rails_associations_more
+    - link "Query Interface" [ref=f9e40] [cursor=pointer]:
+      - /url: /rails/rails_query_basics
+    - link "Query Conditions" [ref=f9e41] [cursor=pointer]:
+      - /url: /rails/rails_query_conditions
+    - link "Eager Loading and N+1" [ref=f9e42] [cursor=pointer]:
+      - /url: /rails/rails_n_plus_one
+    - link "Scopes and Enums" [ref=f9e43] [cursor=pointer]:
+      - /url: /rails/rails_scopes_enums
+    - link "Active Model Basics" [ref=f9e44] [cursor=pointer]:
+      - /url: /rails/rails_active_model
+    - heading "Views" [level=2] [ref=f9e45]
+    - link "Action View and ERB" [ref=f9e46] [cursor=pointer]:
+      - /url: /rails/rails_action_view
+    - link "Layouts and Rendering" [ref=f9e47] [cursor=pointer]:
+      - /url: /rails/rails_layouts_rendering
+    - link "Partials" [ref=f9e48] [cursor=pointer]:
+      - /url: /rails/rails_partials
+    - link "View Helpers" [ref=f9e49] [cursor=pointer]:
+      - /url: /rails/rails_view_helpers
+    - link "Form Helpers" [ref=f9e50] [cursor=pointer]:
+      - /url: /rails/rails_form_helpers
+    - heading "Controllers" [level=2] [ref=f9e51]
+    - link "Action Controller" [ref=f9e52] [cursor=pointer]:
+      - /url: /rails/rails_controllers
+    - link "Strong Parameters" [ref=f9e53] [cursor=pointer]:
+      - /url: /rails/rails_strong_params
+    - link "Sessions, Cookies and Flash" [ref=f9e54] [cursor=pointer]:
+      - /url: /rails/rails_sessions_flash
+    - link "Controller Callbacks" [ref=f9e55] [cursor=pointer]:
+      - /url: /rails/rails_controller_callbacks
+    - link "Routing" [ref=f9e56] [cursor=pointer]:
+      - /url: /rails/rails_routing
+    - link "Nested and Namespaced Routes" [ref=f9e57] [cursor=pointer]:
+      - /url: /rails/rails_routing_more
+    - link "Controller Advanced Topics" [ref=f9e58] [cursor=pointer]:
+      - /url: /rails/rails_controller_advanced
+    - heading "Rails Features" [level=2] [ref=f9e59]
+    - link "Authentication" [ref=f9e60] [cursor=pointer]:
+      - /url: /rails/rails_authentication
+    - link "Background Jobs" [ref=f9e61] [cursor=pointer]:
+      - /url: /rails/rails_active_job
+    - link "Sending Email" [ref=f9e62] [cursor=pointer]:
+      - /url: /rails/rails_action_mailer
+    - link "File Uploads" [ref=f9e63] [cursor=pointer]:
+      - /url: /rails/rails_active_storage
+    - heading "Digging Deeper" [level=2] [ref=f9e64]
+    - link "Testing Models" [ref=f9e65] [cursor=pointer]:
+      - /url: /rails/rails_testing
+    - link "Integration and System Tests" [ref=f9e66] [cursor=pointer]:
+      - /url: /rails/rails_testing_integration
+    - link "Debugging" [ref=f9e67] [cursor=pointer]:
+      - /url: /rails/rails_debugging
+    - link "Configuration" [ref=f9e68] [cursor=pointer]:
+      - /url: /rails/rails_configuration
+    - link "The Rails Command Line" [ref=f9e69] [cursor=pointer]:
+      - /url: /rails/rails_command_line
+    - link "The Asset Pipeline" [ref=f9e70] [cursor=pointer]:
+      - /url: /rails/rails_assets
+    - link "JavaScript and Hotwire" [ref=f9e71] [cursor=pointer]:
+      - /url: /rails/rails_javascript
+    - link "Internationalization" [ref=f9e72] [cursor=pointer]:
+      - /url: /rails/rails_i18n
+    - link "Autoloading" [ref=f9e73] [cursor=pointer]:
+      - /url: /rails/rails_autoloading
+    - link "API-only Applications" [ref=f9e74] [cursor=pointer]:
+      - /url: /rails/rails_api_only
+    - heading "Going to Production" [level=2] [ref=f9e75]
+    - link "Performance Tuning" [ref=f9e76] [cursor=pointer]:
+      - /url: /rails/rails_performance
+    - link "Caching" [ref=f9e77] [cursor=pointer]:
+      - /url: /rails/rails_caching
+    - link "Security" [ref=f9e78] [cursor=pointer]:
+      - /url: /rails/rails_security
+    - link "Error Reporting" [ref=f9e79] [cursor=pointer]:
+      - /url: /rails/rails_error_reporting
+    - link "Deploying with Kamal" [ref=f9e80] [cursor=pointer]:
+      - /url: /rails/rails_deploy
+    - heading "Rails Interview" [level=2] [ref=f9e81]
+    - link "Rails Interview Questions" [ref=f9e82] [cursor=pointer]:
+      - /url: /rails/rails_interview
+    - link "Rails Quiz" [ref=f9e83] [cursor=pointer]:
+      - /url: /rails/rails_quiz
+  - main [ref=f9e84]:
+    - heading "Rails Eager Loading and N+1" [level=1] [ref=f9e85]
+    - generic [ref=f9e86]:
+      - link "❮ Previous" [ref=f9e87] [cursor=pointer]:
+        - /url: /rails/rails_query_conditions
+      - link "Next ❯" [ref=f9e88] [cursor=pointer]:
+        - /url: /rails/rails_scopes_enums
+    - separator [ref=f9e89]
+    - heading "The N+1 query problem" [level=2] [ref=f9e90]
+    - paragraph [ref=f9e91]: "This code runs one query for the books and then one more query for each book’s author — 11 queries for 10 books:"
+    - generic [ref=f9e92]:
+      - heading "N+1" [level=3] [ref=f9e93]
+      - generic [ref=f9e94]: "books = Book.limit(10) books.each { |book| puts book.author.name }"
+      - generic [ref=f9e95]: SQL SELECT "books".* FROM "books" LIMIT 10 SELECT "authors".* FROM "authors" WHERE "authors"."id" = 1 LIMIT 1 SELECT "authors".* FROM "authors" WHERE "authors"."id" = 2 LIMIT 1 ... 8 more
+    - heading "Fix it with includes" [level=2] [ref=f9e96]
+    - generic [ref=f9e97]:
+      - heading "Eager loading" [level=3] [ref=f9e98]
+      - generic [ref=f9e99]: "books = Book.includes(:author).limit(10) books.each { |book| puts book.author.name }"
+      - generic [ref=f9e100]: SQL SELECT "books".* FROM "books" LIMIT 10 SELECT "authors".* FROM "authors" WHERE "authors"."id" IN (1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+    - table [ref=f9e102]:
+      - rowgroup [ref=f9e103]:
+        - row [ref=f9e104]:
+          - columnheader "Method" [ref=f9e105]
+          - columnheader "How it loads" [ref=f9e106]
+      - rowgroup [ref=f9e107]:
+        - row [ref=f9e108]:
+          - cell [ref=f9e109]:
+            - code [ref=f9e110]: preload
+          - cell "Always a separate query per association" [ref=f9e111]
+        - row [ref=f9e112]:
+          - cell [ref=f9e113]:
+            - code [ref=f9e114]: eager_load
+          - cell "One query with LEFT OUTER JOIN" [ref=f9e115]
+        - row [ref=f9e116]:
+          - cell [ref=f9e117]:
+            - code [ref=f9e118]: includes
+          - 'cell "Chooses: preload, or eager_load when you filter on the association" [ref=f9e119]'
+        - row [ref=f9e120]:
+          - cell [ref=f9e121]:
+            - code [ref=f9e122]: joins
+          - cell "INNER JOIN for filtering only — does not load the association" [ref=f9e123]
+    - heading "strict_loading" [level=2] [ref=f9e124]
+    - paragraph [ref=f9e125]:
+      - code [ref=f9e126]: strict_loading
+      - text: "raises an error when an association is loaded lazily, so N+1 queries are caught in development and tests:"
+    - generic [ref=f9e127]:
+      - heading "strict_loading" [level=3] [ref=f9e128]
+      - generic [ref=f9e129]: class Book < ApplicationRecord self.strict_loading_by_default = true end Book.first.author
+      - generic [ref=f9e130]: "Result ActiveRecord::StrictLoadingViolationError: `Book` is marked for strict_loading. The Author association named `:author` cannot be lazily loaded."
+    - separator [ref=f9e131]
+    - generic [ref=f9e132]:
+      - link "❮ Previous" [ref=f9e133] [cursor=pointer]:
+        - /url: /rails/rails_query_conditions
+      - link "Next ❯" [ref=f9e134] [cursor=pointer]:
+        - /url: /rails/rails_scopes_enums
+  - contentinfo [ref=f9e135]: JavaTrail — an independent learning site. Java examples run through your local JDK and Ruby examples through your local Ruby; Spring Framework project snippets require their documented Spring dependencies.

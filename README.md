@@ -38,6 +38,12 @@ Spring Try It labs require Maven 3.9+ in addition to Java 17+. They build a fixe
 
 Check the runner with `curl http://127.0.0.1:8081/api/health`. The response shows the JDK path and version, and the Ruby folder (`null` when Ruby is not installed).
 
+## GitHub Pages
+
+The workflow in `.github/workflows/pages.yml` publishes a static edition on pushes to `main`. Enable GitHub Actions as the Pages source in the repository settings. Build locally with `node scripts/build-pages.js`; output is in `dist/` and defaults to the `/learning-hub` project path (`PAGES_BASE_PATH` overrides it).
+
+The export includes direct lesson URLs, exercises, quizzes, and the code editor. Java, Ruby, and Maven execution requires the local server; GitHub Pages cannot run the backend. Run `node server.js` locally for those features.
+
 ## Security
 
 **The runner is not a sandbox.** Submitted programs run with the permissions of the user who started `server.js`, and could read or modify that user's files. Several things reduce the risk:

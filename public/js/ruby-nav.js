@@ -91,6 +91,14 @@
       ['rails_performance', 'Performance Tuning'], ['rails_caching', 'Caching'], ['rails_security', 'Security'],
       ['rails_error_reporting', 'Error Reporting'], ['rails_deploy', 'Deploying with Kamal'],
     ]],
+    ['Practical Rails Learning Path', [
+      ['rails_practical_path', 'Practical Rails: Learning Path'],
+      ['rails_performance_bottlenecks', '1.1 Finding Performance Bottlenecks'],
+      ['rails_debugging_path', '2. Debugging: Chapter Plan'],
+      ['rails_frontend_path', '3. Frontend Integration: Chapter Plan'],
+      ['rails_versions_path', '4. Rails 7 vs Rails 8: Chapter Plan'],
+      ['rails_ruby_versions_path', '5. Ruby 3 vs Ruby 4: Chapter Plan'],
+    ]],
     ['Rails Interview', [
       ['rails_interview', 'Rails Interview Basics'], ['rails_interview_models', 'Rails Model Questions'],
       ['rails_interview_queries', 'Rails Database and Query Questions'], ['rails_interview_controllers', 'Rails Controller and View Questions'],

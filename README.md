@@ -128,3 +128,7 @@ Each interview page groups questions by topic and labels them Beginner, Intermed
 # Lesson format
 
 Spring, Spring Boot and Security lessons use the helpers in `public/js/lesson-kit.js`: `JT.kit.java` (plain Java example plus output), `JT.kit.spring` (Maven-lab program plus output), `JT.kit.show` (code that is displayed only) and `JT.kit.interview` (collapsible interview questions). Java Core Advanced lessons use `JT.kit.coreLesson`, which lays a lesson out like a W3Schools page: a short definition, the example with its output inside the example box, "How it works", a Remember box and a Common mistake box. Ruby and Rails pages use `JT.kit.pager` to register a page from its navigation title, `JT.kit.ruby` for runnable Ruby (optional `stdin`), `JT.kit.rails` for shown Rails code with a labelled result, and `JT.kit.remember`, `JT.kit.tip` and `JT.kit.warn` for the note boxes. Every runnable example records its expected output in `JT.lessonExamples`, so a script can run each example and compare the real output with the lesson.
+
+## Practical Rails learning path
+
+Open /rails/rails_practical_path for the five-section curriculum. Chapter 1.1 at /rails/rails_performance_bottlenecks teaches performance investigation with examples, exercises, interview answers and official sources. Later chapters are explicitly marked as planned to support learning one chapter at a time.

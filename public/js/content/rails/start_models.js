@@ -19,6 +19,8 @@
         end
       end`, { title: 'Example' }),
     p('This controller action loads every product, sorted by name, and Rails then renders <code>app/views/products/index.html.erb</code>. That is a whole page in four lines.'),
+    h2('Practical production learning path'),
+    p('Learn to investigate production problems through separate chapters with examples, exercises and interview questions. Start with ' + JT.link('rails_practical_path', 'the practical Rails learning path') + '.'),
     h2('Before you start'),
     p('You should know basic Ruby: variables, methods, blocks, classes and hashes. If not, start with the ' + JT.link('ruby_home', 'Ruby tutorial') + '.'),
     h2('Learning path'),

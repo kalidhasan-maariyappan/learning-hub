@@ -1,30 +1,26 @@
-﻿// Practical Rails course: publish one complete teaching chapter at a time.
+// Practical Rails course: separate pages for chapter-by-chapter teaching.
 (function () {
   'use strict';
   const JT = window.JT;
   const { p, h2, ol, ul, table } = JT.h;
   const K = JT.kit;
   const page = K.pager('Rails');
-  const plans = [
-    ['Performance optimization', 'rails_practical_path', ['Finding performance bottlenecks (available now)', 'SQL costs, lazy loading and bounded queries', 'N+1 queries and eager loading', 'Indexes and execution plans', 'Caching and invalidation', 'Memory, allocations and garbage collection', 'Background jobs, retries and queue latency', 'Monitoring, profiling and production case studies']],
-    ['Debugging applications', 'rails_debugging_path', ['A systematic debugging workflow', 'Rails logs and request correlation', 'Breakpoints and the Ruby debugger', 'Controllers, models and database bugs', 'Browser developer tools', 'REST API responses and API testing tools', 'Authentication, sessions and authorization', 'Background job failures', 'Production incidents, root cause analysis and prevention']],
-    ['Frontend integration', 'rails_frontend_path', ['Assets, import maps and JavaScript bundling', 'jQuery installation, configuration and working examples', 'Bootstrap installation, configuration and working examples', 'React installation, project structure and working examples', 'Rails views, React islands and separate frontend applications', 'Rails 7 and Rails 8 configuration choices']],
-    ['Rails 7 vs Rails 8', 'rails_versions_path', ['Exact release baselines and compatibility', 'Authentication generators and application responsibilities', 'Deployment and Kamal', 'Asset management and configuration changes', 'Database handling and adapter considerations', 'Caching and background jobs', 'Deprecations, upgrade steps and regression checks']],
-    ['Ruby 3.x vs Ruby 4.x', 'rails_ruby_versions_path', ['Exact minor releases and Rails support', 'Language changes with before-and-after examples', 'Performance, JIT and runtime behavior', 'Deprecated and removed functionality', 'Gem and native extension compatibility', 'Migration workflow and production verification']],
-  ];
+  const sections = JT.railsPracticalSections;
   page('rails_practical_path', () => [
-    h2('Learn practical Rails, one chapter at a time'),
-    p('Build senior-level problem-solving skills using simple English and a production-style online store called ShopDesk. Each full chapter teaches what a concept is, why it matters, how it works, when to use it and how to implement it.'),
-    K.tip('Chapter 1.1 is available now. The remaining entries below are a curriculum, not completed lessons. Continue chapter by chapter rather than reading an entire course at once.'),
-    p(JT.link('rails_performance_bottlenecks', 'Start Chapter 1.1: Finding Performance Bottlenecks')),
-    ...plans.flatMap(([title, slug, chapters], index) => [h2('Section ' + (index + 1) + ': ' + title), ol(chapters), index ? p(JT.link(slug, 'View this section plan')) : '']),
-    h2('How every teaching chapter works'),
-    ol(['Introduction and prerequisites', 'Concept, purpose and syntax', 'Step-by-step realistic examples', 'Before-and-after investigation', 'Senior developer tips and common mistakes', 'Hands-on exercises with answer guidance', 'Interview questions with answers', 'Summary and official documentation']),
+    h2('Practical Rails: beginner to production problem solver'),
+    p('Learn through ShopDesk, a fictional online store. Read one chapter at a time: every topic has its own page, practical code, a troubleshooting scenario, exercises with guidance, interview answers and official references.'),
+    K.tip('All five sections are available. Start with Chapter 1.1, use Previous and Next to continue, or choose a topic below. Examples are teaching examples, not measured production benchmarks.'),
+    p(JT.link('rails_performance_bottlenecks', 'Start Chapter 1.1')),
+    ...sections.flatMap((section, index) => [h2('Section ' + (index + 1) + ': ' + section.title), ol(section.chapters.map(([slug, title]) => JT.link(slug, title)))]),
+    h2('Practice environment'),
+    p('Rails examples are copyable code for a local Rails application, not executable Rails requests inside this learning hub. Use a disposable database and sanitized sample data. Code labeled as a fragment assumes the models or services described in that chapter.'),
     h2('Version policy'),
-    p('Examples identify relevant Rails and Ruby versions. Comparison chapters will distinguish minor releases rather than treating all Rails 7, Rails 8 or Ruby 3 releases as identical. Verify version-sensitive behavior against official released documentation; development-edge behavior is not assumed to be released.')
-  ]);
-  for (const [title, slug, chapters] of plans.slice(1)) {
-    page(slug, () => [h2(title + ': planned chapters'), p('This section is planned. Detailed teaching is being added one chapter at a time, beginning with performance investigation.'), ol(chapters), h2('What each chapter will include'), p('Simple explanations, version-specific syntax, installation or implementation steps, realistic scenarios, common mistakes, exercises, interview answers and official sources.'), p(JT.link('rails_performance_bottlenecks', 'Study the first available chapter')), p(JT.link('rails_practical_path', 'Return to the complete curriculum'))]);
+    p('Core examples target Rails 7.2 and Rails 8.0/8.1 unless marked otherwise. Ruby comparison examples distinguish 3.0, 3.2, 3.4 and 4.0. Release-specific sources were checked on 31 October 2026. Pin and test exact patch versions for your own application; a minimum Ruby requirement alone does not prove every dependency supports Ruby 4.'),
+    h2('How to learn'),
+    ol(['Read the concept and prerequisites.', 'Copy the example into the stated file or console.', 'Predict the behavior before trying it.', 'Work through the investigation and verification steps.', 'Attempt the exercises before opening their answers.', 'Explain the interview answers in your own words.'])
+  ], { h1: 'Practical <span>Rails Learning Path</span>' });
+  for (const section of sections.slice(1)) {
+    page(section.overview, () => [h2(section.title), p(section.intro), h2('Teaching chapters'), ol(section.chapters.map(([slug, title]) => JT.link(slug, title))), p(JT.link('rails_practical_path', 'Complete learning path'))]);
   }
   page('rails_performance_bottlenecks', () => [
     h2('Introduction: why is the orders page slow?'),
@@ -91,6 +87,6 @@
     K.remember(['Define the slow operation precisely.', 'Locate the expensive stage before changing code.', 'Use logs and targeted measurements to test hypotheses.', 'Preserve authorization and correctness.', 'Compare before and after under equivalent conditions.']),
     h2('Official references'),
     ul(['<a href="https://guides.rubyonrails.org/v8.0/debugging_rails_applications.html">Rails 8.0: logging and verbose query logs</a>', '<a href="https://guides.rubyonrails.org/v8.0/active_record_querying.html">Rails 8.0: query interface and eager loading</a>', '<a href="https://guides.rubyonrails.org/v8.0/active_support_instrumentation.html">Rails 8.0: Active Support instrumentation</a>', '<a href="https://guides.rubyonrails.org/tuning_performance_for_deployment.html">Rails: deployment performance tuning (select your installed version)</a>']),
-    p('Next planned teaching chapter: SQL costs, lazy loading and bounded queries. ' + JT.link('rails_practical_path', 'Return to the learning path') + '.')
+    p('Continue with ' + JT.link('rails_practical_sql', 'Chapter 1.2: SQL costs, lazy loading and bounded queries') + '.')
   ]);
 })();

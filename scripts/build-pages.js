@@ -29,7 +29,7 @@ function transform(dir) {
 transform(out);
 const context = { window: { JT: {} } };
 vm.createContext(context);
-for (const file of ['nav.js', 'core-advanced-nav.js', 'spring-nav.js', 'spring-boot-nav.js', 'security-nav.js', 'ruby-nav.js']) {
+for (const file of ['content/rails/practical_curriculum.js', 'nav.js', 'core-advanced-nav.js', 'spring-nav.js', 'spring-boot-nav.js', 'security-nav.js', 'ruby-nav.js']) {
   vm.runInContext(fs.readFileSync(path.join(out, 'js', file), 'utf8'), context);
 }
 const shell = fs.readFileSync(path.join(out, 'index.html'), 'utf8');

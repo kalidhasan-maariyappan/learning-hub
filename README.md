@@ -131,4 +131,14 @@ Spring, Spring Boot and Security lessons use the helpers in `public/js/lesson-ki
 
 ## Practical Rails learning path
 
-Open /rails/rails_practical_path for the five-section curriculum. Chapter 1.1 at /rails/rails_performance_bottlenecks teaches performance investigation with examples, exercises, interview answers and official sources. Later chapters are explicitly marked as planned to support learning one chapter at a time.
+Open `/rails/rails_practical_path` for a complete five-section curriculum with 39 separate teaching chapters:
+
+- Performance optimization: 8 chapters covering measurement, SQL, N+1, indexes, caching, memory, jobs and profiling.
+- Debugging: 9 chapters covering systematic investigation, logs, breakpoints, models, browser tools, REST APIs, authentication, jobs and incidents.
+- Frontend integration: 8 chapters covering assets, jQuery, Bootstrap, React, Turbo lifecycle and architecture choices.
+- Rails 7 versus Rails 8: 7 chapters distinguishing minor releases, authentication, deployment, assets, databases, Solid adapters and upgrades.
+- Ruby 3.x versus Ruby 4.x: 7 chapters covering exact release baselines, syntax, core libraries, JIT, concurrency, removals and migration.
+
+Each chapter includes explanations, version scope, implementation steps, code, a production scenario, verification guidance, senior tips, common mistakes, exercises with expandable answers, interview questions and official references. Navigation and Previous/Next keep teaching chapter by chapter. Rails examples are copyable teaching code for a local application; the hub does not execute a Rails application.
+
+Validate with `node scripts/build-pages.js` and `node scripts/verify-rails-practical.js`. Add `--ruby` to the verification command for Ruby syntax checks and selected standalone example execution using the installed Ruby. Ruby 4.0 is required to syntax-check the examples specifically labeled Ruby 4.0.

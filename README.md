@@ -142,3 +142,16 @@ Open `/rails/rails_practical_path` for a complete five-section curriculum with 3
 Each chapter includes explanations, version scope, implementation steps, code, a production scenario, verification guidance, senior tips, common mistakes, exercises with expandable answers, interview questions and official references. Navigation and Previous/Next keep teaching chapter by chapter. Rails examples are copyable teaching code for a local application; the hub does not execute a Rails application.
 
 Validate with `node scripts/build-pages.js` and `node scripts/verify-rails-practical.js`. Add `--ruby` to the verification command for Ruby syntax checks and selected standalone example execution using the installed Ruby. Ruby 4.0 is required to syntax-check the examples specifically labeled Ruby 4.0.
+
+
+## Interview preparation areas
+
+Three top navigation entries open independent learning areas with their own grouped sidebars, scoped search and Previous/Next order:
+
+- `/major-gems/`: 20 gem guides with installation, examples, separate web/API guidance, operational resource costs, troubleshooting, exercises, interview answers and official links.
+- `/coding-interview/`: 60 individually routed Ruby problems: 20 arrays, 20 strings and 20 hashes. Solutions use loops and primitive access rather than algorithm shortcuts. Each includes a contract, walkthrough, complexity, edge cases, runnable local example and follow-up answers.
+- `/rails-scenarios/`: 50 individually routed interview scenarios, including one million records, pagination, exports, indexing, APIs, authorization, jobs, retries, payments, caches, concurrency and deployments. Each separates assumptions, model answer, investigation, implementation, verification and tradeoffs.
+
+The local Try It editor loads the coding lessons. GitHub Pages exports all routes and displays the examples; executing Ruby requires the local server and installed Ruby. No tutorial gem is installed and no external service is called merely by opening its lesson.
+
+Validate with `node scripts/build-pages.js`, `node scripts/verify-interview-prep.js --ruby`, and the existing `node scripts/verify-rails-practical.js --ruby`. The interview verifier checks both shells, navigation, content structure, export paths and algorithm-shortcut restrictions, then executes every solution and displayed demo with behavioral and error cases. Rails/gem snippets are instructional fragments, not a claim of live integration testing against every library/service.

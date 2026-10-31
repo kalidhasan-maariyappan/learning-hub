@@ -7,6 +7,9 @@
   // Each course has its own URL base, slug prefix, navigation and Previous/Next order.
   // The Java Tutorial is last because it is the fallback for every other slug.
   const COURSES = [
+    { base: '/major-gems', home: 'gems_home', prefix: 'gems_', name: 'Major Gems', nav: 'gemsNav', order: 'gemsOrder', css: 'gems-route', search: 'gem guides' },
+    { base: '/coding-interview', home: 'coding_home', prefix: 'coding_', name: 'Coding Interview', nav: 'codingNav', order: 'codingOrder', css: 'coding-route', search: 'coding problems' },
+    { base: '/rails-scenarios', home: 'scenario_home', prefix: 'scenario_', name: 'Real-world Scenarios', nav: 'scenarioNav', order: 'scenarioOrder', css: 'scenarios-route', search: 'scenario questions' },
     { base: '/security', home: 'security_home', prefix: 'security_', name: 'Security', nav: 'securityNav', order: 'securityOrder', css: 'security-route', search: 'security lessons' },
     { base: '/spring-boot', home: 'springboot_home', prefix: 'springboot_', name: 'Spring Boot', nav: 'springBootNav', order: 'springBootOrder', css: 'springboot-route', search: 'Spring Boot lessons' },
     { base: '/spring', home: 'spring_home', prefix: 'spring_', name: 'Spring Framework', nav: 'springNav', order: 'springOrder', css: 'spring-route', search: 'Spring lessons' },

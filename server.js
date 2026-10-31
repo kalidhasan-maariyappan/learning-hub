@@ -381,6 +381,9 @@ async function serveStatic(req, res, urlPath) {
   if (rel === '/security' || rel.startsWith('/security/')) rel = '/index.html';
   if (rel === '/ruby' || rel.startsWith('/ruby/')) rel = '/index.html';
   if (rel === '/rails' || rel.startsWith('/rails/')) rel = '/index.html';
+  for (const area of ['major-gems', 'coding-interview', 'rails-scenarios']) {
+    if (rel === '/' + area || rel.startsWith('/' + area + '/')) rel = '/index.html';
+  }
   if (rel === '/tryit' || rel === '/tryit/') rel = '/tryit.html';
   const file = path.normalize(path.join(ROOT, rel));
   if (!file.startsWith(ROOT)) { res.writeHead(403); return res.end(); }

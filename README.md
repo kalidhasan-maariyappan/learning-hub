@@ -5,6 +5,8 @@ A self-contained Java tutorial website with **real code execution**. Its structu
 - 167 Java Tutorial pages in 13 groups, plus a separate Java Core Advance area with 18 sections and 116 interview-focused lessons
 - The advanced menu has its own route, expandable sidebar, search scope, and Previous/Next order; the basic Java Tutorial remains separate
 - Spring Framework (30 lessons), Spring Boot (25 lessons) and web Security (12 lessons) courses whose examples run in a local Maven lab
+- A W3Schools-style Spring Boot Learning Path (72 pages in 11 sidebar groups) with 40 runnable Spring Boot 4.1 examples, six complete example projects, an All Examples index, exercises, interview questions and a quiz
+- A two-row top navbar: learning areas (Java, Spring, Ruby & Rails, Interview Prep) on top, the courses of the current area below
 - A Ruby course (58 pages, 112 runnable examples run by your local Ruby) and a Ruby on Rails course (61 pages following the Rails 8.1 Guides index)
 - Ruby and Rails interview sections with 630 questions and answers (336 Ruby, 294 Rails), collected from the notes in `interview/ruby/` with duplicates merged
 - 270 runnable examples, each with a "Run here" button and a "Try it Yourself »" editor
@@ -27,9 +29,9 @@ Code is compiled and run by **your local JDK**. Nothing is simulated, and no cod
 node server.js
 ```
 
-Then open <http://127.0.0.1:8081/java/> for the original tutorial, <http://127.0.0.1:8081/java-core-advanced/> for Java Core Advance, <http://127.0.0.1:8081/spring/> for Spring Framework, <http://127.0.0.1:8081/spring-boot/> for Spring Boot, <http://127.0.0.1:8081/security/> for Security, <http://127.0.0.1:8081/ruby/> for Ruby, or <http://127.0.0.1:8081/rails/> for Ruby on Rails.
+Then open <http://127.0.0.1:8081/java/> for the original tutorial, <http://127.0.0.1:8081/java-core-advanced/> for Java Core Advance, <http://127.0.0.1:8081/spring/> for Spring Framework, <http://127.0.0.1:8081/spring-boot/> for Spring Boot, <http://127.0.0.1:8081/security/> for Security, <http://127.0.0.1:8081/ruby/> for Ruby, <http://127.0.0.1:8081/rails/> for Ruby on Rails, or <http://127.0.0.1:8081/spring-boot-path/> for the Spring Boot Learning Path.
 
-Spring Try It labs require Maven 3.9+ in addition to Java 17+. They build a fixed temporary Maven project through `/api/spring/run`; submitted lesson code cannot change the POM. Spring Framework uses Spring 7.0.x and Spring Boot uses Boot 4.1.x. Maven may download dependencies on first use. The lab uses in-memory H2 when needed, never reads PostgreSQL credentials, and does not start external services. Boot web samples bind a random local port for one request and shut down.
+Spring Try It labs require Maven 3.9+ in addition to Java 17+. They build a fixed temporary Maven project through `/api/spring/run`; submitted lesson code cannot change the POM. Spring Framework uses Spring 7.0.x and Spring Boot uses Boot 4.1.2. Maven runs quietly (`-q`), so the console shows the program's output and any build errors. Maven may download dependencies on first use. The lab uses in-memory H2 when needed, never reads PostgreSQL credentials, and does not start external services. Boot web samples bind a random local port for one request and shut down.
 
 | Environment variable | Default | Purpose |
 |---|---|---|
@@ -70,6 +72,7 @@ public/
   js/core-advanced-nav.js separate navigation order for /java-core-advanced/
   js/spring-nav.js        Spring Framework navigation
   js/spring-boot-nav.js   Spring Boot navigation
+  js/spring-boot-path-nav.js  Spring Boot Learning Path sidebar (W3Schools-style flat groups)
   js/security-nav.js      Security course navigation
   js/ruby-nav.js          Ruby and Ruby on Rails navigation (W3Schools-style flat sidebars)
   js/lesson-kit.js        lesson helpers for the Core Advanced, Spring, Boot and Security courses
@@ -78,6 +81,7 @@ public/
   js/content/*.js         lesson pages, one file per sidebar group
   js/content/core_*.js     Java Core Advance roadmap and lessons
   js/content/spring*/      Spring Framework and Spring Boot lesson registrations
+  js/content/spring-boot-path/  Spring Boot Learning Path lessons, projects and reference pages
   js/content/security/    Security lesson registrations
   js/content/ruby/        Ruby lessons, interview question data and quiz
   js/content/rails/       Ruby on Rails lessons, interview question data and quiz
@@ -107,9 +111,17 @@ Every lesson example is a complete program that runs in the Maven lab (**Run wit
 
 # Spring Boot learning area
 
-The separate `/spring-boot/` route contains a Spring Boot course with 7 sections and 25 lessons: core and auto-configuration, configuration, REST APIs, Spring Data JPA, security, testing and production readiness. It teaches Spring Boot as a layer built on Spring Framework. The baseline is Spring Boot 4.1.1 and Java 17+.
+The separate `/spring-boot/` route contains a Spring Boot course with 7 sections and 25 lessons: core and auto-configuration, configuration, REST APIs, Spring Data JPA, security, testing and production readiness. It teaches Spring Boot as a layer built on Spring Framework. The baseline is Spring Boot 4.1.2 and Java 17+.
 
 Every runnable example is a complete Boot application. Web examples start on a random loopback port, call themselves, print the result and stop.
+
+# Spring Boot Learning Path
+
+The `/spring-boot-path/` route is a beginner-to-production Spring Boot course laid out like a W3Schools tutorial: one flat sidebar, one concept per page, read top to bottom. Its 11 groups follow the recommended order — Tutorial (first app, IoC, beans, auto-configuration, configuration, profiles, logging), REST, Data (JPA, repositories, queries, transactions, JdbcClient, N+1, PostgreSQL and Flyway), Testing, Security (basic auth, method security, OAuth2 resource server with JWT), Messaging (application events, Kafka, RabbitMQ, outbox, Redis Streams), Jobs and Cache (scheduling, `@Async` with virtual threads, Spring Batch, caching, Redis), Production (Actuator, metrics, retries, Docker, Kubernetes, CI, debugging), Advanced (microservices, Spring Cloud, WebFlux, SSE, WebSocket, GraphQL, gRPC), Examples and Reference.
+
+Each lesson starts with what you will learn, shows a complete example with its real output, explains it step by step, and ends with points to remember, a common mistake, interview questions and often a fill-in exercise. The 40 runnable examples are Spring Boot 4.1.2 programs; their outputs were produced by running them in the lab. Kafka, RabbitMQ, PostgreSQL, Redis and Docker examples are shown with what they print, because the lab does not start external services.
+
+The Examples group has an **All Examples** page, built from the lessons, and six projects: Patient API, Secured API (JWT roles and ownership), Claims Events (outbox, relay, idempotent consumer), Notifications (RabbitMQ), Cached Catalog and Production Service. The lab modules for this course are `core`, `web`, `validation`, `data`, `test`, `security`, `oauth2` (Boot 4 `spring-boot-starter-security-oauth2-resource-server`), `cache`, `actuator`, `batch` and `app` (web + validation + JPA/H2 + cache + Actuator).
 
 # Security learning area
 

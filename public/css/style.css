@@ -30,7 +30,10 @@
   --tok-ann: #b45309;
   --tok-fn: #795e26;
   --sidebar-w: 260px;
-  --top-h: 52px;
+  --bar-h: 52px;
+  --sub-h: 40px;
+  --top-h: calc(var(--bar-h) + var(--sub-h));
+  --subnav-bg: #2c3e50;
   --mono: "Cascadia Code", Consolas, "SFMono-Regular", Menlo, monospace;
   --sans: "Segoe UI", system-ui, -apple-system, Roboto, "Helvetica Neue", Arial, sans-serif;
   color-scheme: light;
@@ -41,6 +44,7 @@
   --muted: #9aa5b2;
   --border: #2b343f;
   --topbar: #0b1016;
+  --subnav-bg: #18212b;
   --accent: #f97316;
   --accent-hover: #fb923c;
   --accent-soft: #2a1a10;
@@ -78,18 +82,29 @@ button { font-family: inherit; }
 /* ---- Top bar ---- */
 .topbar {
   position: fixed; inset: 0 0 auto 0; height: var(--top-h); z-index: 30;
-  display: flex; align-items: center; gap: 8px; padding: 0 12px;
+  display: flex; flex-direction: column;
   background: var(--topbar); color: var(--topbar-text);
 }
+.topbar-row { display: flex; align-items: center; gap: 8px; height: var(--bar-h); padding: 0 12px; min-width: 0; }
 .topbar a { color: var(--topbar-text); text-decoration: none; }
 .brand { display: flex; align-items: center; gap: 8px; font-weight: 700; font-size: 19px; margin-right: 10px; white-space: nowrap; }
 .brand-mark { display: inline-grid; place-items: center; width: 30px; height: 30px; border-radius: 7px; background: var(--accent); font-size: 15px; }
-.topnav { display: flex; gap: 2px; min-width: 0; flex: 1 1 auto; overflow-x: auto; scrollbar-width: thin; }
-.topnav a { flex: 0 0 auto; white-space: nowrap; }
-.topbar .brand, .topbar .search, .topbar > .icon-btn { flex-shrink: 0; }
-.topnav a { padding: 6px 12px; border-radius: 6px; font-size: 14px; }
-.topnav a:hover, .topnav a.active { background: rgba(255,255,255,.12); }
-.topnav a.current { background: rgba(255,255,255,.18); box-shadow: inset 0 -2px 0 var(--accent); }
+.topbar .brand, .topbar .search, .topbar-row > .icon-btn { flex-shrink: 0; }
+/* Row 1: the four learning areas. Row 2: the courses inside the current area. */
+.family-nav { display: flex; gap: 2px; min-width: 0; overflow-x: auto; scrollbar-width: none; }
+.family-nav a { flex: 0 0 auto; padding: 6px 14px; border-radius: 6px; font-size: 15px; font-weight: 600; white-space: nowrap; }
+.family-nav a:hover { background: rgba(255,255,255,.12); }
+.family-nav a.current { background: var(--accent); color: #fff; }
+.topnav {
+  display: flex; align-items: stretch; gap: 0; height: var(--sub-h); padding: 0 8px;
+  background: var(--subnav-bg); border-top: 1px solid rgba(255,255,255,.08);
+  overflow-x: auto; scrollbar-width: thin;
+}
+.topnav a { flex: 0 0 auto; display: flex; align-items: center; gap: 6px; padding: 0 14px; font-size: 14px; white-space: nowrap; }
+.topnav a[hidden] { display: none; }
+.topnav a:hover { background: rgba(255,255,255,.1); }
+.topnav a.current { background: rgba(255,255,255,.14); box-shadow: inset 0 -3px 0 var(--accent); font-weight: 600; }
+.new-badge { font-size: 10.5px; font-weight: 700; letter-spacing: .03em; text-transform: uppercase; padding: 0 6px; border-radius: 8px; background: var(--accent); color: #fff; line-height: 17px; }
 .top-spacer { flex: 1; }
 .search { position: relative; }
 .search input {
@@ -315,7 +330,7 @@ details.stdin summary { cursor: pointer; color: var(--muted); font-size: 13.5px;
 
 /* ---- Try-it page ---- */
 .tryit-body { height: 100vh; display: flex; flex-direction: column; overflow: hidden; }
-.tryit-bar { display: flex; align-items: center; gap: 10px; height: var(--top-h); padding: 0 12px; background: var(--topbar); color: var(--topbar-text); flex: none; }
+.tryit-bar { display: flex; align-items: center; gap: 10px; height: var(--bar-h); padding: 0 12px; background: var(--topbar); color: var(--topbar-text); flex: none; }
 .tryit-bar a { color: var(--topbar-text); text-decoration: none; }
 .tryit-panes { flex: 1; display: flex; min-height: 0; }
 .tryit-pane { display: flex; flex-direction: column; min-width: 0; min-height: 0; }
@@ -331,7 +346,6 @@ details.stdin summary { cursor: pointer; color: var(--muted); font-size: 13.5px;
 /* ---- Responsive: sidebar becomes an overlay below 992px ---- */
 @media (max-width: 992px) {
   .menu-btn { display: inline-grid; }
-  .topnav a:not(.course-link) { display: none; }
   .sidebar { transform: translateX(-100%); transition: transform .2s ease; box-shadow: 4px 0 18px rgba(0,0,0,.2); }
   body.nav-open .sidebar { transform: none; }
   body.nav-open .scrim { display: block; position: fixed; inset: var(--top-h) 0 0 0; background: rgba(0,0,0,.35); z-index: 15; }
@@ -342,10 +356,8 @@ details.stdin summary { cursor: pointer; color: var(--muted); font-size: 13.5px;
   .diagram-node { min-height: 72px; }
 }
 @media (max-width: 760px) {
-  .topnav { display: flex; }
-  /* Course links stay reachable on phones: the strip scrolls sideways inside the top bar. */
-  .topnav { min-width: 0; flex: 1 1 auto; overflow-x: auto; scrollbar-width: none; }
-  .topnav a.course-link { padding: 6px 5px; font-size: 12px; white-space: nowrap; }
+  .family-nav a { padding: 6px 8px; font-size: 13.5px; }
+  .topnav a { padding: 0 10px; font-size: 13px; }
   .search input { width: 150px; }
   .search-results { width: min(320px, 92vw); right: -50px; }
   .main h1 { font-size: 32px; }
@@ -357,6 +369,11 @@ details.stdin summary { cursor: pointer; color: var(--muted); font-size: 13.5px;
   .flow-arrow { flex-basis: 18px; }
   .flow-arrow::before { content: "↓"; }
 }
+@media (max-width: 600px) {
+  .brand-text, .fam-long { display: none; }
+  .brand { margin-right: 2px; }
+  .search input { width: 120px; }
+}
 @media (max-width: 520px) {
   .concept-diagram { padding: 12px; }
   .runtime-steps { grid-template-columns: minmax(0, 1fr); gap: 4px; }
@@ -365,6 +382,7 @@ details.stdin summary { cursor: pointer; color: var(--muted); font-size: 13.5px;
 }
 @media (max-width: 420px) {
   .brand-text { display: none; }
+  .brand { margin-right: 2px; }
   .search input { width: 120px; }
   .nextprev .btn { padding: 7px 12px; }
 }
@@ -394,3 +412,11 @@ details.qa-reveal summary { cursor: pointer; color: var(--accent); font-weight: 
 .qa-toc { font-size: 14px; margin: 8px 0 4px; line-height: 1.9; }
 .qa-toc a { margin-right: 14px; white-space: nowrap; }
 .qa-section { scroll-margin-top: calc(var(--top-h) + 12px); }
+
+/* ---- Spring Boot Learning Path: example index ---- */
+.badge-run, .badge-show { display: inline-block; min-width: 42px; text-align: center; font-size: 11.5px; font-weight: 700; padding: 0 7px; border-radius: 9px; vertical-align: 1px; }
+.badge-run { background: var(--ok-bg); color: var(--ok); }
+.badge-show { background: var(--example-bg); color: var(--muted); }
+.example-pages > li { margin: 8px 0; }
+.example-index { list-style: none; padding-left: 8px !important; margin: 4px 0 0; }
+.example-index li { margin: 2px 0; font-size: 14.5px; }

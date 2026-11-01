@@ -184,11 +184,15 @@ function springPom(course, module) {
     data: '<dependency><groupId>org.springframework.boot</groupId><artifactId>spring-boot-starter-data-jpa</artifactId></dependency><dependency><groupId>com.h2database</groupId><artifactId>h2</artifactId><scope>runtime</scope></dependency>',
     security: '<dependency><groupId>org.springframework.boot</groupId><artifactId>spring-boot-starter-webmvc</artifactId></dependency><dependency><groupId>org.springframework.boot</groupId><artifactId>spring-boot-starter-security</artifactId></dependency>',
     securityjwt: '<dependency><groupId>org.springframework.boot</groupId><artifactId>spring-boot-starter-webmvc</artifactId></dependency><dependency><groupId>org.springframework.boot</groupId><artifactId>spring-boot-starter-oauth2-resource-server</artifactId></dependency>',
-    test: '<dependency><groupId>org.springframework.boot</groupId><artifactId>spring-boot-starter-webmvc</artifactId></dependency><dependency><groupId>org.springframework.boot</groupId><artifactId>spring-boot-starter-test</artifactId></dependency>',
+    test: '<dependency><groupId>org.springframework.boot</groupId><artifactId>spring-boot-starter-webmvc</artifactId></dependency><dependency><groupId>org.springframework.boot</groupId><artifactId>spring-boot-starter-validation</artifactId></dependency><dependency><groupId>org.springframework.boot</groupId><artifactId>spring-boot-starter-test</artifactId></dependency>',
     actuator: '<dependency><groupId>org.springframework.boot</groupId><artifactId>spring-boot-starter-webmvc</artifactId></dependency><dependency><groupId>org.springframework.boot</groupId><artifactId>spring-boot-starter-actuator</artifactId></dependency>',
     cache: '<dependency><groupId>org.springframework.boot</groupId><artifactId>spring-boot-starter-cache</artifactId></dependency>',
     kafka: '<dependency><groupId>org.springframework.boot</groupId><artifactId>spring-boot-starter-kafka</artifactId></dependency>',
     amqp: '<dependency><groupId>org.springframework.boot</groupId><artifactId>spring-boot-starter-amqp</artifactId></dependency>',
+    // Spring Boot Learning Path: a whole service (web + validation + JPA/H2 + cache + Actuator) and a JWT resource server.
+    app: '<dependency><groupId>org.springframework.boot</groupId><artifactId>spring-boot-starter-webmvc</artifactId></dependency><dependency><groupId>org.springframework.boot</groupId><artifactId>spring-boot-starter-validation</artifactId></dependency><dependency><groupId>org.springframework.boot</groupId><artifactId>spring-boot-starter-data-jpa</artifactId></dependency><dependency><groupId>com.h2database</groupId><artifactId>h2</artifactId><scope>runtime</scope></dependency><dependency><groupId>org.springframework.boot</groupId><artifactId>spring-boot-starter-cache</artifactId></dependency><dependency><groupId>org.springframework.boot</groupId><artifactId>spring-boot-starter-actuator</artifactId></dependency>',
+    batch: '<dependency><groupId>org.springframework.boot</groupId><artifactId>spring-boot-starter-batch</artifactId></dependency>',
+    oauth2: '<dependency><groupId>org.springframework.boot</groupId><artifactId>spring-boot-starter-webmvc</artifactId></dependency><dependency><groupId>org.springframework.boot</groupId><artifactId>spring-boot-starter-security-oauth2-resource-server</artifactId></dependency>',
   };
   const bootDeps = '<dependency><groupId>org.springframework.boot</groupId><artifactId>spring-boot-starter</artifactId></dependency>' + (bootModules[module] || bootModules.core);
   if (course === 'spring') return `<?xml version="1.0" encoding="UTF-8"?>
@@ -197,18 +201,18 @@ function springPom(course, module) {
   <properties><maven.compiler.release>17</maven.compiler.release><project.build.sourceEncoding>UTF-8</project.build.sourceEncoding></properties>
   <dependencies>${frameworkDeps}</dependencies>
   <build><plugins><plugin><groupId>org.apache.maven.plugins</groupId><artifactId>maven-compiler-plugin</artifactId><version>3.14.1</version><configuration><parameters>true</parameters></configuration></plugin>
-    <plugin><groupId>org.codehaus.mojo</groupId><artifactId>exec-maven-plugin</artifactId><version>3.5.1</version><configuration><cleanupDaemonThreads>true</cleanupDaemonThreads></configuration></plugin>
+    <plugin><groupId>org.codehaus.mojo</groupId><artifactId>exec-maven-plugin</artifactId><version>3.5.1</version><configuration><cleanupDaemonThreads>true</cleanupDaemonThreads><daemonThreadJoinTimeout>1000</daemonThreadJoinTimeout></configuration></plugin>
   </plugins></build>
 </project>`;
   return `<?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <parent><groupId>org.springframework.boot</groupId><artifactId>spring-boot-starter-parent</artifactId><version>4.1.1</version><relativePath/></parent>
+  <parent><groupId>org.springframework.boot</groupId><artifactId>spring-boot-starter-parent</artifactId><version>4.1.2</version><relativePath/></parent>
   <groupId>local.javatrail</groupId><artifactId>spring-boot-lab</artifactId><version>1.0</version>
   <properties><java.version>17</java.version><project.build.sourceEncoding>UTF-8</project.build.sourceEncoding></properties>
   <dependencies>${bootDeps}</dependencies>
   <build><plugins><plugin><groupId>org.springframework.boot</groupId><artifactId>spring-boot-maven-plugin</artifactId></plugin>
-    <plugin><groupId>org.codehaus.mojo</groupId><artifactId>exec-maven-plugin</artifactId><version>3.5.1</version><configuration><cleanupDaemonThreads>true</cleanupDaemonThreads></configuration></plugin>
+    <plugin><groupId>org.codehaus.mojo</groupId><artifactId>exec-maven-plugin</artifactId><version>3.5.1</version><configuration><cleanupDaemonThreads>true</cleanupDaemonThreads><daemonThreadJoinTimeout>1000</daemonThreadJoinTimeout></configuration></plugin>
   </plugins></build>
 </project>`;
 }
@@ -313,7 +317,8 @@ async function executeSpringProject(course, module, code, mode) {
     ]);
     const env = { ...process.env, JAVA_HOME: JDK.home, MAVEN_OPTS: '-Xmx768m -Dfile.encoding=UTF-8', PATH: path.join(JDK.home, 'bin') + path.delimiter + path.dirname(maven) + path.delimiter + process.env.PATH };
     const mainClass = packageName + '.' + wrapped.mainClass;
-    const args = ['-B', '-ntp', '-f', 'pom.xml', 'compile', 'exec:java', '-Dexec.mainClass=' + mainClass];
+    // -q keeps the console to the program's own output plus any build errors.
+    const args = ['-B', '-q', '-ntp', '-f', 'pom.xml', 'compile', 'exec:java', '-Dexec.mainClass=' + mainClass];
     const command = process.platform === 'win32'
       ? { file: process.env.ComSpec || 'cmd.exe', args: ['/d', '/s', '/c', 'mvn.cmd ' + args.join(' ')], shell: false }
       : { file: maven, args, shell: false };
@@ -378,6 +383,7 @@ async function serveStatic(req, res, urlPath) {
   if (rel === '/java-core-advanced' || rel.startsWith('/java-core-advanced/')) rel = '/index.html';
   if (rel === '/spring' || rel.startsWith('/spring/')) rel = '/index.html';
   if (rel === '/spring-boot' || rel.startsWith('/spring-boot/')) rel = '/index.html';
+  if (rel === '/spring-boot-path' || rel.startsWith('/spring-boot-path/')) rel = '/index.html';
   if (rel === '/security' || rel.startsWith('/security/')) rel = '/index.html';
   if (rel === '/ruby' || rel.startsWith('/ruby/')) rel = '/index.html';
   if (rel === '/rails' || rel.startsWith('/rails/')) rel = '/index.html';

@@ -11,30 +11,40 @@
 </head>
 <body>
 <header class="topbar">
-  <button class="icon-btn menu-btn" id="menu-btn" aria-label="Toggle the Java menu">☰</button>
-  <a class="brand" href="/java/"><span class="brand-mark">JT</span><span class="brand-text">JavaTrail</span></a>
-  <nav class="topnav" aria-label="Sections">
-    <a href="/java/">Tutorial</a>
-    <a href="/java/java_ref_reference">Reference</a>
-    <a class="course-link core-advanced-link" href="/java-core-advanced/">Java Core Advance</a>
-    <a class="course-link spring-link" href="/spring/">Spring Framework</a>
-    <a class="course-link springboot-link" href="/spring-boot/">Spring Boot</a>
-    <a class="course-link security-link" href="/security/">Security</a>
-    <a class="course-link ruby-link" href="/ruby/">Ruby</a>
-    <a class="course-link rails-link" href="/rails/">Rails</a>
-    <a class="course-link gems-link" href="/major-gems/">Major Gems</a>
-    <a class="course-link coding-link" href="/coding-interview/">Coding Interview</a>
-    <a class="course-link scenarios-link" href="/rails-scenarios/">Real-world Scenarios</a>
-    <a href="/java/java_exercises">Exercises</a>
-    <a href="/java/java_quiz">Quiz</a>
-    <a href="/java/java_compiler">Compiler</a>
-  </nav>
-  <div class="top-spacer"></div>
-  <div class="search">
-    <input id="search" type="search" placeholder="Search Java pages… ( / )" aria-label="Search the Java tutorial" autocomplete="off">
-    <div class="search-results" id="search-results" hidden></div>
+  <div class="topbar-row">
+    <button class="icon-btn menu-btn" id="menu-btn" aria-label="Toggle the Java menu">☰</button>
+    <a class="brand" href="/java/"><span class="brand-mark">JT</span><span class="brand-text">JavaTrail</span></a>
+    <nav class="family-nav" aria-label="Learning areas">
+      <a data-family="java" href="/java/">Java</a>
+      <a data-family="spring" href="/spring-boot-path/">Spring</a>
+      <a data-family="ruby" href="/ruby/">Ruby<span class="fam-long"> &amp; Rails</span></a>
+      <a data-family="interview" href="/coding-interview/">Interview<span class="fam-long"> Prep</span></a>
+    </nav>
+    <div class="top-spacer"></div>
+    <div class="search">
+      <input id="search" type="search" placeholder="Search Java pages… ( / )" aria-label="Search the Java tutorial" autocomplete="off">
+      <div class="search-results" id="search-results" hidden></div>
+    </div>
+    <button class="icon-btn" id="theme-btn" aria-label="Toggle dark mode" title="Toggle dark mode">◐</button>
   </div>
-  <button class="icon-btn" id="theme-btn" aria-label="Toggle dark mode" title="Toggle dark mode">◐</button>
+  <nav class="topnav" aria-label="Courses">
+    <a class="course-link" data-family="java" href="/java/">Java Tutorial</a>
+    <a class="course-link" data-family="java" href="/java/java_ref_reference">Reference</a>
+    <a class="course-link core-advanced-link" data-family="java" href="/java-core-advanced/">Java Core Advance</a>
+    <a class="course-link" data-family="java" href="/java/java_exercises">Exercises</a>
+    <a class="course-link" data-family="java" href="/java/java_quiz">Quiz</a>
+    <a class="course-link" data-family="java" href="/java/java_compiler">Compiler</a>
+    <a class="course-link bootpath-link" data-family="spring" href="/spring-boot-path/">Spring Boot Learning Path <span class="new-badge">New</span></a>
+    <a class="course-link bootpath-link" data-family="spring" href="/spring-boot-path/sbp_examples">Boot Examples</a>
+    <a class="course-link spring-link" data-family="spring" href="/spring/">Spring Framework</a>
+    <a class="course-link springboot-link" data-family="spring" href="/spring-boot/">Spring Boot Deep Dives</a>
+    <a class="course-link security-link" data-family="spring" href="/security/">Security</a>
+    <a class="course-link ruby-link" data-family="ruby" href="/ruby/">Ruby</a>
+    <a class="course-link rails-link" data-family="ruby" href="/rails/">Rails</a>
+    <a class="course-link gems-link" data-family="ruby" href="/major-gems/">Major Gems</a>
+    <a class="course-link coding-link" data-family="interview" href="/coding-interview/">Coding Interview</a>
+    <a class="course-link scenarios-link" data-family="interview" href="/rails-scenarios/">Real-world Scenarios</a>
+  </nav>
 </header>
 <aside class="sidebar" id="sidebar" aria-label="Java tutorial navigation"></aside>
 <div class="scrim" id="scrim"></div>
@@ -46,6 +56,7 @@
 <script src="/js/core-advanced-nav.js"></script>
 <script src="/js/spring-nav.js"></script>
 <script src="/js/spring-boot-nav.js"></script>
+<script src="/js/spring-boot-path-nav.js"></script>
 <script src="/js/security-nav.js"></script>
 <script src="/js/content/rails/practical_curriculum.js"></script>
 <script src="/js/ruby-nav.js"></script>
@@ -87,6 +98,13 @@
 <script src="/js/content/spring-boot/lessons.js"></script>
 <script src="/js/content/spring-boot/lessons_data_prod.js"></script>
 <script src="/js/content/security/lessons.js"></script>
+<script src="/js/content/spring-boot-path/basics.js"></script>
+<script src="/js/content/spring-boot-path/web_data.js"></script>
+<script src="/js/content/spring-boot-path/testing_security.js"></script>
+<script src="/js/content/spring-boot-path/messaging_jobs.js"></script>
+<script src="/js/content/spring-boot-path/production_advanced.js"></script>
+<script src="/js/content/spring-boot-path/projects.js"></script>
+<script src="/js/content/spring-boot-path/reference.js"></script>
 <script src="/js/content/ruby/basics.js"></script>
 <script src="/js/content/ruby/control_collections.js"></script>
 <script src="/js/content/ruby/methods_oop.js"></script>

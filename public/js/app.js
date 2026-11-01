@@ -7,16 +7,17 @@
   // Each course has its own URL base, slug prefix, navigation and Previous/Next order.
   // The Java Tutorial is last because it is the fallback for every other slug.
   const COURSES = [
-    { base: '/major-gems', home: 'gems_home', prefix: 'gems_', name: 'Major Gems', nav: 'gemsNav', order: 'gemsOrder', css: 'gems-route', search: 'gem guides' },
-    { base: '/coding-interview', home: 'coding_home', prefix: 'coding_', name: 'Coding Interview', nav: 'codingNav', order: 'codingOrder', css: 'coding-route', search: 'coding problems' },
-    { base: '/rails-scenarios', home: 'scenario_home', prefix: 'scenario_', name: 'Real-world Scenarios', nav: 'scenarioNav', order: 'scenarioOrder', css: 'scenarios-route', search: 'scenario questions' },
-    { base: '/security', home: 'security_home', prefix: 'security_', name: 'Security', nav: 'securityNav', order: 'securityOrder', css: 'security-route', search: 'security lessons' },
-    { base: '/spring-boot', home: 'springboot_home', prefix: 'springboot_', name: 'Spring Boot', nav: 'springBootNav', order: 'springBootOrder', css: 'springboot-route', search: 'Spring Boot lessons' },
-    { base: '/spring', home: 'spring_home', prefix: 'spring_', name: 'Spring Framework', nav: 'springNav', order: 'springOrder', css: 'spring-route', search: 'Spring lessons' },
-    { base: '/java-core-advanced', home: 'java_ca_home', prefix: 'java_ca_', name: 'Java Core Advance', nav: 'coreAdvNav', order: 'coreAdvOrder', css: 'core-advanced-route', search: 'Core Advanced lessons' },
-    { base: '/ruby', home: 'ruby_home', prefix: 'ruby_', name: 'Ruby', nav: 'rubyNav', order: 'rubyOrder', css: 'ruby-route', search: 'Ruby lessons' },
-    { base: '/rails', home: 'rails_home', prefix: 'rails_', name: 'Ruby on Rails', nav: 'railsNav', order: 'railsOrder', css: 'rails-route', search: 'Rails lessons' },
-    { base: '/java', home: 'default', prefix: '', name: 'Java', nav: 'nav', order: 'order', css: 'java-route', search: 'Java pages' },
+    { base: '/major-gems', family: 'ruby', home: 'gems_home', prefix: 'gems_', name: 'Major Gems', nav: 'gemsNav', order: 'gemsOrder', css: 'gems-route', search: 'gem guides' },
+    { base: '/coding-interview', family: 'interview', home: 'coding_home', prefix: 'coding_', name: 'Coding Interview', nav: 'codingNav', order: 'codingOrder', css: 'coding-route', search: 'coding problems' },
+    { base: '/rails-scenarios', family: 'interview', home: 'scenario_home', prefix: 'scenario_', name: 'Real-world Scenarios', nav: 'scenarioNav', order: 'scenarioOrder', css: 'scenarios-route', search: 'scenario questions' },
+    { base: '/spring-boot-path', family: 'spring', home: 'sbp_home', prefix: 'sbp_', name: 'Spring Boot Learning Path', nav: 'bootPathNav', order: 'bootPathOrder', css: 'bootpath-route', search: 'Spring Boot path lessons' },
+    { base: '/security', family: 'spring', home: 'security_home', prefix: 'security_', name: 'Security', nav: 'securityNav', order: 'securityOrder', css: 'security-route', search: 'security lessons' },
+    { base: '/spring-boot', family: 'spring', home: 'springboot_home', prefix: 'springboot_', name: 'Spring Boot', nav: 'springBootNav', order: 'springBootOrder', css: 'springboot-route', search: 'Spring Boot lessons' },
+    { base: '/spring', family: 'spring', home: 'spring_home', prefix: 'spring_', name: 'Spring Framework', nav: 'springNav', order: 'springOrder', css: 'spring-route', search: 'Spring lessons' },
+    { base: '/java-core-advanced', family: 'java', home: 'java_ca_home', prefix: 'java_ca_', name: 'Java Core Advance', nav: 'coreAdvNav', order: 'coreAdvOrder', css: 'core-advanced-route', search: 'Core Advanced lessons' },
+    { base: '/ruby', family: 'ruby', home: 'ruby_home', prefix: 'ruby_', name: 'Ruby', nav: 'rubyNav', order: 'rubyOrder', css: 'ruby-route', search: 'Ruby lessons' },
+    { base: '/rails', family: 'ruby', home: 'rails_home', prefix: 'rails_', name: 'Ruby on Rails', nav: 'railsNav', order: 'railsOrder', css: 'rails-route', search: 'Rails lessons' },
+    { base: '/java', family: 'java', home: 'default', prefix: '', name: 'Java', nav: 'nav', order: 'order', css: 'java-route', search: 'Java pages' },
   ];
   const courseForSlug = (slug) => COURSES.find((c) => slug === c.home || slug.startsWith(c.prefix));
   const courseForPath = (p) => COURSES.find((c) => p === c.base || p.startsWith(c.base + '/'));
@@ -302,10 +303,18 @@
     for (const c of COURSES) document.body.classList.toggle(c.css, c === course());
     const search = document.getElementById('search');
     if (search) { search.placeholder = 'Search ' + course().search + '… ( / )'; search.setAttribute('aria-label', 'Search ' + course().search); }
-    document.querySelectorAll('.topnav a.course-link').forEach((a) => a.classList.toggle('current', a.getAttribute('href') === course().base + '/'));
-    // On phones the course links scroll sideways; bring the current one into view.
-    const current = document.querySelector('.topnav a.current');
-    if (current) current.parentElement.scrollLeft = current.offsetLeft - current.parentElement.offsetLeft - 8;
+    // Row 1 marks the learning area; row 2 shows only that area's courses and marks the open page or course.
+    const family = course().family;
+    document.querySelectorAll('.family-nav a').forEach((a) => a.classList.toggle('current', a.dataset.family === family));
+    const links = [...document.querySelectorAll('.topnav a.course-link')];
+    links.forEach((a) => { a.hidden = a.dataset.family !== family; a.classList.remove('current'); });
+    const here = location.pathname.replace(/\/$/, '');
+    const exact = links.find((a) => !a.hidden && new URL(a.href).pathname.replace(/\/$/, '') === here);
+    const home = links.find((a) => !a.hidden && new URL(a.href).pathname === course().base + '/');
+    if (exact || home) (exact || home).classList.add('current');
+    // On phones both rows scroll sideways; bring the current links into view.
+    for (const current of document.querySelectorAll('.family-nav a.current, .topnav a.current'))
+      current.parentElement.scrollLeft = current.offsetLeft - current.parentElement.offsetLeft - 8;
     const info = JT.navInfo[slug];
     const page = JT.pages[slug];
     const main = document.getElementById('main');

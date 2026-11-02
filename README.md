@@ -4,7 +4,7 @@ A self-contained Java tutorial website with **real code execution**. Its structu
 
 - 167 Java Tutorial pages in 13 groups, plus a separate Java Core Advance area with 18 sections and 116 interview-focused lessons
 - The advanced menu has its own route, expandable sidebar, search scope, and Previous/Next order; the basic Java Tutorial remains separate
-- Spring Framework (30 lessons), Spring Boot (25 lessons) and web Security (12 lessons) courses whose examples run in a local Maven lab
+- Spring Framework (18 lessons), Spring Boot (25 lessons) and web Security (12 lessons); Spring Maven labs are available for compatible complete programs
 - A W3Schools-style Spring Boot Learning Path (72 pages in 11 sidebar groups) with 40 runnable Spring Boot 4.1 examples, six complete example projects, an All Examples index, exercises, interview questions and a quiz
 - A two-row top navbar: learning areas (Java, Spring, Ruby & Rails, Interview Prep) on top, the courses of the current area below
 - A Ruby course (58 pages, 112 runnable examples run by your local Ruby) and a Ruby on Rails course (61 pages following the Rails 8.1 Guides index)
@@ -105,9 +105,9 @@ The full authoring guide (helpers, exercise, challenge and quiz formats, and rul
 `docs/PLAN.md` (step 9) records the browser test run and how each check was done. A quick check that every example still runs: open any `/java/` page and paste the snippet from `docs/PLAN.md` §8 into the browser console.
 # Spring Framework learning area
 
-The separate `/spring/` route contains a Spring Framework course with its own sidebar, search scope, direct lesson URLs, and Previous/Next order. It has 7 sections and 30 lessons covering the container, beans, configuration, AOP and proxies, JdbcTemplate and transactions, Spring MVC, events and `@Async`. It targets Spring Framework 7.0.x and Java 17+ and does not use Spring Boot.
+The separate `/spring/` route contains a Spring Framework course with its own sidebar, search scope, direct lesson URLs, and Previous/Next order. It has 6 sections and 18 lessons built from the supplied Spring discussion and pasted notes: beginner foundations, AOP, JDBC, transaction management, Web MVC, and Log4j 2. It targets Spring Framework 7.0.x and Java 17+ and does not use Spring Boot.
 
-Every lesson example is a complete program that runs in the Maven lab (**Run with Maven**). MVC examples use MockMvc, so no web server is started. Database examples use in-memory H2.
+The course shows Java and XML examples that fit into a plain Spring Maven project. XML/JSP examples need a compatible servlet deployment; code fragments shown in a lesson are not presented as standalone runnable programs.
 
 # Spring Boot learning area
 

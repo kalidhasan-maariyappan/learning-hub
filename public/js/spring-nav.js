@@ -1,39 +1,37 @@
-// Spring Framework course navigation, isolated from both Java course areas.
-// Topics are the framework features that a senior Java developer uses daily and
-// is asked about in interviews; Spring Boot features live in the Spring Boot course.
+// Spring Framework course navigation, based on the user's Spring discussion notes.
 (function () {
   'use strict';
   const JT = window.JT;
   const groups = [
-    ['ioc', 'IoC and Dependency Injection', [
-      ['ioc_di', 'IoC and dependency injection'], ['application_context', 'ApplicationContext vs BeanFactory'],
-      ['injection_types', 'Constructor, setter and field injection'], ['qualifier_primary', 'Multiple beans: @Qualifier and @Primary'],
-      ['circular_dependencies', 'Circular dependencies'],
+    ['foundations', 'Spring Foundations', [
+      ['benefits', 'Why Spring? Eight benefits explained'],
+      ['pojo_beans', 'POJOs and Spring beans'],
+      ['ioc_di', 'IoC and dependency injection'],
+      ['enterprise_java', 'What are J2EE, Java EE and Jakarta EE?'],
+      ['spring_vs_enterprise_java', 'Java, Jakarta EE and Spring'],
+      ['exception_handling', 'Central exception handling'],
     ]],
-    ['beans', 'Beans', [
-      ['bean_scopes', 'Bean scopes'], ['prototype_in_singleton', 'Prototype bean inside a singleton'],
-      ['bean_lifecycle', 'Bean lifecycle callbacks'], ['bean_post_processor', 'BeanPostProcessor'],
-      ['singleton_thread_safety', 'Singleton beans and thread safety'],
+    ['aop', 'Spring AOP', [
+      ['aop_concepts', 'AOP concepts and advice types'],
+      ['xml_aop', 'AOP with XML schema configuration'],
+      ['aspectj_aop', 'AOP with @AspectJ annotations'],
     ]],
-    ['configuration', 'Configuration', [
-      ['configuration_vs_component', '@Configuration and @Bean methods'], ['component_scanning', 'Component scanning and stereotypes'],
-      ['properties_profiles', '@Value, Environment and @Profile'], ['conditional', '@Conditional'],
+    ['jdbc', 'Spring JDBC', [
+      ['jdbc_template', 'JDBC and JdbcTemplate'],
+      ['jdbc_dao', 'DataSource and DAO pattern'],
+      ['jdbc_operations', 'Queries and SQL operations'],
     ]],
-    ['aop', 'AOP and Proxies', [
-      ['aop_concepts', 'AOP concepts'], ['around_advice', '@Around advice'],
-      ['jdk_vs_cglib', 'JDK dynamic proxy vs CGLIB'], ['self_invocation', 'The self-invocation problem'],
+    ['transactions', 'Transaction Management', [
+      ['transaction_foundations', 'Transactions and ACID'],
+      ['transaction_management', 'Spring transaction management'],
     ]],
-    ['data', 'Data Access and Transactions', [
-      ['jdbc_template', 'JdbcTemplate'], ['transactional', 'How @Transactional works'],
-      ['propagation', 'Transaction propagation'], ['isolation', 'Isolation levels'],
-      ['rollback_rules', 'Rollback rules'], ['transaction_pitfalls', 'Transaction pitfalls'],
+    ['mvc', 'Spring Web MVC', [
+      ['mvc_basics', 'Model–View–Controller and request flow'],
+      ['mvc_xml_views', 'XML configuration and JSP views'],
     ]],
-    ['mvc', 'Spring MVC', [
-      ['dispatcher_servlet', 'DispatcherServlet request flow'], ['rest_controller', '@Controller vs @RestController'],
-      ['exception_handling', 'Exception handling with @RestControllerAdvice'], ['filters_interceptors', 'Filters vs interceptors'],
-    ]],
-    ['events_async', 'Events and Async', [
-      ['events', 'Application events'], ['async', '@Async'],
+    ['logging', 'Logging with Log4j 2', [
+      ['logging_basics', 'Logging concepts and levels'],
+      ['log4j2_config', 'Configure Log4j 2'],
     ]],
   ];
 

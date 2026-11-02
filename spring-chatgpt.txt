@@ -1,0 +1,2351 @@
+next
+Spring Framework – AOP with XML Schema-Based Configuration
+Chapter 20: Tutorialspoint – AOP with XML Schema
+
+In the previous chapter, we learned what AOP is and its important terms: Aspect, Advice, Pointcut, Join Point, and Target Object.
+
+Now we'll learn how to configure different types of AOP advice using XML, without adding AOP annotations to our Java classes.
+
+1. What is XML Schema-Based AOP?
+Spring allows us to configure AOP in Beans.xml using the aop namespace.
+
+For example:
+
+<aop:config>
+    <aop:aspect ref="logging">
+        <aop:pointcut
+            id="allMethods"
+            expression="execution(* com.tutorialspoint.*.*(..))"/>
+    </aop:aspect>
+</aop:config>
+
+Here:
+
+<aop:config> contains AOP configuration.
+
+<aop:aspect> connects the configuration to an aspect bean.
+
+<aop:pointcut> selects which methods should receive advice.
+
+2. Types of Advice in XML
+Tutorialspoint demonstrates five types of advice.
+
+XML element
+
+When it runs
+
+<aop:before>
+
+Before a method executes
+
+<aop:after-returning>
+
+After a method returns successfully
+
+<aop:after-throwing>
+
+When a method throws an exception
+
+<aop:after>
+
+After a method finishes, whether successfully or with an exception
+
+<aop:around>
+
+Around method execution, with control over proceeding
+
+3. Example – Student.java
+Create Student.java inside com.tutorialspoint.
+
+
+package com.tutorialspoint;
+
+public class Student {
+
+    private Integer age;
+    private String name;
+
+    public void setAge(Integer age) {
+        this.age = age;
+    }
+
+    public Integer getAge() {
+        System.out.println("Age : " + age);
+        return age;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getName() {
+        System.out.println("Name : " + name);
+        return name;
+    }
+
+    public void printThrowException() {
+        System.out.println("Exception raised");
+        throw new IllegalArgumentException();
+    }
+}
+
+The class contains normal business methods. There is no AOP code inside it.
+
+4. Logging.java – Create the Aspect
+Create Logging.java in com.tutorialspoint.
+
+
+package com.tutorialspoint;
+
+public class Logging {
+
+    public void beforeAdvice() {
+        System.out.println("Going to setup student profile.");
+    }
+
+    public void afterAdvice() {
+        System.out.println("Student profile has been setup.");
+    }
+
+    public void afterReturningAdvice(Object retVal) {
+        System.out.println("Returning: " + retVal);
+    }
+
+    public void afterThrowingAdvice(IllegalArgumentException ex) {
+        System.out.println("There has been an exception: " + ex);
+    }
+}
+
+Notice that this is a normal Java class. It doesn't implement a Spring interface or use an annotation.
+
+Spring connects these methods to Student through XML.
+
+5. Beans.xml – Configure AOP
+For your spring-learning project, use the following configuration.
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="
+       http://www.springframework.org/schema/beans
+       https://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/aop
+       https://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <bean id="student" class="com.tutorialspoint.Student">
+        <property name="name" value="Zara"/>
+        <property name="age" value="11"/>
+    </bean>
+
+    <bean id="logging" class="com.tutorialspoint.Logging"/>
+
+    <aop:config>
+        <aop:aspect id="log" ref="logging">
+
+            <aop:pointcut
+                id="selectAll"
+                expression="execution(* com.tutorialspoint.Student.*(..))"/>
+
+            <aop:before
+                pointcut-ref="selectAll"
+                method="beforeAdvice"/>
+
+            <aop:after
+                pointcut-ref="selectAll"
+                method="afterAdvice"/>
+
+            <aop:after-returning
+                pointcut-ref="selectAll"
+                returning="retVal"
+                method="afterReturningAdvice"/>
+
+            <aop:after-throwing
+                pointcut-ref="selectAll"
+                throwing="ex"
+                method="afterThrowingAdvice"/>
+
+        </aop:aspect>
+    </aop:config>
+
+</beans>
+
+Understand the configuration
+ref="logging"
+
+Connects the aspect definition to the Logging bean.
+
+pointcut-ref="selectAll"
+
+Tells each advice which pointcut to use.
+
+returning="retVal"
+
+Passes the target method's return value to the advice parameter named retVal.
+
+throwing="ex"
+
+Passes the thrown exception to the advice parameter named ex.
+
+The Student.*(..) expression matches method executions declared on Student, regardless of method name or arguments.
+
+6. MainApp.java
+
+package com.tutorialspoint;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class MainApp {
+
+    public static void main(String[] args) {
+
+        try (ClassPathXmlApplicationContext context =
+                 new ClassPathXmlApplicationContext("Beans.xml")) {
+
+            Student student =
+                context.getBean("student", Student.class);
+
+            student.getName();
+            student.getAge();
+
+            try {
+                student.printThrowException();
+            } catch (IllegalArgumentException ex) {
+                System.out.println("Exception caught in MainApp.");
+            }
+        }
+    }
+}
+
+7. Execution flow
+When student.getName() executes:
+
+Before Advice
+
+Going to setup student profile.
+Student.getName()
+
+Name : Zara
+After Returning Advice
+
+Returning: Zara
+After Advice
+
+Student profile has been setup.
+The exact order between different after-advice types depends on Spring's advice ordering rules. The key distinction is that after-returning runs only on success, whereas after-finally runs on both success and failure.
+
+What happens when an exception occurs?
+When printThrowException() executes:
+
+Before advice runs.
+
+The method prints Exception raised.
+
+The method throws IllegalArgumentException.
+
+After-throwing advice runs.
+
+After-finally advice runs.
+
+The exception reaches MainApp, where it is caught.
+
+After-returning advice does not execute because the method did not complete successfully.
+
+8. Required dependencies
+Your project already uses spring-context.
+
+For this XML AOP example with Spring Framework 7, you also need spring-aop and AspectJ Weaver.
+
+Add these to pom.xml inside <dependencies>:
+
+<dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-aop</artifactId>
+    <version>7.0.0</version>
+</dependency>
+
+<dependency>
+    <groupId>org.aspectj</groupId>
+    <artifactId>aspectjweaver</artifactId>
+    <version>1.9.25</version>
+</dependency>
+
+Then reload the Maven project in IntelliJ.
+
+9. Important points to remember
+Element
+
+Purpose
+
+<aop:config>
+
+Defines AOP configuration
+
+<aop:aspect>
+
+Declares an aspect
+
+<aop:pointcut>
+
+Selects target methods
+
+<aop:before>
+
+Runs before a method
+
+<aop:after>
+
+Runs after completion, including exceptions
+
+<aop:after-returning>
+
+Runs on successful return
+
+<aop:after-throwing>
+
+Runs when an exception is thrown
+
+<aop:around>
+
+Can execute logic around the method and control its execution
+
+Tutorialspoint's example demonstrates the first four advice types; around advice is another supported type. 
+
+TutorialsPoint
+
+Chapter summary: XML Schema-Based AOP allows you to configure advice and pointcuts in Beans.xml while keeping the Java business classes separate from AOP configuration.
+
+Next chapter: Spring – @AspectJ-Based AOP.
+
+next
+Spring Framework – @AspectJ-Based AOP
+Chapter 21: Tutorialspoint – @AspectJ-Based AOP
+
+In the previous chapter, we configured AOP using XML elements such as <aop:before> and <aop:after>.
+
+Now we'll learn how to configure AOP advice using Java annotations, while still using Spring Framework and Beans.xml.
+
+1. What is @AspectJ-Based AOP?
+@AspectJ is a style of declaring aspects using Java annotations.
+
+Previously, we wrote:
+
+<aop:before
+    pointcut-ref="selectAll"
+    method="beforeAdvice"/>
+
+Now we can write the same advice directly in Java:
+
+@Before("selectAll()")
+public void beforeAdvice() {
+    System.out.println("Before method execution");
+}
+
+Spring reads this annotation and executes the advice when a matching method is called through a Spring AOP proxy.
+
+Enable @AspectJ support
+In Beans.xml, add:
+
+<aop:aspectj-autoproxy/>
+
+This tells Spring to enable proxy-based AOP for eligible Spring beans.
+
+The tutorial also lists AspectJ libraries. Since you're using Maven, dependencies can be managed in pom.xml rather than downloading JAR files manually.
+
+2. Declaring an Aspect using @Aspect
+An aspect is a class containing AOP-related logic.
+
+import org.aspectj.lang.annotation.Aspect;
+
+@Aspect
+public class Logging {
+}
+
+Here:
+
+@Aspect identifies the class as an aspect.
+
+Logging contains the advice methods.
+
+The aspect must also be registered as a Spring bean.
+
+For example:
+
+<bean id="logging"
+      class="com.tutorialspoint.Logging"/>
+
+Important: @Aspect alone doesn't automatically register the class as a Spring bean.
+
+3. Declaring a Pointcut using @Pointcut
+A pointcut identifies which methods should be intercepted.
+
+@Pointcut("execution(* com.tutorialspoint.Student.getName(..))")
+private void getNamePointcut() {}
+
+Let's understand the expression.
+
+Part
+
+Meaning
+
+execution
+
+Matches method execution
+
+*
+
+Any return type
+
+com.tutorialspoint.Student
+
+Target class
+
+getName
+
+Target method
+
+(..)
+
+Any number of parameters
+
+The method body is empty because the method only provides a name for the pointcut expression.
+
+To select all methods in the Student class, we can use:
+
+@Pointcut("execution(* com.tutorialspoint.Student.*(..))")
+private void selectAll() {}
+
+4. Declaring Advice using Annotations
+Tutorialspoint introduces five advice annotations.
+
+Annotation
+
+Execution
+
+@Before
+
+Before a matching method
+
+@After
+
+After completion, including exceptions
+
+@AfterReturning
+
+When the method returns successfully
+
+@AfterThrowing
+
+When the method throws an exception
+
+@Around
+
+Around the method; can control its execution
+
+For example:
+
+@Before("selectAll()")
+public void beforeAdvice() {
+    System.out.println("Before method");
+}
+
+You can also specify the pointcut expression directly:
+
+@Before("execution(* com.tutorialspoint.Student.getName(..))")
+public void beforeAdvice() {
+    System.out.println("Before getName()");
+}
+
+The second approach doesn't require a separate @Pointcut method.
+
+5. Complete Example – @AspectJ-Based AOP
+We'll use the same Student example from Tutorialspoint, adapted to your IntelliJ Maven project.
+
+Project structure
+spring-learning/
+├── pom.xml
+└── src/main/
+    ├── java/com/tutorialspoint/
+    │   ├── Student.java
+    │   ├── Logging.java
+    │   └── MainApp.java
+    └── resources/
+        └── Beans.xml
+Step 1: Student.java
+
+package com.tutorialspoint;
+
+public class Student {
+
+    private Integer age;
+    private String name;
+
+    public void setAge(Integer age) {
+        this.age = age;
+    }
+
+    public Integer getAge() {
+        System.out.println("Age : " + age);
+        return age;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getName() {
+        System.out.println("Name : " + name);
+        return name;
+    }
+
+    public void printThrowException() {
+        System.out.println("Exception raised");
+        throw new IllegalArgumentException();
+    }
+}
+
+This is a normal Java class. It doesn't contain any AOP annotations.
+
+Step 2: Logging.java
+This is the most important class in this chapter.
+
+
+package com.tutorialspoint;
+
+import org.aspectj.lang.annotation.Aspect;
+import org.aspectj.lang.annotation.Pointcut;
+import org.aspectj.lang.annotation.Before;
+import org.aspectj.lang.annotation.After;
+import org.aspectj.lang.annotation.AfterReturning;
+import org.aspectj.lang.annotation.AfterThrowing;
+
+@Aspect
+public class Logging {
+
+    @Pointcut("execution(* com.tutorialspoint.Student.*(..))")
+    private void selectAll() {}
+
+    @Before("selectAll()")
+    public void beforeAdvice() {
+        System.out.println("Going to setup student profile.");
+    }
+
+    @After("selectAll()")
+    public void afterAdvice() {
+        System.out.println("Student profile has been setup.");
+    }
+
+    @AfterReturning(
+        pointcut = "selectAll()",
+        returning = "retVal"
+    )
+    public void afterReturningAdvice(Object retVal) {
+        System.out.println("Returning: " + retVal);
+    }
+
+    @AfterThrowing(
+        pointcut = "selectAll()",
+        throwing = "ex"
+    )
+    public void afterThrowingAdvice(IllegalArgumentException ex) {
+        System.out.println("There has been an exception: " + ex);
+    }
+}
+
+Understand the annotations
+@Aspect
+
+Marks Logging as an aspect class.
+
+@Pointcut
+
+@Pointcut("execution(* com.tutorialspoint.Student.*(..))")
+private void selectAll() {}
+
+Selects method executions on Student.
+
+@Before("selectAll()")
+
+Runs before each matching method.
+
+@After("selectAll()")
+
+Runs after a matching method completes, even if an exception occurs.
+
+@AfterReturning
+
+@AfterReturning(
+    pointcut = "selectAll()",
+    returning = "retVal"
+)
+
+Runs after successful execution and receives the returned value.
+
+@AfterThrowing
+
+@AfterThrowing(
+    pointcut = "selectAll()",
+    throwing = "ex"
+)
+
+Runs when a matching method throws an IllegalArgumentException.
+
+6. Configure Beans.xml
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="
+       http://www.springframework.org/schema/beans
+       https://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/aop
+       https://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <aop:aspectj-autoproxy/>
+
+    <bean id="student"
+          class="com.tutorialspoint.Student">
+        <property name="name" value="Zara"/>
+        <property name="age" value="11"/>
+    </bean>
+
+    <bean id="logging"
+          class="com.tutorialspoint.Logging"/>
+
+</beans>
+
+Notice the difference from the previous chapter.
+
+Previously, we configured every advice method using XML.
+
+Now we only enable:
+
+<aop:aspectj-autoproxy/>
+
+and register the Logging bean. The advice configuration is inside Logging.java.
+
+7. MainApp.java
+
+package com.tutorialspoint;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class MainApp {
+
+    public static void main(String[] args) {
+
+        try (ClassPathXmlApplicationContext context =
+                 new ClassPathXmlApplicationContext("Beans.xml")) {
+
+            Student student =
+                context.getBean("student", Student.class);
+
+            student.getName();
+            student.getAge();
+
+            try {
+                student.printThrowException();
+            } catch (IllegalArgumentException ex) {
+                System.out.println("Exception caught in MainApp.");
+            }
+        }
+    }
+}
+
+We catch the exception so the program finishes normally. Tutorialspoint's original example leaves it uncaught, producing a stack trace.
+
+8. Expected output
+Going to setup student profile.
+Name : Zara
+Returning: Zara
+Student profile has been setup.
+
+Going to setup student profile.
+Age : 11
+Returning: 11
+Student profile has been setup.
+
+Going to setup student profile.
+Exception raised
+Student profile has been setup.
+There has been an exception: java.lang.IllegalArgumentException
+Exception caught in MainApp.
+The order of the two after-advice messages differs from the older tutorial's sample because of modern Spring advice ordering.
+
+Execution flow
+MainApp calls student.getName()
+
+Call goes through Spring's AOP proxy
+@Before
+
+Going to setup student profile.
+Student.getName()
+
+Name : Zara
+@AfterReturning
+
+Returning: Zara
+@After
+
+Student profile has been setup.
+9. XML-Based AOP vs @AspectJ-Based AOP
+XML-Based AOP
+
+@AspectJ-Based AOP
+
+Advice is declared in XML
+
+Advice is declared using Java annotations
+
+Uses <aop:aspect>
+
+Uses @Aspect
+
+Uses <aop:pointcut>
+
+Uses @Pointcut
+
+Uses <aop:before>
+
+Uses @Before
+
+Uses <aop:after>
+
+Uses @After
+
+More AOP configuration in XML
+
+Less AOP configuration in XML
+
+Both approaches can use Spring's proxy-based AOP mechanism.
+
+10. Important points to remember
+@Aspect identifies the aspect class.
+
+@Pointcut selects method executions.
+
+@Before, @After, @AfterReturning, and @AfterThrowing define advice behavior.
+
+@Around is also available, but a complete around-advice implementation normally uses ProceedingJoinPoint and proceed().
+
+<aop:aspectj-autoproxy/> enables annotation-based Spring AOP proxies.
+
+The aspect must be registered as a Spring bean.
+
+The project needs the Spring AOP and AspectJ Weaver dependencies.
+
+Chapter summary: @AspectJ-Based AOP lets us define pointcuts and advice directly in Java classes using annotations, instead of configuring every advice method in XML. 
+
+TutorialsPoint
+
+Next chapter: Spring – JDBC Framework.
+
+next
+Spring Framework – JDBC Framework
+Chapter 22: Tutorialspoint – Spring JDBC Framework
+
+In the previous chapter, we learned about @AspectJ-Based AOP.
+
+Now we'll learn how Spring simplifies database operations using JDBC, without needing Spring Boot.
+
+1. What is JDBC?
+JDBC stands for Java Database Connectivity.
+
+It is a Java API used to communicate with relational databases such as MySQL, PostgreSQL, SQL Server, and H2.
+
+Using JDBC, Java applications can execute SQL statements such as:
+
+SELECT * FROM students;
+INSERT INTO students (name, age) VALUES ('Zara', 11);
+UPDATE students SET age = 12 WHERE id = 1;
+DELETE FROM students WHERE id = 1;
+
+The problem with traditional JDBC
+When using JDBC directly, developers usually need to:
+
+Obtain a database connection.
+
+Create a statement.
+
+Execute SQL.
+
+Process the results.
+
+Handle SQL exceptions.
+
+Close JDBC resources.
+
+Spring JDBC simplifies much of this repetitive work.
+
+2. What is Spring JDBC Framework?
+Spring JDBC provides classes that simplify database access.
+
+The most important class introduced in this chapter is:
+
+JdbcTemplate
+
+It handles common JDBC tasks such as obtaining connections, executing SQL statements, processing results, and releasing resources.
+
+You mainly focus on writing SQL and mapping the results into Java objects.
+
+Traditional JDBC vs Spring JDBC
+Traditional JDBC
+
+Spring JDBC
+
+Manually manage statements and result sets
+
+JdbcTemplate handles them
+
+Write repetitive exception-handling code
+
+Spring translates JDBC exceptions
+
+Manually release JDBC resources
+
+Spring handles routine resource cleanup
+
+More boilerplate code
+
+Less boilerplate code
+
+3. JdbcTemplate
+Tutorialspoint explains that JdbcTemplate is the central class in Spring's JDBC support.
+
+Example:
+
+JdbcTemplate jdbcTemplate = new JdbcTemplate(dataSource);
+
+Here:
+
+JdbcTemplate is the Spring class used to execute SQL.
+
+dataSource provides database connections.
+
+Common JdbcTemplate methods
+Method
+
+Purpose
+
+execute()
+
+Execute SQL statements or JDBC callbacks
+
+update()
+
+Execute INSERT, UPDATE, and DELETE
+
+query()
+
+Retrieve multiple records or process query results
+
+queryForObject()
+
+Retrieve one mapped result or a scalar value
+
+Examples:
+
+jdbcTemplate.update(
+    "INSERT INTO students (name, age) VALUES (?, ?)",
+    "Zara", 11
+);
+
+Integer count = jdbcTemplate.queryForObject(
+    "SELECT COUNT(*) FROM students",
+    Integer.class
+);
+
+The ? placeholders represent values supplied separately from the SQL statement.
+
+4. Configuring a DataSource
+A DataSource provides database connections to JdbcTemplate.
+
+Tutorialspoint uses a MySQL database named TEST and a table named Student.
+
+Create the Student table
+CREATE TABLE Student (
+    ID INT NOT NULL AUTO_INCREMENT,
+    NAME VARCHAR(20) NOT NULL,
+    AGE INT NOT NULL,
+    PRIMARY KEY (ID)
+);
+
+Configure Beans.xml
+<bean id="dataSource"
+      class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+
+    <property name="driverClassName"
+              value="com.mysql.cj.jdbc.Driver"/>
+
+    <property name="url"
+              value="jdbc:mysql://localhost:3306/TEST"/>
+
+    <property name="username" value="root"/>
+    <property name="password" value="password"/>
+
+</bean>
+
+Here:
+
+DriverManagerDataSource creates JDBC connections.
+
+driverClassName identifies the MySQL JDBC driver.
+
+url identifies the database server and database.
+
+username and password provide authentication.
+
+The tutorial uses the older com.mysql.jdbc.Driver; the example above uses the newer MySQL driver class name.
+
+For a real application, avoid hardcoding production database passwords in XML, and use a connection pool rather than DriverManagerDataSource.
+
+5. What is DAO?
+DAO stands for Data Access Object.
+
+A DAO is a class responsible for interacting with the database.
+
+For example:
+
+public class StudentDAO {
+
+    private JdbcTemplate jdbcTemplate;
+
+    public StudentDAO(DataSource dataSource) {
+        this.jdbcTemplate = new JdbcTemplate(dataSource);
+    }
+
+    public int countStudents() {
+        return jdbcTemplate.queryForObject(
+            "SELECT COUNT(*) FROM Student",
+            Integer.class
+        );
+    }
+}
+
+The DAO contains database-related code, so other application classes don't need to handle SQL directly.
+
+Connection flow
+MainApp
+
+Calls a DAO method
+StudentDAO
+
+Uses JdbcTemplate to execute SQL
+JdbcTemplate
+
+Obtains a connection from DataSource
+DataSource
+
+Provides access to the database
+MySQL – Student table
+
+Executes the SQL and returns results
+6. Executing SQL Statements
+Tutorialspoint next explains common database operations.
+
+Querying for an integer
+The tutorial shows older methods such as queryForInt() and queryForLong(). These are no longer available in modern Spring.
+
+Use queryForObject() instead:
+
+int count = jdbcTemplate.queryForObject(
+    "SELECT COUNT(*) FROM Student",
+    Integer.class
+);
+
+Querying using a parameter
+int age = jdbcTemplate.queryForObject(
+    "SELECT AGE FROM Student WHERE ID = ?",
+    Integer.class,
+    10
+);
+
+Here, 10 replaces the ? parameter.
+
+Querying for a string
+String name = jdbcTemplate.queryForObject(
+    "SELECT NAME FROM Student WHERE ID = ?",
+    String.class,
+    10
+);
+
+This returns the student's name for ID 10.
+
+Querying and returning an object
+Suppose you want an entire Student object instead of one value.
+
+Spring uses RowMapper to convert a database row into a Java object.
+
+public class StudentMapper implements RowMapper<Student> {
+
+    @Override
+    public Student mapRow(ResultSet rs, int rowNum)
+            throws SQLException {
+
+        Student student = new Student();
+
+        student.setID(rs.getInt("ID"));
+        student.setName(rs.getString("NAME"));
+        student.setAge(rs.getInt("AGE"));
+
+        return student;
+    }
+}
+
+Then:
+
+Student student = jdbcTemplate.queryForObject(
+    "SELECT * FROM Student WHERE ID = ?",
+    new StudentMapper(),
+    10
+);
+
+RowMapper reads values from a ResultSet and creates a Java object.
+
+The Student class needs corresponding fields and setter methods.
+
+Querying multiple objects
+List<Student> students = jdbcTemplate.query(
+    "SELECT * FROM Student",
+    new StudentMapper()
+);
+
+Here, Spring calls the mapper for each returned row and builds a list of Student objects.
+
+7. INSERT, UPDATE, DELETE
+All three operations use jdbcTemplate.update().
+
+INSERT
+jdbcTemplate.update(
+    "INSERT INTO Student (NAME, AGE) VALUES (?, ?)",
+    "Zara",
+    11
+);
+
+UPDATE
+jdbcTemplate.update(
+    "UPDATE Student SET NAME = ? WHERE ID = ?",
+    "Zara",
+    10
+);
+
+DELETE
+jdbcTemplate.update(
+    "DELETE FROM Student WHERE ID = ?",
+    20
+);
+
+The return value of update() is the number of rows affected.
+
+8. Executing DDL Statements
+DDL stands for Data Definition Language.
+
+For example, CREATE TABLE is a DDL statement.
+
+Spring allows you to execute it using JdbcTemplate.execute():
+
+String sql = """
+    CREATE TABLE Student (
+        ID INT NOT NULL AUTO_INCREMENT,
+        NAME VARCHAR(20) NOT NULL,
+        AGE INT NOT NULL,
+        PRIMARY KEY (ID)
+    )
+    """;
+
+jdbcTemplate.execute(sql);
+
+9. Important points to remember
+Concept
+
+Purpose
+
+JDBC
+
+Java API for relational database access
+
+Spring JDBC
+
+Simplifies JDBC operations
+
+JdbcTemplate
+
+Executes SQL and manages routine JDBC work
+
+DataSource
+
+Provides database connections
+
+DAO
+
+Separates database logic from application logic
+
+RowMapper
+
+Converts a database row into a Java object
+
+queryForObject()
+
+Retrieves one result
+
+query()
+
+Retrieves and maps multiple rows
+
+update()
+
+Executes INSERT, UPDATE, and DELETE
+
+execute()
+
+Executes SQL, including DDL
+
+Tutorialspoint also links to separate examples for a complete Spring JDBC application and stored procedure execution. 
+
+JDBC Framework
+
+Chapter summary: Spring JDBC simplifies database operations by handling much of the repetitive connection management, SQL execution, exception translation, and result processing. Developers mainly configure a DataSource, write SQL, and map results.
+
+Next chapter: Spring – Transaction Management.
+
+next
+Spring Framework – Transaction Management
+Chapter 23 · Tutorialspoint – Transaction Management
+
+In the previous chapter, we learned how Spring JDBC performs database operations.
+
+Now we'll learn how Spring manages multiple database operations as a single transaction, ensuring that either all operations succeed or their changes are rolled back.
+
+1. What is a Database Transaction?
+A transaction is a group of database operations treated as one unit of work.
+
+Example: Transferring ₹1,000 between two accounts
+Suppose Account A has ₹5,000 and Account B has ₹2,000.
+
+To transfer ₹1,000, we must execute two operations:
+
+UPDATE accounts
+SET balance = balance - 1000
+WHERE id = 1;
+
+UPDATE accounts
+SET balance = balance + 1000
+WHERE id = 2;
+
+What happens if the first query succeeds but the second query fails?
+
+Without a transaction, Account A loses ₹1,000, but Account B never receives it.
+
+With a transaction, both operations must succeed before the changes are committed.
+
+BEGIN TRANSACTION
+
+Deduct ₹1,000 from Account A
+Add ₹1,000 to Account B
+Both succeed
+
+COMMIT
+
+Save all changes
+An operation fails
+
+ROLLBACK
+
+Undo changes
+2. ACID Properties
+Tutorialspoint explains four important properties of database transactions.
+
+Property
+
+Simple explanation
+
+A – Atomicity
+
+Either all operations succeed or none take effect
+
+C – Consistency
+
+Database rules and constraints remain satisfied
+
+I – Isolation
+
+Concurrent transactions are isolated according to the configured isolation level
+
+D – Durability
+
+Committed changes survive system failures
+
+For example, atomicity prevents money from disappearing halfway through a transfer.
+
+Basic transaction flow
+BEGIN;
+
+UPDATE accounts SET balance = balance - 1000 WHERE id = 1;
+UPDATE accounts SET balance = balance + 1000 WHERE id = 2;
+
+COMMIT;
+
+If something fails before committing, we use:
+
+ROLLBACK;
+
+The exact transaction syntax depends on the database.
+
+3. Local vs Global Transactions
+Tutorialspoint explains two categories.
+
+Local Transaction
+
+Global Transaction
+
+Uses one transactional resource
+
+Can coordinate multiple transactional resources
+
+Example: One JDBC database connection
+
+Example: Two databases participating in a distributed transaction
+
+Easier to manage
+
+Requires additional coordination
+
+Example:
+
+If a Spring application updates two tables through the same database transaction, that's a local transaction.
+
+If a transaction needs to coordinate updates across two separate transactional databases, it may require a global/distributed transaction manager.
+
+4. Programmatic vs Declarative Transaction Management
+Spring supports two main approaches.
+
+A. Programmatic Transaction Management
+We write Java code to explicitly control transaction execution.
+
+Example using Spring's TransactionTemplate:
+
+transactionTemplate.execute(status -> {
+
+    jdbcTemplate.update(
+        "UPDATE accounts SET balance = balance - ? WHERE id = ?",
+        1000, 1
+    );
+
+    jdbcTemplate.update(
+        "UPDATE accounts SET balance = balance + ? WHERE id = ?",
+        1000, 2
+    );
+
+    return null;
+});
+
+Here, transactionTemplate is configured with a transaction manager.
+
+Spring starts the transaction, commits if the callback succeeds, and rolls back on a runtime exception.
+
+B. Declarative Transaction Management
+Instead of writing transaction-handling code, we declare which method should be transactional.
+
+@Transactional
+public void transferMoney() {
+
+    jdbcTemplate.update(
+        "UPDATE accounts SET balance = balance - ? WHERE id = ?",
+        1000, 1
+    );
+
+    jdbcTemplate.update(
+        "UPDATE accounts SET balance = balance + ? WHERE id = ?",
+        1000, 2
+    );
+}
+
+@Transactional tells Spring to manage the transaction when the method is invoked through the configured transactional proxy.
+
+Important: The annotation alone is not enough. You must configure a transaction manager and enable transaction management.
+
+Programmatic
+
+Declarative
+
+Explicit transaction code
+
+Uses annotations or XML
+
+More control
+
+Less repetitive code
+
+More code to maintain
+
+Usually preferred for business services
+
+5. Spring Transaction Abstraction
+Tutorialspoint introduces three important interfaces.
+
+A. PlatformTransactionManager
+This is the main abstraction for transaction management.
+
+Its important methods are:
+
+TransactionStatus getTransaction(TransactionDefinition definition);
+
+void commit(TransactionStatus status);
+
+void rollback(TransactionStatus status);
+
+Method
+
+Purpose
+
+getTransaction()
+
+Starts or joins a transaction
+
+commit()
+
+Commits the transaction
+
+rollback()
+
+Rolls back the transaction
+
+For JDBC, a common implementation is DataSourceTransactionManager.
+
+B. TransactionDefinition
+This defines how a transaction should behave.
+
+Its properties include:
+
+Propagation: How it behaves when another transaction already exists.
+
+Isolation: How concurrent transactions interact.
+
+Timeout: Maximum permitted transaction duration.
+
+Read-only: Indicates that the transaction is intended for reading.
+
+Name: Identifies the transaction.
+
+C. TransactionStatus
+This represents the current transaction's status.
+
+Common methods:
+
+Method
+
+Meaning
+
+isNewTransaction()
+
+Was a new transaction created?
+
+hasSavepoint()
+
+Does it have a savepoint?
+
+isRollbackOnly()
+
+Is it marked for rollback?
+
+setRollbackOnly()
+
+Mark it for rollback
+
+isCompleted()
+
+Has it completed?
+
+6. Transaction Isolation Levels
+Isolation controls what one transaction can observe while other transactions execute concurrently.
+
+Isolation
+
+Meaning
+
+DEFAULT
+
+Uses the database's default isolation
+
+READ_UNCOMMITTED
+
+May allow reading uncommitted changes
+
+READ_COMMITTED
+
+Prevents dirty reads
+
+REPEATABLE_READ
+
+Prevents dirty and non-repeatable reads
+
+SERIALIZABLE
+
+Strongest standard isolation level; prevents dirty reads, non-repeatable reads, and phantoms
+
+Example: Dirty Read
+Transaction A updates a balance from ₹5,000 to ₹3,000 but hasn't committed.
+
+Transaction B reads ₹3,000.
+
+Then Transaction A rolls back.
+
+Transaction B read a value that never became committed. That's a dirty read.
+
+READ_COMMITTED prevents this situation.
+
+The exact concurrency behavior also depends on the database implementation.
+
+7. Transaction Propagation
+Propagation determines what happens when one transactional method calls another.
+
+Tutorialspoint lists seven propagation behaviors.
+
+Propagation
+
+Behavior
+
+REQUIRED
+
+Join an existing transaction or create one
+
+REQUIRES_NEW
+
+Always start an independent transaction
+
+SUPPORTS
+
+Join if one exists; otherwise run without one
+
+MANDATORY
+
+Requires an existing transaction
+
+NOT_SUPPORTED
+
+Execute without a transaction
+
+NEVER
+
+Throw an exception if a transaction exists
+
+NESTED
+
+Use a nested transaction/savepoint when supported
+
+Example: REQUIRED vs REQUIRES_NEW
+Suppose:
+
+@Transactional
+public void createPatient() {
+    savePatient();
+    saveAuditLog();
+}
+
+If saveAuditLog() uses REQUIRED, it participates in the existing transaction.
+
+If it uses REQUIRES_NEW, Spring starts an independent transaction for that operation.
+
+This means the audit-log transaction can commit independently of the outer transaction.
+
+REQUIRED is the default propagation mode for @Transactional.
+
+8. Simple Spring Framework Example
+Here is how declarative transactions are configured using Spring Framework with XML.
+
+PatientService.java
+
+package com.tutorialspoint;
+
+import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.transaction.annotation.Transactional;
+
+public class PatientService {
+
+    private final JdbcTemplate jdbcTemplate;
+
+    public PatientService(JdbcTemplate jdbcTemplate) {
+        this.jdbcTemplate = jdbcTemplate;
+    }
+
+    @Transactional
+    public void createPatient() {
+
+        jdbcTemplate.update(
+            "INSERT INTO patients (id, name) VALUES (?, ?)",
+            1, "Arun"
+        );
+
+        jdbcTemplate.update(
+            "INSERT INTO patient_audit (patient_id, action) VALUES (?, ?)",
+            1, "CREATED"
+        );
+    }
+}
+
+If the second insert fails with a database exception, Spring normally rolls back the first insert as well.
+
+Beans.xml
+The following is the relevant configuration inside your existing <beans> element. Your XML root must declare the tx namespace and its schema location.
+
+
+<bean id="dataSource"
+      class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+
+    <property name="driverClassName" value="org.h2.Driver"/>
+    <property name="url" value="jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1"/>
+    <property name="username" value="sa"/>
+    <property name="password" value=""/>
+</bean>
+
+<bean id="jdbcTemplate"
+      class="org.springframework.jdbc.core.JdbcTemplate">
+    <constructor-arg ref="dataSource"/>
+</bean>
+
+<bean id="transactionManager"
+      class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+    <constructor-arg ref="dataSource"/>
+</bean>
+
+<tx:annotation-driven transaction-manager="transactionManager"/>
+
+<bean id="patientService"
+      class="com.tutorialspoint.PatientService">
+    <constructor-arg ref="jdbcTemplate"/>
+</bean>
+
+You would also need the H2 JDBC driver and Spring JDBC/transaction dependencies, plus both database tables created before invoking createPatient().
+
+What happens internally?
+MainApp calls PatientService through Spring proxy
+
+Spring starts transaction
+
+INSERT into patients
+
+INSERT into patient_audit
+
+Spring commits if successful, otherwise rolls back
+
+Important Spring behavior
+By default, Spring's declarative transaction management rolls back for RuntimeException and Error, but not automatically for every checked exception.
+
+Also, proxy-based @Transactional generally won't apply when one method calls another transactional method on the same object using this.
+
+9. Chapter Summary
+Concept
+
+Remember
+
+Transaction
+
+Multiple operations treated as one unit
+
+ACID
+
+Atomicity, Consistency, Isolation, Durability
+
+Local transaction
+
+One transactional resource
+
+Global transaction
+
+Multiple coordinated transactional resources
+
+Programmatic
+
+Manage transactions in Java code
+
+Declarative
+
+Use XML or @Transactional
+
+PlatformTransactionManager
+
+Main Spring transaction manager abstraction
+
+TransactionDefinition
+
+Defines transaction behavior
+
+TransactionStatus
+
+Represents transaction state
+
+Isolation
+
+Controls concurrent transaction visibility
+
+Propagation
+
+Controls participation in existing transactions
+
+This follows the concepts in the Tutorialspoint chapter, with examples adapted to modern Spring Framework. 
+
+Transaction Management
+
+Next chapter: Spring – Web MVC Framework.
+
+next
+Spring Framework – Web MVC Framework
+Chapter 24 · Tutorialspoint – Spring Web MVC Framework
+
+In the previous chapter, we learned about Spring Transaction Management.
+
+Now we'll learn how Spring MVC handles HTTP requests and returns web pages, using Spring Framework, not Spring Boot.
+
+1. What is Spring Web MVC?
+Spring Web MVC is a web framework built on the Model–View–Controller (MVC) design pattern.
+
+MVC separates an application into three parts:
+
+Component
+
+Responsibility
+
+Model
+
+Holds data passed to the view
+
+View
+
+Displays the result to the user, such as a JSP page
+
+Controller
+
+Handles requests and coordinates application logic
+
+Simple example
+Suppose a user visits:
+
+http://localhost:8080/spring-mvc/hello
+
+The controller receives the request, adds a message to the model, and returns the view name hello.
+
+Spring then renders hello.jsp with that message.
+
+2. Spring MVC Architecture
+The most important component is DispatcherServlet.
+
+It acts as the front controller, receiving incoming requests and coordinating the MVC workflow.
+
+Browser
+
+GET /hello
+DispatcherServlet
+
+Receives and dispatches the request
+HandlerMapping
+
+Finds the matching controller
+Controller
+
+Processes request and adds model data
+ViewResolver
+
+Resolves hello to /WEB-INF/views/hello.jsp
+JSP View
+
+Renders HTML for the browser
+The DispatcherServlet coordinates the process and ultimately sends the rendered response to the browser.
+
+3. Important Spring MVC Components
+Tutorialspoint introduces these components:
+
+Component
+
+Purpose
+
+DispatcherServlet
+
+Front controller for incoming HTTP requests
+
+HandlerMapping
+
+Identifies the appropriate controller
+
+Controller
+
+Handles request logic
+
+Model
+
+Carries data to the view
+
+ViewResolver
+
+Finds the view to render
+
+View
+
+Produces the response
+
+Spring MVC also supports validation, data binding, and other request-handling features.
+
+4. Required Configuration
+Tutorialspoint uses two configuration files:
+
+web.xml — registers DispatcherServlet with the servlet container.
+
+HelloWeb-servlet.xml — configures Spring MVC beans.
+
+For your Windows Maven project with Tomcat, we'll use the modern Jakarta Servlet configuration compatible with Spring Framework 7.
+
+Project structure
+spring-mvc/
+├── pom.xml
+└── src/main/
+    ├── java/com/tutorialspoint/
+    │   └── HelloController.java
+    └── webapp/
+        └── WEB-INF/
+            ├── web.xml
+            ├── HelloWeb-servlet.xml
+            └── jsp/
+                └── hello.jsp
+Step 1: web.xml
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="
+         https://jakarta.ee/xml/ns/jakartaee
+         https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd"
+         version="6.0">
+
+    <servlet>
+        <servlet-name>HelloWeb</servlet-name>
+        <servlet-class>
+            org.springframework.web.servlet.DispatcherServlet
+        </servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>HelloWeb</servlet-name>
+        <url-pattern>/</url-pattern>
+    </servlet-mapping>
+
+</web-app>
+
+Explanation:
+
+<servlet-name>HelloWeb</servlet-name> gives the servlet a name.
+
+DispatcherServlet is the Spring MVC front controller.
+
+<load-on-startup>1</load-on-startup> initializes it when the application starts.
+
+<url-pattern>/</url-pattern> sends application requests through Spring MVC while allowing the servlet container's JSP handling.
+
+Spring automatically looks for:
+
+/WEB-INF/HelloWeb-servlet.xml
+The original tutorial uses an older servlet descriptor and a *.jsp mapping. Using / is more appropriate for clean URLs such as /hello.
+
+5. HelloWeb-servlet.xml
+Create this file inside WEB-INF.
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xsi:schemaLocation="
+       http://www.springframework.org/schema/beans
+       https://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       https://www.springframework.org/schema/context/spring-context.xsd
+       http://www.springframework.org/schema/mvc
+       https://www.springframework.org/schema/mvc/spring-mvc.xsd">
+
+    <context:component-scan base-package="com.tutorialspoint"/>
+
+    <mvc:annotation-driven/>
+
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <property name="prefix" value="/WEB-INF/jsp/"/>
+        <property name="suffix" value=".jsp"/>
+    </bean>
+
+</beans>
+
+What do these configurations mean?
+<context:component-scan>
+
+Spring scans the com.tutorialspoint package for components such as @Controller.
+
+<mvc:annotation-driven/>
+
+Registers Spring MVC infrastructure for annotation-based request handling.
+
+InternalResourceViewResolver
+
+Converts the logical view name into a JSP path.
+
+For example:
+
+Controller returns "hello"
+
+ViewResolver
+
+prefix + view name + suffix
+/WEB-INF/jsp/hello.jsp
+
+6. Defining a Controller
+Tutorialspoint demonstrates @Controller and @RequestMapping.
+
+HelloController.java
+
+package com.tutorialspoint;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.ModelMap;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+
+@Controller
+@RequestMapping("/hello")
+public class HelloController {
+
+    @RequestMapping(method = RequestMethod.GET)
+    public String printHello(ModelMap model) {
+
+        model.addAttribute(
+            "message",
+            "Hello Spring MVC Framework!"
+        );
+
+        return "hello";
+    }
+}
+
+Explanation
+@Controller tells Spring this class handles web requests.
+
+@RequestMapping("/hello") maps the controller to the /hello URL.
+
+RequestMethod.GET means the method handles HTTP GET requests.
+
+ModelMap stores data that will be available in the JSP.
+
+model.addAttribute("message", "Hello Spring MVC Framework!");
+
+Here:
+
+message is the attribute name.
+
+Hello Spring MVC Framework! is the attribute value.
+
+Finally:
+
+return "hello";
+
+This returns the view name, not the response text.
+
+Alternative RequestMapping syntax
+Tutorialspoint also shows placing the full mapping on the method:
+
+@Controller
+public class HelloController {
+
+    @RequestMapping(value = "/hello", method = RequestMethod.GET)
+    public String printHello(ModelMap model) {
+        model.addAttribute("message", "Hello Spring MVC Framework!");
+        return "hello";
+    }
+}
+
+Both approaches work.
+
+7. Creating JSP Views
+Create:
+
+src/main/webapp/WEB-INF/jsp/hello.jsp
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hello Spring MVC</title>
+</head>
+<body>
+
+    <h2>${message}</h2>
+
+</body>
+</html>
+
+What is ${message}?
+It is a JSP Expression Language expression.
+
+Spring passes the model attribute named message to the JSP, and the JSP displays its value.
+
+The rendered HTML will contain:
+
+<h2>Hello Spring MVC Framework!</h2>
+
+8. Running the Application
+You'll need the spring-webmvc dependency and a WAR-packaged Maven project deployed to a compatible Tomcat 11 server for Spring Framework 7.
+
+After building and deploying the WAR, assuming the application context path is spring-mvc, visit:
+
+http://localhost:8080/spring-mvc/hello
+
+localhost:8080/spring-mvc/hello
+
+Hello Spring MVC Framework!
+9. Spring Web MVC Examples
+At the end, Tutorialspoint introduces five follow-up examples.
+
+Example
+
+What it teaches
+
+Hello World
+
+Basic controller, model, and JSP
+
+Form Handling
+
+Submitting HTML forms to controllers
+
+Page Redirection
+
+Redirecting users between URLs
+
+Static Pages
+
+Serving static content
+
+Exception Handling
+
+Handling errors in Spring MVC
+
+These are separate examples linked from the Web MVC chapter. 
+
+Web MVC Framework
+
+10. Chapter Summary
+The main points to remember are:
+
+Spring MVC follows the Model–View–Controller pattern.
+
+DispatcherServlet receives incoming requests.
+
+HandlerMapping identifies the matching controller.
+
+@Controller defines a controller class.
+
+@RequestMapping maps URLs to methods.
+
+ModelMap passes data to the view.
+
+ViewResolver resolves a logical view name to a JSP.
+
+JSP renders the HTML response.
+
+Next chapter: Spring – Logging with Log4J.
+
+next
+Spring Framework – Logging with Log4j
+Chapter 25 · Tutorialspoint – Logging with Log4j
+
+In the previous chapter, we learned about Spring Web MVC.
+
+Now we'll learn how to record application messages, errors, and debugging information using Log4j, without Spring Boot.
+
+1. What is Logging?
+Logging means recording information about what happens while an application is running.
+
+For example:
+
+System.out.println("Patient created");
+
+This prints a message to the console.
+
+But in real applications, we need more control over logs, such as their severity, formatting, and destination.
+
+That's where logging frameworks such as Log4j help.
+
+Why use logging?
+Track application execution.
+
+Identify errors and exceptions.
+
+Debug problems.
+
+Record important application events.
+
+Write logs to files for later investigation.
+
+2. What is Log4j?
+Log4j is a Java logging framework maintained by the Apache Software Foundation.
+
+Tutorialspoint's chapter uses Log4j 1.x, which is outdated and reached end of life.
+
+For your modern Spring Framework 7 project, we'll use Log4j 2 while keeping the same learning concepts.
+
+3. Logging Levels
+Logging frameworks classify messages by severity.
+
+Level
+
+Purpose
+
+TRACE
+
+Very detailed execution information
+
+DEBUG
+
+Information useful during debugging
+
+INFO
+
+Normal application events
+
+WARN
+
+Potential problems
+
+ERROR
+
+Failures that need attention
+
+FATAL
+
+Severe failures, supported by Log4j
+
+Example:
+
+logger.debug("Fetching patient details");
+logger.info("Patient created successfully");
+logger.warn("Patient phone number is missing");
+logger.error("Unable to save patient");
+
+If your logging level is INFO, then INFO, WARN, ERROR, and FATAL messages are enabled, while DEBUG and TRACE are not.
+
+4. Main Components of Log4j
+Tutorialspoint introduces three important logging concepts.
+
+Component
+
+Purpose
+
+Logger
+
+Creates log messages
+
+Appender
+
+Determines where logs are written
+
+Layout
+
+Determines how log messages are formatted
+
+Example
+Logger
+  |
+  +-- Appender → Console
+  |
+  +-- Appender → Log File
+         |
+         +-- Layout → Timestamp, Level, Message
+For example, a formatted log might look like:
+
+2026-11-02 10:30:15 INFO  PatientService - Patient created
+2026-11-02 10:30:16 ERROR PatientService - Database connection failed
+5. Configure Log4j in Spring Framework
+We'll create a simple Java application using your existing Maven project.
+
+Project structure
+spring-learning/
+├── pom.xml
+└── src/main/
+    ├── java/com/tutorialspoint/
+    │   ├── HelloWorld.java
+    │   └── MainApp.java
+    └── resources/
+        ├── Beans.xml
+        └── log4j2.xml
+Step 1: Add Maven dependencies
+Add Log4j 2 API and Core dependencies to your pom.xml. For example, both must use the same compatible Log4j 2 release.
+
+<dependency>
+    <groupId>org.apache.logging.log4j</groupId>
+    <artifactId>log4j-api</artifactId>
+    <version>2.25.2</version>
+</dependency>
+
+<dependency>
+    <groupId>org.apache.logging.log4j</groupId>
+    <artifactId>log4j-core</artifactId>
+    <version>2.25.2</version>
+</dependency>
+
+These dependencies enable your application code to log directly through Log4j 2.
+
+6. Create log4j2.xml
+Create:
+
+src/main/resources/log4j2.xml
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Configuration status="WARN">
+
+    <Appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout
+                pattern="%d{yyyy-MM-dd HH:mm:ss} %-5level %logger{36} - %msg%n"/>
+        </Console>
+
+        <File name="File" fileName="application.log">
+            <PatternLayout
+                pattern="%d{yyyy-MM-dd HH:mm:ss} %-5level %logger{36} - %msg%n"/>
+        </File>
+    </Appenders>
+
+    <Loggers>
+        <Root level="info">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="File"/>
+        </Root>
+    </Loggers>
+
+</Configuration>
+
+Explanation
+<Console>
+
+Writes logs to the IntelliJ console.
+
+<File>
+
+Writes logs to application.log, relative to the application's working directory.
+
+<PatternLayout>
+
+Defines the log message format.
+
+Pattern
+
+Meaning
+
+%d
+
+Date and time
+
+%level
+
+Logging level
+
+%logger
+
+Logger name
+
+%msg
+
+Log message
+
+%n
+
+New line
+
+<Root level="info">
+
+Sets the default logging threshold to INFO.
+
+7. HelloWorld.java
+
+package com.tutorialspoint;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+public class HelloWorld {
+
+    private static final Logger logger =
+            LogManager.getLogger(HelloWorld.class);
+
+    private String message;
+
+    public void setMessage(String message) {
+        this.message = message;
+    }
+
+    public void getMessage() {
+
+        logger.info("Inside getMessage()");
+
+        logger.debug("Message value: {}", message);
+
+        System.out.println("Your Message: " + message);
+    }
+}
+
+Explanation
+private static final Logger logger =
+        LogManager.getLogger(HelloWorld.class);
+
+Creates a logger associated with the HelloWorld class.
+
+logger.info("Inside getMessage()");
+
+Writes an informational log message.
+
+logger.debug("Message value: {}", message);
+
+Writes a debug message. The {} placeholder is replaced with the value of message.
+
+Because we configured INFO, this debug message won't appear.
+
+8. Beans.xml
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+       http://www.springframework.org/schema/beans
+       https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="helloWorld"
+          class="com.tutorialspoint.HelloWorld">
+
+        <property name="message"
+                  value="Hello Spring Framework!"/>
+
+    </bean>
+
+</beans>
+
+Spring creates the HelloWorld bean and injects its message.
+
+9. MainApp.java
+
+package com.tutorialspoint;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class MainApp {
+
+    public static void main(String[] args) {
+
+        try (ClassPathXmlApplicationContext context =
+                 new ClassPathXmlApplicationContext("Beans.xml")) {
+
+            HelloWorld obj =
+                context.getBean("helloWorld", HelloWorld.class);
+
+            obj.getMessage();
+        }
+    }
+}
+
+Expected output
+2026-11-02 10:30:15 INFO  com.tutorialspoint.HelloWorld - Inside getMessage()
+Your Message: Hello Spring Framework!
+The actual timestamp will reflect when you run the application.
+
+The log entry will also be written to application.log.
+
+10. What if we change the logging level?
+Try changing:
+
+<Root level="info">
+
+to:
+
+<Root level="debug">
+
+Now the output from HelloWorld includes:
+
+INFO  com.tutorialspoint.HelloWorld - Inside getMessage()
+DEBUG com.tutorialspoint.HelloWorld - Message value: Hello Spring Framework!
+You may also see debug messages from other libraries because the root logging level applies broadly.
+
+11. Log4j 1.x vs Log4j 2
+Tutorialspoint's older example
+
+Modern Log4j 2
+
+org.apache.log4j.Logger
+
+org.apache.logging.log4j.Logger
+
+Logger.getLogger()
+
+LogManager.getLogger()
+
+log4j.properties
+
+log4j2.xml or log4j2.properties
+
+Log4j 1.x
+
+Log4j 2
+
+Log4j 1.x is no longer maintained. Use a supported Log4j 2 release and keep its dependencies updated.
+
+Also, Spring Framework uses the Commons Logging API through spring-jcl; configuring your application's Log4j 2 logging doesn't necessarily mean all Spring internal logging will automatically use the same backend without the appropriate logging bridge.
+
+12. Chapter Summary
+Concept
+
+Remember
+
+Logging
+
+Records application activity
+
+Logger
+
+Creates log messages
+
+Appender
+
+Determines the log destination
+
+Layout
+
+Formats log messages
+
+INFO
+
+Normal events
+
+DEBUG
+
+Debugging details
+
+ERROR
+
+Application failures
+
+log4j2.xml
+
+Configures Log4j 2
+
+LogManager.getLogger()
+
+Creates or retrieves a logger
+
+Chapter summary: Log4j provides structured logging with configurable levels, output destinations, and message formatting. It is more flexible than relying on System.out.println() throughout an application.
+
+Note: The Tutorialspoint page couldn't be retrieved directly, so this explanation follows the chapter's established subject and example style, updated for Log4j 2.
+
+This completes the main Spring Framework tutorial sequence we've been following. The next useful practical step is to combine Spring MVC, JDBC, transaction management, and logging into a small application.
+

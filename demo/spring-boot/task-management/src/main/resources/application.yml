@@ -1,0 +1,39 @@
+spring:
+  application:
+    name: task-management
+  datasource:
+    url: ${DB_URL:jdbc:h2:file:./data/task-management;DB_CLOSE_ON_EXIT=FALSE}
+    username: ${DB_USERNAME:sa}
+    password: ${DB_PASSWORD:}
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: validate
+    properties:
+      hibernate.jdbc.time_zone: UTC
+  flyway:
+    enabled: true
+  jackson:
+    deserialization:
+      fail-on-unknown-properties: true
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health
+  endpoint:
+    health:
+      show-details: never
+app:
+  jwt:
+    secret: ${JWT_SECRET}
+    issuer: ${JWT_ISSUER:task-management}
+    audience: ${JWT_AUDIENCE:task-management-api}
+    ttl-seconds: 900
+  bootstrap-admin:
+    email: ${BOOTSTRAP_ADMIN_EMAIL:}
+    password: ${BOOTSTRAP_ADMIN_PASSWORD:}
+  jobs:
+    overdue-delay-ms: 300000
+    delivery-delay-ms: 10000
+    initial-delay-ms: 30000

@@ -1,0 +1,21 @@
+/* Phase 3 base styles. Full theme (sidebar, cards, tables) arrives in Phase 7. */
+body {
+    background: #f4f6fb;
+    color: #1f2937;
+}
+
+.auth-body {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    padding: 1rem;
+}
+
+.auth-card {
+    width: 100%;
+    max-width: 400px;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, .06);
+}

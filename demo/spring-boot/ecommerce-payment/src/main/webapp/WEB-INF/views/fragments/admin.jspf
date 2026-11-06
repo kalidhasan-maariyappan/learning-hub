@@ -1,0 +1,15 @@
+<%@ page pageEncoding="UTF-8" %>
+
+<aside class="admin-sidebar">
+    <p class="eyebrow">THE BACK OFFICE</p>
+    <h2>Studio</h2>
+    <nav aria-label="Admin navigation">
+        <a href="<c:url value='/admin'/>"><i class="bi bi-grid"></i> Overview</a>
+        <a href="<c:url value='/admin/products'/>"><i class="bi bi-box-seam"></i> Products &amp; inventory</a>
+        <a href="<c:url value='/admin/orders'/>"><i class="bi bi-bag-check"></i> Orders</a>
+        <a href="<c:url value='/admin/payments'/>"><i class="bi bi-credit-card"></i> Payment ledger</a>
+        <a href="<c:url value='/admin/refunds'/>"><i class="bi bi-arrow-return-left"></i> Refunds</a>
+    </nav>
+    <div class="admin-mode"><span class="status-dot"></span> Razorpay Test Mode<p>Every transaction here is a test.</p>
+    </div>
+</aside>

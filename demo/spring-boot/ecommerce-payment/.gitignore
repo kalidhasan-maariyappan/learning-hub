@@ -1,0 +1,10 @@
+/secrets/
+/src/main/resources/application.properties
+/target/
+/data/
+*.log
+*.pid
+/tools/qa-results.json
+/tools/formatting/node_modules/
+/tools/formatting/python/
+__pycache__/

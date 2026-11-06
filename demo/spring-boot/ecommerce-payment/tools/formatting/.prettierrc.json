@@ -1,0 +1,13 @@
+{
+  "tabWidth": 4,
+  "printWidth": 160,
+  "singleQuote": true,
+  "trailingComma": "none",
+  "plugins": ["@prettier/plugin-xml"],
+  "overrides": [
+    {
+      "files": ["*.xml", "*.json"],
+      "options": { "tabWidth": 2 }
+    }
+  ]
+}

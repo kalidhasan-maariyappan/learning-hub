@@ -1,0 +1,21 @@
+<%@ page pageEncoding="UTF-8" %>
+
+<footer class="site-footer">
+    <div class="page-width container-fluid footer-inner">
+        <div>
+            <a class="brand" href="<c:url value='/'/>">form &amp; field</a>
+            <p>Good things, thoughtfully chosen.</p>
+        </div>
+        <div>Designed for the everyday.
+            <br><small>A learning store · Razorpay Test Mode</small>
+        </div>
+        <div class="footer-end">Made with intention <span>↗</span>
+            <br><small>© 2026 Form &amp; Field</small>
+        </div>
+    </div>
+</footer>
+<script src="<c:url value='/assets/vendor/bootstrap.bundle.min.js'/>"></script>
+<script src="<c:url value='/assets/js/store.js'/>"></script>
+</body>
+
+</html>

@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:task-tests;DB_CLOSE_DELAY=-1
+    username: sa
+    password:
+app:
+  jwt:
+    secret: dGVzdC1vbmx5LXNlY3JldC1tdXN0LWJlLTMydGVzdGJ5dGVzISE=
+  jobs:
+    initial-delay-ms: 3600000

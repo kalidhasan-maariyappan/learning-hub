@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 390" role="img"><defs><linearGradient id="clay"><stop stop-color="#99644d" /><stop
+        offset=".3"
+        stop-color="#bf8c6d"
+      /><stop offset=".58" stop-color="#cc9876" /><stop offset="1" stop-color="#99644c" /></linearGradient><linearGradient id="neck"><stop
+        stop-color="#9f6c51"
+      /><stop offset=".6" stop-color="#d4a582" /><stop offset="1" stop-color="#ad775b" /></linearGradient><filter id="blur"><feGaussianBlur
+        stdDeviation="5"
+      /></filter></defs><ellipse cx="211" cy="338" rx="73" ry="12" fill="#6f4f3c" opacity=".16" filter="url(#blur)" /><g
+    fill="none"
+    stroke="#6d7958"
+    stroke-width="2.1"
+  ><path d="M211 139Q197 62 174 30M213 143Q231 77 256 38M211 134Q198 75 224 20" /></g><g fill="#8b956e"><ellipse
+      cx="178"
+      cy="57"
+      rx="6"
+      ry="19"
+      transform="rotate(-47 178 57)"
+    /><ellipse cx="192" cy="82" rx="6" ry="18" transform="rotate(32 192 82)" /><ellipse cx="236" cy="80" rx="7" ry="20" transform="rotate(43 236 80)" /><ellipse
+      cx="250"
+      cy="52"
+      rx="6"
+      ry="17"
+      transform="rotate(-20 250 52)"
+    /><ellipse cx="218" cy="47" rx="6" ry="17" transform="rotate(22 218 47)" /><ellipse
+      cx="200"
+      cy="108"
+      rx="6"
+      ry="18"
+      transform="rotate(-53 200 108)"
+    /></g><ellipse cx="212" cy="131" rx="34" ry="9" fill="#9c6a50" /><path
+    d="M178 131v42q-4 20-29 43-29 28-18 69 10 45 46 49h69q36-5 46-49 11-41-18-69-25-23-28-43v-42z"
+    fill="url(#clay)"
+  /><path d="M178 132h68v39q-34 10-68 0z" fill="url(#neck)" /><ellipse cx="212" cy="132" rx="34" ry="8" fill="#dbad8b" /><ellipse
+    cx="212"
+    cy="132"
+    rx="28"
+    ry="4"
+    fill="#79513d"
+  /><g fill="none" stroke="#7b513b" opacity=".1"><path
+      d="M140 249q72 12 144 0M137 257q75 13 149 0M139 265q72 13 146 0M145 293q66 13 134 0M150 304q63 10 123 0"
+    /></g></svg>

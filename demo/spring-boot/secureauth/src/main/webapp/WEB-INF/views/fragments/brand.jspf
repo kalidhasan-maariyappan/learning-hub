@@ -1,0 +1,13 @@
+<aside class="auth-brand d-none d-lg-flex">
+    <div class="brand-mark"><span>S</span>SecureAuth</div>
+    <div>
+        <h2 class="brand-title">Secure access for every session.</h2>
+        <p class="brand-text">Server-side sessions, BCrypt password hashing and CSRF protection keep your account safe by default.</p>
+        <ul class="brand-list">
+            <li>Spring Security form login</li>
+            <li>Automatic sign-out after 60 seconds of inactivity</li>
+            <li>No passwords ever stored in plain text</li>
+        </ul>
+    </div>
+    <p class="brand-foot">&copy; SecureAuth</p>
+</aside>

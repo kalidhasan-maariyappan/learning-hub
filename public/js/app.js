@@ -7,6 +7,7 @@
   // Each course has its own URL base, slug prefix, navigation and Previous/Next order.
   // The Java Tutorial is last because it is the fallback for every other slug.
   const COURSES = [
+    { base: '/english-learning', family: 'english', home: 'english_home', prefix: 'english_', name: 'English Learning', nav: 'englishNav', order: 'englishOrder', css: 'english-route', search: 'English lessons' },
     { base: '/major-gems', family: 'ruby', home: 'gems_home', prefix: 'gems_', name: 'Major Gems', nav: 'gemsNav', order: 'gemsOrder', css: 'gems-route', search: 'gem guides' },
     { base: '/coding-interview', family: 'interview', home: 'coding_home', prefix: 'coding_', name: 'Coding Interview', nav: 'codingNav', order: 'codingOrder', css: 'coding-route', search: 'coding problems' },
     { base: '/rails-scenarios', family: 'interview', home: 'scenario_home', prefix: 'scenario_', name: 'Real-world Scenarios', nav: 'scenarioNav', order: 'scenarioOrder', css: 'scenarios-route', search: 'scenario questions' },
@@ -318,6 +319,7 @@
     const info = JT.navInfo[slug];
     const page = JT.pages[slug];
     const main = document.getElementById('main');
+    if (course().family === 'english' && JT.english) { JT.english.render(keepScroll); return; }
     renderSidebar(slug);
     if (!info || !page) {
       main.innerHTML = '<h1>Page not found</h1><p>There is no ' + esc(course().name) + ' lesson called <code>' + esc(slug) + '</code>.</p><p>' + link(course().home, 'Go to the ' + esc(course().name) + ' home page') + '</p>';

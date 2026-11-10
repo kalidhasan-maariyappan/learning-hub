@@ -167,3 +167,43 @@ Three top navigation entries open independent learning areas with their own grou
 The local Try It editor loads the coding lessons. GitHub Pages exports all routes and displays the examples; executing Ruby requires the local server and installed Ruby. No tutorial gem is installed and no external service is called merely by opening its lesson.
 
 Validate with `node scripts/build-pages.js`, `node scripts/verify-interview-prep.js --ruby`, and the existing `node scripts/verify-rails-practical.js --ruby`. The interview verifier checks both shells, navigation, content structure, export paths and algorithm-shortcut restrictions, then executes every solution and displayed demo with behavioral and error cases. Rails/gem snippets are instructional fragments, not a claim of live integration testing against every library/service.
+
+## English Learning
+
+Open <http://127.0.0.1:8081/english-learning/> for the separate Tamil–English learning area. Lessons use a short format: Tamil meaning, English meaning, formula where useful, and bilingual examples. Verb entries show V1–V5 and present/past/future examples. Practice and writing are expandable, keeping the main lesson brief.
+
+The catalog contains **4,823 lessons**, including **4,500 unique vocabulary items**. Cumulative vocabulary coverage is **A1: 500, A2: 1,200, B1: 2,500, B2: 4,500**. Vocabulary includes words, phrasal verbs and fixed expressions; spelling variants and repeated senses are counted once. The Vocabulary view includes earlier levels, with search and numbered pagination.
+
+The 90 grammar units and 100 sentence formulas remain complete. Every category has material at every level. Other skill/category quotas are tracked separately in `docs/ENGLISH-COVERAGE.md`; reaching the vocabulary target does not mean every original numerical quota is complete.
+
+The expansion uses English definitions/examples from the CC0 TKG learner dictionary and Princeton WordNet 3.0. New Tamil translations are machine-assisted. All new A1 items have reviewed short meanings, and all retained sourced expressions/phrasal verbs have contextual Tamil corrections. This is not a claim of professional review of every translation. See `public/content/english/SOURCES.md`, `sources.json` and the bundled license notices.
+
+Category/level selection, Tamil/English search, pagination, explicit completion, quiz feedback, review queues and writing drafts work locally. Progress is stored only in this browser; there is no account sync. Listening and pronunciation can use an available English browser speech voice; unavailable voices show an honest fallback and a transcript. No microphone, automatic writing evaluation or official CEFR certification is provided.
+
+Content sources are readable pipe-separated files and `vocabulary-expanded.json` in `public/content/english/`. Run `node scripts/build-english-content.js` after editing them; it rebuilds `public/js/english-data.js`. Rendering is in `public/js/english.js`, with scoped styles in `public/css/english.css`.
+
+Validation:
+
+```bash
+node scripts/build-english-content.js
+node scripts/build-pages.js
+node scripts/verify-english.js
+node scripts/verify-interview-prep.js
+```
+
+The optional browser integration check requires Playwright and Microsoft Edge: `node scripts/verify-english-browser.cjs` (set `PLAYWRIGHT_MODULE` to an installed Playwright module path if necessary). It opens all 4,823 lessons, checks the short layout, grading, review, persistence, category/search/pagination, mobile navigation/overflow and the existing Java route. The static export includes all English level/category/lesson routes.
+
+English lesson lists and the review queue use numbered pagination with Previous/Next, a direct page selector, and 12/24/36/60 items per page. Page, search and page size are stored in the URL for refresh and browser Back. Search and category changes reset the page; small lists hide unnecessary page controls. Run `node scripts/verify-english-pagination.cjs` with Playwright and Edge for the dedicated pagination checks.
+
+
+B2 familiarity expansion: 68 new practice units and 11 expanded existing lessons, with 422 authored bilingual sentence pairs, dialogue turns and passage paragraphs. Another 3,712 sourced usage examples enrich 1,414 existing word lessons. If-clauses and Time Expressions have dedicated sections. Practice sets appear first in each relevant category, with links from word lessons into contextual practice. The 4,500-item vocabulary count is unchanged; practice units are counted separately.
+
+Rich reading and listening passages have comprehension questions and optional Tamil translations. Conversations have eight turns. Speaking has model answers, follow-up prompts, time guidance and self-checks; writing has 100–150-word B2 models, saved drafts, live word counts and checklists. Listening/pronunciation use available browser voices with speed/replay/stop controls; there is no automatic speaking or writing assessment. New quiz versions invalidate stale answers only on changed practice sets.
+
+Run `node scripts/verify-english-fluency.js` and the optional `node scripts/verify-english-fluency-browser.cjs` for these checks. Authored units are maintained in `public/content/english/fluency-*.txt` and loaded by `scripts/english-fluency-content.js`. Additional sourced examples are in `additional-examples.json`; their Tamil text is machine-assisted and retains source attribution.
+
+The Learning Hub is installable as a PWA on HTTPS or localhost. Open it online once and wait for “Lessons ready offline”; lesson content, exercises and quizzes then work offline, including unopened lesson routes. Use “Install app” when your browser offers it, or the browser's Install/Add to Home Screen menu (Safari on iPhone: Share → Add to Home Screen). Learning progress remains in this browser's local storage. Code execution needs the running local server; browser voices depend on the device.
+
+PWA files: `public/manifest.webmanifest`, `public/sw.js`, `public/js/pwa.js`, `public/css/pwa.css`, and `public/icons/`. Static exports automatically fingerprint assets and offer an “Update app” button after a new deployment. For local releases, bump `VERSION` in `public/sw.js` when assets change. The previous version stays active until the learner chooses to update. Offline availability requires browser storage; clearing site data removes the download and saved progress.
+
+Verify with `node scripts/build-pages.js` then `node scripts/verify-pwa.cjs` (Playwright and Edge required; optionally set `PLAYWRIGHT_MODULE` to the installed module path). This checks the manifest, scoped worker, offline unseen routes and refreshes, editor shell, and honest offline API errors under the GitHub Pages subpath.

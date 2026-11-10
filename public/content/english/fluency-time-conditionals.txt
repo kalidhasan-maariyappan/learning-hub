@@ -1,0 +1,176 @@
+@practice-time-day|A1|time-expressions|At, on and in|நேரத்துடன் at, on, in|Use at for clock times, on for days, in for months and years.|at six · on Monday · in June
+&grammar-15
+=I get up at six.|நான் ஆறு மணிக்கு எழுகிறேன்.
+=The class is on Monday.|வகுப்பு திங்கட்கிழமை நடைபெறும்.
+=My birthday is in June.|என் பிறந்த நாள் ஜூன் மாதத்தில் வருகிறது.
+=We eat dinner in the evening.|நாங்கள் மாலையில் இரவு உணவு சாப்பிடுகிறோம்.
+=I do not work at night.|நான் இரவில் வேலை செய்வதில்லை.
+=What do you do on Sundays?|ஞாயிற்றுக்கிழமைகளில் நீங்கள் என்ன செய்வீர்கள்?
+?The meeting is ___ ten.|கூட்டம் பத்து மணிக்கு.|at~on~in|0|At + நேரம்.
+?My birthday is ___ July.|பிறந்த நாள் ஜூலையில்.|on~in~at|1|In + மாதம்.
+?The class is ___ Friday.|வகுப்பு வெள்ளிக்கிழமை.|in~at~on|2|On + நாள்.
+>Say when you wake up, study and meet friends. / எழும், படிக்கும், நண்பர்களைச் சந்திக்கும் நேரங்களைக் கூறுங்கள்.
+@practice-time-routines|A1|time-expressions|Every day and sometimes|வழக்கத்தைக் குறிக்கும் சொற்கள்|Say how often you do something.|always · usually · sometimes · never
+=I usually walk to work.|நான் வழக்கமாக வேலைக்கு நடந்துசெல்வேன்.
+=We sometimes eat outside.|நாங்கள் சில நேரங்களில் வெளியே சாப்பிடுவோம்.
+=She reads every night.|அவள் ஒவ்வொரு இரவும் படிப்பாள்.
+=I never drink coffee at night.|நான் ஒருபோதும் இரவில் காபி குடிப்பதில்லை.
+=They play cricket twice a week.|அவர்கள் வாரத்தில் இரண்டு முறை கிரிக்கெட் விளையாடுவார்கள்.
+=How often do you call your parents?|நீங்கள் எவ்வளவு அடிக்கடி பெற்றோரை அழைப்பீர்கள்?
+?Twice a week means...|இதன் பொருள் என்ன?|Every two weeks~Two times each week~Every day|1|வாரத்திற்கு இரண்டு முறை.
+?Never means...|இதன் பொருள் என்ன?|Not at any time~Sometimes~Always|0|ஒருபோதும் இல்லை.
+?She ___ reads before bed.|பொதுவாகப் படிப்பாள்.|yesterday~tomorrow~usually|2|Usually = வழக்கமாக.
+>Write three true routines and one thing you never do. / மூன்று வழக்கங்களையும் நீங்கள் செய்யாத ஒன்றையும் எழுதுங்கள்.
+@practice-time-past|A2|time-expressions|Yesterday, ago and last|கடந்த நேரத்தைக் குறிப்பிடுதல்|Use finished past times with the past simple.|yesterday · two days ago · last week
+=I called her yesterday.|நான் நேற்று அவளை அழைத்தேன்.
+=We moved here two years ago.|நாங்கள் இரண்டு ஆண்டுகளுக்கு முன் இங்கே குடிவந்தோம்.
+=Did you see him last week?|கடந்த வாரம் அவனைப் பார்த்தீர்களா?
+=I did not sleep well last night.|நேற்றிரவு நான் நன்றாகத் தூங்கவில்லை.
+=She left a few minutes ago.|அவள் சில நிமிடங்களுக்கு முன் கிளம்பினாள்.
+=What happened the day before yesterday?|நேற்று முன்தினம் என்ன நடந்தது?
+?We moved here two years ___.|இரண்டு ஆண்டுகளுக்கு முன் குடிவந்தோம்.|since~for~ago|2|Ago = முன்பு.
+?I ___ her yesterday.|நேற்று அவளைப் பார்த்தேன்.|saw~have seen~see|0|குறிப்பிட்ட கடந்த நேரம்: saw.
+?Last night means...|இதன் பொருள் என்ன?|Tonight~Yesterday evening or night~Tomorrow night|1|நேற்றிரவு.
+>Describe three events and say exactly when they happened. / மூன்று நிகழ்வுகள் எப்போது நடந்தன என்று கூறுங்கள்.
+@practice-time-future|A2|time-expressions|Tomorrow and next week|வரவிருக்கும் நேரம்|Give a future time clearly.|tomorrow · next week · in two days
+=I will send it tomorrow.|அதை நாளை அனுப்புவேன்.
+=We are meeting next Tuesday.|அடுத்த செவ்வாய்க்கிழமை சந்திக்கிறோம்.
+=The course starts in two weeks.|படிப்பு இரண்டு வாரங்களில் தொடங்குகிறது.
+=Are you free the day after tomorrow?|நாளை மறுநாள் உங்களுக்கு நேரம் இருக்கிறதா?
+=I am going to visit my aunt this weekend.|இந்த வார இறுதியில் என் அத்தையைப் பார்க்கப் போகிறேன்.
+=What will you do after the course ends?|படிப்பு முடிந்த பிறகு என்ன செய்வீர்கள்?
+?In two weeks means...|இதன் பொருள் என்ன?|Two weeks from now~Two weeks ago~For two weeks|0|இப்போதிலிருந்து இரண்டு வாரங்களில்.
+?The day after tomorrow is...|இதன் பொருள் என்ன?|நேற்று முன்தினம்~நாளை மறுநாள்~இன்று காலை|1|Tomorrow-க்கு அடுத்த நாள்.
+?We will meet ___ Monday.|அடுத்த திங்கட்கிழமை சந்திப்போம்.|in next~on next~next|2|Next Monday முன் on/in வேண்டாம்.
+>Arrange a meeting and offer two possible dates. / சந்திப்பிற்கு இரண்டு தேதிகள் கூறுங்கள்.
+@practice-time-since-for|B1|time-expressions|Since and for|தொடக்க நேரமும் கால அளவும்|Since gives a starting point; for gives a duration.|since 2020 · for three years
+&grammar-42
+=I have lived here since 2020.|நான் 2020 முதல் இங்கே வசிக்கிறேன்.
+=She has worked with us for six months.|அவள் ஆறு மாதங்களாக எங்களுடன் வேலை செய்கிறாள்.
+=How long have you been waiting?|நீங்கள் எவ்வளவு நேரமாகக் காத்திருக்கிறீர்கள்?
+=We have not spoken since the meeting.|கூட்டத்திலிருந்து நாங்கள் பேசிக்கொள்ளவில்லை.
+=I have been studying for two hours.|நான் இரண்டு மணி நேரமாகப் படித்துக்கொண்டிருக்கிறேன்.
+=Has anything changed since you last visited?|நீங்கள் கடைசியாக வந்ததிலிருந்து ஏதாவது மாறியிருக்கிறதா?
+?I have worked here ___ May.|மே மாதம் முதல் வேலை செய்கிறேன்.|for~since~ago|1|Since + தொடக்க நேரம்.
+?We have waited ___ an hour.|ஒரு மணி நேரமாகக் காத்திருக்கிறோம்.|since~during~for|2|For + கால அளவு.
+?How long asks about...|எதைப் பற்றிக் கேட்கிறது?|Duration~Location~Price|0|கால அளவு. / Duration.
+>Describe two activities that started in the past and continue now. / கடந்த காலத்தில் தொடங்கி இன்றும் தொடரும் இரண்டு செயல்களைக் கூறுங்கள்.
+@practice-time-already-yet|B1|time-expressions|Already, yet and still|ஏற்கெனவே, இன்னும், தொடர்ந்து|Use the word that fits whether something has happened.|already done · not done yet · still waiting
+=I have already sent the email.|நான் ஏற்கெனவே மின்னஞ்சலை அனுப்பிவிட்டேன்.
+=Have you finished the report yet?|அறிக்கையை முடித்துவிட்டீர்களா?
+=We have not received a reply yet.|எங்களுக்கு இன்னும் பதில் கிடைக்கவில்லை.
+=She is still waiting outside.|அவள் இன்னும் வெளியே காத்திருக்கிறாள்.
+=I have just spoken to the manager.|நான் இப்போதுதான் மேலாளரிடம் பேசினேன்.
+=Why have they still not confirmed the date?|அவர்கள் ஏன் இன்னும் தேதியை உறுதிப்படுத்தவில்லை?
+?We have not heard back ___.|இன்னும் பதில் வரவில்லை.|already~yet~just|1|Not ... yet = இன்னும் இல்லை.
+?She is ___ waiting.|அவள் தொடர்ந்து காத்திருக்கிறாள்.|still~yet~ago|0|Still = தொடர்ந்து / இன்னும்.
+?I have ___ sent it; you can check now.|ஏற்கெனவே அனுப்பிவிட்டேன்.|yet~since~already|2|Already = ஏற்கெனவே.
+>Give an update: one finished task, one unfinished task and one ongoing task. / முடிந்த, முடியாத, தொடரும் வேலைகளைக் கூறுங்கள்.
+@practice-time-deadlines|B2|time-expressions|By, until and within|காலக்கெடுவைக் குறிப்பிடுதல்|By is a deadline; until shows continuation; within gives a time limit.|by Friday · until Friday · within three days
+=Please send the final version by Friday.|இறுதிப் பதிப்பை வெள்ளிக்கிழமைக்குள் அனுப்புங்கள்.
+=I will be away until Friday.|வெள்ளிக்கிழமை வரை நான் வெளியூரில் இருப்பேன்.
+=We should receive a response within three working days.|மூன்று வேலை நாட்களுக்குள் பதில் கிடைக்க வேண்டும்.
+=By the time you arrive, we will have finished the meeting.|நீங்கள் வருவதற்குள் கூட்டத்தை முடித்திருப்போம்.
+=The offer is valid until the end of the month.|வாய்ப்பு மாத இறுதி வரை செல்லுபடியாகும்.
+=Can you complete the checks by the time the guests arrive?|விருந்தினர்கள் வருவதற்குள் சரிபார்ப்புகளை முடிக்க முடியுமா?
+=I have been working on this since early January.|ஜனவரி தொடக்கத்திலிருந்து இதில் வேலை செய்து வருகிறேன்.
+=We will not make a decision until we have all the information.|அனைத்துத் தகவல்களும் கிடைக்கும் வரை முடிவு செய்யமாட்டோம்.
+?Finish it ___ Friday: Friday is the deadline.|வெள்ளிக்கிழமை காலக்கெடு.|by~until~since|0|By = அதற்குள் முடிக்க வேண்டும்.
+?Stay here ___ Friday.|வெள்ளிக்கிழமை வரை இங்கே இருங்கள்.|by~within~until|2|Until = அதுவரை தொடரும் நிலை.
+?Within three days means...|இதன் பொருள் என்ன?|After three days only~No later than three days from now~For exactly three days|1|மூன்று நாட்களுக்குள்.
+>Set a deadline, describe availability and promise a response time. / காலக்கெடு, கிடைக்கும் நேரம், பதில் நேரம் கூறுங்கள்.
+@practice-time-sequence|B2|time-expressions|Tell events in a clear order|நிகழ்வுகளை வரிசையாகக் கூறுதல்|Show what happened before, during and after an event.|beforehand · meanwhile · afterwards · eventually
+=We had discussed the risks beforehand, so the delay was not a surprise.|அபாயங்களை முன்பே விவாதித்திருந்ததால் தாமதம் ஆச்சரியமாக இல்லை.
+=The engineers checked the equipment. Meanwhile, we informed the visitors.|பொறியாளர்கள் கருவிகளைச் சரிபார்த்தார்கள். இதற்கிடையில் நாங்கள் பார்வையாளர்களுக்குத் தகவல் தெரிவித்தோம்.
+=Shortly afterwards, the service returned to normal.|சிறிது நேரத்திற்குப் பிறகு சேவை இயல்பு நிலைக்குத் திரும்பியது.
+=Eventually, both sides agreed to a compromise.|இறுதியில் இரு தரப்பும் சமரசத்திற்கு ஒப்புக்கொண்டன.
+=At first, the process seemed complicated; over time, it became easier.|முதலில் செயல்முறை சிக்கலாகத் தோன்றியது; காலப்போக்கில் எளிதானது.
+=In the meantime, we can prepare a backup plan.|இதற்கிடையில் மாற்றுத் திட்டத்தைத் தயார் செய்யலாம்.
+=It was not until the next morning that we discovered the mistake.|அடுத்த காலைதான் தவறைக் கண்டறிந்தோம்.
+=Sooner or later, we will have to address the underlying problem.|இன்றோ நாளையோ அடிப்படைப் பிரச்சினையை நாம் கையாள வேண்டியிருக்கும்.
+?Beforehand means...|இதன் பொருள் என்ன?|Later~At the same time~In advance|2|முன்கூட்டியே. / In advance.
+?Meanwhile connects...|Meanwhile எதை இணைக்கிறது?|Events happening at the same time~Only past regrets~A final deadline|0|ஒரே நேரத்தில் நடைபெறும் நிகழ்வுகள்.
+?Eventually means...|இதன் பொருள் என்ன?|Every time~In the end, after some time~Immediately|1|சில காலத்திற்குப் பிறகு இறுதியில்.
+>Tell a short story using beforehand, meanwhile and eventually. / இந்த மூன்று தொடர்களுடன் ஒரு சிறுகதை கூறுங்கள்.
+@practice-if-basic|A1|conditionals|Simple if sentences|எளிய நிபந்தனை வாக்கியங்கள்|Use if to give a simple condition.|If + condition, instruction.
+=If you are hungry, eat something.|பசியாக இருந்தால் ஏதாவது சாப்பிடுங்கள்.
+=If you need help, ask me.|உதவி தேவைப்பட்டால் என்னைக் கேளுங்கள்.
+=If it is cold, close the window.|குளிராக இருந்தால் சன்னலை மூடுங்கள்.
+=Call me if you are late.|தாமதமானால் என்னை அழையுங்கள்.
+=If you do not understand, ask again.|புரியவில்லை என்றால் மீண்டும் கேளுங்கள்.
+=What do you do if you are tired?|சோர்வாக இருந்தால் என்ன செய்வீர்கள்?
+?If you need help, ___ me.|உதவி தேவைப்பட்டால் என்னைக் கேளுங்கள்.|asked~ask~asking|1|வேண்டுகோளில் அடிப்படை வினை: ask.
+?If means...|If என்பதன் பொருள் என்ன?|என்றால்~நேற்று~எங்கே|0|ஒரு நிபந்தனையைக் கூறுகிறது.
+?Call me ___ you are late.|தாமதமானால் அழையுங்கள்.|because of~despite~if|2|If = என்றால்.
+>Give three useful instructions with if. / If உடன் மூன்று பயனுள்ள அறிவுறுத்தல்கள் கூறுங்கள்.
+@practice-if-first|A2|conditionals|Real future possibilities|நடக்கக்கூடிய எதிர்கால நிபந்தனைகள்|Use present after if and will in the result.|If + present simple, will + V1
+&grammar-38
+=If it rains, we will stay indoors.|மழை பெய்தால் உள்ளே இருப்போம்.
+=I will call you if I finish early.|சீக்கிரம் முடித்தால் உங்களை அழைப்பேன்.
+=If she does not arrive soon, we will start without her.|அவள் விரைவில் வராவிட்டால் அவள் இல்லாமல் தொடங்குவோம்.
+=Will you join us if you have time?|நேரம் இருந்தால் எங்களுடன் சேருவீர்களா?
+=What will you do if the shop is closed?|கடை மூடப்பட்டிருந்தால் என்ன செய்வீர்கள்?
+=If you book today, you may get a lower price.|இன்று முன்பதிவு செய்தால் குறைந்த விலை கிடைக்கலாம்.
+?If it ___, we will wait.|மழை பெய்தால் காத்திருப்போம்.|will rain~rains~rained|1|If பகுதியில் present: rains.
+?What will you ___ if it fails?|தோல்வியடைந்தால் என்ன செய்வீர்கள்?|do~did~done|0|Will + do. / அடிப்படை வினை.
+?Choose the natural sentence.|சரியான வாக்கியம் எது?|If she will call, I answer.~If she calls, I will answered.~If she calls, I will answer.|2|If பகுதியில் நிகழ்காலம்; விளைவில் will + அடிப்படை வினை.
+>Make a plan and explain what you will do if it changes. / திட்டத்தையும் அது மாறினால் செய்வதையும் கூறுங்கள்.
+@practice-if-zero|B1|conditionals|Facts and usual results|உண்மைகளும் வழக்கமான விளைவுகளும்|Use present in both parts for a general result.|If + present simple, present simple
+&grammar-50
+=If you heat ice, it melts.|பனிக்கட்டியைச் சூடாக்கினால் அது உருகும்.
+=If I skip breakfast, I feel tired by noon.|காலை உணவைத் தவிர்த்தால் மதியத்திற்குள் சோர்வாக உணர்வேன்.
+=The alarm sounds if someone opens the emergency door.|அவசரக் கதவை யாராவது திறந்தால் எச்சரிக்கை ஒலிக்கும்.
+=If the connection drops, the app saves your work locally.|இணைப்பு துண்டிக்கப்பட்டால் செயலி உங்கள் வேலையைச் சாதனத்தில் சேமிக்கும்.
+=What happens if you press this button?|இந்தப் பொத்தானை அழுத்தினால் என்ன நடக்கும்?
+=If customers have a question, they usually contact support.|வாடிக்கையாளர்களுக்குக் கேள்வி இருந்தால் பொதுவாக உதவி மையத்தைத் தொடர்புகொள்வார்கள்.
+?If I skip lunch, I ___ hungry.|மதிய உணவைத் தவிர்த்தால் பசியாக உணர்வேன்.|felt~will felt~feel|2|வழக்கமான விளைவிற்கு present: feel.
+?Zero conditional usually describes...|எதை விவரிக்கிறது?|General truths or usual results~An impossible past~Only tomorrow|0|பொதுவான உண்மை அல்லது வழக்கமான விளைவு.
+?What ___ if you press it?|அழுத்தினால் என்ன நடக்கும்?|happened~happens~happening|1|வழக்கமான விளைவு: happens.
+>Explain three rules or routines using if. / மூன்று விதிகள் அல்லது வழக்கங்களை if உடன் விளக்குங்கள்.
+@practice-if-second|B1|conditionals|Imagine a different present|வேறு நிகழ்காலத்தை கற்பனை செய்தல்|Use past after if for an imagined situation now.|If + past simple, would + V1
+&second-conditional
+=If I lived closer, I would walk to work.|அருகில் வசித்தால் வேலைக்கு நடந்துசெல்வேன்.
+=I would learn another language if I had more free time.|அதிக ஓய்வு நேரம் இருந்தால் மற்றொரு மொழியைக் கற்பேன்.
+=If I were you, I would ask for more information.|நான் உங்கள் இடத்தில் இருந்தால் மேலும் தகவல் கேட்பேன்.
+=What would you change if you were in charge?|நீங்கள் பொறுப்பில் இருந்தால் எதை மாற்றுவீர்கள்?
+=Would you accept the job if it required frequent travel?|அடிக்கடி பயணம் செய்ய வேண்டியிருந்தால் அந்த வேலையை ஏற்றுக்கொள்வீர்களா?
+=If the service were more reliable, more people would use it.|சேவை மேலும் நம்பகமாக இருந்தால் அதிகமானோர் பயன்படுத்துவார்கள்.
+?If I ___ more time, I would read.|அதிக நேரம் இருந்தால் படிப்பேன்.|had~have~will have|0|கற்பனை நிபந்தனை: had.
+?I would ___ for help.|நான் உதவி கேட்பேன்.|asked~asking~ask|2|Would பிறகு அடிப்படை வினை: ask.
+?Which is advice about an imagined situation?|கற்பனைச் சூழலில் அறிவுரை எது?|If it rains, it gets wet.~If I were you, I would wait.~If I had known, I would have called.|1|If I were you... அறிவுரை.
+>Imagine you had one free year. Explain three choices. / ஒரு ஆண்டு ஓய்வு கிடைத்தால் செய்யும் மூன்று தேர்வுகளை விளக்குங்கள்.
+@practice-if-third|B2|conditionals|Imagine a different past|வேறு கடந்தகால முடிவை கற்பனை செய்தல்|Both the condition and result are about a past that did not happen.|If + had + V3, would have + V3
+&grammar-66
+=If I had left earlier, I would have caught the train.|முன்பே கிளம்பியிருந்தால் ரயிலைப் பிடித்திருப்பேன்.
+=We would have booked another venue if we had known about the repairs.|பழுதுபார்ப்பு பற்றித் தெரிந்திருந்தால் வேறொரு இடத்தை முன்பதிவு செய்திருப்போம்.
+=If she had not checked the figures, we might have missed the error.|அவள் புள்ளிவிவரங்களைச் சரிபார்க்காவிட்டால் பிழையைத் தவறவிட்டிருக்கலாம்.
+=Would you have acted differently if you had received the warning?|எச்சரிக்கை கிடைத்திருந்தால் வேறுவிதமாகச் செயல்பட்டிருப்பீர்களா?
+=What would have happened if nobody had noticed?|யாரும் கவனிக்காமல் இருந்திருந்தால் என்ன நடந்திருக்கும்?
+=Had we prepared a backup, the interruption would have been shorter.|மாற்று ஏற்பாடு செய்திருந்தால் தடங்கல் குறைவாக இருந்திருக்கும்.
+?If I had ___, I would have helped.|தெரிந்திருந்தால் உதவியிருப்பேன்.|know~knew~known|2|Had பிறகு V3: known.
+?The result uses...|விளைவுப் பகுதியில் வருவது எது?|would have + V3~would + V2~will + V3|0|கடந்தகாலக் கற்பனை விளைவு: would have + V3.
+?Does the first example say I caught the train?|முதல் உதாரணத்தில் ரயிலைப் பிடித்தேனா?|Yes~No~It says nothing about a train|1|இல்லை; நடந்திருக்காத கடந்தகாலத்தை கற்பனை செய்கிறது.
+>Describe a past problem and how a different action might have changed it. / கடந்த பிரச்சினையையும் வேறு செயல் அதன் முடிவை எப்படி மாற்றியிருக்கும் என்பதையும் கூறுங்கள்.
+@practice-if-mixed|B2|conditionals|Past causes, present results|கடந்த காரணம், இப்போதைய விளைவு|Connect an unreal past choice to its result now.|If + had + V3, would + V1 now
+&grammar-67
+=If I had slept well, I would not be so tired now.|நன்றாகத் தூங்கியிருந்தால் இப்போது இவ்வளவு சோர்வாக இருக்கமாட்டேன்.
+=If we had invested in training, the team would be more confident today.|பயிற்சியில் முதலீடு செய்திருந்தால் குழுவிற்கு இன்று அதிகத் தன்னம்பிக்கை இருக்கும்.
+=She would have a shorter journey now if she had moved closer to work.|வேலைக்கு அருகில் குடிபெயர்ந்திருந்தால் இப்போது அவளுடைய பயண நேரம் குறைவாக இருக்கும்.
+=If I were more organised, I would not have missed yesterday's appointment.|நான் மேலும் ஒழுங்காகச் செயல்படுபவனாக இருந்தால் நேற்றைய சந்திப்பைத் தவறவிட்டிருக்கமாட்டேன்.
+=Would the service be better now if we had listened to the feedback?|பின்னூட்டத்தைக் கேட்டிருந்தால் சேவை இப்போது சிறப்பாக இருக்குமா?
+=If I had accepted that offer, I might be living abroad now.|அந்த வாய்ப்பை ஏற்றிருந்தால் இப்போது வெளிநாட்டில் வசித்துக்கொண்டிருக்கலாம்.
+?If I had slept, I ___ tired now.|தூங்கியிருந்தால் இப்போது சோர்வாக இருக்கமாட்டேன்.|will not be~would not be~would not have been yesterday|1|இப்போதைய விளைவு: would not be.
+?In the first example, the condition refers to...|முதல் உதாரணத்தில் நிபந்தனை எந்த நேரம்?|A past night~Next year~Only tomorrow|0|கடந்த இரவு; விளைவு இப்போது.
+?Which ends with a present result?|இப்போதைய விளைவு எது?|I would have called yesterday.~I will call tomorrow.~I would be happier now.|2|Would be ... now = இப்போதைய கற்பனை விளைவு.
+>Link a past choice to how things are now. / கடந்தகாலத் தேர்வையும் இன்றைய நிலையையும் இணைத்துக் கூறுங்கள்.
+@practice-if-alternatives|B2|conditionals|Unless, provided and even if|நிபந்தனையின் வேறு வடிவங்கள்|Distinguish a requirement from a result that stays the same.|unless = if not · provided = only if · even if = result unchanged
+=Unless we receive approval today, we will have to delay the launch.|இன்று ஒப்புதல் கிடைக்காவிட்டால் வெளியீட்டைத் தள்ளிவைக்க வேண்டும்.
+=You can work from home provided that the deadlines are met.|காலக்கெடுக்கள் பின்பற்றப்பட்டால் வீட்டிலிருந்து வேலை செய்யலாம்.
+=Even if we disagree, we can treat each other respectfully.|கருத்து வேறுபட்டாலும் ஒருவரை ஒருவர் மரியாதையாக நடத்தலாம்.
+=As long as everyone contributes, the workload should be manageable.|அனைவரும் பங்களிக்கும் வரை வேலைச்சுமையைச் சமாளிக்க முடியும்.
+=In case the train is cancelled, check the bus timetable too.|ரயில் ரத்தாகலாம் என்பதால் பேருந்து நேரங்களையும் சரிபாருங்கள்.
+=What would you do if the conditions changed at the last minute?|கடைசி நேரத்தில் நிபந்தனைகள் மாறினால் என்ன செய்வீர்கள்?
+?Unless we hurry means...|இதன் பொருள் என்ன?|Because we hurry~Even if we hurry~If we do not hurry|2|Unless என்றால் if not / இல்லை என்றால்.
+?Provided that introduces...|எதை அறிமுகப்படுத்துகிறது?|A required condition~An unrelated example~A finished past action|0|தேவையான நிபந்தனை.
+?Even if we disagree, we can be respectful means...|இதன் பொருள் என்ன?|We must always agree.~Respect is possible despite disagreement.~Disagreement prevents respect.|1|உடன்பாடு இல்லாவிட்டாலும் மரியாதை சாத்தியம்.
+>Negotiate an arrangement with a condition and a backup plan. / நிபந்தனையுடனும் மாற்றுத் திட்டத்துடனும் ஓர் ஏற்பாட்டைப் பேசுங்கள்.

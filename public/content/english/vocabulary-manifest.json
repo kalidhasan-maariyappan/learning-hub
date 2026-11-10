@@ -1,0 +1,28 @@
+{
+  "sourceCommit": "97cfaf08d98cfc38643e83fbbf3c28c007000ae5",
+  "downloadDate": "2026-11-10",
+  "sourceArchiveSHA256": "288b1f0d20b9dd664c0d065bf6f9ef573d00b22ecb031073b19d0f487b8837f0",
+  "entriesSHA256": "f4a9c6c7170cda5f1ab59739ff348292520fb777273fce5061c462b0934c036b",
+  "newItems": 4175,
+  "existingUniqueItems": 325,
+  "target": 4500,
+  "definitionMaxWords": 30,
+  "exampleMaxWords": 19,
+  "levelTargets": {
+    "A1": 500,
+    "A2": 1200,
+    "B1": 2500,
+    "B2": 4500
+  },
+  "translationStatus": "machine-assisted; sample corrections in vocabulary-overrides.json",
+  "wordnetArchiveSHA256": "cbda5ea6eef7f36a97a43d4a75f85e07fccbb4f23657d27b4ccbc93e2646ab59",
+  "sources": {
+    "tkg-cc0": 3295,
+    "wordnet-3.0": 880
+  },
+  "sampleCorrections": {
+    "shortBeginnerMeanings": 372,
+    "sourcedFixedExpressions": 142,
+    "sourcedPhrasalVerbs": 83
+  }
+}

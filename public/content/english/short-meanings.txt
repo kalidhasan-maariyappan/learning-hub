@@ -1,0 +1,373 @@
+# Reviewed short Tamil meanings. English meaning is shortened where supplied.
+a little|கொஞ்சம்|A small amount.
+a lot|நிறைய|A large amount.
+all right|சரி|Acceptable or okay.
+excuse me|மன்னிக்கவும்|Politely get attention or pass someone.
+good afternoon|மதிய வணக்கம்|An afternoon greeting.
+good evening|மாலை வணக்கம்|An evening greeting.
+good morning|காலை வணக்கம்|A morning greeting.
+good night|இரவு வணக்கம்|A goodbye before sleep.
+of course|நிச்சயமாக|Certainly.
+thank you|நன்றி|Express thanks.
+you're welcome|பரவாயில்லை|A polite reply to thanks.
+you|நீ / நீங்கள்|The person you are speaking to.
+me|என்னை / எனக்கு|The person speaking, as an object.
+one|ஒன்று|The number 1.
+no|இல்லை / சிறிதும் இல்லை|Not at all.
+time|நேரம்|What clocks measure.
+new|புதிய|Recently made or obtained.
+people|மக்கள்|More than one person.
+how|எப்படி|Ask about a way or manner.
+good|நல்ல|Of a pleasing quality.
+two|இரண்டு|The number 2.
+back|பின்புறமான|At the rear.
+may|செய்யலாம்|Ask or give permission politely.
+right|சரியான|Correct.
+year|ஆண்டு|Twelve months.
+day|நாள்|A period of twenty-four hours.
+man|ஆண் / மனிதன்|An adult male person.
+long|நீளமான|Measuring a great distance.
+three|மூன்று|The number 3.
+old|வயதான / பழைய|Having lived or existed a long time.
+game|விளையாட்டு|An activity with rules for fun.
+house|வீடு|A building where people live.
+please|தயவுசெய்து|Make a request polite.
+money|பணம்|What we use to pay.
+second|வினாடி|One sixtieth of a minute.
+number|எண்|A value used for counting.
+city|நகரம்|A large town.
+name|பெயர்|What someone or something is called.
+night|இரவு|The dark part of a day.
+week|வாரம்|Seven days.
+full|நிரம்பிய|Containing as much as possible.
+bad|மோசமான|Not good.
+four|நான்கு|The number 4.
+hard|கடினமான / கெட்டியான|Firm; not easy to bend.
+music|இசை|Sounds arranged for listening.
+head|தலை|The body part above your neck.
+white|வெள்ளை|The colour of milk.
+yes|ஆம்|A positive answer.
+country|நாடு|An area with its own government.
+thank|நன்றி கூறு|Tell someone you are grateful.
+black|கருப்பு|The darkest colour.
+car|கார்|A small road vehicle.
+face|முகம்|The front of your head.
+five|ஐந்து|The number 5.
+story|கதை|An account of events.
+book|புத்தகம்|Pages joined together for reading.
+thanks|நன்றி|An informal expression of gratitude.
+young|இளமையான|Not old.
+hand|கை|The part at the end of your arm.
+body|உடல்|Your whole physical form.
+room|அறை|A separate space in a building.
+wrong|தவறான|Not correct.
+girl|சிறுமி / பெண் குழந்தை|A female child.
+nice|இனிமையான / நல்ல|Pleasant.
+class|வகுப்பு|A group of students learning together.
+woman|பெண்|An adult female person.
+light|எடை குறைவான|Not heavy.
+short|குட்டையான / குறுகிய|Not long.
+red|சிவப்பு|The colour of blood.
+heart|இதயம்|The organ that pumps blood.
+child|குழந்தை|A young person.
+phone|தொலைபேசி|A device for calling people.
+easy|எளிய|Not difficult.
+market|சந்தை|A place to buy and sell goods.
+six|ஆறு|The number 6.
+ready|தயாரான|Prepared.
+son|மகன்|Someone's male child.
+street|தெரு|A road with buildings along it.
+baby|கைக்குழந்தை|A very young child.
+father|தந்தை|A male parent.
+march|அணிவகுத்து நட|Walk in regular steps.
+song|பாடல்|Music sung with words.
+month|மாதம்|One of twelve parts of a year.
+mother|தாய்|A female parent.
+road|சாலை|A route for vehicles.
+town|சிறுநகரம்|A place smaller than a city.
+fine|நன்றாக / ஏற்றதாக|Good enough.
+price|விலை|The money needed to buy something.
+wife|மனைவி|A married woman in relation to her partner.
+beautiful|அழகான|Very pleasing to look at.
+June|ஜூன்|The sixth month.
+star|நட்சத்திரம்|A bright ball of gas in space.
+hour|மணி நேரம்|Sixty minutes.
+sorry|மன்னிக்கவும் / வருந்துகிறேன்|Express regret.
+boy|சிறுவன்|A male child.
+July|ஜூலை|The seventh month.
+bank|வங்கி|A business that keeps and lends money.
+park|பூங்கா|A public green space.
+cool|குளிர்ச்சியான|Pleasantly cold.
+September|செப்டம்பர்|The ninth month.
+blue|நீலம்|The colour of a clear sky.
+fast|வேகமான|Moving quickly.
+green|பச்சை|The colour of grass.
+key|சாவி|An object used to open a lock.
+brother|சகோதரன்|A male sibling.
+cup|கோப்பை|A small container for drinking.
+October|அக்டோபர்|The tenth month.
+August|ஆகஸ்ட்|The eighth month.
+dog|நாய்|A common pet animal.
+November|நவம்பர்|The eleventh month.
+January|ஜனவரி|The first month.
+poor|ஏழையான|Having very little money.
+door|கதவு|An opening cover for entering a room.
+hair|தலைமுடி / மயிர்|Thin strands growing from skin.
+seven|ஏழு|The number 7.
+bed|படுக்கை|Furniture used for sleeping.
+daughter|மகள்|Someone's female child.
+December|டிசம்பர்|The twelfth month.
+hospital|மருத்துவமனை|A place where sick people are treated.
+paper|காகிதம்|Thin material used for writing.
+table|மேசை|Furniture with a flat top.
+ten|பத்து|The number 10.
+ball|பந்து|A round object used in games.
+box|பெட்டி|A container with firm sides.
+wall|சுவர்|An upright part enclosing a room.
+February|பிப்ரவரி|The second month.
+eight|எட்டு|The number 8.
+eye|கண்|The body part used for seeing.
+student|மாணவர்|Someone who studies.
+brown|பழுப்பு|The colour of soil or wood.
+station|நிலையம்|A place where trains stop.
+husband|கணவன்|A married man in relation to his partner.
+welcome|மகிழ்ச்சியுடன் ஏற்றுக்கொள்ளத்தக்க|Gladly received.
+minute|நிமிடம்|Sixty seconds.
+computer|கணினி|An electronic device that processes information.
+sun|சூரியன்|The star that gives Earth light.
+Friday|வெள்ளிக்கிழமை|The day after Thursday.
+train|ரயில்|Connected vehicles running on rails.
+hotel|தங்கும் விடுதி|A building with rooms for paying guests.
+sister|சகோதரி|A female sibling.
+floor|தரை|The surface you stand on indoors.
+weekend|வார இறுதி|Saturday and Sunday in many places.
+beach|கடற்கரை|Land beside the sea.
+Sunday|ஞாயிற்றுக்கிழமை|The day after Saturday.
+address|முகவரி|Details of where someone lives.
+color|நிறம்|The appearance of red, blue or other shades.
+rich|பணக்கார|Having a lot of money.
+fish|மீன்|An animal that swims and breathes underwater.
+shop|கடை|A place that sells things.
+sick|உடல்நலமில்லாத|Ill.
+teacher|ஆசிரியர்|Someone who helps others learn.
+foot|பாதம்|The body part below your ankle.
+nine|ஒன்பது|The number 9.
+Saturday|சனிக்கிழமை|The day after Friday.
+glass|கண்ணாடி|A hard, clear material.
+slow|மெதுவான|Not fast.
+tree|மரம்|A tall plant with a woody trunk.
+airport|விமான நிலையம்|A place where planes arrive and leave.
+sad|சோகமான|Unhappy.
+wind|காற்று|Moving air outdoors.
+bus|பேருந்து|A large vehicle carrying passengers.
+mouth|வாய்|The opening used for eating and speaking.
+village|கிராமம்|A small settlement.
+animal|விலங்கு|A living creature that is not a plant.
+Monday|திங்கட்கிழமை|The day after Sunday.
+window|சன்னல்|An opening in a wall, usually with glass.
+bag|பை|A container for carrying things.
+cat|பூனை|A small pet that often catches mice.
+garden|தோட்டம்|An area where plants are grown.
+apple|ஆப்பிள்|A round fruit.
+birthday|பிறந்த நாள்|The yearly date of your birth.
+dress|பெண்கள் அணியும் உடை|A one-piece garment with a skirt.
+horse|குதிரை|A large animal used for riding.
+map|வரைபடம்|A drawing showing places.
+arm|கை / புயம்|The body part from shoulder to hand.
+afternoon|பிற்பகல்|The time after noon.
+hello|வணக்கம்|A greeting.
+ill|நோய்வாய்ப்பட்ட|Not healthy.
+plane|விமானம்|A vehicle that flies.
+sky|வானம்|The space above Earth that we see.
+boat|படகு|A small vessel for travelling on water.
+cheap|விலை குறைவான|Not expensive.
+hundred|நூறு|The number 100.
+rain|மழை|Water falling from clouds.
+tired|சோர்வான|Needing rest.
+warm|வெதுவெதுப்பான|Pleasantly hot.
+moon|நிலவு|The object that orbits Earth.
+chair|நாற்காலி|A seat for one person.
+yellow|மஞ்சள்|The colour of a lemon.
+sugar|சர்க்கரை|A sweet substance added to food.
+holiday|விடுமுறை|Time away from work or school.
+leg|கால்|A body part used for standing and walking.
+milk|பால்|A white drink produced by mammals.
+snow|பனி|Soft frozen water falling from clouds.
+kitchen|சமையலறை|A room for preparing food.
+quiet|அமைதியான|Making little noise.
+twenty|இருபது|The number 20.
+thousand|ஆயிரம்|The number 1,000.
+bird|பறவை|An animal with feathers and wings.
+bowl|கிண்ணம்|A round, deep container.
+chicken|கோழி|A bird kept for eggs and meat.
+meat|இறைச்சி|Animal flesh eaten as food.
+neck|கழுத்து|The part joining your head to your body.
+shirt|சட்டை|Clothing for the upper body.
+Tuesday|செவ்வாய்க்கிழமை|The day after Monday.
+orange|ஆரஞ்சு நிறம்|A colour between red and yellow.
+Thursday|வியாழக்கிழமை|The day after Wednesday.
+salt|உப்பு|A substance used to season food.
+empty|காலியான|With nothing inside.
+Wednesday|புதன்கிழமை|The day after Tuesday.
+bottle|பாட்டில்|A container with a narrow neck.
+cheese|பாலாடைக்கட்டி|A food made from milk.
+fruit|பழம்|A plant's sweet edible part.
+excuse|மன்னி|Forgive a small mistake.
+dirty|அழுக்கான|Not clean.
+plate|தட்டு|A flat dish for food.
+rice|அரிசி|A grain commonly eaten after cooking.
+roof|கூரை|The top covering of a building.
+bathroom|குளியலறை|A room for washing yourself.
+bike|மிதிவண்டி|A bicycle.
+cake|கேக்|A sweet baked food.
+hat|தொப்பி|A covering for your head.
+loud|உரத்த|Making a lot of sound.
+pink|இளஞ்சிவப்பு|A colour between red and white.
+tall|உயரமான|Having a greater height than usual.
+nose|மூக்கு|The body part used for smelling.
+bread|ரொட்டி|A food made from baked dough.
+shoulder|தோள்|The part between your neck and upper arm.
+finger|விரல்|One of the long parts of your hand.
+pants|காற்சட்டை|Clothing covering the legs.
+lesson|பாடம்|A period or unit of learning.
+mirror|கண்ணாடி|A surface that shows your reflection.
+bedroom|படுக்கையறை|A room for sleeping.
+cloud|மேகம்|A mass of tiny water drops in the sky.
+egg|முட்டை|A round object laid by a bird.
+gray|சாம்பல் நிறம்|A colour between black and white.
+hungry|பசியாக|Wanting food.
+uncle|மாமா / சித்தப்பா / பெரியப்பா|A parent's brother or a relative by marriage.
+clock|கடிகாரம்|A device that shows the time.
+desk|எழுதும் மேசை|A table for working or studying.
+ear|காது|The body part used for hearing.
+flower|பூ|The colourful part of a plant.
+stomach|வயிறு|The organ where food begins to be digested.
+ugly|அழகற்ற|Unpleasant to look at.
+cousin|உறவுச் சகோதரர் / சகோதரி|Your aunt's or uncle's child.
+knife|கத்தி|A tool with a sharp blade.
+butter|வெண்ணெய்|A soft food made from cream.
+grass|புல்|A low green plant.
+pen|பேனா|A tool for writing with ink.
+thirty|முப்பது|The number 30.
+tongue|நாக்கு|The soft part inside your mouth.
+coat|மேலங்கி|An outer garment for warmth.
+twelve|பன்னிரண்டு|The number 12.
+knee|முழங்கால்|The joint in the middle of your leg.
+purple|ஊதா|A colour between red and blue.
+mouse|எலி|A small animal with a long thin tail.
+toy|பொம்மை / விளையாட்டுப் பொருள்|Something a child plays with.
+fifty|ஐம்பது|The number 50.
+grandfather|தாத்தா|Your parent's father.
+snake|பாம்பு|A long animal with no legs.
+leaf|இலை|A flat, usually green part of a plant.
+duck|வாத்து|A water bird with a broad beak.
+forty|நாற்பது|The number 40.
+sheep|செம்மறியாடு|A farm animal with wool.
+aunt|அத்தை / சித்தி / பெரியம்மா|A parent's sister or a relative by marriage.
+soup|சூப் / ரசம்|A liquid food.
+cow|பசு|An adult female cattle animal.
+fifteen|பதினைந்து|The number 15.
+grandmother|பாட்டி|Your parent's mother.
+pig|பன்றி|A farm animal with a round body.
+homework|வீட்டுப்பாடம்|School work done at home.
+eleven|பதினொன்று|The number 11.
+potato|உருளைக்கிழங்கு|A starchy vegetable that grows underground.
+lemon|எலுமிச்சை|A sour yellow fruit.
+tooth|பல்|A hard white object used for biting.
+basket|கூடை|A woven container for carrying things.
+toe|கால் விரல்|One of the small parts at the end of your foot.
+lamp|விளக்கு|A device that gives light.
+fork|முள்கரண்டி|An eating tool with pointed ends.
+goat|வெள்ளாடு|A farm animal often kept for milk.
+banana|வாழைப்பழம்|A long fruit with a peel.
+bicycle|மிதிவண்டி|A two-wheeled vehicle moved by pedals.
+skirt|பாவாடை|Clothing hanging from the waist.
+pencil|பென்சில்|A writing tool with a graphite centre.
+sixteen|பதினாறு|The number 16.
+sixty|அறுபது|The number 60.
+thirteen|பதின்மூன்று|The number 13.
+umbrella|குடை|A cover held above you against rain or sun.
+fourteen|பதினான்கு|The number 14.
+spoon|கரண்டி|A tool for eating or serving food.
+seventeen|பதினேழு|The number 17.
+eighteen|பதினெட்டு|The number 18.
+sofa|சோபா / நீண்ட இருக்கை|A comfortable seat for several people.
+seventy|எழுபது|The number 70.
+eighty|எண்பது|The number 80.
+ninety|தொண்ணூறு|The number 90.
+carrot|கேரட்|An orange root vegetable.
+nineteen|பத்தொன்பது|The number 19.
+goodbye|சென்று வருகிறேன்|A word used when leaving.
+hen|பெட்டைக் கோழி|An adult female chicken.
+thirsty|தாகமாக|Needing a drink.
+thumb|கட்டைவிரல்|The short thick digit of your hand.
+zero|பூஜ்ஜியம்|The number 0.
+the|குறிப்பிட்ட ஒன்றைக் குறிக்கும் சொல்|Points to a known person or thing.
+to|நோக்கி / க்கு|Towards and reaching a place.
+of|உடைய / இன்|Shows belonging or a connection.
+a|ஒரு|One unspecified thing.
+I|நான்|The person speaking.
+with|உடன்|Together with someone or something.
+this|இந்த / இது|Points to something nearby.
+at|இல் / இடத்தில்|Shows a position or place.
+he|அவன் / அவர்|A male person already mentioned.
+not|இல்லை|Makes a statement negative.
+by|அருகில் / வழியாக|Near or passing something.
+from|இருந்து|Shows where something starts.
+my|என்|Belonging to me.
+we|நாங்கள் / நாம்|The speaker and others.
+an|ஒரு|Used before a vowel sound.
+your|உன் / உங்கள்|Belonging to you.
+his|அவனுடைய / அவருடைய|Belonging to him.
+they|அவர்கள் / அவை|People or things already mentioned.
+if|என்றால்|Introduces a condition.
+can|முடியும்|Shows ability.
+will|செய்வேன் / செய்வார்|Talks about the future.
+just|சற்று முன்|A very short time ago.
+about|தோராயமாக|Approximately.
+out|வெளியே|Away from the inside.
+what|என்ன|Asks for information.
+who|யார்|Asks about a person.
+their|அவர்களுடைய|Belonging to them.
+there|அங்கே|In that place.
+her|அவளுடைய / அதனுடைய|Belonging to a female person or animal.
+which|எது / எந்த|Asks or specifies a choice.
+would|முன்பு வழக்கமாகச் செய்வார்|Describes a repeated past habit.
+she|அவள்|A female person already mentioned.
+some|சில / கொஞ்சம்|An unspecified amount or number.
+also|மேலும் / கூட|In addition.
+them|அவர்களை / அவற்றை|People or things as objects.
+now|இப்போது|At this time.
+other|வேறு|Different or additional.
+its|அதனுடைய|Belonging to it.
+our|எங்கள் / நமது|Belonging to us.
+than|விட|Introduces a comparison.
+only|ஒரே / மட்டுமே உள்ள|With no others of the same kind.
+first|முதலில்|Before anyone or anything else.
+him|அவனை / அவனுக்கு|A male person as an object.
+into|உள்ளே|Moving to the inside.
+any|ஏதேனும்|An unspecified amount or choice.
+then|அப்போது / பிறகு|At that time or next.
+could|முடிந்தது|Past ability.
+these|இந்த / இவை|Points to nearby things.
+us|எங்களை / எங்களுக்கு|The speaker and others as objects.
+well|உடல்நலம் நன்றாக|Healthy.
+way|வழி / முறை|A method of doing something.
+much|அதிகம்|A large amount.
+where|எங்கே|Asks about a place.
+should|செய்ய வேண்டும்|Gives advice.
+really|உண்மையாகவே|Truly or actually.
+too|மிகவும் / அளவுக்கு அதிகமாக|More than needed or wanted.
+off|விலகி / கிளம்பி|Away or starting a journey.
+why|ஏன்|Asks for a reason.
+still|இன்னும்|Continuing until now.
+many|பல / நிறைய|A large number.
+those|அந்த / அவை|Points to things farther away.
+life|வாழ்க்கை / உயிர்|Being alive.
+world|உலகம்|The Earth and its people.
+great|மிகச் சிறந்த|Very good or enjoyable.
+best|மிகச் சிறந்த|Better than all others.
+something|ஏதோ ஒன்று|A thing not specified.
+same|அதே|Not different.
+both|இரண்டும் / இருவரும்|The two together.
+every|ஒவ்வொரு|All members considered one at a time.

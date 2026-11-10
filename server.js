@@ -21,6 +21,7 @@ const MAX_CODE = 100 * 1024;
 const MAX_CONCURRENT = 2;
 
 const MIME = {
+  '.webmanifest': 'application/manifest+json',
   '.html': 'text/html; charset=utf-8',
   '.css': 'text/css; charset=utf-8',
   '.js': 'text/javascript; charset=utf-8',
@@ -379,6 +380,7 @@ async function serveStatic(req, res, urlPath) {
   let rel = decodeURIComponent(urlPath);
   // Lesson routes (/java, /java-core-advanced, /spring) and Try It use the client shell.
   if (rel === '/' ) { res.writeHead(302, { Location: '/java/' }); return res.end(); }
+  if (rel === '/english-learning' || rel.startsWith('/english-learning/')) rel = '/index.html';
   if (rel === '/java' || rel.startsWith('/java/')) rel = '/index.html';
   if (rel === '/java-core-advanced' || rel.startsWith('/java-core-advanced/')) rel = '/index.html';
   if (rel === '/spring' || rel.startsWith('/spring/')) rel = '/index.html';

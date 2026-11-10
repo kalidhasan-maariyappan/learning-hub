@@ -3,10 +3,16 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#c2410c">
+<link rel="manifest" href="/manifest.webmanifest">
+<link rel="apple-touch-icon" href="/icons/icon-192.png">
+<link rel="stylesheet" href="/css/pwa.css">
+<script defer src="/js/pwa.js"></script>
 <title>JavaTrail · Java Tutorial</title>
 <meta name="description" content="A hands-on Java tutorial with runnable examples, exercises, code challenges and a quiz.">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23c2410c'/%3E%3Ctext x='16' y='22' font-size='16' text-anchor='middle' fill='white' font-family='Arial' font-weight='bold'%3EJT%3C/text%3E%3C/svg%3E">
 <link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="/css/english.css">
 <script src="/js/core.js"></script>
 </head>
 <body>
@@ -15,6 +21,7 @@
     <button class="icon-btn menu-btn" id="menu-btn" aria-label="Toggle the Java menu">☰</button>
     <a class="brand" href="/java/"><span class="brand-mark">JT</span><span class="brand-text">JavaTrail</span></a>
     <nav class="family-nav" aria-label="Learning areas">
+      <a data-family="english" href="/english-learning/">English Learning</a>
       <a data-family="java" href="/java/">Java</a>
       <a data-family="spring" href="/spring-boot-path/">Spring</a>
       <a data-family="ruby" href="/ruby/">Ruby<span class="fam-long"> &amp; Rails</span></a>
@@ -28,6 +35,8 @@
     <button class="icon-btn" id="theme-btn" aria-label="Toggle dark mode" title="Toggle dark mode">◐</button>
   </div>
   <nav class="topnav" aria-label="Courses">
+    <a class="course-link" data-family="english" href="/english-learning/">Learning path</a>
+    <a class="course-link" data-family="english" href="/english-learning/progress">Progress &amp; review</a>
     <a class="course-link" data-family="java" href="/java/">Java Tutorial</a>
     <a class="course-link" data-family="java" href="/java/java_ref_reference">Reference</a>
     <a class="course-link core-advanced-link" data-family="java" href="/java-core-advanced/">Java Core Advance</a>
@@ -63,6 +72,8 @@
 <script src="/js/interview-catalog.js"></script>
 <script src="/js/interview-nav.js"></script>
 <script src="/js/app.js"></script>
+<script src="/js/english-data.js"></script>
+<script src="/js/english.js"></script>
 <script src="/js/lesson-kit.js"></script>
 <script src="/js/content/basics.js"></script>
 <script src="/js/content/control.js"></script>

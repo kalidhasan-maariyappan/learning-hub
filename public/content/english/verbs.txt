@@ -1,0 +1,143 @@
+# level | V1,V2,V3,V4,V5 | Tamil meaning | English meaning | example complement | Tamil present | Tamil past | Tamil future
+A1|go,went,gone,going,goes|போ / செல்|Move to another place.|to work|நான் வேலைக்குச் செல்கிறேன்.|நான் வேலைக்குச் சென்றேன்.|நான் வேலைக்குச் செல்வேன்.
+A1|come,came,come,coming,comes|வா|Move towards a place.|home early|நான் வீட்டிற்கு சீக்கிரம் வருகிறேன்.|நான் வீட்டிற்கு சீக்கிரம் வந்தேன்.|நான் வீட்டிற்கு சீக்கிரம் வருவேன்.
+A1|eat,ate,eaten,eating,eats|சாப்பிடு|Have food.|rice|நான் சாதம் சாப்பிடுகிறேன்.|நான் சாதம் சாப்பிட்டேன்.|நான் சாதம் சாப்பிடுவேன்.
+A1|drink,drank,drunk,drinking,drinks|குடி|Take liquid into your mouth.|tea|நான் தேநீர் குடிக்கிறேன்.|நான் தேநீர் குடித்தேன்.|நான் தேநீர் குடிப்பேன்.
+A1|sleep,slept,slept,sleeping,sleeps|தூங்கு|Rest with your eyes closed.|well|நான் நன்றாகத் தூங்குகிறேன்.|நான் நன்றாகத் தூங்கினேன்.|நான் நன்றாகத் தூங்குவேன்.
+A1|wake,woke,woken,waking,wakes|விழி|Stop sleeping.|early|நான் சீக்கிரம் விழிக்கிறேன்.|நான் சீக்கிரம் விழித்தேன்.|நான் சீக்கிரம் விழிப்பேன்.
+A1|get,got,got,getting,gets|பெறு|Receive something.|a message|எனக்கு ஒரு செய்தி கிடைக்கிறது.|எனக்கு ஒரு செய்தி கிடைத்தது.|எனக்கு ஒரு செய்தி கிடைக்கும்.
+A1|give,gave,given,giving,gives|கொடு|Let someone have something.|her a book|நான் அவளுக்கு ஒரு புத்தகம் கொடுக்கிறேன்.|நான் அவளுக்கு ஒரு புத்தகம் கொடுத்தேன்.|நான் அவளுக்கு ஒரு புத்தகம் கொடுப்பேன்.
+A1|take,took,taken,taking,takes|எடு|Pick or carry something.|a photo|நான் ஒரு புகைப்படம் எடுக்கிறேன்.|நான் ஒரு புகைப்படம் எடுத்தேன்.|நான் ஒரு புகைப்படம் எடுப்பேன்.
+A1|make,made,made,making,makes|தயாரி / செய்|Create something.|tea|நான் தேநீர் தயாரிக்கிறேன்.|நான் தேநீர் தயாரித்தேன்.|நான் தேநீர் தயாரிப்பேன்.
+A1|do,did,done,doing,does|செய்|Perform an action.|my homework|நான் என் வீட்டுப்பாடம் செய்கிறேன்.|நான் என் வீட்டுப்பாடம் செய்தேன்.|நான் என் வீட்டுப்பாடம் செய்வேன்.
+A1|read,read,read,reading,reads|படி|Look at and understand written words.|a book|நான் ஒரு புத்தகம் படிக்கிறேன்.|நான் ஒரு புத்தகம் படித்தேன்.|நான் ஒரு புத்தகம் படிப்பேன்.
+A1|write,wrote,written,writing,writes|எழுது|Put words on paper or a screen.|a letter|நான் ஒரு கடிதம் எழுதுகிறேன்.|நான் ஒரு கடிதம் எழுதினேன்.|நான் ஒரு கடிதம் எழுதுவேன்.
+A1|speak,spoke,spoken,speaking,speaks|பேசு|Say words aloud.|English|நான் ஆங்கிலம் பேசுகிறேன்.|நான் ஆங்கிலம் பேசினேன்.|நான் ஆங்கிலம் பேசுவேன்.
+A1|say,said,said,saying,says|சொல்|Express something in words.|hello|நான் வணக்கம் சொல்கிறேன்.|நான் வணக்கம் சொன்னேன்.|நான் வணக்கம் சொல்வேன்.
+A1|tell,told,told,telling,tells|சொல் / தெரிவி|Give information to someone.|her the truth|நான் அவளிடம் உண்மையைச் சொல்கிறேன்.|நான் அவளிடம் உண்மையைச் சொன்னேன்.|நான் அவளிடம் உண்மையைச் சொல்வேன்.
+A1|ask,asked,asked,asking,asks|கேள்|Request information.|a question|நான் ஒரு கேள்வி கேட்கிறேன்.|நான் ஒரு கேள்வி கேட்டேன்.|நான் ஒரு கேள்வி கேட்பேன்.
+A1|answer,answered,answered,answering,answers|பதிலளி|Reply to a question.|the question|நான் கேள்விக்குப் பதிலளிக்கிறேன்.|நான் கேள்விக்குப் பதிலளித்தேன்.|நான் கேள்விக்குப் பதிலளிப்பேன்.
+A1|listen,listened,listened,listening,listens|கவனி / கேள்|Pay attention to sound.|to music|நான் இசை கேட்கிறேன்.|நான் இசை கேட்டேன்.|நான் இசை கேட்பேன்.
+A1|hear,heard,heard,hearing,hears|கேள்|Notice a sound.|a noise|எனக்கு ஒரு சத்தம் கேட்கிறது.|எனக்கு ஒரு சத்தம் கேட்டது.|எனக்கு ஒரு சத்தம் கேட்கும்.
+A1|see,saw,seen,seeing,sees|பார்|Notice with your eyes.|a bird|நான் ஒரு பறவையைப் பார்க்கிறேன்.|நான் ஒரு பறவையைப் பார்த்தேன்.|நான் ஒரு பறவையைப் பார்ப்பேன்.
+A1|watch,watched,watched,watching,watches|பார் / கவனி|Look at something for a while.|a film|நான் ஒரு திரைப்படம் பார்க்கிறேன்.|நான் ஒரு திரைப்படம் பார்த்தேன்.|நான் ஒரு திரைப்படம் பார்ப்பேன்.
+A1|look,looked,looked,looking,looks|பார்|Turn your eyes towards something.|at the map|நான் வரைபடத்தைப் பார்க்கிறேன்.|நான் வரைபடத்தைப் பார்த்தேன்.|நான் வரைபடத்தைப் பார்ப்பேன்.
+A1|walk,walked,walked,walking,walks|நட|Move on foot.|to school|நான் பள்ளிக்கு நடந்துசெல்கிறேன்.|நான் பள்ளிக்கு நடந்துசென்றேன்.|நான் பள்ளிக்கு நடந்துசெல்வேன்.
+A1|run,ran,run,running,runs|ஓடு|Move quickly on foot.|in the park|நான் பூங்காவில் ஓடுகிறேன்.|நான் பூங்காவில் ஓடினேன்.|நான் பூங்காவில் ஓடுவேன்.
+A1|sit,sat,sat,sitting,sits|உட்கார்|Rest on a seat.|near the window|நான் சன்னலுக்கு அருகில் உட்காருகிறேன்.|நான் சன்னலுக்கு அருகில் உட்கார்ந்தேன்.|நான் சன்னலுக்கு அருகில் உட்காருவேன்.
+A1|stand,stood,stood,standing,stands|நில்|Be on your feet.|near the door|நான் கதவுக்கு அருகில் நிற்கிறேன்.|நான் கதவுக்கு அருகில் நின்றேன்.|நான் கதவுக்கு அருகில் நிற்பேன்.
+A1|open,opened,opened,opening,opens|திற|Make something not closed.|the door|நான் கதவைத் திறக்கிறேன்.|நான் கதவைத் திறந்தேன்.|நான் கதவைத் திறப்பேன்.
+A1|close,closed,closed,closing,closes|மூடு|Make something shut.|the window|நான் சன்னலை மூடுகிறேன்.|நான் சன்னலை மூடினேன்.|நான் சன்னலை மூடுவேன்.
+A1|start,started,started,starting,starts|தொடங்கு|Begin something.|work at nine|நான் ஒன்பது மணிக்கு வேலையைத் தொடங்குகிறேன்.|நான் ஒன்பது மணிக்கு வேலையைத் தொடங்கினேன்.|நான் ஒன்பது மணிக்கு வேலையைத் தொடங்குவேன்.
+A1|stop,stopped,stopped,stopping,stops|நிறுத்து|End an action.|the car|நான் காரை நிறுத்துகிறேன்.|நான் காரை நிறுத்தினேன்.|நான் காரை நிறுத்துவேன்.
+A1|buy,bought,bought,buying,buys|வாங்கு|Get something by paying.|vegetables|நான் காய்கறிகள் வாங்குகிறேன்.|நான் காய்கறிகள் வாங்கினேன்.|நான் காய்கறிகள் வாங்குவேன்.
+A1|sell,sold,sold,selling,sells|விற்|Give something for money.|fruit|நான் பழங்கள் விற்கிறேன்.|நான் பழங்கள் விற்றேன்.|நான் பழங்கள் விற்பேன்.
+A1|pay,paid,paid,paying,pays|பணம் செலுத்து|Give money for something.|the bill|நான் கட்டணத்தைச் செலுத்துகிறேன்.|நான் கட்டணத்தைச் செலுத்தினேன்.|நான் கட்டணத்தைச் செலுத்துவேன்.
+A1|bring,brought,brought,bringing,brings|கொண்டுவா|Carry something to a place.|my lunch|நான் என் மதிய உணவைக் கொண்டுவருகிறேன்.|நான் என் மதிய உணவைக் கொண்டுவந்தேன்.|நான் என் மதிய உணவைக் கொண்டுவருவேன்.
+A1|send,sent,sent,sending,sends|அனுப்பு|Make something go to someone.|an email|நான் ஒரு மின்னஞ்சல் அனுப்புகிறேன்.|நான் ஒரு மின்னஞ்சல் அனுப்பினேன்.|நான் ஒரு மின்னஞ்சல் அனுப்புவேன்.
+A1|call,called,called,calling,calls|அழை|Contact someone by phone.|my friend|நான் என் நண்பரை அழைக்கிறேன்.|நான் என் நண்பரை அழைத்தேன்.|நான் என் நண்பரை அழைப்பேன்.
+A1|meet,met,met,meeting,meets|சந்தி|Come together with someone.|my friends|நான் என் நண்பர்களைச் சந்திக்கிறேன்.|நான் என் நண்பர்களைச் சந்தித்தேன்.|நான் என் நண்பர்களைச் சந்திப்பேன்.
+A1|help,helped,helped,helping,helps|உதவு|Make something easier for someone.|my mother|நான் என் அம்மாவுக்கு உதவுகிறேன்.|நான் என் அம்மாவுக்கு உதவினேன்.|நான் என் அம்மாவுக்கு உதவுவேன்.
+A1|work,worked,worked,working,works|வேலை செய்|Do a job or task.|at home|நான் வீட்டில் வேலை செய்கிறேன்.|நான் வீட்டில் வேலை செய்தேன்.|நான் வீட்டில் வேலை செய்வேன்.
+A1|study,studied,studied,studying,studies|படி|Learn about a subject.|English|நான் ஆங்கிலம் படிக்கிறேன்.|நான் ஆங்கிலம் படித்தேன்.|நான் ஆங்கிலம் படிப்பேன்.
+A1|learn,learned,learned,learning,learns|கற்றுக்கொள்|Gain knowledge or a skill.|new words|நான் புதிய சொற்களைக் கற்றுக்கொள்கிறேன்.|நான் புதிய சொற்களைக் கற்றுக்கொண்டேன்.|நான் புதிய சொற்களைக் கற்றுக்கொள்வேன்.
+A1|teach,taught,taught,teaching,teaches|கற்பி|Help someone learn.|English|நான் ஆங்கிலம் கற்பிக்கிறேன்.|நான் ஆங்கிலம் கற்பித்தேன்.|நான் ஆங்கிலம் கற்பிப்பேன்.
+A1|play,played,played,playing,plays|விளையாடு|Take part in a game.|cricket|நான் கிரிக்கெட் விளையாடுகிறேன்.|நான் கிரிக்கெட் விளையாடினேன்.|நான் கிரிக்கெட் விளையாடுவேன்.
+A1|sing,sang,sung,singing,sings|பாடு|Make music with your voice.|a song|நான் ஒரு பாடல் பாடுகிறேன்.|நான் ஒரு பாடல் பாடினேன்.|நான் ஒரு பாடல் பாடுவேன்.
+A1|dance,danced,danced,dancing,dances|நடனமாடு|Move your body to music.|with my friends|நான் என் நண்பர்களுடன் நடனமாடுகிறேன்.|நான் என் நண்பர்களுடன் நடனமாடினேன்.|நான் என் நண்பர்களுடன் நடனமாடுவேன்.
+A1|cook,cooked,cooked,cooking,cooks|சமை|Prepare food using heat.|dinner|நான் இரவு உணவு சமைக்கிறேன்.|நான் இரவு உணவு சமைத்தேன்.|நான் இரவு உணவு சமைப்பேன்.
+A1|wash,washed,washed,washing,washes|கழுவு|Clean with water.|my hands|நான் என் கைகளைக் கழுவுகிறேன்.|நான் என் கைகளைக் கழுவினேன்.|நான் என் கைகளைக் கழுவுவேன்.
+A1|clean,cleaned,cleaned,cleaning,cleans|சுத்தம் செய்|Remove dirt.|the room|நான் அறையைச் சுத்தம் செய்கிறேன்.|நான் அறையைச் சுத்தம் செய்தேன்.|நான் அறையைச் சுத்தம் செய்வேன்.
+A1|wear,wore,worn,wearing,wears|அணி|Have clothing on your body.|a blue shirt|நான் ஒரு நீலச் சட்டை அணிகிறேன்.|நான் ஒரு நீலச் சட்டை அணிந்தேன்.|நான் ஒரு நீலச் சட்டை அணிவேன்.
+A1|live,lived,lived,living,lives|வசி|Have your home somewhere.|in Chennai|நான் சென்னையில் வசிக்கிறேன்.|நான் சென்னையில் வசித்தேன்.|நான் சென்னையில் வசிப்பேன்.
+A1|stay,stayed,stayed,staying,stays|தங்கு|Remain in a place.|at a hotel|நான் ஒரு விடுதியில் தங்குகிறேன்.|நான் ஒரு விடுதியில் தங்கினேன்.|நான் ஒரு விடுதியில் தங்குவேன்.
+A1|wait,waited,waited,waiting,waits|காத்திரு|Remain until something happens.|for the bus|நான் பேருந்துக்காகக் காத்திருக்கிறேன்.|நான் பேருந்துக்காகக் காத்திருந்தேன்.|நான் பேருந்துக்காகக் காத்திருப்பேன்.
+A1|leave,left,left,leaving,leaves|கிளம்பு / விட்டு செல்|Go away from a place.|home at eight|நான் எட்டு மணிக்கு வீட்டிலிருந்து கிளம்புகிறேன்.|நான் எட்டு மணிக்கு வீட்டிலிருந்து கிளம்பினேன்.|நான் எட்டு மணிக்கு வீட்டிலிருந்து கிளம்புவேன்.
+A1|arrive,arrived,arrived,arriving,arrives|வந்து சேர்|Reach a place.|at the station|நான் ரயில் நிலையத்திற்கு வந்து சேர்கிறேன்.|நான் ரயில் நிலையத்திற்கு வந்து சேர்ந்தேன்.|நான் ரயில் நிலையத்திற்கு வந்து சேர்வேன்.
+A1|travel,traveled,traveled,traveling,travels|பயணம் செய்|Go from one place to another.|by train|நான் ரயிலில் பயணம் செய்கிறேன்.|நான் ரயிலில் பயணம் செய்தேன்.|நான் ரயிலில் பயணம் செய்வேன்.
+A1|drive,drove,driven,driving,drives|ஓட்டு|Control a vehicle.|a car|நான் கார் ஓட்டுகிறேன்.|நான் கார் ஓட்டினேன்.|நான் கார் ஓட்டுவேன்.
+A1|ride,rode,ridden,riding,rides|சவாரி செய் / ஓட்டு|Travel on a bicycle or animal.|a bicycle|நான் மிதிவண்டி ஓட்டுகிறேன்.|நான் மிதிவண்டி ஓட்டினேன்.|நான் மிதிவண்டி ஓட்டுவேன்.
+A1|swim,swam,swum,swimming,swims|நீந்து|Move through water.|in the pool|நான் நீச்சல் குளத்தில் நீந்துகிறேன்.|நான் நீச்சல் குளத்தில் நீந்தினேன்.|நான் நீச்சல் குளத்தில் நீந்துவேன்.
+A1|jump,jumped,jumped,jumping,jumps|குதி|Push yourself into the air.|over the rope|நான் கயிற்றைத் தாண்டிக் குதிக்கிறேன்.|நான் கயிற்றைத் தாண்டிக் குதித்தேன்.|நான் கயிற்றைத் தாண்டிக் குதிப்பேன்.
+A1|carry,carried,carried,carrying,carries|சும / எடுத்துச்செல்|Hold something while moving.|my bag|நான் என் பையை எடுத்துச்செல்கிறேன்.|நான் என் பையை எடுத்துச்சென்றேன்.|நான் என் பையை எடுத்துச்செல்வேன்.
+A1|use,used,used,using,uses|பயன்படுத்து|Do something with a tool or item.|a computer|நான் ஒரு கணினி பயன்படுத்துகிறேன்.|நான் ஒரு கணினி பயன்படுத்தினேன்.|நான் ஒரு கணினி பயன்படுத்துவேன்.
+A1|find,found,found,finding,finds|கண்டுபிடி|Discover where something is.|the key|நான் சாவியைக் கண்டுபிடிக்கிறேன்.|நான் சாவியைக் கண்டுபிடித்தேன்.|நான் சாவியைக் கண்டுபிடிப்பேன்.
+A1|lose,lost,lost,losing,loses|தொலை / இழ|No longer have something.|the game|நான் விளையாட்டில் தோற்கிறேன்.|நான் விளையாட்டில் தோற்றேன்.|நான் விளையாட்டில் தோற்பேன்.
+A1|keep,kept,kept,keeping,keeps|வைத்திரு|Continue to have something.|my books here|நான் என் புத்தகங்களை இங்கே வைக்கிறேன்.|நான் என் புத்தகங்களை இங்கே வைத்தேன்.|நான் என் புத்தகங்களை இங்கே வைப்பேன்.
+A1|put,put,put,putting,puts|வை|Place something somewhere.|the bag on the table|நான் பையை மேசையின் மேல் வைக்கிறேன்.|நான் பையை மேசையின் மேல் வைத்தேன்.|நான் பையை மேசையின் மேல் வைப்பேன்.
+A1|cut,cut,cut,cutting,cuts|வெட்டு|Divide with a sharp tool.|the vegetables|நான் காய்கறிகளை வெட்டுகிறேன்.|நான் காய்கறிகளை வெட்டினேன்.|நான் காய்கறிகளை வெட்டுவேன்.
+A1|draw,drew,drawn,drawing,draws|வரை|Make a picture with lines.|a picture|நான் ஒரு படம் வரைகிறேன்.|நான் ஒரு படம் வரைந்தேன்.|நான் ஒரு படம் வரைவேன்.
+A1|paint,painted,painted,painting,paints|வண்ணம் பூசு|Cover a surface with colour.|the wall|நான் சுவருக்கு வண்ணம் பூசுகிறேன்.|நான் சுவருக்கு வண்ணம் பூசினேன்.|நான் சுவருக்கு வண்ணம் பூசுவேன்.
+A1|smile,smiled,smiled,smiling,smiles|புன்னகை செய்|Show a happy face.|at the baby|நான் குழந்தையைப் பார்த்துப் புன்னகைக்கிறேன்.|நான் குழந்தையைப் பார்த்துப் புன்னகைத்தேன்.|நான் குழந்தையைப் பார்த்துப் புன்னகைப்பேன்.
+A1|laugh,laughed,laughed,laughing,laughs|சிரி|Make a sound when amused.|at the joke|நான் நகைச்சுவையைக் கேட்டுச் சிரிக்கிறேன்.|நான் நகைச்சுவையைக் கேட்டுச் சிரித்தேன்.|நான் நகைச்சுவையைக் கேட்டுச் சிரிப்பேன்.
+A1|cry,cried,cried,crying,cries|அழு|Have tears in your eyes.|when I am sad|சோகமாக இருக்கும்போது நான் அழுகிறேன்.|சோகமாக இருந்தபோது நான் அழுதேன்.|சோகமாக இருந்தால் நான் அழுவேன்.
+A1|like,liked,liked,liking,likes|விரும்பு / பிடி|Enjoy or feel positive about something.|this song|எனக்கு இந்தப் பாடல் பிடிக்கிறது.|எனக்கு இந்தப் பாடல் பிடித்தது.|எனக்கு இந்தப் பாடல் பிடிக்கும்.
+A1|love,loved,loved,loving,loves|நேசி|Feel strong affection.|my family|நான் என் குடும்பத்தை நேசிக்கிறேன்.|நான் என் குடும்பத்தை நேசித்தேன்.|நான் என் குடும்பத்தை நேசிப்பேன்.
+A1|want,wanted,wanted,wanting,wants|விரும்பு / வேண்டும்|Wish to have something.|some water|எனக்குக் கொஞ்சம் தண்ணீர் வேண்டும்.|எனக்குக் கொஞ்சம் தண்ணீர் தேவைப்பட்டது.|எனக்குக் கொஞ்சம் தண்ணீர் தேவைப்படும்.
+A1|need,needed,needed,needing,needs|தேவைப்படு|Require something.|help|எனக்கு உதவி தேவை.|எனக்கு உதவி தேவைப்பட்டது.|எனக்கு உதவி தேவைப்படும்.
+A1|know,knew,known,knowing,knows|தெரி / அறி|Have information.|the answer|எனக்கு விடை தெரியும்.|எனக்கு விடை தெரிந்தது.|எனக்கு விடை தெரியும்.
+A1|think,thought,thought,thinking,thinks|சிந்தி / நினை|Use your mind to consider something.|about my future|நான் என் எதிர்காலத்தைப் பற்றிச் சிந்திக்கிறேன்.|நான் என் எதிர்காலத்தைப் பற்றிச் சிந்தித்தேன்.|நான் என் எதிர்காலத்தைப் பற்றிச் சிந்திப்பேன்.
+A1|understand,understood,understood,understanding,understands|புரிந்துகொள்|Know the meaning of something.|the lesson|எனக்குப் பாடம் புரிகிறது.|எனக்குப் பாடம் புரிந்தது.|எனக்குப் பாடம் புரியும்.
+A1|remember,remembered,remembered,remembering,remembers|நினைவில் கொள்|Keep something in your memory.|your name|எனக்கு உங்கள் பெயர் நினைவிருக்கிறது.|எனக்கு உங்கள் பெயர் நினைவிருந்தது.|எனக்கு உங்கள் பெயர் நினைவிருக்கும்.
+A2|forget,forgot,forgotten,forgetting,forgets|மற|Fail to remember.|names easily|நான் பெயர்களை எளிதாக மறந்துவிடுகிறேன்.|நான் பெயர்களை எளிதாக மறந்துவிட்டேன்.|நான் பெயர்களை எளிதாக மறந்துவிடுவேன்.
+A2|choose,chose,chosen,choosing,chooses|தேர்ந்தெடு|Pick one option.|the blue shirt|நான் நீலச் சட்டையைத் தேர்ந்தெடுக்கிறேன்.|நான் நீலச் சட்டையைத் தேர்ந்தெடுத்தேன்.|நான் நீலச் சட்டையைத் தேர்ந்தெடுப்பேன்.
+A2|decide,decided,decided,deciding,decides|முடிவு செய்|Choose what to do.|to stay|நான் தங்க முடிவு செய்கிறேன்.|நான் தங்க முடிவு செய்தேன்.|நான் தங்க முடிவு செய்வேன்.
+A2|plan,planned,planned,planning,plans|திட்டமிடு|Arrange what to do.|my trip|நான் என் பயணத்தைத் திட்டமிடுகிறேன்.|நான் என் பயணத்தைத் திட்டமிட்டேன்.|நான் என் பயணத்தைத் திட்டமிடுவேன்.
+A2|hope,hoped,hoped,hoping,hopes|நம்பு / எதிர்பார்|Want something good to happen.|to see you soon|விரைவில் உங்களைப் பார்க்க நம்பிக்கையுடன் எதிர்பார்க்கிறேன்.|விரைவில் உங்களைப் பார்க்க நம்பிக்கையுடன் எதிர்பார்த்தேன்.|விரைவில் உங்களைப் பார்க்க நம்பிக்கையுடன் எதிர்பார்ப்பேன்.
+A2|try,tried,tried,trying,tries|முயற்சி செய்|Make an effort.|to help|நான் உதவ முயற்சி செய்கிறேன்.|நான் உதவ முயற்சி செய்தேன்.|நான் உதவ முயற்சி செய்வேன்.
+A2|finish,finished,finished,finishing,finishes|முடி|Complete something.|my work|நான் என் வேலையை முடிக்கிறேன்.|நான் என் வேலையை முடித்தேன்.|நான் என் வேலையை முடிப்பேன்.
+A2|build,built,built,building,builds|கட்டு|Make a structure.|a house|நான் ஒரு வீடு கட்டுகிறேன்.|நான் ஒரு வீடு கட்டினேன்.|நான் ஒரு வீடு கட்டுவேன்.
+A2|break,broke,broken,breaking,breaks|உடை|Make something separate into pieces.|the stick|நான் குச்சியை உடைக்கிறேன்.|நான் குச்சியை உடைத்தேன்.|நான் குச்சியை உடைப்பேன்.
+A2|fix,fixed,fixed,fixing,fixes|சரிசெய்|Repair something.|the chair|நான் நாற்காலியைச் சரிசெய்கிறேன்.|நான் நாற்காலியைச் சரிசெய்தேன்.|நான் நாற்காலியைச் சரிசெய்வேன்.
+A2|check,checked,checked,checking,checks|சரிபார்|Make sure something is correct.|the address|நான் முகவரியைச் சரிபார்க்கிறேன்.|நான் முகவரியைச் சரிபார்த்தேன்.|நான் முகவரியைச் சரிபார்ப்பேன்.
+A2|change,changed,changed,changing,changes|மாற்று|Make something different.|my password|நான் என் கடவுச்சொல்லை மாற்றுகிறேன்.|நான் என் கடவுச்சொல்லை மாற்றினேன்.|நான் என் கடவுச்சொல்லை மாற்றுவேன்.
+A2|move,moved,moved,moving,moves|நகர்த்து|Put something in a different place.|the table|நான் மேசையை நகர்த்துகிறேன்.|நான் மேசையை நகர்த்தினேன்.|நான் மேசையை நகர்த்துவேன்.
+A2|return,returned,returned,returning,returns|திரும்பு / திருப்பிக்கொடு|Go back or give something back.|the book|நான் புத்தகத்தைத் திருப்பிக்கொடுக்கிறேன்.|நான் புத்தகத்தைத் திருப்பிக்கொடுத்தேன்.|நான் புத்தகத்தைத் திருப்பிக்கொடுப்பேன்.
+A2|borrow,borrowed,borrowed,borrowing,borrows|கடன் வாங்கு|Take something to return later.|a book|நான் ஒரு புத்தகம் இரவல் வாங்குகிறேன்.|நான் ஒரு புத்தகம் இரவல் வாங்கினேன்.|நான் ஒரு புத்தகம் இரவல் வாங்குவேன்.
+A2|lend,lent,lent,lending,lends|கடன் கொடு|Give something to be returned.|her my pen|நான் அவளுக்கு என் பேனாவை இரவல் கொடுக்கிறேன்.|நான் அவளுக்கு என் பேனாவை இரவல் கொடுத்தேன்.|நான் அவளுக்கு என் பேனாவை இரவல் கொடுப்பேன்.
+A2|spend,spent,spent,spending,spends|செலவிடு|Use time or money.|time with my family|நான் என் குடும்பத்துடன் நேரம் செலவிடுகிறேன்.|நான் என் குடும்பத்துடன் நேரம் செலவிட்டேன்.|நான் என் குடும்பத்துடன் நேரம் செலவிடுவேன்.
+A2|save,saved,saved,saving,saves|சேமி|Keep something for later.|money|நான் பணம் சேமிக்கிறேன்.|நான் பணம் சேமித்தேன்.|நான் பணம் சேமிப்பேன்.
+A2|invite,invited,invited,inviting,invites|அழை / வரவேற்க அழை|Ask someone to join an event.|my friends|நான் என் நண்பர்களை வர அழைக்கிறேன்.|நான் என் நண்பர்களை வர அழைத்தேன்.|நான் என் நண்பர்களை வர அழைப்பேன்.
+A2|visit,visited,visited,visiting,visits|சென்று பார்|Go to see a person or place.|my grandmother|நான் என் பாட்டியைப் பார்க்கச் செல்கிறேன்.|நான் என் பாட்டியைப் பார்க்கச் சென்றேன்.|நான் என் பாட்டியைப் பார்க்கச் செல்வேன்.
+B1|explain,explained,explained,explaining,explains|விளக்கு|Make an idea clear.|the problem|நான் பிரச்சினையை விளக்குகிறேன்.|நான் பிரச்சினையை விளக்கினேன்.|நான் பிரச்சினையை விளக்குவேன்.
+B1|describe,described,described,describing,describes|விவரி|Say what something is like.|the place|நான் அந்த இடத்தை விவரிக்கிறேன்.|நான் அந்த இடத்தை விவரித்தேன்.|நான் அந்த இடத்தை விவரிப்பேன்.
+B1|suggest,suggested,suggested,suggesting,suggests|பரிந்துரை செய்|Offer an idea.|a different route|நான் வேறு பாதையைப் பரிந்துரைக்கிறேன்.|நான் வேறு பாதையைப் பரிந்துரைத்தேன்.|நான் வேறு பாதையைப் பரிந்துரைப்பேன்.
+B1|improve,improved,improved,improving,improves|மேம்படுத்து|Make something better.|my English|நான் என் ஆங்கிலத்தை மேம்படுத்துகிறேன்.|நான் என் ஆங்கிலத்தை மேம்படுத்தினேன்.|நான் என் ஆங்கிலத்தை மேம்படுத்துவேன்.
+B1|prepare,prepared,prepared,preparing,prepares|தயார் செய்|Make something ready.|the report|நான் அறிக்கையைத் தயார் செய்கிறேன்.|நான் அறிக்கையைத் தயார் செய்தேன்.|நான் அறிக்கையைத் தயார் செய்வேன்.
+B1|solve,solved,solved,solving,solves|தீர்வு காண்|Find an answer to a problem.|the problem|நான் பிரச்சினைக்குத் தீர்வு காண்கிறேன்.|நான் பிரச்சினைக்குத் தீர்வு கண்டேன்.|நான் பிரச்சினைக்குத் தீர்வு காண்பேன்.
+B1|compare,compared,compared,comparing,compares|ஒப்பிடு|Look at similarities and differences.|the prices|நான் விலைகளை ஒப்பிடுகிறேன்.|நான் விலைகளை ஒப்பிட்டேன்.|நான் விலைகளை ஒப்பிடுவேன்.
+B1|avoid,avoided,avoided,avoiding,avoids|தவிர்|Keep away from something.|heavy traffic|நான் அதிகப் போக்குவரத்து நெரிசலைத் தவிர்க்கிறேன்.|நான் அதிகப் போக்குவரத்து நெரிசலைத் தவிர்த்தேன்.|நான் அதிகப் போக்குவரத்து நெரிசலைத் தவிர்ப்பேன்.
+B1|support,supported,supported,supporting,supports|ஆதரி|Help someone or an idea.|my team|நான் என் குழுவை ஆதரிக்கிறேன்.|நான் என் குழுவை ஆதரித்தேன்.|நான் என் குழுவை ஆதரிப்பேன்.
+B1|recommend,recommended,recommended,recommending,recommends|பரிந்துரை செய்|Say something is a good choice.|this book|நான் இந்தப் புத்தகத்தைப் பரிந்துரைக்கிறேன்.|நான் இந்தப் புத்தகத்தைப் பரிந்துரைத்தேன்.|நான் இந்தப் புத்தகத்தைப் பரிந்துரைப்பேன்.
+B2|negotiate,negotiated,negotiated,negotiating,negotiates|பேச்சுவார்த்தை நடத்து|Discuss to reach an agreement.|the price|நான் விலை பற்றிப் பேச்சுவார்த்தை நடத்துகிறேன்.|நான் விலை பற்றிப் பேச்சுவார்த்தை நடத்தினேன்.|நான் விலை பற்றிப் பேச்சுவார்த்தை நடத்துவேன்.
+B2|evaluate,evaluated,evaluated,evaluating,evaluates|மதிப்பீடு செய்|Judge the value or quality.|the options|நான் தேர்வுகளை மதிப்பீடு செய்கிறேன்.|நான் தேர்வுகளை மதிப்பீடு செய்தேன்.|நான் தேர்வுகளை மதிப்பீடு செய்வேன்.
+B2|analyse,analysed,analysed,analysing,analyses|பகுப்பாய்வு செய்|Study something carefully.|the data|நான் தரவைப் பகுப்பாய்வு செய்கிறேன்.|நான் தரவைப் பகுப்பாய்வு செய்தேன்.|நான் தரவைப் பகுப்பாய்வு செய்வேன்.
+B2|propose,proposed,proposed,proposing,proposes|முன்மொழி|Put forward an idea.|a solution|நான் ஒரு தீர்வை முன்மொழிகிறேன்.|நான் ஒரு தீர்வை முன்மொழிந்தேன்.|நான் ஒரு தீர்வை முன்மொழிவேன்.
+B2|prioritise,prioritised,prioritised,prioritising,prioritises|முன்னுரிமை கொடு|Put the most important thing first.|urgent tasks|நான் அவசர வேலைகளுக்கு முன்னுரிமை கொடுக்கிறேன்.|நான் அவசர வேலைகளுக்கு முன்னுரிமை கொடுத்தேன்.|நான் அவசர வேலைகளுக்கு முன்னுரிமை கொடுப்பேன்.
+B2|justify,justified,justified,justifying,justifies|நியாயப்படுத்து|Give reasons for a decision.|my decision|நான் என் முடிவை நியாயப்படுத்துகிறேன்.|நான் என் முடிவை நியாயப்படுத்தினேன்.|நான் என் முடிவை நியாயப்படுத்துவேன்.
+B2|implement,implemented,implemented,implementing,implements|செயல்படுத்து|Put a plan into action.|the plan|நான் திட்டத்தைச் செயல்படுத்துகிறேன்.|நான் திட்டத்தைச் செயல்படுத்தினேன்.|நான் திட்டத்தைச் செயல்படுத்துவேன்.
+B2|assess,assessed,assessed,assessing,assesses|மதிப்பிடு|Judge a situation or risk.|the risks|நான் அபாயங்களை மதிப்பிடுகிறேன்.|நான் அபாயங்களை மதிப்பிட்டேன்.|நான் அபாயங்களை மதிப்பிடுவேன்.
+B2|clarify,clarified,clarified,clarifying,clarifies|தெளிவுபடுத்து|Make something easier to understand.|the requirements|நான் தேவைகளைத் தெளிவுபடுத்துகிறேன்.|நான் தேவைகளைத் தெளிவுபடுத்தினேன்.|நான் தேவைகளைத் தெளிவுபடுத்துவேன்.
+B2|resolve,resolved,resolved,resolving,resolves|தீர்த்து வை|Settle a problem or disagreement.|the conflict|நான் முரண்பாட்டைத் தீர்த்து வைக்கிறேன்.|நான் முரண்பாட்டைத் தீர்த்து வைத்தேன்.|நான் முரண்பாட்டைத் தீர்த்து வைப்பேன்.
+A1|be,was,been,being,is|இரு|Exist or describe a state.|ready|நான் தயாராக இருக்கிறேன்.|நான் தயாராக இருந்தேன்.|நான் தயாராக இருப்பேன்.
+A1|have,had,had,having,has|வைத்திரு / உண்டு|Possess something.|a bicycle|என்னிடம் ஒரு மிதிவண்டி இருக்கிறது.|என்னிடம் ஒரு மிதிவண்டி இருந்தது.|என்னிடம் ஒரு மிதிவண்டி இருக்கும்.
+B1|become,became,become,becoming,becomes|ஆகு|Change into something.|more confident|எனக்குத் தன்னம்பிக்கை அதிகரிக்கிறது.|எனக்குத் தன்னம்பிக்கை அதிகரித்தது.|எனக்குத் தன்னம்பிக்கை அதிகரிக்கும்.
+B1|begin,began,begun,beginning,begins|தொடங்கு|Start doing something.|the lesson|நான் பாடத்தைத் தொடங்குகிறேன்.|நான் பாடத்தைத் தொடங்கினேன்.|நான் பாடத்தைத் தொடங்குவேன்.
+B1|catch,caught,caught,catching,catches|பிடி|Take hold of something.|the ball|நான் பந்தைப் பிடிக்கிறேன்.|நான் பந்தைப் பிடித்தேன்.|நான் பந்தைப் பிடிப்பேன்.
+B1|feel,felt,felt,feeling,feels|உணர்|Experience an emotion or sensation.|happy|நான் மகிழ்ச்சியாக உணர்கிறேன்.|நான் மகிழ்ச்சியாக உணர்ந்தேன்.|நான் மகிழ்ச்சியாக உணர்வேன்.
+B1|grow,grew,grown,growing,grows|வளர் / வளர்த்தல்|Increase in size or raise plants.|vegetables|நான் காய்கறிகள் வளர்க்கிறேன்.|நான் காய்கறிகள் வளர்த்தேன்.|நான் காய்கறிகள் வளர்ப்பேன்.
+B1|hold,held,held,holding,holds|பிடித்திரு|Keep something in your hand.|the rope|நான் கயிற்றைப் பிடித்திருக்கிறேன்.|நான் கயிற்றைப் பிடித்திருந்தேன்.|நான் கயிற்றைப் பிடித்திருப்பேன்.
+B1|win,won,won,winning,wins|வெற்றி பெறு|Be successful in a contest.|the match|நான் போட்டியில் வெற்றி பெறுகிறேன்.|நான் போட்டியில் வெற்றி பெற்றேன்.|நான் போட்டியில் வெற்றி பெறுவேன்.
+B1|throw,threw,thrown,throwing,throws|எறி|Send something through the air by hand.|the ball|நான் பந்தை எறிகிறேன்.|நான் பந்தை எறிந்தேன்.|நான் பந்தை எறிவேன்.
+B1|hide,hid,hidden,hiding,hides|மறை|Put something where it cannot be seen.|the gift|நான் பரிசை மறைக்கிறேன்.|நான் பரிசை மறைத்தேன்.|நான் பரிசை மறைப்பேன்.
+B1|shake,shook,shaken,shaking,shakes|குலுக்கு|Move something quickly back and forth.|the bottle|நான் பாட்டிலைக் குலுக்குகிறேன்.|நான் பாட்டிலைக் குலுக்கினேன்.|நான் பாட்டிலைக் குலுக்குவேன்.
+B2|undertake,undertook,undertaken,undertaking,undertakes|பொறுப்பேற்று மேற்கொள்|Accept and begin a task.|the task|நான் வேலையைப் பொறுப்பேற்று மேற்கொள்கிறேன்.|நான் வேலையைப் பொறுப்பேற்று மேற்கொண்டேன்.|நான் வேலையைப் பொறுப்பேற்று மேற்கொள்வேன்.
+B2|withdraw,withdrew,withdrawn,withdrawing,withdraws|திரும்பப் பெறு|Take something back or out.|my application|நான் என் விண்ணப்பத்தைத் திரும்பப் பெறுகிறேன்.|நான் என் விண்ணப்பத்தைத் திரும்பப் பெற்றேன்.|நான் என் விண்ணப்பத்தைத் திரும்பப் பெறுவேன்.
+B2|overcome,overcame,overcome,overcoming,overcomes|வெற்றிகொள் / கடந்து வா|Succeed in dealing with a difficulty.|my fear|நான் என் பயத்தைக் கடந்து வருகிறேன்.|நான் என் பயத்தைக் கடந்து வந்தேன்.|நான் என் பயத்தைக் கடந்து வருவேன்.
+B2|forgive,forgave,forgiven,forgiving,forgives|மன்னி|Stop blaming someone.|his mistake|நான் அவனுடைய தவறை மன்னிக்கிறேன்.|நான் அவனுடைய தவறை மன்னித்தேன்.|நான் அவனுடைய தவறை மன்னிப்பேன்.
+B2|forbid,forbade,forbidden,forbidding,forbids|தடை செய்|Order that something must not happen.|smoking here|நான் இங்கே புகைப்பதைத் தடை செய்கிறேன்.|நான் இங்கே புகைப்பதைத் தடை செய்தேன்.|நான் இங்கே புகைப்பதைத் தடை செய்வேன்.
+B2|bind,bound,bound,binding,binds|பிணை / கட்டு|Tie or hold things together.|the pages|நான் பக்கங்களை ஒன்றாகப் பிணைக்கிறேன்.|நான் பக்கங்களை ஒன்றாகப் பிணைத்தேன்.|நான் பக்கங்களை ஒன்றாகப் பிணைப்பேன்.
+B2|bear,bore,borne,bearing,bears|தாங்கு|Accept something difficult.|the cost|நான் செலவை ஏற்கிறேன்.|நான் செலவை ஏற்றேன்.|நான் செலவை ஏற்பேன்.
+B2|seek,sought,sought,seeking,seeks|நாடு / தேடு|Try to obtain something.|advice|நான் அறிவுரை நாடுகிறேன்.|நான் அறிவுரை நாடினேன்.|நான் அறிவுரை நாடுவேன்.
+B2|undergo,underwent,undergone,undergoing,undergoes|உட்படு|Experience a process or treatment.|training|நான் பயிற்சி பெறுகிறேன்.|நான் பயிற்சி பெற்றேன்.|நான் பயிற்சி பெறுவேன்.
+B2|withstand,withstood,withstood,withstanding,withstands|எதிர்த்துத் தாங்கு|Remain strong against pressure.|the pressure|நான் அழுத்தத்தைத் தாங்குகிறேன்.|நான் அழுத்தத்தைத் தாங்கினேன்.|நான் அழுத்தத்தைத் தாங்குவேன்.

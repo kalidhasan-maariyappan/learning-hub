@@ -1,0 +1,79 @@
+@practice-conversation-travel|B1|conversations|A cancelled train|ரயில் ரத்து செய்யப்பட்டபோது|Ask for alternatives, clarify the cost and confirm the plan.|Problem → options → question → confirmation
+=A: My train has been cancelled. What are my options?|அ: என் ரயில் ரத்து செய்யப்பட்டுள்ளது. எனக்கு என்ன மாற்று வழிகள் உள்ளன?
+=B: You can take the bus or wait for the next train.|ஆ: நீங்கள் பேருந்தில் செல்லலாம் அல்லது அடுத்த ரயிலுக்குக் காத்திருக்கலாம்.
+=A: How long would I have to wait?|அ: எவ்வளவு நேரம் காத்திருக்க வேண்டும்?
+=B: The next train leaves in two hours.|ஆ: அடுத்த ரயில் இரண்டு மணி நேரத்தில் புறப்படும்.
+=A: Will my ticket be valid on that train?|அ: அந்த ரயிலில் என் பயணச்சீட்டு செல்லுமா?
+=B: Yes, but you will need a new seat reservation.|ஆ: ஆம், ஆனால் புதிய இருக்கை முன்பதிவு தேவை.
+=A: Could you arrange that for me, please?|அ: தயவுசெய்து அதை எனக்கு ஏற்பாடு செய்ய முடியுமா?
+=B: Certainly. Please keep your original ticket as well.|ஆ: நிச்சயமாக. உங்கள் பழைய பயணச்சீட்டையும் வைத்துக்கொள்ளுங்கள்.
+?When does the next train leave?|அடுத்த ரயில் எப்போது?|In two hours~Tomorrow only~In ten minutes|0|இரண்டு மணி நேரத்தில் புறப்படும்.
+?What is needed in addition to the ticket?|மேலும் என்ன தேவை?|A passport~A new seat reservation~A bus pass|1|புதிய இருக்கை முன்பதிவு தேவை.
+?Which request is polite?|மரியாதையான வேண்டுகோள் எது?|Do it now!~Why didn't you do it?~Could you arrange that for me, please?|2|Could you ... please? மரியாதையானது.
+>Play both roles. Change the waiting time and ask about a refund. / இரு பாத்திரங்களிலும் பேசுங்கள்; நேரத்தை மாற்றி பணத்தைத் திரும்பப் பெறுவது பற்றி கேளுங்கள்.
+@practice-conversation-service|B1|conversations|A damaged delivery|சேதமடைந்த பொருள் வந்தபோது|Explain the problem and agree on a solution.|Order detail → problem → request → next step
+=A: I received my order today, but one item is damaged.|அ: இன்று என் பொருள் வந்தது, ஆனால் ஒரு பொருள் சேதமாக உள்ளது.
+=B: I am sorry to hear that. Could I have the order number?|ஆ: அதைக் கேட்டு வருந்துகிறேன். ஆர்டர் எண்ணைச் சொல்ல முடியுமா?
+=A: It is 482. I can send you a photograph.|அ: எண் 482. நான் புகைப்படம் அனுப்ப முடியும்.
+=B: That would help. Would you prefer a replacement or a refund?|ஆ: அது உதவியாக இருக்கும். மாற்றுப் பொருளா அல்லது பணத்தைத் திரும்பப் பெறுவதா விரும்புகிறீர்கள்?
+=A: A replacement, provided it can arrive by Friday.|அ: வெள்ளிக்கிழமைக்குள் வந்தால் மாற்றுப் பொருள் வேண்டும்.
+=B: I cannot guarantee Friday, but Monday is possible.|ஆ: வெள்ளிக்கிழமைக்கு உறுதி தர முடியாது, ஆனால் திங்கட்கிழமை சாத்தியம்.
+=A: In that case, I would prefer a refund.|அ: அப்படியானால் பணத்தைத் திரும்பப் பெற விரும்புகிறேன்.
+=B: Certainly. I will email you the return instructions.|ஆ: நிச்சயமாக. திருப்பி அனுப்பும் வழிமுறைகளை மின்னஞ்சலில் அனுப்புகிறேன்.
+?What is the problem?|பிரச்சினை என்ன?|The address is wrong~The delivery never arrived~An item is damaged|2|ஒரு பொருள் சேதமடைந்துள்ளது.
+?Why does the customer choose a refund?|ஏன் பணத்தைத் திரும்பப் பெற விரும்புகிறார்?|Friday delivery is not guaranteed~The price went up~The photo is missing|0|வெள்ளிக்கிழமை வருவதற்கு உறுதி இல்லை.
+?What happens next?|அடுத்து என்ன நடக்கும்?|A meeting~An email with return instructions~A new order automatically|1|திருப்பி அனுப்பும் வழிமுறைகள் மின்னஞ்சலில் வரும்.
+>Change the problem and negotiate a different solution. / பிரச்சினையை மாற்றி வேறு தீர்வைப் பேசுங்கள்.
+@+polite-disagreement|B2|conversations|Polite disagreement|மரியாதையாகக் கருத்து வேறுபடுதல்|Acknowledge a benefit, explain your concern and offer an alternative.|I see your point, but... · Could we instead...?
+=A: I think we should replace all the equipment immediately.|அ: அனைத்து உபகரணங்களையும் உடனடியாக மாற்ற வேண்டும் என்று நினைக்கிறேன்.
+=B: I see the benefit, but the cost concerns me.|ஆ: நன்மை புரிகிறது, ஆனால் செலவு கவலை அளிக்கிறது.
+=A: The new system would save staff a lot of time.|அ: புதிய அமைப்பு ஊழியர்களுக்கு நிறைய நேரத்தை மிச்சப்படுத்தும்.
+=B: That may be true. Have we estimated the training cost as well?|ஆ: அது உண்மையாக இருக்கலாம். பயிற்சிச் செலவையும் மதிப்பிட்டிருக்கிறோமா?
+=A: Not yet. Would you prefer to postpone the decision?|அ: இன்னும் இல்லை. முடிவை ஒத்திவைக்க விரும்புகிறீர்களா?
+=B: I would suggest a small trial rather than a complete replacement.|ஆ: முழுமையாக மாற்றுவதற்குப் பதிலாக சிறிய சோதனையைப் பரிந்துரைப்பேன்.
+=A: Provided that the trial has a clear deadline, I could support that.|அ: சோதனைக்குத் தெளிவான காலக்கெடு இருந்தால் அதை ஆதரிக்கலாம்.
+=B: Agreed. Let us compare the results before making a final commitment.|ஆ: ஒப்புக்கொள்கிறேன். இறுதியாக உறுதிகொள்வதற்கு முன் முடிவுகளை ஒப்பிடுவோம்.
+?What concern does B raise?|ஆ கூறும் கவலை என்ன?|Cost, including training~The colour of equipment~The meeting date|0|செலவு, குறிப்பாகப் பயிற்சிச் செலவும் கவலை அளிக்கிறது.
+?What alternative is suggested?|மாற்று யோசனை என்ன?|Cancel all work~Run a small trial~Buy everything now|1|சிறிய சோதனை நடத்துவது.
+?What condition does A add?|அ சேர்க்கும் நிபந்தனை என்ன?|No training~A larger office~A clear deadline for the trial|2|சோதனைக்குத் தெளிவான காலக்கெடு தேவை.
+>Disagree about an expensive plan without dismissing the other person's idea. / மற்றவரின் யோசனையை அவமதிக்காமல் அதிகச் செலவுள்ள திட்டத்தை மறுத்துப் பேசுங்கள்.
+>Offer an alternative and respond to a condition. / மாற்று யோசனை கூறி ஒரு நிபந்தனைக்குப் பதிலளியுங்கள்.
+@+negotiating-a-deadline|B2|conversations|Negotiate a realistic deadline|நடைமுறைக்கு ஏற்ற காலக்கெடு பேசுதல்|Explain the constraint, propose a compromise and confirm who does what.|Could we extend...? · If we..., would you...?
+=A: Could we extend the deadline to next Wednesday?|அ: காலக்கெடுவை அடுத்த புதன்கிழமை வரை நீட்டிக்கலாமா?
+=B: What is preventing you from finishing on Friday?|ஆ: வெள்ளிக்கிழமை முடிப்பதை எது தடுக்கிறது?
+=A: We are still waiting for the final figures from the supplier.|அ: வழங்குநரிடமிருந்து இறுதிப் புள்ளிவிவரங்களுக்கு இன்னும் காத்திருக்கிறோம்.
+=B: Could you send a draft on Friday and add the figures later?|ஆ: வெள்ளிக்கிழமை ஒரு வரைவை அனுப்பிவிட்டு புள்ளிவிவரங்களைப் பிறகு சேர்க்க முடியுமா?
+=A: Yes, provided that the draft is clearly marked as provisional.|அ: ஆம், வரைவு தற்காலிகமானது என்று தெளிவாகக் குறிப்பிடப்பட்டால் முடியும்.
+=B: That sounds reasonable. Can you confirm the final date in writing?|ஆ: அது நியாயமாகத் தெரிகிறது. இறுதித் தேதியை எழுத்துப்பூர்வமாக உறுதிசெய்ய முடியுமா?
+=A: Certainly. I will send the draft on Friday and the final version on Wednesday.|அ: நிச்சயமாக. வெள்ளிக்கிழமை வரைவும் புதன்கிழமை இறுதிப் பதிப்பும் அனுப்புகிறேன்.
+=B: Agreed. Please let me know immediately if anything else changes.|ஆ: ஒப்புக்கொள்கிறேன். வேறு ஏதாவது மாறினால் உடனே தெரியப்படுத்துங்கள்.
+?Why is more time needed?|மேலும் நேரம் ஏன் தேவை?|The office is closed~The figures have not arrived~Nobody started the work|1|வழங்குநரின் இறுதிப் புள்ளிவிவரங்கள் இன்னும் வரவில்லை.
+?What will be sent on Friday?|வெள்ளிக்கிழமை என்ன அனுப்பப்படும்?|A provisional draft~The final version~A cancellation|0|தற்காலிக வரைவு அனுப்பப்படும்.
+?When is the final version due?|இறுதிப் பதிப்பு எப்போது?|Monday~Friday~Wednesday|2|புதன்கிழமை.
+>Negotiate extra time while offering a useful partial delivery. / ஒரு பகுதியை முன்பே வழங்குவதாகக் கூறி கூடுதல் நேரம் கேளுங்கள்.
+@+clarifying-a-decision|B2|conversations|Confirm what was agreed|ஒப்புக்கொண்டதை உறுதிப்படுத்துதல்|Check the decision, conditions, owner and next date.|To confirm... · Does that mean...? · Who will...?
+=A: To confirm, are we postponing the launch or cancelling it?|அ: உறுதிப்படுத்திக்கொள்ள, வெளியீட்டை ஒத்திவைக்கிறோமா அல்லது ரத்து செய்கிறோமா?
+=B: We are postponing it until the tests are complete.|ஆ: சோதனைகள் முடியும் வரை ஒத்திவைக்கிறோம்.
+=A: Does that mean we can continue preparing the announcement?|அ: அப்படியானால் அறிவிப்பைத் தொடர்ந்து தயாரிக்கலாமா?
+=B: Yes, but please do not publish it yet.|ஆ: ஆம், ஆனால் இன்னும் வெளியிட வேண்டாம்.
+=A: Who will tell us when the tests have passed?|அ: சோதனைகள் வெற்றி பெற்றதும் யார் தெரிவிப்பார்கள்?
+=B: Meena will send a written update by Thursday afternoon.|ஆ: மீனா வியாழக்கிழமை பிற்பகலுக்குள் எழுத்துப்பூர்வ நிலவரம் அனுப்புவாள்.
+=A: And if the tests reveal another problem?|அ: சோதனையில் வேறு பிரச்சினை தெரியவந்தால்?
+=B: We will review the date rather than promise one we cannot meet.|ஆ: பின்பற்ற முடியாத தேதிக்கு உறுதி தராமல் தேதியை மறுபரிசீலனை செய்வோம்.
+?Is the launch cancelled?|வெளியீடு ரத்தா?|Yes, permanently~No, it is postponed~It has already happened|1|ரத்து அல்ல; சோதனைகள் முடியும் வரை ஒத்திவைப்பு.
+?Can the announcement be published now?|இப்போது அறிவிப்பை வெளியிடலாமா?|Yes~Only on social media~No|2|தயாரிக்கலாம்; வெளியிட இன்னும் அனுமதி இல்லை.
+?Who sends the update?|நிலவரத்தை யார் அனுப்புவார்கள்?|Meena~Every customer~The speaker's supplier|0|மீனா வியாழன் பிற்பகலுக்குள் அனுப்புவாள்.
+>Summarise a meeting in four points: decision, condition, owner and deadline. / முடிவு, நிபந்தனை, பொறுப்பாளர், காலக்கெடு ஆகிய நான்கு அம்சங்களாகச் சுருக்குங்கள்.
+@practice-conversation-feedback|B2|conversations|Give and receive feedback|பின்னூட்டம் வழங்கலும் பெறலும்|Use a specific example, acknowledge the point and agree on an action.|What worked → what needs work → next step
+=A: Your presentation was clear, especially the opening example.|அ: உங்கள் விளக்கவுரை தெளிவாக இருந்தது, குறிப்பாகத் தொடக்க உதாரணம்.
+=B: Thank you. Was there anything you found difficult to follow?|ஆ: நன்றி. புரிந்துகொள்ளக் கடினமாக இருந்தது ஏதாவது இருந்ததா?
+=A: I was not sure how the final recommendation followed from the figures.|அ: புள்ளிவிவரங்களிலிருந்து இறுதிப் பரிந்துரை எப்படி வந்தது என்பது எனக்குத் தெளிவாக இல்லை.
+=B: That is useful feedback. I may have moved through that part too quickly.|ஆ: அது பயனுள்ள பின்னூட்டம். அந்தப் பகுதியை மிகவும் வேகமாகக் கடந்து சென்றிருக்கலாம்.
+=A: Could you add one slide explaining the comparison?|அ: ஒப்பீட்டை விளக்கும் ஒரு ஸ்லைடு சேர்க்க முடியுமா?
+=B: Certainly. Would a short table make the difference clearer?|ஆ: நிச்சயமாக. ஒரு சிறிய அட்டவணை வித்தியாசத்தைத் தெளிவாக்குமா?
+=A: Yes, provided it highlights the main trade-off rather than every detail.|அ: ஆம், எல்லா விவரங்களையும் விட முக்கிய நன்மை-தீமைத் தேர்வை முன்னிலைப்படுத்தினால் உதவும்.
+=B: I will revise it and send you the new version tomorrow.|ஆ: திருத்தி புதிய பதிப்பை நாளை அனுப்புகிறேன்.
+?What needs clarification?|எது தெளிவாக்கப்பட வேண்டும்?|The opening greeting~The speaker's name~How the figures support the recommendation|2|புள்ளிவிவரங்களும் பரிந்துரையும் எப்படி தொடர்புடையவை என்பது.
+?How does B respond?|ஆ எப்படி பதிலளிக்கிறார்?|Accepts the feedback and proposes an action~Refuses to listen~Cancels the presentation|0|பின்னூட்டத்தை ஏற்று திருத்தம் முன்மொழிகிறார்.
+?What should the table highlight?|அட்டவணை எதை முன்னிலைப்படுத்த வேண்டும்?|Every tiny detail~The main trade-off~Only the title|1|முக்கிய நன்மை-தீமைத் தேர்வை.
+>Give specific feedback and respond without becoming defensive. / குறிப்பிட்ட பின்னூட்டம் கூறி தற்காப்புப் போக்கின்றி பதிலளியுங்கள்.

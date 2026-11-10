@@ -1,0 +1,18 @@
+{
+  "vocab-second": {"exampleTa":"சில வினாடிகளுக்குப் பிறகு, விளக்குகள் அணைந்தன."},
+  "vocab-light": {"exampleTa":"பெட்டி எவ்வளவு எடை குறைவாக இருந்தது என்பதைப் பார்த்து அவள் ஆச்சரியப்பட்டாள்."},
+  "vocab-welcome": {"exampleTa":"மகிழ்ச்சியான செய்திக்கு நன்றி."},
+  "vocab-fine": {"exampleTa":"உங்கள் ஆங்கிலம் நன்றாக இருக்கிறது. அதைப் பற்றிக் கவலைப்பட வேண்டாம்."},
+  "vocab-glass": {"exampleTa":"மேசையின் மேற்பரப்பு கண்ணாடியால் ஆனது."},
+  "vocab-cool": {"exampleTa":"எனக்கு ஒரு குளிர்பானம் வேண்டும்."},
+  "vocab-across": {"ta":"ஒரு பக்கத்திலிருந்து மறுபக்கத்திற்கு","why":"From one side to the other.","exampleTa":"உங்களால் மறுபக்கம் வரை நீந்திச் செல்ல முடியுமா?"},
+  "vocab-abandon": {"ta":"கைவிடு","why":"Leave someone or something permanently."},
+  "vocab-found": {"ta":"நிறுவு","why":"Start an organisation."},
+  "vocab-interest": {"ta":"ஆர்வம்","why":"A wish to know or take part."},
+  "vocab-research": {"ta":"ஆராய்ச்சி","why":"Careful study to learn something new."},
+  "vocab-rare": {"ta":"அரிதான","why":"Not common."},
+  "vocab-accept": {"ta":"ஏற்றுக்கொள்","why":"Agree to take what is offered.","exampleTa":"தயவுசெய்து என் மன்னிப்பை ஏற்றுக்கொள்ளுங்கள்."},
+  "vocab-account": {"ta":"வங்கிக் கணக்கு","why":"An arrangement to keep money at a bank."},
+  "vocab-balance": {"ta":"சமநிலை","why":"The ability to stay steady without falling."},
+  "vocab-challenge": {"ta":"சவால்","why":"A difficult task."}
+}

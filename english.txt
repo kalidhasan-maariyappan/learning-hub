@@ -1,0 +1,307 @@
+# Tamil → English Learning Module — Implementation Plan (A1–B2)
+
+## 1. Objective and integration
+Add a **W3Schools-style English Learning** module inside the existing application. **Do not rebuild the existing app**, change its framework, authentication, styling conventions, or database without need. First inspect its routes, components, data layer and design system, then integrate this module using the same stack.
+
+Only four CEFR levels: **A1, A2, B1, B2**. All explanations, vocabulary meanings, examples, exercises, answers and corrections must be in **Tamil and English**. CEFR itself does not mandate exact word counts: the counts below are **custom curriculum targets**, not certification thresholds.
+
+## 2. User journey and navigation
+1. Existing application navigation gains **English Learning**.
+2. Learning page displays a level **select dropdown**: A1 / A2 / B1 / B2. Default A1, but remember the user's last selection when practical.
+3. Changing the level immediately refreshes its categories, topic counts, lesson list and progress; no full-page reload.
+4. Category selector: Overview, Grammar, Verbs, Irregular Verbs, Phrasal Verbs, Vocabulary, Adjectives, Adverbs, Prepositions, Connectors, Collocations, Idioms & Expressions, Sentence Patterns, Questions & Negatives, Conversations, Pronunciation, Listening, Reading, Speaking, Writing, Exercises & Quizzes.
+5. Topic list has search, completed/in-progress labels and a recommended learning order.
+6. Clicking a topic opens its full bilingual lesson in the same layout, with previous/next topic, table of contents, progress and practice.
+7. A1–B2 levels are independently selectable; optionally indicate prerequisites without locking them.
+
+### W3Schools-inspired layout
+- Desktop: sticky left sidebar (level, categories, lesson links), main content (lesson), optional right table of contents.
+- Mobile: collapsible topic navigation, content first, accessible controls.
+- Each lesson: title, difficulty, Tamil explanation, English explanation, usage, rule/formula, examples, common mistakes, practice, quiz, summary, next/previous.
+- Provide clear typographic support for Tamil Unicode. Avoid tiny text, horizontal overflow and color-only status.
+- UI actions must work; no dummy buttons.
+
+## 3. Curriculum targets — cumulative across levels
+| Category | A1 | A2 | B1 | B2 |
+|---|---:|---:|---:|---:|
+| Total vocabulary items | 500 | 1200 | 2500 | 4500 |
+| Single-word verbs (part of vocabulary) | 80 | 180 | 350 | 550 |
+| Phrasal verbs (part of vocabulary) | 10 | 40 | 100 | 200 |
+| Irregular verbs | 20 | 50 | 90 | 130 |
+| Adjectives | 60 | 140 | 280 | 450 |
+| Adverbs | 20 | 60 | 130 | 230 |
+| Connectors | 10 | 25 | 55 | 100 |
+| Collocations | 20 | 80 | 220 | 450 |
+| Idioms / fixed expressions | 5 | 20 | 60 | 130 |
+| Grammar units | 20 | 40 | 65 | 90 |
+| Sentence patterns | 15 | 35 | 65 | 100 |
+| Original written sentences | 300 | 900 | 2000 | 3800 |
+| Questions formed | 100 | 300 | 650 | 1100 |
+| Dialogues | 20 | 50 | 100 | 170 |
+| Speaking topics | 10 | 25 | 50 | 85 |
+| Writing tasks | 10 | 30 | 65 | 110 |
+| Listening tasks | 25 | 65 | 125 | 205 |
+| Reading passages | 20 | 55 | 110 | 180 |
+| Pronunciation topics | 8 | 15 | 23 | 30 |
+
+**Important:** These are cumulative, not additional counts per level. Items may belong to multiple categories; do not double-count vocabulary. Use stable IDs and track first-introduced level separately from review visibility.
+
+## 4. Grammar lesson inventory (90 distinct units)
+
+### A1: units 1–20
+1. Subject pronouns (I/you/he/she/it/we/they)
+2. Be: am/is/are
+3. Have/has
+4. Simple present positive
+5. Simple present negative (do/does not)
+6. Simple present questions
+7. Present continuous
+8. Singular/plural nouns
+9. Articles: a/an/the
+10. Demonstratives: this/that/these/those
+11. Possessives: my/your/his/her/our/their
+12. There is/there are
+13. Can/cannot
+14. Prepositions of place
+15. Prepositions of time
+16. Wh-questions
+17. Imperatives
+18. Countable/uncountable nouns
+19. Some/any
+20. Adjectives and basic word order
+
+### A2: units 21–40
+21. Simple past regular verbs
+22. Simple past irregular verbs
+23. Past negatives/questions
+24. Past continuous
+25. Going to future
+26. Will future
+27. Present perfect for experiences
+28. Comparatives
+29. Superlatives
+30. Much/many/a lot of
+31. A few/a little
+32. Should/shouldn't
+33. Must/have to
+34. Could for polite requests
+35. Gerund vs infinitive
+36. Adverbs of frequency and manner
+37. Because/so/but/when
+38. First conditional
+39. Relative clauses who/which/that
+40. Object pronouns and reflexives
+
+### B1: units 41–65
+41. Present perfect vs simple past
+42. Present perfect continuous
+43. Past perfect
+44. Past perfect vs simple past
+45. Future continuous
+46. Future perfect (intro)
+47. Used to
+48. Be/get used to
+49. Second conditional
+50. Zero conditional
+51. Present/past passive
+52. Reported statements
+53. Reported questions
+54. Reported commands/requests
+55. Defining relative clauses
+56. Non-defining relative clauses
+57. Probability modals
+58. Should have
+59. Verb patterns -ing/to-infinitive
+60. Too/enough
+61. Although/even though/while/whereas
+62. Despite/in spite of
+63. Question tags
+64. Indirect questions
+65. Noun clauses what/that/whether
+
+### B2: units 66–90
+66. Third conditional
+67. Mixed conditionals
+68. Advanced passive
+69. Passive reporting
+70. Causatives have/get something done
+71. Future perfect expanded
+72. Future perfect continuous
+73. Modal perfects
+74. Wish/if only for present
+75. Wish/if only for past
+76. Would rather/would prefer
+77. Inversion after negative adverbials
+78. Emphasis with do/does/did
+79. Cleft sentences
+80. Participle clauses
+81. Reduced relative clauses
+82. Advanced relative clauses with prepositions
+83. Concession markers
+84. Purpose/result markers
+85. Hedging
+86. Reporting verbs
+87. Complex noun phrases
+88. Nominalisation
+89. Discourse markers for arguments
+90. Formal vs informal register
+
+## 5. Vocabulary themes and other content
+- A1: greetings, family, numbers/time, home, food, work/study, places, transport, shopping, daily routine.
+- A2 adds: health, weather, travel, directions, holidays, money, technology, hobbies, emotions, appointments, services.
+- B1 adds: career, education, relationships, news, environment, problems/solutions, goals, workplace communication, customer support, culture, online services, decisions.
+- B2 adds: leadership, negotiation, technology, public policy, ethics, finance, research, presentations, disagreement, project planning, risks, professional writing.
+- Include dedicated topic lessons for nouns, pronouns, determiners, articles, prepositions, adjectives, adverbs, conjunctions, questions, negatives, modals, tenses, conditionals, voice, reported speech, and word order.
+- Include phonetics/pronunciation, listening, reading, speaking, writing and functional English at every level. A category without a dedicated numerical quota still needs content and examples.
+
+## 6. Mandatory bilingual lesson templates
+
+### A. Every grammar lesson
+- English name + Tamil name and meaning.
+- When and why used, explained **in Tamil first**, then concise English.
+- Formula with labeled subject/verb/object.
+- At least 5 carefully checked Tamil ↔ English examples showing different contexts; include affirmative, negative, yes/no question and Wh-question **where grammatically natural**.
+- Contrast with easily confused structures, common mistakes, 5 guided exercises, 5 original sentence prompts, 3 questions, quiz and answer explanations.
+
+Example: **Simple present** / சாதாரண நிகழ்காலம்
+- Rule: Subject + V1 (he/she/it: V1+s/es) + object.
+- Affirmative: நான் தினமும் வேலை செய்கிறேன். → I work every day.
+- Negative: நான் ஞாயிற்றுக்கிழமை வேலை செய்வதில்லை. → I don't work on Sundays.
+- Question: நீங்கள் இங்கே வேலை செய்கிறீர்களா? → Do you work here?
+- Wh-question: நீங்கள் எங்கே வேலை செய்கிறீர்கள்? → Where do you work?
+- Third-person: அவள் தினமும் படிக்கிறாள். → She studies every day.
+
+### B. Every verb entry
+Fields: lemma, Tamil meanings by sense, pronunciation (optional audio), regular/irregular, **V1 base, V2 past, V3 past participle, V4 -ing, V5 third-person singular**, common constructions, transitivity where useful, related phrasal verbs, common mistakes.
+
+**For every applicable verb** provide bilingual examples in:
+1. Simple present affirmative, negative, question.
+2. Simple past affirmative, negative, question.
+3. Simple future affirmative, negative, question.
+4. Present continuous (V4) example.
+5. Present perfect (V3) example.
+6. A natural real-life dialogue or short usage note.
+
+**Go / போ**: V1 go; V2 went; V3 gone; V4 going; V5 goes.
+- Present: நான் தினமும் பள்ளிக்குச் செல்கிறேன். → I go to school every day.
+- Past: நான் நேற்று பள்ளிக்குச் சென்றேன். → I went to school yesterday.
+- Future: நான் நாளை பள்ளிக்குச் செல்வேன். → I will go to school tomorrow.
+- Present negative: நான் ஞாயிற்றுக்கிழமைகளில் பள்ளிக்குச் செல்வதில்லை. → I don't go to school on Sundays.
+- Past negative: நான் நேற்று பள்ளிக்குச் செல்லவில்லை. → I didn't go to school yesterday.
+- Future negative: நான் நாளை பள்ளிக்குச் செல்லமாட்டேன். → I won't go to school tomorrow.
+- Present question: நீங்கள் தினமும் பள்ளிக்குச் செல்கிறீர்களா? → Do you go to school every day?
+- Past question: நீங்கள் நேற்று பள்ளிக்குச் சென்றீர்களா? → Did you go to school yesterday?
+- Future question: நீங்கள் நாளை பள்ளிக்குச் செல்வீர்களா? → Will you go to school tomorrow?
+- Continuous: நான் இப்போது பள்ளிக்குச் சென்றுகொண்டிருக்கிறேன். → I am going to school now.
+- Perfect: அவன் வீட்டிற்குச் சென்றுவிட்டான். → He has gone home.
+
+**Important:** V3 is a verb form, not a tense on its own. Tamil translations depend on context, subject, aspect and meaning. Stative verbs and other exceptional verbs should not receive unnatural continuous forms; annotate exceptions.
+
+### C. Every phrasal verb
+Phrase, literal vs idiomatic meanings, Tamil translation by sense, separable/inseparable status, object placement, 3–5 bilingual examples including present/past/future where natural, and common errors.
+Example **pick up / எடுத்துக்கொள்**:
+- நான் தினமும் என் நண்பரை அழைத்துச் செல்கிறேன். → I pick up my friend every day.
+- நேற்று நான் என் நண்பரை அழைத்துச் சென்றேன். → I picked up my friend yesterday.
+- நாளை நான் என் நண்பரை அழைத்துச் செல்வேன். → I will pick up my friend tomorrow.
+
+### D. Every vocabulary / adjective / adverb / connector / idiom / collocation entry
+English item, Tamil meaning, part of speech, usage note, at least 2–3 **natural** Tamil ↔ English example sentences, typical combinations, related/contrasting words if helpful. Do not force three tenses onto nouns, adjectives, or connectors; instead vary the sentence contexts appropriately.
+
+### E. Every sentence pattern
+Pattern formula, Tamil explanation, 5 bilingual example pairs, positive/negative/questions when natural, substitution drill, Tamil-to-English practice and corrections.
+Example: **I want to + V1** / நான் ... விரும்புகிறேன்
+- நான் ஆங்கிலம் கற்க விரும்புகிறேன். → I want to learn English.
+- நான் இப்போது வெளியே செல்ல விரும்பவில்லை. → I don't want to go out now.
+- நீங்கள் ஆங்கிலம் கற்க விரும்புகிறீர்களா? → Do you want to learn English?
+
+### F. Skill lessons
+- Reading: graded English passage + accurate Tamil translation + vocabulary + comprehension questions.
+- Listening: playable audio (only if actual audio is available), optional transcript, Tamil gloss, comprehension tasks; no pretend audio.
+- Speaking: bilingual scenario, sample dialogue, model response, prompts; optional browser recording if permitted and supported.
+- Writing: bilingual prompt, structure, sample English answer, Tamil explanation, checklist and practice text box.
+- Pronunciation: sound/stress rule, Tamil learner guidance, audio if available, minimal pairs, practice.
+
+## 7. Exercises, answers and progress
+- Exercise types: Tamil → English translation, English → Tamil meaning, multiple choice, fill blank, reorder words, choose correct verb form, correct the error, short-answer, dialogue completion.
+- Give feedback with correct answer **and Tamil explanation**. Accept sensible alternative translations and harmless punctuation/case differences; avoid blindly exact-string scoring for free text.
+- Save attempted answers, quiz score, review status and lesson completion per signed-in user if the existing app has authentication. Otherwise use appropriate local persistence and explain its limits.
+- Mark lesson complete on explicit user action or defined completion criteria; show percentage per level and category.
+- Revision queue for wrong answers and previously learned words; allow retakes.
+- Progress numbers count unique completed units, not page visits.
+
+## 8. Suggested content schema (adapt to existing stack)
+```
+levels(id, code, name, tamil_name, sort_order)
+categories(id, slug, name, tamil_name, sort_order)
+lessons(id, level_id, category_id, slug, title_en, title_ta, summary_en, summary_ta, sort_order, published)
+lesson_sections(id, lesson_id, section_type, content_en, content_ta, sort_order)
+lexical_items(id, headword, part_of_speech, meaning_ta, first_level_id, pronunciation, notes)
+verb_forms(lexical_item_id, v1, v2, v3, v4, v5, is_irregular)
+examples(id, lesson_id, lexical_item_id_nullable, context_type, tense_nullable, polarity_nullable, english, tamil, sort_order)
+exercises(id, lesson_id, type, prompt_en, prompt_ta, answer_data_json, explanation_en, explanation_ta)
+lesson_progress(user_id, lesson_id, status, completed_at, last_visited_at)
+exercise_attempts(id, user_id, exercise_id, response_json, score, attempted_at)
+```
+Use a many-to-many mapping for lexical items reviewed across levels and themes; avoid duplicating one verb four times. Prefer structured content files (JSON/YAML) or seed scripts and a database only where suitable to the existing app. Provide a validation schema for every content type.
+
+### Example structured content
+```json
+{
+  "id": "verb-go",
+  "firstLevel": "A1",
+  "category": "verbs",
+  "word": "go",
+  "meaningTa": "போ / செல்",
+  "forms": {"v1":"go","v2":"went","v3":"gone","v4":"going","v5":"goes"},
+  "examples": [
+    {"tense":"present-simple","type":"positive","ta":"நான் தினமும் பள்ளிக்குச் செல்கிறேன்.","en":"I go to school every day."},
+    {"tense":"past-simple","type":"positive","ta":"நான் நேற்று பள்ளிக்குச் சென்றேன்.","en":"I went to school yesterday."},
+    {"tense":"future-simple","type":"positive","ta":"நான் நாளை பள்ளிக்குச் செல்வேன்.","en":"I will go to school tomorrow."},
+    {"tense":"present-perfect","type":"positive","ta":"அவன் வீட்டிற்குச் சென்றுவிட்டான்.","en":"He has gone home."}
+  ]
+}
+```
+
+## 9. Pages and components
+- `/english-learning` overview and level dropdown
+- `/english-learning/:level` level overview
+- `/english-learning/:level/:category` topic listing
+- `/english-learning/:level/:category/:lessonSlug` full lesson
+- `/english-learning/practice/:lessonSlug` practice/quiz
+- `/english-learning/progress` progress dashboard
+
+Suggested reusable components: LevelSelect, CategorySelect, LessonSidebar, TopicList, LessonHeader, BilingualExample, VerbFormsTable, TenseExampleGrid, GrammarRule, MistakeComparison, ExerciseRunner, QuizResults, ProgressBar, PreviousNextNavigation, SearchBox.
+
+## 10. Build order — integrate, do not replace
+**Phase 1 — inspect and scaffold:** inspect existing app stack, routing, layout, user model, DB, tests and deployment. Add module navigation, 4-level dropdown, category filtering and lesson routes. Use mock content only for this phase and clearly label it.
+
+**Phase 2 — content model and renderer:** implement reusable bilingual lesson templates, schema validation, accessible layout, navigation, search and stable IDs. Seed all 90 grammar titles and 100 sentence-pattern titles (15 A1 + 20 A2 + 30 B1 + 35 B2) as an inventory; do not call empty titles completed lessons.
+
+**Phase 3 — A1 complete:** author and QA all 20 grammar units, 15 sentence patterns, 500 vocabulary items (including 80 verbs and 10 phrasal verbs), plus A1 quotas for dialogues, speaking, writing, listening, reading and pronunciation. Add actual examples and exercises for each.
+
+**Phase 4 — A2 complete:** author additional content to reach cumulative A2 targets, with past/future/experience usage.
+
+**Phase 5 — B1 complete:** author additional content to reach cumulative B1 targets, emphasizing workplace discussion, narratives and opinions.
+
+**Phase 6 — B2 complete:** author additional content to reach cumulative B2 targets, emphasizing nuanced grammar, presentations, arguments and professional writing.
+
+**Phase 7 — learning features:** add grading, progress, revision, optional audio and reporting; test responsive design and accessibility.
+
+Do not generate thousands of repetitive filler entries to meet quotas. Publish content in verified batches with clear `draft`/`reviewed`/`published` status.
+
+## 11. Acceptance criteria
+1. Only A1/A2/B1/B2 are selectable; changing selection updates topics immediately.
+2. Each level exposes **all** required categories, including non-grammar skills.
+3. Every published lesson has meaningful Tamil and English explanations and examples.
+4. Every published verb has V1–V5, appropriate present/past/future positive/negative/question examples, continuous and perfect examples where applicable.
+5. Every published phrasal verb has Tamil meanings, usage rules and contextual examples.
+6. Topic list counts match **actual published content**; planned quotas appear separately.
+7. Every practice task has a verified correct answer and bilingual feedback.
+8. Navigation, search, quizzes, completion and saved progress work after refresh.
+9. Mobile and desktop navigation work; Tamil characters render correctly.
+10. Existing application features and styles remain intact; tests pass.
+11. The content QA process checks grammar, Tamil translations, meaning, naturalness and level appropriateness.
+12. Final coverage audit shows actual counts versus the cumulative curriculum targets without double-counting.
+
+## 12. Instruction to coding assistant
+> Inspect the existing application before changing anything. Implement this English Learning module **inside the existing stack**. Do not create a separate app or switch frameworks. Start with functional navigation and a reusable bilingual lesson renderer. Follow the specified A1–B2 curriculum, content schema, examples and QA requirements. Build level dropdown → category dropdown → topic list → lesson → exercises → progress. Preserve existing styling and features. Keep all lesson examples bilingual. Do not claim a level is complete until the full content and practice targets are actually implemented and verified. Work in phases and report actual coverage after each phase.

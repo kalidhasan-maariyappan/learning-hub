@@ -1,0 +1,185 @@
+# level | category | word/phrase | Tamil meaning | English meaning | English example | Tamil example
+A1|phrasal-verbs|get up|படுக்கையிலிருந்து எழு|Leave your bed.|I get up at six.|நான் ஆறு மணிக்கு எழுகிறேன்.
+A1|phrasal-verbs|wake up|விழித்துக்கொள்|Stop sleeping.|I wake up early.|நான் சீக்கிரம் விழித்துக்கொள்கிறேன்.
+A1|phrasal-verbs|sit down|உட்கார்|Take a seat.|Please sit down.|தயவுசெய்து உட்காருங்கள்.
+A1|phrasal-verbs|stand up|எழுந்து நில்|Rise to your feet.|Please stand up.|தயவுசெய்து எழுந்து நில்லுங்கள்.
+A1|phrasal-verbs|come in|உள்ளே வா|Enter a place.|Please come in.|தயவுசெய்து உள்ளே வாருங்கள்.
+A1|phrasal-verbs|go out|வெளியே செல்|Leave home for an activity.|We go out on Sundays.|நாங்கள் ஞாயிற்றுக்கிழமைகளில் வெளியே செல்கிறோம்.
+A1|phrasal-verbs|turn on|இயக்கு|Start a light or machine.|Turn on the fan.|மின்விசிறியை இயக்குங்கள்.
+A1|phrasal-verbs|turn off|அணை|Stop a light or machine.|Turn off the light.|விளக்கை அணைக்கவும்.
+A1|phrasal-verbs|put on|அணிந்துகொள்|Place clothing on your body.|Put on your shoes.|உங்கள் காலணிகளை அணிந்துகொள்ளுங்கள்.
+A1|phrasal-verbs|take off|கழற்று|Remove clothing.|Take off your shoes.|உங்கள் காலணிகளைக் கழற்றுங்கள்.
+A2|phrasal-verbs|pick up|எடுத்துக்கொள் / அழைத்துவரு|Lift something or collect someone.|I will pick you up at six.|நான் ஆறு மணிக்கு உங்களை அழைத்துவருவேன்.
+A2|phrasal-verbs|look for|தேடு|Try to find something.|I am looking for my keys.|நான் என் சாவிகளைத் தேடுகிறேன்.
+A2|phrasal-verbs|look after|கவனித்துக்கொள்|Take care of someone.|She looks after her brother.|அவள் தன் தம்பியைக் கவனித்துக்கொள்கிறாள்.
+A2|phrasal-verbs|find out|தெரிந்துகொள்|Discover information.|I will find out the price.|நான் விலையைத் தெரிந்துகொள்வேன்.
+A2|phrasal-verbs|give back|திருப்பிக்கொடு|Return something.|Please give back my pen.|தயவுசெய்து என் பேனாவைத் திருப்பிக்கொடுங்கள்.
+A2|phrasal-verbs|try on|அணிந்து பார்|Wear clothing to check the fit.|Can I try on this shirt?|இந்தச் சட்டையை அணிந்து பார்க்கலாமா?
+A2|phrasal-verbs|fill in|நிரப்பு|Write information in a form.|Please fill in this form.|தயவுசெய்து இந்தப் படிவத்தை நிரப்புங்கள்.
+A2|phrasal-verbs|get on|ஏறு|Board a bus or train.|We got on the bus.|நாங்கள் பேருந்தில் ஏறினோம்.
+A2|phrasal-verbs|get off|இறங்கு|Leave a bus or train.|Get off at the next stop.|அடுத்த நிறுத்தத்தில் இறங்குங்கள்.
+A2|phrasal-verbs|come back|திரும்பி வா|Return to a place.|Come back before dark.|இருட்டுவதற்கு முன் திரும்பி வாருங்கள்.
+B1|phrasal-verbs|give up|கைவிடு|Stop trying or stop a habit.|Do not give up.|கைவிடாதீர்கள்.
+B1|phrasal-verbs|carry on|தொடர்ந்து செய்|Continue doing something.|Please carry on with your work.|தயவுசெய்து உங்கள் வேலையைத் தொடருங்கள்.
+B1|phrasal-verbs|put off|ஒத்திவை|Delay something.|We put off the meeting.|நாங்கள் கூட்டத்தை ஒத்திவைத்தோம்.
+B1|phrasal-verbs|run out of|தீர்ந்துபோ|Have none left.|We ran out of milk.|எங்களிடம் பால் தீர்ந்துவிட்டது.
+B1|phrasal-verbs|work out|தீர்வு காண்|Find a solution.|We worked out the answer.|நாங்கள் விடையைக் கண்டுபிடித்தோம்.
+B1|phrasal-verbs|turn down|நிராகரி|Refuse an offer.|She turned down the offer.|அவள் வாய்ப்பை நிராகரித்தாள்.
+B1|phrasal-verbs|bring up|குறிப்பிடு|Mention a topic.|He brought up the cost.|அவன் செலவைப் பற்றிக் குறிப்பிட்டான்.
+B1|phrasal-verbs|break down|பழுதாகு|Stop working.|The bus broke down.|பேருந்து பழுதானது.
+B1|phrasal-verbs|get along with|ஒத்துப்போ|Have a friendly relationship.|I get along with my neighbours.|நான் என் அண்டை வீட்டாருடன் ஒத்துப்போகிறேன்.
+B1|phrasal-verbs|look forward to|ஆவலுடன் எதிர்பார்|Feel happy about something ahead.|I look forward to seeing you.|உங்களைப் பார்க்க ஆவலுடன் எதிர்பார்க்கிறேன்.
+B2|phrasal-verbs|carry out|மேற்கொள் / செயல்படுத்து|Perform a task.|We carried out the survey.|நாங்கள் கருத்துக்கணிப்பை மேற்கொண்டோம்.
+B2|phrasal-verbs|come up with|யோசித்துக் கண்டுபிடி|Think of an idea.|She came up with a solution.|அவள் ஒரு தீர்வை யோசித்துக் கண்டுபிடித்தாள்.
+B2|phrasal-verbs|follow up on|தொடர்ந்து கவனி|Take further action on something.|I will follow up on your request.|உங்கள் கோரிக்கையைத் தொடர்ந்து கவனிப்பேன்.
+B2|phrasal-verbs|rule out|சாத்தியமில்லை என்று விலக்கு|Remove a possibility.|We cannot rule out a delay.|தாமதம் ஏற்படும் சாத்தியத்தை நாம் விலக்க முடியாது.
+B2|phrasal-verbs|account for|விளக்கமளி|Explain a cause or difference.|How do you account for the increase?|இந்த அதிகரிப்புக்கு நீங்கள் எப்படி விளக்கமளிக்கிறீர்கள்?
+B2|phrasal-verbs|phase out|படிப்படியாக நிறுத்து|Stop using something gradually.|We will phase out the old system.|நாங்கள் பழைய அமைப்பைப் படிப்படியாக நிறுத்துவோம்.
+B2|phrasal-verbs|draw up|தயார் செய்|Prepare a formal document.|They drew up a contract.|அவர்கள் ஓர் ஒப்பந்தத்தைத் தயார் செய்தார்கள்.
+B2|phrasal-verbs|back up|ஆதாரத்துடன் உறுதிப்படுத்து|Support a claim with evidence.|Please back up your claim.|தயவுசெய்து உங்கள் கூற்றுக்கு ஆதாரம் கொடுங்கள்.
+B2|phrasal-verbs|set out|விளக்கமாகக் கூறு|Present details clearly.|The report sets out our goals.|அறிக்கை எங்கள் இலக்குகளை விளக்கமாகக் கூறுகிறது.
+B2|phrasal-verbs|weigh up|சீர்தூக்கிப் பார்|Consider options carefully.|We must weigh up the risks.|நாம் அபாயங்களைச் சீர்தூக்கிப் பார்க்க வேண்டும்.
+A1|vocabulary|family|குடும்பம்|People related to you.|My family lives here.|என் குடும்பம் இங்கே வசிக்கிறது.
+A1|vocabulary|home|வீடு|The place where you live.|I am going home.|நான் வீட்டிற்குச் செல்கிறேன்.
+A1|vocabulary|water|தண்ணீர்|A liquid we drink.|Please give me some water.|தயவுசெய்து எனக்குக் கொஞ்சம் தண்ணீர் கொடுங்கள்.
+A1|vocabulary|food|உணவு|Something we eat.|The food is ready.|உணவு தயாராக இருக்கிறது.
+A1|vocabulary|school|பள்ளி|A place where children learn.|My school is nearby.|என் பள்ளி அருகில் இருக்கிறது.
+A1|vocabulary|friend|நண்பர்|Someone you like and know well.|He is my friend.|அவன் என் நண்பன்.
+A1|vocabulary|morning|காலை|The early part of the day.|I walk in the morning.|நான் காலையில் நடக்கிறேன்.
+A1|vocabulary|evening|மாலை|The later part of the day.|We meet in the evening.|நாங்கள் மாலையில் சந்திக்கிறோம்.
+A1|vocabulary|today|இன்று|This day.|Today is Monday.|இன்று திங்கட்கிழமை.
+A1|vocabulary|tomorrow|நாளை|The day after today.|I will come tomorrow.|நான் நாளை வருவேன்.
+A2|vocabulary|appointment|முன்பதிவு செய்யப்பட்ட சந்திப்பு|An arranged meeting.|I have an appointment at ten.|எனக்குப் பத்து மணிக்கு ஒரு சந்திப்பு இருக்கிறது.
+A2|vocabulary|journey|பயணம்|Travel from one place to another.|The journey takes two hours.|பயணத்திற்கு இரண்டு மணி நேரம் ஆகும்.
+A2|vocabulary|weather|வானிலை|The conditions outside.|The weather is pleasant.|வானிலை இனிமையாக இருக்கிறது.
+A2|vocabulary|receipt|ரசீது|Proof that you paid.|Please keep the receipt.|தயவுசெய்து ரசீதை வைத்துக்கொள்ளுங்கள்.
+A2|vocabulary|medicine|மருந்து|Something used to treat illness.|The medicine is in the bag.|மருந்து பையில் இருக்கிறது.
+A2|vocabulary|direction|திசை / வழி|The way towards a place.|Which direction is the beach?|கடற்கரை எந்தத் திசையில் இருக்கிறது?
+A2|vocabulary|ticket|பயணச்சீட்டு|Proof you may travel or enter.|I bought a train ticket.|நான் ஒரு ரயில் பயணச்சீட்டு வாங்கினேன்.
+A2|vocabulary|hobby|பொழுதுபோக்கு|An activity you enjoy in free time.|Reading is my hobby.|படிப்பது என் பொழுதுபோக்கு.
+A2|vocabulary|customer|வாடிக்கையாளர்|Someone who buys goods or services.|The customer is waiting.|வாடிக்கையாளர் காத்திருக்கிறார்.
+A2|vocabulary|change|மாற்றம் / சில்லறை|A difference, or money returned after payment.|Keep the change.|சில்லறையை நீங்களே வைத்துக்கொள்ளுங்கள்.
+B1|vocabulary|deadline|காலக்கெடு|The latest time to finish something.|The deadline is Friday.|காலக்கெடு வெள்ளிக்கிழமை.
+B1|vocabulary|opportunity|வாய்ப்பு|A chance to do something.|This is a good opportunity.|இது ஒரு நல்ல வாய்ப்பு.
+B1|vocabulary|experience|அனுபவம்|Knowledge gained by doing things.|She has teaching experience.|அவளுக்குக் கற்பித்தல் அனுபவம் இருக்கிறது.
+B1|vocabulary|environment|சுற்றுச்சூழல்|The natural world around us.|We should protect the environment.|நாம் சுற்றுச்சூழலைப் பாதுகாக்க வேண்டும்.
+B1|vocabulary|solution|தீர்வு|An answer to a problem.|We need a simple solution.|எங்களுக்கு ஓர் எளிய தீர்வு தேவை.
+B1|vocabulary|responsibility|பொறுப்பு|A duty you must take care of.|This is my responsibility.|இது என் பொறுப்பு.
+B1|vocabulary|feedback|பின்னூட்டம்|Comments that help improvement.|Thank you for your feedback.|உங்கள் பின்னூட்டத்திற்கு நன்றி.
+B1|vocabulary|achievement|சாதனை|Something successful you have done.|That is a great achievement.|அது ஒரு பெரிய சாதனை.
+B1|vocabulary|relationship|உறவு|A connection between people.|We have a good relationship.|எங்களுக்குள் நல்ல உறவு இருக்கிறது.
+B1|vocabulary|decision|முடிவு|A choice made after thinking.|It was a difficult decision.|அது ஒரு கடினமான முடிவு.
+B2|vocabulary|evidence|ஆதாரம்|Information that supports a claim.|We need more evidence.|எங்களுக்கு மேலும் ஆதாரம் தேவை.
+B2|vocabulary|strategy|உத்தி|A plan to achieve a goal.|We need a new strategy.|எங்களுக்கு ஒரு புதிய உத்தி தேவை.
+B2|vocabulary|assumption|ஊகம்|Something accepted without proof.|That assumption may be wrong.|அந்த ஊகம் தவறாக இருக்கலாம்.
+B2|vocabulary|perspective|கண்ணோட்டம்|A way of seeing something.|Try a different perspective.|வேறு கண்ணோட்டத்தில் முயன்று பாருங்கள்.
+B2|vocabulary|priority|முன்னுரிமை|Something more important than others.|Safety is our priority.|பாதுகாப்பே எங்கள் முன்னுரிமை.
+B2|vocabulary|constraint|கட்டுப்பாடு / வரம்பு|Something that limits an action.|Time is our main constraint.|நேரமே எங்களின் முக்கிய வரம்பு.
+B2|vocabulary|implication|மறைமுக விளைவு|A possible effect of an action.|Consider the financial implications.|பொருளாதார விளைவுகளைக் கருத்தில் கொள்ளுங்கள்.
+B2|vocabulary|consensus|ஒருமித்த கருத்து|General agreement.|We reached a consensus.|நாங்கள் ஒருமித்த கருத்தை எட்டினோம்.
+B2|vocabulary|sustainability|நிலைத்தன்மை|The ability to continue without exhausting resources.|Sustainability matters.|நிலைத்தன்மை முக்கியம்.
+B2|vocabulary|accountability|பொறுப்புக்கூறல்|Being answerable for your actions.|The policy improves accountability.|இந்தக் கொள்கை பொறுப்புக்கூறலை மேம்படுத்துகிறது.
+A1|adjectives|big|பெரிய|Large in size.|This is a big house.|இது ஒரு பெரிய வீடு.
+A1|adjectives|small|சிறிய|Little in size.|I have a small bag.|என்னிடம் ஒரு சிறிய பை இருக்கிறது.
+A1|adjectives|happy|மகிழ்ச்சியான|Feeling pleased.|She is happy today.|அவள் இன்று மகிழ்ச்சியாக இருக்கிறாள்.
+A1|adjectives|hot|சூடான|Having a high temperature.|The tea is hot.|தேநீர் சூடாக இருக்கிறது.
+A1|adjectives|cold|குளிரான|Having a low temperature.|The water is cold.|தண்ணீர் குளிராக இருக்கிறது.
+A2|adjectives|comfortable|வசதியான|Pleasant to sit in or use.|This chair is comfortable.|இந்த நாற்காலி வசதியாக இருக்கிறது.
+A2|adjectives|crowded|கூட்டமான|Full of people.|The bus is crowded.|பேருந்தில் கூட்டம் அதிகமாக இருக்கிறது.
+A2|adjectives|healthy|ஆரோக்கியமான|Good for your body or in good health.|This is a healthy meal.|இது ஓர் ஆரோக்கியமான உணவு.
+A2|adjectives|expensive|விலை உயர்ந்த|Costing a lot.|This phone is expensive.|இந்தத் தொலைபேசி விலை உயர்ந்தது.
+A2|adjectives|polite|மரியாதையான|Showing good manners.|He is polite.|அவன் மரியாதையாக நடந்துகொள்கிறான்.
+B1|adjectives|reliable|நம்பகமான|Able to be trusted.|She is a reliable colleague.|அவள் ஒரு நம்பகமான சக ஊழியர்.
+B1|adjectives|confident|தன்னம்பிக்கையான|Sure of your ability.|I feel confident now.|இப்போது எனக்குத் தன்னம்பிக்கை இருக்கிறது.
+B1|adjectives|flexible|நெகிழ்வான|Able to change easily.|Our schedule is flexible.|எங்கள் அட்டவணை மாற்றிக்கொள்ளக்கூடியது.
+B1|adjectives|suitable|பொருத்தமான|Right for a purpose.|This room is suitable for meetings.|இந்த அறை கூட்டங்களுக்குப் பொருத்தமானது.
+B1|adjectives|aware|அறிந்த|Knowing about something.|I am aware of the problem.|எனக்குப் பிரச்சினை தெரியும்.
+B2|adjectives|feasible|செயல்படுத்தக்கூடிய|Possible in practice.|The plan is feasible.|இந்தத் திட்டத்தைச் செயல்படுத்த முடியும்.
+B2|adjectives|ambiguous|தெளிவற்ற|Having more than one possible meaning.|The instruction is ambiguous.|அந்த அறிவுறுத்தல் தெளிவற்றதாக இருக்கிறது.
+B2|adjectives|substantial|கணிசமான|Large or important.|We made substantial progress.|நாங்கள் கணிசமான முன்னேற்றம் கண்டோம்.
+B2|adjectives|consistent|சீரான|Staying steady or matching.|Her work is consistent.|அவளுடைய வேலை சீராக இருக்கிறது.
+B2|adjectives|controversial|சர்ச்சைக்குரிய|Causing strong disagreement.|It is a controversial topic.|அது ஒரு சர்ச்சைக்குரிய தலைப்பு.
+A1|adverbs|always|எப்போதும்|Every time.|I always eat breakfast.|நான் எப்போதும் காலை உணவு சாப்பிடுவேன்.
+A1|adverbs|never|ஒருபோதும் இல்லை|Not at any time.|I never smoke.|நான் ஒருபோதும் புகைப்பதில்லை.
+A1|adverbs|slowly|மெதுவாக|At a low speed.|Please speak slowly.|தயவுசெய்து மெதுவாகப் பேசுங்கள்.
+A1|adverbs|here|இங்கே|In this place.|Please wait here.|தயவுசெய்து இங்கே காத்திருங்கள்.
+A2|adverbs|usually|வழக்கமாக|Most of the time.|I usually walk to work.|நான் வழக்கமாக வேலைக்கு நடந்துசெல்வேன்.
+A2|adverbs|sometimes|சில நேரங்களில்|On some occasions.|We sometimes eat out.|நாங்கள் சில நேரங்களில் வெளியே சாப்பிடுவோம்.
+A2|adverbs|carefully|கவனமாக|With attention.|Read the question carefully.|கேள்வியைக் கவனமாகப் படியுங்கள்.
+A2|adverbs|recently|சமீபத்தில்|Not long ago.|I moved here recently.|நான் சமீபத்தில் இங்கே குடிவந்தேன்.
+B1|adverbs|probably|அநேகமாக|Likely to happen.|She will probably come.|அவள் அநேகமாக வருவாள்.
+B1|adverbs|hardly|கிட்டத்தட்ட இல்லை|Almost not.|I can hardly hear you.|நீங்கள் சொல்வது எனக்குக் கிட்டத்தட்ட கேட்கவில்லை.
+B1|adverbs|eventually|இறுதியில்|After some time.|We eventually found the house.|இறுதியில் நாங்கள் வீட்டைக் கண்டுபிடித்தோம்.
+B1|adverbs|especially|குறிப்பாக|More than usual or others.|I like fruit, especially mangoes.|எனக்குப் பழங்கள் பிடிக்கும், குறிப்பாக மாம்பழங்கள்.
+B2|adverbs|apparently|தெரிவதன்படி|According to what seems true.|Apparently, the meeting is cancelled.|தெரிவதன்படி, கூட்டம் ரத்து செய்யப்பட்டுள்ளது.
+B2|adverbs|approximately|தோராயமாக|Close to an amount.|It takes approximately an hour.|இதற்குத் தோராயமாக ஒரு மணி நேரம் ஆகும்.
+B2|adverbs|increasingly|மேலும் மேலும்|More as time passes.|The task is increasingly difficult.|இந்த வேலை மேலும் மேலும் கடினமாகிறது.
+B2|adverbs|ultimately|இறுதியாக|In the final result.|Ultimately, the choice is yours.|இறுதியாக, தேர்வு உங்களுடையது.
+A1|prepositions|in|உள்ளே / இல்|Inside a place or container.|The keys are in the bag.|சாவிகள் பையின் உள்ளே இருக்கின்றன.
+A1|prepositions|on|மேல்|Touching a surface.|The cup is on the table.|கோப்பை மேசையின் மேல் இருக்கிறது.
+A1|prepositions|under|கீழே|Below something.|The cat is under the chair.|பூனை நாற்காலியின் கீழே இருக்கிறது.
+A1|prepositions|near|அருகில்|Not far away.|The shop is near my house.|கடை என் வீட்டிற்கு அருகில் இருக்கிறது.
+A2|prepositions|between|இடையில்|In the middle of two things.|The bank is between two shops.|வங்கி இரண்டு கடைகளுக்கு இடையில் இருக்கிறது.
+A2|prepositions|opposite|எதிரில்|Facing something.|The school is opposite the park.|பள்ளி பூங்காவிற்கு எதிரில் இருக்கிறது.
+A2|prepositions|during|போது|Within a period.|Do not talk during the film.|படம் ஓடும்போது பேசாதீர்கள்.
+A2|prepositions|until|வரை|Up to a time.|I will wait until five.|நான் ஐந்து மணி வரை காத்திருப்பேன்.
+B1|prepositions|since|முதல்|From a starting time.|I have lived here since 2020.|நான் 2020 முதல் இங்கே வசிக்கிறேன்.
+B1|prepositions|for|காலமாக|For a length of time.|I have waited for an hour.|நான் ஒரு மணி நேரமாகக் காத்திருக்கிறேன்.
+B1|prepositions|among|மத்தியில்|Within a group.|She felt relaxed among friends.|நண்பர்கள் மத்தியில் அவள் நிம்மதியாக உணர்ந்தாள்.
+B1|prepositions|despite|இருந்தபோதிலும்|Without being stopped by.|We walked despite the rain.|மழை இருந்தபோதிலும் நாங்கள் நடந்தோம்.
+B2|prepositions|regarding|பற்றி|About a topic.|I am writing regarding your request.|உங்கள் கோரிக்கையைப் பற்றி எழுதுகிறேன்.
+B2|prepositions|beyond|அப்பால் / மீறி|Further than a place or limit.|This is beyond our budget.|இது எங்கள் செலவுத்திட்டத்தை மீறுகிறது.
+B2|prepositions|throughout|முழுவதும்|During the whole time.|She stayed calm throughout the interview.|நேர்காணல் முழுவதும் அவள் அமைதியாக இருந்தாள்.
+B2|prepositions|in accordance with|இணங்க|Following a rule or agreement.|We acted in accordance with the rules.|நாங்கள் விதிகளுக்கு இணங்கச் செயல்பட்டோம்.
+A1|connectors|and|மற்றும்|Add another thing.|I bought rice and milk.|நான் அரிசியும் பாலும் வாங்கினேன்.
+A1|connectors|but|ஆனால்|Show a difference.|I am tired, but happy.|நான் சோர்வாக இருக்கிறேன், ஆனால் மகிழ்ச்சியாக இருக்கிறேன்.
+A1|connectors|or|அல்லது|Give a choice.|Would you like tea or coffee?|உங்களுக்கு தேநீரா அல்லது காபியா வேண்டும்?
+A1|connectors|because|ஏனெனில் / காரணமாக|Give a reason.|I stayed home because I was ill.|உடல்நலம் சரியில்லாததால் நான் வீட்டில் இருந்தேன்.
+A2|connectors|so|எனவே|Give a result.|It rained, so we stayed inside.|மழை பெய்தது, எனவே நாங்கள் உள்ளேயே இருந்தோம்.
+A2|connectors|when|போது|Connect an event to a time.|Call me when you arrive.|நீங்கள் வந்ததும் என்னை அழையுங்கள்.
+A2|connectors|before|முன்பு|Earlier than an event.|Wash your hands before you eat.|சாப்பிடுவதற்கு முன் கைகளைக் கழுவுங்கள்.
+A2|connectors|after|பிறகு|Later than an event.|We walked after we ate.|சாப்பிட்ட பிறகு நாங்கள் நடந்தோம்.
+B1|connectors|although|இருந்தாலும்|Show an unexpected contrast.|Although it was cold, we went out.|குளிராக இருந்தாலும், நாங்கள் வெளியே சென்றோம்.
+B1|connectors|however|இருப்பினும்|Introduce a contrast.|It is cheap. However, it is useful.|இது விலை குறைவானது. இருப்பினும், பயனுள்ளது.
+B1|connectors|therefore|ஆகவே|Give a logical result.|The road is closed; therefore, we must turn back.|சாலை மூடப்பட்டுள்ளது; ஆகவே, நாம் திரும்பிச் செல்ல வேண்டும்.
+B1|connectors|unless|இல்லாவிட்டால்|Mean if not.|You cannot enter unless you have a ticket.|பயணச்சீட்டு இல்லாவிட்டால் நீங்கள் உள்ளே செல்ல முடியாது.
+B2|connectors|nevertheless|இருந்தபோதிலும்|Continue despite a contrasting fact.|It was difficult; nevertheless, we succeeded.|அது கடினமாக இருந்தது; இருந்தபோதிலும், நாங்கள் வெற்றி பெற்றோம்.
+B2|connectors|whereas|ஆனால் / அதே வேளையில்|Compare two different facts.|I like tea, whereas she prefers coffee.|எனக்குத் தேநீர் பிடிக்கும், ஆனால் அவள் காபியை விரும்புகிறாள்.
+B2|connectors|furthermore|மேலும்|Add supporting information.|It is affordable. Furthermore, it is easy to use.|இது விலை குறைவானது. மேலும், பயன்படுத்த எளிதானது.
+B2|connectors|consequently|அதன் விளைவாக|Show the consequence.|Demand fell; consequently, prices dropped.|தேவை குறைந்தது; அதன் விளைவாக, விலைகள் சரிந்தன.
+A1|collocations|have breakfast|காலை உணவு சாப்பிடு|Eat the morning meal.|I have breakfast at eight.|நான் எட்டு மணிக்குக் காலை உணவு சாப்பிடுகிறேன்.
+A1|collocations|go home|வீட்டிற்குச் செல்|Return to your home.|I go home at six.|நான் ஆறு மணிக்கு வீட்டிற்குச் செல்கிறேன்.
+A1|collocations|take a photo|புகைப்படம் எடு|Make a picture with a camera.|Can you take a photo?|ஒரு புகைப்படம் எடுக்க முடியுமா?
+A1|collocations|do homework|வீட்டுப்பாடம் செய்|Complete school tasks at home.|I do homework after school.|பள்ளி முடிந்ததும் நான் வீட்டுப்பாடம் செய்கிறேன்.
+A2|collocations|make a mistake|தவறு செய்|Do something incorrectly.|I made a mistake.|நான் ஒரு தவறு செய்தேன்.
+A2|collocations|catch a bus|பேருந்தைப் பிடி|Get on a bus in time.|I catch a bus at seven.|நான் ஏழு மணிக்குப் பேருந்தைப் பிடிக்கிறேன்.
+A2|collocations|heavy rain|கனமழை|A large amount of rain.|Heavy rain is expected.|கனமழை எதிர்பார்க்கப்படுகிறது.
+A2|collocations|take a break|ஓய்வு எடு|Stop briefly to rest.|Let us take a break.|நாம் சிறிது ஓய்வு எடுப்போம்.
+B1|collocations|make a decision|முடிவு செய்|Choose after thinking.|We must make a decision.|நாம் ஒரு முடிவு செய்ய வேண்டும்.
+B1|collocations|meet a deadline|காலக்கெடுவிற்குள் முடி|Finish on time.|We met the deadline.|நாங்கள் காலக்கெடுவிற்குள் முடித்தோம்.
+B1|collocations|gain experience|அனுபவம் பெறு|Learn through practice.|I want to gain experience.|நான் அனுபவம் பெற விரும்புகிறேன்.
+B1|collocations|take responsibility|பொறுப்பேற்றுக்கொள்|Accept a duty or the result of an action.|I take responsibility for this error.|இந்தத் தவறுக்கு நான் பொறுப்பேற்கிறேன்.
+B2|collocations|reach a consensus|ஒருமித்த கருத்தை எட்டு|Come to general agreement.|We reached a consensus.|நாங்கள் ஒருமித்த கருத்தை எட்டினோம்.
+B2|collocations|draw a conclusion|முடிவுக்கு வா|Decide what the evidence means.|Do not draw a conclusion yet.|இன்னும் ஒரு முடிவுக்கு வராதீர்கள்.
+B2|collocations|pose a threat|அச்சுறுத்தலாக இரு|Create a danger.|Pollution poses a threat to wildlife.|மாசுபாடு வனவிலங்குகளுக்கு அச்சுறுத்தலாக இருக்கிறது.
+B2|collocations|allocate resources|வளங்களை ஒதுக்கு|Assign time, money or people.|We must allocate resources carefully.|நாம் வளங்களைக் கவனமாக ஒதுக்க வேண்டும்.
+A1|idioms|a piece of cake|மிக எளிதானது|Very easy; informal.|This test is a piece of cake.|இந்தத் தேர்வு மிகவும் எளிதானது.
+A1|idioms|good luck|நல்வாழ்த்துகள்|Wish someone success.|Good luck with your exam!|உங்கள் தேர்வுக்கு நல்வாழ்த்துகள்!
+A1|idioms|take care|கவனமாக இரு|A friendly goodbye or reminder.|Take care on your journey.|உங்கள் பயணத்தில் கவனமாக இருங்கள்.
+A1|idioms|no problem|பிரச்சினையில்லை|A friendly way to agree to help.|No problem, I can help.|பிரச்சினையில்லை, என்னால் உதவ முடியும்.
+A1|idioms|see you later|பிறகு சந்திப்போம்|A casual goodbye.|See you later, Meena.|பிறகு சந்திப்போம், மீனா.
+A2|idioms|under the weather|உடல்நலம் சரியில்லாமல்|Feeling slightly ill.|I am feeling under the weather.|எனக்கு உடல்நலம் சரியில்லை.
+A2|idioms|once in a blue moon|மிக அரிதாக|Very rarely.|We eat out once in a blue moon.|நாங்கள் மிக அரிதாகவே வெளியே சாப்பிடுவோம்.
+A2|idioms|give me a hand|எனக்கு உதவு|Help me; informal.|Can you give me a hand?|எனக்குக் கொஞ்சம் உதவ முடியுமா?
+A2|idioms|in a hurry|அவசரத்தில்|Needing to act quickly.|I am in a hurry.|நான் அவசரத்தில் இருக்கிறேன்.
+A2|idioms|on time|சரியான நேரத்தில்|At the planned time.|The train arrived on time.|ரயில் சரியான நேரத்தில் வந்தது.
+B1|idioms|break the ice|தயக்கத்தைப் போக்கு|Make people feel comfortable together.|A joke helped break the ice.|ஒரு நகைச்சுவை தயக்கத்தைப் போக்க உதவியது.
+B1|idioms|hit the nail on the head|சரியாகச் சொல்|Say exactly what is right.|You hit the nail on the head.|நீங்கள் மிகச் சரியாகச் சொன்னீர்கள்.
+B1|idioms|on the same page|ஒரே புரிதலில்|Sharing the same understanding.|Are we on the same page?|நமக்கு ஒரே புரிதல்தானே இருக்கிறது?
+B1|idioms|the last straw|பொறுமையை முடித்த கடைசி நிகழ்வு|The final problem you can tolerate.|That delay was the last straw.|அந்தத் தாமதம் என் பொறுமையின் எல்லையைக் கடந்தது.
+B1|idioms|get the ball rolling|தொடங்கி வை|Start an activity.|Let us get the ball rolling.|நாம் தொடங்கிவைப்போம்.
+B2|idioms|cut corners|தரத்தைக் குறைத்து எளிதாக முடி|Save effort by skipping necessary work.|Do not cut corners on safety.|பாதுகாப்பில் குறுக்குவழிகளைப் பின்பற்றாதீர்கள்.
+B2|idioms|a double-edged sword|நன்மையும் தீமையும் கொண்டது|Something with both benefits and risks.|Social media can be a double-edged sword.|சமூக ஊடகம் நன்மையும் தீமையும் கொண்டதாக இருக்கலாம்.
+B2|idioms|the elephant in the room|அனைவரும் தவிர்க்கும் முக்கியப் பிரச்சினை|An obvious issue people avoid discussing.|Let us address the elephant in the room.|அனைவரும் தவிர்க்கும் முக்கியப் பிரச்சினையைப் பேசுவோம்.
+B2|idioms|a blessing in disguise|முதலில் தீமையாகத் தோன்றும் நன்மை|Something bad that later proves helpful.|Missing that job was a blessing in disguise.|அந்த வேலை கிடைக்காதது பின்னர் நன்மையாக அமைந்தது.
+B2|idioms|read between the lines|மறைபொருளைப் புரிந்துகொள்|Understand what is suggested but not directly said.|Read between the lines of her message.|அவளுடைய செய்தியின் மறைபொருளைப் புரிந்துகொள்ளுங்கள்.

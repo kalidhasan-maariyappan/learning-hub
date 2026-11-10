@@ -14,7 +14,7 @@ function transform(dir) {
     if (entry.isDirectory()) transform(file);
     else if (/\.(html|js|css)$/.test(file)) {
       let text = fs.readFileSync(file, 'utf8');
-      text = text.replace(/(["'])\/(?!\/)(?=(?:java(?:-core-advanced)?|spring(?:-boot(?:-path)?)?|security|ruby|rails|major-gems|coding-interview|rails-scenarios|tryit|css|js)(?:[\/"'?]))/g, '$1' + base + '/');
+      text = text.replace(/(["'])\/(?!\/)(?=(?:java(?:-core-advanced)?|spring(?:-boot(?:-path)?)?|security|ruby|rails|major-gems|coding-interview|rails-scenarios|english-learning|tryit|css|js|icons|manifest\.webmanifest)(?:[\/"'?]))/g, '$1' + base + '/');
       text = text.replaceAll(base + '/tryit?page=', base + '/tryit.html?page=');
       if (entry.name === 'core.js') {
         text = text.replace('let res;', "return { error: 'Code execution is available locally. Download this repository, run node server.js, and open http://127.0.0.1:8081/java/.' };\n    let res;");
@@ -27,6 +27,19 @@ function transform(dir) {
   }
 }
 transform(out);
+// A new asset fingerprint prompts installed apps to update after each changed export.
+const crypto = require('node:crypto');
+const digest = crypto.createHash('sha256');
+function fingerprint(dir) {
+  for (const entry of fs.readdirSync(dir, {withFileTypes:true}).sort((a,b)=>a.name.localeCompare(b.name))) {
+    const file = path.join(dir, entry.name);
+    if (entry.isDirectory()) fingerprint(file);
+    else if (entry.name !== 'sw.js') digest.update(path.relative(out,file)).update(fs.readFileSync(file));
+  }
+}
+fingerprint(out);
+const worker = path.join(out, 'sw.js');
+fs.writeFileSync(worker, fs.readFileSync(worker,'utf8').replace('learning-hub-v1', 'learning-hub-' + digest.digest('hex').slice(0,16)));
 const context = { window: { JT: {} } };
 vm.createContext(context);
 for (const file of ['content/rails/practical_curriculum.js', 'nav.js', 'core-advanced-nav.js', 'spring-nav.js', 'spring-boot-nav.js', 'spring-boot-path-nav.js', 'security-nav.js', 'ruby-nav.js', 'interview-catalog.js', 'interview-nav.js']) {
@@ -43,6 +56,16 @@ function page(route) {
   count++;
 }
 for (const route of routes) page(route);
+const english = { window: { JT: {} } };
+vm.createContext(english);
+vm.runInContext(fs.readFileSync(path.join(out, 'js/english-data.js'), 'utf8'), english);
+page('english-learning');
+page('english-learning/progress');
+for (const level of ['A1', 'A2', 'B1', 'B2']) {
+  page('english-learning/' + level);
+  for (const category of english.window.JT.englishData.categories) page('english-learning/' + level + '/' + category[0]);
+}
+for (const lesson of english.window.JT.englishData.lessons) page('english-learning/' + lesson.level + '/' + lesson.category + '/' + lesson.id);
 for (const nav of Object.values(context.window.JT).filter(Array.isArray)) {
   for (const group of nav) {
     if (!group.items) continue;

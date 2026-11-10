@@ -1,0 +1,72 @@
+@practice-pron-vowels|B1|pronunciation|Short and long vowel practice|குறுகிய, நீண்ட உயிரொலிகள்|Keep ship short and sheep longer; move your tongue as well as changing length.|ship /ɪ/ · sheep /iː/ · full /ʊ/ · fool /uː/
+&ship-sheep
+=The ship is leaving the port.|கப்பல் துறைமுகத்திலிருந்து புறப்படுகிறது.
+=The sheep are in the field.|செம்மறியாடுகள் வயலில் இருக்கின்றன.
+=This box is full.|இந்தப் பெட்டி நிரம்பியுள்ளது.
+=Do not be a fool.|முட்டாளாக நடந்துகொள்ளாதே.
+=Please leave the key here.|தயவுசெய்து சாவியை இங்கே விட்டுச் செல்லுங்கள்.
+=We live near the station.|நாங்கள் ரயில் நிலையத்திற்கு அருகில் வசிக்கிறோம்.
+?Which has /iː/?|நீண்ட /iː/ ஒலி எதில்?|ship~sheep~sit|1|Sheep-இல் நீண்ட /iː/ ஒலி.
+?Full and fool differ in...|இந்த இரு சொற்களின் வேறுபாடு?|Vowel sound~Only spelling, not sound~Number of syllables|0|உயிரொலியின் தரமும் நீளமும் வேறுபடும்.
+?Which pair should you practise?|எந்த இணையைப் பயிற்சி செய்யலாம்?|work/worked~car/cars~live/leave|2|Live குறுகிய /ɪ/; leave நீண்ட /iː/ ஒலி.
+>Say ship/sheep, live/leave and full/fool five times, then use each in a sentence. / இணைகளை ஐந்து முறை கூறி வாக்கியத்தில் பயன்படுத்துங்கள்.
+@practice-pron-endings|B1|pronunciation|Hear and say word endings|சொற்களின் இறுதி ஒலிகள்|Keep the final sound; do not add an extra vowel to worked or asked.|worked /t/ · played /d/ · wanted /ɪd/
+&past-ed-endings
+=I worked late yesterday.|நான் நேற்று தாமதம் வரை வேலை செய்தேன்.
+=She played the song again.|அவள் பாடலை மீண்டும் வாசித்தாள்.
+=They wanted a clear answer.|அவர்களுக்குத் தெளிவான பதில் தேவைப்பட்டது.
+=We asked three questions.|நாங்கள் மூன்று கேள்விகள் கேட்டோம்.
+=He needed more time.|அவனுக்கு அதிக நேரம் தேவைப்பட்டது.
+=I watched the whole presentation.|நான் முழு விளக்கவுரையையும் பார்த்தேன்.
+?Which adds an extra syllable in -ed?|எதில் -ed தனி அசையாக வருகிறது?|worked~played~wanted|2|Wanted-இல் /ɪd/ அசை சேரும்.
+?Played ends with...|Played இறுதி ஒலி எது?|/d/~ /t/~ /ɪd/|0|Played முடிவில் /d/.
+?Worked ends with...|Worked இறுதி ஒலி எது?|/ɪd/~ /t/~ /s/|1|Worked முடிவில் /t/.
+>Read the six sentences slowly, keeping every final consonant. / இறுதி மெய்யொலிகளை விடாமல் ஆறு வாக்கியங்களையும் வாசியுங்கள்.
+@practice-pron-clarity|B2|pronunciation|V/W and clear consonants|தெளிவான மெய்யொலிகள்|For v, upper teeth touch the lower lip. For w, round the lips.|vest/west · vine/wine · vet/wet
+&v-w
+=The van is waiting by the wall.|சிற்றுந்து சுவரருகில் காத்திருக்கிறது.
+=We visited the village last week.|கடந்த வாரம் கிராமத்திற்குச் சென்றோம்.
+=The view from the west window is lovely.|மேற்குப் பக்கச் சன்னலிலிருந்து தெரியும் காட்சி அழகாக உள்ளது.
+=Would you prefer water or wine?|உங்களுக்குத் தண்ணீரா அல்லது ஒயினா வேண்டும்?
+=We were very pleased with the result.|முடிவில் நாங்கள் மிகவும் மகிழ்ச்சியடைந்தோம்.
+=Please verify which version we are using.|நாம் எந்தப் பதிப்பைப் பயன்படுத்துகிறோம் என்பதைச் சரிபாருங்கள்.
+?Which uses teeth and lower lip?|எந்த ஒலிக்கு பற்களும் கீழ் உதடும் பயன்படுத்தப்படும்?|/w/~ /v/~ /h/|1|/v/ ஒலி: மேல் பற்கள் கீழ் உதட்டைத் தொடும்.
+?Which starts with /w/?|/w/ ஒலியில் தொடங்குவது எது?|west~vest~very|0|West /w/ ஒலி; vest /v/ ஒலி.
+?The aim is...|பயிற்சியின் நோக்கம் என்ன?|To speak as fast as possible~To copy one person's accent~To make the two sounds clearly different|2|இரு ஒலிகளையும் தெளிவாக வேறுபடுத்துதல்.
+>Say vest/west and vine/wine, then read the sentences at a comfortable speed. / இணைகளைச் சொல்லி வாக்கியங்களை நிதானமாக வாசியுங்கள்.
+@practice-pron-word-stress|B2|pronunciation|Stress the right syllable|சரியான அசையில் அழுத்தம்|The strong syllable is clearer and often longer.|PHOtograph · phoTOGraphy · photoGRAphic
+&word-stress-table
+=I took a photograph of the old bridge.|பழைய பாலத்தைப் புகைப்படம் எடுத்தேன்.
+=She is interested in photography.|அவளுக்குப் புகைப்படக்கலையில் ஆர்வம் உள்ளது.
+=We need photographic evidence.|நமக்குப் புகைப்பட ஆதாரம் தேவை.
+=The decision was important.|அந்த முடிவு முக்கியமானது.
+=Could you explain the difference?|வித்தியாசத்தை விளக்க முடியுமா?
+=The information was useful.|அந்தத் தகவல் பயனுள்ளதாக இருந்தது.
+?Photography is stressed on...|Photography-இல் எந்த அசையில் அழுத்தம்?|The first syllable~The second syllable~Every syllable equally|1|pho-TOG-ra-phy: இரண்டாம் அசை.
+?Photograph is stressed on...|Photograph-இல் அழுத்தம் எங்கே?|The first syllable~The last syllable~No syllable|0|PHO-to-graph: முதல் அசை.
+?What should remain clear?|எது தெளிவாக இருக்க வேண்டும்?|Only the final letter~Only the spelling~The stressed syllable|2|அழுத்தமான அசை தெளிவாக இருக்க வேண்டும்.
+>Mark the strong syllable in five words from your work or studies. / உங்கள் வேலை அல்லது படிப்பின் ஐந்து சொற்களில் அழுத்தமான அசையைக் குறியுங்கள்.
+@practice-pron-sentence-stress|B2|pronunciation|Change the focus, not the words|சொற்களை மாற்றாமல் கருத்தை வலியுறுத்துதல்|Stress the word that corrects or adds important information.|I wanted the BLUE one, not the green one.
+&contrastive-stress,sentence-stress
+=I wanted the BLUE shirt, not the green one.|பச்சைச் சட்டையல்ல, நீலச் சட்டையைத்தான் விரும்பினேன்.
+=I said TUESDAY, not Thursday.|வியாழக்கிழமை அல்ல, செவ்வாய்க்கிழமை என்றுதான் சொன்னேன்.
+=SHE sent the report; I only checked it.|அவள்தான் அறிக்கையை அனுப்பினாள்; நான் சரிபார்த்தது மட்டுமே.
+=We need TWO copies, not ten.|பத்து அல்ல, இரண்டு பிரதிகள்தான் வேண்டும்.
+=I have ALREADY called them.|நான் அவர்களை ஏற்கெனவே அழைத்துவிட்டேன்.
+=The problem is the TIMING, not the idea.|பிரச்சினை யோசனையல்ல, நேரம்தான்.
+?To correct Thursday to Tuesday, stress...|வியாழனைச் செவ்வாயாகத் திருத்த எதை வலியுறுத்துவீர்கள்?|I~said~Tuesday|2|மாற்றப்படும் தகவல் Tuesday.
+?SHE sent it stresses...|SHE sent it எதை வலியுறுத்துகிறது?|Who sent it~When it arrived~Its colour|0|அனுப்பிய நபர் யார் என்பதை.
+?Should every word be equally strong?|அனைத்துச் சொற்களிலும் ஒரே அழுத்தமா?|Yes~No, stress the focus~Only in questions|1|முக்கியத் தகவலை வலியுறுத்துங்கள்.
+>Say the same sentence with three different focus words and explain the difference. / ஒரே வாக்கியத்தில் மூன்று விதமாக அழுத்தி பொருள் வேறுபாட்டைக் கூறுங்கள்.
+@practice-pron-thought-groups|B2|pronunciation|Speak in short thought groups|கருத்துக் குழுக்களாகப் பேசுதல்|Pause at meaning boundaries; keep each short group connected.|If we agree today, / we can start on Monday.
+&thought-groups
+=If we agree today, / we can start on Monday.|இன்று ஒப்புக்கொண்டால், / திங்கட்கிழமை தொடங்கலாம்.
+=Although the cost is higher, / the service is more reliable.|செலவு அதிகமாக இருந்தாலும், / சேவை மேலும் நம்பகமானது.
+=Before we make a decision, / let us check the evidence.|முடிவு செய்வதற்கு முன், / ஆதாரத்தைச் சரிபார்ப்போம்.
+=In my opinion, / the benefits outweigh the drawbacks.|என் கருத்தில், / குறைகளைவிட நன்மைகள் அதிகம்.
+=What concerns me most / is the lack of clear information.|என்னை அதிகம் கவலைப்படுத்துவது / தெளிவான தகவல் இல்லாததுதான்.
+=To sum up, / we need more time / and a clearer plan.|சுருக்கமாகச் சொன்னால், / நமக்கு அதிக நேரமும் / தெளிவான திட்டமும் தேவை.
+?Where is the useful pause?|பொருத்தமான இடைவெளி எங்கே?|After every word~After a complete short idea~Inside every long word|1|ஒரு சிறிய கருத்து முடிந்த இடத்தில்.
+?Should you rush through the whole sentence?|வாக்கியம் முழுவதையும் அவசரமாகச் சொல்ல வேண்டுமா?|No, keep meaning clear~Yes, always~Only without breathing|0|அர்த்தம் தெளிவாக இருக்க வேண்டும்.
+?What does / mark here?|இங்கே / எதைக் குறிக்கிறது?|A spelling error~A tense~A suggested pause|2|பரிந்துரைக்கப்பட்ட இடைவெளி.
+>Read the sentences, then give a short opinion in three thought groups. / வாசித்துவிட்டு மூன்று கருத்துக் குழுக்களில் ஒரு கருத்தைக் கூறுங்கள்.

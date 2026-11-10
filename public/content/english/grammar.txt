@@ -1,0 +1,91 @@
+# One short row per grammar unit: Tamil meaning | English meaning | formula | English example | Tamil example
+எழுவாய்ப் பதிலிப்பெயர்கள்|Words that stand for people or things.|I / you / he / she / it / we / they + verb|She is my friend.|அவள் என் தோழி.
+இரு|Use am, is or are to say who or how someone is.|I am · he/she/it is · you/we/they are|I am happy.|நான் மகிழ்ச்சியாக இருக்கிறேன்.
+வைத்திரு|Use have or has for possession.|I/you/we/they have · he/she/it has|She has a bicycle.|அவளிடம் ஒரு மிதிவண்டி இருக்கிறது.
+வழக்கமான செயல்|Say what you do regularly.|Subject + V1 (+ s/es for he/she/it)|I go to work every day.|நான் தினமும் வேலைக்குச் செல்கிறேன்.
+வழக்கமாகச் செய்யாதது|Say what you do not do.|Subject + do/does not + V1|He does not drink tea.|அவன் தேநீர் குடிப்பதில்லை.
+வழக்கத்தைப் பற்றிய கேள்வி|Ask about a routine.|Do/Does + subject + V1?|Do you study English?|நீங்கள் ஆங்கிலம் படிக்கிறீர்களா?
+இப்போது நடக்கும் செயல்|Say what is happening now.|Subject + am/is/are + V-ing|I am reading a book.|நான் ஒரு புத்தகம் படித்துக்கொண்டிருக்கிறேன்.
+ஒருமை மற்றும் பன்மை|Use a plural for more than one.|one book → two books|I have two books.|என்னிடம் இரண்டு புத்தகங்கள் உள்ளன.
+ஒரு / குறிப்பிட்ட ஒன்று|Use a/an for one item; the for a known item.|a book · an apple · the sun|I ate an apple.|நான் ஓர் ஆப்பிள் சாப்பிட்டேன்.
+இது / அது / இவை / அவை|Point to things near or far.|this/that + singular · these/those + plural|These are my shoes.|இவை என் காலணிகள்.
+என் / உன் / அவரது|Say who something belongs to.|my/your/his/her/our/their + noun|This is my bag.|இது என் பை.
+இருக்கிறது / இருக்கின்றன|Say something exists.|There is + singular · There are + plural|There are three chairs.|மூன்று நாற்காலிகள் உள்ளன.
+முடியும் / முடியாது|Talk about ability.|Subject + can/cannot + V1|I can swim.|எனக்கு நீந்தத் தெரியும்.
+இடத்தைக் குறிக்கும் சொற்கள்|Say where something is.|in / on / under / near + noun|The book is on the table.|புத்தகம் மேசையின் மேல் இருக்கிறது.
+நேரத்தைக் குறிக்கும் சொற்கள்|Use at for a time, on for a day, in for a month.|at six · on Monday · in June|The class starts at six.|வகுப்பு ஆறு மணிக்குத் தொடங்குகிறது.
+என்ன / எங்கே / எப்போது|Ask for information.|Wh-word + do/does + subject + V1?|Where do you live?|நீங்கள் எங்கே வசிக்கிறீர்கள்?
+கட்டளை / வேண்டுகோள்|Tell someone what to do.|V1 + object · Please + V1|Please open the door.|தயவுசெய்து கதவைத் திறக்கவும்.
+எண்ணக்கூடிய / எண்ணமுடியாத பெயர்கள்|Count apples; measure water.|two apples · some water|I need some water.|எனக்குக் கொஞ்சம் தண்ணீர் வேண்டும்.
+சில / ஏதேனும்|Use some in offers and statements; any in many questions and negatives.|some rice · any rice|Do you have any rice?|உங்களிடம் அரிசி இருக்கிறதா?
+பெயரடை மற்றும் சொல் வரிசை|Put the adjective before the noun.|adjective + noun|She has a red bag.|அவளிடம் ஒரு சிவப்புப் பை இருக்கிறது.
+முடிந்த செயல்|Regular past verbs usually end in -ed.|Subject + V2|I cleaned the room.|நான் அறையைச் சுத்தம் செய்தேன்.
+ஒழுங்கற்ற இறந்தகால வினைகள்|Some past forms change completely.|go → went · eat → ate|I ate rice.|நான் சாதம் சாப்பிட்டேன்.
+இறந்தகாலக் கேள்வி / எதிர்மறை|Use the base verb after did.|Did + subject + V1? · did not + V1|Did you call me?|நீங்கள் என்னை அழைத்தீர்களா?
+கடந்த நேரத்தில் நடந்துகொண்டிருந்த செயல்|An action was in progress in the past.|Subject + was/were + V-ing|I was cooking at six.|நான் ஆறு மணிக்குச் சமைத்துக்கொண்டிருந்தேன்.
+செய்யத் திட்டமிட்டுள்ள செயல்|Talk about a plan.|Subject + am/is/are going to + V1|I am going to buy a laptop.|நான் ஒரு மடிக்கணினி வாங்கப் போகிறேன்.
+செய்வேன்|Use will for a prediction, promise or quick decision.|Subject + will + V1|I will help you.|நான் உங்களுக்கு உதவுவேன்.
+இதுவரை பெற்ற அனுபவம்|Talk about experience without a finished past time.|Subject + have/has + V3|I have visited Madurai.|நான் மதுரைக்குச் சென்றிருக்கிறேன்.
+இரண்டை ஒப்பிடுதல்|Compare two people or things.|adjective-er / more + adjective + than|This bag is cheaper than that one.|இந்தப் பை அந்தப் பையைவிட விலை குறைவானது.
+மிக உயர்ந்த அளவு|Compare one with the whole group.|the + adjective-est / most + adjective|She is the tallest in our class.|எங்கள் வகுப்பில் அவள்தான் மிக உயரமானவள்.
+அதிக அளவு|Use many with countable nouns; much with uncountable nouns.|many books · much water · a lot of time|We do not have much time.|எங்களிடம் அதிக நேரம் இல்லை.
+சில / கொஞ்சம்|Use a few for countable things; a little for an amount.|a few books · a little milk|I have a few questions.|எனக்குச் சில கேள்விகள் உள்ளன.
+செய்ய வேண்டும் என்ற அறிவுரை|Give simple advice.|Subject + should/should not + V1|You should rest.|நீங்கள் ஓய்வெடுக்க வேண்டும்.
+கட்டாயம் / அவசியம்|Say something is necessary.|Subject + must / have to + V1|You must wear a helmet.|நீங்கள் கட்டாயம் தலைக்கவசம் அணிய வேண்டும்.
+மரியாதையான வேண்டுகோள்|Ask politely.|Could you + V1, please?|Could you help me, please?|தயவுசெய்து எனக்கு உதவ முடியுமா?
+வினைக்குப் பின் வரும் வடிவம்|Some verbs take -ing; others take to + verb.|enjoy + V-ing · want + to + V1|I enjoy reading.|எனக்குப் படிப்பது பிடிக்கும்.
+எத்தனை முறை / எப்படி|Say how often or how something happens.|usually + verb · verb + carefully|She usually walks to work.|அவள் வழக்கமாக வேலைக்கு நடந்துசெல்கிறாள்.
+காரணம் / விளைவு / மாறுபாடு / நேரம்|Join short ideas.|because / so / but / when + clause|I stayed home because it rained.|மழை பெய்ததால் நான் வீட்டில் இருந்தேன்.
+நடக்கக்கூடிய நிபந்தனை|Talk about a real future possibility.|If + present simple, will + V1|If it rains, I will stay home.|மழை பெய்தால், நான் வீட்டில் இருப்பேன்.
+யார் / எது என்பதைச் சொல்லுதல்|Add information about a person or thing.|person + who · thing + which/that|This is the book that I bought.|நான் வாங்கிய புத்தகம் இதுதான்.
+என்னை / தன்னை|Object pronouns receive the action; reflexives refer back.|me/him/her/us/them · myself/herself|She taught herself English.|அவள் தானாகவே ஆங்கிலம் கற்றுக்கொண்டாள்.
+அனுபவம் / குறிப்பிட்ட இறந்த நேரம்|Use past simple with a finished time.|have/has + V3 · V2 + yesterday|I have seen that film. I saw it yesterday.|நான் அந்தப் படம் பார்த்திருக்கிறேன். அதை நேற்று பார்த்தேன்.
+கடந்த காலத்திலிருந்து தொடரும் செயல்|Focus on how long an activity has continued.|have/has been + V-ing + for/since|I have been studying for two hours.|நான் இரண்டு மணி நேரமாகப் படித்துக்கொண்டிருக்கிறேன்.
+மற்றொரு கடந்த செயலுக்கு முந்தைய செயல்|Show which past event happened first.|Subject + had + V3|The train had left before I arrived.|நான் வருவதற்கு முன்பே ரயில் புறப்பட்டிருந்தது.
+கடந்த செயல்களின் வரிசை|Use had to make the earlier event clear.|had + V3 before + past simple|I had eaten before she called.|அவள் அழைப்பதற்கு முன்பே நான் சாப்பிட்டிருந்தேன்.
+எதிர்காலத்தில் நடந்துகொண்டிருக்கும் செயல்|An action will be in progress.|Subject + will be + V-ing|I will be working at ten tomorrow.|நாளை பத்து மணிக்கு நான் வேலை செய்துகொண்டிருப்பேன்.
+எதிர்கால நேரத்திற்குள் முடியும் செயல்|An action will finish before a future time.|Subject + will have + V3 + by|I will have finished by Friday.|வெள்ளிக்கிழமைக்குள் நான் முடித்திருப்பேன்.
+முன்பு இருந்த பழக்கம்|Talk about a past habit that has changed.|Subject + used to + V1|I used to play cricket every day.|முன்பு நான் தினமும் கிரிக்கெட் விளையாடுவேன்.
+பழகியிருத்தல் / பழகுதல்|Be used to means familiar; get used to means become familiar.|be/get used to + noun / V-ing|I am used to waking up early.|சீக்கிரம் எழுவது எனக்குப் பழகிவிட்டது.
+கற்பனையான நிபந்தனை|Imagine a different present situation.|If + past simple, would + V1|If I had time, I would travel.|எனக்கு நேரம் இருந்தால், நான் பயணம் செய்வேன்.
+பொதுவான உண்மை நிபந்தனை|Talk about a usual result.|If + present simple, present simple|If you heat ice, it melts.|பனிக்கட்டியைச் சூடாக்கினால், அது உருகும்.
+செயப்பாட்டு வினை|Focus on the thing receiving the action.|am/is/are/was/were + V3|The door was painted yesterday.|கதவுக்கு நேற்று வண்ணம் பூசப்பட்டது.
+பிறர் சொன்ன செய்தி|Report what someone said.|said (that) + clause|She said that she was tired.|தனக்குச் சோர்வாக இருந்ததாக அவள் சொன்னாள்.
+பிறர் கேட்ட கேள்வி|Report a question using statement word order.|asked + if/Wh-word + subject + verb|He asked where I lived.|நான் எங்கே வசித்தேன் என்று அவன் கேட்டான்.
+பிறர் கூறிய வேண்டுகோள்|Report instructions or requests.|told/asked + person + to + V1|She asked me to wait.|அவள் என்னைக் காத்திருக்கச் சொன்னாள்.
+அடையாளம் காண உதவும் துணை வாக்கியம்|Say exactly which person or thing.|noun + who/that + clause|The man who called is my uncle.|அழைத்தவர் என் மாமா.
+கூடுதல் தகவல் தரும் துணை வாக்கியம்|Add extra information with commas.|noun, who/which + clause, ...|My sister, who lives in Delhi, is a doctor.|டெல்லியில் வசிக்கும் என் சகோதரி ஒரு மருத்துவர்.
+சாத்தியத்தைக் கூறும் துணை வினைகள்|Use may/might/could for possibility; must for a strong deduction.|may/might/could/must + V1|She might be at home.|அவள் வீட்டில் இருக்கக்கூடும்.
+செய்திருக்க வேண்டும்|Talk about a better action in the past.|should have + V3|I should have called you.|நான் உங்களை அழைத்திருக்க வேண்டும்.
+வினை அமைப்புகள்|Remember the form that follows each verb.|avoid + V-ing · decide + to + V1|We decided to leave early.|நாங்கள் சீக்கிரம் கிளம்ப முடிவு செய்தோம்.
+அளவுக்கு அதிகம் / போதுமான|Too is more than needed; enough is sufficient.|too + adjective · adjective + enough|The tea is too hot to drink.|தேநீர் குடிக்க முடியாத அளவுக்குச் சூடாக இருக்கிறது.
+இருப்பினும் / ஆனால்|Connect contrasting facts.|although/even though + clause|Although I was tired, I finished the work.|சோர்வாக இருந்தாலும், நான் வேலையை முடித்தேன்.
+இருந்தபோதிலும்|Use a noun or -ing after despite.|despite/in spite of + noun / V-ing|Despite the rain, we went out.|மழை இருந்தபோதிலும், நாங்கள் வெளியே சென்றோம்.
+உறுதிப்படுத்தும் சிறு கேள்வி|Add a short check at the end.|positive statement + negative tag?|You are ready, aren't you?|நீங்கள் தயாராக இருக்கிறீர்கள், இல்லையா?
+மறைமுகமான கேள்வி|Ask politely with statement word order.|Could you tell me + Wh-word + subject + verb?|Could you tell me where the station is?|ரயில் நிலையம் எங்கே இருக்கிறது என்று சொல்ல முடியுமா?
+பெயர்ச்சொல்லாகச் செயல்படும் வாக்கியம்|Use a whole clause as a noun.|what/that/whether + clause|I do not know whether she is coming.|அவள் வருகிறாளா என்று எனக்குத் தெரியாது.
+நடக்காத கடந்தகால நிபந்தனை|Imagine changing a past event.|If + had + V3, would have + V3|If I had left earlier, I would have caught the train.|நான் முன்பே கிளம்பியிருந்தால், ரயிலைப் பிடித்திருப்பேன்.
+கடந்தகாலக் காரணம் / இப்போதைய விளைவு|Connect an unreal past with an unreal present.|If + had + V3, would + V1|If I had slept well, I would not be tired now.|நான் நன்றாகத் தூங்கியிருந்தால், இப்போது சோர்வாக இருக்கமாட்டேன்.
+மேம்பட்ட செயப்பாட்டு அமைப்பு|Use passive forms in different tenses.|has been / is being + V3|The road is being repaired.|சாலை பழுதுபார்க்கப்பட்டுக்கொண்டிருக்கிறது.
+செய்தியைச் செயப்பாட்டு வடிவில் கூறுதல்|Report a belief without naming the speaker.|It is said that + clause|It is said that the building is very old.|அந்தக் கட்டிடம் மிகவும் பழமையானது என்று கூறப்படுகிறது.
+பிறரிடம் வேலை செய்வித்தல்|Arrange for someone to do a service.|have/get + object + V3|I had my phone repaired.|நான் என் தொலைபேசியைப் பழுதுபார்க்கக் கொடுத்தேன்.
+குறிப்பிட்ட எதிர்காலத்திற்குள் நிறைவு|Talk about completion before a future deadline.|will have + V3 + by the time|By the time you arrive, I will have cooked dinner.|நீங்கள் வருவதற்குள், நான் இரவு உணவு சமைத்துவிட்டிருப்பேன்.
+எதிர்காலம் வரை தொடரும் செயல்|Say how long an activity will have continued.|will have been + V-ing + for|By June, I will have been working here for two years.|ஜூன் மாதத்துடன், நான் இங்கே இரண்டு ஆண்டுகளாக வேலை செய்துகொண்டிருப்பேன்.
+கடந்தகாலச் சாத்தியங்கள்|Use modal + have + V3 for past deductions or possibilities.|must/might/could + have + V3|She must have missed the bus.|அவள் பேருந்தைத் தவறவிட்டிருக்க வேண்டும்.
+நிகழ்கால விருப்பக் கற்பனை|Wish for a different present.|wish / if only + past simple|I wish I knew the answer.|எனக்கு விடை தெரிந்திருந்தால் நன்றாக இருக்கும்.
+கடந்தகால வருத்தம்|Wish a past event had been different.|wish / if only + had + V3|I wish I had studied harder.|நான் இன்னும் நன்றாகப் படித்திருந்தால் நன்றாக இருந்திருக்கும்.
+விருப்பத்தைத் தெரிவிக்குதல்|Say which action you prefer.|would rather + V1 · would prefer + to + V1|I would rather stay home.|நான் வீட்டில் இருப்பதையே விரும்புகிறேன்.
+எதிர்மறைச் சொல்லுக்குப் பின் தலைகீழ் வரிசை|Put the auxiliary before the subject after never or rarely.|Never + have + subject + V3|Never have I seen such heavy rain.|இவ்வளவு கனமான மழையை நான் ஒருபோதும் பார்த்ததில்லை.
+வலியுறுத்துதல்|Use do/does/did to stress that something is true.|Subject + do/does/did + V1|I do understand your problem.|உங்கள் பிரச்சினை எனக்கு உண்மையாகவே புரிகிறது.
+ஒரு தகவலை முன்னிலைப்படுத்துதல்|Highlight the important part.|It is/was + focus + that/who + clause|It was Meena who found the key.|சாவியைக் கண்டுபிடித்தது மீனாதான்.
+சுருக்கமான வினையெச்ச வாக்கியம்|Join actions with the same subject.|V-ing / having + V3, + main clause|Feeling tired, I went to bed.|சோர்வாக இருந்ததால், நான் படுக்கச் சென்றேன்.
+சுருக்கப்பட்ட உறவுத் துணை வாக்கியம்|Shorten a relative clause.|noun + V-ing / V3|The woman standing there is my aunt.|அங்கே நின்றுகொண்டிருக்கும் பெண் என் அத்தை.
+முன்னுருபுடன் உறவுத் துணை வாக்கியம்|Use whom for people and which for things after a preposition.|preposition + whom/which|The person to whom I spoke was helpful.|நான் பேசிய நபர் உதவிகரமாக இருந்தார்.
+விட்டுக்கொடுத்தும் கருத்தைக் கூறுதல்|Use even so or nevertheless to show contrast.|statement; nevertheless, + contrasting statement|It was expensive; nevertheless, we bought it.|அது விலை உயர்ந்தது; இருப்பினும், நாங்கள் அதை வாங்கினோம்.
+நோக்கம் / விளைவு|Use so that for purpose; so...that for a result.|so that + clause · so + adjective + that|I spoke slowly so that everyone could understand.|அனைவருக்கும் புரியும்படி நான் மெதுவாகப் பேசினேன்.
+உறுதியைக் குறைத்துக் கூறுதல்|Use may, might or seems when you are unsure.|may/might + V1 · seems to + V1|This change may save time.|இந்த மாற்றம் நேரத்தை மிச்சப்படுத்தலாம்.
+பிறர் கருத்தைப் பதிவு செய்யும் வினைகள்|Use the structure that matches the reporting verb.|suggest + V-ing · advise + person + to + V1|She advised me to rest.|அவள் என்னை ஓய்வெடுக்குமாறு அறிவுறுத்தினாள்.
+விரிவான பெயர்ச்சொல் தொடர்|Add useful detail around a noun.|determiner + adjectives + noun + extra detail|The new library near our school is open.|எங்கள் பள்ளிக்கு அருகிலுள்ள புதிய நூலகம் திறந்திருக்கிறது.
+வினையைப் பெயர்ச்சொல்லாக மாற்றுதல்|Turn an action into a noun for formal writing.|decide → decision · improve → improvement|The decision surprised us.|அந்த முடிவு எங்களை ஆச்சரியப்படுத்தியது.
+வாதங்களை இணைக்கும் சொற்கள்|Organise ideas in a discussion.|Firstly · however · therefore · in conclusion|The cost is high; however, the quality is good.|விலை அதிகம்; ஆனால் தரம் நன்றாக இருக்கிறது.
+முறைசார்ந்த / இயல்பான மொழிநடை|Choose words that fit the situation.|formal: I would like to... · informal: I want to...|I would like to request a meeting.|ஒரு சந்திப்பைக் கோர விரும்புகிறேன்.

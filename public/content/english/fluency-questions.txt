@@ -1,0 +1,69 @@
+@practice-wh-basic|A2|questions|Wh-questions for everyday life|அன்றாட Wh-கேள்விகள்|Use what, where, when, why, who and how to ask for details.|Wh-word + do/does/did + subject + V1?
+&grammar-16,what-is-your-name,where-do-you-live
+=What do you usually do after work?|வேலைக்குப் பிறகு வழக்கமாக என்ன செய்வீர்கள்?
+=Where did you put the receipt?|ரசீதை எங்கே வைத்தீர்கள்?
+=When does the next train leave?|அடுத்த ரயில் எப்போது புறப்படும்?
+=Why did you choose this course?|இந்தப் படிப்பை ஏன் தேர்ந்தெடுத்தீர்கள்?
+=Who is waiting outside?|வெளியே காத்திருப்பவர் யார்?
+=How much time do we have?|நமக்கு எவ்வளவு நேரம் இருக்கிறது?
+?___ did you choose it? — Because it was useful.|ஏன் தேர்ந்தெடுத்தீர்கள்? — பயனுள்ளதாக இருந்ததால்.|Where~Why~When|1|காரணம் கேட்க Why.
+?Where did you ___ it?|எங்கே வைத்தீர்கள்?|put~putting~puts|0|Did + put. / அடிப்படை வினை.
+?Who is waiting? asks about...|எதைப் பற்றிக் கேட்கிறது?|A price~A date~A person|2|ஒரு நபரைப் பற்றி.
+>Ask a friend six different Wh-questions. / நண்பரிடம் ஆறு வகையான Wh-கேள்விகள் கேளுங்கள்.
+@practice-wh-subject-object|B1|questions|Who called? Who did you call?|எழுவாய் மற்றும் செயப்படுபொருள் கேள்விகள்|When who is the subject, do not add do/did in a normal positive question.|Who called you? · Who did you call?
+=Who called you last night?|நேற்றிரவு உங்களை யார் அழைத்தார்கள்?
+=Who did you call last night?|நேற்றிரவு நீங்கள் யாரை அழைத்தீர்கள்?
+=Which team won the match?|போட்டியில் எந்த அணி வென்றது?
+=Which team did you support?|நீங்கள் எந்த அணியை ஆதரித்தீர்கள்?
+=What caused the delay?|தாமதத்தை ஏற்படுத்தியது எது?
+=What did they say about the delay?|தாமதத்தைப் பற்றி அவர்கள் என்ன சொன்னார்கள்?
+?___ caused the problem?|பிரச்சினையை ஏற்படுத்தியது எது?|What did~What was~What|2|What எழுவாய் என்பதால் did தேவையில்லை.
+?Who did you ___?|நீங்கள் யாரை அழைத்தீர்கள்?|call~called~calling|0|Did பிறகு call.
+?Who called you? asks for...|எதைப் பற்றிக் கேட்கிறது?|The person you called~The person who called you~The phone number only|1|உங்களை அழைத்த நபர் யார்?
+>Create a subject question and an object question about the same event. / ஒரே நிகழ்வைப் பற்றி எழுவாய், செயப்படுபொருள் கேள்விகள் உருவாக்குங்கள்.
+@practice-negatives|B1|questions|Negatives that sound natural|இயல்பான எதிர்மறை வாக்கியங்கள்|Match the auxiliary to the tense; keep the following form correct.|do not + V1 · have not + V3 · am not + -ing
+&grammar-05,grammar-23
+=I do not agree with that conclusion.|அந்த முடிவுடன் எனக்கு உடன்பாடு இல்லை.
+=She did not realise that the time had changed.|நேரம் மாறியதை அவள் உணரவில்லை.
+=We have not received confirmation yet.|எங்களுக்கு இன்னும் உறுதிப்படுத்தல் கிடைக்கவில்லை.
+=I am not suggesting that we cancel the whole event.|நிகழ்வு முழுவதையும் ரத்து செய்ய வேண்டும் என்று நான் கூறவில்லை.
+=You do not have to decide immediately.|நீங்கள் உடனடியாக முடிவு செய்ய வேண்டியதில்லை.
+=You must not share the password with anyone.|கடவுச்சொல்லை யாருடனும் பகிரக் கூடாது.
+?Did not ___ the change.|மாற்றத்தைக் கவனிக்கவில்லை.|noticed~notice~noticing|1|Did not பிறகு அடிப்படை வினை: notice.
+?Do not have to means...|இதன் பொருள் என்ன?|Not necessary~Forbidden~Already finished|0|அவசியமில்லை; தடையல்ல.
+?Have not ___ confirmation.|உறுதிப்படுத்தல் கிடைக்கவில்லை.|receive~receiving~received|2|Have not பிறகு V3: received.
+>Explain something you have not done yet and something you do not need to do. / இன்னும் செய்யாததையும் செய்ய அவசியமில்லாததையும் கூறுங்கள்.
+@practice-wh-indirect|B2|questions|Ask detailed questions politely|விவரங்களை மரியாதையாகக் கேட்டல்|Use statement word order inside an indirect question.|Could you tell me + where/why/how + subject + verb?
+&grammar-64
+=Could you tell me why the appointment was cancelled?|சந்திப்பு ஏன் ரத்து செய்யப்பட்டது என்று சொல்ல முடியுமா?
+=Do you know when the final decision will be announced?|இறுதி முடிவு எப்போது அறிவிக்கப்படும் என்று உங்களுக்குத் தெரியுமா?
+=I was wondering whether you could explain the difference.|வித்தியாசத்தை நீங்கள் விளக்க முடியுமா என்று கேட்க விரும்பினேன்.
+=Could you clarify what you mean by a flexible schedule?|நெகிழ்வான அட்டவணை என்று நீங்கள் சொல்வதன் பொருளைத் தெளிவுபடுத்த முடியுமா?
+=How would you respond if a customer rejected the proposal?|வாடிக்கையாளர் முன்மொழிவை நிராகரித்தால் நீங்கள் எப்படி பதிலளிப்பீர்கள்?
+=Which factors should we take into account before deciding?|முடிவு செய்வதற்கு முன் எந்தக் காரணிகளைக் கருத்தில் கொள்ள வேண்டும்?
+?Could you tell me where ___?|நிலையம் எங்கே என்று சொல்ல முடியுமா?|is the station~the station is~does the station|1|உள்ளே statement வரிசை: the station is.
+?Do you know when she ___ arrive?|அவள் எப்போது வருவாள் என்று தெரியுமா?|will~does~is|0|When she will arrive. / எழுவாய்க்குப் பிறகு will.
+?Whether introduces...|Whether எதை அறிமுகப்படுத்துகிறது?|A place only~A price only~An indirect yes/no question|2|மறைமுக ஆம்/இல்லை கேள்வி.
+>Ask for clarification about a deadline, a cost and an unexpected change. / காலக்கெடு, செலவு, எதிர்பாராத மாற்றம் பற்றி விளக்கம் கேளுங்கள்.
+@practice-wh-past|B2|questions|Questions about causes and alternatives|காரணங்களும் மாற்றுத் தேர்வுகளும்|Ask what happened, why it mattered and what could have changed.|Why did...? · What might have...? · What would you have...?
+=What led to the misunderstanding?|தவறான புரிதலுக்கு எது காரணமானது?
+=Why had nobody raised the concern earlier?|முன்பே ஏன் யாரும் கவலையை எழுப்பவில்லை?
+=What might have caused the figures to change?|புள்ளிவிவரங்கள் மாறியதற்கு என்ன காரணமாக இருந்திருக்கலாம்?
+=How could we have handled the complaint more effectively?|புகாரை மேலும் திறமையாக எப்படி கையாண்டிருக்கலாம்?
+=What would you have done differently with more information?|மேலும் தகவல் இருந்திருந்தால் நீங்கள் எதை வேறுவிதமாகச் செய்திருப்பீர்கள்?
+=Who should have been informed before the change was introduced?|மாற்றத்தை அறிமுகப்படுத்துவதற்கு முன் யாருக்குத் தகவல் தெரிவித்திருக்க வேண்டும்?
+?What might have ___ the delay?|தாமதத்திற்கு என்ன காரணமாக இருந்திருக்கலாம்?|cause~causing~caused|2|Might have பிறகு V3: caused.
+?Who should have been ___?|யாருக்குத் தகவல் தெரிவித்திருக்க வேண்டும்?|informed~inform~informing|0|Have been பிறகு V3: informed.
+?Which asks about a better past response?|சிறந்த கடந்தகால நடவடிக்கை பற்றி எது கேட்கிறது?|Where is the office?~How could we have handled it better?~When do you start?|1|கடந்தகால மாற்று நடவடிக்கையைப் பற்றி கேட்கிறது.
+>Ask three follow-up questions about a past problem. / கடந்த பிரச்சினையைப் பற்றி மூன்று தொடர் கேள்விகள் கேளுங்கள்.
+@practice-negative-questions|B2|questions|Negative questions and careful replies|எதிர்மறைக் கேள்விகளும் தெளிவான பதில்களும்|Add a short explanation so yes/no replies are clear.|Didn't you...? · Isn't it...? · Haven't they...?
+=Didn't you receive the email? — No, I did not receive it.|மின்னஞ்சல் கிடைக்கவில்லையா? — இல்லை, எனக்குக் கிடைக்கவில்லை.
+=Isn't the office open today? — Yes, it is open until five.|அலுவலகம் இன்று திறந்திருக்கவில்லையா? — ஆம், ஐந்து மணி வரை திறந்திருக்கிறது.
+=Haven't they confirmed the date yet? — No, we are still waiting.|அவர்கள் இன்னும் தேதியை உறுதிப்படுத்தவில்லையா? — இல்லை, இன்னும் காத்திருக்கிறோம்.
+=Wouldn't it be better to test the idea first?|முதலில் யோசனையைச் சோதிப்பது சிறப்பாக இருக்காதா?
+=Don't you think we should ask for clarification?|நாம் விளக்கம் கேட்க வேண்டும் என்று நீங்கள் நினைக்கவில்லையா?
+=Why not discuss both options before making a decision?|முடிவு செய்வதற்கு முன் இரண்டு தேர்வுகளையும் ஏன் விவாதிக்கக் கூடாது?
+?Didn't you receive it? You received it. Reply...|உங்களுக்கு அது கிடைத்தது. என்ன பதில்?|Yes, I did.~No, I did.~Yes, I did not.|0|பெற்றிருந்தால் Yes, I did. என்று தெளிவாகக் கூறவும்.
+?Haven't they confirmed it? They have not. Reply...|அவர்கள் உறுதிப்படுத்தவில்லை.|Yes, they have.~No, they have not.~No, they have.|1|உறுதிப்படுத்தவில்லை: No, they have not.
+?Wouldn't it be better...? often makes...|இது பொதுவாக எதைக் கூறுகிறது?|A past date~A price~A suggestion|2|மென்மையான பரிந்துரை.
+>Write full replies to two negative questions. / இரண்டு எதிர்மறைக் கேள்விகளுக்கு முழுமையான பதில் எழுதுங்கள்.

@@ -1,0 +1,101 @@
+# level | formula | Tamil meaning | English meaning | English example | Tamil example
+A1|I am + noun/adjective|நான் ... ஆக இருக்கிறேன்|Say who you are or how you feel.|I am a student.|நான் ஒரு மாணவன்.
+A1|This is + noun|இது ...|Point to one thing.|This is my house.|இது என் வீடு.
+A1|I have + noun|என்னிடம் ... இருக்கிறது|Say what you have.|I have a pen.|என்னிடம் ஒரு பேனா இருக்கிறது.
+A1|I like + noun|எனக்கு ... பிடிக்கும்|Say what you like.|I like music.|எனக்கு இசை பிடிக்கும்.
+A1|I want + noun|எனக்கு ... வேண்டும்|Say what you want.|I want some water.|எனக்குக் கொஞ்சம் தண்ணீர் வேண்டும்.
+A1|I want to + V1|நான் ... விரும்புகிறேன்|Say what you want to do.|I want to learn English.|நான் ஆங்கிலம் கற்க விரும்புகிறேன்.
+A1|I need + noun|எனக்கு ... தேவை|Say what you need.|I need help.|எனக்கு உதவி தேவை.
+A1|I can + V1|என்னால் ... முடியும்|Say what you can do.|I can cook.|எனக்குச் சமைக்கத் தெரியும்.
+A1|I cannot + V1|என்னால் ... முடியாது|Say what you cannot do.|I cannot drive.|எனக்கு வண்டி ஓட்டத் தெரியாது.
+A1|There is + singular noun|... இருக்கிறது|Say one thing exists.|There is a shop nearby.|அருகில் ஒரு கடை இருக்கிறது.
+A1|There are + plural noun|... இருக்கின்றன|Say several things exist.|There are two buses.|இரண்டு பேருந்துகள் உள்ளன.
+A1|Do you + V1?|நீங்கள் ... செய்கிறீர்களா?|Ask about a habit.|Do you drink coffee?|நீங்கள் காபி குடிப்பீர்களா?
+A1|Where is + noun?|... எங்கே இருக்கிறது?|Ask for a place.|Where is the station?|ரயில் நிலையம் எங்கே இருக்கிறது?
+A1|Please + V1|தயவுசெய்து ...|Make a simple request.|Please wait here.|தயவுசெய்து இங்கே காத்திருங்கள்.
+A1|Let us + V1|நாம் ... செய்வோம்|Suggest doing something together.|Let us start.|நாம் தொடங்குவோம்.
+A2|I would like + noun|எனக்கு ... வேண்டும்|Ask politely for something.|I would like a cup of tea.|எனக்கு ஒரு கோப்பை தேநீர் வேண்டும்.
+A2|Could you + V1?|உங்களால் ... முடியுமா?|Make a polite request.|Could you repeat that?|அதை மீண்டும் சொல்ல முடியுமா?
+A2|Can I + V1?|நான் ... செய்யலாமா?|Ask for permission.|Can I sit here?|நான் இங்கே உட்காரலாமா?
+A2|I am going to + V1|நான் ... செய்யப் போகிறேன்|Say your plan.|I am going to visit my parents.|நான் என் பெற்றோரைப் பார்க்கப் போகிறேன்.
+A2|I will + V1|நான் ... செய்வேன்|Promise or decide something.|I will call you tonight.|நான் இன்றிரவு உங்களை அழைப்பேன்.
+A2|I did not + V1|நான் ... செய்யவில்லை|Say what did not happen.|I did not sleep well.|நான் நன்றாகத் தூங்கவில்லை.
+A2|Did you + V1?|நீங்கள் ... செய்தீர்களா?|Ask about the past.|Did you eat breakfast?|நீங்கள் காலை உணவு சாப்பிட்டீர்களா?
+A2|I have never + V3|நான் ஒருபோதும் ... செய்ததில்லை|Say you have no experience of something.|I have never flown.|நான் ஒருபோதும் விமானத்தில் பயணம் செய்ததில்லை.
+A2|Have you ever + V3?|நீங்கள் எப்போதாவது ... செய்திருக்கிறீர்களா?|Ask about experience.|Have you ever visited Ooty?|நீங்கள் எப்போதாவது ஊட்டிக்குச் சென்றிருக்கிறீர்களா?
+A2|I have to + V1|நான் ... செய்ய வேண்டும்|Say what is necessary.|I have to leave now.|நான் இப்போது கிளம்ப வேண்டும்.
+A2|You should + V1|நீங்கள் ... செய்ய வேண்டும்|Give advice.|You should drink more water.|நீங்கள் அதிகத் தண்ணீர் குடிக்க வேண்டும்.
+A2|It is + adjective + to + V1|... செய்வது ...|Describe an action.|It is easy to use.|இதைப் பயன்படுத்துவது எளிது.
+A2|I enjoy + V-ing|எனக்கு ... செய்வது பிடிக்கும்|Say what you enjoy.|I enjoy swimming.|எனக்கு நீந்துவது பிடிக்கும்.
+A2|I am interested in + noun/V-ing|எனக்கு ... மீது ஆர்வம் உள்ளது|Say your interest.|I am interested in photography.|எனக்குப் புகைப்படக்கலையில் ஆர்வம் உள்ளது.
+A2|Would you like to + V1?|நீங்கள் ... விரும்புகிறீர்களா?|Invite someone.|Would you like to join us?|எங்களுடன் சேர விரும்புகிறீர்களா?
+A2|How much is + noun?|... என்ன விலை?|Ask a price.|How much is this shirt?|இந்தச் சட்டை என்ன விலை?
+A2|How long does it take to + V1?|... செய்ய எவ்வளவு நேரம் ஆகும்?|Ask about time needed.|How long does it take to get there?|அங்கே செல்ல எவ்வளவு நேரம் ஆகும்?
+A2|A is + comparative + than B|அதைவிட இது ...|Compare two things.|This room is bigger than that room.|இந்த அறை அந்த அறையைவிடப் பெரியது.
+A2|If + present, I will + V1|... என்றால் நான் ... செய்வேன்|Say a possible result.|If I finish early, I will come.|சீக்கிரம் முடித்தால், நான் வருவேன்.
+A2|I was + V-ing + when...|... போது நான் ... செய்துகொண்டிருந்தேன்|Describe an interrupted action.|I was sleeping when you called.|நீங்கள் அழைத்தபோது நான் தூங்கிக்கொண்டிருந்தேன்.
+B1|I used to + V1|முன்பு நான் ... செய்வேன்|Describe an old habit.|I used to cycle to school.|முன்பு நான் பள்ளிக்கு மிதிவண்டியில் செல்வேன்.
+B1|I am used to + V-ing|... செய்வது எனக்குப் பழகிவிட்டது|Say something feels normal now.|I am used to working at night.|இரவில் வேலை செய்வது எனக்குப் பழகிவிட்டது.
+B1|I have been + V-ing + for...|நான் ... நேரமாக ... செய்கிறேன்|Say how long an activity has continued.|I have been waiting for an hour.|நான் ஒரு மணி நேரமாகக் காத்திருக்கிறேன்.
+B1|I had already + V3 + when...|... போது நான் ஏற்கெனவே ... செய்திருந்தேன்|Show an earlier past action.|I had already left when she arrived.|அவள் வந்தபோது நான் ஏற்கெனவே கிளம்பியிருந்தேன்.
+B1|If I were..., I would...|நான் ... ஆக இருந்தால் ... செய்வேன்|Imagine a different situation.|If I were you, I would ask for help.|நான் உங்கள் இடத்தில் இருந்தால், உதவி கேட்பேன்.
+B1|I would + V1 + if...|... என்றால் நான் ... செய்வேன்|Give an imaginary result.|I would travel if I had more time.|எனக்கு அதிக நேரம் இருந்தால் பயணம் செய்வேன்.
+B1|Although + clause, + clause|... இருந்தாலும் ...|Show a contrast.|Although it was late, we continued.|தாமதமாக இருந்தாலும், நாங்கள் தொடர்ந்தோம்.
+B1|Despite + noun, + clause|... இருந்தபோதிலும் ...|Show a contrast using a noun.|Despite the traffic, I arrived on time.|போக்குவரத்து நெரிசல் இருந்தபோதிலும், நான் நேரத்திற்கு வந்தேன்.
+B1|I am looking forward to + V-ing|... செய்வதை ஆவலுடன் எதிர்பார்க்கிறேன்|Say you are excited about something ahead.|I am looking forward to meeting you.|உங்களைச் சந்திப்பதை ஆவலுடன் எதிர்பார்க்கிறேன்.
+B1|Would you mind + V-ing?|... செய்ய முடியுமா?|Ask politely.|Would you mind closing the window?|சன்னலை மூட முடியுமா?
+B1|Do you mind if I + V1?|நான் ... செய்வதில் உங்களுக்கு ஆட்சேபனை உள்ளதா?|Ask permission politely.|Do you mind if I open the window?|நான் சன்னலைத் திறப்பதில் உங்களுக்கு ஆட்சேபனை உள்ளதா?
+B1|Could you tell me + Wh-clause?|... என்று சொல்ல முடியுமா?|Ask an indirect question.|Could you tell me when the shop opens?|கடை எப்போது திறக்கும் என்று சொல்ல முடியுமா?
+B1|I wonder if + clause|... என்று யோசிக்கிறேன்|Ask or think gently.|I wonder if she is free tomorrow.|அவளுக்கு நாளை நேரம் இருக்குமா என்று யோசிக்கிறேன்.
+B1|It depends on + noun|அது ... பொறுத்தது|Say what affects a decision.|It depends on the weather.|அது வானிலையைப் பொறுத்தது.
+B1|The reason is that + clause|காரணம் ...|Give a reason.|The reason is that we need more time.|எங்களுக்கு அதிக நேரம் தேவை என்பதே காரணம்.
+B1|One advantage is that + clause|ஒரு நன்மை ...|Describe a benefit.|One advantage is that it saves money.|பணத்தை மிச்சப்படுத்துவது ஒரு நன்மை.
+B1|The problem is that + clause|பிரச்சினை என்னவென்றால் ...|Explain a difficulty.|The problem is that we have no space.|எங்களிடம் இடம் இல்லை என்பதுதான் பிரச்சினை.
+B1|I would suggest + V-ing|... செய்யலாம் என்று பரிந்துரைக்கிறேன்|Suggest an action.|I would suggest taking a break.|ஓய்வு எடுக்கலாம் என்று பரிந்துரைக்கிறேன்.
+B1|You should have + V3|நீங்கள் ... செய்திருக்க வேண்டும்|Say a better past action.|You should have checked the address.|நீங்கள் முகவரியைச் சரிபார்த்திருக்க வேண்டும்.
+B1|You do not have to + V1|நீங்கள் ... செய்ய வேண்டியதில்லை|Say something is not necessary.|You do not have to pay today.|நீங்கள் இன்று பணம் செலுத்த வேண்டியதில்லை.
+B1|You must not + V1|நீங்கள் ... செய்யக் கூடாது|Say something is forbidden.|You must not park here.|நீங்கள் இங்கே வண்டி நிறுத்தக் கூடாது.
+B1|It might + V1|அது ... செய்யக்கூடும்|Say something is possible.|It might rain tonight.|இன்றிரவு மழை பெய்யக்கூடும்.
+B1|It must be + noun/adjective|அது ... ஆகத்தான் இருக்க வேண்டும்|Make a strong guess.|It must be difficult.|அது கடினமாகத்தான் இருக்க வேண்டும்.
+B1|The more..., the more...|... அதிகரிக்க அதிகரிக்க ...|Show two linked changes.|The more I practise, the more confident I feel.|நான் பயிற்சி செய்யச் செய்ய, எனக்குத் தன்னம்பிக்கை அதிகரிக்கிறது.
+B1|not as + adjective + as|... அளவுக்கு ... இல்லை|Compare two things.|This bag is not as heavy as that one.|இந்தப் பை அந்தப் பை அளவுக்குக் கனமாக இல்லை.
+B1|too + adjective + to + V1|... செய்ய முடியாத அளவுக்கு ...|Say something exceeds a useful limit.|I am too tired to drive.|வண்டி ஓட்ட முடியாத அளவுக்கு நான் சோர்வாக இருக்கிறேன்.
+B1|adjective + enough + to + V1|... செய்வதற்குப் போதுமான ...|Say something is sufficient.|She is old enough to vote.|அவள் வாக்களிக்கத் தேவையான வயதை அடைந்துவிட்டாள்.
+B1|I was told to + V1|என்னை ... செய்யச் சொன்னார்கள்|Report an instruction.|I was told to wait outside.|என்னை வெளியே காத்திருக்கச் சொன்னார்கள்.
+B1|It was + V3 + by...|அது ... ஆல் செய்யப்பட்டது|Focus on an action and its doer.|It was written by my teacher.|அது என் ஆசிரியரால் எழுதப்பட்டது.
+B1|What I need is + noun|எனக்குத் தேவையானது ...|Emphasise what you need.|What I need is a quiet room.|எனக்குத் தேவையானது ஓர் அமைதியான அறை.
+B2|If I had + V3, I would have + V3|நான் ... செய்திருந்தால் ... செய்திருப்பேன்|Imagine a different past.|If I had known, I would have helped.|எனக்குத் தெரிந்திருந்தால், நான் உதவியிருப்பேன்.
+B2|If I had + V3, I would + V1|கடந்தது மாறியிருந்தால் இப்போது ...|Link an unreal past with the present.|If I had saved money, I would own a car now.|நான் பணம் சேமித்திருந்தால், இப்போது எனக்குச் சொந்தமாக ஒரு கார் இருக்கும்.
+B2|I wish I + past simple|நான் ... செய்தால் நன்றாக இருக்கும்|Wish for a different present.|I wish I spoke English fluently.|நான் ஆங்கிலம் சரளமாகப் பேசினால் நன்றாக இருக்கும்.
+B2|I wish I had + V3|நான் ... செய்திருந்தால் நன்றாக இருந்திருக்கும்|Express a past regret.|I wish I had listened.|நான் கேட்டிருந்தால் நன்றாக இருந்திருக்கும்.
+B2|If only + past simple|... இருந்தால் எவ்வளவு நன்றாக இருக்கும்|Express a strong present wish.|If only I had more time.|எனக்கு இன்னும் நேரம் இருந்தால் எவ்வளவு நன்றாக இருக்கும்.
+B2|I would rather + V1 + than + V1|... செய்வதைவிட ... செய்ய விரும்புகிறேன்|Compare preferred actions.|I would rather walk than wait.|காத்திருப்பதைவிட நடக்க விரும்புகிறேன்.
+B2|I would prefer to + V1|நான் ... செய்ய விரும்புகிறேன்|State a preference politely.|I would prefer to discuss this tomorrow.|இதை நாளை விவாதிக்க விரும்புகிறேன்.
+B2|I had + object + V3|நான் ... செய்வித்தேன்|Arrange a service.|I had my car serviced.|நான் என் காரைப் பராமரிப்புக்குக் கொடுத்தேன்.
+B2|I will have + V3 + by...|... நேரத்திற்குள் முடித்திருப்பேன்|Say a future action will be complete.|I will have sent it by noon.|மதியத்திற்குள் அதை அனுப்பியிருப்பேன்.
+B2|I will have been + V-ing + for...|... காலமாகச் செய்துகொண்டிருப்பேன்|Say the duration up to a future time.|By May, I will have been teaching for ten years.|மே மாதத்துடன், நான் பத்து ஆண்டுகளாகக் கற்பித்துக்கொண்டிருப்பேன்.
+B2|It is believed that + clause|... என்று நம்பப்படுகிறது|Report a common belief.|It is believed that the temple is ancient.|அந்தக் கோவில் பழமையானது என்று நம்பப்படுகிறது.
+B2|Subject + is said to + V1|... என்று கூறப்படுகிறது|Report what others say.|She is said to be an excellent doctor.|அவள் மிகச் சிறந்த மருத்துவர் என்று கூறப்படுகிறது.
+B2|Subject + seems to + V1|... போலத் தெரிகிறது|Describe an impression.|The plan seems to work.|திட்டம் பயனளிப்பதுபோலத் தெரிகிறது.
+B2|Subject + tends to + V1|பொதுவாக ... செய்வது வழக்கம்|Describe a usual tendency.|He tends to arrive early.|அவன் பொதுவாகச் சீக்கிரம் வருவது வழக்கம்.
+B2|It is likely that + clause|... வாய்ப்புள்ளது|Say something is probable.|It is likely that prices will rise.|விலைகள் உயர வாய்ப்புள்ளது.
+B2|There is a chance that + clause|... சாத்தியம் உள்ளது|Say something may happen.|There is a chance that the train will be late.|ரயில் தாமதமாக வரச் சாத்தியம் உள்ளது.
+B2|Subject + may have + V3|... செய்திருக்கலாம்|Suggest a possible past event.|She may have forgotten.|அவள் மறந்திருக்கலாம்.
+B2|Subject + cannot have + V3|... செய்திருக்க முடியாது|Reject a past possibility.|He cannot have finished already.|அவன் அதற்குள் முடித்திருக்க முடியாது.
+B2|Subject + must have + V3|... செய்திருக்க வேண்டும்|Make a strong past deduction.|You must have worked hard.|நீங்கள் கடினமாக உழைத்திருக்க வேண்டும்.
+B2|Not only + auxiliary + subject..., but...|... மட்டுமல்ல ... கூட|Emphasise two facts.|Not only did she cook, but she also cleaned.|அவள் சமைத்தது மட்டுமல்லாமல் சுத்தமும் செய்தாள்.
+B2|Never + have/has + subject + V3|ஒருபோதும் ... செய்ததில்லை|Emphasise a negative experience.|Never have I felt so welcome.|இவ்வளவு அன்பான வரவேற்பை நான் ஒருபோதும் உணர்ந்ததில்லை.
+B2|Only then + did + subject + V1|அப்போதுதான் ...|Emphasise the moment of understanding.|Only then did I understand.|அப்போதுதான் எனக்குப் புரிந்தது.
+B2|It was + focus + that...|... தான் ...|Highlight one detail.|It was yesterday that she called.|நேற்றுதான் அவள் அழைத்தாள்.
+B2|What matters is + noun/clause|முக்கியமானது ...|Focus on the main point.|What matters is your health.|உங்கள் உடல்நலம்தான் முக்கியம்.
+B2|Having + V3, + clause|... செய்தபின் ...|Link an earlier action to the same doer.|Having finished the work, I went home.|வேலையை முடித்துவிட்டு, நான் வீட்டிற்குச் சென்றேன்.
+B2|Provided that + clause, + clause|... என்ற நிபந்தனையில் ...|Set a condition.|You can join provided that you register.|பதிவு செய்தால் நீங்கள் சேரலாம்.
+B2|Unless + clause, + clause|... இல்லாவிட்டால் ...|Give an exception or condition.|Unless we hurry, we will be late.|நாம் அவசரப்படாவிட்டால், தாமதமாகிவிடும்.
+B2|Even if + clause, + clause|... என்றாலும் ...|Say a result stays the same.|Even if it rains, I will come.|மழை பெய்தாலும், நான் வருவேன்.
+B2|No matter how + adjective, + clause|எவ்வளவு ... இருந்தாலும் ...|Say a difficulty does not change the result.|No matter how busy I am, I call my parents.|நான் எவ்வளவு வேலையாக இருந்தாலும், என் பெற்றோரை அழைப்பேன்.
+B2|As far as I know, + clause|எனக்குத் தெரிந்தவரை ...|Limit a claim to your knowledge.|As far as I know, the office is open.|எனக்குத் தெரிந்தவரை, அலுவலகம் திறந்திருக்கிறது.
+B2|From my perspective, + clause|என் பார்வையில் ...|Give your point of view.|From my perspective, the plan is practical.|என் பார்வையில், திட்டம் நடைமுறைக்கு ஏற்றது.
+B2|I agree to some extent, but...|ஓரளவுக்கு ஒப்புக்கொள்கிறேன், ஆனால் ...|Partly agree before adding a concern.|I agree to some extent, but the cost is high.|ஓரளவுக்கு ஒப்புக்கொள்கிறேன், ஆனால் செலவு அதிகம்.
+B2|The main drawback is that + clause|முக்கியக் குறை ...|Describe a disadvantage.|The main drawback is that it takes time.|அதற்கு நேரம் பிடிப்பதுதான் முக்கியக் குறை.
+B2|In contrast to + noun, + clause|... க்கு மாறாக ...|Compare different things.|In contrast to buses, trains avoid road traffic.|பேருந்துகளுக்கு மாறாக, ரயில்கள் சாலை நெரிசலைத் தவிர்க்கின்றன.
+B2|Taking everything into account, + clause|எல்லாவற்றையும் கருத்தில் கொண்டால் ...|Give a balanced conclusion.|Taking everything into account, we should wait.|எல்லாவற்றையும் கருத்தில் கொண்டால், நாம் காத்திருக்க வேண்டும்.

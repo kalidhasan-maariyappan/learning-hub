@@ -1,0 +1,26 @@
+{
+  "tkg-cc0": {
+    "name": "TKG English Learner’s Dictionary",
+    "url": "https://github.com/tkgally/eex-dict",
+    "commit": "97cfaf08d98cfc38643e83fbbf3c28c007000ae5",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "translation": "machine-assisted English-to-Tamil; sample corrections",
+    "downloaded": "2026-11-10"
+  },
+  "learning-order": {
+    "name": "LexiCore-5000 v1.0.0",
+    "url": "https://github.com/X-Trivle/LexiCore",
+    "license": "CC-BY-4.0",
+    "noticeUrl": "https://github.com/X-Trivle/LexiCore/blob/main/NOTICE.md",
+    "use": "Frequency/profile evidence only to inform custom learning order. Labels are not presented as official CEFR certification."
+  },
+  "wordnet-3.0": {
+    "name": "Princeton WordNet 3.0",
+    "url": "https://wordnet.princeton.edu/",
+    "license": "WordNet-3.0",
+    "licenseUrl": "https://wordnet.princeton.edu/license-and-commercial-use",
+    "translation": "machine-assisted English-to-Tamil; sample corrections",
+    "copyright": "WordNet 3.0 Copyright 2006 by Princeton University. All rights reserved."
+  }
+}

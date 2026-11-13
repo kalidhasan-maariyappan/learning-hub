@@ -42,7 +42,7 @@ const worker = path.join(out, 'sw.js');
 fs.writeFileSync(worker, fs.readFileSync(worker,'utf8').replace(/learning-hub-v\d+/, 'learning-hub-' + digest.digest('hex').slice(0,16)));
 const context = { window: { JT: {} } };
 vm.createContext(context);
-for (const file of ['content/rails/practical_curriculum.js', 'nav.js', 'content/spring-boot-crash/catalog.js', 'spring-boot-crash-nav.js', 'core-advanced-nav.js', 'spring-nav.js', 'spring-boot-nav.js', 'spring-boot-path-nav.js', 'security-nav.js', 'ruby-nav.js', 'interview-catalog.js', 'interview-nav.js']) {
+for (const file of ['content/rails/practical_curriculum.js', 'nav.js', 'content/spring-boot-crash/catalog.js', 'content/spring-boot-crash/continuation-catalog.js', 'spring-boot-crash-nav.js', 'core-advanced-nav.js', 'spring-nav.js', 'spring-boot-nav.js', 'spring-boot-path-nav.js', 'security-nav.js', 'ruby-nav.js', 'interview-catalog.js', 'interview-nav.js']) {
   vm.runInContext(fs.readFileSync(path.join(out, 'js', file), 'utf8'), context);
 }
 const shell = fs.readFileSync(path.join(out, 'index.html'), 'utf8');

@@ -1,5 +1,5 @@
 /* Bump this version when publishing changed lessons or assets. */
-const VERSION = 'learning-hub-v5';
+const VERSION = 'learning-hub-v6';
 const BASE = new URL('./', self.location.href);
 const CACHE = VERSION + ':' + BASE.pathname;
 const local = path => new URL(path, BASE).href;

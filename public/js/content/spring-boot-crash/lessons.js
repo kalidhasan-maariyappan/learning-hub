@@ -31,7 +31,8 @@
     '<div class="note"><p>Learn the concepts in order: set up a project, understand Spring’s managed objects, and follow the course through data access, security, and later features.</p></div>'+
     '<p>Each lesson follows one supplied video. Explanations are rewritten as tutorials, with short topic titles and examples drawn from that lesson.</p>'+
     '<p class="small">'+catalog.length+' lessons · Follow the course in order or choose a topic below. Each lesson includes its original video reference.</p>'+
-    '<h2>Course lessons</h2><ol class="sbc-catalog">'+catalog.map(l=>'<li><a href="'+JT.url(l.slug)+'">'+esc(l.title)+'</a><span class="small">'+(tutorials.has(l.number)?'Tutorial':'Awaiting tutorial rewrite')+'</span></li>').join('')+'</ol>'
+    '<h2>Continue learning</h2><p><a href="'+JT.url('sbc_application')+'">Application Development — 17 lessons</a></p><p><a href="'+JT.url('sbc_distributed')+'">Distributed Workflows — 20 lessons</a></p>'+
+    '<h2>Original course lessons</h2><ol class="sbc-catalog">'+catalog.map(l=>'<li><a href="'+JT.url(l.slug)+'">'+esc(l.title)+'</a><span class="small">'+(tutorials.has(l.number)?'Tutorial':'Awaiting tutorial rewrite')+'</span></li>').join('')+'</ol>'
   });
   for (const lesson of catalog) {
     JT.def(lesson.slug,{title:lesson.title,body:()=>{

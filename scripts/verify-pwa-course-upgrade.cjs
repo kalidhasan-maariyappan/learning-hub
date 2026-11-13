@@ -7,7 +7,11 @@ const http = require('node:http');
 const {execFileSync} = require('node:child_process');
 const {chromium} = require(process.env.PLAYWRIGHT_MODULE || 'playwright');
 const root = path.resolve(__dirname,'..'), publicRoot = path.join(root,'public');
-const previous = file => execFileSync('git',['show','HEAD:public/'+file],{cwd:root,encoding:'utf8',maxBuffer:8*1024*1024});
+// HEAD advances after a release; find an actual pre-course router instead of assuming HEAD is old.
+const history=execFileSync('git',['rev-list','HEAD','--','public/js/app.js'],{cwd:root,encoding:'utf8'}).trim().split(/\s+/);
+const oldRevision=history.find(revision=>!execFileSync('git',['show',revision+':public/js/app.js'],{cwd:root,encoding:'utf8',maxBuffer:8*1024*1024}).includes('bootCrashNav'));
+assert.ok(oldRevision,'A pre-course router revision is required for this migration check');
+const previous = file => execFileSync('git',['show',oldRevision+':public/'+file],{cwd:root,encoding:'utf8',maxBuffer:8*1024*1024});
 const oldShell = previous('index.html'), oldRouter = previous('js/app.js'), oldWorker = previous('sw.js');
 assert.ok(!oldRouter.includes('bootCrashNav'),'Fixture must predate the crash course');
 let mode = 'old';

@@ -12,7 +12,7 @@ const fs = require('node:fs');
     await page.goto(base+'/spring-boot-crash-course/');
     await page.waitForSelector('.sbc-catalog');
     assert.equal(await page.locator('.sbc-catalog li').count(),63);
-    assert.equal(await page.locator('#sidebar a').count(),64);
+    assert.equal(await page.locator('#sidebar a').count(),103);
     assert.match(await page.locator('h1').innerText(),/Spring Boot Crash Course/);
     const titles = await page.evaluate(()=>JT.bootCrashCatalog.map(l=>[l.slug,l.title]));
     // Visit every real direct URL, not just the data registrations.

@@ -1,0 +1,15 @@
+name: Continuation verification
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '25'
+          cache: maven
+      - run: mvn -B -f demo/spring-boot-crash/continuation/pom.xml verify
+      - run: mvn -B -f demo/spring-boot-crash/continuation/commerce/pom.xml -Dtest=PostgresIT test
+      - run: docker build -t commerce:${{ github.sha }} demo/spring-boot-crash/continuation/commerce

@@ -1,0 +1,18 @@
+{
+  "checkedAt": "2026-11-13T13:31:31.586Z",
+  "mode": "three separate Java processes, HTTP orchestration, file-backed H2 databases",
+  "checks": [
+    "success: COMPLETED, CHARGED, COMMITTED, duplicate start safe",
+    "decline: CANCELLED, DECLINED, RELEASED, duplicate start safe",
+    "compensation: CANCELLED, REFUNDED, RELEASED, duplicate start safe",
+    "Coordinator restart resumes persisted RESERVED phase and produces one charge",
+    "Internal workflow endpoints reject missing shared key"
+  ],
+  "externalNotRun": [
+    "Stripe sandbox",
+    "RabbitMQ choreography",
+    "PostgreSQL/Testcontainers",
+    "Temporal server",
+    "OTLP collector"
+  ]
+}

@@ -1,0 +1,8 @@
+// Run only after a successful continuation Maven build.
+'use strict';
+const fs=require('node:fs'),path=require('node:path'),crypto=require('node:crypto'),assert=require('node:assert/strict');
+const root=path.resolve(__dirname,'..'),base=path.join(root,'demo/spring-boot-crash/continuation');
+function files(dir){return fs.readdirSync(dir,{withFileTypes:true}).flatMap(e=>{const f=path.join(dir,e.name);return e.isDirectory()?files(f):[f];});}
+const modules=['commerce','workflow','temporal'].map(name=>{assert.ok(fs.existsSync(path.join(base,name,'target',name+'-1.0.0.jar')));const inputs=[path.join(base,name,'pom.xml'),...files(path.join(base,name,'src'))];return {name,status:'packaged',files:inputs.map(file=>({path:path.relative(base,file).replaceAll('\\','/'),sha256:crypto.createHash('sha256').update(fs.readFileSync(file)).digest('hex')}))};});
+const tests=['commerce','workflow'].flatMap(name=>files(path.join(base,name,'target/surefire-reports')).filter(f=>/TEST-.*\.xml$/.test(f)).map(f=>{const text=fs.readFileSync(f,'utf8'),tag=/<testsuite\b[^>]*>/.exec(text)[0],attr=n=>new RegExp(n+'="([^\"]+)"').exec(tag)?.[1];assert.equal(Number(attr('failures')),0);assert.equal(Number(attr('errors')),0);return {suite:attr('name'),tests:Number(attr('tests')),failures:0,errors:0,skipped:Number(attr('skipped'))};}));
+fs.writeFileSync(path.join(root,'docs/SPRING-BOOT-CRASH-CONTINUATION-BUILD.json'),JSON.stringify({recordedAt:new Date().toISOString(),java:25,boot:'3.5.16',modules,tests},null,2)+'\n');console.log('Recorded 3 packaged modules and '+tests.reduce((n,t)=>n+t.tests,0)+' passing tests.');

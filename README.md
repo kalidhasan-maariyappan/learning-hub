@@ -111,6 +111,8 @@ The course shows Java and XML examples that fit into a plain Spring Maven projec
 
 # Spring Boot learning area
 
+The Crash Course now has two continuation menus: **Application Development (17 lessons)** and **Distributed Workflows (20 lessons)**. Their examples share an order application and continue into separate Order, Inventory and Payment processes. See [setup, verification and external requirements](docs/SPRING-BOOT-CRASH-CONTINUATION.md).
+
 ## Transcript-based Spring Boot Crash Course
 
 The separate `/spring-boot-crash-course/` route contains 63 instructor-style tutorials based on the numbered Markdown sources in `bootcamp-springboot/`. The lessons teach concepts directly with compact explanations, maps, file instructions, complete examples and code walkthroughs. They retain the original example domains and sequence, with source provenance in a collapsed disclosure.

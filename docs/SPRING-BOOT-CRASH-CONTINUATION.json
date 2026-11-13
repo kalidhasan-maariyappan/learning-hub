@@ -1,0 +1,580 @@
+{
+  "groups": [
+    {
+      "id": "application",
+      "prefix": "sbc_app_",
+      "title": "Application Development",
+      "home": "sbc_application",
+      "module": "commerce",
+      "count": 17
+    },
+    {
+      "id": "distributed",
+      "prefix": "sbc_dist_",
+      "title": "Distributed Workflows",
+      "home": "sbc_distributed",
+      "module": "workflow",
+      "count": 20
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "sbc_app_01",
+      "title": "Request Validation",
+      "files": [
+        {
+          "path": "commerce/src/main/java/hub/commerce/OrderController.java",
+          "sha256": "ed5a7cb06fbbaab0d25927fa3364f1d7d450c088d6e3faa3c596545e67c36ea4"
+        },
+        {
+          "path": "commerce/src/main/java/hub/commerce/ApiErrors.java",
+          "sha256": "4a331f28ef9f9186dfd158a87f2d203bd2d5b5aa1ced5b51287ed4c5b42233c6"
+        }
+      ]
+    },
+    {
+      "slug": "sbc_app_02",
+      "title": "REST API Design",
+      "files": [
+        {
+          "path": "commerce/src/main/java/hub/commerce/OrderController.java",
+          "sha256": "ed5a7cb06fbbaab0d25927fa3364f1d7d450c088d6e3faa3c596545e67c36ea4"
+        },
+        {
+          "path": "commerce/src/main/java/hub/commerce/ApiErrors.java",
+          "sha256": "4a331f28ef9f9186dfd158a87f2d203bd2d5b5aa1ced5b51287ed4c5b42233c6"
+        },
+        {
+          "path": "commerce/src/main/java/hub/commerce/OrderService.java",
+          "sha256": "8686ae57b9a53b40f80b1d361fc0d8d87829c5c00d3e41d3d7e9f00a05fd8602"
+        }
+      ]
+    },
+    {
+      "slug": "sbc_app_03",
+      "title": "OpenAPI and Swagger UI",
+      "files": [
+        {
+          "path": "commerce/pom.xml",
+          "sha256": "4f30b21b00fd647531f6c0e9746faacc4b026f8756c2518e2b07f715323a637c"
+        },
+        {
+          "path": "commerce/src/test/java/hub/commerce/CommerceTest.java",
+          "sha256": "78434dc716cdb9970827f61365db92f6c802090e2ec11ffe8cc07f4a1ba604f3"
+        }
+      ]
+    },
+    {
+      "slug": "sbc_app_04",
+      "title": "Database Migrations with Flyway",
+      "files": [
+        {
+          "path": "commerce/src/main/resources/db/migration/V1__commerce.sql",
+          "sha256": "179b9958d2bf8046c738e171e810287cf6c05f28429dd38af6a144c6f0eff458"
+        },
+        {
+          "path": "commerce/src/main/resources/application.properties",
+          "sha256": "85d8dc80a44f69f9dcec50b68c16676e29cf59bae2fcf8ad272c71ca770da513"
+        },
+        {
+          "path": "commerce/src/main/java/hub/commerce/PurchaseOrder.java",
+          "sha256": "98ca4e7db3ca4016dd012cc94177b556f04b6537ec7be007a852ed09c5a80fc8"
+        },
+        {
+          "path": "commerce/src/main/resources/application-postgres.properties",
+          "sha256": "717a828ff959a7c15738da41df026aadfa64c74a8012eefb04b86e4cfd7426b0"
+        },
+        {
+          "path": "compose.yaml",
+          "sha256": "6274a84a93c5c2b0d2d4bfffb8b65f22302a440fd30a98b7c05cf6e8b2610462"
+        }
+      ]
+    },
+    {
+      "slug": "sbc_app_05",
+      "title": "Advanced JPA and Fetch Planning",
+      "files": [
+        {
+          "path": "commerce/src/main/resources/application.properties",
+          "sha256": "85d8dc80a44f69f9dcec50b68c16676e29cf59bae2fcf8ad272c71ca770da513"
+        },
+        {
+          "path": "commerce/src/main/java/hub/commerce/Orders.java",
+          "sha256": "db8d79886b5a580c58324cb21e7c55e58a18ba20cc105bf56c8c3d7b11a1c19e"
+        },
+        {
+          "path": "commerce/src/main/java/hub/commerce/OrderLine.java",
+          "sha256": "7efda1bd3188b50899b1d073911e1d32c589956c35cfa7aab7914c223076344a"
+        },
+        {
+          "path": "commerce/src/main/java/hub/commerce/OrderDetail.java",
+          "sha256": "461688631b4351e6d60523c9415c8491937004e26f15baf48fbd8e75135e9929"
+        },
+        {
+          "path": "commerce/src/main/java/hub/commerce/PurchaseOrder.java",
+          "sha256": "98ca4e7db3ca4016dd012cc94177b556f04b6537ec7be007a852ed09c5a80fc8"
+        }
+      ]
+    },
+    {
+      "slug": "sbc_app_06",
+      "title": "Concurrency and Locking",
+      "files": [
+        {
+          "path": "commerce/src/main/java/hub/commerce/PurchaseOrder.java",
+          "sha256": "98ca4e7db3ca4016dd012cc94177b556f04b6537ec7be007a852ed09c5a80fc8"
+        },
+        {
+          "path": "commerce/src/main/java/hub/commerce/ApiErrors.java",
+          "sha256": "4a331f28ef9f9186dfd158a87f2d203bd2d5b5aa1ced5b51287ed4c5b42233c6"
+        },
+        {
+          "path": "commerce/src/main/java/hub/commerce/Orders.java",
+          "sha256": "db8d79886b5a580c58324cb21e7c55e58a18ba20cc105bf56c8c3d7b11a1c19e"
+        },
+        {
+          "path": "commerce/src/main/java/hub/commerce/OrderService.java",
+          "sha256": "8686ae57b9a53b40f80b1d361fc0d8d87829c5c00d3e41d3d7e9f00a05fd8602"
+        }
+      ]
+    },
+    {
+      "slug": "sbc_app_07",
+      "title": "Integration Testing and Testcontainers",
+      "files": [
+        {
+          "path": "commerce/src/test/java/hub/commerce/CommerceTest.java",
+          "sha256": "78434dc716cdb9970827f61365db92f6c802090e2ec11ffe8cc07f4a1ba604f3"
+        },
+        {
+          "path": "commerce/src/test/java/hub/commerce/PostgresIT.java",
+          "sha256": "f895c8b9028d6003d974d28d4b05c1ddf3d34ac836fdd319eaf7986d16616817"
+        }
+      ]
+    },
+    {
+      "slug": "sbc_app_08",
+      "title": "Calling External APIs",
+      "files": [
+        {
+          "path": "commerce/src/main/java/hub/commerce/PaymentClient.java",
+          "sha256": "3c02cb38ba0da154d61d8d96641280e6887235d41e84586e43d750a5fde70ec7"
+        }
+      ]
+    },
+    {
+      "slug": "sbc_app_09",
+      "title": "Circuit Breakers and Rate Limits",
+      "files": [
+        {
+          "path": "commerce/src/main/java/hub/commerce/ShippingClient.java",
+          "sha256": "8173c94080a3c952cfa330ba3671eb728b4cfcd144383e0131e2ac1e48ddd45d"
+        },
+        {
+          "path": "commerce/src/main/java/hub/commerce/ShippingController.java",
+          "sha256": "c64a81b219e4e4759318f1463f4e2636946c6e0c057eb9e75ebc10f3d92cebbe"
+        }
+      ]
+    },
+    {
+      "slug": "sbc_app_10",
+      "title": "Refresh Tokens and Account Recovery",
+      "files": [
+        {
+          "path": "commerce/src/main/java/hub/commerce/AuthController.java",
+          "sha256": "9f146dc52316127e0f03509f450ef775e7e0475bc15bf00cdf38d5335099a96f"
+        },
+        {
+          "path": "commerce/src/main/java/hub/commerce/MailService.java",
+          "sha256": "c28b9468dc6f514736d8aca99ae6f58afae20dab86e47b66a80729d6a8aa0e19"
+        },
+        {
+          "path": "commerce/src/main/java/hub/commerce/AuthService.java",
+          "sha256": "56563495894d5076da0b093db5c21a30825b3dba1c7610c89435f21f6bc8adae"
+        },
+        {
+          "path": "commerce/src/main/java/hub/commerce/Security.java",
+          "sha256": "c3a7f637f1b8c5518a4c7951a4e71337fad1c787a9aa6cbea14e4e2508b4b4d1"
+        }
+      ]
+    },
+    {
+      "slug": "sbc_app_11",
+      "title": "File Uploads and Downloads",
+      "files": [
+        {
+          "path": "commerce/src/main/java/hub/commerce/Files.java",
+          "sha256": "c177e3719e2dae71b6fd8130747d978d95ec2703d663b09d96a5e83b13c16d0f"
+        }
+      ]
+    },
+    {
+      "slug": "sbc_app_12",
+      "title": "Email Templates and Async Delivery",
+      "files": [
+        {
+          "path": "commerce/src/main/java/hub/commerce/MailService.java",
+          "sha256": "c28b9468dc6f514736d8aca99ae6f58afae20dab86e47b66a80729d6a8aa0e19"
+        },
+        {
+          "path": "compose.yaml",
+          "sha256": "6274a84a93c5c2b0d2d4bfffb8b65f22302a440fd30a98b7c05cf6e8b2610462"
+        },
+        {
+          "path": "commerce/src/main/java/hub/commerce/ReceiptService.java",
+          "sha256": "78571d9f789906a85162b00c85e5e8052b1595cb42231fa302764560faac3baf"
+        }
+      ]
+    },
+    {
+      "slug": "sbc_app_13",
+      "title": "Stripe Payment Integration",
+      "files": [
+        {
+          "path": "commerce/src/main/java/hub/commerce/PaymentClient.java",
+          "sha256": "3c02cb38ba0da154d61d8d96641280e6887235d41e84586e43d750a5fde70ec7"
+        },
+        {
+          "path": "commerce/src/main/java/hub/commerce/PaymentService.java",
+          "sha256": "e04c49e4ee23b1a588b81f8b8cd5d290f9a09aeb0d66b93760e297e8e909122b"
+        },
+        {
+          "path": "commerce/src/main/java/hub/commerce/Payments.java",
+          "sha256": "abdf4d38f82afbbc99a4f454247be18919c9f8b0a985681c8870084c72ecd531"
+        }
+      ]
+    },
+    {
+      "slug": "sbc_app_14",
+      "title": "RabbitMQ Messaging",
+      "files": [
+        {
+          "path": "commerce/src/main/java/hub/commerce/OrderMessages.java",
+          "sha256": "28d8da2a5b5b76629d2480e18855fbc0d7b24ac26e506c08216518f689929964"
+        },
+        {
+          "path": "commerce/src/main/resources/application-broker.properties",
+          "sha256": "d2286769a0ffe54246aedcab25c3e318c4a0e199969d8ca241cf352001157127"
+        }
+      ]
+    },
+    {
+      "slug": "sbc_app_15",
+      "title": "Metrics, Logs and Traces",
+      "files": [
+        {
+          "path": "commerce/src/main/java/hub/commerce/OrderService.java",
+          "sha256": "8686ae57b9a53b40f80b1d361fc0d8d87829c5c00d3e41d3d7e9f00a05fd8602"
+        },
+        {
+          "path": "commerce/src/main/resources/application.properties",
+          "sha256": "85d8dc80a44f69f9dcec50b68c16676e29cf59bae2fcf8ad272c71ca770da513"
+        },
+        {
+          "path": "commerce/pom.xml",
+          "sha256": "4f30b21b00fd647531f6c0e9746faacc4b026f8756c2518e2b07f715323a637c"
+        }
+      ]
+    },
+    {
+      "slug": "sbc_app_16",
+      "title": "CI/CD and Deployment",
+      "files": [
+        {
+          "path": "ci.yml",
+          "sha256": "291d6c4e269450f73f5f9e1c25ffc9c2504345b4699c84017326d664c497b07a"
+        },
+        {
+          "path": "commerce/Dockerfile",
+          "sha256": "cd1d5b2fc1bf9e054bae058771c86c7cd9c10390a26c613c818ec6198016fb87"
+        }
+      ]
+    },
+    {
+      "slug": "sbc_app_17",
+      "title": "Complete Order Application",
+      "files": [
+        {
+          "path": "commerce/src/test/java/hub/commerce/CommerceTest.java",
+          "sha256": "78434dc716cdb9970827f61365db92f6c802090e2ec11ffe8cc07f4a1ba604f3"
+        }
+      ]
+    },
+    {
+      "slug": "sbc_dist_01",
+      "title": "Distributed Workflow Basics",
+      "files": [
+        {
+          "path": "workflow/src/main/resources/application.properties",
+          "sha256": "f1ba230c220d61693761ac91a696934da2aadbe44529b3805fe2709df762d899"
+        },
+        {
+          "path": "workflow/src/main/java/hub/workflow/NodeSecurity.java",
+          "sha256": "0373380a81b0a08bff29a3473d9e19c46ed5e900c4b215eebc00cb4071f70ba7"
+        }
+      ]
+    },
+    {
+      "slug": "sbc_dist_02",
+      "title": "HTTP Calls versus Messages",
+      "files": [
+        {
+          "path": "workflow/src/main/java/hub/workflow/Orchestrator.java",
+          "sha256": "c5d20cc556da6f699b143e1f2b45978889b476c5ec0b19626ea641d4153c6b11"
+        },
+        {
+          "path": "workflow/src/main/java/hub/workflow/BrokerFlow.java",
+          "sha256": "fae5da9307d849f60fc75628106b3cbcba61d80e905b7d632bf923b1bf68f340"
+        }
+      ]
+    },
+    {
+      "slug": "sbc_dist_03",
+      "title": "Order and Payment State Machines",
+      "files": [
+        {
+          "path": "workflow/src/main/java/hub/workflow/Participant.java",
+          "sha256": "3dd834d8eb2a93dac072f861e80ccda0e8063559d743241e23b5e82caad9450b"
+        },
+        {
+          "path": "workflow/src/main/java/hub/workflow/WorkflowStore.java",
+          "sha256": "da9701bcfd9eaca0795f5a5e388753fbde509cb8ff4f2db1a1ccf7b052f42466"
+        }
+      ]
+    },
+    {
+      "slug": "sbc_dist_04",
+      "title": "Reliable Message Delivery",
+      "files": [
+        {
+          "path": "workflow/src/main/java/hub/workflow/BrokerFlow.java",
+          "sha256": "fae5da9307d849f60fc75628106b3cbcba61d80e905b7d632bf923b1bf68f340"
+        }
+      ]
+    },
+    {
+      "slug": "sbc_dist_05",
+      "title": "Idempotent Business Operations",
+      "files": [
+        {
+          "path": "workflow/src/main/java/hub/workflow/Participant.java",
+          "sha256": "3dd834d8eb2a93dac072f861e80ccda0e8063559d743241e23b5e82caad9450b"
+        },
+        {
+          "path": "workflow/src/test/java/hub/workflow/WorkflowTest.java",
+          "sha256": "ea5baa37c99bc1feec1636239e34591f87ea6c7003e442bafcbf8d866d4bfba3"
+        }
+      ]
+    },
+    {
+      "slug": "sbc_dist_06",
+      "title": "Transactional Outbox",
+      "files": [
+        {
+          "path": "workflow/src/main/java/hub/workflow/WorkflowStore.java",
+          "sha256": "da9701bcfd9eaca0795f5a5e388753fbde509cb8ff4f2db1a1ccf7b052f42466"
+        },
+        {
+          "path": "workflow/src/main/resources/schema.sql",
+          "sha256": "1854a1047c1ef118d9fe242d75ed4d7827720f02b396d7eaa9611fc59a8e7eec"
+        },
+        {
+          "path": "workflow/src/main/java/hub/workflow/BrokerFlow.java",
+          "sha256": "fae5da9307d849f60fc75628106b3cbcba61d80e905b7d632bf923b1bf68f340"
+        }
+      ]
+    },
+    {
+      "slug": "sbc_dist_07",
+      "title": "Inbox and Idempotent Consumers",
+      "files": [
+        {
+          "path": "workflow/src/main/resources/schema.sql",
+          "sha256": "1854a1047c1ef118d9fe242d75ed4d7827720f02b396d7eaa9611fc59a8e7eec"
+        },
+        {
+          "path": "workflow/src/main/java/hub/workflow/BrokerFlow.java",
+          "sha256": "fae5da9307d849f60fc75628106b3cbcba61d80e905b7d632bf923b1bf68f340"
+        }
+      ]
+    },
+    {
+      "slug": "sbc_dist_08",
+      "title": "Saga Fundamentals",
+      "files": [
+        {
+          "path": "workflow/src/main/java/hub/workflow/Orchestrator.java",
+          "sha256": "c5d20cc556da6f699b143e1f2b45978889b476c5ec0b19626ea641d4153c6b11"
+        }
+      ]
+    },
+    {
+      "slug": "sbc_dist_09",
+      "title": "Choreography-Based Saga",
+      "files": [
+        {
+          "path": "workflow/src/main/java/hub/workflow/BrokerFlow.java",
+          "sha256": "fae5da9307d849f60fc75628106b3cbcba61d80e905b7d632bf923b1bf68f340"
+        }
+      ]
+    },
+    {
+      "slug": "sbc_dist_10",
+      "title": "Orchestration-Based Saga",
+      "files": [
+        {
+          "path": "workflow/src/main/java/hub/workflow/Orchestrator.java",
+          "sha256": "c5d20cc556da6f699b143e1f2b45978889b476c5ec0b19626ea641d4153c6b11"
+        }
+      ]
+    },
+    {
+      "slug": "sbc_dist_11",
+      "title": "Compensation and Refunds",
+      "files": [
+        {
+          "path": "workflow/src/main/java/hub/workflow/Orchestrator.java",
+          "sha256": "c5d20cc556da6f699b143e1f2b45978889b476c5ec0b19626ea641d4153c6b11"
+        }
+      ]
+    },
+    {
+      "slug": "sbc_dist_12",
+      "title": "Timeouts and Unknown Outcomes",
+      "files": [
+        {
+          "path": "workflow/src/main/java/hub/workflow/Orchestrator.java",
+          "sha256": "c5d20cc556da6f699b143e1f2b45978889b476c5ec0b19626ea641d4153c6b11"
+        }
+      ]
+    },
+    {
+      "slug": "sbc_dist_13",
+      "title": "Retries, Dead Letters and Recovery",
+      "files": [
+        {
+          "path": "workflow/src/main/java/hub/workflow/Orchestrator.java",
+          "sha256": "c5d20cc556da6f699b143e1f2b45978889b476c5ec0b19626ea641d4153c6b11"
+        },
+        {
+          "path": "workflow/src/main/resources/application.properties",
+          "sha256": "f1ba230c220d61693761ac91a696934da2aadbe44529b3805fe2709df762d899"
+        },
+        {
+          "path": "workflow/src/main/java/hub/workflow/BrokerFlow.java",
+          "sha256": "fae5da9307d849f60fc75628106b3cbcba61d80e905b7d632bf923b1bf68f340"
+        }
+      ]
+    },
+    {
+      "slug": "sbc_dist_14",
+      "title": "Durable Workflow State and Restarts",
+      "files": [
+        {
+          "path": "workflow/src/main/resources/schema.sql",
+          "sha256": "1854a1047c1ef118d9fe242d75ed4d7827720f02b396d7eaa9611fc59a8e7eec"
+        },
+        {
+          "path": "workflow/src/main/resources/application.properties",
+          "sha256": "f1ba230c220d61693761ac91a696934da2aadbe44529b3805fe2709df762d899"
+        }
+      ]
+    },
+    {
+      "slug": "sbc_dist_15",
+      "title": "Payment Webhooks and Reconciliation",
+      "files": [
+        {
+          "path": "commerce/src/main/java/hub/commerce/Payments.java",
+          "sha256": "abdf4d38f82afbbc99a4f454247be18919c9f8b0a985681c8870084c72ecd531"
+        },
+        {
+          "path": "commerce/src/main/java/hub/commerce/PaymentService.java",
+          "sha256": "e04c49e4ee23b1a588b81f8b8cd5d290f9a09aeb0d66b93760e297e8e909122b"
+        }
+      ]
+    },
+    {
+      "slug": "sbc_dist_16",
+      "title": "Concurrency, Ordering and Reservation Expiry",
+      "files": [
+        {
+          "path": "workflow/src/main/java/hub/workflow/Participant.java",
+          "sha256": "3dd834d8eb2a93dac072f861e80ccda0e8063559d743241e23b5e82caad9450b"
+        },
+        {
+          "path": "workflow/src/test/java/hub/workflow/WorkflowTest.java",
+          "sha256": "ea5baa37c99bc1feec1636239e34591f87ea6c7003e442bafcbf8d866d4bfba3"
+        }
+      ]
+    },
+    {
+      "slug": "sbc_dist_17",
+      "title": "Tracing a Distributed Workflow",
+      "files": [
+        {
+          "path": "workflow/src/main/java/hub/workflow/WorkflowController.java",
+          "sha256": "7f90bb3a20d6c32c193e26c27da2d1372fc89bc7f0adb7e444d1170761b9cef3"
+        },
+        {
+          "path": "workflow/src/main/java/hub/workflow/Orchestrator.java",
+          "sha256": "c5d20cc556da6f699b143e1f2b45978889b476c5ec0b19626ea641d4153c6b11"
+        },
+        {
+          "path": "workflow/src/main/java/hub/workflow/BrokerFlow.java",
+          "sha256": "fae5da9307d849f60fc75628106b3cbcba61d80e905b7d632bf923b1bf68f340"
+        }
+      ]
+    },
+    {
+      "slug": "sbc_dist_18",
+      "title": "Testing Distributed Failures",
+      "files": [
+        {
+          "path": "workflow/src/test/java/hub/workflow/WorkflowTest.java",
+          "sha256": "ea5baa37c99bc1feec1636239e34591f87ea6c7003e442bafcbf8d866d4bfba3"
+        },
+        {
+          "path": "commerce/src/test/java/hub/commerce/CommerceTest.java",
+          "sha256": "78434dc716cdb9970827f61365db92f6c802090e2ec11ffe8cc07f4a1ba604f3"
+        }
+      ]
+    },
+    {
+      "slug": "sbc_dist_19",
+      "title": "Durable Workflow Engines",
+      "files": [
+        {
+          "path": "temporal/src/main/java/hub/temporal/CheckoutWorkflow.java",
+          "sha256": "edc181b61d50c68bfa9fd323fd0b4e88d2791db6b359826ddd50650a393b456a"
+        },
+        {
+          "path": "temporal/src/main/java/hub/temporal/CheckoutActivities.java",
+          "sha256": "fc312e16d2835a1f2a3d1020f01220e1c5c820c31c7ac447e8e68355891e8efb"
+        },
+        {
+          "path": "temporal/src/main/java/hub/temporal/CheckoutWorkflowImpl.java",
+          "sha256": "a6d67c3b003969cc984f0a72dc09055472f46638bbda240c412a63dda1f85860"
+        },
+        {
+          "path": "temporal/src/main/java/hub/temporal/WorkerMain.java",
+          "sha256": "8230f0c9447bd9926a751d16dc8e9219551ab41c8a884179f3a433ab8fa04ac9"
+        }
+      ]
+    },
+    {
+      "slug": "sbc_dist_20",
+      "title": "Complete Distributed Checkout",
+      "files": [
+        {
+          "path": "workflow/src/main/java/hub/workflow/Orchestrator.java",
+          "sha256": "c5d20cc556da6f699b143e1f2b45978889b476c5ec0b19626ea641d4153c6b11"
+        },
+        {
+          "path": "workflow/src/main/java/hub/workflow/WorkflowStore.java",
+          "sha256": "da9701bcfd9eaca0795f5a5e388753fbde509cb8ff4f2db1a1ccf7b052f42466"
+        }
+      ]
+    }
+  ]
+}

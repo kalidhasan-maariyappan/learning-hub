@@ -1,0 +1,414 @@
+{
+  "recordedAt": "2026-11-13T12:31:58.309Z",
+  "java": "java 25.0.4.1 2026-08-18 LTS",
+  "modules": [
+    {
+      "number": 5,
+      "directory": "lesson-05",
+      "sourceHash": "cd1008d8aba4b485c7542f8551504cdfa8a880fd811d4c991eb5245a6dcae38a",
+      "status": "compiled-and-packaged",
+      "boot": "3.5.16"
+    },
+    {
+      "number": 6,
+      "directory": "lesson-06",
+      "sourceHash": "822b986be0e88c4925b8e7903f3fdab75de514ba6d5a29ede4623fd9b37f6970",
+      "status": "compiled-and-packaged",
+      "boot": "3.5.16"
+    },
+    {
+      "number": 7,
+      "directory": "lesson-07",
+      "sourceHash": "6fd755ba84b3835ba9a3572a6594207e2e113c023647cb493825cd1964249f40",
+      "status": "compiled-and-packaged",
+      "boot": "3.5.16"
+    },
+    {
+      "number": 8,
+      "directory": "lesson-08",
+      "sourceHash": "ddeeb15644bcd1d7aef2d3c8a57ec7119916f784a15e3a9c178d2d463e61e075",
+      "status": "compiled-and-packaged",
+      "boot": "3.5.16"
+    },
+    {
+      "number": 9,
+      "directory": "lesson-09",
+      "sourceHash": "253337bb23e929859bc0e8578f2aa2a8ce486cbbdaab7b19136d7991fffcfeef",
+      "status": "compiled-and-packaged",
+      "boot": "3.5.16"
+    },
+    {
+      "number": 10,
+      "directory": "lesson-10",
+      "sourceHash": "e1bc1b9b9a4b9a4479bfd00aaa9f890e785754fa6bbeddbb47a3ca03a8b24c08",
+      "status": "compiled-and-packaged",
+      "boot": "3.5.16"
+    },
+    {
+      "number": 11,
+      "directory": "lesson-11",
+      "sourceHash": "cb5499b8e00e5962229148bea8e42c02c2c9df8335be33a9b243d0909f0db3be",
+      "status": "compiled-and-packaged",
+      "boot": "3.5.16"
+    },
+    {
+      "number": 12,
+      "directory": "lesson-12",
+      "sourceHash": "5b4aac8767fd933fb405947da39829d02c74cc9c97cb963c09d0824de4ff7b33",
+      "status": "compiled-and-packaged",
+      "boot": "3.5.16"
+    },
+    {
+      "number": 51,
+      "directory": "lesson-51",
+      "sourceHash": "2cd3471bad7bfbe1bffec22e799aabf6bde46519ff58ce1adfa4a2a713c3d513",
+      "status": "compiled-and-packaged",
+      "boot": "3.5.16"
+    },
+    {
+      "number": 151,
+      "directory": "config-server",
+      "sourceHash": "72a647fd36d8316a5bf3fc012ef72b0322115932f745be7ceaa92ce5aec5e5e0",
+      "status": "compiled-and-packaged",
+      "boot": "3.5.16"
+    },
+    {
+      "number": 60,
+      "directory": "lesson-60",
+      "sourceHash": "dafe49719b898991e9012bea02bcb0d46ec7a20fcaeb5643dd3150254fd03c57",
+      "status": "compiled-and-packaged",
+      "boot": "3.5.16"
+    },
+    {
+      "number": 62,
+      "directory": "lesson-62",
+      "sourceHash": "2be2f25916f24d9f512fb6c51a8c87e3fc23572aca7e344e0c87d08e920713a5",
+      "status": "compiled-and-packaged",
+      "boot": "3.5.16"
+    },
+    {
+      "number": 63,
+      "directory": "lesson-63",
+      "sourceHash": "b18931cf4740545972257873400b6f3824ac69babee82c478a43d1d2b2bf511a",
+      "status": "compiled-and-packaged",
+      "boot": "4.1.1"
+    },
+    {
+      "number": 25,
+      "directory": "lesson-25",
+      "sourceHash": "2694c5f9717891b01738e9dfff1c5d2b16f1a9859a3b95b808b2ed25f5d123a5",
+      "status": "compiled-and-packaged",
+      "boot": "3.5.16"
+    },
+    {
+      "number": 27,
+      "directory": "lesson-27",
+      "sourceHash": "8152075965f377def3905080b9a1c8c8c12b8f26d69ae07d0f51142a0a1f0dab",
+      "status": "compiled-and-packaged",
+      "boot": "3.5.16"
+    },
+    {
+      "number": 28,
+      "directory": "lesson-28",
+      "sourceHash": "39881e45cb0a6816cdb1c8b2da9fb13ae278a3a777db3a3175324ec783642402",
+      "status": "compiled-and-packaged",
+      "boot": "3.5.16"
+    },
+    {
+      "number": 29,
+      "directory": "lesson-29",
+      "sourceHash": "4b27dbd624414ddc614746c594bb9a93bcdb746554e7867c49107f94d1f0f135",
+      "status": "compiled-and-packaged",
+      "boot": "3.5.16"
+    },
+    {
+      "number": 30,
+      "directory": "lesson-30",
+      "sourceHash": "feb166245c3940d2f583ddc3c64f7179995aab7441ac6e9b4a45b71a7684c796",
+      "status": "compiled-and-packaged",
+      "boot": "3.5.16"
+    },
+    {
+      "number": 2,
+      "directory": "lesson-02",
+      "sourceHash": "fc96aab6fbe8743e9126a8fb93cace01b0a3d40e18761c8bbb5a29a29c63abd7",
+      "status": "compiled-and-packaged",
+      "boot": "3.5.16"
+    },
+    {
+      "number": 3,
+      "directory": "lesson-03",
+      "sourceHash": "933762a4195564b6db57ad14c27fca4911dbd1a4cd8f833256312c0b0b330355",
+      "status": "compiled-and-packaged",
+      "boot": "3.5.16"
+    },
+    {
+      "number": 4,
+      "directory": "lesson-04",
+      "sourceHash": "5d471e165890ef944c74dd85f6fbc600f6e5a1e40196f079f6d56f3f971f1d08",
+      "status": "compiled-and-packaged",
+      "boot": "3.5.16"
+    },
+    {
+      "number": 48,
+      "directory": "lesson-48",
+      "sourceHash": "45c1f7bccfe0f4a3a565ad53c706d5137395658f6ab66ec74602cdb36f1a305f",
+      "status": "compiled-and-packaged",
+      "boot": "3.5.16"
+    },
+    {
+      "number": 50,
+      "directory": "lesson-50",
+      "sourceHash": "1201c5e5913b44532941c713d2a3b79e574537d7556bfd504e583d35234a33ac",
+      "status": "compiled-and-packaged",
+      "boot": "3.5.16"
+    },
+    {
+      "number": 52,
+      "directory": "lesson-52",
+      "sourceHash": "eef2d79e542bc8e579cd378fce6cf4a93ed9932d40c24215c71cf92504edc072",
+      "status": "compiled-and-packaged",
+      "boot": "3.5.16"
+    },
+    {
+      "number": 54,
+      "directory": "lesson-54",
+      "sourceHash": "e3552aa50275837d43442d20ffe1620d5db139c8ebac416b6681e346557ecde3",
+      "status": "compiled-and-packaged",
+      "boot": "3.5.16"
+    },
+    {
+      "number": 55,
+      "directory": "lesson-55",
+      "sourceHash": "f2e716171d35a355ecec29714b30da56fa989de6a044210612262c2ef2152be6",
+      "status": "compiled-and-packaged",
+      "boot": "3.5.16"
+    },
+    {
+      "number": 56,
+      "directory": "lesson-56",
+      "sourceHash": "9a949257d079e07401775cd4dcd63067b273b599f51575302192cc6e4137157c",
+      "status": "compiled-and-packaged",
+      "boot": "3.5.16"
+    },
+    {
+      "number": 58,
+      "directory": "lesson-58",
+      "sourceHash": "8ef263222779195d35fe12faf678d4ba9eed8b0e8d2dcee5d9d0a8757e0400f7",
+      "status": "compiled-and-packaged",
+      "boot": "3.5.16"
+    },
+    {
+      "number": 61,
+      "directory": "lesson-61",
+      "sourceHash": "9c4f63691655e5827ba3f3eb79599828e4f9e3b20a94f1d7a3aa087cda73d9bc",
+      "status": "compiled-and-packaged",
+      "boot": "3.5.16"
+    },
+    {
+      "number": 13,
+      "directory": "lesson-13",
+      "sourceHash": "08a45d9a99cae74b7c77365bc9edb59f0698b18914d7c8faaf0e58358af3ccdf",
+      "status": "compiled-and-packaged",
+      "boot": "3.5.16"
+    },
+    {
+      "number": 14,
+      "directory": "lesson-14",
+      "sourceHash": "7012c5dbbd9ef16e75e2d73a21381b16efc9e70aebdc63ad9cd6401db003b776",
+      "status": "compiled-and-packaged",
+      "boot": "3.5.16"
+    },
+    {
+      "number": 21,
+      "directory": "lesson-21",
+      "sourceHash": "ca7be2a3193c40a09aabc9bc73b4f5cecf5fb2245cd646916783241ce2b53a74",
+      "status": "compiled-and-packaged",
+      "boot": "3.5.16"
+    },
+    {
+      "number": 22,
+      "directory": "lesson-22",
+      "sourceHash": "4e3834c5c72b9befb8c6e3f051582a0092a271f996d917eb13931fe2dc8016dd",
+      "status": "compiled-and-packaged",
+      "boot": "3.5.16"
+    },
+    {
+      "number": 23,
+      "directory": "lesson-23",
+      "sourceHash": "7dc56cd11d60760635c6cbbe42e8c26aba187c11ba8316e24232476b5875601c",
+      "status": "compiled-and-packaged",
+      "boot": "3.5.16"
+    },
+    {
+      "number": 15,
+      "directory": "lesson-15",
+      "sourceHash": "1de02ee3a74d5dbb095bd41002bc3f58210836add1870ae0a332bfc3a58d4f40",
+      "status": "compiled-and-packaged",
+      "boot": "3.5.16"
+    },
+    {
+      "number": 16,
+      "directory": "lesson-16",
+      "sourceHash": "4745d6f8967d168dae6731a08e372309c67d3596edce4ccdaf49e0b6a3d29515",
+      "status": "compiled-and-packaged",
+      "boot": "3.5.16"
+    },
+    {
+      "number": 19,
+      "directory": "lesson-19",
+      "sourceHash": "8780621c9b8cfc6bb1294d8ee850ab87a8c6d32587d846b93241b2dd0b25cad4",
+      "status": "compiled-and-packaged",
+      "boot": "3.5.16"
+    },
+    {
+      "number": 17,
+      "directory": "lesson-17",
+      "sourceHash": "811f0a904c43a4cb29f7b4f60d3b5f18236d642c0763f93dec877e61f9e77b6b",
+      "status": "compiled-and-packaged",
+      "boot": "3.5.16"
+    },
+    {
+      "number": 18,
+      "directory": "lesson-18",
+      "sourceHash": "01de25b164c70d87ff95a645cbf1017ee947a57eb3de23b45957c4bf17975004",
+      "status": "compiled-and-packaged",
+      "boot": "3.5.16"
+    },
+    {
+      "number": 20,
+      "directory": "lesson-20",
+      "sourceHash": "5babf2d69c45f5839c75c105ed03f3d67f32cd7fbdac3ab692300d378156ad3f",
+      "status": "compiled-and-packaged",
+      "boot": "3.5.16"
+    },
+    {
+      "number": 37,
+      "directory": "lesson-37",
+      "sourceHash": "0de1b0dd339d4e5258174da758d1caf4df92167afefa21fc610557e55096a38a",
+      "status": "compiled-and-packaged",
+      "boot": "3.5.16"
+    },
+    {
+      "number": 38,
+      "directory": "lesson-38",
+      "sourceHash": "b0839b00337a85ee9e128e45a2d58e72c6a816153efb6218bd9367beff7890b6",
+      "status": "compiled-and-packaged",
+      "boot": "3.5.16"
+    },
+    {
+      "number": 40,
+      "directory": "lesson-40",
+      "sourceHash": "6401dd260cb52a78fea396bf3f25ed119ee57deebdfe098d890bddc35834d86c",
+      "status": "compiled-and-packaged",
+      "boot": "3.5.16"
+    },
+    {
+      "number": 41,
+      "directory": "lesson-41",
+      "sourceHash": "5bf06295281fb6fb01a273bcecbb0fc006dc9ed5f658aa6bf0be07c6d03e1eb8",
+      "status": "compiled-and-packaged",
+      "boot": "3.5.16"
+    },
+    {
+      "number": 42,
+      "directory": "lesson-42",
+      "sourceHash": "274276b6180aaaca65746a93b12fae7a935659bc1f2035037ddc4c40d2db13d2",
+      "status": "compiled-and-packaged",
+      "boot": "3.5.16"
+    },
+    {
+      "number": 43,
+      "directory": "lesson-43",
+      "sourceHash": "7e5ca21e0ee62046092bb414fa5cf3929469311faaf3c7b09882067401107d57",
+      "status": "compiled-and-packaged",
+      "boot": "3.5.16"
+    },
+    {
+      "number": 44,
+      "directory": "lesson-44",
+      "sourceHash": "5fb3b9fe20eb8735479b3c120f47ed4b4830c99409dcf239599d75aafa5ef43d",
+      "status": "compiled-and-packaged",
+      "boot": "3.5.16"
+    },
+    {
+      "number": 45,
+      "directory": "lesson-45",
+      "sourceHash": "21bca6e6f0c6552ea6182e428687b4cdc7e804dcfaa1b8c28bab62c95117483b",
+      "status": "compiled-and-packaged",
+      "boot": "3.5.16"
+    },
+    {
+      "number": 47,
+      "directory": "lesson-47",
+      "sourceHash": "a07fe28b23ba41dd518178b1275a62e540eadb20662220181fc80e4c0b21963e",
+      "status": "compiled-and-packaged",
+      "boot": "3.5.16"
+    },
+    {
+      "number": 31,
+      "directory": "lesson-31",
+      "sourceHash": "efc4d81a9c3d2adf5021ef2a09298e79c0624790ab2cf7ebcbe150c2ffaf0302",
+      "status": "compiled-and-packaged",
+      "boot": "3.5.16"
+    },
+    {
+      "number": 32,
+      "directory": "lesson-32",
+      "sourceHash": "40c924b3ea5572211b714501e715b6062f8429905a0f614f4993a52f471512a8",
+      "status": "compiled-and-packaged",
+      "boot": "3.5.16"
+    },
+    {
+      "number": 33,
+      "directory": "lesson-33",
+      "sourceHash": "7ce924641aa15800ea89a7ec0d17bd416e5ff05b3ed6ba0a7fbe954130a3b9f3",
+      "status": "compiled-and-packaged",
+      "boot": "3.5.16"
+    },
+    {
+      "number": 36,
+      "directory": "lesson-36",
+      "sourceHash": "add69c3b774fceeab3b3558428840994e6b61524fbe37622efe33484aca02e7c",
+      "status": "compiled-and-packaged",
+      "boot": "3.5.16"
+    },
+    {
+      "number": 34,
+      "directory": "lesson-34",
+      "sourceHash": "4e041f95240942a3e7a4548d9e3c701b39897870bac1068bae3101522f7935bc",
+      "status": "compiled-and-packaged",
+      "boot": "3.5.16"
+    },
+    {
+      "number": 35,
+      "directory": "lesson-35",
+      "sourceHash": "aeb3e5bd09b3e2c75bb382aaa5b2085e0f3607fc3c376423ff794cb7500bf701",
+      "status": "compiled-and-packaged",
+      "boot": "3.5.16"
+    }
+  ],
+  "tests": [
+    {
+      "lesson": 61,
+      "name": "com.codesnippet.course.lesson61.OrderServiceTest",
+      "tests": 1,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "lesson": 22,
+      "name": "com.codesnippet.course.lesson22.ProductServiceTest",
+      "tests": 1,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "lesson": 23,
+      "name": "com.codesnippet.course.lesson23.ProductServiceTest",
+      "tests": 4,
+      "failures": 0,
+      "errors": 0
+    }
+  ]
+}

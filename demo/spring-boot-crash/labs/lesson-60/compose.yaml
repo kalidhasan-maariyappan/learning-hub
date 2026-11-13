@@ -1,0 +1,31 @@
+services:
+  mysql:
+    image: mysql:8
+    environment:
+      MYSQL_ROOT_PASSWORD: local-demo
+      MYSQL_DATABASE: course
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql-data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-plocal-demo"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+  app:
+    build: .
+    ports:
+      - "8080:8080"
+    environment:
+      DB_HOST: mysql
+      DB_PASSWORD: local-demo
+      NAMES_FILE: /data/names.txt
+    volumes:
+      - names-data:/data
+    depends_on:
+      mysql:
+        condition: service_healthy
+volumes:
+  mysql-data:
+  names-data:

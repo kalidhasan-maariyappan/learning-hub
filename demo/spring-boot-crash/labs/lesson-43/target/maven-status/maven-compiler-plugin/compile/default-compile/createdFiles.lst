@@ -1,0 +1,14 @@
+com\codesnippet\course\lesson43\security\JwtService.class
+com\codesnippet\course\lesson43\security\SecurityConfig.class
+com\codesnippet\course\lesson43\controller\WeatherController.class
+com\codesnippet\course\lesson43\entity\Role.class
+com\codesnippet\course\lesson43\Application.class
+com\codesnippet\course\lesson43\config\DemoUsers.class
+com\codesnippet\course\lesson43\dto\LoginRequest.class
+com\codesnippet\course\lesson43\service\WeatherService.class
+com\codesnippet\course\lesson43\security\JwtRequestFilter.class
+com\codesnippet\course\lesson43\controller\LoginController.class
+com\codesnippet\course\lesson43\entity\Permission.class
+com\codesnippet\course\lesson43\repository\UserRepository.class
+com\codesnippet\course\lesson43\security\DatabaseUserDetailsService.class
+com\codesnippet\course\lesson43\entity\AppUser.class

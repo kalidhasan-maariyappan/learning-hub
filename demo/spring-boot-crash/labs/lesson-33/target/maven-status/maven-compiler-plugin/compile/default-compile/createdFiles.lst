@@ -1,0 +1,5 @@
+com\codesnippet\course\lesson33\Application.class
+com\codesnippet\course\lesson33\repository\WeatherRepository.class
+com\codesnippet\course\lesson33\service\WeatherService.class
+com\codesnippet\course\lesson33\entity\Weather.class
+com\codesnippet\course\lesson33\controller\WeatherController.class

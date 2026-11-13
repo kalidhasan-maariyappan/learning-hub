@@ -1,0 +1,6 @@
+com\codesnippet\course\lesson25\Application.class
+com\codesnippet\course\lesson25\repository\PersonRepository.class
+com\codesnippet\course\lesson25\batch\PersonProcessor.class
+com\codesnippet\course\lesson25\batch\BatchConfig.class
+com\codesnippet\course\lesson25\controller\JobController.class
+com\codesnippet\course\lesson25\entity\Person.class

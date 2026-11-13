@@ -1,0 +1,5 @@
+com\codesnippet\course\lesson60\repository\UserRepository.class
+com\codesnippet\course\lesson60\controller\NameController.class
+com\codesnippet\course\lesson60\entity\StoredUser.class
+com\codesnippet\course\lesson60\Application.class
+com\codesnippet\course\lesson60\controller\UserController.class

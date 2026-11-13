@@ -7,6 +7,7 @@
   // Each course has its own URL base, slug prefix, navigation and Previous/Next order.
   // The Java Tutorial is last because it is the fallback for every other slug.
   const COURSES = [
+    { base: '/spring-boot-crash-course', family: 'spring', home: 'sbc_home', prefix: 'sbc_', name: 'Spring Boot Crash Course', nav: 'bootCrashNav', order: 'bootCrashOrder', css: 'bootcrash-route', search: 'Spring Boot crash course lessons' },
     { base: '/english-learning', family: 'english', home: 'english_home', prefix: 'english_', name: 'English Learning', nav: 'englishNav', order: 'englishOrder', css: 'english-route', search: 'English lessons' },
     { base: '/major-gems', family: 'ruby', home: 'gems_home', prefix: 'gems_', name: 'Major Gems', nav: 'gemsNav', order: 'gemsOrder', css: 'gems-route', search: 'gem guides' },
     { base: '/coding-interview', family: 'interview', home: 'coding_home', prefix: 'coding_', name: 'Coding Interview', nav: 'codingNav', order: 'codingOrder', css: 'coding-route', search: 'coding problems' },

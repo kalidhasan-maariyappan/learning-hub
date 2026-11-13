@@ -1,0 +1,8 @@
+com\codesnippet\course\lesson56\model\Product$ProductBuilder.class
+com\codesnippet\course\lesson56\model\Product.class
+com\codesnippet\course\lesson56\repository\UserRepository.class
+com\codesnippet\course\lesson56\Application.class
+com\codesnippet\course\lesson56\model\ImmutableConfig.class
+com\codesnippet\course\lesson56\controller\UserController.class
+com\codesnippet\course\lesson56\service\UserService.class
+com\codesnippet\course\lesson56\model\UserDto.class

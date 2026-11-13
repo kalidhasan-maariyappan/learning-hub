@@ -1,0 +1,7 @@
+com\codesnippet\course\lesson31\config\WebConfig.class
+com\codesnippet\course\lesson31\Application.class
+com\codesnippet\course\lesson31\repository\WeatherRepository.class
+com\codesnippet\course\lesson31\service\WeatherService.class
+com\codesnippet\course\lesson31\entity\Weather.class
+com\codesnippet\course\lesson31\controller\WeatherController.class
+com\codesnippet\course\lesson31\interceptor\LoggingInterceptor.class

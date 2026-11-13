@@ -386,6 +386,7 @@ async function serveStatic(req, res, urlPath) {
   if (rel === '/spring' || rel.startsWith('/spring/')) rel = '/index.html';
   if (rel === '/spring-boot' || rel.startsWith('/spring-boot/')) rel = '/index.html';
   if (rel === '/spring-boot-path' || rel.startsWith('/spring-boot-path/')) rel = '/index.html';
+  if (rel === '/spring-boot-crash-course' || rel.startsWith('/spring-boot-crash-course/')) rel = '/index.html';
   if (rel === '/security' || rel.startsWith('/security/')) rel = '/index.html';
   if (rel === '/ruby' || rel.startsWith('/ruby/')) rel = '/index.html';
   if (rel === '/rails' || rel.startsWith('/rails/')) rel = '/index.html';

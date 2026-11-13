@@ -1,0 +1,21 @@
+{
+  "jdk": "java 25.0.4.1 2026-08-18 LTS",
+  "bootVersion": "3.5.16",
+  "requests": 2,
+  "status": "passed",
+  "assertions": [
+    "POST /order/1 returns 200",
+    "POST /order/2 returns 200",
+    "Order service publishes both IDs",
+    "Email listener receives both IDs",
+    "Logging listener receives both IDs"
+  ],
+  "output": [
+    "Order created for order ID 1",
+    "Sending email for order 1",
+    "Order placed for order ID 1",
+    "Order created for order ID 2",
+    "Sending email for order 2",
+    "Order placed for order ID 2"
+  ]
+}

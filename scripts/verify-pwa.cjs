@@ -23,10 +23,15 @@ const {chromium}=require(process.env.PLAYWRIGHT_MODULE || 'playwright');
  await context.setOffline(true);
  await page.goto(root+'english-learning/B2/reading');await page.locator('#en-topics-items').waitFor();
  await page.reload();await page.locator('#en-topics-items').waitFor();
+ await page.goto(root+'spring-boot-crash-course/sbc_63');await page.locator('.sbc-topic').first().waitFor();
+ assert.match(await page.locator('h1').innerText(),/AOP Dependencies in Spring Boot 4/);
+ assert.match(await page.locator('#main').innerText(),/spring-boot-starter-aspectj/);
+ await page.goto(root+'spring-boot-crash-course/sbc_48');await page.locator('.sbc-topic').first().waitFor();
+ assert.match(await page.locator('#main').innerText(),/Verified locally with Java 25/);
  await page.goto(root+'java/');await page.locator('#main').waitFor();
  const api=await page.evaluate(async()=>{const r=await fetch('../api/run',{method:'POST',body:'{}'});return {status:r.status,body:await r.json()};});assert.equal(api.status,503);assert.match(api.body.error,/offline/);
  await page.goto(root+'tryit.html?page=java_intro');assert.equal(await page.locator('#run-btn').count(),1);
  assert.deepEqual(errors,[]);
- console.log('PASS: manifest, scoped worker, full lesson cache, offline unseen routes/reload, editor shell, offline API response, no browser errors (GitHub Pages subpath).');
+ console.log('PASS: manifest, scoped worker, full lesson cache, offline unseen routes/reload including Spring Boot Crash Course, editor shell, offline API response, no browser errors (GitHub Pages subpath).');
  }finally{await browser.close();await new Promise(r=>server.close(r));}
 })().catch(e=>{console.error(e);process.exitCode=1;});

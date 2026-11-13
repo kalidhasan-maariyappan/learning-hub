@@ -1,0 +1,26 @@
+[
+  {
+    "lesson": 3,
+    "heading": "First, follow a simple string response",
+    "status": "compiled-and-executed",
+    "sourceHash": "7d1fb84b8dab7b83979d3c53f286c39e15c48bf55db04dca2c642745da03fef1"
+  },
+  {
+    "lesson": 8,
+    "heading": "InitializingBean and DisposableBean",
+    "status": "compiled-and-executed",
+    "sourceHash": "f4ffc605d148d2cc805cb28ea844edc76e5b2430afae4cb8393f6627f1f1fb0f"
+  },
+  {
+    "lesson": 9,
+    "heading": "Singleton is the default",
+    "status": "compiled-and-executed",
+    "sourceHash": "a1c6829fd952e4116c9b740a8564ca7ec46ead136231d08ea7dc829b217a6ec3"
+  },
+  {
+    "lesson": 21,
+    "heading": "Use Lombok @Slf4j as an alternative",
+    "status": "compiled-and-executed",
+    "sourceHash": "409fb87e5a6c238990af08c94e70c34275827696105a4af207a1e2807e0f139f"
+  }
+]

@@ -111,6 +111,12 @@ The course shows Java and XML examples that fit into a plain Spring Maven projec
 
 # Spring Boot learning area
 
+## Transcript-based Spring Boot Crash Course
+
+The separate `/spring-boot-crash-course/` route contains 63 instructor-style tutorials based on the numbered Markdown sources in `bootcamp-springboot/`. The lessons teach concepts directly with compact explanations, maps, file instructions, complete examples and code walkthroughs. They retain the original example domains and sequence, with source provenance in a collapsed disclosure.
+
+The practice collection contains 55 packaged Maven modules, six passing JUnit tests, runtime checks for 52 module states and four executed code alternatives. Redis, Google OAuth and Docker/MySQL need external setup and are identified on their pages. See [the course report](docs/SPRING-BOOT-CRASH-COURSE.md) for build commands, evidence and execution limits, and [the practice README](demo/spring-boot-crash/labs/README.md) to run an example. Rebuild the pages with `node scripts/build-spring-boot-crash-course.js`.
+
 The separate `/spring-boot/` route contains a Spring Boot course with 7 sections and 25 lessons: core and auto-configuration, configuration, REST APIs, Spring Data JPA, security, testing and production readiness. It teaches Spring Boot as a layer built on Spring Framework. The baseline is Spring Boot 4.1.2 and Java 17+.
 
 Every runnable example is a complete Boot application. Web examples start on a random loopback port, call themselves, print the result and stop.

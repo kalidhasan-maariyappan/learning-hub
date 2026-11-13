@@ -1,0 +1,4 @@
+com\codesnippet\course\lesson12\Application.class
+com\codesnippet\course\lesson12\MySQLConnection.class
+com\codesnippet\course\lesson12\DBConnection.class
+com\codesnippet\course\lesson12\NoSQLConnection.class

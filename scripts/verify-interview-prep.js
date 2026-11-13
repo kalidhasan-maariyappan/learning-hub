@@ -16,7 +16,7 @@ function loadShell(file, excludeEditor = false) {
   const html = fs.readFileSync(path.join(root, 'public', file), 'utf8');
   for (const match of html.matchAll(/<script src="\/([^"]+)"/g)) {
     if (excludeEditor && match[1] === 'js/tryit.js') continue;
-    vm.runInContext(fs.readFileSync(path.join(root, 'public', match[1]), 'utf8'), context, { filename: match[1] });
+    vm.runInContext(fs.readFileSync(path.join(root, 'public', match[1].split('?')[0]), 'utf8'), context, { filename: match[1] });
   }
   return context.window.JT;
 }

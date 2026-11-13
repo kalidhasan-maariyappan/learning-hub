@@ -1,0 +1,5 @@
+com\codesnippet\course\lesson21\controller\ProductController.class
+com\codesnippet\course\lesson21\repository\ProductRepository.class
+com\codesnippet\course\lesson21\Application.class
+com\codesnippet\course\lesson21\entity\Product.class
+com\codesnippet\course\lesson21\service\ProductService.class

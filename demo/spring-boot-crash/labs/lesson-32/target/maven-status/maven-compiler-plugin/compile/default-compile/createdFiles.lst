@@ -1,0 +1,5 @@
+com\codesnippet\course\lesson32\repository\WeatherRepository.class
+com\codesnippet\course\lesson32\Application.class
+com\codesnippet\course\lesson32\service\WeatherService.class
+com\codesnippet\course\lesson32\controller\WeatherController.class
+com\codesnippet\course\lesson32\entity\Weather.class

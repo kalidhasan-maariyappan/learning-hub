@@ -1,0 +1,6 @@
+com\codesnippet\course\lesson14\aspect\LoggingAspect.class
+com\codesnippet\course\lesson14\controller\ProductController.class
+com\codesnippet\course\lesson14\entity\Product.class
+com\codesnippet\course\lesson14\Application.class
+com\codesnippet\course\lesson14\service\ProductService.class
+com\codesnippet\course\lesson14\repository\ProductRepository.class

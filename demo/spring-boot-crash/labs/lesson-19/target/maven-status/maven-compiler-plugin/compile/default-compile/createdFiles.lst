@@ -1,0 +1,5 @@
+com\codesnippet\course\lesson19\Application.class
+com\codesnippet\course\lesson19\controller\BookController.class
+com\codesnippet\course\lesson19\service\BookService.class
+com\codesnippet\course\lesson19\repository\BookRepository.class
+com\codesnippet\course\lesson19\entity\Book.class

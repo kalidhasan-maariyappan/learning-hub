@@ -23,7 +23,7 @@ const context = {
 };
 vm.createContext(context);
 for (const match of shell.matchAll(/<script src="\/([^\"]+)"/g)) {
-  const file = path.join(root, 'public', match[1]);
+  const file = path.join(root, 'public', match[1].split('?')[0]);
   vm.runInContext(fs.readFileSync(file, 'utf8'), context, { filename: file });
 }
 const JT = context.window.JT;

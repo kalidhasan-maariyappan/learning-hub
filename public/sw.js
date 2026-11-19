@@ -41,7 +41,7 @@ self.addEventListener('fetch', event => {
   if (event.request.method !== 'GET') return;
   if (event.request.mode === 'navigate') {
     const editor = /^tryit(?:\.html)?\/?$/.test(route);
-    const lesson = /^(?:english-learning|java|java-core-advanced|spring|spring-boot|spring-boot-path|spring-boot-crash-course|security|ruby|rails|major-gems|coding-interview|rails-scenarios)(?:\/|$)/.test(route);
+    const lesson = /^(?:english-learning|java|java-core-advanced|spring|spring-boot|spring-boot-path|spring-boot-crash-course|security|ruby|rails|major-gems|coding-interview|rails-scenarios|llm-engineering)(?:\/|$)/.test(route);
     if (!editor && !lesson && route !== '' && route !== 'index.html') return;
     event.respondWith((async () => {
       try { return await fetch(event.request); }

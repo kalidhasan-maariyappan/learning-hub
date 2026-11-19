@@ -14,7 +14,7 @@ function transform(dir) {
     if (entry.isDirectory()) transform(file);
     else if (/\.(html|js|css)$/.test(file)) {
       let text = fs.readFileSync(file, 'utf8');
-      text = text.replace(/(["'])\/(?!\/)(?=(?:java(?:-core-advanced)?|spring(?:-boot(?:-path|-crash-course)?)?|security|ruby|rails|major-gems|coding-interview|rails-scenarios|english-learning|tryit|css|js|icons|manifest\.webmanifest)(?:[\/"'?]))/g, '$1' + base + '/');
+      text = text.replace(/(["'])\/(?!\/)(?=(?:java(?:-core-advanced)?|spring(?:-boot(?:-path|-crash-course)?)?|security|ruby|rails|major-gems|coding-interview|rails-scenarios|llm-engineering|english-learning|tryit|css|js|icons|manifest\.webmanifest)(?:[\/"'?]))/g, '$1' + base + '/');
       text = text.replaceAll(base + '/tryit?page=', base + '/tryit.html?page=');
       if (entry.name === 'core.js') {
         text = text.replace('let res;', "return { error: 'Code execution is available locally. Download this repository, run node server.js, and open http://127.0.0.1:8081/java/.' };\n    let res;");
@@ -46,8 +46,8 @@ for (const file of ['content/rails/practical_curriculum.js', 'nav.js', 'content/
   vm.runInContext(fs.readFileSync(path.join(out, 'js', file), 'utf8'), context);
 }
 const shell = fs.readFileSync(path.join(out, 'index.html'), 'utf8');
-const routes = ['java', 'java-core-advanced', 'spring', 'spring-boot', 'security', 'ruby', 'rails', 'major-gems', 'coding-interview', 'rails-scenarios', 'spring-boot-path', 'spring-boot-crash-course'];
-const routeForSlug = s => s.startsWith('sbc_') ? 'spring-boot-crash-course' : s.startsWith('sbp_') ? 'spring-boot-path' : s.startsWith('gems_') ? 'major-gems' : s.startsWith('coding_') ? 'coding-interview' : s.startsWith('scenario_') ? 'rails-scenarios' : s.startsWith('java_ca_') ? routes[1] : s.startsWith('springboot_') ? routes[3] : s.startsWith('spring_') ? routes[2] : s.startsWith('security_') ? routes[4] : s.startsWith('ruby_') ? routes[5] : s.startsWith('rails_') ? routes[6] : routes[0];
+const routes = ['java', 'java-core-advanced', 'spring', 'spring-boot', 'security', 'ruby', 'rails', 'major-gems', 'coding-interview', 'rails-scenarios', 'spring-boot-path', 'spring-boot-crash-course', 'llm-engineering'];
+const routeForSlug = s => s.startsWith('llm_') ? 'llm-engineering' : s.startsWith('sbc_') ? 'spring-boot-crash-course' : s.startsWith('sbp_') ? 'spring-boot-path' : s.startsWith('gems_') ? 'major-gems' : s.startsWith('coding_') ? 'coding-interview' : s.startsWith('scenario_') ? 'rails-scenarios' : s.startsWith('java_ca_') ? routes[1] : s.startsWith('springboot_') ? routes[3] : s.startsWith('spring_') ? routes[2] : s.startsWith('security_') ? routes[4] : s.startsWith('ruby_') ? routes[5] : s.startsWith('rails_') ? routes[6] : routes[0];
 let count = 0;
 function page(route) {
   const dir = path.join(out, route);

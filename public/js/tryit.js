@@ -18,6 +18,14 @@
     document.getElementById('stdin').placeholder = 'Text typed here is sent to $stdin (gets) when the program runs.';
     document.getElementById('console').innerHTML = '<span class="sys">Press Run to execute the code with the local Ruby.</span>';
   }
+  if (lang === 'python') {
+    document.getElementById('stdin').placeholder = 'Not used by most lessons.';
+    document.getElementById('console').innerHTML = '<span class="sys">Press Run to execute the code with your course Python environment.</span>';
+  }
+  if (lang === 'ollama') {
+    document.getElementById('stdin').placeholder = 'Not needed: put your message in quotes after the model name.';
+    document.getElementById('console').innerHTML = '<span class="sys">Press Run to send the command to your local Ollama.</span>';
+  }
   if (ex && ex.stdin) { document.getElementById('stdin').value = ex.stdin; document.querySelector('details.stdin').open = true; }
 
   const consoleEl = document.getElementById('console');
@@ -26,7 +34,7 @@
 
   async function run() {
     runBtn.disabled = true;
-    consoleEl.innerHTML = '<span class="sys">' + (lang === 'ruby' ? 'Running…' : 'Compiling and running…') + '</span>';
+    consoleEl.innerHTML = '<span class="sys">' + (lang === 'python' ? 'Running…' : lang === 'ollama' ? 'Waiting for the model…' : lang === 'ruby' ? 'Running…' : 'Compiling and running…') + '</span>';
     const r = await JT.runCode(lang, editor.value, document.getElementById('stdin').value);
     runBtn.disabled = false;
     JT.showResult(consoleEl, r);
@@ -56,5 +64,5 @@
   });
   window.addEventListener('resize', showSize);
   showSize();
-  if (ex) run();
+  if (ex && lang !== 'ollama' && lang !== 'python') run(); // model and API calls are slow, so they wait for Run // model calls are slow, so they wait for Run
 })();

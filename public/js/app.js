@@ -7,6 +7,7 @@
   // Each course has its own URL base, slug prefix, navigation and Previous/Next order.
   // The Java Tutorial is last because it is the fallback for every other slug.
   const COURSES = [
+    { base: '/llm-engineering', family: 'ai', home: 'llm_home', prefix: 'llm_', name: 'LLM Engineering', nav: 'llmNav', order: 'llmOrder', css: 'llm-route', search: 'LLM Engineering lessons' },
     { base: '/spring-boot-crash-course', family: 'spring', home: 'sbc_home', prefix: 'sbc_', name: 'Spring Boot Crash Course', nav: 'bootCrashNav', order: 'bootCrashOrder', css: 'bootcrash-route', search: 'Spring Boot crash course lessons' },
     { base: '/english-learning', family: 'english', home: 'english_home', prefix: 'english_', name: 'English Learning', nav: 'englishNav', order: 'englishOrder', css: 'english-route', search: 'English lessons' },
     { base: '/major-gems', family: 'ruby', home: 'gems_home', prefix: 'gems_', name: 'Major Gems', nav: 'gemsNav', order: 'gemsOrder', css: 'gems-route', search: 'gem guides' },
@@ -112,11 +113,13 @@
       code = dedent(code);
       const idx = collecting ? collecting.length : 0;
       // Ruby runs as written; Java snippets are wrapped in a Main class.
+      // Commands (lang: 'ollama') also run as written and are shown without Java colouring.
       const ruby = opts.lang === 'ruby';
-      if (collecting) collecting.push({ code, lang: ruby ? 'ruby' : 'java', run: ruby ? code : JT.runnable(code), offset: ruby ? 0 : JT.wrapOffset(code), stdin: opts.stdin || '', title: opts.title || '' });
+      const asIs = ruby || ['ollama', 'python', 'shell', 'bash'].includes(opts.lang);
+      if (collecting) collecting.push({ code, lang: opts.lang || 'java', run: asIs ? code : JT.runnable(code), offset: asIs ? 0 : JT.wrapOffset(code), stdin: opts.stdin || '', title: opts.title || '' });
       const slug = JT.currentSlug;
       return '<div class="example"><h3>' + (opts.title || 'Example') + '</h3>' + (opts.desc ? '<p>' + opts.desc + '</p>' : '') +
-        '<pre class="code">' + (ruby ? JT.highlightRuby(code) : JT.highlight(code)) + '</pre>' +
+        '<pre class="code">' + (ruby ? JT.highlightRuby(code) : opts.lang === 'python' ? JT.highlightPython(code) : asIs ? esc(code) : JT.highlight(code)) + '</pre>' +
         (opts.noRun ? '' : '<div class="run-bar"><a class="btn" target="_blank" href="' + JT.tryitUrl(slug, idx) + '">Try it Yourself »</a>' +
         '<button class="btn ghost" data-run-ex="' + idx + '">Run here</button><span class="run-status"></span></div><div class="ex-out" hidden></div>') + '</div>';
     },
@@ -342,7 +345,7 @@
       const ex = examples[Number(b.dataset.runEx)];
       const status = b.nextElementSibling;
       const outEl = b.closest('.example').querySelector('.ex-out');
-      b.disabled = true; status.textContent = 'Compiling and running…';
+      b.disabled = true; status.textContent = ex.lang === 'shell' ? 'Running…' : ex.lang === 'python' ? 'Running with your course Python environment — API calls can take a few seconds…' : ex.lang === 'ollama' ? 'Running on your local Ollama — a model can take a while…' : ex.lang === 'ruby' ? 'Running…' : 'Compiling and running…';
       const r = await JT.runCode(ex.lang, ex.run, ex.stdin);
       // The box shows the bare snippet, so shift line numbers back past the hidden wrapper.
       if (ex.offset && r.stderr) r.stderr = r.stderr.replace(/Main\.java:(\d+)/g, (m, n) => 'Main.java:' + (n - ex.offset));

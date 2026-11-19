@@ -68,15 +68,38 @@
     }
     return out + JT.esc(code.slice(last));
   };
-  JT.highlightFor = (lang) => lang === 'ruby' ? JT.highlightRuby : lang === 'java' || !lang ? JT.highlight : JT.esc;
+  // ---- Python highlighter ----
+  const PY_KEYWORDS = new Set(('and as assert async await break class continue def del elif else except finally for from global if import in is lambda None nonlocal not or pass raise return True False try while with yield').split(' '));
+  const PY_BUILTINS = new Set('print len range str int float list dict set tuple open input type isinstance enumerate zip map sorted sum min max abs round'.split(' '));
+  const PY_TOKEN = /(#[^\n]*)|([rRfFbB]{0,2}(?:"""[\s\S]*?(?:"""|$)|'''[\s\S]*?(?:'''|$)|"(?:\\.|[^"\\\n])*"?|'(?:\\.|[^'\\\n])*'?))|(\b\d[\d_]*(?:\.\d+)?\b)|(@[A-Za-z_][\w.]*)|([A-Za-z_]\w*)/g;
+  JT.highlightPython = function (code) {
+    let out = '', last = 0, m;
+    PY_TOKEN.lastIndex = 0;
+    while ((m = PY_TOKEN.exec(code))) {
+      out += JT.esc(code.slice(last, m.index));
+      const t = m[0];
+      if (m[1]) out += '<span class="t-com">' + JT.esc(t) + '</span>';
+      else if (m[2]) out += '<span class="t-str">' + JT.esc(t) + '</span>';
+      else if (m[3]) out += '<span class="t-num">' + JT.esc(t) + '</span>';
+      else if (m[4]) out += '<span class="t-ann">' + JT.esc(t) + '</span>';
+      else if (PY_KEYWORDS.has(t)) out += '<span class="t-kw">' + t + '</span>';
+      else if (/^[A-Z]/.test(t)) out += '<span class="t-type">' + t + '</span>';
+      else if (code[PY_TOKEN.lastIndex] === '(' || PY_BUILTINS.has(t) && code[PY_TOKEN.lastIndex] === '(') out += '<span class="t-fn">' + t + '</span>';
+      else out += JT.esc(t);
+      last = PY_TOKEN.lastIndex;
+    }
+    return out + JT.esc(code.slice(last));
+  };
+  JT.highlightFor = (lang) => lang === 'ruby' ? JT.highlightRuby : lang === 'python' ? JT.highlightPython : lang === 'java' || !lang ? JT.highlight : JT.esc;
 
   // ---- Editor: transparent textarea over a highlighted <pre> ----
   JT.createEditor = function (host, code, { onRun, minHeight, lang } = {}) {
     const paint = JT.highlightFor(lang);
     const ruby = lang === 'ruby';
     const unit = ruby ? '  ' : '    ';
+    const label = lang === 'python' ? 'Python' : lang === 'ollama' ? 'Command' : ruby ? 'Ruby' : 'Java';
     host.classList.add('editor');
-    host.innerHTML = '<pre aria-hidden="true"></pre><textarea spellcheck="false" autocapitalize="off" autocomplete="off" aria-label="' + (ruby ? 'Ruby' : 'Java') + ' code editor"></textarea>';
+    host.innerHTML = '<pre aria-hidden="true"></pre><textarea spellcheck="false" autocapitalize="off" autocomplete="off" aria-label="' + label + ' code editor"></textarea>';
     const pre = host.querySelector('pre');
     const ta = host.querySelector('textarea');
     if (minHeight) host.style.minHeight = minHeight;
@@ -157,7 +180,38 @@
     if (!res.ok) return { error: data.error || 'HTTP ' + res.status };
     return data;
   };
-  JT.runCode = (lang, code, stdin) => lang === 'ruby' ? JT.runRuby(code, stdin) : JT.runJava(code, stdin);
+  JT.runOllama = async function (code, stdin) {
+    let res;
+    try {
+      res = await fetch('/api/ollama/run', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ code, stdin: stdin || '' }) });
+    } catch (err) {
+      return { error: 'Cannot reach the local runner. Start it with "node server.js" and open the site from http://127.0.0.1:8081/.' };
+    }
+    let data;
+    try { data = await res.json(); } catch { return { error: 'Runner returned an invalid response (HTTP ' + res.status + ').' }; }
+    if (!res.ok) return { error: data.error || 'HTTP ' + res.status };
+    return data;
+  };
+  JT.runPython = async function (code, stdin) {
+    let res;
+    try {
+      res = await fetch('/api/python/run', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ code, stdin: stdin || '' }) });
+    } catch (err) {
+      return { error: 'Cannot reach the local runner. Start it with "node server.js" and open the site from http://127.0.0.1:8081/.' };
+    }
+    let data;
+    try { data = await res.json(); } catch { return { error: 'Runner returned an invalid response (HTTP ' + res.status + ').' }; }
+    if (!res.ok) return { error: data.error || 'HTTP ' + res.status };
+    return data;
+  };
+  JT.runShell = async function (code, stdin) {
+    try {
+      const res = await fetch('/api/shell/run', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ code, stdin: stdin || '' }) });
+      const data = await res.json();
+      return res.ok ? data : { error: data.error || 'HTTP ' + res.status };
+    } catch (err) { return { error: 'Cannot reach the local runner. Start it with "node server.js" and open the site from http://127.0.0.1:8081/.' }; }
+  };
+  JT.runCode = (lang, code, stdin) => lang === 'shell' ? JT.runShell(code, stdin) : lang === 'python' ? JT.runPython(code, stdin) : lang === 'ollama' ? JT.runOllama(code, stdin) : lang === 'ruby' ? JT.runRuby(code, stdin) : JT.runJava(code, stdin);
 
   // Render a runner result into a console element; returns the result for further checks.
   JT.showResult = function (consoleEl, r) {

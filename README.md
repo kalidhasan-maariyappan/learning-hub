@@ -145,6 +145,18 @@ The `/rails/` route follows the Guides Index of guides.rubyonrails.org for Rails
 
 Each interview page groups questions by topic and labels them Beginner, Intermediate or Advanced. Questions that appeared several times in the source notes are merged into one answer, with the other wordings listed under it. A filter box searches the questions on the page.
 
+# LLM Engineering learning area
+
+The `/llm-engineering/` route (top bar: **AI**) teaches the "AI Engineer Core Track: LLM Engineering" course from the transcripts in `ai/transcript/` and the code in `ai/llm_engineering/`, lesson by lesson in the original order. Week 1 (37 lessons) is written; later weeks are added the same way.
+
+Examples run on your computer:
+
+- `ollama ...` commands run through `/api/ollama/run` (only `--help`, `--version`, `list`, `ps`, `show <model>` and `run <model> "message"` with models you already downloaded).
+- Python examples run through `/api/python/run` with the course's Python environment (the `.venv` in `LLM_COURSE_HOME`, default `D:\learnings\udemy\llm_engineering`, else `ai/llm_engineering`) and the API keys from that folder's `.env`. `week1/scraper.py` is available as `from scraper import ...`.
+- `git --version`, `uv --version`, `python --version` and `node --version` run through `/api/shell/run`.
+
+Lessons use the OpenAI client against local Ollama (`llama3.2`), the course's documented free alternative, so no API key is needed. Cloud-only examples (OpenAI, Gemini) are shown but not run. Download the models the lessons use with `ollama pull llama3.2 gemma3:270m phi3 deepseek-r1:1.5b`.
+
 # Lesson format
 
 Spring, Spring Boot and Security lessons use the helpers in `public/js/lesson-kit.js`: `JT.kit.java` (plain Java example plus output), `JT.kit.spring` (Maven-lab program plus output), `JT.kit.show` (code that is displayed only) and `JT.kit.interview` (collapsible interview questions). Java Core Advanced lessons use `JT.kit.coreLesson`, which lays a lesson out like a W3Schools page: a short definition, the example with its output inside the example box, "How it works", a Remember box and a Common mistake box. Ruby and Rails pages use `JT.kit.pager` to register a page from its navigation title, `JT.kit.ruby` for runnable Ruby (optional `stdin`), `JT.kit.rails` for shown Rails code with a labelled result, and `JT.kit.remember`, `JT.kit.tip` and `JT.kit.warn` for the note boxes. Every runnable example records its expected output in `JT.lessonExamples`, so a script can run each example and compare the real output with the lesson.

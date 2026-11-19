@@ -151,6 +151,109 @@ async function executeRuby(code, stdin) {
   }
 }
 
+// LLM Engineering lessons: runs one `ollama` command with the local Ollama install.
+// Only a few non-interactive commands are allowed, and `run` only uses models that are
+// already downloaded, so a click never starts a multi-gigabyte download.
+const OLLAMA_TIMEOUT_MS = 180000;
+const stripAnsi = (s) => s.replace(/\x1b\[[0-9;?]*[A-Za-z]/g, '').replace(/[⠀-⣿]/g, '').replace(/\r\n?/g, '\n');
+function splitCommand(line) {
+  const parts = [];
+  const re = /"([^"]*)"|'([^']*)'|(\S+)/g;
+  let m;
+  while ((m = re.exec(line))) parts.push(m[1] ?? m[2] ?? m[3]);
+  return parts;
+}
+async function executeOllama(code, stdin) {
+  const lines = code.split('\n').map((l) => l.trim()).filter((l) => l && !l.startsWith('#'));
+  if (lines.length !== 1) return { error: 'Enter exactly one ollama command.' };
+  const args = splitCommand(lines[0]);
+  if (args.shift() !== 'ollama') return { error: 'Only ollama commands can run here.' };
+  const sub = args[0] || '';
+  const fail = (msg) => ({ phase: 'run', ok: false, stdout: '', stderr: msg, exitCode: 1, runMs: 0 });
+  if (!sub) return fail('Plain "ollama" opens an interactive menu, which cannot run in the browser. Type it in your own terminal, or run "ollama --help" here.');
+  if (sub === 'serve') return fail('"ollama serve" keeps running until you stop it, so run it in your own terminal.');
+  const simple = ['--help', '-h', 'help', '--version', '-v', 'list', 'ps'];
+  if (simple.includes(sub)) {
+    if (args.length > 1) return { error: 'This command takes no extra arguments here.' };
+  } else if (sub === 'show') {
+    const model = args[1] || '';
+    if (!/^[a-z0-9][a-z0-9._:\/-]*$/i.test(model) || args.length > 2) return { error: 'Usage: ollama show <model>' };
+  } else if (sub === 'run') {
+    const model = args[1] || '';
+    if (!/^[a-z0-9][a-z0-9._:\/-]*$/i.test(model)) return { error: 'Usage: ollama run <model> "your message"' };
+    if (args.length < 3 && !stdin.trim()) return fail('Add a message after the model name, for example: ollama run ' + model + ' "hi there". The interactive chat (>>>) only works in your own terminal.');
+    if (args.length > 3) return { error: 'Put your message in double quotes, for example: ollama run ' + model + ' "hi there"' };
+    const list = await run('ollama', ['list'], { timeout: 15000 });
+    if (list.code !== 0) return fail('Cannot reach Ollama. Start the Ollama app (or run "ollama serve" in a terminal) and try again.\n' + stripAnsi(list.stderr));
+    const names = stripAnsi(list.stdout).split('\n').slice(1).map((l) => l.split(/\s+/)[0]).filter(Boolean);
+    const want = model.includes(':') ? model : model + ':latest';
+    if (!names.includes(want)) return fail('The model "' + model + '" is not downloaded yet. Download it in your own terminal first:\n  ollama pull ' + model + '\nDownloaded models: ' + (names.join(', ') || 'none'));
+  } else {
+    return { error: 'Allowed here: ollama --help, ollama --version, ollama list, ollama ps, ollama show <model>, ollama run <model> "message".' };
+  }
+  const exec = await run('ollama', args, { input: stdin, timeout: OLLAMA_TIMEOUT_MS });
+  // On success stderr only holds the spinner animation, so it is dropped.
+  const stderr = exec.code === 0 ? '' : stripAnsi(exec.stderr).trim();
+  return { phase: 'run', lang: 'ollama', ok: exec.code === 0 && !exec.timedOut, stdout: stripAnsi(exec.stdout).replace(/\n{3,}/g, '\n\n').replace(/\s+$/, '\n'), stderr, exitCode: exec.code, timedOut: exec.timedOut, truncated: exec.truncated, ms: exec.ms, runMs: exec.ms };
+}
+
+// LLM Engineering lessons: Python code runs with the Python environment that was set up for the course
+// (its .venv) and with the API keys from that folder's .env. Keys are passed to the program as
+// environment variables; nothing else from the .env is read.
+// Set LLM_COURSE_HOME to the folder that holds .venv and .env if it is not found automatically.
+const LLM_REPO = path.join(__dirname, 'ai', 'llm_engineering');
+function findLlmHome() {
+  const exe = process.platform === 'win32' ? path.join('Scripts', 'python.exe') : path.join('bin', 'python');
+  const candidates = [process.env.LLM_COURSE_HOME, 'D:\\learnings\\udemy\\llm_engineering', LLM_REPO].filter(Boolean);
+  for (const home of candidates) {
+    const python = path.join(home, '.venv', exe);
+    if (fs.existsSync(python)) return { home, python };
+  }
+  return null;
+}
+const LLM = findLlmHome();
+function readDotEnv(home) {
+  const env = {};
+  try {
+    for (const line of fs.readFileSync(path.join(home, '.env'), 'utf8').split(/\r?\n/)) {
+      const m = /^\s*([A-Za-z_][A-Za-z0-9_]*)\s*=\s*(.*?)\s*$/.exec(line);
+      if (m && !line.trim().startsWith('#')) env[m[1]] = m[2].replace(/^(['"])(.*)\1$/, '$2');
+    }
+  } catch { /* no .env */ }
+  return env;
+}
+const PYTHON_TIMEOUT_MS = 300000;
+async function executePython(code, stdin) {
+  if (!LLM) return { error: 'The course Python environment was not found. Create it with "uv sync" in the course folder, or set LLM_COURSE_HOME to the folder that contains .venv, then restart JavaTrail.' };
+  const dir = await fsp.mkdtemp(path.join(os.tmpdir(), 'llmtrail-'));
+  try {
+    await fsp.writeFile(path.join(dir, 'main.py'), code, 'utf8');
+    await fsp.copyFile(path.join(__dirname, 'scripts', 'py_prelude.py'), path.join(dir, '_jt_prelude.py'));
+    // Helper modules the notebooks import (for example week1/scraper.py).
+    for (const [name, rel] of Object.entries({ 'scraper.py': path.join('week1', 'scraper.py') })) {
+      try { await fsp.copyFile(path.join(LLM_REPO, rel), path.join(dir, name)); } catch { /* repo copy missing */ }
+    }
+    const env = { ...process.env, ...readDotEnv(LLM.home), PYTHONIOENCODING: 'utf-8', PYTHONUTF8: '1', PYTHONUNBUFFERED: '1', MPLBACKEND: 'Agg' };
+    const exec = await run(LLM.python, ['_jt_prelude.py'], { cwd: dir, input: stdin, timeout: PYTHON_TIMEOUT_MS, env });
+    const clean = (s) => s.replace(/\r\n/g, '\n').replace(/main\.py/g, 'your code').replace(/[A-Za-z]:\\[^\n"']*?llmtrail-[^\\\n"']*\\/g, '');
+    return { phase: 'run', lang: 'python', ok: exec.code === 0 && !exec.timedOut, stdout: clean(exec.stdout), stderr: clean(exec.stderr), exitCode: exec.code, timedOut: exec.timedOut, truncated: exec.truncated, ms: exec.ms, runMs: exec.ms };
+  } finally {
+    fsp.rm(dir, { recursive: true, force: true }).catch(() => {});
+  }
+}
+
+// Setup-lesson commands: only these exact version checks can run.
+const SHELL_ALLOWED = { 'git --version': ['git', ['--version']], 'uv --version': ['uv', ['--version']], 'python --version': [null, ['--version']], 'node --version': ['node', ['--version']] };
+async function executeShell(code) {
+  const line = code.trim().split(/\s+/).join(' ');
+  const entry = SHELL_ALLOWED[line];
+  if (!entry) return { error: 'Only these commands can run here: ' + Object.keys(SHELL_ALLOWED).join(', ') + '.' };
+  const cmd = entry[0] || (LLM ? LLM.python : 'python');
+  const exec = await run(cmd, entry[1], { timeout: 15000 });
+  const fail = exec.code !== 0 && /ENOENT|not found|not recognized/i.test(exec.stderr);
+  return { phase: 'run', lang: 'shell', ok: exec.code === 0, stdout: exec.stdout.replace(/\r\n/g, '\n'), stderr: fail ? '"' + line.split(' ')[0] + '" was not found on this computer. Install it first (see the lesson).' : exec.stderr, exitCode: exec.code, timedOut: exec.timedOut, ms: exec.ms, runMs: exec.ms };
+}
+
 function findMaven() {
   const suffix = process.platform === 'win32' ? 'mvn.cmd' : 'mvn';
   const candidates = [];
@@ -390,7 +493,7 @@ async function serveStatic(req, res, urlPath) {
   if (rel === '/security' || rel.startsWith('/security/')) rel = '/index.html';
   if (rel === '/ruby' || rel.startsWith('/ruby/')) rel = '/index.html';
   if (rel === '/rails' || rel.startsWith('/rails/')) rel = '/index.html';
-  for (const area of ['major-gems', 'coding-interview', 'rails-scenarios']) {
+  for (const area of ['major-gems', 'coding-interview', 'rails-scenarios', 'llm-engineering']) {
     if (rel === '/' + area || rel.startsWith('/' + area + '/')) rel = '/index.html';
   }
   if (rel === '/tryit' || rel === '/tryit/') rel = '/tryit.html';
@@ -415,6 +518,18 @@ const server = http.createServer((req, res) => {
   if (url.pathname === '/api/ruby/run') {
     if (req.method !== 'POST') return sendJson(res, 405, { error: 'Use POST.' });
     return handleRun(req, res, executeRuby);
+  }
+  if (url.pathname === '/api/shell/run') {
+    if (req.method !== 'POST') return sendJson(res, 405, { error: 'Use POST.' });
+    return handleRun(req, res, executeShell);
+  }
+  if (url.pathname === '/api/python/run') {
+    if (req.method !== 'POST') return sendJson(res, 405, { error: 'Use POST.' });
+    return handleRun(req, res, executePython);
+  }
+  if (url.pathname === '/api/ollama/run') {
+    if (req.method !== 'POST') return sendJson(res, 405, { error: 'Use POST.' });
+    return handleRun(req, res, executeOllama);
   }
   if (url.pathname === '/api/spring/run') {
     if (req.method !== 'POST') return sendJson(res, 405, { error: 'Use POST.' });
